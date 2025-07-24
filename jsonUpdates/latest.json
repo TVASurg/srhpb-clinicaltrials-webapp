@@ -1,1 +1,156 @@
-
+[
+  {
+    "McCain Pancreas Trials (July 02-2025)": "Disease Setting",
+    "Unnamed: 1": "Trial Name /Details",
+    "Unnamed: 2": "Trial Intervention",
+    "Unnamed: 3": "Coordinator",
+    "Unnamed: 4": "Eligibility "
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": "Resectable",
+    "Unnamed: 1": "DORA (WOO)\n\nUpfront resectable\n\nCA19-9 < 300\n",
+    "Unnamed: 2": "Baseline EUS biopsy\n\nDurvalumab 1500 mg IV x 1 dose and oleclumab 3000 mg x 2 doses Q2W prior to resection]",
+    "Unnamed: 3": "Mary (Lan) Wei\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
+    "Unnamed: 4": "Inclusion: \nResectable PDAC by NCCN criteria \nCA 19-9 < 300\nLife expectancy ≥ 12 weeks\nExclusion: \n- Anticancer therapy within 21 days or palliative RT within 14 days prior to 1st dose\n- Other invasive malignancy within 5 years.\n- Prior receipt of any immune-mediated therapy\n\n- Other invasive malignancy within 5 years\n\n-  Prior history of myocardial infarction, transient ischemic attack, congestive heart failure ≥ Class 3 based on New York Heart Association Functional Classification or stroke within the past 3 months prior to the scheduled first dose of study treatment.\n\n- Positve for HIV"
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": null,
+    "Unnamed: 1": "GO44479/ROCHE (Vaccine Study)\n\nUpfront resectable\n\nRandomized study of autogene cevumeran + Atezolizumab + mFOLFIRINOX vs. mFOLFIRINOX alone\n\nCA19-9 < ~500\n",
+    "Unnamed: 2": "Tissue collected at surgery for adjuvant vaccine manufacture \n\nArm 1: autogene cevumeran+Atezo+mFOLFIRINOX  \n\nArm 2: mFOLFIRINOX ",
+    "Unnamed: 3": "Guillaume Cheung\nTel: 416-946-4501 ext. 4727",
+    "Unnamed: 4": "Inclusion: \nTNM Staging per AJCC: T1-T3, N0-N2, and M0 \nComplete resection (R0 or R1) of PDAC\nInterval of between 6 and 12 weeks since resection of PDAC\nExclusion: \nPrior adjuvant, neoadjuvant, or induction treatment for pancreatic cancer\nKnown complete dihydropyrimidine dehydrogenase (DPD) deficiency "
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": null,
+    "Unnamed: 1": "Prosper-PANC Cohort 1\n\nUpfront resectable\n\nIncludes DORA and GO44479 patients\n",
+    "Unnamed: 2": "Fresh tissue collection for WGTS + organoids \n\nSerial blood draws for ctDNA ",
+    "Unnamed: 3": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
+    "Unnamed: 4": "Inclusion: \nUpfront resectable: definition of resectability will be according to NCCN guidelines and the patient must be planned for a surgery first approach.\nLife expectancy of ≥ 6 months\nMust be suitable for systemic therapy\nExclusion: \nHistologies excluded: colloid, high grade neuroendocrine\nPatients receiving neoadjuvant chemotherapy (neoadjuvant immunotherapy is permitted)"
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": "Locally Advanced Unresectable",
+    "Unnamed: 1": "ABLATE (radiation)\n\nLocally advanced unresectable on 1L chemo for at least 16 weeks with stable disease or partial response \n\nIdeally pre-chemo biopsy under HPB tissue banking, page CRC to consent to HPB tissue banking prior to chemo ",
+    "Unnamed: 2": "Pre-radiation biopsy optional \n\nAblative high dose RT: \n    50Gy/5Fx or \n    67.5Gy/15Fx or \n    75Gy/25Fx ",
+    "Unnamed: 3": "Dorian Facey: 437-779-7757\nRachel Ding: 437-990-4238",
+    "Unnamed: 4": "Inclusion: \nPancreatic tumour <8.0 cm in greatest axial dimension - final determination  will be based upon satisfying the radiation normal tissue constraints.\nLife expectancy > 6 months\nPrior 1L chemotherapy for at least 16 weeks without clinical or radiographic progression\nExclusion: \nMetastatic disease at the time of registration\nPrior RT to the upper abdomen region that would result in overlap of RT volume\nCurrently on anti-cancer treatment including chemotherapy."
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": null,
+    "Unnamed: 1": "NASC-009/NCI 10464\n\nLocally advanced unresectable on 1L chemo for at least 16 weeks without progression ",
+    "Unnamed: 2": "Cycle 1: Olaparib BID + Durvalumab C1D1 \n\nCycle 2: Olaparib + Durva + RT (39Gy in 15Fx starting C2D1) \n\nCycle 3 onwards: Olaparib + Durva q4w \n ",
+    "Unnamed: 3": "Nicole De Pinto\nTel: 416-946-4501 ext. 3132",
+    "Unnamed: 4": "Inclusion: \nhave had prior 1L chemotherapy for this cancer for at least 16 weeks without clinical, biochemical, or radiologic progression\nBody weight > 30 kg.\nLife expectancy >= 16 weeks.\nWilling to provide archived tissue, if available, from a previous biopsy\nExclusion:\nHad prior upper abdominal radiotherapy prior to entering the study.\nMajor surgical procedure within 28 days prior to enrollment.\nPatients who are receiving any other investigational agents.\nMust not have germline BRCA1 or BRCA2 mutation."
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": "Any Line Advanced",
+    "Unnamed: 1": "Prosper-PANC Cohort 2\n\nUnresectable, locally advanced and metastatic PDAC \n\nAt initial diagnosis or at progression – goal is to look for actionable mutations",
+    "Unnamed: 2": "Requires fresh tumor biopsy for WGTS + organoids \n\nSerial blood draws wk 2, 4, 8 and q8 for ctDNA ",
+    "Unnamed: 3": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
+    "Unnamed: 4": "Inclusion: \nAll stages are eligible including locally advanced unresectable, first-line metastatic, second-line (or beyond) metastatic\nSingle lesion is to be biopsied: a minimum of 4 to 6 x 18 Gauge (G) good quality tumour cores must be safely obtainable.\nExclusion:\nWithout a tumour lesion amenable to biopsy or with tumour lesions that are not safe for sampling a minimum of 4 to 6 x 18G good quality tumour cores\nPatients who are not fit enough to undergo a tumour biopsy "
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": "1L Metastatic",
+    "Unnamed: 1": "CLARITY-PanTumour01 - Claudin 18.2\n\ninvestigate the safety and tolerability of AZD0901 monotherapy in combination with anti-cancer agents in PDAC (1L) in participants with advanced or metastatic solid tumours expressing CLDN18.2 \n\n- Prior neoadjuvant/adjuvant chemotherapy is permitted as long as participants progressed ≥ 6 months (183 days) from the last dose",
+    "Unnamed: 2": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue \n\nArm1: AZD0901 in combination with 5FU/leucovorin and Irinotecan or nanoliposomal Irinotecan  \n\nArm2: AZD0901 combination with Gemcitabine ",
+    "Unnamed: 3": "Pre-screen:  \nDorian Facey: 437-779-7757 \nRachel Ding: 437-990-4238 \n\n\nScreen: guillaume.cheung@uhn.ca",
+    "Unnamed: 4": "Inclusion: \nCLDN18.2 positive\nat least one measurable lesion according to RECIST v1.1.\nLife expectancy of ≥ 12 weeks.\nExclusion:\nUnstable or active peptic ulcer disease or digestive tract bleeding including but not limited to clinically significant bleeding in the setting of prior CLDN18.2 directed therapy.\nClinically significant ascites that require drainage.\nHistory of another primary malignancy."
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": null,
+    "Unnamed: 1": "20230223 (AMG193) - MTAP Deletion\n\nA Phase 1b Study Evaluating the Safety,\nTolerability, Pharmacokinetics, and Efficacy of\nAMG 193 in Combination with mFOLFIRINOX or\nwith Gemcitabine and Nab-paclitaxel in Subjects with Locally Advanced or Metastatic Pancreatic Ductal Adenocarcinoma (PDAC) with Homozygous MTAP-deletion (Subprotocol B)\n\nPrior neoadjuvant/adjuvant therapy is allowed if completed\nat least 6 months prior to diagnosis of advanced and/or unresectable disease,\nand if subjects did not receive gemcitabine and/or nab-paclitaxel (arm 1) or\nany active agent of FOLFIRINOX (arm 2) in the neoadjuvant/adjuvant setting.",
+    "Unnamed: 2": "Pre-screen: needs archival or fresh tissue  \n\nAMG 193 alone or in combination with mFOLFIRINOX or with Gemcitabine and Nab-paclitaxel",
+    "Unnamed: 3": "Ochir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca \n\nMaggie Hildebrand : Maggie.Hildebrand@uhn.ca",
+    "Unnamed: 4": "Inclusion:\nECOG 0-1 \nTumor tissue (FFPE sample) or an archival block must be available. Participants without archived tumor tissue available may be allowed to enroll by undergoing tumor biopsy before dosing.\nHomozygous MTAP-deletion\nDisease measurable as defined by RECIST v1.1.\nExclusion:\nPrior systemic therapy for advanced or unresectable (locally advanced) adenocarcinoma of the pancreas.\nPrior treatment with a MAT2A inhibitor or a PRMT5 inhibitor.\nRadiation therapy within 28 days of first dose.\n"
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": null,
+    "Unnamed: 1": "PEGASUS (Glucose Monitoring)\n\nmPDAC patients starting 1L mFFX \n\nECOG 0-1 \n\nAdequate bone marrow and organ function \n\nRECIST measurable disease at BL \n\nNo prior diabetes diagnosis \n\nHbA1C < 6.5% ",
+    "Unnamed: 2": "Continuous glucose monitor (CGM) for first 2 months of mFFX \n\nArm 1: Intensive glucose intervention with endocrinologist directed glycemic management, with target glucose levels between 4-10 mmol/L \n\nArm 2: Standard of care glucose intervention with intervention only if glucose level >15 mmol/L (Blinded to CGM results) ",
+    "Unnamed: 3": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
+    "Unnamed: 4": "\nExclusion:\nAbsence of distant or lymph node metastases. Participants with borderline resectable or locally advanced PDAC are not eligible.\nReceived prior systemic therapy (chemotherapy or any other anti-cancer agent) for treatment of metastatic PDAC\nKnown diagnosis of type I diabetes where strict glucose control and close Endocrinology follow-up is already indicated.\nKnown diagnosis of type II diabetes and already followed by Endocrinologist."
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": "2L Metastatic+",
+    "Unnamed: 1": "OZM-114\n\n",
+    "Unnamed: 2": "Phase 1b Expansion Study of CX-5461 In Patients with Solid Tumors and BRCA2 and/or PALB2 mutation ",
+    "Unnamed: 3": "Nicole De Pinto\n416-946-4501 ext. 3132",
+    "Unnamed: 4": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. "
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": null,
+    "Unnamed: 1": "ADOPT\n\n\n",
+    "Unnamed: 2": "PDO-directed therapy",
+    "Unnamed: 3": "Mary (Lan) Wei\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
+    "Unnamed: 4": "Inclusion: \nAdvanced, inoperable PDAC\nStable disease or partial response to FOLFIRINOX after ≥4 months (Cohort B)\nDisease progression post-SOC (Cohort A)\nNo max prior treatment lines; recurrence within 6 months of adjuvant-intent chemo eligible\nMust have a Patient Derived Organoid (PDO) showing sensitivity to HC Marketed drug(s)\nExclusion:\nPatients concurrently receiving any other anti-cancer therapy\nPatients with ongoing toxicity ≥ CTCAE grade 2; ongoing\nperipheral neuropathy of ≥ CTCAE grade 3.\nPatients with a prior or concurrent malignancy whose natural\nhistory or treatment has the potential to interfere with the\nsafety or efficacy assessment of the investigational regimen."
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": null,
+    "Unnamed: 1": "BOLD-100-001\n\n \n\n",
+    "Unnamed: 2": "Arm VII: dose expansion - randomized 1:1:1 open label to 500 mg/m2 or 625 mg/m2 BOLD-100 in combination with FOLFOX or FOLFOX alone \n\nBOLD-100: IV ruthenium-based small molecule decreasing GRP78 in tumor cells",
+    "Unnamed: 3": "Nicole De Pinto\n416-946-4501 ext. 3132",
+    "Unnamed: 4": "Inclusion: \nHistologically and/or cytologically confirmed gastrointestinal tumours that are metastatic or unresectable, and have measurable disease according to RECIST v1.1 (at least one measurable lesion)\nARM VII --> subjects must have received only 1 prior line of therapy but remain naive to oxaliplatin prior to enrollment\nExclusion: \nMSH-H tumours; concurrent monoclonal antibody therapy: anti-EGFR or anti-VEGF "
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": null,
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": "Non-Therapeutic",
+    "Unnamed: 1": "NUANCE\n\nOptimizing Nutrition in patients with PDAC on chemo ",
+    "Unnamed: 2": "Weekly / monthly calls with Dietician, Clinical Nurse Specialist and Social Worker \n\nQOL questionnaires at BL, 2 months and 6 months ",
+    "Unnamed: 3": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
+    "Unnamed: 4": null
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": null,
+    "Unnamed: 1": "OPCS Registry\n\nAll PDAC patients\nOntario Pancreas Cancer Study: Identifying genetic, environmental, and lifestyle causes of PDAC",
+    "Unnamed: 2": "Questionnaire + one-time blood draw",
+    "Unnamed: 3": "Dorian Facey: 437-779-7757\nRachel Ding: 437-990-4238",
+    "Unnamed: 4": null
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": null,
+    "Unnamed: 1": "HPB Banking Protocol\n\nAll PDAC patients going to surgery who are not enrolled in Prosper-PANC \n\nAdvanced patients who are not eligible for Prosper-PANC but having a biopsy and investigator requests WGTS",
+    "Unnamed: 2": "Fresh tumor collection for WGTS ± organoids",
+    "Unnamed: 3": "Dorian Facey: 437-779-7757\nRachel Ding: 437-990-4238",
+    "Unnamed: 4": null
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": "Pre-Activation Pancreas Trials ",
+    "Unnamed: 1": null,
+    "Unnamed: 2": null,
+    "Unnamed: 3": null,
+    "Unnamed: 4": null
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": "Disease Setting",
+    "Unnamed: 1": "Trial Name / Eligibility / Details",
+    "Unnamed: 2": "Trial Intervention",
+    "Unnamed: 3": "Coordinator",
+    "Unnamed: 4": "Eligibility "
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": "2L+ Metastatic",
+    "Unnamed: 1": "Platinum-Can\n\n  COMPARING SECOND-LINE NABPLAGEM VS. NAB-PACLITAXEL/GEMCITABINE IN BRCA1/2 OR PALB2 MUTANT METASTATIC PANCREATIC DUCTAL ADENOCARCINOMA                                                                                                             ",
+    "Unnamed: 2": "Pre-Activation Pancreas Trials \nNABPLAGEM VS. NAB-PACLITAXEL/GEMCITABINE\n",
+    "Unnamed: 3": "TBD – SIV tentative Apr 23rd ",
+    "Unnamed: 4": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma,\nadenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nexclusion: \nNo prior Cisplatin"
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": "Any",
+    "Unnamed: 1": "WATCH-PC\n\nWearable Devices and Remote Toxicity Checks to Predict Health Outcomes in Pancreatic Cancer \n\nDiagnosis of epithelial pancreatic cancer, confirmed with biopsy or suspected based on review of imaging at the multi-disciplinary conference \n\nPlan for chemotherapy as part of treatment plan or ongoing treatment ",
+    "Unnamed: 2": "Weekly questionnaires\n\nFitBit Smartwatch",
+    "Unnamed: 3": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757\n\nSIV - June 02",
+    "Unnamed: 4": "Inclusion:\nDiagnosis of epithelial pancreatic cancer, confirmed with biopsy or suspected based on\nreview of imaging at the multi-disciplinary conference\nPlan for chemotherapy as part of treatment plan or ongoing treatment\nExclusion: \nLack of an email address\nInability to fluently speak and read English, given the questionnaires will only be\ndeveloped in English at first because of resource constraints\nInability or unwillingness to adhere to the study procedures, at the discretion of the\ninvestigator\nAdmitted as an inpatient at enrolment"
+  },
+  {
+    "McCain Pancreas Trials (July 02-2025)": "1L Metastatic",
+    "Unnamed: 1": "PRISM-1 \n\nA Randomized, Placebo-Controlled, Double-Blind, Multicenter Phase 3 Trial of Quemliclustat and Chemotherapy Versus Placebo and Chemotherapy in Patients with Treatment Naïve Metastatic Pancreatic Ductal Adenocarcinoma\n\n",
+    "Unnamed: 2": "Arm A (Experimental Arm)\nDoses and administration of quemliclustat, NP, and Gem will be administered using a 28-day cycle\n\nArm B (Comparator Arm)\nDoses and administration of placebo, NP, and Gem will be administered using a 28-day cycle",
+    "Unnamed: 3": "Ochir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca ",
+    "Unnamed: 4": "Inclusion:\nNo prior treatment for metastatic PDAC\nPrior neoadjuvant/adjuvant therapy allowed if >12 months ago\nPrior palliative radiation allowed if completed ≥2 weeks before randomization and AEs resolved to ≤ Grade 1\nBiliary stent/tube allowed if no active obstruction and AEs ≤ Grade 1\n≥1 measurable lesion by CT/MRI (RECIST v1.1)\nAdequate organ, marrow, and coagulation function\nExclusion:\nPreviously treated for locally advanced, unresectable PDAC.\nHistory of brain metastases or leptomeningeal metastases.\nPrior treatment with a CD73 antagonist or inhibitor."
+  }
+]
