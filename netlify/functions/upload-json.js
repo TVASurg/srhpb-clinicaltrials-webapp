@@ -3,12 +3,20 @@ export async function handler(event) {
     return { statusCode: 405, body: 'Method Not Allowed' };
   }
 
-  const data = JSON.parse(event.body);
+  try {
+    const data = JSON.parse(event.body);
 
-  await process.env.NETLIFY.blobs.set("xlsx_data", JSON.stringify(data));
+    // Do something with `data` here (e.g. logging)
+    console.log("✅ Received JSON:", data);
 
-  return {
-    statusCode: 200,
-    body: JSON.stringify({ message: 'Uploaded successfully' })
-  };
+    return {
+      statusCode: 200,
+      body: JSON.stringify({ message: 'Uploaded successfully', count: data.length })
+    };
+  } catch (err) {
+    return {
+      statusCode: 400,
+      body: JSON.stringify({ error: 'Invalid JSON', details: err.message })
+    };
+  }
 }
