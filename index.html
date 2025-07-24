@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>srhpb-trialswebapp-v01</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="description" content="" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7
+/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+  <link rel="icon" href="favicon.png">
+
+</head>
+
+<body>
+
+  <main class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="text-center p-4 mx-auto fs-5 fw-bold ">SRHPB clinical trials webapp</div> 
+      </div>
+      <div class="col-3 "> 
+        <ul class="list-unstyled ps-0 ">
+          <li class="fs-5 bg-hcc ps-2 rounded-top fw-semibold border-bottom py-2 mt-2 ps-2">Liver</li>
+          <li class="mb-3 bg-hcc ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#hcc-collapse">
+              HCC
+            </button>
+            <div class="collapse bg-hcc" id="hcc-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Peri-OR')">Peri-OR</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Pre-transplant')">Pre-transplant</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Any')">Any line</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, '1st')">1st line</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, '2nd')">2nd line</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Last line')">Last line</a></li>
+                <!--<li class="border-top p-3 m-3 ps-0 ms-0 mb-0 pb-0"><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'List all')">List all</a></li>-->
+              </ul>
+            </div>
+          </li>
+          <li class="fs-5 bg-pancreas ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2 text-gray-100">Pancreas</li>
+          <li class="bg-pancreas ps-2 "> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed text-gray-100 fw-semibold" data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false">
+              Current
+            </button>
+            <div class="collapse " id="mccain-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
+                <li><a href="#" class="text-gray-100 d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Resectable')">Resectable</a></li>
+                <li><a href="#" class="text-gray-100 d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Locally advanced unresectable')">Locally Advanced unresectable</a></li>
+                <li><a href="#" class="text-gray-100 d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Any line advanced')">Any Line Advanced</a></li>
+                <li><a href="#" class="text-gray-100 d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(pancreas_master, '1L metastatic')">1L Metastatic</a></li>
+                <li><a href="#" class="text-gray-100 d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(pancreas_master, '2L metastatic')">2L+ Metastatic</a></li>
+                <li><a href="#" class="text-gray-100 d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Non-therapeutic')">Non-Therapeutic</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="mb-3 rounded-bottom bg-pancreas ps-2"> <button class="text-gray-100 btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#pancPreactivate-collapse">
+              Pre-activation
+            </button>
+            <div class="collapse" id="pancPreactivate-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
+                <li><a href="#" class="text-gray-100 d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, '1L metastatic')">1L Metastatic</a></li>
+                <li><a href="#" class="text-gray-100 d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, '2L metastatic')">2L+ Metastatic</a></li>
+                <li><a href="#" class="text-gray-100 d-inline-flex text-decoration-none rounded" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, 'Any')">Any</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="fs-5 bg-btc ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2">Biliary</li>
+          <li class="mb-1 bg-btc rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#btc-collapse">
+              BTC
+            </button>
+            <div class="collapse" id="btc-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" onclick="">Adjuvant</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" onclick="">1st line</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" onclick="">2nd line</a></li>
+                <li><a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded" onclick="">3rd line</a></li>
+              </ul>
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+      <div class="col-9">
+        <div class="col">
+          <div href="" class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom"> <span class="fs-5 fw-semibold">Trial name</span> </div>
+          <div id="trialName" class="list-group list-group-flush border-bottom">
+
+          </div>
+        </div>
+        <div class="col">
+
+          <div href="" class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom"> <span class="fs-5 fw-semibold">Trial details</span> </div>
+          <div id="trialDetails" class="list-group list-group-flush border-bottom">
+          
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <p class="text-center mx-auto my-3"><span class="small">Last updated 08 July 2025</span></p>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7
+/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
