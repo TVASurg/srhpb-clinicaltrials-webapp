@@ -1,34 +1,21 @@
 //idea is the pull the master JSON file
-function initAllData(){
-  
-  
-fetch('/jsonUpdates/latest.json') // adjust path as needed
-  .then(res => res.json())
-  .then(data => {
-    // Loop through each sheet
-    for (const [sheetName, rows] of Object.entries(data)) {
-      //which sheet is accessed
-      //which array is being populated
-      if (sheetName == "BTC")
-        {
-         rows.forEach((row, i) => {
-         biliary_BTC_master[`names`].push.row[`Trial Name`];
-        // Access specific values if needed
-        // console.log(row["Header A"]);
-          });          
+function initAllData() {
+  fetch('/jsonUpdates/latest.json')
+    .then(res => res.json())
+    .then(data => {
+      // Loop through each sheet
+      for (const [sheetName, rows] of Object.entries(data)) {
+        if (sheetName === "BTC") {
+          rows.forEach((row, i) => {
+            // Make sure biliary_BTC_master is defined and has a names array
+            biliary_BTC_master["names"].push(row["Trial Name"]);
+          });
         }
-      //rows.forEach((row, i) => {
-        //console.log(`Row ${i + 1}:`, row);
-        
-        // Access specific values if needed
-        // console.log(row["Header A"]);
-      };
-    }
-  })
-  .catch(err => console.error('Error parsing JSON:', err));
-
-  console.log(biliary_BTC_master);
-};
+      }
+      console.log(biliary_BTC_master);
+    })
+    .catch(err => console.error('Error parsing JSON:', err));
+}
 
 //then populate these const arrays 
 //the other fun functions can proceed as usual
