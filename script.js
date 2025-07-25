@@ -22,7 +22,7 @@ fetch('/jsonUpdates/latest.json') // adjust path as needed
         
         // Access specific values if needed
         // console.log(row["Header A"]);
-      });
+      };
     }
   })
   .catch(err => console.error('Error parsing JSON:', err));
