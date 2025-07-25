@@ -9,6 +9,13 @@ function initAllData() {
           rows.forEach((row, i) => {
             // Make sure biliary_BTC_master is defined and has a names array
             biliary_BTC_master["names"].push(row["Trial Name"]);
+            biliary_BTC_master["setting"].push(row["Disease Setting"]);
+            biliary_BTC_master["fullTitle"].push(row["Full title"]);
+            biliary_BTC_master["additionalNotes"].push(row["Additional notes"]);
+            biliary_BTC_master["arms"].push(row["Trial Intervention/Arms"]);
+            biliary_BTC_master["keyCriteria"].push(row["Eligibility "]);
+            biliary_BTC_master["contact"].push(row["Coordinator"]);
+            biliary_BTC_master["NCT"].push(row["NCT number"]);
           });
         }
       }
