@@ -1,13 +1,24 @@
 //idea is the pull the master JSON file
+function initAllData(){
+  
+  
 fetch('/jsonUpdates/latest.json') // adjust path as needed
   .then(res => res.json())
   .then(data => {
     // Loop through each sheet
     for (const [sheetName, rows] of Object.entries(data)) {
-      console.log(`🧾 Sheet: ${sheetName}`);
-      
-      rows.forEach((row, i) => {
-        console.log(`Row ${i + 1}:`, row);
+      //which sheet is accessed
+      //which array is being populated
+      if (sheetName == "BTC")
+        {
+         rows.forEach((row, i) => {
+         biliary_BTC_master[`names`].push.row[`Trial Name`];
+        // Access specific values if needed
+        // console.log(row["Header A"]);
+          });          
+        }
+      //rows.forEach((row, i) => {
+        //console.log(`Row ${i + 1}:`, row);
         
         // Access specific values if needed
         // console.log(row["Header A"]);
@@ -16,11 +27,22 @@ fetch('/jsonUpdates/latest.json') // adjust path as needed
   })
   .catch(err => console.error('Error parsing JSON:', err));
 
+  console.log(biliary_BTC_master);
+};
 
 //then populate these const arrays 
 //the other fun functions can proceed as usual
 
-const biliary_BTC_master = {};
+const biliary_BTC_master = {
+  names: [],
+  setting: [],
+  fullTitle: [],
+  additionalNotes: [],
+  arms: [],
+  keyCriteria: [],
+  contact: [],
+  NCT:[]  
+};
 
 const liver_HCC_master = {
   names: [
@@ -268,6 +290,7 @@ const pancreas_preActivation =
         ]        
       }
 
+
 function fillTrialNameBasedOnSetting(mainCategory, setting) {
   //user input dicates which main category we're going into
   var totalTrialsAvailable = mainCategory[`names`].length;
@@ -413,7 +436,7 @@ function addIndicator()
 }
 
 addIndicator(); 
-
+initAllData();
 
 //contact parser
 //email - if contains '@'
