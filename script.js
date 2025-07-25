@@ -1,3 +1,27 @@
+//idea is the pull the master JSON file
+fetch('/jsonUpdates/latest.json') // adjust path as needed
+  .then(res => res.json())
+  .then(data => {
+    // Loop through each sheet
+    for (const [sheetName, rows] of Object.entries(data)) {
+      console.log(`🧾 Sheet: ${sheetName}`);
+      
+      rows.forEach((row, i) => {
+        console.log(`Row ${i + 1}:`, row);
+        
+        // Access specific values if needed
+        // console.log(row["Header A"]);
+      });
+    }
+  })
+  .catch(err => console.error('Error parsing JSON:', err));
+
+
+//then populate these const arrays 
+//the other fun functions can proceed as usual
+
+const biliary_BTC_master = {};
+
 const liver_HCC_master = {
   names: [
     "NEOTOMA",
