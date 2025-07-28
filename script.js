@@ -226,7 +226,7 @@ function fillTrialDetails(mainCategory, key) {
   titleString += '</li>';
   
   //Additional notes (optional)
-  if(mainCategory[`additionalNotes`][key] != "")
+  if(mainCategory[`additionalNotes`][key] != "null")
     {
     notesString += '<li class="list-group-item bg-gray-200 text-gray-900">Additional notes</li><li class="list-group-item list-group-item-light ps-5">';
     notesString += mainCategory[`additionalNotes`][key];
@@ -236,15 +236,15 @@ function fillTrialDetails(mainCategory, key) {
   
   //Arms
   armString += '<li class="list-group-item bg-gray-300 text-gray-900">Arms</li><li class="list-group-item list-group-item-light ps-5">';
-  armString += mainCategory[`arms`][key].replace("\n", "<br/>");
-  //armString += mainCategory[`arms`][key];
+  armString += mainCategory[`arms`][key].replaceAll("\n", "<br/>");
   armString += "</li>";
 
   //Key criteria
   if(mainCategory[`keyCriteria`][key] != "")
     {
   criteriaString += '<li class="list-group-item bg-gray-400 text-gray-900">Key criteria</li><li class="list-group-item list-group-item-light ps-5">';
-  criteriaString += mainCategory[`keyCriteria`][key];
+  //criteriaString += mainCategory[`keyCriteria`][key];
+  criteriaString += mainCategory[`keyCriteria`][key].replaceAll("\n", "<br/>");      
   criteriaString += "</li>";
     }
 
@@ -253,7 +253,8 @@ function fillTrialDetails(mainCategory, key) {
 
   //can try to parse into separate emails
   //and also phone
-  contactString += mainCategory[`contact`][key];
+  //contactString += mainCategory[`contact`][key];
+  contactString += mainCategory[`contact`][key].replaceAll("\n", "<br/>");
   contactString += '</li>';
 
   //More information link
