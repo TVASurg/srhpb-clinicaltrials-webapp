@@ -4,7 +4,7 @@ function initAllData() {
     .then(res => res.json())
     .then(data => {
       // Loop through each sheet
-      for (const [sheetName, rows] of Object.entries(data)) {
+        for (const [sheetName, rows] of Object.entries(data)) {
         if (sheetName === "BTC") {
           rows.forEach((row, i) => {
             // Make sure biliary_BTC_master is defined and has a names array
@@ -18,6 +18,33 @@ function initAllData() {
             biliary_BTC_master["NCT"].push(row["NCT number"]);
           });
         }
+        else if (sheetName === "HCC") {
+          rows.forEach((row, i) => {
+            // Make sure biliary_BTC_master is defined and has a names array
+            liver_HCC_master["names"].push(row["Trial Name"]);
+            liver_HCC_master["setting"].push(row["Disease Setting"]);
+            liver_HCC_master["fullTitle"].push(row["Full title"]);
+            liver_HCC_master["additionalNotes"].push(row["Additional notes"]);
+            liver_HCC_master["arms"].push(row["Trial Intervention/Arms"]);
+            liver_HCC_master["keyCriteria"].push(row["Eligibility "]);
+            liver_HCC_master["contact"].push(row["Coordinator"]);
+            liver_HCC_master["NCT"].push(row["NCT number"]);
+          });
+        }
+        else if (sheetName === "pancreas") {
+          rows.forEach((row, i) => {
+            // Make sure biliary_BTC_master is defined and has a names array
+            pancreas_master["names"].push(row["Trial Name"]);
+            pancreas_master["setting"].push(row["Disease Setting"]);
+            pancreas_master["fullTitle"].push(row["Full title"]);
+            pancreas_master["additionalNotes"].push(row["Additional notes"]);
+            pancreas_master["arms"].push(row["Trial Intervention/Arms"]);
+            pancreas_master["keyCriteria"].push(row["Eligibility "]);
+            pancreas_master["contact"].push(row["Coordinator"]);
+            pancreas_master["NCT"].push(row["NCT number"]);
+          });
+        }
+
       }
       console.log(biliary_BTC_master);
     })
@@ -38,7 +65,29 @@ const biliary_BTC_master = {
   NCT:[]  
 };
 
-const liver_HCC_master = {
+const liver_HCC_master  = {
+  names: [],
+  setting: [],
+  fullTitle: [],
+  additionalNotes: [],
+  arms: [],
+  keyCriteria: [],
+  contact: [],
+  NCT:[]  
+};
+
+const pancreas_master  = {
+  names: [],
+  setting: [],
+  fullTitle: [],
+  additionalNotes: [],
+  arms: [],
+  keyCriteria: [],
+  contact: [],
+  NCT:[]  
+};
+
+/*const liver_HCC_master = {
   names: [
     "NEOTOMA",
     "HMLTO002",
@@ -96,10 +145,9 @@ const liver_HCC_master = {
     "NCT06915753",
     "NCT05797805"
   ]
-};
+};*/
 
-const pancreas_master =
-      {
+/*const pancreas_master = {
         names: [
           "DORA (WOO)",
           "GO44479/ROCHE",
@@ -236,10 +284,9 @@ const pancreas_master =
           "N/A",
           "N/A"
         ]
-      };
+      };*/
 
-const pancreas_preActivation =
-      {
+const pancreas_preActivation ={
         names: [
           "Platinum-Can",
           "WATCH-PC",
