@@ -1,6 +1,6 @@
 //idea is the pull the master JSON file
 function initAllData() {
-  fetch('/jsonUpdates/latest.json')
+  fetch(`/jsonUpdates/latest.json?ver=${Date.now()}`)
     .then(res => res.json())
     .then(data => {
       // Loop through each sheet
