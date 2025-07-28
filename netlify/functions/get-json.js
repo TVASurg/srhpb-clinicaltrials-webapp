@@ -8,6 +8,11 @@ export async function handler() {
   return {
     statusCode: 200,
     body: stored,
-    headers: { 'Content-Type': 'application/json' }
+    headers: {
+      'Content-Type': 'application/json',
+      'Cache-Control': 'no-store, no-cache, must-revalidate, max-age=0',
+      'Pragma': 'no-cache',
+      'Expires': '0'
+    }
   };
 }
