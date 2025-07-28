@@ -47,7 +47,7 @@ function initAllData() {
 
       }
     
-      hidePreactivations(pancreas_preactivation, pancreas_preactivation)
+      hidePreactivations('pancreas_preactivation', 'pancreas_preactivation')
       
     })
     .catch(err => console.error('Error parsing JSON:', err));
@@ -290,7 +290,8 @@ function addIndicator(){
 
 function hidePreactivations(categoryToHide, UItoHide)
 {
-  if (categoryToHide[`names`].length == 0)
+  var categoryCheck = categoryToHide[`names`].length;
+  if (categoryCheck == 0)
     {
       document.getElementById(UItoHide).add('d-none'); 
     }
