@@ -46,11 +46,10 @@ function initAllData() {
         }
 
       }
-    
-      hidePreactivations(pancreas_preactivation, "pancreas_preactivation")
-      
     })
     .catch(err => console.error('Error parsing JSON:', err));
+  
+  hidePreactivations(pancreas_preactivation, "pancreas_preactivation")
 }
 
 //then populate these const arrays 
@@ -294,7 +293,7 @@ function hidePreactivations(categoryToHide, UItoHide)
   if (categoryCheck == 0)
     {
       document.getElementById(UItoHide).classList.add('d-none'); 
-      document.getElementById(UItoHide).previousSibling.classList.add('rounded-bottom'); 
+      document.getElementById(UItoHide).previousElementSibling.classList.add('rounded-bottom');
     }
 }
 
