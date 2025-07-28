@@ -226,7 +226,7 @@ function fillTrialDetails(mainCategory, key) {
   titleString += '</li>';
   
   //Additional notes (optional)
-  if(mainCategory[`additionalNotes`][key] != "null")
+  if(mainCategory[`additionalNotes`][key] != null)
     {
     notesString += '<li class="list-group-item bg-gray-200 text-gray-900">Additional notes</li><li class="list-group-item list-group-item-light ps-5">';
     notesString += mainCategory[`additionalNotes`][key];
