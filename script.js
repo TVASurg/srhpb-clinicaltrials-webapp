@@ -294,6 +294,7 @@ function hidePreactivations(categoryToHide, UItoHide)
   if (categoryCheck == 0)
     {
       document.getElementById(UItoHide).classList.add('d-none'); 
+      document.getElementById(UItoHide).previousSibling.classList.add('rounded-bottom'); 
     }
 }
 
