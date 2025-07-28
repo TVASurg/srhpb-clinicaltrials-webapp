@@ -236,7 +236,8 @@ function fillTrialDetails(mainCategory, key) {
   
   //Arms
   armString += '<li class="list-group-item bg-gray-300 text-gray-900">Arms</li><li class="list-group-item list-group-item-light ps-5">';
-  armString += mainCategory[`arms`][key];
+  armString += mainCategory[`arms`][key].replace("\n", "<br/>");
+  //armString += mainCategory[`arms`][key];
   armString += "</li>";
 
   //Key criteria
@@ -292,8 +293,9 @@ function hidePreactivations(categoryToHide, UItoHide)
   var categoryCheck = categoryToHide[`names`].length;
   if (categoryCheck == 0)
     {
-      document.getElementById(UItoHide).classList.add('d-none'); 
-      document.getElementById(UItoHide).previousElementSibling.classList.add('rounded-bottom');
+    document.getElementById(UItoHide).classList.add('d-none'); 
+    document.getElementById(UItoHide).previousElementSibling.classList.add('rounded-bottom');
+    document.getElementById(UItoHide).previousElementSibling.classList.add('mb-3');
     }
 }
 
