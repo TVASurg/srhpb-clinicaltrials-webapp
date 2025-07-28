@@ -293,7 +293,7 @@ function hidePreactivations(categoryToHide, UItoHide)
   var categoryCheck = categoryToHide[`names`].length;
   if (categoryCheck == 0)
     {
-      document.getElementById(UItoHide).add('d-none'); 
+      document.getElementById(UItoHide).classList.add('d-none'); 
     }
 }
 
