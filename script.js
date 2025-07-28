@@ -47,7 +47,7 @@ function initAllData() {
 
       }
     
-      hidePreactivations(pancreas_preactivation, pancreas_preactivation)
+      hidePreactivations(pancreas_preactivation, "pancreas_preactivation")
       
     })
     .catch(err => console.error('Error parsing JSON:', err));
