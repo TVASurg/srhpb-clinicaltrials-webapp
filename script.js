@@ -47,7 +47,7 @@ function initAllData() {
 
       }
     
-      hidePreactivations(pancreas_preActivation, pancreas_preActivation)
+      hidePreactivations(pancreas_preactivation, pancreas_preactivation)
       
     })
     .catch(err => console.error('Error parsing JSON:', err));
@@ -134,7 +134,7 @@ const pancreas_master  = {
         ]        
       }*/
 
-const pancreas_preActivation = {
+const pancreas_preactivation = {
   names: [],
   setting: [],
   fullTitle: [],
