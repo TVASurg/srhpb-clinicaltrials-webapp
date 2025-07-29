@@ -326,7 +326,7 @@ function parseContact(contact)
   //that uses the 'replace()' to replace the email with an ahref mailto link
       for (const element of emailMatches){
         var constructedEmailLink = '<a href=\"mailto:' + element + '\">' + element + '</a>';
-        outputString = outputString.replace(element, constructedEmailLink);
+        outputString = strippedNs.replace(element, constructedEmailLink);
   }
   }
   if (phoneMatches != null){ 
@@ -355,16 +355,15 @@ function parseContact(contact)
     for (i=0; i<phoneMatches.length; i++)
       {
         var constructedPhoneLink = '<a href=\"tel:' + cleanPhoneNumbers[i] + '\">' + phoneMatches[i] + '</a>';
-        outputString = outputString.replace(phoneMatches[i], constructedPhoneLink);
+        outputString = strippedNs.replace(phoneMatches[i], constructedPhoneLink);
       }
     
     
   }
  
-  return outputString;
+  //console.log(outputString);
   
 }
-
 addIndicator(); 
 initAllData();
 
