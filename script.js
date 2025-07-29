@@ -47,7 +47,7 @@ function initAllData() {
 
       }
     })
-    .catch(err => console.error('Error parsing JSON:', err));
+    //.catch(err => console.error('Error parsing JSON:', err));
   
   hidePreactivations(pancreas_preactivation, "pancreas_preactivation")
 }
@@ -251,14 +251,14 @@ function fillTrialDetails(mainCategory, key) {
   //Contact
   contactString += '<li class="list-group-item bg-gray-500 text-gray-900">Contact</li><li class="list-group-item list-group-item-light ps-5">';
 
-  //can try to parse into separate emails
-  //and also phone
+  
   //contactString += mainCategory[`contact`][key];
-  contactString += mainCategory[`contact`][key].replaceAll("\n", "<br/>");
+  //contactString += mainCategory[`contact`][key].replaceAll("\n", "<br/>");
+  contactString += parseContact(mainCategory[`contact`][key]);
   contactString += '</li>';
-
+  
   //More information link
-  if(mainCategory[`NCT`][key] != "N/A")
+  if(mainCategory[`NCT`][key] != null)
     {
   NCTstring += '<li class="list-group-item bg-gray-600 text-gray-900">More information</li><li class="list-group-item list-group-item-light ps-5"><a target="_blank" href="https://clinicaltrials.gov/study/';
   NCTstring += mainCategory[`NCT`][key];
@@ -300,148 +300,74 @@ function hidePreactivations(categoryToHide, UItoHide)
     }
 }
 
+function parseContact(contact)
+{
+  //regexes
+
+  const emailRegex = /[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+.[a-zA-Z]/g;
+  const phoneRegex = /\d{3}[- ]?\d{3}[- ]?\d{4}|( x \d{4})|(x\d{4})|( ext. \d{4})|( ext.\d{4})/g;
+  
+  //try for this string
+  var outputString = contact;
+ 
+  //replace \n first with <br/>_
+  const strippedNs = contact.replaceAll("\n", " <br/> ");
+  
+  //console.log(strippedNs);
+  //if we do a match(), then it returns an array
+  let emailMatches = strippedNs.match(emailRegex);
+  let phoneMatches = strippedNs.match(phoneRegex);
+  //console.log(emailMatches);
+
+  
+  //console.log(phoneMatches);
+  if (emailMatches != null){
+  //so then run a for loop in the array with the rawstring
+  //that uses the 'replace()' to replace the email with an ahref mailto link
+      for (const element of emailMatches){
+        var constructedEmailLink = '<a href=\"mailto:' + element + '\">' + element + '</a>';
+        outputString = outputString.replace(element, constructedEmailLink);
+  }
+  }
+  if (phoneMatches != null){ 
+        var cleanPhoneNumbers = [];
+        //constructing the cleanNumbers
+        for (i=0; i<phoneMatches.length; i++){
+          //extract only numbers
+          var cleanElement = phoneMatches[i].replace(/[^0-9]/g, '');
+          
+          //if its an extension we append it to the previous number
+          if (cleanElement.length == 4)
+            {
+              cleanPhoneNumbers[i-1] = cleanPhoneNumbers[i-1] + "," + cleanElement;
+              //pass this onto phoneMatches so the entry becomes a number + extention
+              phoneMatches[i-1] = phoneMatches[i-1] + phoneMatches[i];
+              phoneMatches.splice(i,1);
+            }
+          //if not an extension then just push it back to its original element
+          else if (cleanElement.length == 10)
+            {
+              cleanPhoneNumbers[i] = cleanElement;
+            }
+       }
+      
+    //constructing the tel link lines
+    for (i=0; i<phoneMatches.length; i++)
+      {
+        var constructedPhoneLink = '<a href=\"tel:' + cleanPhoneNumbers[i] + '\">' + phoneMatches[i] + '</a>';
+        outputString = outputString.replace(phoneMatches[i], constructedPhoneLink);
+      }
+    
+    
+  }
+ 
+  return outputString;
+  
+}
+
 addIndicator(); 
 initAllData();
 
-//contact parser
-//email - if contains '@'
-//phone - whoa can use regex
-/*
-function populateTrialDetails(category) {
-  var htmlString = "";
-  var newArray = [];
-  var arrayLength = 0;
-
-  switch (category) {
-    case "mccainPancreas_R":
-      newArray = Array.from(mccainPancreas_R_A);
-
-      break;
-    case "mccainPancreas_LAU":
-      newArray = Array.from(mccainPancreas_LAU_A);
-
-      break;
-    case "mccainPancreas_ALA":
-      newArray = Array.from(mccainPancreas_ALA_A);
-
-      break;
-    case "mccainPancreas_1LM":
-      newArray = Array.from(mccainPancreas_1LM_A);
-
-      break;
-    case "mccainPancreas_2LM":
-      newArray = Array.from(mccainPancreas_2LM_A);
-
-      break;
-    case "mccainPancreas_NT":
-      newArray = Array.from(mccainPancreas_NT_A);
-
-      break;
-    case "preactivationPancreas_1LM":
-      newArray = Array.from(preactivationPancreas_1LM_A);
-
-      break;
-    case "preactivationPancreas_2LM":
-      newArray = Array.from(preactivationPancreas_2LM_A);
-
-      break;
-    case "preactivationPancreas_ANY":
-      newArray = Array.from(preactivationPancreas_ANY_A);
-
-      break;
-    default:
-  }
-  arrayLength = newArray.length;
-
-  for (i = 0; i < arrayLength; i++) {
-    htmlString +=
-      '<a href="#" class="list-group-item list-group-item-action py-3 lh-sm" onclick="populateTrialInterventionsContact(' +
-      `'` +
-      category +
-      `',` +
-      i +
-      ')">';
-    htmlString += newArray[i];
-    htmlString += "</a>";
-  }
-
-  document.getElementById("trialName").innerHTML = htmlString;
-  document.getElementById("trialDetails").innerHTML = "";
-}
-
-function populateTrialInterventionsContact(category, index) {
-  var htmlString = "";
-  var interventionArray = [];
-  var contactArray = [];
-
-  switch (category) {
-    case "mccainPancreas_R":
-      interventionArray = Array.from(mccainPancreas_R_B);
-      contactArray = Array.from(mccainPancreas_R_C);
-
-      break;
-    case "mccainPancreas_LAU":
-      interventionArray = Array.from(mccainPancreas_LAU_B);
-      contactArray = Array.from(mccainPancreas_LAU_C);
-
-      break;
-    case "mccainPancreas_ALA":
-      interventionArray = Array.from(mccainPancreas_ALA_B);
-      contactArray = Array.from(mccainPancreas_ALA_C);
-
-      break;
-    case "mccainPancreas_1LM":
-      interventionArray = Array.from(mccainPancreas_1LM_B);
-      contactArray = Array.from(mccainPancreas_1LM_C);
-
-      break;
-    case "mccainPancreas_2LM":
-      interventionArray = Array.from(mccainPancreas_2LM_B);
-      contactArray = Array.from(mccainPancreas_2LM_C);
-
-      break;
-    case "mccainPancreas_NT":
-      interventionArray = Array.from(mccainPancreas_NT_B);
-      contactArray = Array.from(mccainPancreas_NT_C);
-
-      break;
-    case "preactivationPancreas_1LM":
-      interventionArray = Array.from(preactivationPancreas_1LM_B);
-      contactArray = Array.from(preactivationPancreas_1LM_C);
-
-      break;
-    case "preactivationPancreas_2LM":
-      interventionArray = Array.from(preactivationPancreas_2LM_B);
-      contactArray = Array.from(preactivationPancreas_2LM_C);
-
-      break;
-    case "preactivationPancreas_ANY":
-      interventionArray = Array.from(preactivationPancreas_ANY_B);
-      contactArray = Array.from(preactivationPancreas_ANY_C);
-
-      break;
-    default:
-  }
-
-  htmlString +=
-    '<a href="#" class="list-group-item list-group-item-action py-3 lh-sm">';
-  htmlString += interventionArray[index];
-  htmlString += "</a>";
-  htmlString +=
-    '<a href="#" class="list-group-item list-group-item-action py-3 lh-sm"> Contact:<br/><br/>';
-  htmlString += contactArray[index];
-  htmlString += "</a>";
-
-  document.getElementById("trialDetails").innerHTML = htmlString;
-}
-*/
-function testAPI() {
-  /*  fetch('https://corsproxy.io/?url=https://clinicaltrials.gov/api/v2/studies/NCT06060405').then((response) => {
-      return response.json();
-    }).then((data) => {
-    console.log('data');
-  });*/
-}
 
 //button call is...
 //populateTrialDetails("mccainPancreas_2LM");
