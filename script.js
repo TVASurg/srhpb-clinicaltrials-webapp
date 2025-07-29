@@ -361,7 +361,7 @@ function parseContact(contact)
     
   }
  
-  //console.log(outputString);
+  return(outputString);
   
 }
 addIndicator(); 
