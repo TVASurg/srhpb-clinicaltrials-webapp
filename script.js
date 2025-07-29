@@ -240,7 +240,7 @@ function fillTrialDetails(mainCategory, key) {
   armString += "</li>";
 
   //Key criteria
-  if(mainCategory[`keyCriteria`][key] != "")
+  if(mainCategory[`keyCriteria`][key] != null)
     {
   criteriaString += '<li class="list-group-item bg-gray-400 text-gray-900">Key criteria</li><li class="list-group-item list-group-item-light ps-5">';
   //criteriaString += mainCategory[`keyCriteria`][key];
