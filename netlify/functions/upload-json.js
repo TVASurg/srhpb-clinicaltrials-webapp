@@ -17,8 +17,14 @@ export async function handler(event) {
   try {
     const jsonData = JSON.parse(event.body);
 
-    const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
-    const fileName = `${today}.json`;
+    //const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+    //const fileName = `${today}.json`;
+    
+    const now = new Date();
+    const pad = (n) => n.toString().padStart(2, '0');
+    const timestamp = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}-${pad(now.getHours())}-${pad(now.getMinutes())}`;
+    const fileName = `data-${timestamp}.json`; // e.g., data-2025-07-29-15-48.json
+    
     const latestFileName = 'latest.json';
     const content = Buffer.from(JSON.stringify(jsonData, null, 2)).toString('base64');
     const [owner, repoName] = repo.split('/');
