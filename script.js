@@ -309,7 +309,7 @@ function parseContact(contact)
   
   //try for this string
   var outputString = contact;
- 
+
   //replace \n first with <br/>_
   const strippedNs = contact.replaceAll("\n", " <br/> ");
   
@@ -326,7 +326,7 @@ function parseContact(contact)
   //that uses the 'replace()' to replace the email with an ahref mailto link
       for (const element of emailMatches){
         var constructedEmailLink = '<a href=\"mailto:' + element + '\">' + element + '</a>';
-        outputString = strippedNs.replace(element, constructedEmailLink);
+        outputString = outputString.replace(element, constructedEmailLink);
   }
   }
   if (phoneMatches != null){ 
@@ -355,15 +355,17 @@ function parseContact(contact)
     for (i=0; i<phoneMatches.length; i++)
       {
         var constructedPhoneLink = '<a href=\"tel:' + cleanPhoneNumbers[i] + '\">' + phoneMatches[i] + '</a>';
-        outputString = strippedNs.replace(phoneMatches[i], constructedPhoneLink);
+        outputString = outputString.replace(phoneMatches[i], constructedPhoneLink);
       }
     
-    
+   outputString = outputString.replaceAll("\n", " <br/> ");
   }
  
+  //document.getElementById("lastUpdated").innerHTML = outputString;
   return(outputString);
   
 }
+parseContact("Pre-screen:  \nDorian Facey: 437-779-7757 \nRachel Ding: 437-990-4238 \n\n\nScreen: guillaume.cheung@uhn.ca")
 addIndicator(); 
 initAllData();
 
