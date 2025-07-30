@@ -12,10 +12,12 @@
   --bs-colorectal: #1b295c;
   --bs-gastroesophageal: #9999e1;
   --bs-hcc: #54d17e;
-  --bs-pancreas: #895485;
-  --bs-btc: #018455;
+  --bs-pancreas: #ad7bac;
+  --bs-btc: #06936e;
   --bs-net: #4a4a4a;
 }
+
+.selectedCategory{ background-color: rgba(255, 255, 255, 0.3); !important;}
 
 .bg-colorectal { background-color: var(--bs-colorectal) !important; }
 .bg-gastroesophageal { background-color: var(--bs-gastroesophageal) !important; }
