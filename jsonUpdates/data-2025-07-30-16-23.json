@@ -1,0 +1,299 @@
+{
+  "HCC": [
+    {
+      "Disease Setting": "Peri-OR",
+      "Trial Name": "NEOTOMA",
+      "Full title": "Neoadjuvant Tremelimumab + durvalumab and adjuvant durvalumab in previously untreated resectable HCC",
+      "Additional notes": "We are testing 1222pm 07 30 2025",
+      "Trial Intervention/Arms": "Durva + treme",
+      "Eligibility ": "Resectable HCC",
+      "Coordinator": "jennifer.knox@uhn.ca",
+      "NCT number": "NCT05440864"
+    },
+    {
+      "Disease Setting": "Pre-transplant",
+      "Trial Name": "HMLTO002",
+      "Full title": "Atezolizumab and Bevacizumab Pre-Liver Transplantation for Patients with Hepatocellular Carcinoma Beyond Milan Criteria: A Feasibility Study",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "Atezo + bev",
+      "Eligibility ": "HCC, candidate for liver transplant",
+      "Coordinator": "eric.chen@uhn.ca",
+      "NCT number": "NCT05185505"
+    },
+    {
+      "Disease Setting": "1st line",
+      "Trial Name": "ARTEMIDE HCC01",
+      "Full title": "A Phase III Randomised, Open Label, Sponsor-Blinded, Multicentre Study of Rilvegostomig in Combination with Bevacizumab with or without Tremelimumab as First-line Treatment in Patients with Advanced Hepatocellular Carcinoma",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "A: Rilvegostomig + bev \nB: rilvegostomig + bev + tremelimumab",
+      "Eligibility ": "HCC, not prior systemic therapy \nNo main portal vein thrombosis ",
+      "Coordinator": "jennifer.knox@uhn.ca",
+      "NCT number": "NCT06921785"
+    },
+    {
+      "Disease Setting": "1st or 2nd",
+      "Trial Name": "Phase II Cabozantinib in Recurrent HCC Post Liver\nTransplant (CaboTx)\n ",
+      "Full title": "With KRAS/NRAS and BRAF Wild-type Unresectable or Metastatic Left-sided Colorectal",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "Cabozanitnib",
+      "Eligibility ": "Recurrence after transplant",
+      "Coordinator": "robert.grant@uhn.ca\njennifer.knox@uhn.ca",
+      "NCT number": "NCT04204850"
+    },
+    {
+      "Disease Setting": "Any line",
+      "Trial Name": "TYR430",
+      "Full title": "A Multicenter, Open-label, First-in-Human Study of TYRA-430 in Advanced Hepatocellular Carcinoma and Other Solid Tumors with Activating FGF/FGFR pathway aberrations (SURF-431)",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "TYR430",
+      "Eligibility ": "FGF/FGFR pathway alteration",
+      "Coordinator": "ardnt.vogel@uhn.ca",
+      "NCT number": "NCT06915753"
+    },
+    {
+      "Disease Setting": "Last line",
+      "Trial Name": "Phase I/II BC2059 in HCC",
+      "Full title": "A phase 1/2 exploratory study of the TBL1 inhibitor, tegavivint (BC2059), in patients with advanced hepatocellular carcinoma",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "BC2059, or BC2059+pembro",
+      "Eligibility ": "CTNNB1 or AXIN1\nPre- and on treatment biopies",
+      "Coordinator": "eric.chen@uhn.ca",
+      "NCT number": "NCT05797805"
+    }
+  ],
+  "pancreas": [
+    {
+      "Disease Setting": "Resectable",
+      "Trial Name": "DORA (WOO)\n",
+      "Full title": "Durvalumab and Oleclumab in Resectable PDAC: A Window of Opportunity Study (DORA)",
+      "Additional notes": "Upfront resectable\n\nCA19-9 < 300",
+      "Trial Intervention/Arms": "Baseline EUS biopsy\n\nDurvalumab 1500 mg IV x 1 dose and oleclumab 3000 mg x 2 doses Q2W prior to resection]",
+      "Eligibility ": "Inclusion: \nResectable PDAC by NCCN criteria \nCA 19-9 < 300\nLife expectancy ≥ 12 weeks\n\nExclusion: \nAnticancer therapy within 21 days or palliative RT within 14 days prior to 1st dose\nOther invasive malignancy within 5 years.\nPrior receipt of any immune-mediated therapy\n\nOther invasive malignancy within 5 years\n\nPrior history of myocardial infarction, transient ischemic attack, congestive heart failure ≥ Class 3 based on New York Heart Association Functional Classification or stroke within the past 3 months prior to the scheduled first dose of study treatment.\n\nPositive for HIV",
+      "Coordinator": "Mary (Lan) Wei\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
+      "NCT number": "NCT06060405"
+    },
+    {
+      "Disease Setting": "Resectable",
+      "Trial Name": "GO44479/ROCHE (Vaccine Study)\n\n",
+      "Full title": "A Study of the Efficacy and Safety of Adjuvant Autogene Cevumeran Plus Atezolizumab and mFOLFIRINOX Versus mFOLFIRINOX Alone in Participants With Resected PDAC",
+      "Additional notes": "Upfront resectable\n\nRandomized study of autogene cevumeran + Atezolizumab + mFOLFIRINOX vs. mFOLFIRINOX alone\n\nCA19-9 < ~500\n",
+      "Trial Intervention/Arms": "Tissue collected at surgery for adjuvant vaccine manufacture \n\nArm 1: autogene cevumeran+Atezo+mFOLFIRINOX  \n\nArm 2: mFOLFIRINOX ",
+      "Eligibility ": "Inclusion: \nTNM Staging per AJCC: T1-T3, N0-N2, and M0 \nComplete resection (R0 or R1) of PDAC\nInterval of between 6 and 12 weeks since resection of PDAC\nExclusion: \nPrior adjuvant, neoadjuvant, or induction treatment for pancreatic cancer\nKnown complete dihydropyrimidine dehydrogenase (DPD) deficiency ",
+      "Coordinator": "Guillaume Cheung\nTel: 416-946-4501 ext. 4727",
+      "NCT number": "NCT05968326"
+    },
+    {
+      "Disease Setting": "Resectable",
+      "Trial Name": "Prosper-PANC Cohort 1\n",
+      "Full title": "Province of Ontario Strategy for Personalized Management of Pancreatic Cancer Trial",
+      "Additional notes": "Upfront resectable\n\nIncludes DORA and GO44479 patients",
+      "Trial Intervention/Arms": "Fresh tissue collection for WGTS + organoids \n\nSerial blood draws for ctDNA ",
+      "Eligibility ": "Inclusion: \nUpfront resectable: definition of resectability will be according to NCCN guidelines and the patient must be planned for a surgery first approach.\nLife expectancy of ≥ 6 months\nMust be suitable for systemic therapy\nExclusion: \nHistologies excluded: colloid, high grade neuroendocrine\nPatients receiving neoadjuvant chemotherapy (neoadjuvant immunotherapy is permitted)",
+      "Coordinator": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
+      "NCT number": "NCT05927298"
+    },
+    {
+      "Disease Setting": "Locally Advanced Unresectable",
+      "Trial Name": "ABLATE (radiation)\n\n",
+      "Full title": "Ablative radiation therapy with high dose geometric Boost for Locally Advanced pancreatic cancer patients following Treatment response Evaluation of standard of care induction chemotherapy (ABLATE): a phase II clinical trial",
+      "Additional notes": "Locally advanced unresectable on 1L chemo for at least 16 weeks with stable disease or partial response \n\nIdeally pre-chemo biopsy under HPB tissue banking, page CRC to consent to HPB tissue banking prior to chemo ",
+      "Trial Intervention/Arms": "Pre-radiation biopsy optional \n\nAblative high dose RT: \n    50Gy/5Fx or \n    67.5Gy/15Fx or \n    75Gy/25Fx ",
+      "Eligibility ": "Inclusion: \nPancreatic tumour <8.0 cm in greatest axial dimension - final determination  will be based upon satisfying the radiation normal tissue constraints.\nLife expectancy > 6 months\nPrior 1L chemotherapy for at least 16 weeks without clinical or radiographic progression\nExclusion: \nMetastatic disease at the time of registration\nPrior RT to the upper abdomen region that would result in overlap of RT volume\nCurrently on anti-cancer treatment including chemotherapy.",
+      "Coordinator": "Dorian Facey: 437-779-7757\nRachel Ding: 437-990-4238",
+      "NCT number": "NCT06453486"
+    },
+    {
+      "Disease Setting": "Locally Advanced Unresectable",
+      "Trial Name": "NASC-009/NCI 10464\n\n",
+      "Full title": "A Phase 1 Study of Olaparib in Combination with Durvalumab (MEDI4736) and Concurrent Radiation Therapy Following First-Line Chemotherapy in Locally Advanced Unresectable Pancreatic Cancer",
+      "Additional notes": "Locally advanced unresectable on 1L chemo for at least 16 weeks without progression ",
+      "Trial Intervention/Arms": "Cycle 1: Olaparib BID + Durvalumab C1D1 \n\nCycle 2: Olaparib + Durva + RT (39Gy in 15Fx starting C2D1) \n\nCycle 3 onwards: Olaparib + Durva q4w \n ",
+      "Eligibility ": "Inclusion: \nhave had prior 1L chemotherapy for this cancer for at least 16 weeks without clinical, biochemical, or radiologic progression\nBody weight > 30 kg.\nLife expectancy >= 16 weeks.\nWilling to provide archived tissue, if available, from a previous biopsy\nExclusion:\nHad prior upper abdominal radiotherapy prior to entering the study.\nMajor surgical procedure within 28 days prior to enrollment.\nPatients who are receiving any other investigational agents.\nMust not have germline BRCA1 or BRCA2 mutation.",
+      "Coordinator": "Nicole De Pinto\nTel: 416-946-4501 ext. 3132",
+      "NCT number": "NCT05411094"
+    },
+    {
+      "Disease Setting": "Any Line Advanced",
+      "Trial Name": "Prosper-PANC Cohort 2\n\n",
+      "Full title": "Province of Ontario Strategy for Personalized Management of Pancreatic Cancer Trial",
+      "Additional notes": "Unresectable, locally advanced and metastatic PDAC \n\nAt initial diagnosis or at progression – goal is to look for actionable mutations",
+      "Trial Intervention/Arms": "Requires fresh tumor biopsy for WGTS + organoids \n\nSerial blood draws wk 2, 4, 8 and q8 for ctDNA ",
+      "Eligibility ": "Inclusion: \nAll stages are eligible including locally advanced unresectable, first-line metastatic, second-line (or beyond) metastatic\nSingle lesion is to be biopsied: a minimum of 4 to 6 x 18 Gauge (G) good quality tumour cores must be safely obtainable.\nExclusion:\nWithout a tumour lesion amenable to biopsy or with tumour lesions that are not safe for sampling a minimum of 4 to 6 x 18G good quality tumour cores\nPatients who are not fit enough to undergo a tumour biopsy ",
+      "Coordinator": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
+      "NCT number": "NCT05927298"
+    },
+    {
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "CLARITY-PanTumour01 - Claudin 18.2\n\n",
+      "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2",
+      "Additional notes": "investigate the safety and tolerability of AZD0901 monotherapy in combination with anti-cancer agents in PDAC (1L) in participants with advanced or metastatic solid tumours expressing CLDN18.2 \n\n- Prior neoadjuvant/adjuvant chemotherapy is permitted as long as participants progressed ≥ 6 months (183 days) from the last dose",
+      "Trial Intervention/Arms": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue \n\nArm1: AZD0901 in combination with 5FU/leucovorin and Irinotecan or nanoliposomal Irinotecan  \n\nArm2: AZD0901 combination with Gemcitabine ",
+      "Eligibility ": "Inclusion: \nCLDN18.2 positive\nat least one measurable lesion according to RECIST v1.1.\nLife expectancy of ≥ 12 weeks.\nExclusion:\nUnstable or active peptic ulcer disease or digestive tract bleeding including but not limited to clinically significant bleeding in the setting of prior CLDN18.2 directed therapy.\nClinically significant ascites that require drainage.\nHistory of another primary malignancy.",
+      "Coordinator": "Pre-screen:  \nDorian Facey: 437-779-7757 \nRachel Ding: 437-990-4238 \n\n\nScreen: guillaume.cheung@uhn.ca",
+      "NCT number": "NCT06219941"
+    },
+    {
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "20230223 (AMG193) - MTAP Deletion\n\n",
+      "Full title": "A Study Evaluating AMG 193 in Combination With Other Therapies in Participants With Advanced Gastrointestinal, Biliary Tract, or Pancreatic Cancers With Homozygous Methylthioadenosine Phosphorylase (MTAP)-Deletion",
+      "Additional notes": "A Phase 1b Study Evaluating the Safety,\nTolerability, Pharmacokinetics, and Efficacy of\nAMG 193 in Combination with mFOLFIRINOX or\nwith Gemcitabine and Nab-paclitaxel in Subjects with Locally Advanced or Metastatic Pancreatic Ductal Adenocarcinoma (PDAC) with Homozygous MTAP-deletion (Subprotocol B)\n\nPrior neoadjuvant/adjuvant therapy is allowed if completed\nat least 6 months prior to diagnosis of advanced and/or unresectable disease,\nand if subjects did not receive gemcitabine and/or nab-paclitaxel (arm 1) or\nany active agent of FOLFIRINOX (arm 2) in the neoadjuvant/adjuvant setting.",
+      "Trial Intervention/Arms": "Pre-screen: needs archival or fresh tissue  \n\nAMG 193 alone or in combination with mFOLFIRINOX or with Gemcitabine and Nab-paclitaxel",
+      "Eligibility ": "Inclusion:\nECOG 0-1 \nTumor tissue (FFPE sample) or an archival block must be available. Participants without archived tumor tissue available may be allowed to enroll by undergoing tumor biopsy before dosing.\nHomozygous MTAP-deletion\nDisease measurable as defined by RECIST v1.1.\nExclusion:\nPrior systemic therapy for advanced or unresectable (locally advanced) adenocarcinoma of the pancreas.\nPrior treatment with a MAT2A inhibitor or a PRMT5 inhibitor.\nRadiation therapy within 28 days of first dose.\n",
+      "Coordinator": "Ochir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca \n\nMaggie Hildebrand : Maggie.Hildebrand@uhn.ca",
+      "NCT number": "NCT06360354"
+    },
+    {
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
+      "Full title": "Pancreatic Cancer Glucose Assessment and Regulation Study",
+      "Additional notes": "mPDAC patients starting 1L mFFX \n\nECOG 0-1 \n\nAdequate bone marrow and organ function \n\nRECIST measurable disease at BL \n\nNo prior diabetes diagnosis \n\nHbA1C < 6.5% ",
+      "Trial Intervention/Arms": "Continuous glucose monitor (CGM) for first 2 months of mFFX \n\nArm 1: Intensive glucose intervention with endocrinologist directed glycemic management, with target glucose levels between 4-10 mmol/L \n\nArm 2: Standard of care glucose intervention with intervention only if glucose level >15 mmol/L (Blinded to CGM results) ",
+      "Eligibility ": "\nExclusion:\nAbsence of distant or lymph node metastases. Participants with borderline resectable or locally advanced PDAC are not eligible.\nReceived prior systemic therapy (chemotherapy or any other anti-cancer agent) for treatment of metastatic PDAC\nKnown diagnosis of type I diabetes where strict glucose control and close Endocrinology follow-up is already indicated.\nKnown diagnosis of type II diabetes and already followed by Endocrinologist.",
+      "Coordinator": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
+      "NCT number": "NCT05132244"
+    },
+    {
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "PRISM-1 \n\n\n\n",
+      "Full title": "A Randomized, Placebo-Controlled, Double-Blind, Multicenter Phase 3 Trial of Quemliclustat and Chemotherapy Versus Placebo and Chemotherapy in Patients with Treatment Naïve Metastatic Pancreatic Ductal Adenocarcinoma",
+      "Additional notes": "A Randomized, Placebo-Controlled, Double-Blind, Multicenter Phase 3 Trial of Quemliclustat and Chemotherapy Versus Placebo and Chemotherapy in Patients with Treatment Naïve Metastatic Pancreatic Ductal Adenocarcinoma",
+      "Trial Intervention/Arms": "Arm A (Experimental Arm)\nDoses and administration of quemliclustat, NP, and Gem will be administered using a 28-day cycle\n\nArm B (Comparator Arm)\nDoses and administration of placebo, NP, and Gem will be administered using a 28-day cycle",
+      "Eligibility ": "Inclusion:\nNo prior treatment for metastatic PDAC\nPrior neoadjuvant/adjuvant therapy allowed if >12 months ago\nPrior palliative radiation allowed if completed ≥2 weeks before randomization and AEs resolved to ≤ Grade 1\nBiliary stent/tube allowed if no active obstruction and AEs ≤ Grade 1\n≥1 measurable lesion by CT/MRI (RECIST v1.1)\nAdequate organ, marrow, and coagulation function\nExclusion:\nPreviously treated for locally advanced, unresectable PDAC.\nHistory of brain metastases or leptomeningeal metastases.\nPrior treatment with a CD73 antagonist or inhibitor.",
+      "Coordinator": "Ochir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca ",
+      "NCT number": "NCT06608927"
+    },
+    {
+      "Disease Setting": "2L Metastatic+",
+      "Trial Name": "OZM-114\n\n",
+      "Full title": "Phase 1b Expansion Study of CX-5461 In Patients With Solid Tumors and BRCA2 and/or PALB2 mutation",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "Phase 1b Expansion Study of CX-5461 In Patients with Solid Tumors and BRCA2 and/or PALB2 mutation ",
+      "Eligibility ": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. ",
+      "Coordinator": "Nicole De Pinto\n416-946-4501 ext. 3132",
+      "NCT number": "NCT04890613"
+    },
+    {
+      "Disease Setting": "2L Metastatic+",
+      "Trial Name": "ADOPT\n\n\n",
+      "Full title": "ADOPT: ADaptive Organoid-Based Precision Therapy Study in Pancreatic Cancer, A Prospective Single-Arm Phase II Trial",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "PDO-directed therapy",
+      "Eligibility ": "Inclusion: \nAdvanced, inoperable PDAC\nStable disease or partial response to FOLFIRINOX after ≥4 months (Cohort B)\nDisease progression post-SOC (Cohort A)\nNo max prior treatment lines; recurrence within 6 months of adjuvant-intent chemo eligible\nMust have a Patient Derived Organoid (PDO) showing sensitivity to HC Marketed drug(s)\nExclusion:\nPatients concurrently receiving any other anti-cancer therapy\nPatients with ongoing toxicity ≥ CTCAE grade 2; ongoing\nperipheral neuropathy of ≥ CTCAE grade 3.\nPatients with a prior or concurrent malignancy whose natural\nhistory or treatment has the potential to interfere with the\nsafety or efficacy assessment of the investigational regimen.",
+      "Coordinator": "Mary (Lan) Wei\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
+      "NCT number": null
+    },
+    {
+      "Disease Setting": "2L Metastatic+",
+      "Trial Name": "BOLD-100-001\n\n \n\n",
+      "Full title": "A Phase 1b/2a Dose Escalation Study of BOLD-100 in Combination With FOLFOX Chemotherapy in Patients With Advanced Solid Tumours",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "Arm VII: dose expansion - randomized 1:1:1 open label to 500 mg/m2 or 625 mg/m2 BOLD-100 in combination with FOLFOX or FOLFOX alone \n\nBOLD-100: IV ruthenium-based small molecule decreasing GRP78 in tumor cells",
+      "Eligibility ": "Inclusion: \nHistologically and/or cytologically confirmed gastrointestinal tumours that are metastatic or unresectable, and have measurable disease according to RECIST v1.1 (at least one measurable lesion)\nARM VII --> subjects must have received only 1 prior line of therapy but remain naive to oxaliplatin prior to enrollment\nExclusion: \nMSH-H tumours; concurrent monoclonal antibody therapy: anti-EGFR or anti-VEGF ",
+      "Coordinator": "Nicole De Pinto\n416-946-4501 ext. 3132",
+      "NCT number": "NCT04421820"
+    },
+    {
+      "Disease Setting": "2L Metastatic+",
+      "Trial Name": "Platinum-Can\n\n\n",
+      "Full title": "Comparing Second-Line NABPLAGEM vs. Nab-paclitaxel/Gemcitabine in BRCA1/2 or PALB2 Mutant Metastatic Pancreatic Ductal Adenocarcinoma",
+      "Additional notes": "Comparing Second-Line NABPLAGEM vs. Nab-Paclitaxel/Gemcitabine in BRCA1/2 or PALB2 mutant Metastatic PDAC         \n\nECOG 0-2 \n                                                                                                \nMetastatic BRCA1/2 or PALB2 mutant PDAC\nPrevious first-line FOLFIRINOX +/- maintenance PARPi",
+      "Trial Intervention/Arms": "\nNABPLAGEM VS. nab-paclitaxel and gemcitabine\n\n",
+      "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma,\nadenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nexclusion: \nNo prior Cisplatin",
+      "Coordinator": "Dowon Choi\n\nDowon.Choi@uhn.ca\nPhone: 416-946-4501 x 4713",
+      "NCT number": "NCT06783140"
+    },
+    {
+      "Disease Setting": "Non-Therapeutic",
+      "Trial Name": "NUANCE\n\n",
+      "Full title": "Optimizing Nutrition in patients with PDAC on chemo",
+      "Additional notes": "Optimizing Nutrition in patients with PDAC on chemo ",
+      "Trial Intervention/Arms": "Weekly / monthly calls with Dietician, Clinical Nurse Specialist and Social Worker \n\nQOL questionnaires at BL, 2 months and 6 months ",
+      "Eligibility ": null,
+      "Coordinator": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
+      "NCT number": null
+    },
+    {
+      "Disease Setting": "Non-Therapeutic",
+      "Trial Name": "OPCS Registry\n",
+      "Full title": "Ontario Pancreas Cancer Study: Identifying genetic, environmental, and lifestyle causes of PDAC",
+      "Additional notes": "All PDAC patients\nOntario Pancreas Cancer Study: Identifying genetic, environmental, and lifestyle causes of PDAC",
+      "Trial Intervention/Arms": "Questionnaire + one-time blood draw",
+      "Eligibility ": null,
+      "Coordinator": "Dorian Facey: 437-779-7757\nRachel Ding: 437-990-4238",
+      "NCT number": null
+    },
+    {
+      "Disease Setting": "Non-Therapeutic",
+      "Trial Name": "HPB Banking Protocol\n\n",
+      "Full title": "HPB Banking Protocol",
+      "Additional notes": "All PDAC patients going to surgery who are not enrolled in Prosper-PANC \n\nAdvanced patients who are not eligible for Prosper-PANC but having a biopsy and investigator requests WGTS",
+      "Trial Intervention/Arms": "Fresh tumor collection for WGTS ± organoids",
+      "Eligibility ": null,
+      "Coordinator": "Dorian Facey: 437-779-7757\nRachel Ding: 437-990-4238",
+      "NCT number": null
+    },
+    {
+      "Disease Setting": "Non-Therapeutic",
+      "Trial Name": "WATCH-PC\n\n",
+      "Full title": "Wearable Devices and Remote Toxicity Checks to Predict Health Outcomes in Pancreatic Cancer",
+      "Additional notes": "Wearable Devices and Remote Toxicity Checks to Predict Health Outcomes in Pancreatic Cancer \n\nDiagnosis of epithelial pancreatic cancer, confirmed with biopsy or suspected based on review of imaging at the multi-disciplinary conference \n\nPlan for chemotherapy as part of treatment plan or ongoing treatment ",
+      "Trial Intervention/Arms": "Weekly questionnaires\n\nFitBit Smartwatch",
+      "Eligibility ": "Inclusion:\nDiagnosis of epithelial pancreatic cancer, confirmed with biopsy or suspected based on\nreview of imaging at the multi-disciplinary conference\nPlan for chemotherapy as part of treatment plan or ongoing treatment\nExclusion: \nLack of an email address\nInability to fluently speak and read English, given the questionnaires will only be\ndeveloped in English at first because of resource constraints\nInability or unwillingness to adhere to the study procedures, at the discretion of the\ninvestigator\nAdmitted as an inpatient at enrolment",
+      "Coordinator": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757\n\n",
+      "NCT number": null
+    }
+  ],
+  "pancreas_preactivation": [],
+  "BTC": [
+    {
+      "Disease Setting": "Adjuvant",
+      "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
+      "Full title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter, Global Study of Rilvegostomig in Combination With Chemotherapy as Adjuvant Treatment After Resection of Biliary Tract Cancer With Curative Intent (ARTEMIDE-Biliary01)",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "A: rilvegostomig + SOC\nB: placebo + SOC",
+      "Eligibility ": "R0/R1 resection, within 12 weeks\nNo ampullary/NET",
+      "Coordinator": "jennifer.knox@uhn.ca",
+      "NCT number": "NCT06109779"
+    },
+    {
+      "Disease Setting": "1st line",
+      "Trial Name": "Destiny-BTC01",
+      "Full title": "DESTINY-Biliary Tract Cancer-01: A Phase 3 Study of Trastuzumab Deruxtecan (T-DXd) and Rilvegostomig Versus Standard-of-Care Gemcitabine, Cisplatin, and Durvalumab for First Line Locally Advanced or Metastatic HER2-expressing Biliary Tract Cancer",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "A: TdXD + rilvegostomig\nB: TdXD\nC: GemCis/Durva",
+      "Eligibility ": "Unresectable, previously untreated,locally advanced or metastatic\nHer-2 +",
+      "Coordinator": "erica.tsang@uhn.ca",
+      "NCT number": "NCT06467357"
+    },
+    {
+      "Disease Setting": "1st line",
+      "Trial Name": "ZW25 + SOC vs SOC in Her-2+ BTC",
+      "Full title": "An Open-label Randomized Trial of the Efficacy and Safety of Zanidatamab With Standard-of-care Therapy Against Standard-of-care Therapy Alone for Advanced HER2-positive Biliary Tract Cancer",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "A: ZW25 + SOC\nB: SOC",
+      "Eligibility ": "Locally advanced unresectable or metastatic BTC and not eligible for curative resection, transplantation,or ablative therapies\nHer-2 +",
+      "Coordinator": "arndt.vogel@uhn.ca",
+      "NCT number": "NCT06282575"
+    },
+    {
+      "Disease Setting": "2nd or 3rd line",
+      "Trial Name": "Clarity-Pantumor",
+      "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2 (CLARITY-PanTumour01)",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "AZD0901",
+      "Eligibility ": "Claudin 18.2+\nPrior exposure to any CLDN18.2 targeted agents except anti-\nCLDN18.2 monoclonal antibody are excluded",
+      "Coordinator": "elena.elimova@uhn.ca",
+      "NCT number": "NCT06219941"
+    },
+    {
+      "Disease Setting": "2nd line",
+      "Trial Name": "ProvIHDe",
+      "Full title": "An Open-Label Early Access Phase 3b Study of Ivosidenib in Patients With a Pretreated Locally Advanced or Metastatic Cholangiocarcinoma",
+      "Additional notes": null,
+      "Trial Intervention/Arms": "Ivosidenib",
+      "Eligibility ": "IDH1+\nNot eligible for curative-intent resection, transplantation, or ablative therapies",
+      "Coordinator": "arndt.vogel@uhn.ca",
+      "NCT number": "NCT05876754"
+    }
+  ]
+}
