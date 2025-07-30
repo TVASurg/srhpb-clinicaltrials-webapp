@@ -205,6 +205,9 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
       }
     });
   });
+  
+  //highlight category selected for breadcrumb purposes
+  highlightCategory();
 }
 
 function fillTrialDetails(mainCategory, key) {
@@ -366,12 +369,23 @@ function parseContact(contact)
   
 }
 parseContact("Pre-screen:  \nDorian Facey: 437-779-7757 \nRachel Ding: 437-990-4238 \n\n\nScreen: guillaume.cheung@uhn.ca")
+
+function highlightCategory()
+{
+  const allCategories = document.getElementsByClassName("link-body-emphasis"); 
+  for (var category of allCategories)
+    {
+      if (category.classList.contains('selectedCategory'))
+      {
+        category.classList.remove('selectedCategory');
+      }
+    }
+  event.target.classList.add('selectedCategory');
+}
+
 addIndicator(); 
 initAllData();
 
-
-//button call is...
-//populateTrialDetails("mccainPancreas_2LM");
 
 /*
 
