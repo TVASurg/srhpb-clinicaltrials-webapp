@@ -60,6 +60,7 @@ const biliary_BTC_master = {
   setting: [],
   fullTitle: [],
   additionalNotes: [],
+  tissueRequirements: [],
   arms: [],
   keyCriteria: [],
   contact: [],
@@ -71,6 +72,7 @@ const liver_HCC_master  = {
   setting: [],
   fullTitle: [],
   additionalNotes: [],
+  tissueRequirements: [],
   arms: [],
   keyCriteria: [],
   contact: [],
@@ -82,62 +84,19 @@ const pancreas_master  = {
   setting: [],
   fullTitle: [],
   additionalNotes: [],
+  tissueRequirements: [],
   arms: [],
   keyCriteria: [],
   contact: [],
   NCT:[]  
 };
 
-/*const pancreas_preActivation ={
-        names: [
-          "Platinum-Can",
-          "WATCH-PC",
-          "PRISM-1"
-        ],
-        setting: [
-          "2L metastatic",
-          "Any",
-          "1L metastatic"
-        ],
-        fullTitle: [
-          "Comparing Second-Line NABPLAGEM vs. Nab-paclitaxel/Gemcitabine in BRCA1/2 or PALB2 Mutant Metastatic Pancreatic Ductal Adenocarcinoma",
-          "Wearable Devices and Remote Toxicity Checks to Predict Health Outcomes in Pancreatic Cancer",
-          "A Randomized, Placebo-Controlled, Double-Blind, Multicenter Phase 3 Trial of Quemliclustat and Chemotherapy Versus Placebo and Chemotherapy in Patients with Treatment Naïve Metastatic Pancreatic Ductal Adenocarcinoma"
-        ],
-        additionalNotes: [
-          "",
-          "Diagnosis of epithelial pancreatic cancer, confirmed with biopsy or suspected based on review of imaging at the multi-disciplinary conference<br/> Plan for chemotherapy as part of treatment plan or ongoing treatment",
-          ""
-        ],
-        arms: [
-          "Pre-Activation Pancreas Trials <br/> NABPLAGEM VS. NAB-PACLITAXEL/GEMCITABINE",
-          "Weekly questionnaires <br/>FitBit Smartwatch",
-          "Arm A (Experimental Arm)<br/>Doses and administration of quemliclustat, NP, and Gem will be administered using a 28-day cycle<br/><br/>Arm B (Comparator Arm)<br/>Doses and administration of placebo, NP,and Gem will be administered using a 28-day cycle"
-        ],
-        keyCriteria:
-        [
-          "ECOG 0-2<br/><br/>Histologic documentation of metastatic pancreatic adenocarcinoma, adenosquamous carcinoma, carcinoma or acinar carcinoma<br/><br/>Pathogenic BRCA1/2 or PALB2 mutation (somatic or germline)<br/><br/>Exclusion:<br/><br/>No prior Cisplatin",
-          "Inclusion:<br/><br/> Diagnosis of epithelial pancreatic cancer, confirmed with biopsy or suspected based on review of imaging at the multi-disciplinary conference<br/><br/> Plan for chemotherapy as part of treatment plan or ongoing treatment<br/><br/> Exclusion: <br/><br/> Lack of an email address<br/><br/> Inability to fluently speak and read English, given the questionnaires will only be developed in English at first because of resource constraints<br/><br/> Inability or unwillingness to adhere to the study procedures, at the discretion of the investigator<br/><br/> Admitted as an inpatient at enrolment",
-          "Inclusion:<br/><br/>No prior treatment for metastatic PDAC<br/><br/>Prior neoadjuvant/adjuvant therapy allowed if >12 months ago<br/><br/>Prior palliative radiation allowed if completed ≥2 weeks before randomization and AEs resolved to ≤ Grade 1<br/><br/>Biliary stent/tube allowed if no active obstruction and AEs ≤ Grade 1<br/><br/>≥1 measurable lesion by CT/MRI (RECIST v1.1)<br/><br/>Adequate organ, marrow, and coagulation function<br/><br/>Exclusion: <br/><br/>Previously treated for locally advanced, unresectable PDAC<br/><br/>History of brain metastases or leptomeningeal metastases.<br/><br/>Prior treatment with a CD73 antagonist or inhibitor."
-          
-        ],
-        contact: [
-          "TBD",
-          "Rachel Ding<br/> 437-990-4238<br/><br/> Dorian Facey<br/> 437-779-7757",
-          "Ochir Gansukh<br/> 416-946-4501 ext. 4551<br/> ochir.gansukh@uhn.ca"
-        ],
-        NCT: [
-          "NCT06783140",
-          "N/A",
-          "NCT06608927"
-        ]        
-      }*/
-
 const pancreas_preactivation = {
   names: [],
   setting: [],
   fullTitle: [],
   additionalNotes: [],
+  tissueRequirements: [],
   arms: [],
   keyCriteria: [],
   contact: [],
@@ -215,6 +174,7 @@ function fillTrialDetails(mainCategory, key) {
   var htmlString = "";
   var titleString = "";
   var notesString = "";
+  var tissueReqString = "";
   var armString = "";
   var criteriaString = "";
   var contactString = "";
@@ -224,10 +184,11 @@ function fillTrialDetails(mainCategory, key) {
   htmlString += '<ul class="list-group list-group p-3">';
 
   //Full title
-  titleString += '<li class="list-group-item bg-gray-200 text-gray-900">Full title</li><li class="list-group-item list-group-item-light ps-5">';
+  titleString += '<li class="bg-gray-200 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#fullTitleCollapse">Full title</li><li class="list-group-item list-group-item-light ps-5" id="fullTitleCollapse"><p class="py-2">';
   titleString += mainCategory[`fullTitle`][key];
-  titleString += '</li>';
+  titleString += '</p></li>';
   
+ 
   //Additional notes (optional)
   if(mainCategory[`additionalNotes`][key] != null)
     {
@@ -235,7 +196,6 @@ function fillTrialDetails(mainCategory, key) {
     notesString += mainCategory[`additionalNotes`][key];
     notesString += '</li>';
     }
-  
   
   //Arms
   armString += '<li class="list-group-item bg-gray-300 text-gray-900">Arms</li><li class="list-group-item list-group-item-light ps-5">';
@@ -265,7 +225,7 @@ function fillTrialDetails(mainCategory, key) {
     {
   NCTstring += '<li class="list-group-item bg-gray-600 text-gray-900">More information</li><li class="list-group-item list-group-item-light ps-5"><a target="_blank" href="https://clinicaltrials.gov/study/';
   NCTstring += mainCategory[`NCT`][key];
-  NCTstring += '">Link to Clinical Trials entry</a></li>';
+  NCTstring += '">Link to clinicaltrials.gov</li>';
     }   
 
   htmlString += titleString + notesString + armString + criteriaString + contactString + NCTstring;
@@ -368,7 +328,6 @@ function parseContact(contact)
   return(outputString);
   
 }
-parseContact("Pre-screen:  \nDorian Facey: 437-779-7757 \nRachel Ding: 437-990-4238 \n\n\nScreen: guillaume.cheung@uhn.ca")
 
 function highlightCategory()
 {
