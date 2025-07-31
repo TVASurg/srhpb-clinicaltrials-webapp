@@ -139,7 +139,7 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
       outputHTMLstring += '" autocomplete="off">';
 
       //this is the label for the button
-      outputHTMLstring += '<label class="btn btn-outline-secondary text-start" for="trialName';
+      outputHTMLstring += '<label class="btn btn-outline-dark text-start" for="trialName';
       outputHTMLstring += [i];
       outputHTMLstring += '">';
       outputHTMLstring += mainCategory[`names`][i];
@@ -184,7 +184,7 @@ function fillTrialDetails(mainCategory, key) {
   htmlString += '<ul class="list-group list-group p-3">';
 
   //Full title
-  titleString += '<li class="bg-gray-200 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#fullTitleCollapse">Full title</li><li class="list-inline-item ps-5 collapse" id="fullTitleCollapse"><p class="py-2">';
+  titleString += '<li class="list-group-item bg-gray-200 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#fullTitleCollapse">Full title</li><li class="list-inline-item ps-5 collapse" id="fullTitleCollapse"><p class="py-2">';
   titleString += mainCategory[`fullTitle`][key];
   titleString += '</p></li>';
   
