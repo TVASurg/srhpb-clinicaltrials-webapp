@@ -113,6 +113,10 @@ main {
   /*background-color: var(--bs-tertiary-bg);*/
 }
 
+#trialName {
+  scroll-margin-top:500px;
+}
+
 .scrollarea {
   overflow-y: auto;
 }
