@@ -202,10 +202,10 @@ function fillTrialDetails(mainCategory, key) {
  
   
   //Tissue requirements (optional)
-  if(mainCategory[`tissueRequrements`][key] != null)
+  if(mainCategory[`tissueRequirements`][key] != null)
     {
     tissueReqString += '<li class="list-group-item bg-gray-300 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#tissueReqCollapse">Tissue requirements</li><li class="list-inline-item ps-5 collapse" id="tissueReqCollapse"><p class="py-2">';
-    tissueReqString += mainCategory[`tissueRequrements`][key].replaceAll("\n", "<br/>");
+    tissueReqString += mainCategory[`tissueRequirements`][key].replaceAll("\n", "<br/>");
     tissueReqString += '</p></li>';
     }
   
