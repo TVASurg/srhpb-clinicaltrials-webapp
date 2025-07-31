@@ -184,7 +184,7 @@ function fillTrialDetails(mainCategory, key) {
   htmlString += '<ul class="list-group list-group p-3">';
 
   //Full title
-  titleString += '<li class="bg-gray-200 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#fullTitleCollapse">Full title</li><li class="list-group-item list-group-item-light ps-5" id="fullTitleCollapse"><p class="py-2">';
+  titleString += '<li class="bg-gray-200 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#fullTitleCollapse">Full title</li><li class="list-inline-item ps-5" id="fullTitleCollapse"><p class="py-2">';
   titleString += mainCategory[`fullTitle`][key];
   titleString += '</p></li>';
   
@@ -192,40 +192,41 @@ function fillTrialDetails(mainCategory, key) {
   //Additional notes (optional)
   if(mainCategory[`additionalNotes`][key] != null)
     {
-    notesString += '<li class="list-group-item bg-gray-200 text-gray-900">Additional notes</li><li class="list-group-item list-group-item-light ps-5">';
-    notesString += mainCategory[`additionalNotes`][key];
-    notesString += '</li>';
+    notesString += '<li class="list-group-item bg-gray-200 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#notesCollapse">Additional notes</li><li class="list-inline-item ps-5" id="notesCollapse"><p class="py-2">';
+    notesString += mainCategory[`additionalNotes`][key].replaceAll("\n", "<br/>");
+    notesString += '</p></li>';
     }
+ 
   
   //Arms
-  armString += '<li class="list-group-item bg-gray-300 text-gray-900">Arms</li><li class="list-group-item list-group-item-light ps-5">';
+  armString += '<li class="list-group-item bg-gray-300 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#armsCollapse">Arms</li><li class="list-inline-item ps-5" id="armsCollapse"><p class="py-2">';
   armString += mainCategory[`arms`][key].replaceAll("\n", "<br/>");
-  armString += "</li>";
+  armString += "</p></li>";
 
   //Key criteria
   if(mainCategory[`keyCriteria`][key] != null)
     {
-  criteriaString += '<li class="list-group-item bg-gray-400 text-gray-900">Key criteria</li><li class="list-group-item list-group-item-light ps-5">';
-  //criteriaString += mainCategory[`keyCriteria`][key];
+  criteriaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#keyCollapse">Key criteria</li><li class="list-inline-item ps-5" id="keyCollapse"><p class="py-2">';
   criteriaString += mainCategory[`keyCriteria`][key].replaceAll("\n", "<br/>");      
-  criteriaString += "</li>";
+  criteriaString += "</p></li>";
     }
 
   //Contact
-  contactString += '<li class="list-group-item bg-gray-500 text-gray-900">Contact</li><li class="list-group-item list-group-item-light ps-5">';
+  contactString += '<li class="list-group-item bg-gray-500 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#contactCollapse">Contact</li><li class="list-inline-item ps-5" id="contactCollapse"><p class="py-2">';
 
   
   //contactString += mainCategory[`contact`][key];
   //contactString += mainCategory[`contact`][key].replaceAll("\n", "<br/>");
   contactString += parseContact(mainCategory[`contact`][key]);
-  contactString += '</li>';
+  contactString += '</p></li>';
   
   //More information link
   if(mainCategory[`NCT`][key] != null)
     {
-  NCTstring += '<li class="list-group-item bg-gray-600 text-gray-900">More information</li><li class="list-group-item list-group-item-light ps-5"><a target="_blank" href="https://clinicaltrials.gov/study/';
+  NCTstring += '<li class="list-group-item bg-gray-600 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#nctCollapse">More information</li><li class="list-inline-item ps-5" id="nctCollapse"><p class="py-2">';
+  NCTstring += '<a target="_blank" href="https://clinicaltrials.gov/study/';
   NCTstring += mainCategory[`NCT`][key];
-  NCTstring += '">Link to clinicaltrials.gov</li>';
+  NCTstring += '">Link to clinicaltrials.gov</p></li>';
     }   
 
   htmlString += titleString + notesString + armString + criteriaString + contactString + NCTstring;
