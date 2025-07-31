@@ -113,8 +113,25 @@ main {
   /*background-color: var(--bs-tertiary-bg);*/
 }
 
-#trialName {
-  scroll-margin-top: 80px;
+@media (max-width: 768px) {
+  #trialName {
+    scroll-margin-top: 80px;
+  }
+
+  #scroll-spacer {
+    display: block;
+    height: 300px;
+  }
+}
+
+@media (min-width: 769px) {
+  #trialName {
+    scroll-margin-top: 200px;
+  }
+  
+  #scroll-spacer {
+    display: none;
+  }
 }
 
 .scrollarea {
