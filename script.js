@@ -12,6 +12,7 @@ function initAllData() {
             biliary_BTC_master["setting"].push(row["Disease Setting"]);
             biliary_BTC_master["fullTitle"].push(row["Full title"]);
             biliary_BTC_master["additionalNotes"].push(row["Additional notes"]);
+            biliary_BTC_master["tissueRequirements"].push(row["Tissue Requirements"]);
             biliary_BTC_master["arms"].push(row["Trial Intervention/Arms"]);
             biliary_BTC_master["keyCriteria"].push(row["Eligibility "]);
             biliary_BTC_master["contact"].push(row["Coordinator"]);
@@ -25,6 +26,7 @@ function initAllData() {
             liver_HCC_master["setting"].push(row["Disease Setting"]);
             liver_HCC_master["fullTitle"].push(row["Full title"]);
             liver_HCC_master["additionalNotes"].push(row["Additional notes"]);
+            liver_HCC_master["tissueRequirements"].push(row["Tissue Requirements"]);
             liver_HCC_master["arms"].push(row["Trial Intervention/Arms"]);
             liver_HCC_master["keyCriteria"].push(row["Eligibility "]);
             liver_HCC_master["contact"].push(row["Coordinator"]);
@@ -38,6 +40,7 @@ function initAllData() {
             pancreas_master["setting"].push(row["Disease Setting"]);
             pancreas_master["fullTitle"].push(row["Full title"]);
             pancreas_master["additionalNotes"].push(row["Additional notes"]);
+            pancreas_master["tissueRequirements"].push(row["Tissue Requirements"]);
             pancreas_master["arms"].push(row["Trial Intervention/Arms"]);
             pancreas_master["keyCriteria"].push(row["Eligibility "]);
             pancreas_master["contact"].push(row["Coordinator"]);
@@ -198,6 +201,15 @@ function fillTrialDetails(mainCategory, key) {
     }
  
   
+  //Tissue requirements (optional)
+  if(mainCategory[`tissueRequrements`][key] != null)
+    {
+    tissueReqString += '<li class="list-group-item bg-gray-300 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#tissueReqCollapse">Tissue requirements</li><li class="list-inline-item ps-5 collapse" id="tissueReqCollapse"><p class="py-2">';
+    tissueReqString += mainCategory[`tissueRequrements`][key].replaceAll("\n", "<br/>");
+    tissueReqString += '</p></li>';
+    }
+  
+  
   //Arms
   armString += '<li class="list-group-item bg-gray-300 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#armsCollapse">Arms</li><li class="list-inline-item ps-5 collapse" id="armsCollapse"><p class="py-2">';
   armString += mainCategory[`arms`][key].replaceAll("\n", "<br/>");
@@ -229,7 +241,7 @@ function fillTrialDetails(mainCategory, key) {
   NCTstring += '">Link to clinicaltrials.gov</p></li>';
     }   
 
-  htmlString += titleString + notesString + armString + criteriaString + contactString + NCTstring;
+  htmlString += titleString + notesString + armString + tissueReqString + criteriaString + contactString + NCTstring;
   
   htmlString += "</ul>";
 
