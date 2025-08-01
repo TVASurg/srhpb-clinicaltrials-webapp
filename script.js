@@ -344,11 +344,9 @@ function parseContact(contact)
   
 }
 
-parseContact("Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n");
-
 function highlightCategory()
 {
-  const allCategories = document.getElementsByClassName("link-body-emphasis"); 
+  const allCategories = document.getElementsByClassName("diseaseState"); 
   for (var category of allCategories)
     {
       if (category.classList.contains('selectedCategory'))
