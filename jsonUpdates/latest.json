@@ -76,7 +76,7 @@
       "Tissue Requirements": "Baseline EUS biopsy",
       "Trial Intervention/Arms": "Durvalumab 1500 mg IV x 1 dose and oleclumab 3000 mg x 2 doses Q2W prior to resection]",
       "Eligibility ": "Inclusion: \nResectable PDAC by NCCN criteria \nCA 19-9 < 300\nLife expectancy ≥ 12 weeks\n\nExclusion: \nAnticancer therapy within 21 days or palliative RT within 14 days prior to 1st dose\nOther invasive malignancy within 5 years.\nPrior receipt of any immune-mediated therapy\n\nOther invasive malignancy within 5 years\n\nPrior history of myocardial infarction, transient ischemic attack, congestive heart failure ≥ Class 3 based on New York Heart Association Functional Classification or stroke within the past 3 months prior to the scheduled first dose of study treatment.\n\nPositive for HIV",
-      "Contacts": "Mary (Lan) Wei\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
+      "Contacts": "Site PI:\nMalcolm Moore\nMalcolm.Moore@uhn.ca\n\nCoordinator:\nMary (Lan) Wei\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
       "NCT number": "NCT06060405"
     },
     {
@@ -98,7 +98,7 @@
       "Tissue Requirements": "Fresh tissue collection for WGTS + organoids ",
       "Trial Intervention/Arms": "Serial blood draws for ctDNA ",
       "Eligibility ": "Inclusion: \nUpfront resectable: definition of resectability will be according to NCCN guidelines and the patient must be planned for a surgery first approach.\nLife expectancy of ≥ 6 months\nMust be suitable for systemic therapy\nExclusion: \nHistologies excluded: colloid, high grade neuroendocrine\nPatients receiving neoadjuvant chemotherapy (neoadjuvant immunotherapy is permitted)",
-      "Contacts": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
+      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
       "NCT number": "NCT05927298"
     },
     {
@@ -109,7 +109,7 @@
       "Tissue Requirements": "Pre-radiation biopsy optional ",
       "Trial Intervention/Arms": "Ablative high dose RT: \n    50Gy/5Fx or \n    67.5Gy/15Fx or \n    75Gy/25Fx ",
       "Eligibility ": "Inclusion: \nPancreatic tumour <8.0 cm in greatest axial dimension - final determination  will be based upon satisfying the radiation normal tissue constraints.\nLife expectancy > 6 months\nPrior 1L chemotherapy for at least 16 weeks without clinical or radiographic progression\nExclusion: \nMetastatic disease at the time of registration\nPrior RT to the upper abdomen region that would result in overlap of RT volume\nCurrently on anti-cancer treatment including chemotherapy.",
-      "Contacts": "Dorian Facey: 437-779-7757\nRachel Ding: 437-990-4238",
+      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nDorian Facey: 437-779-7757\nRachel Ding: 437-990-4238",
       "NCT number": "NCT06453486"
     },
     {
@@ -131,7 +131,7 @@
       "Tissue Requirements": "Requires fresh tumor biopsy for WGTS + organoids ",
       "Trial Intervention/Arms": "Serial blood draws wk 2, 4, 8 and q8 for ctDNA ",
       "Eligibility ": "Inclusion: \nAll stages are eligible including locally advanced unresectable, first-line metastatic, second-line (or beyond) metastatic\nSingle lesion is to be biopsied: a minimum of 4 to 6 x 18 Gauge (G) good quality tumour cores must be safely obtainable.\nExclusion:\nWithout a tumour lesion amenable to biopsy or with tumour lesions that are not safe for sampling a minimum of 4 to 6 x 18G good quality tumour cores\nPatients who are not fit enough to undergo a tumour biopsy ",
-      "Contacts": "Rachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
+      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: 437-990-4238\nDorian Facey: 437-779-7757",
       "NCT number": "NCT05927298"
     },
     {
@@ -142,7 +142,7 @@
       "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue ",
       "Trial Intervention/Arms": "Arm1: AZD0901 in combination with 5FU/leucovorin and Irinotecan or nanoliposomal Irinotecan  \n\nArm2: AZD0901 combination with Gemcitabine ",
       "Eligibility ": "Inclusion: \nCLDN18.2 positive\nat least one measurable lesion according to RECIST v1.1.\nLife expectancy of ≥ 12 weeks.\nExclusion:\nUnstable or active peptic ulcer disease or digestive tract bleeding including but not limited to clinically significant bleeding in the setting of prior CLDN18.2 directed therapy.\nClinically significant ascites that require drainage.\nHistory of another primary malignancy.",
-      "Contacts": "Pre-screen:  \nDorian Facey: 437-779-7757 \nRachel Ding: 437-990-4238 \n\n\nScreen: guillaume.cheung@uhn.ca",
+      "Contacts": "Pre-screen:  \nDorian Facey: 437-779-7757 \nRachel Ding: 437-990-4238 \n\n\nScreen: \nGuillaume Cheung\nguillaume.cheung@uhn.ca",
       "NCT number": "NCT06219941"
     },
     {
@@ -153,7 +153,7 @@
       "Tissue Requirements": "Pre-screen: needs archival or fresh tissue",
       "Trial Intervention/Arms": "AMG 193 alone or in combination with mFOLFIRINOX or with Gemcitabine and Nab-paclitaxel",
       "Eligibility ": "Inclusion:\nECOG 0-1 \nTumor tissue (FFPE sample) or an archival block must be available. Participants without archived tumor tissue available may be allowed to enroll by undergoing tumor biopsy before dosing.\nHomozygous MTAP-deletion\nDisease measurable as defined by RECIST v1.1.\nExclusion:\nPrior systemic therapy for advanced or unresectable (locally advanced) adenocarcinoma of the pancreas.\nPrior treatment with a MAT2A inhibitor or a PRMT5 inhibitor.\nRadiation therapy within 28 days of first dose.\n",
-      "Contacts": "Ochir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca \n\nMaggie Hildebrand : \nMaggie.Hildebrand@uhn.ca",
+      "Contacts": "Ochir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca \n\nMaggie Hildebrand \nMaggie.Hildebrand@uhn.ca",
       "NCT number": "NCT06360354"
     },
     {
@@ -219,7 +219,7 @@
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "NABPLAGEM VS. nab-paclitaxel and gemcitabine\n\n",
       "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma,\nadenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nexclusion: \nNo prior Cisplatin",
-      "Contacts": "Dowon Choi\n\nDowon.Choi@uhn.ca\nPhone: 416-946-4501 x 4713",
+      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nDowon Choi\nDowon.Choi@uhn.ca\nPhone: 416-946-4501 x 4713",
       "NCT number": "NCT06783140"
     },
     {
