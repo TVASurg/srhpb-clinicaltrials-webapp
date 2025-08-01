@@ -302,6 +302,7 @@ function parseContact(contact)
   //that uses the 'replace()' to replace the email with an ahref mailto link
       for (const element of emailMatches){
         var constructedEmailLink = '<a href=\"mailto:' + element + '\">' + element + '</a>';
+        
         outputString = outputString.replace(element, constructedEmailLink);
   }
   }
@@ -334,13 +335,16 @@ function parseContact(contact)
         outputString = outputString.replace(phoneMatches[i], constructedPhoneLink);
       }
     
-   outputString = outputString.replaceAll("\n", " <br/> ");
+   
+   
   }
- 
+  outputString = outputString.replaceAll("\n", " <br/> ");
   //document.getElementById("lastUpdated").innerHTML = outputString;
   return(outputString);
   
 }
+
+parseContact("Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n");
 
 function highlightCategory()
 {
