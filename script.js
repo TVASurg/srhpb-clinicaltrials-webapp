@@ -15,7 +15,7 @@ function initAllData() {
             biliary_BTC_master["tissueRequirements"].push(row["Tissue Requirements"]);
             biliary_BTC_master["arms"].push(row["Trial Intervention/Arms"]);
             biliary_BTC_master["keyCriteria"].push(row["Eligibility "]);
-            biliary_BTC_master["contact"].push(row["Coordinator"]);
+            biliary_BTC_master["contact"].push(row["Contacts"]);
             biliary_BTC_master["NCT"].push(row["NCT number"]);
           });
         }
@@ -29,7 +29,7 @@ function initAllData() {
             liver_HCC_master["tissueRequirements"].push(row["Tissue Requirements"]);
             liver_HCC_master["arms"].push(row["Trial Intervention/Arms"]);
             liver_HCC_master["keyCriteria"].push(row["Eligibility "]);
-            liver_HCC_master["contact"].push(row["Coordinator"]);
+            liver_HCC_master["contact"].push(row["Contacts"]);
             liver_HCC_master["NCT"].push(row["NCT number"]);
           });
         }
@@ -43,7 +43,7 @@ function initAllData() {
             pancreas_master["tissueRequirements"].push(row["Tissue Requirements"]);
             pancreas_master["arms"].push(row["Trial Intervention/Arms"]);
             pancreas_master["keyCriteria"].push(row["Eligibility "]);
-            pancreas_master["contact"].push(row["Coordinator"]);
+            pancreas_master["contact"].push(row["Contacts"]);
             pancreas_master["NCT"].push(row["NCT number"]);
           });
         }
