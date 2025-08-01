@@ -107,6 +107,8 @@ const pancreas_preactivation = {
 };
 
 function fillTrialNameBasedOnSetting(mainCategory, setting) {
+  document.getElementById("scroll-spacer").style.display= 'block';
+  
   //user input dicates which main category we're going into
   var totalTrialsAvailable = mainCategory[`names`].length;
   var outputHTMLstring = "";
@@ -247,6 +249,7 @@ function fillTrialDetails(mainCategory, key) {
 
   
   document.getElementById("trialDetails").innerHTML = htmlString;
+  document.getElementById("scroll-spacer").style.display= 'none';
 }
 
 function addIndicator(){
