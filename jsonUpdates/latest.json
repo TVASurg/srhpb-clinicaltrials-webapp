@@ -10,7 +10,7 @@
       "Eligibility ": "Resectable HCC",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n",
       "NCT number": "NCT05440864",
-      "Notes column 01 (non public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
+      "Notes column 01 (not public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     },
     {
       "Disease Setting": "Pre-transplant",
@@ -22,7 +22,7 @@
       "Eligibility ": "HCC, candidate for liver transplant",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca",
       "NCT number": "NCT05185505",
-      "Notes column 01 (non public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
+      "Notes column 01 (not public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     },
     {
       "Disease Setting": "1st line",
@@ -34,7 +34,7 @@
       "Eligibility ": "HCC, not prior systemic therapy \nNo main portal vein thrombosis ",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n",
       "NCT number": "NCT06921785",
-      "Notes column 01 (non public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
+      "Notes column 01 (not public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     },
     {
       "Disease Setting": "1st or 2nd",
@@ -46,7 +46,7 @@
       "Eligibility ": "Recurrence after transplant",
       "Contacts": "Site PIs:\nRobert Grant\nrobert.grant@uhn.ca\n\nJennifer Knox\njennifer.knox@uhn.ca",
       "NCT number": "NCT04204850",
-      "Notes column 01 (non public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
+      "Notes column 01 (not public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     },
     {
       "Disease Setting": "Any line",
@@ -58,7 +58,7 @@
       "Eligibility ": "FGF/FGFR pathway alteration",
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca",
       "NCT number": "NCT06915753",
-      "Notes column 01 (non public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
+      "Notes column 01 (not public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     },
     {
       "Disease Setting": "Last line",
@@ -70,7 +70,7 @@
       "Eligibility ": "CTNNB1 or AXIN1\nPre- and on treatment biopies",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca",
       "NCT number": "NCT05797805",
-      "Notes column 01 (non public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
+      "Notes column 01 (not public)": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     }
   ],
   "PDAC": [
