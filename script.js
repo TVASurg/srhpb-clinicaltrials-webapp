@@ -5,7 +5,7 @@ function initAllData() {
     .then(data => {
       // Loop through each sheet
         for (const [sheetName, rows] of Object.entries(data)) {
-        if (sheetName === "BTC") {
+        if (sheetName === "CCA") {
           rows.forEach((row, i) => {
             // Make sure biliary_BTC_master is defined and has a names array
             biliary_BTC_master["names"].push(row["Trial Name"]);
@@ -33,7 +33,7 @@ function initAllData() {
             liver_HCC_master["NCT"].push(row["NCT number"]);
           });
         }
-        else if (sheetName === "pancreas") {
+        else if (sheetName === "PDAC") {
           rows.forEach((row, i) => {
             // Make sure biliary_BTC_master is defined and has a names array
             pancreas_master["names"].push(row["Trial Name"]);
