@@ -9,7 +9,8 @@
       "Trial Intervention/Arms": "Durva + treme",
       "Eligibility ": "Resectable HCC",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n",
-      "NCT number": "NCT05440864"
+      "NCT number": "NCT05440864",
+      "Notes column 01": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     },
     {
       "Disease Setting": "Pre-transplant",
@@ -20,7 +21,8 @@
       "Trial Intervention/Arms": "Atezo + bev",
       "Eligibility ": "HCC, candidate for liver transplant",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca",
-      "NCT number": "NCT05185505"
+      "NCT number": "NCT05185505",
+      "Notes column 01": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     },
     {
       "Disease Setting": "1st line",
@@ -31,7 +33,8 @@
       "Trial Intervention/Arms": "A: Rilvegostomig + bev \nB: rilvegostomig + bev + tremelimumab",
       "Eligibility ": "HCC, not prior systemic therapy \nNo main portal vein thrombosis ",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n",
-      "NCT number": "NCT06921785"
+      "NCT number": "NCT06921785",
+      "Notes column 01": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     },
     {
       "Disease Setting": "1st or 2nd",
@@ -42,7 +45,8 @@
       "Trial Intervention/Arms": "Cabozanitnib",
       "Eligibility ": "Recurrence after transplant",
       "Contacts": "Site PIs:\nRobert Grant\nrobert.grant@uhn.ca\n\nJennifer Knox\njennifer.knox@uhn.ca",
-      "NCT number": "NCT04204850"
+      "NCT number": "NCT04204850",
+      "Notes column 01": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     },
     {
       "Disease Setting": "Any line",
@@ -53,7 +57,8 @@
       "Trial Intervention/Arms": "TYR430",
       "Eligibility ": "FGF/FGFR pathway alteration",
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca",
-      "NCT number": "NCT06915753"
+      "NCT number": "NCT06915753",
+      "Notes column 01": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     },
     {
       "Disease Setting": "Last line",
@@ -64,7 +69,8 @@
       "Trial Intervention/Arms": "BC2059, or BC2059+pembro",
       "Eligibility ": "CTNNB1 or AXIN1\nPre- and on treatment biopies",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca",
-      "NCT number": "NCT05797805"
+      "NCT number": "NCT05797805",
+      "Notes column 01": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur posuere nisi, tincidunt pellentesque ligula mollis vitae. Ut scelerisque ligula ante, eget vehicula dolor venenatis id. "
     }
   ],
   "pancreas": [
