@@ -17,6 +17,7 @@ function initAllData() {
             biliary_BTC_master["keyCriteria"].push(row["Eligibility "]);
             biliary_BTC_master["contact"].push(row["Contacts"]);
             biliary_BTC_master["NCT"].push(row["NCT number"]);
+            biliary_BTC_master["schema"].push(row["Schema image data"]);
           });
         }
         else if (sheetName === "HCC") {
@@ -31,6 +32,7 @@ function initAllData() {
             liver_HCC_master["keyCriteria"].push(row["Eligibility "]);
             liver_HCC_master["contact"].push(row["Contacts"]);
             liver_HCC_master["NCT"].push(row["NCT number"]);
+            liver_HCC_master["schema"].push(row["Schema image data"]);
           });
         }
         else if (sheetName === "PDAC") {
@@ -69,7 +71,8 @@ const biliary_BTC_master = {
   arms: [],
   keyCriteria: [],
   contact: [],
-  NCT:[]  
+  NCT:[],
+  schema:[]
 };
 
 const liver_HCC_master  = {
@@ -81,7 +84,8 @@ const liver_HCC_master  = {
   arms: [],
   keyCriteria: [],
   contact: [],
-  NCT:[]  
+  NCT:[],
+  schema:[]
 };
 
 const pancreas_master  = {
@@ -106,7 +110,8 @@ const pancreas_preactivation = {
   arms: [],
   keyCriteria: [],
   contact: [],
-  NCT:[]  
+  NCT:[],
+  schema:[]
 };
 
 function fillTrialNameBasedOnSetting(mainCategory, setting) {
@@ -232,9 +237,9 @@ function fillTrialDetails(mainCategory, key) {
   //Schema
   if(mainCategory[`schema`][key] != null)
     {
-  schemaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#schemaCollapse">Schema</li><li class="list-inline-item ps-5 collapse" id="schemaCollapse"><a class="py-2" href=';
+  schemaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#schemaCollapse">Schema</li><li class="list-inline-item ps-5 collapse" id="schemaCollapse"><p class="my-2"><a href=';
   schemaString += `'` + mainCategory[`schema`][key] + `' target='_blank'`; 
-  schemaString += ">View schema</a></li>";
+  schemaString += ">View schema</a></p></li>";
     }
 
   //Contact
