@@ -45,6 +45,8 @@ function initAllData() {
             pancreas_master["keyCriteria"].push(row["Eligibility "]);
             pancreas_master["contact"].push(row["Contacts"]);
             pancreas_master["NCT"].push(row["NCT number"]);
+            //adding in base64 encoded images
+            pancreas_master["schema"].push(row["Schema image data"]);
           });
         }
 
@@ -91,7 +93,8 @@ const pancreas_master  = {
   arms: [],
   keyCriteria: [],
   contact: [],
-  NCT:[]  
+  NCT:[],
+  schema:[]
 };
 
 const pancreas_preactivation = {
@@ -182,6 +185,7 @@ function fillTrialDetails(mainCategory, key) {
   var tissueReqString = "";
   var armString = "";
   var criteriaString = "";
+  var schemaString = "";
   var contactString = "";
   var NCTstring = "";
 
@@ -223,6 +227,14 @@ function fillTrialDetails(mainCategory, key) {
   criteriaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#keyCollapse">Key criteria</li><li class="list-inline-item ps-5 collapse" id="keyCollapse"><p class="py-2">';
   criteriaString += mainCategory[`keyCriteria`][key].replaceAll("\n", "<br/>");      
   criteriaString += "</p></li>";
+    }
+  
+  //Schema
+  if(mainCategory[`schema`][key] != null)
+    {
+  schemaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#schemaCollapse">Schema</li><li class="list-inline-item ps-5 collapse" id="schemaCollapse"><a class="py-2" href=';
+  schemaString += `'` + mainCategory[`schema`][key] + `' target='_blank'`; 
+  schemaString += ">View schema</a></li>";
     }
 
   //Contact
