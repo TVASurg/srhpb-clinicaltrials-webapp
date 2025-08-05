@@ -255,7 +255,7 @@ function fillTrialDetails(mainCategory, key) {
   NCTstring += '">Link to clinicaltrials.gov</p></li>';
     }   
 
-  htmlString += titleString + notesString + armString + tissueReqString + criteriaString + contactString + NCTstring;
+  htmlString += titleString + notesString + armString + tissueReqString + criteriaString + schemaString+ contactString + NCTstring;
   
   htmlString += "</ul>";
 
