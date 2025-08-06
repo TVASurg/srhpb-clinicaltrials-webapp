@@ -237,7 +237,7 @@ function fillTrialDetails(mainCategory, key) {
   //Schema
   if(mainCategory[`schema`][key] != null)
     {
-  schemaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#schemaCollapse">Schema</li><li class="list-inline-item ps-5 collapse" id="schemaCollapse"><p class="my-2"><a href="" onclick="openImage(`';
+  schemaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#schemaCollapse">Schema</li><li class="list-inline-item ps-5 collapse" id="schemaCollapse"><p class="my-2"><a href="" onclick="event.preventDefault(); openImage(`';
   schemaString += mainCategory[`schema`][key]; 
   schemaString += '`)">View schema</a></p></li>';
     }
