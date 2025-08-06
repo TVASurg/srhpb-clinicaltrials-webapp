@@ -237,9 +237,9 @@ function fillTrialDetails(mainCategory, key) {
   //Schema
   if(mainCategory[`schema`][key] != null)
     {
-  schemaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#schemaCollapse">Schema</li><li class="list-inline-item ps-5 collapse" id="schemaCollapse"><p class="my-2"><a href=';
-  schemaString += `'` + mainCategory[`schema`][key] + `' target='_blank'`; 
-  schemaString += ">View schema</a></p></li>";
+  schemaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#schemaCollapse">Schema</li><li class="list-inline-item ps-5 collapse" id="schemaCollapse"><p class="my-2"><a onclick="openImage(';
+  schemaString += mainCategory[`schema`][key]; 
+  schemaString += ')">View schema</a></p></li>';
     }
 
   //Contact
@@ -379,6 +379,35 @@ function highlightCategory()
 
 addIndicator(); 
 initAllData();
+
+function openImage(dataUrl) {
+    // Extract base64 part and MIME type from the data URL
+    const matches = dataUrl.match(/^data:(.+);base64,(.*)$/);
+    if (!matches) {
+        console.error("Invalid data URL");
+        return;
+    }
+    const mimeType = matches[1];
+    const base64Data = matches[2];
+
+    // Convert base64 to byte array
+    const byteCharacters = atob(base64Data);
+    const byteNumbers = new Array(byteCharacters.length);
+    for (let i = 0; i < byteCharacters.length; i++) {
+        byteNumbers[i] = byteCharacters.charCodeAt(i);
+    }
+    const byteArray = new Uint8Array(byteNumbers);
+
+    // Create a Blob and object URL
+    const blob = new Blob([byteArray], { type: mimeType });
+    const blobUrl = URL.createObjectURL(blob);
+
+    // Open in new tab
+    window.open(blobUrl, '_blank');
+
+    // Optional: release memory after a while
+    setTimeout(() => URL.revokeObjectURL(blobUrl), 10000);
+}
 
 
 /*
