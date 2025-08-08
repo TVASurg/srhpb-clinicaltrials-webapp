@@ -241,7 +241,7 @@ function fillTrialDetails(mainCategory, key) {
   // schemaString += '<a href="" onclick="event.preventDefault(); openImage(`';
   // schemaString += mainCategory[`schema`][key]; 
   // schemaString += '`)">View Schema</a></p></li>';
-  schemaString += "<img class='img-fluid m-0 p-0 my-2 py-2' src='";
+  schemaString += "<img class='img-fluid mx-0 px-0 my-2 py-2' src='";
   schemaString += mainCategory[`schema`][key];
   schemaString += "'></p>";
     }
@@ -413,6 +413,18 @@ function openImage(dataUrl) {
     setTimeout(() => URL.revokeObjectURL(blobUrl), 10000);
 }
 
+function ericList()
+{
+  const { jsPDF } = window.jspdf;
+// Default export is a4 paper, portrait, using millimeters for units
+const doc = new jsPDF();
+
+//build from here: https://raw.githack.com/MrRio/jsPDF/master/index.html 
+//doc.text("Hello world!", 10, 10);
+//doc.save("a4.pdf");
+}
+ 
+ericList();
 
 /*
 
