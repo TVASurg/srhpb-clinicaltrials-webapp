@@ -237,9 +237,13 @@ function fillTrialDetails(mainCategory, key) {
   //Schema
   if(mainCategory[`schema`][key] != null)
     {
-  schemaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#schemaCollapse">Schema</li><li class="list-inline-item ps-5 collapse" id="schemaCollapse"><p class="my-2"><a href="" onclick="event.preventDefault(); openImage(`';
-  schemaString += mainCategory[`schema`][key]; 
-  schemaString += '`)">View schema</a></p></li>';
+  schemaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#schemaCollapse">Schema</li><li class="list-inline-item ps-5 collapse" id="schemaCollapse"><p class="my-2">';
+  // schemaString += '<a href="" onclick="event.preventDefault(); openImage(`';
+  // schemaString += mainCategory[`schema`][key]; 
+  // schemaString += '`)">View Schema</a></p></li>';
+  schemaString += "<img class='img-fluid m-0 p-0 my-2 py-2' src='";
+  schemaString += mainCategory[`schema`][key];
+  schemaString += "'></p>";
     }
 
   //Contact
