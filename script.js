@@ -1,9 +1,9 @@
+
 //idea is the pull the master JSON file
 function initAllData() {
   fetch(`/jsonUpdates/latest.json?ver=${Date.now()}`)
     .then(res => res.json())
-    .then(data => {
-
+    .then(data => { 
       ericList(data);
       // Loop through each sheet
         for (const [sheetName, rows] of Object.entries(data)) {
@@ -63,6 +63,7 @@ function initAllData() {
 
 //then populate these const arrays 
 //the other fun functions can proceed as usual
+
 
 const biliary_BTC_master = {
   names: [],
@@ -415,12 +416,11 @@ function openImage(dataUrl) {
     setTimeout(() => URL.revokeObjectURL(blobUrl), 10000);
 }
 
-function ericList(data)
-{
-  const { jsPDF } = window.jspdf;
-
+const { jsPDF } = window.jspdf;
 const doc = new jsPDF("landscape");
 
+function ericList(data)
+{
 // Build rows from mapping, with multi-line first column
 // We're going to separate these into specific sheets for now (HCC/PDAC/CCA)
 
@@ -539,7 +539,7 @@ doc.autoTable({
   head: [headers],
   body: rows,
   styles: { fontSize: 10, cellPadding: 2, overflow: 'linebreak', lineWidth: 0.2, lineColor: [50, 50, 50]},
-  headStyles: { fillColor: [84, 209, 126], textColor: 255 },
+  headStyles: { fillColor: [173, 123, 172], textColor: 255 },
   pagebreak: 'auto',
   rowPageBreak: 'avoid',
   columnStyles: {
@@ -553,7 +553,7 @@ doc.autoTable({
   didParseCell: function (data) {
     if (data.section === 'body') {
       if (data.row.index % 2 === 0 && data.column.index > 0 ) {
-        data.cell.styles.fillColor = [135, 230, 167];
+        data.cell.styles.fillColor = [224, 182, 224];
       } else if (data.column.index > 0){
         data.cell.styles.fillColor = [255, 255, 255];
       }
@@ -588,11 +588,7 @@ doc.autoTable({
     }
   }
 });
- 
-
-
 }
-
 if (data.CCA != null){
 // Map of PDF header → JSON key
 const columnMap = [
@@ -670,12 +666,12 @@ doc.autoTable({
 });
  
 }
-
-//doc.save("final.pdf");  
-
 }
- 
-//ericList();
+
+function printCommunityList()
+{
+  doc.save("testClinicalTrialsList.pdf");  
+}
 
 /*
 
