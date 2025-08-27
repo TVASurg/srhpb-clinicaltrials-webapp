@@ -505,7 +505,6 @@ doc.autoTable({
 }
 
 if (data.PDAC != null){
-
 // Map of PDF header → JSON key
 const columnMap = [
   { header: "", key: null }, // first column for vertical rowspan text
@@ -515,27 +514,36 @@ const columnMap = [
   { header: "Key Criteria", key: "Additional notes" },
   { header: "Contact", key: "Contacts" }
 ];
-
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
+//we may need to cull the contacts for just site PI;
+
 
 const rows = data.PDAC.map(trial =>
   columnMap.map((col, colIndex) => {
-    return trial[col.key] ?? "";
+    let value = trial[col.key] ?? "";
+
+    if (typeof value === "string" && value.includes("Coordinator")) {
+      // Keep only text before "Coordinator"
+      value = value.split("Coordinator")[0].trim();
+    }
+
+    return value;
   })
 );
 
 // Variable to store rowspan height
 let groupRowSpanHeight = 0;
-
 doc.addPage();
 doc.autoTable({
   head: [headers],
   body: rows,
   styles: { fontSize: 10, cellPadding: 2, overflow: 'linebreak', lineWidth: 0.2, lineColor: [50, 50, 50]},
   headStyles: { fillColor: [84, 209, 126], textColor: 255 },
+  pagebreak: 'auto',
+  rowPageBreak: 'avoid',
   columnStyles: {
-    0: { cellWidth: 12 },
+    0: { cellWidth: 12, lineWidth: 0, textColor: 255, fillColor: false },
     1: { cellWidth: 80 },
     2: { cellWidth: 30 },
     3: { cellWidth: 55 },
@@ -544,38 +552,38 @@ doc.autoTable({
   },
   didParseCell: function (data) {
     if (data.section === 'body') {
-      if (data.row.index % 2 === 0) {
+      if (data.row.index % 2 === 0 && data.column.index > 0 ) {
         data.cell.styles.fillColor = [135, 230, 167];
-      } else {
+      } else if (data.column.index > 0){
         data.cell.styles.fillColor = [255, 255, 255];
       }
     }
   },
+  didDrawPage: function (data) {
+    const table = data.table;
+    const startY = table.settings.margin.top;   // top of header
+    const endY = data.cursor.y;                  // bottom of rows on this page
+    const startX = table.settings.margin.left;
+    const cellWidth = 11;                       // width of your rotated column
+
+    // Draw filled rectangle spanning header + body for this page
+    doc.setFillColor(173, 123, 172);
+    doc.rect(startX, startY, cellWidth, endY - startY, 'F');
+
+
+    // Rotated text
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(15);
+    doc.setFont("helvetica", "bold");
+    doc.text("PDAC", startX + cellWidth / 2 + 9.5, startY + (endY - startY) / 2, {
+      angle: 90,
+      align: 'center',
+      baseline: 'middle'
+    });
+  },
   willDrawCell: function(data) {
     // Skip all cells in the first column (header + body)
     if (data.column.index === 0) {
-      if (data.row.index === 0 && data.section === 'body') {
-        const table = data.table;
-        
-        // Calculate total height including header + body
-        const totalHeight = table.head.reduce((sum, row) => sum + row.height, 0)
-                          + table.body.reduce((sum, row) => sum + row.height, 0);
-        const x = data.cell.x;
-        const y = table.head[0].cells[0].y; // start at top of header
-        const width = data.cell.width -1;
-
-        // Draw the filled rectangle
-        doc.setFillColor(84, 209, 126);
-        doc.rect(x, y, width, totalHeight, 'F');
-
-        // Draw rotated text, centered vertically + horizontally
-        const centerX = x + width / 2 + 8;
-        const centerY = y + totalHeight / 2;
-        doc.setTextColor(255, 255, 255);
-        doc.setFontSize(15);
-        doc.setFont("helvetica", "bold");
-        doc.text("PDAC", centerX, centerY, { angle: 90, align: 'center' });
-      }
       return false; // skip drawing this cell
     }
   }
@@ -663,8 +671,7 @@ doc.autoTable({
  
 }
 
-//doc.save("final.pdf");
-
+//doc.save("final.pdf");  
 
 }
  
