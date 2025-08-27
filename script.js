@@ -575,7 +575,7 @@ doc.autoTable({
     doc.setTextColor(255, 255, 255);
     doc.setFontSize(15);
     doc.setFont("helvetica", "bold");
-    doc.text("PDAC", startX + cellWidth / 2 + 9.5, startY + (endY - startY) / 2, {
+    doc.text("PDAC", startX + cellWidth / 2 + 9.45, startY + (endY - startY) / 2, {
       angle: 90,
       align: 'center',
       baseline: 'middle'
