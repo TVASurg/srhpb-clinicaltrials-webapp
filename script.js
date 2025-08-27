@@ -421,7 +421,10 @@ function ericList(data)
 
 const doc = new jsPDF("landscape");
 
+// Build rows from mapping, with multi-line first column
+// We're going to separate these into specific sheets for now (HCC/PDAC/CCA)
 
+if (data.HCC != null){
 
 // Map of PDF header → JSON key
 const columnMap = [
@@ -436,7 +439,6 @@ const columnMap = [
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 
-// Build rows from mapping, with multi-line first column
 const rows = data.HCC.map(trial =>
   columnMap.map((col, colIndex) => {
     return trial[col.key] ?? "";
@@ -498,8 +500,170 @@ doc.autoTable({
   }
 });
  
-doc.save('table.pdf'); 
 
+
+}
+
+if (data.PDAC != null){
+
+// Map of PDF header → JSON key
+const columnMap = [
+  { header: "", key: null }, // first column for vertical rowspan text
+  { header: "Title", key: "Trial Name" },
+  { header: "Setting", key: "Disease Setting" },
+  { header: "Arms", key: "Trial Intervention/Arms" },
+  { header: "Key Criteria", key: "Additional notes" },
+  { header: "Contact", key: "Contacts" }
+];
+
+// Build headers from mapping
+const headers = columnMap.map(col => col.header);
+
+const rows = data.PDAC.map(trial =>
+  columnMap.map((col, colIndex) => {
+    return trial[col.key] ?? "";
+  })
+);
+
+// Variable to store rowspan height
+let groupRowSpanHeight = 0;
+
+doc.addPage();
+doc.autoTable({
+  head: [headers],
+  body: rows,
+  styles: { fontSize: 10, cellPadding: 2, overflow: 'linebreak', lineWidth: 0.2, lineColor: [50, 50, 50]},
+  headStyles: { fillColor: [84, 209, 126], textColor: 255 },
+  columnStyles: {
+    0: { cellWidth: 12 },
+    1: { cellWidth: 80 },
+    2: { cellWidth: 30 },
+    3: { cellWidth: 55 },
+    4: { cellWidth: 55 },
+    5: { cellWidth: 40 }
+  },
+  didParseCell: function (data) {
+    if (data.section === 'body') {
+      if (data.row.index % 2 === 0) {
+        data.cell.styles.fillColor = [135, 230, 167];
+      } else {
+        data.cell.styles.fillColor = [255, 255, 255];
+      }
+    }
+  },
+  willDrawCell: function(data) {
+    // Skip all cells in the first column (header + body)
+    if (data.column.index === 0) {
+      if (data.row.index === 0 && data.section === 'body') {
+        const table = data.table;
+        
+        // Calculate total height including header + body
+        const totalHeight = table.head.reduce((sum, row) => sum + row.height, 0)
+                          + table.body.reduce((sum, row) => sum + row.height, 0);
+        const x = data.cell.x;
+        const y = table.head[0].cells[0].y; // start at top of header
+        const width = data.cell.width -1;
+
+        // Draw the filled rectangle
+        doc.setFillColor(84, 209, 126);
+        doc.rect(x, y, width, totalHeight, 'F');
+
+        // Draw rotated text, centered vertically + horizontally
+        const centerX = x + width / 2 + 8;
+        const centerY = y + totalHeight / 2;
+        doc.setTextColor(255, 255, 255);
+        doc.setFontSize(15);
+        doc.setFont("helvetica", "bold");
+        doc.text("PDAC", centerX, centerY, { angle: 90, align: 'center' });
+      }
+      return false; // skip drawing this cell
+    }
+  }
+});
+ 
+
+
+}
+
+if (data.CCA != null){
+// Map of PDF header → JSON key
+const columnMap = [
+  { header: "", key: null }, // first column for vertical rowspan text
+  { header: "Title", key: "Trial Name" },
+  { header: "Setting", key: "Disease Setting" },
+  { header: "Arms", key: "Trial Intervention/Arms" },
+  { header: "Key Criteria", key: "Eligibility " },
+  { header: "Contact", key: "Contacts" }
+];
+
+// Build headers from mapping
+const headers = columnMap.map(col => col.header);
+
+  const HCCrows = data.CCA.map(trial =>
+  columnMap.map((col, colIndex) => {
+    return trial[col.key] ?? "";
+  })
+);
+
+// Variable to store rowspan height
+let groupRowSpanHeight = 0;
+
+doc.addPage();
+doc.autoTable({
+  head: [headers],
+  body: HCCrows,
+  styles: { fontSize: 10, cellPadding: 2, overflow: 'linebreak', lineWidth: 0.2, lineColor: [50, 50, 50]},
+  headStyles: { fillColor: [6, 147, 110], textColor: 255 },
+  columnStyles: {
+    0: { cellWidth: 12 },
+    1: { cellWidth: 80 },
+    2: { cellWidth: 30 },
+    3: { cellWidth: 55 },
+    4: { cellWidth: 55 },
+    5: { cellWidth: 40 }
+  },
+  didParseCell: function (data) { 
+    if (data.section === 'body') {
+      if (data.row.index % 2 === 0) {
+        data.cell.styles.fillColor = [111, 191, 171];
+      } else {
+        data.cell.styles.fillColor = [255, 255, 255];
+      }
+    }
+  },
+  willDrawCell: function(data) {
+    // Skip all cells in the first column (header + body)
+    if (data.column.index === 0) {
+      if (data.row.index === 0 && data.section === 'body') {
+        const table = data.table;
+        
+        // Calculate total height including header + body
+        const totalHeight = table.head.reduce((sum, row) => sum + row.height, 0)
+                          + table.body.reduce((sum, row) => sum + row.height, 0);
+        const x = data.cell.x;
+        const y = table.head[0].cells[0].y; // start at top of header
+        const width = data.cell.width -1;
+
+        // Draw the filled rectangle
+        doc.setFillColor(6, 147, 110);
+        doc.rect(x, y, width, totalHeight, 'F');
+
+        // Draw rotated text, centered vertically + horizontally
+        const centerX = x + width / 2 + 8;
+        const centerY = y + totalHeight / 2;
+        doc.setTextColor(255, 255, 255);
+        doc.setFontSize(15);
+        doc.setFont("helvetica", "bold");
+        doc.text("CCA", centerX, centerY, { angle: 90, align: 'center' });
+      }
+      return false; // skip drawing this cell
+    }
+  }
+});
+ 
+}
+
+//doc.save("final.pdf");
 
 
 }
