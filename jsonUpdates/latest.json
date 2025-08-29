@@ -286,7 +286,7 @@
       "Additional notes": null,
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "A: TdXD + rilvegostomig\nB: TdXD\nC: GemCis/Durva",
-      "Eligibility ": "Unresectable, previously untreated,locally advanced or metastatic\nHer-2 +",
+      "Eligibility ": "Unresectable, previously untreated,locally advanced or metastatic\nHer-2+",
       "Contacts": "Site PI:\nErica Tsang\nerica.tsang@uhn.ca",
       "NCT number": "NCT06467357",
       "Schema image": null,
@@ -299,7 +299,7 @@
       "Additional notes": null,
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "A: ZW25 + SOC\nB: SOC",
-      "Eligibility ": "Locally advanced unresectable or metastatic BTC and not eligible for curative resection, transplantation,or ablative therapies\nHer-2 +",
+      "Eligibility ": "Locally advanced unresectable or metastatic BTC and not eligible for curative resection, transplantation,or ablative therapies\nHer-2+",
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca",
       "NCT number": "NCT06282575",
       "Schema image": null,
@@ -595,5 +595,19 @@
       "Schema image": null,
       "Schema image data": null
     }
-  ]
+  ],
+  "Changes": {
+    "CCA": [
+      {
+        "Trial Name": "Destiny-BTC01",
+        "change": "modified",
+        "timestamp": "2025-08-29T13:46:19"
+      },
+      {
+        "Trial Name": "ZW25 + SOC vs SOC in Her-2+ BTC",
+        "change": "modified",
+        "timestamp": "2025-08-29T13:46:19"
+      }
+    ]
+  }
 }
