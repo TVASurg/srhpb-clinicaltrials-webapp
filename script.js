@@ -9,22 +9,20 @@ function initAllData() {
         for (const [sheetName, rows] of Object.entries(data)) {
         if (sheetName === "CCA") {
           rows.forEach((row, i) => {
-            // Make sure biliary_BTC_master is defined and has a names array
-            biliary_BTC_master["names"].push(row["Trial Name"]);
-            biliary_BTC_master["setting"].push(row["Disease Setting"]);
-            biliary_BTC_master["fullTitle"].push(row["Full title"]);
-            biliary_BTC_master["additionalNotes"].push(row["Additional notes"]);
-            biliary_BTC_master["tissueRequirements"].push(row["Tissue Requirements"]);
-            biliary_BTC_master["arms"].push(row["Trial Intervention/Arms"]);
-            biliary_BTC_master["keyCriteria"].push(row["Eligibility "]);
-            biliary_BTC_master["contact"].push(row["Contacts"]);
-            biliary_BTC_master["NCT"].push(row["NCT number"]);
-            biliary_BTC_master["schema"].push(row["Schema image data"]);
+            biliary_CCA_master["names"].push(row["Trial Name"]);
+            biliary_CCA_master["setting"].push(row["Disease Setting"]);
+            biliary_CCA_master["fullTitle"].push(row["Full title"]);
+            biliary_CCA_master["additionalNotes"].push(row["Additional notes"]);
+            biliary_CCA_master["tissueRequirements"].push(row["Tissue Requirements"]);
+            biliary_CCA_master["arms"].push(row["Trial Intervention/Arms"]);
+            biliary_CCA_master["keyCriteria"].push(row["Eligibility "]);
+            biliary_CCA_master["contact"].push(row["Contacts"]);
+            biliary_CCA_master["NCT"].push(row["NCT number"]);
+            biliary_CCA_master["schema"].push(row["Schema image data"]);
           });
         }
         else if (sheetName === "HCC") {
           rows.forEach((row, i) => {
-            // Make sure biliary_BTC_master is defined and has a names array
             liver_HCC_master["names"].push(row["Trial Name"]);
             liver_HCC_master["setting"].push(row["Disease Setting"]);
             liver_HCC_master["fullTitle"].push(row["Full title"]);
@@ -39,7 +37,6 @@ function initAllData() {
         }
         else if (sheetName === "PDAC") {
           rows.forEach((row, i) => {
-            // Make sure biliary_BTC_master is defined and has a names array
             pancreas_master["names"].push(row["Trial Name"]);
             pancreas_master["setting"].push(row["Disease Setting"]);
             pancreas_master["fullTitle"].push(row["Full title"]);
@@ -53,19 +50,25 @@ function initAllData() {
             pancreas_master["schema"].push(row["Schema image data"]);
           });
         }
-
       }
+        for (const[sheetName,rows] of Object.entries(data.Changes))
+        {
+          rows.forEach(row => {
+          changes.push([sheetName, row["Trial Name"], row.timestamp]);
+  });
+        }
     })
     //.catch(err => console.error('Error parsing JSON:', err));
   
   hidePreactivations(pancreas_preactivation, "pancreas_preactivation")
+  //console.log(changes);
 }
 
 //then populate these const arrays 
 //the other fun functions can proceed as usual
 
 
-const biliary_BTC_master = {
+const biliary_CCA_master = {
   names: [],
   setting: [],
   fullTitle: [],
@@ -75,7 +78,8 @@ const biliary_BTC_master = {
   keyCriteria: [],
   contact: [],
   NCT:[],
-  schema:[]
+  schema:[],
+  label: "CCA" //this is the sheet name
 };
 
 const liver_HCC_master  = {
@@ -88,7 +92,8 @@ const liver_HCC_master  = {
   keyCriteria: [],
   contact: [],
   NCT:[],
-  schema:[]
+  schema:[],
+  label: "HCC" //this is the sheet name
 };
 
 const pancreas_master  = {
@@ -101,7 +106,8 @@ const pancreas_master  = {
   keyCriteria: [],
   contact: [],
   NCT:[],
-  schema:[]
+  schema:[],
+  label: "PDAC" //this is the sheet name
 };
 
 const pancreas_preactivation = {
@@ -117,9 +123,11 @@ const pancreas_preactivation = {
   schema:[]
 };
 
+const changes = [];
+
 function fillTrialNameBasedOnSetting(mainCategory, setting) {
   //document.getElementById("scroll-spacer").style.display= 'block';
-  
+  clearUpdateLine();
   //user input dicates which main category we're going into
   var totalTrialsAvailable = mainCategory[`names`].length;
   var outputHTMLstring = "";
@@ -186,7 +194,7 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
 }
 
 function fillTrialDetails(mainCategory, key) {
-  
+  clearUpdateLine();
   var htmlString = "";
   var titleString = "";
   var notesString = "";
@@ -218,7 +226,7 @@ function fillTrialDetails(mainCategory, key) {
   //Tissue requirements (optional)
   if(mainCategory[`tissueRequirements`][key] != null)
     {
-    tissueReqString += '<li class="list-group-item bg-gray-300 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#tissueReqCollapse">Tissue requirements</li><li class="list-inline-item ps-5 collapse" id="tissueReqCollapse"><p class="py-2">';
+    tissueReqString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#tissueReqCollapse">Tissue requirements</li><li class="list-inline-item ps-5 collapse" id="tissueReqCollapse"><p class="py-2">';
     tissueReqString += mainCategory[`tissueRequirements`][key].replaceAll("\n", "<br/>");
     tissueReqString += '</p></li>';
     }
@@ -240,7 +248,7 @@ function fillTrialDetails(mainCategory, key) {
   //Schema
   if(mainCategory[`schema`][key] != null)
     {
-  schemaString += '<li class="list-group-item bg-gray-400 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#schemaCollapse">Schema</li><li class="list-inline-item ps-5 collapse" id="schemaCollapse"><p class="my-2">';
+  schemaString += '<li class="list-group-item bg-gray-300 text-gray-900 btn btn-toggle d-inline-flex align-items-center fw-semibold" data-bs-toggle="collapse" data-bs-target="#schemaCollapse">Schema</li><li class="list-inline-item ps-5 collapse" id="schemaCollapse"><p class="my-2">';
   // schemaString += '<a href="" onclick="event.preventDefault(); openImage(`';
   // schemaString += mainCategory[`schema`][key]; 
   // schemaString += '`)">View Schema</a></p></li>';
@@ -267,12 +275,14 @@ function fillTrialDetails(mainCategory, key) {
   NCTstring += '">Link to clinicaltrials.gov</p></li>';
     }   
 
-  htmlString += titleString + notesString + armString + tissueReqString + criteriaString + schemaString+ contactString + NCTstring;
+  htmlString += titleString + notesString + schemaString + armString + tissueReqString + criteriaString + contactString + NCTstring;
   
   htmlString += "</ul>";
-
-  
+ 
   document.getElementById("trialDetails").innerHTML = htmlString;
+
+  displayLastUpdateForTrial(mainCategory[`label`], mainCategory[`names`][key]);
+
   //document.getElementById("scroll-spacer").style.display= 'none';
 }
 
@@ -673,12 +683,31 @@ function printCommunityList()
   doc.save("testClinicalTrialsList.pdf");  
 }
 
-/*
+function clearUpdateLine()
+{
+  document.getElementById("trialLastUpdated").innerHTML = "";
+}
 
-<a href="#" class="list-group-item list-group-item-action py-3 lh-sm">
-<div class="d-flex w-100 align-items-center justify-content-between"> 
-  <strong class="mb-1"></strong> 
-</div>
-<div class="col-10 mb-1"></div>
-</a> 
-*/
+function displayLastUpdateForTrial(mainCategory, trialName)
+{
+  //setting this as the default
+  lastUpdatedString = "August 1, 2025 10:30:00";
+  parsedDate = new Date(lastUpdatedString);
+  
+  changes.forEach(entry =>{
+    
+    if(entry[0] == mainCategory && entry[1] == trialName)
+    {
+      lastUpdatedString = entry[2];
+      parsedDate = new Date(lastUpdatedString);
+    }
+    
+});
+
+  parsedDateHTML = "Last update: " + parsedDate.getFullYear() + "-";
+  parsedDateHTML += parsedDate.toLocaleString('default', { month: 'short' }) + "-";
+  parsedDateHTML += parsedDate.getDate();
+  
+  //here we fill in the last updated info to a badge
+  document.getElementById("trialLastUpdated").innerHTML = parsedDateHTML;
+}
