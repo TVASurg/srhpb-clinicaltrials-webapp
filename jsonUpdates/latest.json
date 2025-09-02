@@ -522,7 +522,7 @@
       "Additional notes": "BRCA1/2 or PALB2",
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "NABPLAGEM VS. nab-paclitaxel and gemcitabine\n\n",
-      "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma,\nadenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nExclusion:\nNo prior Cisplatin",
+      "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma, adenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nExclusion:\nNo prior Cisplatin",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nDowon Choi\nDowon.Choi@uhn.ca\nPhone: 416-946-4501 x 4713",
       "NCT number": "NCT06783140",
       "Schema image": null,
@@ -601,7 +601,7 @@
       {
         "Trial Name": "Platinum-Can\n\n\n",
         "change": "modified",
-        "timestamp": "2025-09-02T09:16:37"
+        "timestamp": "2025-09-02T09:27:12"
       }
     ]
   }
