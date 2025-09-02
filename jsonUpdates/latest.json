@@ -519,7 +519,7 @@
       "Disease Setting": "2L Metastatic+",
       "Trial Name": "Platinum-Can\n\n\n",
       "Full title": "Comparing Second-Line NABPLAGEM vs. Nab-paclitaxel/Gemcitabine in BRCA1/2 or PALB2 Mutant Metastatic Pancreatic Ductal Adenocarcinoma",
-      "Additional notes": "BRCA1/2 or PALB2. ",
+      "Additional notes": "BRCA1/2 or PALB2",
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "NABPLAGEM VS. nab-paclitaxel and gemcitabine\n\n",
       "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma,\nadenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nExclusion:\nNo prior Cisplatin",
@@ -601,7 +601,7 @@
       {
         "Trial Name": "Platinum-Can\n\n\n",
         "change": "modified",
-        "timestamp": "2025-09-02T08:56:58"
+        "timestamp": "2025-09-02T09:16:37"
       }
     ]
   }
