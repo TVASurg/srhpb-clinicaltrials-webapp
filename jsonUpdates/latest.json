@@ -521,7 +521,7 @@
       "Full title": "Comparing Second-Line NABPLAGEM vs. Nab-paclitaxel/Gemcitabine in BRCA1/2 or PALB2 Mutant Metastatic Pancreatic Ductal Adenocarcinoma",
       "Additional notes": "BRCA1/2 or PALB2",
       "Tissue Requirements": null,
-      "Trial Intervention/Arms": "NABPLAGEM VS. nab-paclitaxel and gemcitabine.\n\n",
+      "Trial Intervention/Arms": "NABPLAGEM VS. nab-paclitaxel and gemcitabine\n",
       "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma, adenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nExclusion:\nNo prior Cisplatin",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nDowon Choi\nDowon.Choi@uhn.ca\nPhone: 416-946-4501 x 4713",
       "NCT number": "NCT06783140",
@@ -602,6 +602,11 @@
         "Trial Name": "Platinum-Can\n\n\n",
         "change": "modified",
         "timestamp": "2025-09-03T09:52:40"
+      },
+      {
+        "Trial Name": "Platinum-Can\n\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-03T09:54:17"
       }
     ]
   }
