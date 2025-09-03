@@ -595,24 +595,5 @@
       "Schema image": null,
       "Schema image data": null
     }
-  ],
-  "Changes": {
-    "PDAC": [
-      {
-        "Trial Name": "Platinum-Can\n\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-03T09:52:40"
-      },
-      {
-        "Trial Name": "Platinum-Can\n\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-03T09:54:17"
-      },
-      {
-        "Trial Name": "DORA (WOO)",
-        "change": "modified",
-        "timestamp": "2025-09-03T13:34:56"
-      }
-    ]
-  }
+  ]
 }
