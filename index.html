@@ -44,7 +44,7 @@
       </div>
       <div class="col-12 col-md-3"> 
         <ul class="list-unstyled ps-0 ">
-          <!--<li class="my-3 d-grid dropdown">
+          <!-- <li class="my-3 d-grid dropdown">
           <button class="btn btn-lg btn-secondary dropdown-toggle pe-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           Biomarkers
           </button>
@@ -52,10 +52,10 @@
             <li><a class="btn dropdown-item" onclick="fillTrialNameBasedOnBiomarker(`MTAP`)">MTAP</a></li>
             <li><a class="btn dropdown-item" onclick="fillTrialNameBasedOnBiomarker(`Claudin`)">Claudin</a></li>
           </ul>
-          </li>-->
-
+          </li> -->
+          
           <li class="fs-5 bg-hcc ps-2 rounded-top fw-semibold border-bottom py-2 mt-2 ps-2">Liver</li>
-          <li class="mb-3 bg-hcc ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#hcc-collapse">
+          <li class="d-grid mb-3 bg-hcc ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#hcc-collapse">
               HCC
             </button>
             <div class="collapse bg-hcc" id="hcc-collapse">
@@ -69,7 +69,7 @@
             </div>
           </li>
           <li class="fs-5 bg-pancreas ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ">Pancreas</li>
-          <li class="bg-pancreas ps-2 "> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false">
+          <li class="d-grid bg-pancreas ps-2 "> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false">
               PDAC
             </button>
             <div class="collapse " id="mccain-collapse">
@@ -96,7 +96,7 @@
             </div>
           </li>
           <li class="fs-5 bg-btc ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2">Biliary</li>
-          <li class="mb-1 bg-btc rounded-bottom ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#cca-collapse">
+          <li class="d-grid mb-1 bg-btc rounded-bottom ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#cca-collapse">
               CCA
             </button>
             <div class="collapse" id="cca-collapse">
@@ -109,6 +109,18 @@
               </ul>
             </div>
           </li>
+
+          <!-- <li class="fs-6 bg-gray-500 ps-2 rounded-top fw-semibold border-bottom py-2 mt-3 ps-2">Browse by...</li>
+          <li class="mb-3 bg-gray-500 ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#biomarker-collapse">
+              Biomarker
+            </button>
+            <div class="collapse bg-gray-500" id="biomarker-collapse">
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
+                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`MTAP`)"><li class="rounded diseaseState px-3 mx-2 py-2" >MTAP</li></a>
+                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`Claudin`)"><li class="rounded diseaseState px-3 mx-2 py-2" >Claudin-18.2</li></a>
+            </ul>
+            </div>
+          </li> -->
 
           <li class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="printCommunityList()">Download printable PDF</li>
           

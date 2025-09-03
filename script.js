@@ -19,6 +19,16 @@ function initAllData() {
             biliary_CCA_master["contact"].push(row["Contacts"]);
             biliary_CCA_master["NCT"].push(row["NCT number"]);
             biliary_CCA_master["schema"].push(row["Schema image data"]);
+
+            //if the row["Biomarker"] contains data
+            //push the biomarker and name to the biomarker array
+            if (row["Biomarker"])
+            {
+             biomarker_master["categories"].push("CCA");
+             biomarker_master["names"].push(row["Trial Name"]);
+             biomarker_master["biomarker"].push(row["Biomarker"]);
+             biomarker_master["keyInCategory"].push(i);
+            }
           });
         }
         else if (sheetName === "HCC") {
@@ -33,6 +43,15 @@ function initAllData() {
             liver_HCC_master["contact"].push(row["Contacts"]);
             liver_HCC_master["NCT"].push(row["NCT number"]);
             liver_HCC_master["schema"].push(row["Schema image data"]);
+
+            if (row["Biomarker"])
+            {
+            biomarker_master["categories"].push("HCC");
+             biomarker_master["names"].push(row["Trial Name"]);
+             biomarker_master["biomarker"].push(row["Biomarker"]);
+             biomarker_master["keyInCategory"].push(i);
+            }
+
           });
         }
         else if (sheetName === "PDAC") {
@@ -48,6 +67,15 @@ function initAllData() {
             pancreas_master["NCT"].push(row["NCT number"]);
             //adding in base64 encoded images
             pancreas_master["schema"].push(row["Schema image data"]);
+
+            if (row["Biomarker"])
+            {
+             biomarker_master["categories"].push("PDAC");
+             biomarker_master["names"].push(row["Trial Name"]);
+             biomarker_master["biomarker"].push(row["Biomarker"]);
+             biomarker_master["keyInCategory"].push(i);
+            }
+
           });
         }
       }
@@ -67,6 +95,12 @@ function initAllData() {
 //then populate these const arrays 
 //the other fun functions can proceed as usual
 
+const biomarker_master ={
+  categories: [],
+  keyInCategory: [],
+  names: [],
+  biomarker: []
+}
 
 const biliary_CCA_master = {
   names: [],
@@ -127,7 +161,63 @@ const changes = [];
 
 function fillTrialNameBasedOnBiomarker(biomarker)
 {
-  console.log(biomarker); 
+  var outputHTMLline = "";
+  //create vertical radio button group
+  outputHTMLline += '<div class="btn-group-vertical p-3" role="group">';
+
+  clearUpdateLine();
+  //console.log(biomarker_master); 
+  for (i=0; i < biomarker_master[`names`].length; i++)
+  {
+   if (biomarker_master[`biomarker`][i] == biomarker)
+   {
+    //this is the button itself
+      outputHTMLline +=
+        '<input type="radio" class="btn-check" name="trialName';
+      outputHTMLline += '" id="';
+      outputHTMLline += biomarker_master[`categories`][i] + "_" + biomarker_master[`keyInCategory`][i];
+      outputHTMLline += '" autocomplete="off">';
+
+      //this is the label for the button
+      outputHTMLline += '<label class="btn btn-outline-dark text-start" for="';
+      outputHTMLline += biomarker_master[`categories`][i] + "_" + biomarker_master[`keyInCategory`][i];
+      outputHTMLline += '">';
+      outputHTMLline += biomarker_master[`categories`][i] + ":  " + biomarker_master[`names`][i];
+      outputHTMLline += "</label>";
+   }
+  }
+  //closing the vertical btn group
+  outputHTMLline += "</div>";
+
+  //filling in the HTML (remember to clear trialDetails)
+  document.getElementById("trialName").innerHTML = outputHTMLline;
+  document.getElementById("trialDetails").innerHTML = "";
+
+  //add eventlisteners to trialnames
+  document.querySelectorAll('input[name="trialName"]').forEach((radio) => {
+    radio.addEventListener("change", function () {
+      if (this.checked) {
+        const category = this.id.split('_')[0];
+        const elementID = this.id.match(/\d+/g);
+        const key = parseInt(elementID);
+
+        if (category == "HCC")
+        {
+          fillTrialDetails(liver_HCC_master, elementID);
+        }
+        else if (category == "PDAC")
+        {
+          fillTrialDetails(pancreas_master, elementID);
+        }
+        else if (category == "CCA")
+        {
+          fillTrialDetails(biliary_CCA_master, elementID);
+        }
+        
+      }
+    });
+  });
+highlightCategory();
 }
 
 function fillTrialNameBasedOnSetting(mainCategory, setting) {
