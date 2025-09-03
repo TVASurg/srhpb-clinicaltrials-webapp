@@ -44,6 +44,16 @@
       </div>
       <div class="col-12 col-md-3"> 
         <ul class="list-unstyled ps-0 ">
+          <!--<li class="my-3 d-grid dropdown">
+          <button class="btn btn-lg btn-secondary dropdown-toggle pe-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Biomarkers
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="btn dropdown-item" onclick="fillTrialNameBasedOnBiomarker(`MTAP`)">MTAP</a></li>
+            <li><a class="btn dropdown-item" onclick="fillTrialNameBasedOnBiomarker(`Claudin`)">Claudin</a></li>
+          </ul>
+          </li>-->
+
           <li class="fs-5 bg-hcc ps-2 rounded-top fw-semibold border-bottom py-2 mt-2 ps-2">Liver</li>
           <li class="mb-3 bg-hcc ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#hcc-collapse">
               HCC
@@ -99,9 +109,11 @@
               </ul>
             </div>
           </li>
-          <li class="btn btn-outline-dark p-2 my-3 rounded" onclick="printCommunityList()">Download printable PDF</li>
 
+          <li class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="printCommunityList()">Download printable PDF</li>
+          
         </ul>
+        
       </div>
       <div class="col-12 col-md-9">
         <div class="col">

@@ -125,6 +125,11 @@ const pancreas_preactivation = {
 
 const changes = [];
 
+function fillTrialNameBasedOnBiomarker(biomarker)
+{
+  console.log(biomarker); 
+}
+
 function fillTrialNameBasedOnSetting(mainCategory, setting) {
   //document.getElementById("scroll-spacer").style.display= 'block';
   clearUpdateLine();
