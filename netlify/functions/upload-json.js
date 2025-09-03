@@ -22,7 +22,7 @@ export async function handler(event) {
     
     const now = new Date();
     const pad = (n) => n.toString().padStart(2, '0');
-    const timestamp = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}-${pad(now.getHours())}-${pad(now.getMinutes())}`;
+    const timestamp = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}-${pad(now.getHours() - 4)}-${pad(now.getMinutes())}`;
     const fileName = `data-${timestamp}.json`; // e.g., data-2025-07-29-15-48.json
     
     const latestFileName = 'latest.json';
