@@ -350,7 +350,7 @@
       "Disease Setting": "Resectable",
       "Trial Name": "DORA (WOO)",
       "Full title": "Durvalumab and Oleclumab in Resectable PDAC: A Window of Opportunity Study (DORA)",
-      "Additional notes": "Resectable pancreatic cancer by NCCN criteria.\nCA 19-9 < 300. ",
+      "Additional notes": "Resectable pancreatic cancer by NCCN criteria.\nCA 19-9 < 300.",
       "Tissue Requirements": "Baseline EUS biopsy",
       "Trial Intervention/Arms": "Durvalumab 1500 mg IV x 1 dose and oleclumab 3000 mg x 2 doses Q2W prior to resection]",
       "Eligibility ": "Inclusion: \nResectable PDAC by NCCN criteria \nCA 19-9 < 300\nLife expectancy ≥ 12 weeks\n\nExclusion: \nAnticancer therapy within 21 days or palliative RT within 14 days prior to 1st dose\nOther invasive malignancy within 5 years.\nPrior receipt of any immune-mediated therapy\n\nOther invasive malignancy within 5 years\n\nPrior history of myocardial infarction, transient ischemic attack, congestive heart failure ≥ Class 3 based on New York Heart Association Functional Classification or stroke within the past 3 months prior to the scheduled first dose of study treatment.\n\nPositive for HIV",
@@ -602,6 +602,11 @@
         "Trial Name": "DORA (WOO)",
         "change": "modified",
         "timestamp": "2025-09-03T16:13:58"
+      },
+      {
+        "Trial Name": "DORA (WOO)",
+        "change": "modified",
+        "timestamp": "2025-09-08T13:00:39"
       }
     ]
   }
