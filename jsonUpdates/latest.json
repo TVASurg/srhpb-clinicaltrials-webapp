@@ -227,8 +227,8 @@
     },
     {
       "Disease Setting": "1st or 2nd",
-      "Trial Name": "Phase II Cabozantinib in Recurrent HCC Post Liver Transplant (CaboTx)\n ",
-      "Full title": "With KRAS/NRAS and BRAF Wild-type Unresectable or Metastatic Left-sided Colorectal",
+      "Trial Name": "CaboTx\n ",
+      "Full title": "A Phase II Trial of Cabozantinib in the Treatment of Recurrent Hepatocellular Carcinoma Post Liver Transplant",
       "Additional notes": null,
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "Cabozanitnib",
@@ -607,6 +607,13 @@
         "Trial Name": "DORA (WOO)",
         "change": "modified",
         "timestamp": "2025-09-08T13:00:39"
+      }
+    ],
+    "HCC": [
+      {
+        "Trial Name": "CaboTx\n ",
+        "change": "added",
+        "timestamp": "2025-09-08T13:47:39"
       }
     ]
   }
