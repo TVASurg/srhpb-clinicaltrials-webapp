@@ -94,7 +94,7 @@
   ],
   "Gastroesophageal": [
     {
-      "Disease Setting": "Any line ",
+      "Disease Setting": "Prior to any systemic treatment ",
       "Trial Name": "Molecular Characteristics of Gastroesophageal Adenocarcinoma ",
       "Full title": null,
       "Additional notes": null,
@@ -159,7 +159,7 @@
       "Schema image data": null
     },
     {
-      "Disease Setting": "1st line",
+      "Disease Setting": "Any line ",
       "Trial Name": "TORO ",
       "Full title": null,
       "Additional notes": null,
@@ -181,6 +181,19 @@
       "Eligibility ": "Has one of the following: PDAC, colorectal, gastric, gastroesophageal junction or esophageal adenocarcinoma.\nNot biomarker selected.",
       "Contacts": "Site PI:\nLucy Ma\nlucy.ma@uhn.ca",
       "NCT number": "NCT06864169",
+      "Schema image": null,
+      "Schema image data": null
+    },
+    {
+      "Disease Setting": "Any line",
+      "Trial Name": "GEAR",
+      "Full title": null,
+      "Additional notes": null,
+      "Tissue Requirements": null,
+      "Trial Intervention/Arms": null,
+      "Eligibility ": null,
+      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
+      "NCT number": null,
       "Schema image": null,
       "Schema image data": null
     }
@@ -614,6 +627,23 @@
         "Trial Name": "CaboTx\n ",
         "change": "added",
         "timestamp": "2025-09-08T13:47:39"
+      }
+    ],
+    "Gastroesophageal": [
+      {
+        "Trial Name": "Molecular Characteristics of Gastroesophageal Adenocarcinoma ",
+        "change": "modified",
+        "timestamp": "2025-09-08T16:32:17"
+      },
+      {
+        "Trial Name": "TORO ",
+        "change": "modified",
+        "timestamp": "2025-09-08T16:32:17"
+      },
+      {
+        "Trial Name": "GEAR",
+        "change": "added",
+        "timestamp": "2025-09-08T16:32:17"
       }
     ]
   }
