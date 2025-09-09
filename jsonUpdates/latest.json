@@ -95,12 +95,12 @@
   "Gastroesophageal": [
     {
       "Disease Setting": "Prior to any systemic treatment ",
-      "Trial Name": "Molecular Characteristics of Gastroesophageal Adenocarcinoma ",
-      "Full title": null,
-      "Additional notes": null,
-      "Tissue Requirements": null,
-      "Trial Intervention/Arms": "Collection of biospecimen ",
-      "Eligibility ": "Both locally advanced and metastatic. ",
+      "Trial Name": "MOCHA",
+      "Full title": "Molecular characteristics of gastroesophageal adenocarcinoma ",
+      "Additional notes": "Prospective collection of clinical data, bloods, stool, and tissue ",
+      "Tissue Requirements": "Baseline fresh tissue biopsy ",
+      "Trial Intervention/Arms": "Arm 1: localized and resectable gastroesophageal adenocarcinoma \nArm 2: metastatic/unresectable gastroesophageal adenocarcinoma",
+      "Eligibility ": "chemotherapy-naive patients ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT04219137",
       "Schema image": null,
@@ -644,6 +644,11 @@
         "Trial Name": "GEAR",
         "change": "added",
         "timestamp": "2025-09-08T16:32:17"
+      },
+      {
+        "Trial Name": "MOCHA",
+        "change": "added",
+        "timestamp": "2025-09-09T10:28:17"
       }
     ]
   }
