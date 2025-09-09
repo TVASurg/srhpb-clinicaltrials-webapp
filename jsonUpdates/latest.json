@@ -176,7 +176,7 @@
       "Trial Name": "REJOICE-GI01",
       "Full title": "A Phase 2 Nonrandomized, Open-label, Multisite Study to Evaluate the Safety and Efficacy of Raludotatug Deruxtecan in Participants With Gastrointestinal Cancers",
       "Additional notes": null,
-      "Tissue Requirements": null,
+      "Tissue Requirements": "Archival tissue (≤5 years); fresh tissue (3xT cores) ",
       "Trial Intervention/Arms": "Raludotatug Deruxtecan (R-DXd, CDH6 targeting ADC)",
       "Eligibility ": "Has one of the following: PDAC, colorectal, gastric, gastroesophageal junction or esophageal adenocarcinoma.\nNot biomarker selected.",
       "Contacts": "Site PI:\nLucy Ma\nlucy.ma@uhn.ca",
@@ -694,6 +694,11 @@
         "Trial Name": "REJOICE-GI01",
         "change": "modified",
         "timestamp": "2025-09-09T11:34:03"
+      },
+      {
+        "Trial Name": "REJOICE-GI01",
+        "change": "modified",
+        "timestamp": "2025-09-09T11:37:54"
       }
     ]
   }
