@@ -109,7 +109,7 @@
     {
       "Disease Setting": "1st line ",
       "Trial Name": "Destiny-Gastric 003 ",
-      "Full title": "closed",
+      "Full title": null,
       "Additional notes": null,
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "TdXD + capecitabine + rilvegostomig ",
@@ -161,10 +161,10 @@
     {
       "Disease Setting": "Any line ",
       "Trial Name": "TORO ",
-      "Full title": null,
+      "Full title": "Chemoimmunotherapy Followed by Surgery for Oligometastatic Esophagogastric Cancer",
       "Additional notes": null,
       "Tissue Requirements": null,
-      "Trial Intervention/Arms": "Neoadjuvant systemic treatment followed by surgery and radiation ",
+      "Trial Intervention/Arms": null,
       "Eligibility ": "Oligometastatic disease (up to 5 sites).",
       "Contacts": "Site PI:\nElliot Wakeam\nelliot.wakeam@uhn.ca",
       "NCT number": "NCT06668454",
@@ -174,7 +174,7 @@
     {
       "Disease Setting": "2/3 lines",
       "Trial Name": "REJOICE-GI01",
-      "Full title": null,
+      "Full title": "A Phase 2 Nonrandomized, Open-label, Multisite Study to Evaluate the Safety and Efficacy of Raludotatug Deruxtecan in Participants With Gastrointestinal Cancers",
       "Additional notes": null,
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "Raludotatug Deruxtecan (R-DXd, CDH6 targeting ADC)",
@@ -187,11 +187,11 @@
     {
       "Disease Setting": "Any line",
       "Trial Name": "GEAR",
-      "Full title": null,
-      "Additional notes": null,
+      "Full title": "Gastroesophageal and Endocrine Cancer Registry ",
+      "Additional notes": "Prospective collection of clinical data, bloods, stool, and tissue ",
       "Tissue Requirements": null,
       "Trial Intervention/Arms": null,
-      "Eligibility ": null,
+      "Eligibility ": "those who decline or are or not eligible for MOCHA ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": null,
       "Schema image": null,
@@ -669,6 +669,26 @@
         "Trial Name": "GA.4 ",
         "change": "modified",
         "timestamp": "2025-09-09T10:58:55"
+      },
+      {
+        "Trial Name": "Destiny-Gastric 003 ",
+        "change": "modified",
+        "timestamp": "2025-09-09T11:23:13"
+      },
+      {
+        "Trial Name": "TORO ",
+        "change": "modified",
+        "timestamp": "2025-09-09T11:23:13"
+      },
+      {
+        "Trial Name": "REJOICE-GI01",
+        "change": "modified",
+        "timestamp": "2025-09-09T11:23:13"
+      },
+      {
+        "Trial Name": "GEAR",
+        "change": "modified",
+        "timestamp": "2025-09-09T11:23:13"
       }
     ]
   }
