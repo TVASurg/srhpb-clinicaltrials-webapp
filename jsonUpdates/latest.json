@@ -109,7 +109,7 @@
     {
       "Disease Setting": "1st line ",
       "Trial Name": "Destiny-Gastric 003 ",
-      "Full title": null,
+      "Full title": "closed",
       "Additional notes": null,
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "TdXD + capecitabine + rilvegostomig ",
@@ -122,7 +122,7 @@
     {
       "Disease Setting": "2nd or 3rd line ",
       "Trial Name": "Clarity-Gastric01 ",
-      "Full title": null,
+      "Full title": "closing very soon ",
       "Additional notes": null,
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "AZD0901 vs physician’s choice ",
@@ -135,9 +135,9 @@
     {
       "Disease Setting": "1st line",
       "Trial Name": "ARTEMIDE-Gastric01 ",
-      "Full title": null,
+      "Full title": "A Randomized, Phase III Study of Rilvegostomig in Combination with Fluoropyrimidine and Trastuzumab Deruxtecan versus Trastuzumab, Chemotherapy, and Pembrolizumab for the First-line Treatment of HER2-positive Gastric Cancer ",
       "Additional notes": null,
-      "Tissue Requirements": null,
+      "Tissue Requirements": "Archival tissue (≤6 months); fresh tissue (3xT cores) ",
       "Trial Intervention/Arms": "A: Rilve + T-DXd + 5FU/Cape\nB: Pembro + tras + 5FU/Cape + platinum \nC: Rilve + tras + 5FU/Cape + platinum",
       "Eligibility ": "Her-2 + and PDL1 CPS ≥ 1. ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -148,9 +148,9 @@
     {
       "Disease Setting": "2nd or 3rd line ",
       "Trial Name": "GA.4 ",
-      "Full title": null,
+      "Full title": "A RANDOMIZED PHASE II STUDY OF PACLITAXEL AND RAMUCIRUMAB +/- ZANIDATAMAB IN HER2 POSITIVE ADVANCED GASTROESOPHAGEAL ADENOCARCINOMA",
       "Additional notes": null,
-      "Tissue Requirements": null,
+      "Tissue Requirements": "Archival tissue (most recent or as per MRP/PI’s discretion); fresh tissue (2xT cores for screening; 3xT cores optional biopsy) ",
       "Trial Intervention/Arms": "Ramicirumab/paclitaxel +/- ZW25 ",
       "Eligibility ": "Her-2 + (central confirmation).  ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -649,6 +649,26 @@
         "Trial Name": "MOCHA",
         "change": "added",
         "timestamp": "2025-09-09T10:28:17"
+      },
+      {
+        "Trial Name": "Destiny-Gastric 003 ",
+        "change": "modified",
+        "timestamp": "2025-09-09T10:58:55"
+      },
+      {
+        "Trial Name": "Clarity-Gastric01 ",
+        "change": "modified",
+        "timestamp": "2025-09-09T10:58:55"
+      },
+      {
+        "Trial Name": "ARTEMIDE-Gastric01 ",
+        "change": "modified",
+        "timestamp": "2025-09-09T10:58:55"
+      },
+      {
+        "Trial Name": "GA.4 ",
+        "change": "modified",
+        "timestamp": "2025-09-09T10:58:55"
       }
     ]
   }
