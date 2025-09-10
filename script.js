@@ -1,4 +1,3 @@
-
 //idea is the pull the master JSON file
 function initAllData() {
   fetch(`/jsonUpdates/latest.json?ver=${Date.now()}`)
@@ -137,7 +136,7 @@ const gastroesophageal_master = {
   contact: [],
   NCT:[],
   schema:[],
-  label: "gastroesophageal" //this is the sheet name
+  label: "Gastroesophageal" //this is the sheet name
 };
 
 const biliary_CCA_master = {
@@ -413,9 +412,12 @@ function fillTrialDetails(mainCategory, key) {
     }
   
   //Arms
+    if(mainCategory[`arms`][key] != null)
+    {
   armString += '<li class="detailsSection02 list-group-item btn btn-toggle d-inline-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#armsCollapse">Arms/Cohorts</li><li class="list-inline-item ps-5 collapse" id="armsCollapse"><p class="py-2">';
   armString += mainCategory[`arms`][key].replaceAll("\n", "<br/>");
   armString += "</p></li>";
+    }
     
   //Tissue requirements (optional)
   if(mainCategory[`tissueRequirements`][key] != null)
@@ -965,4 +967,11 @@ function displayLastUpdateForTrial(mainCategory, trialName)
   
   //here we fill in the last updated info to a badge
   document.getElementById("trialLastUpdated").innerHTML = parsedDateHTML;
+}
+
+function toggleNav()
+{
+    
+    document.getElementById("diseaseNav").classList.add('active'); 
+    document.getElementById("biomarkerNav").classList.add('active'); 
 }
