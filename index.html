@@ -43,21 +43,22 @@
       <div class="col-12">
       </div>
       <div class="col-12 col-lg-3"> 
-        <ul class="list-unstyled ps-0 ">
+        <ul id ="diseaseNav" class="list-unstyled ps-0 ">
           
-          <!-- <li class="fs-5 bg-gastroesophageal ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2" >Gastroesophageal</li>
+           <li class="fs-5 bg-gastroesophageal ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2" >Gastroesophageal</li>
           <li class="d-grid mb-1 bg-gastroesophageal rounded-bottom ps-2" > <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#ge-collapse">
               GE
             </button>
             <div class="collapse" id="ge-collapse" >
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
+                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Prior')"><li class="rounded diseaseState px-3 mx-2 py-2" >Prior to systemic treatment</li></a>
                 <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '1')"><li class="rounded diseaseState px-3 mx-2 py-2" >1st line</li></a>
                 <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '2')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
                 <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '3')"><li class="rounded diseaseState px-3 mx-2 py-2" >3rd line</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Any')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any line</li></a>
+                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Any line')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any line</li></a>
               </ul>
             </div>
-          </li> -->
+          </li> 
 
           <li class="fs-5 bg-hcc ps-2 rounded-top fw-bold border-bottom py-2 mt-3 ps-2">Liver</li>
           <li class="d-grid mb-3 bg-hcc ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#hcc-collapse">
@@ -114,7 +115,10 @@
               </ul>
             </div>
           </li>
-<!-- 
+        </ul>
+<!--
+        <ul id="biomarkerNav" class="list-unstyled ps-0">
+             
           <li class="fs-6 bg-gray-500 ps-2 rounded-top fw-semibold border-bottom py-2 mt-3 ps-2">Browse by...</li>
           <li class="mb-3 bg-gray-500 ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#biomarker-collapse">
               Biomarker
@@ -125,11 +129,12 @@
                 <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`Claudin`)"><li class="rounded diseaseState px-3 mx-2 py-2" >Claudin-18.2</li></a>
             </ul>
             </div>
-          </li> -->
+          </li> 
 
-          <li class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="printCommunityList()">Download printable PDF</li>
-          
         </ul>
+        <div class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="toggleNav()">Test button</div>
+-->
+        <div class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="printCommunityList()">Download printable PDF</div>
         
       </div>
       <div class="col-12 col-lg-9">
@@ -141,7 +146,7 @@
         </div>
         <div class="col">
 
-          <div href="" class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom"> <span class="fs-5 fw-semibold">Trial details</span><span id="trialLastUpdated" class="badge bg-info text-dark mx-3 mt-1"><!--last updated info here--></span></div>
+          <div href="" class="d-flex align-items-center flex-shrink-0 p-3 link-body-emphasis text-decoration-none border-bottom"> <span class="fs-5 fw-semibold">Trial details</span><span id="trialLastUpdated" class="badge bg-warning text-dark mx-3 mt-1"><!--last updated info here--></span></div>
           <div id="trialDetails" class="list-group list-group-flush border-bottom">
                       
           </div>
