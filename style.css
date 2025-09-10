@@ -17,7 +17,7 @@
   --bs-net: #4a4a4a;
 }
 
-.selectedCategory{ background-color: rgba(255, 255, 255, 0.3); !important;}
+.selectedCategory{ background-color: rgba(255, 255, 255, 0.3) !important;}
 
 .bg-colorectal { background-color: var(--bs-colorectal) !important; }
 .bg-gastroesophageal { background-color: var(--bs-gastroesophageal) !important; }
@@ -52,6 +52,14 @@
   background-color: transparent;
 }
 
+.topText
+{
+  background: linear-gradient(to right, #45616b, #648688);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+ 
+}
 body {
   
   min-height: 100vh;
@@ -78,11 +86,6 @@ main {
   color: var(--bs-emphasis-color);
   background-color: transparent;
 }
-.btn-toggle:hover,
-.btn-toggle:focus {
-  /*color: rgba(var(--bs-emphasis-color-rgb), .85);
-  background-color: var(--bs-tertiary-bg);*/
-}
 
 .btn-toggle::before {
   width: 1.25em;
@@ -96,9 +99,6 @@ main {
   content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%28255,255,255,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='5' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
 }
 
-.btn-toggle[aria-expanded="true"] {
-  /*color: rgba(var(--bs-emphasis-color-rgb), .85);*/
-}
 .btn-toggle[aria-expanded="true"]::before {
   transform: rotate(90deg);
 }
@@ -107,10 +107,6 @@ main {
   padding: .1875rem .5rem;
   margin-top: .125rem;
   margin-left: 1.25rem;
-}
-.btn-toggle-nav a:hover,
-.btn-toggle-nav a:focus {
-  /*background-color: var(--bs-tertiary-bg);*/
 }
 
 @media (max-width: 768px) {
@@ -136,4 +132,130 @@ main {
 
 .scrollarea {
   overflow-y: auto;
+}
+
+[data-bs-theme="ge"] {
+  --bs-body-color: var(--bs-gray-900);
+  --bs-body-bg: var(--bs-gastroesophageal);
+
+  .btn-outline-custom {
+    --bs-btn-bg: color-mix(in srgb, var(--bs-gastroesophageal) 20%, var(--bs-gray-100) 80%);
+    --bs-btn-border-color: #{rgba($white, .25)};
+  }
+
+  .btn-check:checked + .btn{
+    background-color: color-mix(in srgb, var(--bs-gastroesophageal) 70%, var(--bs-gray-500) 30%) !important;
+    font-weight: 500;
+  }
+
+  .detailsSection01{
+    background-color: color-mix(in srgb, var(--bs-gastroesophageal) 55%, var(--bs-gray-100) 45%) !important;
+    font-weight: 500;
+  }
+  .detailsSection02{
+    background-color: color-mix(in srgb, var(--bs-gastroesophageal) 55%, var(--bs-gray-300) 45%) !important;
+    font-weight: 500;    
+  }
+  .detailsSection03{
+    background-color: color-mix(in srgb, var(--bs-gastroesophageal) 55%, var(--bs-gray-500) 45%) !important;
+    font-weight: 500;    
+  }
+  .detailsSection04{
+    background-color: color-mix(in srgb, var(--bs-gastroesophageal) 55%, var(--bs-gray-600) 45%) !important;
+    font-weight: 500;    
+  }
+}
+
+[data-bs-theme="hcc"] {
+  --bs-body-color: var(--bs-gray-900);
+  --bs-body-bg: var(--bs-hcc);
+
+  .btn-outline-custom {
+    --bs-btn-bg: color-mix(in srgb, var(--bs-hcc) 20%, var(--bs-gray-100) 80%);
+    --bs-btn-border-color: #{rgba($white, .25)};
+  }
+
+  .btn-check:checked + .btn{
+    background-color: color-mix(in srgb, var(--bs-hcc) 70%, var(--bs-gray-500) 30%) !important;
+    font-weight: 500;
+  }
+  .detailsSection01{
+    background-color: color-mix(in srgb, var(--bs-hcc) 55%, var(--bs-gray-100) 45%) !important;
+    font-weight: 500;
+  }
+  .detailsSection02{
+    background-color: color-mix(in srgb, var(--bs-hcc) 55%, var(--bs-gray-300) 45%) !important;
+    font-weight: 500;    
+  }
+  .detailsSection03{
+    background-color: color-mix(in srgb, var(--bs-hcc) 55%, var(--bs-gray-500) 45%) !important;
+    font-weight: 500;    
+  }
+  .detailsSection04{
+    background-color: color-mix(in srgb, var(--bs-hcc) 55%, var(--bs-gray-600) 45%) !important;
+    font-weight: 500;    
+  }
+}
+
+[data-bs-theme="pdac"] {
+  --bs-body-color: var(--bs-gray-900);
+  --bs-body-bg: var(--bs-pancreas);
+
+  .btn-outline-custom {
+    --bs-btn-bg: color-mix(in srgb, var(--bs-pancreas) 20%, var(--bs-gray-100) 80%);
+    --bs-btn-border-color: #{rgba($white, .25)};
+  }
+
+  .btn-check:checked + .btn{
+    background-color: color-mix(in srgb, var(--bs-pancreas) 70%, var(--bs-gray-500) 30%) !important;
+    font-weight: 500;
+  }
+  .detailsSection01{
+    background-color: color-mix(in srgb, var(--bs-pancreas) 55%, var(--bs-gray-100) 45%) !important;
+    font-weight: 500;
+  }
+  .detailsSection02{
+    background-color: color-mix(in srgb, var(--bs-pancreas) 55%, var(--bs-gray-300) 45%) !important;
+    font-weight: 500;    
+  }
+  .detailsSection03{
+    background-color: color-mix(in srgb, var(--bs-pancreas) 55%, var(--bs-gray-500) 45%) !important;
+    font-weight: 500;    
+  }
+  .detailsSection04{
+    background-color: color-mix(in srgb, var(--bs-pancreas) 55%, var(--bs-gray-600) 45%) !important;
+    font-weight: 500;    
+  }
+}
+
+[data-bs-theme="cca"] {
+
+  --bs-body-color: var(--bs-gray-900);
+  --bs-body-bg: var(--bs-btc);
+
+  .btn-outline-custom {
+    --bs-btn-bg: color-mix(in srgb, var(--bs-btc) 20%, var(--bs-gray-100) 80%);
+    --bs-btn-border-color: #{rgba($white, .25)};
+  }
+
+  .btn-check:checked + .btn{
+    background-color: color-mix(in srgb, var(--bs-btc) 70%, var(--bs-gray-500) 30%) !important;
+    font-weight: 500;
+  }
+  .detailsSection01{
+    background-color: color-mix(in srgb, var(--bs-btc) 55%, var(--bs-gray-100) 45%) !important;
+    font-weight: 500;
+  }
+  .detailsSection02{
+    background-color: color-mix(in srgb, var(--bs-btc) 55%, var(--bs-gray-300) 45%) !important;
+    font-weight: 500;    
+  }
+  .detailsSection03{
+    background-color: color-mix(in srgb, var(--bs-btc) 55%, var(--bs-gray-500) 45%) !important;
+    font-weight: 500;    
+  }
+  .detailsSection04{
+    background-color: color-mix(in srgb, var(--bs-btc) 55%, var(--bs-gray-600) 45%) !important;
+    font-weight: 500;    
+  }
 }
