@@ -108,7 +108,7 @@
     },
     {
       "Disease Setting": "1st line ",
-      "Trial Name": "Destiny-Gastric 003 ",
+      "Trial Name": "Destiny-Gastric 03 ",
       "Full title": null,
       "Additional notes": null,
       "Tissue Requirements": null,
@@ -712,6 +712,11 @@
         "Trial Name": "REJOICE-GI01",
         "change": "modified",
         "timestamp": "2025-09-09T11:37:54"
+      },
+      {
+        "Trial Name": "Destiny-Gastric 03 ",
+        "change": "added",
+        "timestamp": "2025-09-10T17:29:55"
       }
     ],
     "CCA": [
