@@ -322,7 +322,7 @@
       "Disease Setting": "2nd or 3rd line",
       "Trial Name": "Clarity-Pantumor",
       "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2 (CLARITY-PanTumour01)",
-      "Additional notes": null,
+      "Additional notes": "BTC cohort:\nPre-screening & screening on hold",
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "AZD0901",
       "Eligibility ": "Claudin 18.2+\nPrior exposure to any CLDN18.2 targeted agents except anti-\nCLDN18.2 monoclonal antibody are excluded",
@@ -354,6 +354,19 @@
       "Eligibility ": "FGFR2 fusions.\nExcluded if received more than 2 prior FGFRi therapies.",
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca",
       "NCT number": "NCT06777316",
+      "Schema image": null,
+      "Schema image data": null
+    },
+    {
+      "Disease Setting": "Any line",
+      "Trial Name": "TYR430",
+      "Full title": "A Multicenter, Open-label, First-in-Human Study of TYRA-430 in Advanced Hepatocellular Carcinoma and Other Solid Tumors with Activating FGF/FGFR pathway aberrations (SURF-431)",
+      "Additional notes": null,
+      "Tissue Requirements": null,
+      "Trial Intervention/Arms": "TYR430",
+      "Eligibility ": "FGF/FGFR pathway alteration",
+      "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca",
+      "NCT number": null,
       "Schema image": null,
       "Schema image data": null
     }
@@ -706,6 +719,16 @@
         "Trial Name": "ZW25 + SOC vs SOC in Her-2+ BTC",
         "change": "modified",
         "timestamp": "2025-09-10T14:22:59"
+      },
+      {
+        "Trial Name": "Clarity-Pantumor",
+        "change": "modified",
+        "timestamp": "2025-09-10T14:35:36"
+      },
+      {
+        "Trial Name": "TYR430",
+        "change": "added",
+        "timestamp": "2025-09-10T14:35:36"
       }
     ]
   }
