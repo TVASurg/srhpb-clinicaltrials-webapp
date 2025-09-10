@@ -309,11 +309,11 @@
       "Disease Setting": "1st line",
       "Trial Name": "ZW25 + SOC vs SOC in Her-2+ BTC",
       "Full title": "An Open-label Randomized Trial of the Efficacy and Safety of Zanidatamab With Standard-of-care Therapy Against Standard-of-care Therapy Alone for Advanced HER2-positive Biliary Tract Cancer",
-      "Additional notes": null,
-      "Tissue Requirements": null,
+      "Additional notes": "ZW25 (zanidatamab) must be added by start of C3",
+      "Tissue Requirements": "Fresh biopsy or archival. ",
       "Trial Intervention/Arms": "A: ZW25 + SOC\nB: SOC",
       "Eligibility ": "Locally advanced unresectable or metastatic BTC and not eligible for curative resection, transplantation,or ablative therapies\nHer-2+",
-      "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca",
+      "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca \nTrial Nurse: Guillaume\nguillaume.cheung@uhn.ca",
       "NCT number": "NCT06282575",
       "Schema image": null,
       "Schema image data": null
@@ -699,6 +699,13 @@
         "Trial Name": "REJOICE-GI01",
         "change": "modified",
         "timestamp": "2025-09-09T11:37:54"
+      }
+    ],
+    "CCA": [
+      {
+        "Trial Name": "ZW25 + SOC vs SOC in Her-2+ BTC",
+        "change": "modified",
+        "timestamp": "2025-09-10T14:22:59"
       }
     ]
   }
