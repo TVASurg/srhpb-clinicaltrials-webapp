@@ -107,12 +107,12 @@
       "Schema image data": null
     },
     {
-      "Disease Setting": "1st line ",
+      "Disease Setting": null,
       "Trial Name": "Destiny-Gastric 03 ",
-      "Full title": null,
+      "Full title": "A Phase 1b/2 Multicenter, Open-label, Dose-escalation and Dose-expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Antitumor Activity of Trastuzumab Deruxtecan (T-DXd) Monotherapy and Combinations in Adult Participants With HER2-expressing Gastric Cancer",
       "Additional notes": null,
       "Tissue Requirements": null,
-      "Trial Intervention/Arms": "TdXD + capecitabine + rilvegostomig ",
+      "Trial Intervention/Arms": "Part 5: T-DXd + volrustomig ",
       "Eligibility ": "Her-2 overexpression.\nILD/Pneumonitis excluded.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT04379596",
@@ -120,11 +120,11 @@
       "Schema image data": null
     },
     {
-      "Disease Setting": "2nd or 3rd line ",
+      "Disease Setting": "2L+",
       "Trial Name": "Clarity-Gastric01 ",
-      "Full title": "closing very soon ",
+      "Full title": "A Phase III Multi-center, Open-label, Sponsor-blinded, \nRandomized Study of AZD0901 Monotherapy Compared with \nInvestigator’s Choice of Therapy in Second- or Later-Line Adult \nParticipants with Advanced/Metastatic Gastric or \nGastroesophageal Junction Adenocarcinoma Expressing \nClaudin18.2",
       "Additional notes": null,
-      "Tissue Requirements": null,
+      "Tissue Requirements": "Archival tissue (≤24 months); fresh tissue (3xT cores) ",
       "Trial Intervention/Arms": "AZD0901 vs physician’s choice ",
       "Eligibility ": "Claudin 18.2+",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -146,7 +146,7 @@
       "Schema image data": null
     },
     {
-      "Disease Setting": "2nd or 3rd line ",
+      "Disease Setting": "2L+",
       "Trial Name": "GA.4 ",
       "Full title": "A RANDOMIZED PHASE II STUDY OF PACLITAXEL AND RAMUCIRUMAB +/- ZANIDATAMAB IN HER2 POSITIVE ADVANCED GASTROESOPHAGEAL ADENOCARCINOMA",
       "Additional notes": null,
@@ -717,6 +717,21 @@
         "Trial Name": "Destiny-Gastric 03 ",
         "change": "added",
         "timestamp": "2025-09-10T17:29:55"
+      },
+      {
+        "Trial Name": "Destiny-Gastric 03 ",
+        "change": "modified",
+        "timestamp": "2025-09-10T17:39:06"
+      },
+      {
+        "Trial Name": "Clarity-Gastric01 ",
+        "change": "modified",
+        "timestamp": "2025-09-10T17:39:06"
+      },
+      {
+        "Trial Name": "GA.4 ",
+        "change": "modified",
+        "timestamp": "2025-09-10T17:39:06"
       }
     ],
     "CCA": [
