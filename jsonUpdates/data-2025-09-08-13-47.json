@@ -94,13 +94,13 @@
   ],
   "Gastroesophageal": [
     {
-      "Disease Setting": "Prior to any systemic treatment ",
-      "Trial Name": "MOCHA",
-      "Full title": "Molecular characteristics of gastroesophageal adenocarcinoma ",
-      "Additional notes": "Prospective collection of clinical data, bloods, stool, and tissue ",
-      "Tissue Requirements": "Baseline fresh tissue biopsy ",
-      "Trial Intervention/Arms": "Arm 1: localized and resectable gastroesophageal adenocarcinoma \nArm 2: metastatic/unresectable gastroesophageal adenocarcinoma",
-      "Eligibility ": "chemotherapy-naive patients ",
+      "Disease Setting": "Any line ",
+      "Trial Name": "Molecular Characteristics of Gastroesophageal Adenocarcinoma ",
+      "Full title": null,
+      "Additional notes": null,
+      "Tissue Requirements": null,
+      "Trial Intervention/Arms": "Collection of biospecimen ",
+      "Eligibility ": "Both locally advanced and metastatic. ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT04219137",
       "Schema image": null,
@@ -122,7 +122,7 @@
     {
       "Disease Setting": "2nd or 3rd line ",
       "Trial Name": "Clarity-Gastric01 ",
-      "Full title": "closing very soon ",
+      "Full title": null,
       "Additional notes": null,
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "AZD0901 vs physician’s choice ",
@@ -135,9 +135,9 @@
     {
       "Disease Setting": "1st line",
       "Trial Name": "ARTEMIDE-Gastric01 ",
-      "Full title": "A Randomized, Phase III Study of Rilvegostomig in Combination with Fluoropyrimidine and Trastuzumab Deruxtecan versus Trastuzumab, Chemotherapy, and Pembrolizumab for the First-line Treatment of HER2-positive Gastric Cancer ",
+      "Full title": null,
       "Additional notes": null,
-      "Tissue Requirements": "Archival tissue (≤6 months); fresh tissue (3xT cores) ",
+      "Tissue Requirements": null,
       "Trial Intervention/Arms": "A: Rilve + T-DXd + 5FU/Cape\nB: Pembro + tras + 5FU/Cape + platinum \nC: Rilve + tras + 5FU/Cape + platinum",
       "Eligibility ": "Her-2 + and PDL1 CPS ≥ 1. ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -148,9 +148,9 @@
     {
       "Disease Setting": "2nd or 3rd line ",
       "Trial Name": "GA.4 ",
-      "Full title": "A RANDOMIZED PHASE II STUDY OF PACLITAXEL AND RAMUCIRUMAB +/- ZANIDATAMAB IN HER2 POSITIVE ADVANCED GASTROESOPHAGEAL ADENOCARCINOMA",
+      "Full title": null,
       "Additional notes": null,
-      "Tissue Requirements": "Archival tissue (most recent or as per MRP/PI’s discretion); fresh tissue (2xT cores for screening; 3xT cores optional biopsy) ",
+      "Tissue Requirements": null,
       "Trial Intervention/Arms": "Ramicirumab/paclitaxel +/- ZW25 ",
       "Eligibility ": "Her-2 + (central confirmation).  ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -159,12 +159,12 @@
       "Schema image data": null
     },
     {
-      "Disease Setting": "Any line ",
+      "Disease Setting": "1st line",
       "Trial Name": "TORO ",
-      "Full title": "Chemoimmunotherapy Followed by Surgery for Oligometastatic Esophagogastric Cancer",
+      "Full title": null,
       "Additional notes": null,
       "Tissue Requirements": null,
-      "Trial Intervention/Arms": null,
+      "Trial Intervention/Arms": "Neoadjuvant systemic treatment followed by surgery and radiation ",
       "Eligibility ": "Oligometastatic disease (up to 5 sites).",
       "Contacts": "Site PI:\nElliot Wakeam\nelliot.wakeam@uhn.ca",
       "NCT number": "NCT06668454",
@@ -172,28 +172,15 @@
       "Schema image data": null
     },
     {
-      "Disease Setting": "3L+",
+      "Disease Setting": "2/3 lines",
       "Trial Name": "REJOICE-GI01",
-      "Full title": "A Phase 2 Nonrandomized, Open-label, Multisite Study to Evaluate the Safety and Efficacy of Raludotatug Deruxtecan in Participants With Gastrointestinal Cancers",
+      "Full title": null,
       "Additional notes": null,
-      "Tissue Requirements": "Archival tissue (≤5 years); fresh tissue (3xT cores) ",
+      "Tissue Requirements": null,
       "Trial Intervention/Arms": "Raludotatug Deruxtecan (R-DXd, CDH6 targeting ADC)",
       "Eligibility ": "Has one of the following: PDAC, colorectal, gastric, gastroesophageal junction or esophageal adenocarcinoma.\nNot biomarker selected.",
       "Contacts": "Site PI:\nLucy Ma\nlucy.ma@uhn.ca",
       "NCT number": "NCT06864169",
-      "Schema image": null,
-      "Schema image data": null
-    },
-    {
-      "Disease Setting": "Any line",
-      "Trial Name": "GEAR",
-      "Full title": "Gastroesophageal and Endocrine Cancer Registry ",
-      "Additional notes": "Prospective collection of clinical data, bloods, stool, and tissue ",
-      "Tissue Requirements": null,
-      "Trial Intervention/Arms": null,
-      "Eligibility ": "those who decline or are or not eligible for MOCHA ",
-      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
-      "NCT number": null,
       "Schema image": null,
       "Schema image data": null
     }
@@ -627,78 +614,6 @@
         "Trial Name": "CaboTx\n ",
         "change": "added",
         "timestamp": "2025-09-08T13:47:39"
-      }
-    ],
-    "Gastroesophageal": [
-      {
-        "Trial Name": "Molecular Characteristics of Gastroesophageal Adenocarcinoma ",
-        "change": "modified",
-        "timestamp": "2025-09-08T16:32:17"
-      },
-      {
-        "Trial Name": "TORO ",
-        "change": "modified",
-        "timestamp": "2025-09-08T16:32:17"
-      },
-      {
-        "Trial Name": "GEAR",
-        "change": "added",
-        "timestamp": "2025-09-08T16:32:17"
-      },
-      {
-        "Trial Name": "MOCHA",
-        "change": "added",
-        "timestamp": "2025-09-09T10:28:17"
-      },
-      {
-        "Trial Name": "Destiny-Gastric 003 ",
-        "change": "modified",
-        "timestamp": "2025-09-09T10:58:55"
-      },
-      {
-        "Trial Name": "Clarity-Gastric01 ",
-        "change": "modified",
-        "timestamp": "2025-09-09T10:58:55"
-      },
-      {
-        "Trial Name": "ARTEMIDE-Gastric01 ",
-        "change": "modified",
-        "timestamp": "2025-09-09T10:58:55"
-      },
-      {
-        "Trial Name": "GA.4 ",
-        "change": "modified",
-        "timestamp": "2025-09-09T10:58:55"
-      },
-      {
-        "Trial Name": "Destiny-Gastric 003 ",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:23:13"
-      },
-      {
-        "Trial Name": "TORO ",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:23:13"
-      },
-      {
-        "Trial Name": "REJOICE-GI01",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:23:13"
-      },
-      {
-        "Trial Name": "GEAR",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:23:13"
-      },
-      {
-        "Trial Name": "REJOICE-GI01",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:34:03"
-      },
-      {
-        "Trial Name": "REJOICE-GI01",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:37:54"
       }
     ]
   }

@@ -109,7 +109,7 @@
     {
       "Disease Setting": "1st line ",
       "Trial Name": "Destiny-Gastric 003 ",
-      "Full title": null,
+      "Full title": "closed",
       "Additional notes": null,
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "TdXD + capecitabine + rilvegostomig ",
@@ -161,10 +161,10 @@
     {
       "Disease Setting": "Any line ",
       "Trial Name": "TORO ",
-      "Full title": "Chemoimmunotherapy Followed by Surgery for Oligometastatic Esophagogastric Cancer",
+      "Full title": null,
       "Additional notes": null,
       "Tissue Requirements": null,
-      "Trial Intervention/Arms": null,
+      "Trial Intervention/Arms": "Neoadjuvant systemic treatment followed by surgery and radiation ",
       "Eligibility ": "Oligometastatic disease (up to 5 sites).",
       "Contacts": "Site PI:\nElliot Wakeam\nelliot.wakeam@uhn.ca",
       "NCT number": "NCT06668454",
@@ -172,11 +172,11 @@
       "Schema image data": null
     },
     {
-      "Disease Setting": "3L+",
+      "Disease Setting": "2/3 lines",
       "Trial Name": "REJOICE-GI01",
-      "Full title": "A Phase 2 Nonrandomized, Open-label, Multisite Study to Evaluate the Safety and Efficacy of Raludotatug Deruxtecan in Participants With Gastrointestinal Cancers",
+      "Full title": null,
       "Additional notes": null,
-      "Tissue Requirements": "Archival tissue (≤5 years); fresh tissue (3xT cores) ",
+      "Tissue Requirements": null,
       "Trial Intervention/Arms": "Raludotatug Deruxtecan (R-DXd, CDH6 targeting ADC)",
       "Eligibility ": "Has one of the following: PDAC, colorectal, gastric, gastroesophageal junction or esophageal adenocarcinoma.\nNot biomarker selected.",
       "Contacts": "Site PI:\nLucy Ma\nlucy.ma@uhn.ca",
@@ -187,11 +187,11 @@
     {
       "Disease Setting": "Any line",
       "Trial Name": "GEAR",
-      "Full title": "Gastroesophageal and Endocrine Cancer Registry ",
-      "Additional notes": "Prospective collection of clinical data, bloods, stool, and tissue ",
+      "Full title": null,
+      "Additional notes": null,
       "Tissue Requirements": null,
       "Trial Intervention/Arms": null,
-      "Eligibility ": "those who decline or are or not eligible for MOCHA ",
+      "Eligibility ": null,
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": null,
       "Schema image": null,
@@ -669,36 +669,6 @@
         "Trial Name": "GA.4 ",
         "change": "modified",
         "timestamp": "2025-09-09T10:58:55"
-      },
-      {
-        "Trial Name": "Destiny-Gastric 003 ",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:23:13"
-      },
-      {
-        "Trial Name": "TORO ",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:23:13"
-      },
-      {
-        "Trial Name": "REJOICE-GI01",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:23:13"
-      },
-      {
-        "Trial Name": "GEAR",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:23:13"
-      },
-      {
-        "Trial Name": "REJOICE-GI01",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:34:03"
-      },
-      {
-        "Trial Name": "REJOICE-GI01",
-        "change": "modified",
-        "timestamp": "2025-09-09T11:37:54"
       }
     ]
   }
