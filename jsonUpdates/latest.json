@@ -219,7 +219,7 @@
       "Additional notes": "\"BeyondIO\"",
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "Atezo + bev",
-      "Eligibility ": "HCC, candidate for liver transplant",
+      "Eligibility ": "HCC, candidate for liver transplant, but beyond Milan criteria",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT05185505",
       "Schema image": null,
@@ -650,6 +650,11 @@
         "Trial Name": "HMLTO002",
         "change": "modified",
         "timestamp": "2025-09-11T16:43:46"
+      },
+      {
+        "Trial Name": "HMLTO002",
+        "change": "modified",
+        "timestamp": "2025-09-11T17:08:18"
       }
     ],
     "Gastroesophageal": [
