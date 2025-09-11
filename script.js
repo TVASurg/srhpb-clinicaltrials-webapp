@@ -79,6 +79,7 @@ function initAllData() {
         }
         else if (sheetName === "Gastroesophageal") {
           rows.forEach((row, i) => {
+            if (row["Disease Setting"]){
             gastroesophageal_master["names"].push(row["Trial Name"]);
             gastroesophageal_master["setting"].push(row["Disease Setting"]);
             gastroesophageal_master["fullTitle"].push(row["Full title"]);
@@ -90,7 +91,7 @@ function initAllData() {
             gastroesophageal_master["NCT"].push(row["NCT number"]);
             //adding in base64 encoded images
             gastroesophageal_master["schema"].push(row["Schema image data"]);
-
+            }
             if (row["Biomarker"])
             {
              biomarker_master["categories"].push("PDAC");
