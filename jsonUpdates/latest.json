@@ -202,10 +202,10 @@
     {
       "Disease Setting": "Peri-OR",
       "Trial Name": "NEOTOMA",
-      "Full title": "Neoadjuvant Tremelimumab + durvalumab and adjuvant durvalumab in previously untreated resectable HCC",
+      "Full title": "Perioperative Therapy with Durvalumab Plus Tremelimumab for Patients with\nResectable Hepatocellular Carcinoma (HCC) - A Phase II Trial\n",
       "Additional notes": null,
-      "Tissue Requirements": null,
-      "Trial Intervention/Arms": "Durva + treme",
+      "Tissue Requirements": "Baseline biopsy",
+      "Trial Intervention/Arms": "Pre-surgery: x1 dose Tremelimumab (300mg) + Durvalumab (1500mg), x1 dose Durva only. Post-surgery: 11 cycles of Durvalumab Q4W. ",
       "Eligibility ": "Resectable HCC",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131",
       "NCT number": "NCT05440864",
@@ -216,7 +216,7 @@
       "Disease Setting": "Pre-transplant",
       "Trial Name": "HMLTO002",
       "Full title": "Atezolizumab and Bevacizumab Pre-Liver Transplantation for Patients with Hepatocellular Carcinoma Beyond Milan Criteria: A Feasibility Study",
-      "Additional notes": null,
+      "Additional notes": "\"BeyondIO\"",
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "Atezo + bev",
       "Eligibility ": "HCC, candidate for liver transplant",
@@ -640,6 +640,16 @@
         "Trial Name": "CaboTx\n ",
         "change": "added",
         "timestamp": "2025-09-08T13:47:39"
+      },
+      {
+        "Trial Name": "NEOTOMA",
+        "change": "modified",
+        "timestamp": "2025-09-11T16:43:46"
+      },
+      {
+        "Trial Name": "HMLTO002",
+        "change": "modified",
+        "timestamp": "2025-09-11T16:43:46"
       }
     ],
     "Gastroesophageal": [
