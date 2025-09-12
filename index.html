@@ -5,7 +5,14 @@
   <meta name="robots" content="noindex">
   <title>GI clinical trials webapp - powered by the Schwartz Reisman HPB Research Innovation Centre - TVASurg - v.13</title>
   <link rel="stylesheet" href="./style.css">
-
+  <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init Ce js Ls Te Fs Ds capture Ye calculateEventProperties Us register register_once register_for_session unregister unregister_for_session Ws getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Bs zs createPersonProfile Hs Ms Gs opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Ns debug L qs getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_B3mpSAH2yV4o7LehV1EQly9zYSw8d08yqWatGeOt1JM', {
+        api_host: 'https://us.i.posthog.com',
+        defaults: '2025-05-24',
+        person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+    })
+</script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -40,10 +47,10 @@
     </nav>    
     <div class="row">
 
-      <div class="col-12">
-      </div>
       <div class="col-12 col-lg-3"> 
-        <ul id ="diseaseNav" class="list-unstyled ps-0 ">
+        <div class="flipNav">
+          <div id="mainNavInner" class="flipNavInner">
+        <ul id ="diseaseNav" class="list-unstyled ps-0 flipNavFront">
           
            <li class="fs-5 bg-gastroesophageal ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2" >Gastroesophageal</li>
           <li class="d-grid mb-1 bg-gastroesophageal rounded-bottom ps-2" > <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#ge-collapse">
@@ -116,14 +123,11 @@
             </div>
           </li>
         </ul>
-<!--
-        <ul id="biomarkerNav" class="list-unstyled ps-0">
+
+        <ul id="diseaseNav" class="list-unstyled ps-0 flipNavBack">
              
-          <li class="fs-6 bg-gray-500 ps-2 rounded-top fw-semibold border-bottom py-2 mt-3 ps-2">Browse by...</li>
-          <li class="mb-3 bg-gray-500 ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#biomarker-collapse">
-              Biomarker
-            </button>
-            <div class="collapse bg-gray-500" id="biomarker-collapse">
+          <li class="fs-5 bg-gray-500 ps-2 rounded-top fw-semibold border-bottom py-2 mt-2 ps-2">Biomarker</li>
+            <div class="bg-gray-500 rounded-bottom">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
                 <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`MTAP`)"><li class="rounded diseaseState px-3 mx-2 py-2" >MTAP</li></a>
                 <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`Claudin`)"><li class="rounded diseaseState px-3 mx-2 py-2" >Claudin-18.2</li></a>
@@ -132,9 +136,12 @@
           </li> 
 
         </ul>
-        <div class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="toggleNav()">Test button</div>
--->
-        <div class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="printCommunityList()">Download printable PDF</div>
+        
+
+      </div>
+      </div>  
+      <!-- <div id="navToggle" class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="toggleNav()">Browse by biomarker</div>   -->
+      <div class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="printCommunityList()">Download printable PDF</div>
         
       </div>
       <div class="col-12 col-lg-9">

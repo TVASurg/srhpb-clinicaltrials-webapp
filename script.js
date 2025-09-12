@@ -972,7 +972,13 @@ function displayLastUpdateForTrial(mainCategory, trialName)
 
 function toggleNav()
 {
-    
-    document.getElementById("diseaseNav").classList.add('active'); 
-    document.getElementById("biomarkerNav").classList.add('active'); 
+    if(document.getElementById("mainNavInner").classList.contains('active'))
+    {
+      document.getElementById("mainNavInner").classList.remove('active');
+      document.getElementById("navToggle").innerHTML = "Browse by biomarker";
+    }else
+    {
+      document.getElementById("mainNavInner").classList.add('active'); 
+      document.getElementById("navToggle").innerHTML = "Browse by organ group";
+    }
 }
