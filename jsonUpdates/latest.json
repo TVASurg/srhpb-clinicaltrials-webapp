@@ -607,6 +607,29 @@
       "Schema image data": null
     }
   ],
+  "Biomarkers": [
+    {
+      "Biomarker": "HER2 "
+    },
+    {
+      "Biomarker": "CLDN18.2"
+    },
+    {
+      "Biomarker": "HER2 and PDL1"
+    },
+    {
+      "Biomarker": "HER-2 on IHC"
+    },
+    {
+      "Biomarker": "IDH1"
+    },
+    {
+      "Biomarker": "Claudin18.2"
+    },
+    {
+      "Biomarker": "MTAP"
+    }
+  ],
   "Neuroendocrine": [
     {
       "Disease Setting": "2nd+ line ",
