@@ -379,8 +379,8 @@
       "Additional notes": "Resectable pancreatic cancer by NCCN criteria.\nCA 19-9 < 300.",
       "Tissue Requirements": "Baseline EUS biopsy",
       "Trial Intervention/Arms": "Durvalumab 1500 mg IV x 1 dose and oleclumab 3000 mg x 2 doses Q2W prior to resection",
-      "Eligibility ": "Inclusion: \nResectable PDAC by NCCN criteria \nCA 19-9 < 300\nLife expectancy ≥ 12 weeks\n\nExclusion: \nAnticancer therapy within 21 days or palliative RT within 14 days prior to 1st dose\nOther invasive malignancy within 5 years.\nPrior receipt of any immune-mediated therapy\n\nOther invasive malignancy within 5 years\n\nPrior history of myocardial infarction, transient ischemic attack, congestive heart failure ≥ Class 3 based on New York Heart Association Functional Classification or stroke within the past 3 months prior to the scheduled first dose of study treatment.\n\nPositive for HIV",
-      "Contacts": "Site PI:\nMalcolm Moore\nmalcolm.moore@uhn.ca\n416-946-2263\n\nCoordinator:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
+      "Eligibility ": "Inclusion: \nResectable PDAC by NCCN criteria \nCA 19-9 < 300\nLife expectancy ≥ 12 weeks\n\nExclusion: \nAnticancer therapy within 21 days or palliative RT within 14 days prior to 1st dose\n\nPrior receipt of any immune-mediated therapy\n\nOther invasive malignancy within 5 years\n\nPrior history of myocardial infarction, transient ischemic attack, congestive heart failure ≥ Class 3 based on New York Heart Association Functional Classification or stroke within the past 3 months prior to the scheduled first dose of study treatment.\n\nPositive for HIV",
+      "Contacts": "Site PI:\nErica Tsang \nErica.tsang@uhn.ca\n\nCoordinator:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
       "NCT number": "NCT06060405",
       "Schema image": null,
       "Schema image data": null
@@ -405,7 +405,7 @@
       "Additional notes": "Cohort 1: upfront surgery (neoadj.  chemo excluded; immunotherapy permitted).\nCohort 2: minimum of 4 to 6 cores must be safely obtained from single lesion biopsy.",
       "Tissue Requirements": "Fresh tissue collection for WGTS + organoids ",
       "Trial Intervention/Arms": "Serial blood draws for ctDNA ",
-      "Eligibility ": "Inclusion: \nUpfront resectable: definition of resectability will be according to NCCN guidelines and the patient must be planned for a surgery first approach.\nLife expectancy of ≥ 6 months\nMust be suitable for systemic therapy\nExclusion: \nHistologies excluded: colloid, high grade neuroendocrine\nPatients receiving neoadjuvant chemotherapy (neoadjuvant immunotherapy is permitted)",
+      "Eligibility ": "Inclusion: \nUpfront resectable\nLife expectancy of ≥ 6 months\nMust be suitable for systemic therapy\nExclusion: \nHistologies excluded: colloid, high grade neuroendocrine\nPatients receiving neoadjuvant chemotherapy (neoadjuvant immunotherapy is permitted)",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": "NCT05927298",
       "Schema image": "NCT05927298.png",
@@ -417,7 +417,7 @@
       "Full title": "Ablative radiation therapy with high dose geometric Boost for Locally Advanced pancreatic cancer patients following Treatment response Evaluation of standard of care induction chemotherapy (ABLATE): a phase II clinical trial",
       "Additional notes": "Unresectable PDAC on 1L. chemotherapy >16 weeks without progression. ",
       "Tissue Requirements": "Pre-radiation biopsy optional ",
-      "Trial Intervention/Arms": "Ablative high dose RT: \n    50Gy/5Fx or \n    67.5Gy/15Fx or \n    75Gy/25Fx ",
+      "Trial Intervention/Arms": "Ablative high dose RT: \n    50Gy/5Fx every other day for 2 weeks (UHN) or \n    67.5Gy/15Fx once a day for 3 weeks  or \n    75Gy/25Fx once a day for 5 weeks ",
       "Eligibility ": "Inclusion: \nPancreatic tumour <8.0 cm in greatest axial dimension - final determination  will be based upon satisfying the radiation normal tissue constraints.\nLife expectancy > 6 months\nPrior 1L chemotherapy for at least 16 weeks without clinical or radiographic progression\nExclusion: \nMetastatic disease at the time of registration\nPrior RT to the upper abdomen region that would result in overlap of RT volume\nCurrently on anti-cancer treatment including chemotherapy.",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": "NCT06453486",
@@ -454,7 +454,7 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "CLARITY-PanTumour01 - Claudin 18.2\n\n",
       "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2",
-      "Additional notes": "Claudin 18.2+  Neoadjuvant/adjuvant chemo allowed if progressed\n ≥ 6 months since last dose.",
+      "Additional notes": " Neoadjuvant/adjuvant chemo allowed if progressed\n ≥ 6 months since last dose.",
       "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue ",
       "Trial Intervention/Arms": "Arm1: AZD0901 in combination with 5FU/leucovorin and Irinotecan or nanoliposomal Irinotecan  \n\nArm2: AZD0901 combination with Gemcitabine ",
       "Eligibility ": "Inclusion: \nCLDN18.2 positive\nat least one measurable lesion according to RECIST v1.1.\nLife expectancy of ≥ 12 weeks.\nExclusion:\nUnstable or active peptic ulcer disease or digestive tract bleeding including but not limited to clinically significant bleeding in the setting of prior CLDN18.2 directed therapy.\nClinically significant ascites that require drainage.\nHistory of another primary malignancy.",
@@ -468,9 +468,9 @@
       "Trial Name": "20230223 (AMG193) - MTAP Deletion\n\n",
       "Full title": "A Study Evaluating AMG 193 in Combination With Other Therapies in Participants With Advanced Gastrointestinal, Biliary Tract, or Pancreatic Cancers With Homozygous Methylthioadenosine Phosphorylase (MTAP)-Deletion",
       "Additional notes": "MTAP deletion, NGS pre-screening through Foundation Medicine included in study. ",
-      "Tissue Requirements": "Pre-screen: needs archival or fresh tissue",
-      "Trial Intervention/Arms": "AMG 193 alone or in combination with mFOLFIRINOX or with Gemcitabine and Nab-paclitaxel",
-      "Eligibility ": "Inclusion:\nECOG 0-1 \nTumor tissue (FFPE sample) or an archival block must be available. Participants without archived tumor tissue available may be allowed to enroll by undergoing tumor biopsy before dosing.\nHomozygous MTAP-deletion\nDisease measurable as defined by RECIST v1.1.\nExclusion:\nPrior systemic therapy for advanced or unresectable (locally advanced) adenocarcinoma of the pancreas.\nPrior treatment with a MAT2A inhibitor or a PRMT5 inhibitor.\nRadiation therapy within 28 days of first dose.\n",
+      "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue",
+      "Trial Intervention/Arms": "AMG 193 alone or in combination with mFOLFIRINOX or with Gemcitabine and Nab-paclitaxel \n\nActive arm: AMG 193 + mFFX",
+      "Eligibility ": "Inclusion:\nECOG 0-1 \nTumor tissue (FFPE sample) or an archival block (16 slides) must be available. Participants without archived tumor tissue available may be allowed to enroll by undergoing tumor biopsy before dosing.\nHomozygous MTAP-deletion\nDisease measurable as defined by RECIST v1.1.\nExclusion:\nPrior systemic therapy for advanced or unresectable (locally advanced) adenocarcinoma of the pancreas.\nPrior treatment with a MAT2A inhibitor or a PRMT5 inhibitor.\nRadiation therapy within 28 days of first dose.\n",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nOchir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca \n\nMaggie Hildebrand \nMaggie.Hildebrand@uhn.ca",
       "NCT number": "NCT06360354",
       "Schema image": null,
@@ -480,7 +480,7 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
       "Full title": "Pancreatic Cancer Glucose Assessment and Regulation Study",
-      "Additional notes": "Metastatic PDAC to start 1L. FOLFIRINOX, no prior diabetes diagnosis. ",
+      "Additional notes": "Metastatic PDAC to start 1L. FOLFIRINOX, no prior diabetes diagnosis\nHbA1C < 6.5% ",
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "Continuous glucose monitor (CGM) for first 2 months of mFFX \n\nArm 1: Intensive glucose intervention with endocrinologist directed glycemic management, with target glucose levels between 4-10 mmol/L \n\nArm 2: Standard of care glucose intervention with intervention only if glucose level >15 mmol/L (Blinded to CGM results) ",
       "Eligibility ": "\nExclusion:\nAbsence of distant or lymph node metastases. Participants with borderline resectable or locally advanced PDAC are not eligible.\nReceived prior systemic therapy (chemotherapy or any other anti-cancer agent) for treatment of metastatic PDAC\nKnown diagnosis of type I diabetes where strict glucose control and close Endocrinology follow-up is already indicated.\nKnown diagnosis of type II diabetes and already followed by Endocrinologist.",
@@ -491,7 +491,7 @@
     },
     {
       "Disease Setting": "1L Metastatic",
-      "Trial Name": "PRISM-1 \n\n\n\n",
+      "Trial Name": "PRISM-1 (NOT RECRUITING)\n\n\n\n",
       "Full title": "A Randomized, Placebo-Controlled, Double-Blind, Multicenter Phase 3 Trial of Quemliclustat and Chemotherapy Versus Placebo and Chemotherapy in Patients with Treatment Naïve Metastatic Pancreatic Ductal Adenocarcinoma",
       "Additional notes": "Previously untreated mPDAC\nNeo/Adj permitted if given >12m before randomization.",
       "Tissue Requirements": null,
@@ -661,6 +661,41 @@
         "Trial Name": "DORA (WOO)",
         "change": "modified",
         "timestamp": "2025-09-15T16:50:23"
+      },
+      {
+        "Trial Name": "DORA (WOO)",
+        "change": "modified",
+        "timestamp": "2025-09-15T17:19:28"
+      },
+      {
+        "Trial Name": "Prosper-PANC Cohort 1\n",
+        "change": "modified",
+        "timestamp": "2025-09-15T17:19:28"
+      },
+      {
+        "Trial Name": "ABLATE (radiation)\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-15T17:19:28"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01 - Claudin 18.2\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-15T17:19:28"
+      },
+      {
+        "Trial Name": "20230223 (AMG193) - MTAP Deletion\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-15T17:19:28"
+      },
+      {
+        "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-15T17:19:28"
+      },
+      {
+        "Trial Name": "PRISM-1 (NOT RECRUITING)\n\n\n\n",
+        "change": "added",
+        "timestamp": "2025-09-15T17:19:28"
       }
     ],
     "HCC": [
