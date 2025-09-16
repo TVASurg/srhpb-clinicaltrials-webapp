@@ -218,7 +218,7 @@
       "Full title": "Atezolizumab and Bevacizumab Pre-Liver Transplantation for Patients with Hepatocellular Carcinoma Beyond Milan Criteria: A Feasibility Study",
       "Additional notes": "\"BeyondIO\"",
       "Tissue Requirements": null,
-      "Trial Intervention/Arms": "Atezo + bev",
+      "Trial Intervention/Arms": "Atezo/Bev plus TACE or TARE",
       "Eligibility ": "HCC, candidate for liver transplant, but beyond Milan criteria",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT05185505",
@@ -274,6 +274,19 @@
       "Eligibility ": "CTNNB1 or AXIN1\nPre- and on treatment biopies",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT05797805",
+      "Schema image": null,
+      "Schema image data": null
+    },
+    {
+      "Disease Setting": "1st line ",
+      "Trial Name": "CHS-388-202",
+      "Full title": "A Randomized Phase 2 Study of Casdozokitug in Combination With Toripalimab Plus Bevacizumab in Participants With Unresectable and/or Locally Advanced or Metastatic Hepatocellular Carcinoma ",
+      "Additional notes": null,
+      "Tissue Requirements": "Baseline biopsy: fresh, or archival within 2 years of screening.",
+      "Trial Intervention/Arms": "• Arm A: casdozokitug 700 mg + toripalimab 240 mg + bevacizumab 15 mg/kg intravenously (IV) every 3 weeks (Q3W) on Day 1 of a 21-day cycle (n ~ 24). \n• Arm B: casdozokitug 1400 mg + toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24). \n• Arm C: toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24) ",
+      "Eligibility ": "Unresectable, locally advanced or metastatic HCC. Histological, or clinical diagnosis (in cirrhotic patients).",
+      "Contacts": "Site PI: \nDr. Erica Tsang\nerica.tsang@uhn.ca\n416-946-4501 ext. 4853",
+      "NCT number": null,
       "Schema image": null,
       "Schema image data": null
     }
@@ -718,6 +731,16 @@
         "Trial Name": "HMLTO002",
         "change": "modified",
         "timestamp": "2025-09-11T17:08:18"
+      },
+      {
+        "Trial Name": "HMLTO002",
+        "change": "modified",
+        "timestamp": "2025-09-15T20:36:55"
+      },
+      {
+        "Trial Name": "CHS-388-202",
+        "change": "added",
+        "timestamp": "2025-09-15T20:36:55"
       }
     ],
     "Gastroesophageal": [
