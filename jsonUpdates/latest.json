@@ -240,7 +240,7 @@
     },
     {
       "Disease Setting": "1st Line ",
-      "Trial Name": "HE.2 / SLIDE-HCC",
+      "Trial Name": "HE.2",
       "Full title": "A Phase II Study of STRIDE (Durvalumab + Tremelimumab) with Lenvatinib Versus Stride Alone in Patients with Unresectable Hepatocellular Carcinoma (SLIDE-HCC)",
       "Additional notes": "Open and accruing ",
       "Tissue Requirements": null,
@@ -848,6 +848,11 @@
         "Trial Name": "CHS-388-202",
         "change": "modified",
         "timestamp": "2025-09-16T16:57:30"
+      },
+      {
+        "Trial Name": "HE.2",
+        "change": "added",
+        "timestamp": "2025-09-16T16:58:38"
       }
     ],
     "Gastroesophageal": [
