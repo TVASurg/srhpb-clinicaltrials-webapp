@@ -18,47 +18,31 @@
   <!-- App Code -->
   <script>
     let auth0Client;
+    const fetchAuthConfig = () => fetch("/auth_config.json");
+    const configureClient = async () => {
+      const response = await fetchAuthConfig();
+      const config = await response.json();
 
-    window.addEventListener("load", async () => {
-      try {
-        auth0Client = await createAuth0Client({
-          domain: "srhpb.ca.auth0.com",   // from Auth0 dashboard
-          client_id: "Abvc8NGILDDu6R1iaQJ9C0tbSNVjWuJM",       // from Auth0 dashboard
-          cacheLocation: "localstorage",     // keeps session on Netlify
-        });
+      auth0Client = await auth0.createAuth0Client({
+      domain: config.domain,
+      clientId: config.clientId
+      });
 
-        // Handle redirect after login
-        if (window.location.search.includes("code=") &&
-            window.location.search.includes("state=")) {
-          await auth0Client.handleRedirectCallback();
-          window.history.replaceState({}, document.title, "/");
-        }
-
-        // Show user info if logged in
-        if (await auth0Client.isAuthenticated()) {
-          const user = await auth0Client.getUser();
-          document.getElementById("result").textContent =
-            "Logged in as: " + JSON.stringify(user, null, 2);
-        }
-
-        // Wire up login/logout
-        document.getElementById("login").addEventListener("click", () =>
-          auth0Client.loginWithRedirect({
-            authorizationParams: { redirect_uri: window.location.origin },
-          })
-        );
-
-        document.getElementById("logout").addEventListener("click", () =>
-          auth0Client.logout({ logoutParams: { returnTo: window.location.origin } })
-        );
-      } catch (err) {
-        console.error("Auth0 init error:", err);
-        document.getElementById("result").textContent = "Error: " + err.message;
+      window.onload = async () => {
+      await configureClient();
       }
-    });
+
+      const login = async () => {
+        await auth0Client.loginWithRedirect({
+          authorizationParams: {
+            redirect_uri: window.location.origin
+          }
+        });
+      };
   </script>
 </body>
 </html>
+
 
 
 
