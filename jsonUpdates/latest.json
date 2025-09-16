@@ -229,7 +229,7 @@
       "Disease Setting": "1st line",
       "Trial Name": "ARTEMIDE HCC01",
       "Full title": "A Phase III Randomised, Open Label, Sponsor-Blinded, Multicentre Study of Rilvegostomig in Combination with Bevacizumab with or without Tremelimumab as First-line Treatment in Patients with Advanced Hepatocellular Carcinoma",
-      "Additional notes": null,
+      "Additional notes": "[On hold] TBD December 2025",
       "Tissue Requirements": "Baseline biopsy: fresh or archival.",
       "Trial Intervention/Arms": "• Arm A: Tremelimumab 300 mg × 2 doses (Q12W), rilvegostomig 750 mg Q3W, and bevacizumab 15 mg/kg Q3W (bevacizumab will not be given in cycles with tremelimumab) \n• Arm B: Rilvegostomig 750 mg Q3W, and bevacizumab 15 mg/kg Q3W \n• Arm C: Atezolizumab 1200 mg Q3W, and bevacizumab 15 mg/kg Q3W",
       "Eligibility ": "HCC, not prior systemic therapy \nNo main portal vein thrombosis ",
@@ -266,9 +266,9 @@
     },
     {
       "Disease Setting": "Last line",
-      "Trial Name": "Phase I/II BC2059 in HCC",
+      "Trial Name": "ITER-002-HCC",
       "Full title": "A phase 1/2 exploratory study of the TBL1 inhibitor, tegavivint (BC2059), in patients with advanced hepatocellular carcinoma",
-      "Additional notes": null,
+      "Additional notes": "Open ",
       "Tissue Requirements": null,
       "Trial Intervention/Arms": "BC2059, or BC2059+pembro",
       "Eligibility ": "CTNNB1 or AXIN1\nPre- and on treatment biopies",
@@ -281,11 +281,24 @@
       "Disease Setting": "1st line ",
       "Trial Name": "CHS-388-202",
       "Full title": "A Randomized Phase 2 Study of Casdozokitug in Combination With Toripalimab Plus Bevacizumab in Participants With Unresectable and/or Locally Advanced or Metastatic Hepatocellular Carcinoma ",
-      "Additional notes": null,
+      "Additional notes": "Open",
       "Tissue Requirements": "Baseline biopsy: fresh, or archival within 2 years of screening.",
       "Trial Intervention/Arms": "• Arm A: casdozokitug 700 mg + toripalimab 240 mg + bevacizumab 15 mg/kg intravenously (IV) every 3 weeks (Q3W) on Day 1 of a 21-day cycle (n ~ 24). \n• Arm B: casdozokitug 1400 mg + toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24). \n• Arm C: toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24) ",
       "Eligibility ": "Unresectable, locally advanced or metastatic HCC. Histological, or clinical diagnosis (in cirrhotic patients).",
       "Contacts": "Site PI: \nDr. Erica Tsang\nerica.tsang@uhn.ca\n416-946-4501 ext. 4853",
+      "NCT number": null,
+      "Schema image": null,
+      "Schema image data": null
+    },
+    {
+      "Disease Setting": "1st Line ",
+      "Trial Name": "HE.2 / SLIDE-HCC",
+      "Full title": "STRIDE +/- Lenva",
+      "Additional notes": "Active and accruing ",
+      "Tissue Requirements": null,
+      "Trial Intervention/Arms": null,
+      "Eligibility ": null,
+      "Contacts": null,
       "NCT number": null,
       "Schema image": null,
       "Schema image data": null
@@ -337,7 +350,7 @@
       "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2 (CLARITY-PanTumour01)",
       "Additional notes": "BTC cohort:\nPre-screening & screening on hold",
       "Tissue Requirements": null,
-      "Trial Intervention/Arms": "AZD0901",
+      "Trial Intervention/Arms": "AZD0901 monotherapy",
       "Eligibility ": "Claudin 18.2+\nPrior exposure to any CLDN18.2 targeted agents except anti-\nCLDN18.2 monoclonal antibody are excluded",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06219941",
@@ -762,6 +775,26 @@
         "Trial Name": "CaboTx\n ",
         "change": "modified",
         "timestamp": "2025-09-15T20:58:52"
+      },
+      {
+        "Trial Name": "ARTEMIDE HCC01",
+        "change": "modified",
+        "timestamp": "2025-09-16T14:42:22"
+      },
+      {
+        "Trial Name": "ITER-002-HCC",
+        "change": "added",
+        "timestamp": "2025-09-16T14:42:22"
+      },
+      {
+        "Trial Name": "CHS-388-202",
+        "change": "modified",
+        "timestamp": "2025-09-16T14:42:22"
+      },
+      {
+        "Trial Name": "HE.2 / SLIDE-HCC",
+        "change": "added",
+        "timestamp": "2025-09-16T14:42:22"
       }
     ],
     "Gastroesophageal": [
@@ -881,6 +914,11 @@
         "Trial Name": "CGT4859 ",
         "change": "modified",
         "timestamp": "2025-09-10T16:20:54"
+      },
+      {
+        "Trial Name": "Clarity-Pantumor",
+        "change": "modified",
+        "timestamp": "2025-09-16T14:42:22"
       }
     ]
   }
