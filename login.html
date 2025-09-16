@@ -14,36 +14,54 @@
   <!-- ✅ Auth0 SDK v2.1 -->
   <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
 
-
   <!-- App Code -->
   <script>
-    let auth0Client = null;
-    const fetchAuthConfig = () => fetch("/auth_config.json");
+    async function initAuth0() {
+    auth0Client = await createAuth0Client({
+      domain: "YOUR_DOMAIN.auth0.com",
+      client_id: "YOUR_CLIENT_ID",
+      cacheLocation: "localstorage", // keeps user logged in across refresh
+    });
 
-    const configureClient = async () => {
-      const response = await fetchAuthConfig();
-      const config = await response.json();
+    // Handle login redirect (callback from Auth0)
+    if (window.location.search.includes("code=") &&
+        window.location.search.includes("state=")) {
+      await auth0Client.handleRedirectCallback();
+      window.history.replaceState({}, document.title, "/"); // clean up URL
+    }
 
-      auth0Client = await auth0.createAuth0Client({
-      domain: config.domain,
-      clientId: config.clientId
-      });
+    // Check login status
+    const isAuthenticated = await auth0Client.isAuthenticated();
+    if (isAuthenticated) {
+      const user = await auth0Client.getUser();
+      console.log("Logged in as:", user);
+      document.getElementById("status").innerText = `Welcome ${user.name}`;
+    } else {
+      document.getElementById("status").innerText = "Not logged in";
+    }
+  }
 
-      window.onload = async () => {
-      await configureClient();
+  async function login() {
+    await auth0Client.loginWithRedirect({
+      authorizationParams: {
+        redirect_uri: window.location.origin,
       }
+    });
+  }
 
-      const login = async () => {
-        await auth0Client.loginWithRedirect({
-          authorizationParams: {
-            redirect_uri: window.location.origin
-          }
-        });
-      };
-    };
+  async function logout() {
+    auth0Client.logout({
+      logoutParams: {
+        returnTo: window.location.origin,
+      }
+    });
+  }
+
+  window.onload = initAuth0;  
   </script>
 </body>
 </html>
+
 
 
 
