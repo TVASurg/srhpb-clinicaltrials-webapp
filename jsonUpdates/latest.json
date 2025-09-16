@@ -205,7 +205,7 @@
       "Full title": "Perioperative Therapy with Durvalumab Plus Tremelimumab for Patients with\nResectable Hepatocellular Carcinoma (HCC) - A Phase II Trial\n",
       "Additional notes": null,
       "Tissue Requirements": "Baseline biopsy",
-      "Trial Intervention/Arms": "Pre-surgery: x1 dose Tremelimumab (300mg) + Durvalumab (1500mg), x1 dose Durva only. Post-surgery: 11 cycles of Durvalumab Q4W. ",
+      "Trial Intervention/Arms": "Pre-surgery: x1 dose Tremelimumab (300mg) + Durvalumab (1500mg), x1 dose Durva only. \nPost-surgery: 11 cycles of Durvalumab Q4W. ",
       "Eligibility ": "Resectable HCC",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131",
       "NCT number": "NCT05440864",
@@ -217,8 +217,8 @@
       "Trial Name": "HMLTO002",
       "Full title": "Atezolizumab and Bevacizumab Pre-Liver Transplantation for Patients with Hepatocellular Carcinoma Beyond Milan Criteria: A Feasibility Study",
       "Additional notes": "\"BeyondIO\"",
-      "Tissue Requirements": null,
-      "Trial Intervention/Arms": "Atezo/Bev plus TACE or TARE",
+      "Tissue Requirements": "Baseline biopsy: fresh, or archival if tissue available for correlatives.",
+      "Trial Intervention/Arms": "Atezolizumab (1200mg) + Bevacizumab (15mg/kg) Q3W plus TACE or TARE during liver transplant waiting period",
       "Eligibility ": "HCC, candidate for liver transplant, but beyond Milan criteria",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT05185505",
@@ -230,8 +230,8 @@
       "Trial Name": "ARTEMIDE HCC01",
       "Full title": "A Phase III Randomised, Open Label, Sponsor-Blinded, Multicentre Study of Rilvegostomig in Combination with Bevacizumab with or without Tremelimumab as First-line Treatment in Patients with Advanced Hepatocellular Carcinoma",
       "Additional notes": null,
-      "Tissue Requirements": null,
-      "Trial Intervention/Arms": "A: Rilvegostomig + bev \nB: rilvegostomig + bev + tremelimumab",
+      "Tissue Requirements": "Baseline biopsy: fresh or archival.",
+      "Trial Intervention/Arms": "• Arm A: Tremelimumab 300 mg × 2 doses (Q12W), rilvegostomig 750 mg Q3W, and bevacizumab 15 mg/kg Q3W (bevacizumab will not be given in cycles with tremelimumab) \n• Arm B: Rilvegostomig 750 mg Q3W, and bevacizumab 15 mg/kg Q3W \n• Arm C: Atezolizumab 1200 mg Q3W, and bevacizumab 15 mg/kg Q3W",
       "Eligibility ": "HCC, not prior systemic therapy \nNo main portal vein thrombosis ",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131",
       "NCT number": "NCT06921785",
@@ -243,7 +243,7 @@
       "Trial Name": "CaboTx\n ",
       "Full title": "A Phase II Trial of Cabozantinib in the Treatment of Recurrent Hepatocellular Carcinoma Post Liver Transplant",
       "Additional notes": null,
-      "Tissue Requirements": null,
+      "Tissue Requirements": "Baseline biopsy and original explant archived tissue",
       "Trial Intervention/Arms": "Cabozanitnib",
       "Eligibility ": "Recurrence after transplant",
       "Contacts": "Site PIs:\nRobert Grant\nrobert.grant@uhn.ca\n\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131",
@@ -741,6 +741,26 @@
         "Trial Name": "CHS-388-202",
         "change": "added",
         "timestamp": "2025-09-15T20:36:55"
+      },
+      {
+        "Trial Name": "NEOTOMA",
+        "change": "modified",
+        "timestamp": "2025-09-15T20:58:52"
+      },
+      {
+        "Trial Name": "HMLTO002",
+        "change": "modified",
+        "timestamp": "2025-09-15T20:58:52"
+      },
+      {
+        "Trial Name": "ARTEMIDE HCC01",
+        "change": "modified",
+        "timestamp": "2025-09-15T20:58:52"
+      },
+      {
+        "Trial Name": "CaboTx\n ",
+        "change": "modified",
+        "timestamp": "2025-09-15T20:58:52"
       }
     ],
     "Gastroesophageal": [
