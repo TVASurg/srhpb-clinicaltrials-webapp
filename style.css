@@ -156,6 +156,7 @@ perspective: 1000px;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  transform: rotateX(0deg);
 }
 
 .flipNavBack{
@@ -163,7 +164,6 @@ perspective: 1000px;
   top: 0;
   left: 0;
   transform: rotateY(180deg);
-  backface-visibility: hidden;
 }
 
 [data-bs-theme="ge"] {
