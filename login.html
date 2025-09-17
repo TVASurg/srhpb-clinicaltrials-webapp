@@ -50,10 +50,10 @@
       {
         auth:{
           redirect: false, // single-page app, no redirect
-          responseType: "token id_token",
-          allowSignUp: false, // 🚫 hides the signup tab
-          allowForgotPassword: false
-        }
+          responseType: "token id_token"
+        },
+        allowSignUp: false, // 🚫 hides the signup tab
+        allowForgotPassword: false
       }
     );
 
@@ -69,16 +69,16 @@
       document.getElementById("main").classList.remove('d-none');
 
       // Fetch protected JSON
-      // fetch("/.netlify/functions/protected-json", {
-      //   headers: {
-      //     Authorization: `Bearer ${authResult.accessToken}`
-      //   }
-      // })
-      // .then(res => res.json())
-      // .then(data => {
-      //   document.getElementById("data-container").innerText = JSON.stringify(data, null, 2);
-      // })
-      // .catch(err => console.error("Error fetching data:", err));
+      fetch("/.netlify/functions/fetch-latest-json", {
+        headers: {
+          Authorization: `Bearer ${authResult.accessToken}`
+        }
+      })
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById("jsonDump").innerText = JSON.stringify(data, null, 2);
+      })
+      .catch(err => console.error("Error fetching data:", err));
     });
 
   //   var Auth = (function() {
