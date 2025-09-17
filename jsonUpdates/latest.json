@@ -535,7 +535,7 @@
     },
     {
       "Disease Setting": "1L Metastatic",
-      "Trial Name": "20230223 (AMG193) - MTAP Deletion\n\n",
+      "Trial Name": "20230223 (AMG193) - MTAP Deletion\n(NOT RECRUITING)\n",
       "Full title": "A Study Evaluating AMG 193 in Combination With Other Therapies in Participants With Advanced Gastrointestinal, Biliary Tract, or Pancreatic Cancers With Homozygous Methylthioadenosine Phosphorylase (MTAP)-Deletion",
       "Additional notes": "MTAP deletion, NGS pre-screening through Foundation Medicine included in study. ",
       "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue",
@@ -873,6 +873,11 @@
         "Trial Name": "CLARITY-PanTumour01 - Claudin 18.2\n\n",
         "change": "modified",
         "timestamp": "2025-09-17T09:56:09"
+      },
+      {
+        "Trial Name": "20230223 (AMG193) - MTAP Deletion\n(NOT RECRUITING)\n",
+        "change": "added",
+        "timestamp": "2025-09-17T11:07:24"
       }
     ],
     "HCC": [
