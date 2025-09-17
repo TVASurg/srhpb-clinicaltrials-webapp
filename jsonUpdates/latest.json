@@ -99,6 +99,7 @@
       "Full title": "Molecular characteristics of gastroesophageal adenocarcinoma ",
       "Additional notes": "Prospective collection of clinical data, bloods, stool, and tissue ",
       "Tissue Requirements": "Baseline fresh tissue biopsy ",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Arm 1: localized and resectable gastroesophageal adenocarcinoma \nArm 2: metastatic/unresectable gastroesophageal adenocarcinoma",
       "Eligibility ": "chemotherapy-naive patients ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -112,6 +113,7 @@
       "Full title": "A Phase 1b/2 Multicenter, Open-label, Dose-escalation and Dose-expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Antitumor Activity of Trastuzumab Deruxtecan (T-DXd) Monotherapy and Combinations in Adult Participants With HER2-expressing Gastric Cancer",
       "Additional notes": null,
       "Tissue Requirements": null,
+      "Biomarker/unselected": "HER2 ",
       "Trial Intervention/Arms": "Part 5: T-DXd + volrustomig ",
       "Eligibility ": "Her-2 overexpression.\nILD/Pneumonitis excluded.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
@@ -125,6 +127,7 @@
       "Full title": "A Phase III Multi-center, Open-label, Sponsor-blinded, \nRandomized Study of AZD0901 Monotherapy Compared with \nInvestigator’s Choice of Therapy in Second- or Later-Line Adult \nParticipants with Advanced/Metastatic Gastric or \nGastroesophageal Junction Adenocarcinoma Expressing \nClaudin18.2",
       "Additional notes": null,
       "Tissue Requirements": "Archival tissue (≤24 months); fresh tissue (3xT cores) ",
+      "Biomarker/unselected": "CLDN18.2",
       "Trial Intervention/Arms": "AZD0901 vs physician’s choice ",
       "Eligibility ": "Claudin 18.2+",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -138,6 +141,7 @@
       "Full title": "A Randomized, Phase III Study of Rilvegostomig in Combination with Fluoropyrimidine and Trastuzumab Deruxtecan versus Trastuzumab, Chemotherapy, and Pembrolizumab for the First-line Treatment of HER2-positive Gastric Cancer ",
       "Additional notes": null,
       "Tissue Requirements": "Archival tissue (≤6 months); fresh tissue (3xT cores) ",
+      "Biomarker/unselected": "HER2 and PDL1",
       "Trial Intervention/Arms": "A: Rilve + T-DXd + 5FU/Cape\nB: Pembro + tras + 5FU/Cape + platinum \nC: Rilve + tras + 5FU/Cape + platinum",
       "Eligibility ": "Her-2 + and PDL1 CPS ≥ 1. ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -151,6 +155,7 @@
       "Full title": "A RANDOMIZED PHASE II STUDY OF PACLITAXEL AND RAMUCIRUMAB +/- ZANIDATAMAB IN HER2 POSITIVE ADVANCED GASTROESOPHAGEAL ADENOCARCINOMA",
       "Additional notes": null,
       "Tissue Requirements": "Archival tissue (most recent or as per MRP/PI’s discretion); fresh tissue (2xT cores for screening; 3xT cores optional biopsy) ",
+      "Biomarker/unselected": "HER2 ",
       "Trial Intervention/Arms": "Ramicirumab/paclitaxel +/- ZW25 ",
       "Eligibility ": "Her-2 + (central confirmation).  ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -164,6 +169,7 @@
       "Full title": "Chemoimmunotherapy Followed by Surgery for Oligometastatic Esophagogastric Cancer",
       "Additional notes": null,
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": null,
       "Eligibility ": "Oligometastatic disease (up to 5 sites).",
       "Contacts": "Site PI:\nElliot Wakeam\nelliot.wakeam@uhn.ca",
@@ -177,6 +183,7 @@
       "Full title": "A Phase 2 Nonrandomized, Open-label, Multisite Study to Evaluate the Safety and Efficacy of Raludotatug Deruxtecan in Participants With Gastrointestinal Cancers",
       "Additional notes": null,
       "Tissue Requirements": "Archival tissue (≤5 years); fresh tissue (3xT cores) ",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Raludotatug Deruxtecan (R-DXd, CDH6 targeting ADC)",
       "Eligibility ": "Has one of the following: PDAC, colorectal, gastric, gastroesophageal junction or esophageal adenocarcinoma.\nNot biomarker selected.",
       "Contacts": "Site PI:\nLucy Ma\nlucy.ma@uhn.ca",
@@ -190,6 +197,7 @@
       "Full title": "Gastroesophageal and Endocrine Cancer Registry ",
       "Additional notes": "Prospective collection of clinical data, bloods, stool, and tissue ",
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": null,
       "Eligibility ": "those who decline or are or not eligible for MOCHA ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -205,6 +213,7 @@
       "Full title": "Perioperative Therapy with Durvalumab Plus Tremelimumab for Patients with\nResectable Hepatocellular Carcinoma (HCC) - A Phase II Trial\n",
       "Additional notes": null,
       "Tissue Requirements": "Baseline biopsy",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Pre-surgery: x1 dose Tremelimumab (300mg) + Durvalumab (1500mg), x1 dose Durva only. \nPost-surgery: 11 cycles of Durvalumab Q4W. ",
       "Eligibility ": "Resectable HCC",
       "Contacts": "Site PI:\nGonzalo Sapisochin\ngonzalo.sapisochin@uhn.ca\n\nCoordinators: \nMary Wei\nGuillaume Cheung",
@@ -218,6 +227,7 @@
       "Full title": "Atezolizumab and Bevacizumab Pre-Liver Transplantation for Patients with Hepatocellular Carcinoma Beyond Milan Criteria: A Feasibility Study",
       "Additional notes": "\"BeyondIO\"",
       "Tissue Requirements": "Baseline biopsy: fresh, or archival if tissue available for correlatives.",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Atezolizumab (1200mg) + Bevacizumab (15mg/kg) Q3W plus TACE or TARE during liver transplant waiting period",
       "Eligibility ": "HCC, candidate for liver transplant, but beyond Milan criteria",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501\n\nCoordinator:\nGuillaume Cheung",
@@ -231,6 +241,7 @@
       "Full title": "A Phase III Randomised, Open Label, Sponsor-Blinded, Multicentre Study of Rilvegostomig in Combination with Bevacizumab with or without Tremelimumab as First-line Treatment in Patients with Advanced Hepatocellular Carcinoma",
       "Additional notes": "[On hold] TBD December 2025",
       "Tissue Requirements": "Baseline biopsy: fresh or archival.",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "• Arm A: Tremelimumab 300 mg × 2 doses (Q12W), rilvegostomig 750 mg Q3W, and bevacizumab 15 mg/kg Q3W (bevacizumab will not be given in cycles with tremelimumab) \n• Arm B: Rilvegostomig 750 mg Q3W, and bevacizumab 15 mg/kg Q3W \n• Arm C: Atezolizumab 1200 mg Q3W, and bevacizumab 15 mg/kg Q3W",
       "Eligibility ": "HCC, not prior systemic therapy \nNo main portal vein thrombosis ",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nOchir Gansukh",
@@ -244,6 +255,7 @@
       "Full title": "A Phase II Study of STRIDE (Durvalumab + Tremelimumab) with Lenvatinib Versus Stride Alone in Patients with Unresectable Hepatocellular Carcinoma (SLIDE-HCC)",
       "Additional notes": "Open and accruing ",
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "ARM 1: STRIDE (durvalumab + tremelimumab at first treatment followed by durvalumab monotherapy every 4 weeks\nARM 2: STRIDE + lenvatinib daily",
       "Eligibility ": null,
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nDowon Choi",
@@ -257,6 +269,7 @@
       "Full title": "A Phase II Trial of Cabozantinib in the Treatment of Recurrent Hepatocellular Carcinoma Post Liver Transplant",
       "Additional notes": null,
       "Tissue Requirements": "Baseline biopsy and original explant archived tissue",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Cabozanitnib",
       "Eligibility ": "Recurrence after transplant",
       "Contacts": "Site PIs:\nRobert Grant\nrobert.grant@uhn.ca\n\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator: \nSerena Kao ",
@@ -270,6 +283,7 @@
       "Full title": "A Multicenter, Open-label, First-in-Human Study of TYRA-430 in Advanced Hepatocellular Carcinoma and Other Solid Tumors with Activating FGF/FGFR pathway aberrations (SURF-431)",
       "Additional notes": null,
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "TYRA-430",
       "Eligibility ": "FGF/FGFR pathway alteration",
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca\n\nCoordinator: ",
@@ -283,6 +297,7 @@
       "Full title": "A phase 1/2 exploratory study of the TBL1 inhibitor, tegavivint (BC2059), in patients with advanced hepatocellular carcinoma",
       "Additional notes": "Open ",
       "Tissue Requirements": "Pre- and on treatment biopsies",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Tegavivint (BC2059), or tegavivint+pembro",
       "Eligibility ": "CTNNB1, APC or AXIN1 mutations",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501\n\nCoordinator: \nGuillaume Cheung",
@@ -296,6 +311,7 @@
       "Full title": "A Randomized Phase 2 Study of Casdozokitug in Combination With Toripalimab Plus Bevacizumab in Participants With Unresectable and/or Locally Advanced or Metastatic Hepatocellular Carcinoma ",
       "Additional notes": "Open ",
       "Tissue Requirements": "Baseline biopsy: fresh, or archival within 2 years of screening.",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "• Arm A: casdozokitug 700 mg + toripalimab 240 mg + bevacizumab 15 mg/kg intravenously (IV) every 3 weeks (Q3W) on Day 1 of a 21-day cycle (n ~ 24). \n• Arm B: casdozokitug 1400 mg + toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24). \n• Arm C: toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24) ",
       "Eligibility ": "Unresectable, locally advanced or metastatic HCC. Histological, or clinical diagnosis (in cirrhotic patients).",
       "Contacts": "Site PI: \nDr. Erica Tsang\nerica.tsang@uhn.ca\n416-946-4501 ext. 4853\n\nCoordinator: \nMary Wei",
@@ -311,6 +327,7 @@
       "Full title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter, Global Study of Rilvegostomig in Combination With Chemotherapy as Adjuvant Treatment After Resection of Biliary Tract Cancer With Curative Intent (ARTEMIDE-Biliary01)",
       "Additional notes": null,
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "A: rilvegostomig + SOC\nB: placebo + SOC",
       "Eligibility ": "R0/R1 resection, within 12 weeks\nNo ampullary/NET",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131",
@@ -324,6 +341,7 @@
       "Full title": "DESTINY-Biliary Tract Cancer-01: A Phase 3 Study of Trastuzumab Deruxtecan (T-DXd) and Rilvegostomig Versus Standard-of-Care Gemcitabine, Cisplatin, and Durvalumab for First Line Locally Advanced or Metastatic HER2-expressing Biliary Tract Cancer",
       "Additional notes": null,
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "A: TdXD + rilvegostomig\nB: TdXD\nC: GemCis/Durva",
       "Eligibility ": "Unresectable, previously untreated,locally advanced or metastatic\nHer-2+",
       "Contacts": "Site PI:\nErica Tsang\nerica.tsang@uhn.ca",
@@ -337,6 +355,7 @@
       "Full title": "An Open-label Randomized Trial of the Efficacy and Safety of Zanidatamab With Standard-of-care Therapy Against Standard-of-care Therapy Alone for Advanced HER2-positive Biliary Tract Cancer",
       "Additional notes": "ZW25 (zanidatamab) must be added by start of C3",
       "Tissue Requirements": "Fresh biopsy or archival (up to 6 months old). ",
+      "Biomarker/unselected": "HER-2 on IHC",
       "Trial Intervention/Arms": "A: ZW25 + SOC\nB: SOC",
       "Eligibility ": "Her-2+\nLocally advanced unresectable or metastatic BTC and not eligible for curative resection, transplantation,or ablative therapies\n",
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca \nTrial Nurse: Guillaume\nguillaume.cheung@uhn.ca",
@@ -350,6 +369,7 @@
       "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2 (CLARITY-PanTumour01)",
       "Additional notes": "BTC cohort:\nPre-screening & screening on hold",
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "AZD0901 monotherapy",
       "Eligibility ": "Claudin 18.2+\nPrior exposure to any CLDN18.2 targeted agents except anti-\nCLDN18.2 monoclonal antibody are excluded",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -363,6 +383,7 @@
       "Full title": "An Open-Label Early Access Phase 3b Study of Ivosidenib in Patients With a Pretreated Locally Advanced or Metastatic Cholangiocarcinoma",
       "Additional notes": null,
       "Tissue Requirements": null,
+      "Biomarker/unselected": "IDH1",
       "Trial Intervention/Arms": "Ivosidenib",
       "Eligibility ": "IDH1+\nNot eligible for curative-intent resection, transplantation, or ablative therapies",
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca",
@@ -376,6 +397,7 @@
       "Full title": "A Phase I/II Study of an FGFR2/​3 Inhibitor (CGT4859) in Patients With Cholangiocarcinoma and Other Advanced Solid Tumors",
       "Additional notes": null,
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "CGT4859 ",
       "Eligibility ": "FGFR2 fusions.\nExcluded if received more than 2 prior FGFRi therapies.",
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca",
@@ -389,6 +411,7 @@
       "Full title": "A Multicenter, Open-label, First-in-Human Study of TYRA-430 in Advanced Hepatocellular Carcinoma and Other Solid Tumors with Activating FGF/FGFR pathway aberrations (SURF-431)",
       "Additional notes": null,
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "TYR430",
       "Eligibility ": "FGF/FGFR pathway alteration",
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca",
@@ -402,6 +425,7 @@
       "Full title": "Phase 2 Study of Futibatinib 20 mg and 16 mg in Patients with \nAdvanced Cholangiocarcinoma with FGFR2 Fusions or \nRearrangements\n",
       "Additional notes": null,
       "Tissue Requirements": "Archival tissue or blood sample for ctDNA. Testing by FoundationOne CDx.  ",
+      "Biomarker/unselected": "evidence of FGFR2 gene fusions or other rearrangements using NGS or FISH",
       "Trial Intervention/Arms": "A:  20 mg futibatinib orally\nB: 16 mg  futibatinib orally \n",
       "Eligibility ": "Prior Gem/Cis treatment; Histological or cytological diagnosis of iCCA or eCCA; If FGFR status unknown, can submit archival tissue or blood for testing by Sponsor, if patient meets criteria. ",
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca",
@@ -417,6 +441,7 @@
       "Full title": "Durvalumab and Oleclumab in Resectable PDAC: A Window of Opportunity Study (DORA)",
       "Additional notes": "Resectable pancreatic cancer by NCCN criteria.\nCA 19-9 < 300.",
       "Tissue Requirements": "Baseline EUS biopsy",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Durvalumab 1500 mg IV x 1 dose and oleclumab 3000 mg x 2 doses Q2W prior to resection",
       "Eligibility ": "Inclusion: \nResectable PDAC by NCCN criteria \nCA 19-9 < 300\nLife expectancy ≥ 12 weeks\n\nExclusion: \nAnticancer therapy within 21 days or palliative RT within 14 days prior to 1st dose\n\nPrior receipt of any immune-mediated therapy\n\nOther invasive malignancy within 5 years\n\nPrior history of myocardial infarction, transient ischemic attack, congestive heart failure ≥ Class 3 based on New York Heart Association Functional Classification or stroke within the past 3 months prior to the scheduled first dose of study treatment.\n\nPositive for HIV",
       "Contacts": "Site PI:\nErica Tsang \nErica.tsang@uhn.ca\n\nCoordinator:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
@@ -430,6 +455,7 @@
       "Full title": "A Study of the Efficacy and Safety of Adjuvant Autogene Cevumeran Plus Atezolizumab and mFOLFIRINOX Versus mFOLFIRINOX Alone in Participants With Resected PDAC",
       "Additional notes": "Fresh tissue collection-prescreening. ",
       "Tissue Requirements": "Tissue collected at surgery for adjuvant vaccine manufacture ",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Arm 1: autogene cevumeran+Atezo+mFOLFIRINOX  \n\nArm 2: mFOLFIRINOX ",
       "Eligibility ": "Inclusion: \nTNM Staging per AJCC: T1-T3, N0-N2, and M0 \nComplete resection (R0 or R1) of PDAC\nInterval of between 6 and 12 weeks since resection of PDAC\nExclusion: \nPrior adjuvant, neoadjuvant, or induction treatment for pancreatic cancer\nKnown complete dihydropyrimidine dehydrogenase (DPD) deficiency ",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nGuillaume Cheung\nguillaume.cheung@uhn.ca\nTel: 416-946-4501 ext. 4727",
@@ -443,6 +469,7 @@
       "Full title": "Province of Ontario Strategy for Personalized Management of Pancreatic Cancer Trial",
       "Additional notes": "Cohort 1: upfront surgery (neoadj.  chemo excluded; immunotherapy permitted).\nCohort 2: minimum of 4 to 6 cores must be safely obtained from single lesion biopsy.",
       "Tissue Requirements": "Fresh tissue collection for WGTS + organoids ",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Serial blood draws for ctDNA ",
       "Eligibility ": "Inclusion: \nUpfront resectable\nLife expectancy of ≥ 6 months\nMust be suitable for systemic therapy\nExclusion: \nHistologies excluded: colloid, high grade neuroendocrine\nPatients receiving neoadjuvant chemotherapy (neoadjuvant immunotherapy is permitted)",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
@@ -456,6 +483,7 @@
       "Full title": "Ablative radiation therapy with high dose geometric Boost for Locally Advanced pancreatic cancer patients following Treatment response Evaluation of standard of care induction chemotherapy (ABLATE): a phase II clinical trial",
       "Additional notes": "Unresectable PDAC on 1L. chemotherapy >16 weeks without progression. ",
       "Tissue Requirements": "Pre-radiation biopsy optional ",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Ablative high dose RT: \n    50Gy/5Fx every other day for 2 weeks (UHN) or \n    67.5Gy/15Fx once a day for 3 weeks  or \n    75Gy/25Fx once a day for 5 weeks ",
       "Eligibility ": "Inclusion: \nPancreatic tumour <8.0 cm in greatest axial dimension - final determination  will be based upon satisfying the radiation normal tissue constraints.\nLife expectancy > 6 months\nPrior 1L chemotherapy for at least 16 weeks without clinical or radiographic progression\nExclusion: \nMetastatic disease at the time of registration\nPrior RT to the upper abdomen region that would result in overlap of RT volume\nCurrently on anti-cancer treatment including chemotherapy.",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
@@ -469,6 +497,7 @@
       "Full title": "A Phase 1 Study of Olaparib in Combination with Durvalumab (MEDI4736) and Concurrent Radiation Therapy Following First-Line Chemotherapy in Locally Advanced Unresectable Pancreatic Cancer",
       "Additional notes": "Unresectable PDAC on 1L. chemotherapy > 16 weeks without progression. ",
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Cycle 1: Olaparib BID + Durvalumab C1D1 \n\nCycle 2: Olaparib + Durva + RT (39Gy in 15Fx starting C2D1) \n\nCycle 3 onwards: Olaparib + Durva q4w \n ",
       "Eligibility ": "Inclusion: \nhave had prior 1L chemotherapy for this cancer for at least 16 weeks without clinical, biochemical, or radiologic progression\nBody weight > 30 kg.\nLife expectancy >= 16 weeks.\nWilling to provide archived tissue, if available, from a previous biopsy\nExclusion:\nHad prior upper abdominal radiotherapy prior to entering the study.\nMajor surgical procedure within 28 days prior to enrollment.\nPatients who are receiving any other investigational agents.\nMust not have germline BRCA1 or BRCA2 mutation.",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
@@ -482,6 +511,7 @@
       "Full title": "Province of Ontario Strategy for Personalized Management of Pancreatic Cancer Trial",
       "Additional notes": "Unresectable, locally advanced and metastatic PDAC \n\nAt initial diagnosis or at progression – goal is to look for actionable mutations",
       "Tissue Requirements": "Requires fresh tumor biopsy for WGTS + organoids ",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Serial blood draws wk 2, 4, 8 and q8 for ctDNA ",
       "Eligibility ": "Inclusion: \nAll stages are eligible including locally advanced unresectable, first-line metastatic, second-line (or beyond) metastatic\nSingle lesion is to be biopsied: a minimum of 4 to 6 x 18 Gauge (G) good quality tumour cores must be safely obtainable.\nExclusion:\nWithout a tumour lesion amenable to biopsy or with tumour lesions that are not safe for sampling a minimum of 4 to 6 x 18G good quality tumour cores\nPatients who are not fit enough to undergo a tumour biopsy ",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
@@ -495,6 +525,7 @@
       "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2",
       "Additional notes": " Neoadjuvant/adjuvant chemo allowed if progressed\n ≥ 6 months since last dose.",
       "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue ",
+      "Biomarker/unselected": "Claudin18.2",
       "Trial Intervention/Arms": "Arm1: AZD0901 in combination with 5FU/leucovorin and Irinotecan or nanoliposomal Irinotecan  \n\nArm2: AZD0901 combination with Gemcitabine ",
       "Eligibility ": "Inclusion: \nCLDN18.2 positive\nat least one measurable lesion according to RECIST v1.1.\nLife expectancy of ≥ 12 weeks.\nExclusion:\nUnstable or active peptic ulcer disease or digestive tract bleeding including but not limited to clinically significant bleeding in the setting of prior CLDN18.2 directed therapy.\nClinically significant ascites that require drainage.\nHistory of another primary malignancy.",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nCoordinator (Pre-screen):  \nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757\n\nCoordinator (Screen): \nGuillaume Cheung\nguillaume.cheung@uhn.ca\nTel: 416-946-4501 ext. 4727",
@@ -508,6 +539,7 @@
       "Full title": "A Study Evaluating AMG 193 in Combination With Other Therapies in Participants With Advanced Gastrointestinal, Biliary Tract, or Pancreatic Cancers With Homozygous Methylthioadenosine Phosphorylase (MTAP)-Deletion",
       "Additional notes": "MTAP deletion, NGS pre-screening through Foundation Medicine included in study. ",
       "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue",
+      "Biomarker/unselected": "MTAP",
       "Trial Intervention/Arms": "AMG 193 alone or in combination with mFOLFIRINOX or with Gemcitabine and Nab-paclitaxel \n\nActive arm: AMG 193 + mFFX",
       "Eligibility ": "Inclusion:\nECOG 0-1 \nTumor tissue (FFPE sample) or an archival block (16 slides) must be available. Participants without archived tumor tissue available may be allowed to enroll by undergoing tumor biopsy before dosing.\nHomozygous MTAP-deletion\nDisease measurable as defined by RECIST v1.1.\nExclusion:\nPrior systemic therapy for advanced or unresectable (locally advanced) adenocarcinoma of the pancreas.\nPrior treatment with a MAT2A inhibitor or a PRMT5 inhibitor.\nRadiation therapy within 28 days of first dose.\n",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nOchir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca \n\nMaggie Hildebrand \nMaggie.Hildebrand@uhn.ca",
@@ -521,6 +553,7 @@
       "Full title": "Pancreatic Cancer Glucose Assessment and Regulation Study",
       "Additional notes": "Metastatic PDAC to start 1L. FOLFIRINOX, no prior diabetes diagnosis\nHbA1C < 6.5% ",
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Continuous glucose monitor (CGM) for first 2 months of mFFX \n\nArm 1: Intensive glucose intervention with endocrinologist directed glycemic management, with target glucose levels between 4-10 mmol/L \n\nArm 2: Standard of care glucose intervention with intervention only if glucose level >15 mmol/L (Blinded to CGM results) ",
       "Eligibility ": "\nExclusion:\nAbsence of distant or lymph node metastases. Participants with borderline resectable or locally advanced PDAC are not eligible.\nReceived prior systemic therapy (chemotherapy or any other anti-cancer agent) for treatment of metastatic PDAC\nKnown diagnosis of type I diabetes where strict glucose control and close Endocrinology follow-up is already indicated.\nKnown diagnosis of type II diabetes and already followed by Endocrinologist.",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
@@ -534,6 +567,7 @@
       "Full title": "A Randomized, Placebo-Controlled, Double-Blind, Multicenter Phase 3 Trial of Quemliclustat and Chemotherapy Versus Placebo and Chemotherapy in Patients with Treatment Naïve Metastatic Pancreatic Ductal Adenocarcinoma",
       "Additional notes": "Previously untreated mPDAC\nNeo/Adj permitted if given >12m before randomization.",
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Arm A (Experimental Arm)\nDoses and administration of quemliclustat, NP, and Gem will be administered using a 28-day cycle\n\nArm B (Comparator Arm)\nDoses and administration of placebo, NP, and Gem will be administered using a 28-day cycle",
       "Eligibility ": "Inclusion:\nNo prior treatment for metastatic PDAC\nPrior neoadjuvant/adjuvant therapy allowed if >12 months ago\nPrior palliative radiation allowed if completed ≥2 weeks before randomization and AEs resolved to ≤ Grade 1\nBiliary stent/tube allowed if no active obstruction and AEs ≤ Grade 1\n≥1 measurable lesion by CT/MRI (RECIST v1.1)\nAdequate organ, marrow, and coagulation function\nExclusion:\nPreviously treated for locally advanced, unresectable PDAC.\nHistory of brain metastases or leptomeningeal metastases.\nPrior treatment with a CD73 antagonist or inhibitor.",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nOchir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca ",
@@ -547,6 +581,7 @@
       "Full title": "Phase 1b Expansion Study of CX-5461 In Patients With Solid Tumors and BRCA2 and/or PALB2 mutation",
       "Additional notes": "BRCA2/PALB2. ",
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Phase 1b Expansion Study of CX-5461 In Patients with Solid Tumors and BRCA2 and/or PALB2 mutation ",
       "Eligibility ": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. ",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
@@ -560,6 +595,7 @@
       "Full title": "ADOPT: ADaptive Organoid-Based Precision Therapy Study in Pancreatic Cancer, A Prospective Single-Arm Phase II Trial",
       "Additional notes": null,
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "PDO-directed therapy",
       "Eligibility ": "Inclusion: \nAdvanced, inoperable PDAC\nStable disease or partial response to FOLFIRINOX after ≥4 months (Cohort B)\nDisease progression post-SOC (Cohort A)\nNo max prior treatment lines; recurrence within 6 months of adjuvant-intent chemo eligible\nMust have a Patient Derived Organoid (PDO) showing sensitivity to HC Marketed drug(s)\nExclusion:\nPatients concurrently receiving any other anti-cancer therapy\nPatients with ongoing toxicity ≥ CTCAE grade 2; ongoing\nperipheral neuropathy of ≥ CTCAE grade 3.\nPatients with a prior or concurrent malignancy whose natural\nhistory or treatment has the potential to interfere with the\nsafety or efficacy assessment of the investigational regimen.",
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinator:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
@@ -573,6 +609,7 @@
       "Full title": "A Phase 1b/2a Dose Escalation Study of BOLD-100 in Combination With FOLFOX Chemotherapy in Patients With Advanced Solid Tumours",
       "Additional notes": null,
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Arm VII: dose expansion - randomized 1:1:1 open label to 500 mg/m2 or 625 mg/m2 BOLD-100 in combination with FOLFOX or FOLFOX alone \n\nBOLD-100: IV ruthenium-based small molecule decreasing GRP78 in tumor cells",
       "Eligibility ": "Inclusion: \nHistologically and/or cytologically confirmed gastrointestinal tumours that are metastatic or unresectable, and have measurable disease according to RECIST v1.1 (at least one measurable lesion)\nARM VII --> subjects must have received only 1 prior line of therapy but remain naive to oxaliplatin prior to enrollment\nExclusion: \nMSH-H tumours; concurrent monoclonal antibody therapy: anti-EGFR or anti-VEGF ",
       "Contacts": "Nicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
@@ -586,6 +623,7 @@
       "Full title": "Comparing Second-Line NABPLAGEM vs. Nab-paclitaxel/Gemcitabine in BRCA1/2 or PALB2 Mutant Metastatic Pancreatic Ductal Adenocarcinoma",
       "Additional notes": "BRCA1/2 or PALB2",
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "NABPLAGEM VS. nab-paclitaxel and gemcitabine\n",
       "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma, adenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nExclusion:\nNo prior Cisplatin",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nDowon Choi\nDowon.Choi@uhn.ca\nPhone: 416-946-4501 x 4713",
@@ -599,6 +637,7 @@
       "Full title": "Optimizing Nutrition in patients with PDAC on chemo",
       "Additional notes": "Optimizing Nutrition in patients with PDAC on chemo ",
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Weekly / monthly calls with Dietician, Clinical Nurse Specialist and Social Worker \n\nQOL questionnaires at BL, 2 months and 6 months ",
       "Eligibility ": null,
       "Contacts": "Coordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
@@ -612,6 +651,7 @@
       "Full title": "Ontario Pancreas Cancer Study: Identifying genetic, environmental, and lifestyle causes of PDAC",
       "Additional notes": "All PDAC patients\nOntario Pancreas Cancer Study: Identifying genetic, environmental, and lifestyle causes of PDAC",
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Questionnaire + one-time blood draw",
       "Eligibility ": null,
       "Contacts": "Coordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
@@ -625,6 +665,7 @@
       "Full title": "HPB Banking Protocol",
       "Additional notes": "All PDAC patients going to surgery who are not enrolled in Prosper-PANC \n\nAdvanced patients who are not eligible for Prosper-PANC but having a biopsy and investigator requests WGTS",
       "Tissue Requirements": "Fresh tumor collection for WGTS ± organoids",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Fresh tumor collection for WGTS ± organoids",
       "Eligibility ": null,
       "Contacts": "Coordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
@@ -638,6 +679,7 @@
       "Full title": "Wearable Devices and Remote Toxicity Checks to Predict Health Outcomes in Pancreatic Cancer",
       "Additional notes": "Planned for/receiving  chemotherapy. \nPts. with no email address,  inability to fluently speak and read English and those admitted as an inpatient at enrolment are excluded.",
       "Tissue Requirements": null,
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Weekly questionnaires\n\nFitBit Smartwatch",
       "Eligibility ": "Inclusion:\nDiagnosis of epithelial pancreatic cancer, confirmed with biopsy or suspected based on\nreview of imaging at the multi-disciplinary conference\nPlan for chemotherapy as part of treatment plan or ongoing treatment\nExclusion: \nLack of an email address\nInability to fluently speak and read English, given the questionnaires will only be\ndeveloped in English at first because of resource constraints\nInability or unwillingness to adhere to the study procedures, at the discretion of the\ninvestigator\nAdmitted as an inpatient at enrolment",
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
@@ -736,6 +778,96 @@
         "Trial Name": "PRISM-1 (NOT RECRUITING)\n\n\n\n",
         "change": "added",
         "timestamp": "2025-09-15T17:19:28"
+      },
+      {
+        "Trial Name": "DORA (WOO)",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "GO44479/ROCHE (Vaccine Study)\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "Prosper-PANC Cohort 1\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "ABLATE (radiation)\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "NASC-009/NCI 10464\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "Prosper-PANC Cohort 2\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01 - Claudin 18.2\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "20230223 (AMG193) - MTAP Deletion\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "PRISM-1 (NOT RECRUITING)\n\n\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "OZM-114\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "ADOPT\n\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "BOLD-100-001\n\n \n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "Platinum-Can\n\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "NUANCE\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "OPCS Registry\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "HPB Banking Protocol\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "WATCH-PC\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
       }
     ],
     "HCC": [
@@ -853,6 +985,46 @@
         "Trial Name": "HE.2",
         "change": "added",
         "timestamp": "2025-09-16T16:58:38"
+      },
+      {
+        "Trial Name": "NEOTOMA",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "HMLTO002",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "ARTEMIDE HCC01",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "HE.2",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "CaboTx\n ",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "TYR430-101",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "ITER-002-HCC",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "CHS-388-202",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
       }
     ],
     "Gastroesophageal": [
@@ -945,6 +1117,46 @@
         "Trial Name": "GA.4 ",
         "change": "modified",
         "timestamp": "2025-09-10T17:39:06"
+      },
+      {
+        "Trial Name": "MOCHA",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "Destiny-Gastric 03 ",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "Clarity-Gastric01 ",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "ARTEMIDE-Gastric01 ",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "GA.4 ",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "TORO ",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "REJOICE-GI01",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "GEAR",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
       }
     ],
     "CCA": [
@@ -992,6 +1204,46 @@
         "Trial Name": " FOENIX-CCA4",
         "change": "added",
         "timestamp": "2025-09-16T16:57:30"
+      },
+      {
+        "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "Destiny-BTC01",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "\nHERIZON-BTC-302",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "Clarity-Pantumor",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "ProvIHDe",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "CGT4859 ",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "TYR430",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": " FOENIX-CCA4",
+        "change": "modified",
+        "timestamp": "2025-09-17T09:06:32"
       }
     ]
   }
