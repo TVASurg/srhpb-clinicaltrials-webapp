@@ -29,10 +29,10 @@
         
         </div>
     </nav>    
-    <div class="row">
+    <div class="row d-none">
       <div class="col-12 text-center">
         <button id ="btn-login" type="button" class="btn btn-outline-dark btn-lg">Login</button>
-
+        <div id="jsonDump"></div>
       </div>
     </div>
     <footer class="border-top mt-5 mx-5"><p class="mt-3 text-center small  text-gray-400">Module version v2025.14</p>
@@ -46,56 +46,66 @@
     // Initializing our Auth0Lock
     var lock = new Auth0Lock(
       'Abvc8NGILDDu6R1iaQJ9C0tbSNVjWuJM',
-      'srhpb.ca.auth0.com'
+      'srhpb.ca.auth0.com',
+      {
+        auth:{
+          redirect: false, // single-page app, no redirect
+          responseType: "token id_token",
+          allowSignUp: false // 🚫 hides the signup tab
+          
+        }
+      }
     );
 
-    var Auth = (function() {
+    //Show widget
+    lock.show(); 
 
-    var wm = new WeakMap();
-    var privateStore = {};
-    var lock;
+  //   var Auth = (function() {
 
-    function Auth() {
-      this.lock = new Auth0Lock(
-        '<{yourClientId}>',
-        '<{yourDomain}>'
-      );
-      wm.set(privateStore, {
-        appName: "example"
-      });
-    }
+  //   var wm = new WeakMap();
+  //   var privateStore = {};
+  //   var lock;
 
-    Auth.prototype.getProfile = function() {
-      return wm.get(privateStore).profile;
-    };
+  //   function Auth() {
+  //     this.lock = new Auth0Lock(
+  //       'Abvc8NGILDDu6R1iaQJ9C0tbSNVjWuJM',
+  //       'srhpb.ca.auth0.com'
+  //     );
+  //     wm.set(privateStore, {
+  //       appName: "example"
+  //     });
+  //   }
 
-    Auth.prototype.authn = function() {
-      // Listening for the authenticated event
-      this.lock.on("authenticated", function(authResult) {
-        // Use the token in authResult to getUserInfo() and save it if necessary
-        this.getUserInfo(authResult.accessToken, function(error, profile) {
-          if (error) {
-            // Handle error
-            return;
-          }
+  //   Auth.prototype.getProfile = function() {
+  //     return wm.get(privateStore).profile;
+  //   };
 
-          //we recommend not storing Access Tokens unless absolutely necessary
-          wm.set(privateStore, {
-            accessToken: authResult.accessToken
-          });
+  //   Auth.prototype.authn = function() {
+  //     // Listening for the authenticated event
+  //     this.lock.on("authenticated", function(authResult) {
+  //       // Use the token in authResult to getUserInfo() and save it if necessary
+  //       this.getUserInfo(authResult.accessToken, function(error, profile) {
+  //         if (error) {
+  //           // Handle error
+  //           return;
+  //         }
 
-          wm.set(privateStore, {
-            profile: profile
-          });
+  //         //we recommend not storing Access Tokens unless absolutely necessary
+  //         wm.set(privateStore, {
+  //           accessToken: authResult.accessToken
+  //         });
 
-        });
-      });
-    };
-    return Auth;
-  }());
-  document.getElementById('btn-login').addEventListener('click', function() {
-  lock.show();
-});
+  //         wm.set(privateStore, {
+  //           profile: profile
+  //         });
+
+  //       });
+  //     });
+  //   };
+  //   return Auth;
+  // }());
+  
+  // //lock.show();
   </script>
  
 </body>
