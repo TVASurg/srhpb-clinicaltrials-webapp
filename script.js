@@ -1063,6 +1063,7 @@ function toggleNav()
     {
       document.getElementById("mainNavInner").classList.add('active'); 
       document.getElementById("navToggle").innerHTML = "Browse by organ group";
+
     }
 
     clearTrialInfo();
