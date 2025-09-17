@@ -6,30 +6,31 @@ function initAllData() {
       ericList(data);
       // Loop through each sheet
         for (const [sheetName, rows] of Object.entries(data)) {
-        if (sheetName === "CCA") {
+        if (sheetName === "Gastroesophageal") {
           rows.forEach((row, i) => {
-            biliary_CCA_master["names"].push(row["Trial Name"]);
-            biliary_CCA_master["setting"].push(row["Disease Setting"]);
-            biliary_CCA_master["fullTitle"].push(row["Full title"]);
-            biliary_CCA_master["additionalNotes"].push(row["Additional notes"]);
-            biliary_CCA_master["tissueRequirements"].push(row["Tissue Requirements"]);
-            biliary_CCA_master["arms"].push(row["Trial Intervention/Arms"]);
-            biliary_CCA_master["keyCriteria"].push(row["Eligibility "]);
-            biliary_CCA_master["contact"].push(row["Contacts"]);
-            biliary_CCA_master["NCT"].push(row["NCT number"]);
-            biliary_CCA_master["schema"].push(row["Schema image data"]);
-
-            //if the row["Biomarker"] contains data
-            //push the biomarker and name to the biomarker array
-            if (row["Biomarker"])
+            if (row["Disease Setting"]){
+            gastroesophageal_master["names"].push(row["Trial Name"]);
+            gastroesophageal_master["setting"].push(row["Disease Setting"]);
+            gastroesophageal_master["fullTitle"].push(row["Full title"]);
+            gastroesophageal_master["additionalNotes"].push(row["Additional notes"]);
+            gastroesophageal_master["tissueRequirements"].push(row["Tissue Requirements"]);
+            gastroesophageal_master["arms"].push(row["Trial Intervention/Arms"]);
+            gastroesophageal_master["keyCriteria"].push(row["Eligibility "]);
+            gastroesophageal_master["contact"].push(row["Contacts"]);
+            gastroesophageal_master["NCT"].push(row["NCT number"]);
+            //adding in base64 encoded images
+            gastroesophageal_master["schema"].push(row["Schema image data"]);
+            }
+            if (row["Biomarker/unselected"])
             {
-             biomarker_master["categories"].push("CCA");
+             biomarker_master["categories"].push("GE");
              biomarker_master["names"].push(row["Trial Name"]);
-             biomarker_master["biomarker"].push(row["Biomarker"]);
+             biomarker_master["biomarker"].push(row["Biomarker/unselected"]);
              biomarker_master["keyInCategory"].push(i);
             }
+
           });
-        }
+      }
         else if (sheetName === "HCC") {
           rows.forEach((row, i) => {
             liver_HCC_master["names"].push(row["Trial Name"]);
@@ -43,11 +44,11 @@ function initAllData() {
             liver_HCC_master["NCT"].push(row["NCT number"]);
             liver_HCC_master["schema"].push(row["Schema image data"]);
 
-            if (row["Biomarker"])
+            if (row["Biomarker/unselected"])
             {
             biomarker_master["categories"].push("HCC");
              biomarker_master["names"].push(row["Trial Name"]);
-             biomarker_master["biomarker"].push(row["Biomarker"]);
+             biomarker_master["biomarker"].push(row["Biomarker/unselected"]);
              biomarker_master["keyInCategory"].push(i);
             }
 
@@ -67,41 +68,41 @@ function initAllData() {
             //adding in base64 encoded images
             pancreas_master["schema"].push(row["Schema image data"]);
 
-            if (row["Biomarker"])
+            if (row["Biomarker/unselected"])
             {
              biomarker_master["categories"].push("PDAC");
              biomarker_master["names"].push(row["Trial Name"]);
-             biomarker_master["biomarker"].push(row["Biomarker"]);
+             biomarker_master["biomarker"].push(row["Biomarker/unselected"]);
              biomarker_master["keyInCategory"].push(i);
             }
 
           });
         }
-        else if (sheetName === "Gastroesophageal") {
+        else if (sheetName === "CCA") {
           rows.forEach((row, i) => {
-            if (row["Disease Setting"]){
-            gastroesophageal_master["names"].push(row["Trial Name"]);
-            gastroesophageal_master["setting"].push(row["Disease Setting"]);
-            gastroesophageal_master["fullTitle"].push(row["Full title"]);
-            gastroesophageal_master["additionalNotes"].push(row["Additional notes"]);
-            gastroesophageal_master["tissueRequirements"].push(row["Tissue Requirements"]);
-            gastroesophageal_master["arms"].push(row["Trial Intervention/Arms"]);
-            gastroesophageal_master["keyCriteria"].push(row["Eligibility "]);
-            gastroesophageal_master["contact"].push(row["Contacts"]);
-            gastroesophageal_master["NCT"].push(row["NCT number"]);
-            //adding in base64 encoded images
-            gastroesophageal_master["schema"].push(row["Schema image data"]);
-            }
-            if (row["Biomarker"])
+            biliary_CCA_master["names"].push(row["Trial Name"]);
+            biliary_CCA_master["setting"].push(row["Disease Setting"]);
+            biliary_CCA_master["fullTitle"].push(row["Full title"]);
+            biliary_CCA_master["additionalNotes"].push(row["Additional notes"]);
+            biliary_CCA_master["tissueRequirements"].push(row["Tissue Requirements"]);
+            biliary_CCA_master["arms"].push(row["Trial Intervention/Arms"]);
+            biliary_CCA_master["keyCriteria"].push(row["Eligibility "]);
+            biliary_CCA_master["contact"].push(row["Contacts"]);
+            biliary_CCA_master["NCT"].push(row["NCT number"]);
+            biliary_CCA_master["schema"].push(row["Schema image data"]);
+
+            //if the row["Biomarker"] contains data
+            //push the biomarker and name to the biomarker array
+            if (row["Biomarker/unselected"])
             {
-             biomarker_master["categories"].push("PDAC");
+             biomarker_master["categories"].push("CCA");
              biomarker_master["names"].push(row["Trial Name"]);
-             biomarker_master["biomarker"].push(row["Biomarker"]);
+             biomarker_master["biomarker"].push(row["Biomarker/unselected"]);
              biomarker_master["keyInCategory"].push(i);
             }
-
           });
         }
+
       }
         for (const[sheetName,rows] of Object.entries(data.Changes))
         {
@@ -201,10 +202,10 @@ function fillTrialNameBasedOnBiomarker(biomarker)
 {
   var outputHTMLline = "";
   //create vertical radio button group
-  outputHTMLline += '<div class="btn-group-vertical p-3" role="group">';
+  outputHTMLline += '<div data-bs-theme="ge" class="btn-group-vertical p-3" role="group">';
 
   clearUpdateLine();
-  //console.log(biomarker_master); 
+  
   for (i=0; i < biomarker_master[`names`].length; i++)
   {
    if (biomarker_master[`biomarker`][i] == biomarker)
@@ -218,7 +219,7 @@ function fillTrialNameBasedOnBiomarker(biomarker)
 
       //this is the label for the button
       
-      outputHTMLline += '<label class="btn btn-outline-dark text-start" for="';
+      outputHTMLline += '<label class="btn btn-outline-custom text-start" for="';
       outputHTMLline += biomarker_master[`categories`][i] + "_" + biomarker_master[`keyInCategory`][i];
       outputHTMLline += '">';
       outputHTMLline += biomarker_master[`categories`][i] + ":  " + biomarker_master[`names`][i];
@@ -252,6 +253,11 @@ function fillTrialNameBasedOnBiomarker(biomarker)
         {
           fillTrialDetails(biliary_CCA_master, elementID);
         }
+        else if (category == "GE")
+        {
+          fillTrialDetails(gastroesophageal_master, elementID);
+        }
+        
         
       }
     });
@@ -981,4 +987,6 @@ function toggleNav()
       document.getElementById("mainNavInner").classList.add('active'); 
       document.getElementById("navToggle").innerHTML = "Browse by organ group";
     }
+
+    console.log(biomarker_master);
 }
