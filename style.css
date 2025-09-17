@@ -165,13 +165,23 @@ perspective: 1000px;
   transform: rotateY(180deg);
 }
 
+.test01{
+  background-color: rgb(0, 255, 191);
+}
+
+.test02{
+  background-color: rgb(255, 0, 149);
+}
+
 [data-bs-theme="ge"] {
   --bs-body-color: var(--bs-gray-900);
   --bs-body-bg: var(--bs-gastroesophageal);
+  width: 100%;
 
   .btn-outline-custom {
     --bs-btn-bg: color-mix(in srgb, var(--bs-gastroesophageal) 20%, var(--bs-gray-100) 80%);
     --bs-btn-border-color: #{rgba($white, .25)};
+    width: 100%;
   }
 
   .btn-check:checked + .btn{
@@ -180,19 +190,19 @@ perspective: 1000px;
   }
 
   .detailsSection01{
-    background-color: color-mix(in srgb, var(--bs-gastroesophageal) 55%, var(--bs-gray-100) 45%) !important;
+    background-color: color(srgb 0.767647 0.769412 0.926471);
     font-weight: 500;
   }
   .detailsSection02{
-    background-color: color-mix(in srgb, var(--bs-gastroesophageal) 55%, var(--bs-gray-300) 45%) !important;
+    background-color: color(srgb 0.721765 0.728824 0.891176);
     font-weight: 500;    
   }
   .detailsSection03{
-    background-color: color-mix(in srgb, var(--bs-gastroesophageal) 55%, var(--bs-gray-500) 45%) !important;
+    background-color: color(srgb 0.635294 0.649412 0.818824);
     font-weight: 500;    
   }
   .detailsSection04{
-    background-color: color-mix(in srgb, var(--bs-gastroesophageal) 55%, var(--bs-gray-600) 45%) !important;
+    background-color: color(srgb 0.520588 0.536471 0.705882);
     font-weight: 500;    
   }
 }
@@ -200,10 +210,12 @@ perspective: 1000px;
 [data-bs-theme="hcc"] {
   --bs-body-color: var(--bs-gray-900);
   --bs-body-bg: var(--bs-hcc);
+  width: 100%;
 
   .btn-outline-custom {
     --bs-btn-bg: color-mix(in srgb, var(--bs-hcc) 20%, var(--bs-gray-100) 80%);
     --bs-btn-border-color: #{rgba($white, .25)};
+    width: 100%;
   }
 
   .btn-check:checked + .btn{
@@ -211,19 +223,19 @@ perspective: 1000px;
     font-weight: 500;
   }
   .detailsSection01{
-    background-color: color-mix(in srgb, var(--bs-hcc) 55%, var(--bs-gray-100) 45%) !important;
+    background-color: color(srgb 0.618824 0.890196 0.712941);
     font-weight: 500;
   }
   .detailsSection02{
-    background-color: color-mix(in srgb, var(--bs-hcc) 55%, var(--bs-gray-300) 45%) !important;
+    background-color: color(srgb 0.572941 0.849608 0.677647);
     font-weight: 500;    
   }
   .detailsSection03{
-    background-color: color-mix(in srgb, var(--bs-hcc) 55%, var(--bs-gray-500) 45%) !important;
+    background-color: color(srgb 0.486471 0.770196 0.605294);
     font-weight: 500;    
   }
   .detailsSection04{
-    background-color: color-mix(in srgb, var(--bs-hcc) 55%, var(--bs-gray-600) 45%) !important;
+    background-color: color(srgb 0.371765 0.657255 0.492353);
     font-weight: 500;    
   }
 }
@@ -231,10 +243,12 @@ perspective: 1000px;
 [data-bs-theme="pdac"] {
   --bs-body-color: var(--bs-gray-900);
   --bs-body-bg: var(--bs-pancreas);
+  width: 100%;
 
   .btn-outline-custom {
     --bs-btn-bg: color-mix(in srgb, var(--bs-pancreas) 20%, var(--bs-gray-100) 80%);
     --bs-btn-border-color: #{rgba($white, .25)};
+    width: 100%;
   }
 
   .btn-check:checked + .btn{
@@ -242,19 +256,19 @@ perspective: 1000px;
     font-weight: 500;
   }
   .detailsSection01{
-    background-color: color-mix(in srgb, var(--bs-pancreas) 55%, var(--bs-gray-100) 45%) !important;
+    background-color: color(srgb 0.810784 0.704706 0.812157);
     font-weight: 500;
   }
   .detailsSection02{
-    background-color: color-mix(in srgb, var(--bs-pancreas) 55%, var(--bs-gray-300) 45%) !important;
+    background-color: color(srgb 0.764902 0.664118 0.776863);
     font-weight: 500;    
   }
   .detailsSection03{
-    background-color: color-mix(in srgb, var(--bs-pancreas) 55%, var(--bs-gray-500) 45%) !important;
+    background-color: color(srgb 0.678431 0.584706 0.70451);
     font-weight: 500;    
   }
   .detailsSection04{
-    background-color: color-mix(in srgb, var(--bs-pancreas) 55%, var(--bs-gray-600) 45%) !important;
+    background-color: color(srgb 0.563726 0.471765 0.591569);
     font-weight: 500;    
   }
 }
@@ -263,10 +277,12 @@ perspective: 1000px;
 
   --bs-body-color: var(--bs-gray-900);
   --bs-body-bg: var(--bs-btc);
+  width: 100%;
 
   .btn-outline-custom {
     --bs-btn-bg: color-mix(in srgb, var(--bs-btc) 20%, var(--bs-gray-100) 80%);
     --bs-btn-border-color: #{rgba($white, .25)};
+    width: 100%;
   }
 
   .btn-check:checked + .btn{
@@ -274,19 +290,19 @@ perspective: 1000px;
     font-weight: 500;
   }
   .detailsSection01{
-    background-color: color-mix(in srgb, var(--bs-btc) 55%, var(--bs-gray-100) 45%) !important;
+    background-color: color(srgb 0.450588 0.756471 0.678431);
     font-weight: 500;
   }
   .detailsSection02{
-    background-color: color-mix(in srgb, var(--bs-btc) 55%, var(--bs-gray-300) 45%) !important;
+    background-color: color(srgb 0.404706 0.715882 0.643137);
     font-weight: 500;    
   }
   .detailsSection03{
-    background-color: color-mix(in srgb, var(--bs-btc) 55%, var(--bs-gray-500) 45%) !important;
+    background-color: color(srgb 0.318235 0.636471 0.570784);
     font-weight: 500;    
   }
   .detailsSection04{
-    background-color: color-mix(in srgb, var(--bs-btc) 55%, var(--bs-gray-600) 45%) !important;
+    background-color: color(srgb 0.203529 0.523529 0.457843);
     font-weight: 500;    
   }
 }

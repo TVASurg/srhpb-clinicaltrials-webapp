@@ -18,7 +18,19 @@ function initAllData() {
             gastroesophageal_master["keyCriteria"].push(row["Eligibility "]);
             gastroesophageal_master["contact"].push(row["Contacts"]);
             gastroesophageal_master["NCT"].push(row["NCT number"]);
-            //adding in base64 encoded images
+            gastroesophageal_master["schema"].push(row["Schema image data"]);
+            }
+            else if (row["Disease Setting"] == null)
+            {
+            gastroesophageal_master["names"].push(row["Trial Name"]);
+            gastroesophageal_master["setting"].push("null");
+            gastroesophageal_master["fullTitle"].push(row["Full title"]);
+            gastroesophageal_master["additionalNotes"].push(row["Additional notes"]);
+            gastroesophageal_master["tissueRequirements"].push(row["Tissue Requirements"]);
+            gastroesophageal_master["arms"].push(row["Trial Intervention/Arms"]);
+            gastroesophageal_master["keyCriteria"].push(row["Eligibility "]);
+            gastroesophageal_master["contact"].push(row["Contacts"]);
+            gastroesophageal_master["NCT"].push(row["NCT number"]);
             gastroesophageal_master["schema"].push(row["Schema image data"]);
             }
             if (row["Biomarker/unselected"])
@@ -201,18 +213,39 @@ const changes = [];
 function fillTrialNameBasedOnBiomarker(biomarker)
 {
   var outputHTMLline = "";
+  
   //create vertical radio button group
-  outputHTMLline += '<div data-bs-theme="ge" class="btn-group-vertical p-3" role="group">';
+  outputHTMLline += '<div class="btn-group-vertical p-3" role="group">';
 
   clearUpdateLine();
   
   for (i=0; i < biomarker_master[`names`].length; i++)
   {
    if (biomarker_master[`biomarker`][i] == biomarker)
-   {
+   {//add in switches for div group based on category?
+    switch (biomarker_master[`categories`][i]) {
+      case "GE":
+        outputHTMLline += '<div data-bs-theme="ge">';
+        break;
+    
+      case "HCC":
+        outputHTMLline += '<div data-bs-theme="hcc">';
+        break;
+
+      case "PDAC":
+        outputHTMLline += '<div data-bs-theme="pdac">';
+        break;
+
+      case "CCA":
+        outputHTMLline += '<div data-bs-theme="cca">';
+        break;
+      default:
+        break;
+    }
+
     //this is the button itself
-      outputHTMLline +=
-        '<input type="radio" class="btn-check" name="trialName';
+      
+      outputHTMLline += '<input type="radio" class="btn-check" name="trialName';
       outputHTMLline += '" id="';
       outputHTMLline += biomarker_master[`categories`][i] + "_" + biomarker_master[`keyInCategory`][i];
       outputHTMLline += '" autocomplete="off">';
@@ -223,7 +256,7 @@ function fillTrialNameBasedOnBiomarker(biomarker)
       outputHTMLline += biomarker_master[`categories`][i] + "_" + biomarker_master[`keyInCategory`][i];
       outputHTMLline += '">';
       outputHTMLline += biomarker_master[`categories`][i] + ":  " + biomarker_master[`names`][i];
-      outputHTMLline += "</label>";
+      outputHTMLline += "</label></div>";
    }
   }
   //closing the vertical btn group
@@ -361,8 +394,10 @@ function fillTrialDetails(mainCategory, key) {
   var titleString = "";
   var notesString = "";
   var tissueReqString = "";
+  var settingString = "";
   var armString = "";
   var criteriaString = "";
+  var biomarkerString = "";
   var schemaString = "";
   var contactString = "";
   var NCTstring = "";
@@ -418,6 +453,14 @@ function fillTrialDetails(mainCategory, key) {
   schemaString += "'></p>";
     }
   
+  //Setting
+    if(mainCategory[`setting`][key] != null)
+    {
+  settingString += '<li class="detailsSection02 list-group-item btn btn-toggle d-inline-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#settingCollapse">Disease setting</li><li class="list-inline-item ps-5 collapse" id="settingCollapse"><p class="py-2">';
+  settingString += mainCategory[`setting`][key].replaceAll("\n", "<br/>");
+  settingString += "</p></li>";
+    }
+
   //Arms
     if(mainCategory[`arms`][key] != null)
     {
@@ -429,7 +472,7 @@ function fillTrialDetails(mainCategory, key) {
   //Tissue requirements (optional)
   if(mainCategory[`tissueRequirements`][key] != null)
     {
-    tissueReqString += '<li class="detailsSection03 list-group-item btn btn-toggle d-inline-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#tissueReqCollapse">Tissue requirements</li><li class="list-inline-item ps-5 collapse" id="tissueReqCollapse"><p class="py-2">';
+    tissueReqString += '<li class="detailsSection02 list-group-item btn btn-toggle d-inline-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#tissueReqCollapse">Tissue requirements</li><li class="list-inline-item ps-5 collapse" id="tissueReqCollapse"><p class="py-2">';
     tissueReqString += mainCategory[`tissueRequirements`][key].replaceAll("\n", "<br/>");
     tissueReqString += '</p></li>';
     }
@@ -442,7 +485,16 @@ function fillTrialDetails(mainCategory, key) {
   criteriaString += "</p></li>";
     }
   
-  
+  //Biomarker (if present)
+  //
+  biomarker_master[`names`].forEach((element,index) => {
+  if (element == mainCategory[`names`][key])
+
+    //console.log(biomarker_master[`biomarker`][index])
+    biomarkerString += '<li class="detailsSection03 list-group-item btn btn-toggle d-inline-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#biomarkerCollapse">Biomarkers</li><li class="list-inline-item ps-5 collapse" id="biomarkerCollapse"><p class="py-2">' + biomarker_master[`biomarker`][index].replaceAll("\n", "<br/>") + '</p></li>';
+
+    
+  });
 
   //Contact
   contactString += '<li class="detailsSection04 list-group-item btn btn-toggle d-inline-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#contactCollapse">Contact</li><li class="list-inline-item ps-5 collapse" id="contactCollapse"><p class="py-2">';
@@ -462,7 +514,7 @@ function fillTrialDetails(mainCategory, key) {
   NCTstring += '">Link to clinicaltrials.gov</p></li>';
     }   
 
-  htmlString += titleString + notesString + schemaString + armString + tissueReqString + criteriaString + contactString + NCTstring;
+  htmlString += titleString + notesString + schemaString + settingString+ armString + tissueReqString + criteriaString + biomarkerString + contactString + NCTstring;
   
   htmlString += "</ul>";
  
@@ -638,7 +690,14 @@ const headers = columnMap.map(col => col.header);
 
 const rows = data.HCC.map(trial =>
   columnMap.map((col, colIndex) => {
-    return trial[col.key] ?? "";
+    let value = trial[col.key] ?? "";
+
+    if (typeof value === "string" && value.includes("Coordinator")) {
+      // Keep only text before "Coordinator"
+      value = value.split("Coordinator")[0].trim();
+    }
+
+    return value;
   })
 );
 
@@ -650,8 +709,10 @@ doc.autoTable({
   body: rows,
   styles: { fontSize: 10, cellPadding: 2, overflow: 'linebreak', lineWidth: 0.2, lineColor: [50, 50, 50]},
   headStyles: { fillColor: [84, 209, 126], textColor: 255 },
+  pagebreak: 'auto',
+  rowPageBreak: 'avoid',
   columnStyles: {
-    0: { cellWidth: 12 },
+    0: { cellWidth: 12, lineWidth: 0, textColor: 255, fillColor: false },
     1: { cellWidth: 80 },
     2: { cellWidth: 30 },
     3: { cellWidth: 55 },
@@ -660,43 +721,42 @@ doc.autoTable({
   },
   didParseCell: function (data) {
     if (data.section === 'body') {
-      if (data.row.index % 2 === 0) {
+      if (data.row.index % 2 === 0 && data.column.index > 0 ) {
         data.cell.styles.fillColor = [135, 230, 167];
-      } else {
+      } else if (data.column.index > 0){
         data.cell.styles.fillColor = [255, 255, 255];
       }
     }
   },
+  didDrawPage: function (data) {
+    const table = data.table;
+    const startY = table.settings.margin.top;   // top of header
+    const endY = data.cursor.y;                  // bottom of rows on this page
+    const startX = table.settings.margin.left;
+    const cellWidth = 11;                       // width of your rotated column
+
+    // Draw filled rectangle spanning header + body for this page
+    doc.setFillColor(84, 209, 126);
+    doc.rect(startX, startY, cellWidth, endY - startY, 'F');
+
+
+    // Rotated text
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(15);
+    doc.setFont("helvetica", "bold");
+    doc.text("HCC", startX + cellWidth / 2 + 8, startY + (endY - startY) / 2, {
+      angle: 90,
+      align: 'center',
+      baseline: 'middle'
+    });
+  },
   willDrawCell: function(data) {
     // Skip all cells in the first column (header + body)
     if (data.column.index === 0) {
-      if (data.row.index === 0 && data.section === 'body') {
-        const table = data.table;
-        
-        // Calculate total height including header + body
-        const totalHeight = table.head.reduce((sum, row) => sum + row.height, 0)
-                          + table.body.reduce((sum, row) => sum + row.height, 0);
-        const x = data.cell.x;
-        const y = table.head[0].cells[0].y; // start at top of header
-        const width = data.cell.width -1;
-
-        // Draw the filled rectangle
-        doc.setFillColor(84, 209, 126);
-        doc.rect(x, y, width, totalHeight, 'F');
-
-        // Draw rotated text, centered vertically + horizontally
-        const centerX = x + width / 2 + 8;
-        const centerY = y + totalHeight / 2;
-        doc.setTextColor(255, 255, 255);
-        doc.setFontSize(15);
-        doc.setFont("helvetica", "bold");
-        doc.text("HCC", centerX, centerY, { angle: 90, align: 'center' });
-      }
       return false; // skip drawing this cell
     }
   }
 });
- 
 
 
 }
@@ -800,9 +860,16 @@ const columnMap = [
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 
-  const HCCrows = data.CCA.map(trial =>
+  const rows = data.CCA.map(trial =>
   columnMap.map((col, colIndex) => {
-    return trial[col.key] ?? "";
+    let value = trial[col.key] ?? "";
+
+    if (typeof value === "string" && value.includes("Coordinator")) {
+      // Keep only text before "Coordinator"
+      value = value.split("Coordinator")[0].trim();
+    }
+
+    return value;
   })
 );
 
@@ -810,58 +877,60 @@ const headers = columnMap.map(col => col.header);
 let groupRowSpanHeight = 0;
 
 doc.addPage();
+
 doc.autoTable({
   head: [headers],
-  body: HCCrows,
+  body: rows,
   styles: { fontSize: 10, cellPadding: 2, overflow: 'linebreak', lineWidth: 0.2, lineColor: [50, 50, 50]},
   headStyles: { fillColor: [6, 147, 110], textColor: 255 },
+  pagebreak: 'auto',
+  rowPageBreak: 'avoid',
   columnStyles: {
-    0: { cellWidth: 12 },
+    0: { cellWidth: 12, lineWidth: 0, textColor: 255, fillColor: false },
     1: { cellWidth: 80 },
     2: { cellWidth: 30 },
     3: { cellWidth: 55 },
     4: { cellWidth: 55 },
     5: { cellWidth: 40 }
   },
-  didParseCell: function (data) { 
+  didParseCell: function (data) {
     if (data.section === 'body') {
-      if (data.row.index % 2 === 0) {
+      if (data.row.index % 2 === 0 && data.column.index > 0 ) {
         data.cell.styles.fillColor = [111, 191, 171];
-      } else {
+      } else if (data.column.index > 0){
         data.cell.styles.fillColor = [255, 255, 255];
       }
     }
   },
+  didDrawPage: function (data) {
+    const table = data.table;
+    const startY = table.settings.margin.top;   // top of header
+    const endY = data.cursor.y;                  // bottom of rows on this page
+    const startX = table.settings.margin.left;
+    const cellWidth = 11;                       // width of your rotated column
+
+    // Draw filled rectangle spanning header + body for this page
+    doc.setFillColor(6, 147, 110);
+    doc.rect(startX, startY, cellWidth, endY - startY, 'F');
+
+
+    // Rotated text
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(15);
+    doc.setFont("helvetica", "bold");
+    doc.text("CCA", startX + cellWidth / 2 + 8, startY + (endY - startY) / 2, {
+      angle: 90,
+      align: 'center',
+      baseline: 'middle'
+    });
+  },
   willDrawCell: function(data) {
     // Skip all cells in the first column (header + body)
     if (data.column.index === 0) {
-      if (data.row.index === 0 && data.section === 'body') {
-        const table = data.table;
-        
-        // Calculate total height including header + body
-        const totalHeight = table.head.reduce((sum, row) => sum + row.height, 0)
-                          + table.body.reduce((sum, row) => sum + row.height, 0);
-        const x = data.cell.x;
-        const y = table.head[0].cells[0].y; // start at top of header
-        const width = data.cell.width -1;
-
-        // Draw the filled rectangle
-        doc.setFillColor(6, 147, 110);
-        doc.rect(x, y, width, totalHeight, 'F');
-
-        // Draw rotated text, centered vertically + horizontally
-        const centerX = x + width / 2 + 8;
-        const centerY = y + totalHeight / 2;
-        doc.setTextColor(255, 255, 255);
-        doc.setFontSize(15);
-        doc.setFont("helvetica", "bold");
-        doc.text("CCA", centerX, centerY, { angle: 90, align: 'center' });
-      }
       return false; // skip drawing this cell
     }
   }
 });
- 
 }
 if (data.Gastroesophageal != null){
 // Map of PDF header → JSON key
@@ -877,9 +946,16 @@ const columnMap = [
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 
-  const GErows = data.Gastroesophageal.map(trial =>
+  const rows = data.Gastroesophageal.map(trial =>
   columnMap.map((col, colIndex) => {
-    return trial[col.key] ?? "";
+    let value = trial[col.key] ?? "";
+
+    if (typeof value === "string" && value.includes("Coordinator")) {
+      // Keep only text before "Coordinator"
+      value = value.split("Coordinator")[0].trim();
+    }
+
+    return value;
   })
 );
 
@@ -889,56 +965,57 @@ let groupRowSpanHeight = 0;
 doc.addPage();
 doc.autoTable({
   head: [headers],
-  body: GErows,
+  body: rows,
   styles: { fontSize: 10, cellPadding: 2, overflow: 'linebreak', lineWidth: 0.2, lineColor: [50, 50, 50]},
   headStyles: { fillColor: [153, 153, 225], textColor: 255 },
+  pagebreak: 'auto',
+  rowPageBreak: 'avoid',
   columnStyles: {
-    0: { cellWidth: 12 },
+    0: { cellWidth: 12, lineWidth: 0, textColor: 255, fillColor: false },
     1: { cellWidth: 80 },
     2: { cellWidth: 30 },
     3: { cellWidth: 55 },
     4: { cellWidth: 55 },
     5: { cellWidth: 40 }
   },
-  didParseCell: function (data) { 
+  didParseCell: function (data) {
     if (data.section === 'body') {
-      if (data.row.index % 2 === 0) {
+      if (data.row.index % 2 === 0 && data.column.index > 0 ) {
         data.cell.styles.fillColor = [200, 200, 239];
-      } else {
+      } else if (data.column.index > 0){
         data.cell.styles.fillColor = [255, 255, 255];
       }
     }
   },
+  didDrawPage: function (data) {
+    const table = data.table;
+    const startY = table.settings.margin.top;   // top of header
+    const endY = data.cursor.y;                  // bottom of rows on this page
+    const startX = table.settings.margin.left;
+    const cellWidth = 11;                       // width of your rotated column
+
+    // Draw filled rectangle spanning header + body for this page
+    doc.setFillColor(153, 153, 225);
+    doc.rect(startX, startY, cellWidth, endY - startY, 'F');
+
+
+    // Rotated text
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(15);
+    doc.setFont("helvetica", "bold");
+    doc.text("GE", startX + cellWidth / 2 + 6, startY + (endY - startY) / 2, {
+      angle: 90,
+      align: 'center',
+      baseline: 'middle'
+    });
+  },
   willDrawCell: function(data) {
     // Skip all cells in the first column (header + body)
     if (data.column.index === 0) {
-      if (data.row.index === 0 && data.section === 'body') {
-        const table = data.table;
-        
-        // Calculate total height including header + body
-        const totalHeight = table.head.reduce((sum, row) => sum + row.height, 0)
-                          + table.body.reduce((sum, row) => sum + row.height, 0);
-        const x = data.cell.x;
-        const y = table.head[0].cells[0].y; // start at top of header
-        const width = data.cell.width -1;
-
-        // Draw the filled rectangle
-        doc.setFillColor(153, 153, 225);
-        doc.rect(x, y, width, totalHeight, 'F');
-
-        // Draw rotated text, centered vertically + horizontally
-        const centerX = x + width / 2 + 25;
-        const centerY = y + totalHeight / 2 + 20;
-        doc.setTextColor(255, 255, 255);
-        doc.setFontSize(15);
-        doc.setFont("helvetica", "bold");
-        doc.text("Gastroesophageal", centerX, centerY, { angle: 90, align: 'center' });
-      }
       return false; // skip drawing this cell
     }
   }
 });
- 
 }
 }
 
@@ -988,5 +1065,17 @@ function toggleNav()
       document.getElementById("navToggle").innerHTML = "Browse by organ group";
     }
 
-    console.log(biomarker_master);
+    clearTrialInfo();
+    clearUpdateLine();
+}
+
+function clearTrialInfo()
+{
+    document.getElementById("trialName").innerHTML = "";
+    document.getElementById("trialDetails").innerHTML = "";
+}
+
+function test()
+{
+  console.log(gastroesophageal_master);
 }
