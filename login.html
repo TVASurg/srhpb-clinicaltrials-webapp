@@ -31,7 +31,7 @@
     </nav>    
     <div class="row">
       <div class="col-12 text-center">
-        <button type="button" class="btn btn-outline-dark btn-lg">Login</button>
+        <button id ="btn-login" type="button" class="btn btn-outline-dark btn-lg">Login</button>
 
       </div>
     </div>
@@ -93,7 +93,9 @@
     };
     return Auth;
   }());
-
+  document.getElementById('btn-login').addEventListener('click', function() {
+  lock.show();
+});
   </script>
  
 </body>
