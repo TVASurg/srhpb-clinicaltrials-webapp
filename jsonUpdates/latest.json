@@ -325,7 +325,7 @@
       "Disease Setting": "Adjuvant",
       "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
       "Full title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter, Global Study of Rilvegostomig in Combination With Chemotherapy as Adjuvant Treatment After Resection of Biliary Tract Cancer With Curative Intent (ARTEMIDE-Biliary01)",
-      "Additional notes": null,
+      "Additional notes": "UHN has reached target enrollment. Additional slots may be available - request from Sponsor",
       "Tissue Requirements": null,
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "A: rilvegostomig + SOC\nB: placebo + SOC",
@@ -353,7 +353,7 @@
       "Disease Setting": "1st line",
       "Trial Name": "\nHERIZON-BTC-302",
       "Full title": "An Open-label Randomized Trial of the Efficacy and Safety of Zanidatamab With Standard-of-care Therapy Against Standard-of-care Therapy Alone for Advanced HER2-positive Biliary Tract Cancer",
-      "Additional notes": "ZW25 (zanidatamab) must be added by start of C3",
+      "Additional notes": "Patient must be randomized before starting C3. ",
       "Tissue Requirements": "Fresh biopsy or archival (up to 6 months old). ",
       "Biomarker/unselected": "HER-2 on IHC",
       "Trial Intervention/Arms": "A: ZW25 + SOC\nB: SOC",
@@ -1259,6 +1259,16 @@
         "Trial Name": " FOENIX-CCA4",
         "change": "modified",
         "timestamp": "2025-09-17T09:06:32"
+      },
+      {
+        "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
+        "change": "modified",
+        "timestamp": "2025-09-17T11:55:13"
+      },
+      {
+        "Trial Name": "\nHERIZON-BTC-302",
+        "change": "modified",
+        "timestamp": "2025-09-17T11:55:13"
       }
     ]
   }
