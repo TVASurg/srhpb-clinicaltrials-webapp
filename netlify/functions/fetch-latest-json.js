@@ -47,7 +47,9 @@ async function verifyJwt(token, { audience, issuer }) {
   // Verify claims
   if (payload.exp * 1000 < Date.now()) throw new Error("Token expired");
   if (payload.iss !== issuer) throw new Error("Bad issuer");
-  if (payload.aud !== audience) throw new Error("Bad audience; payload.aud is" + payload.aud + " audience is:" + audience);
+  const audiences = payload.aud.split(",");
+  if (!audiences.includes(audience)) throw new Error("Bad audience");
+  //if (payload.aud !== audience) throw new Error("Bad audience; payload.aud is" + payload.aud + " audience is:" + audience);
 
   return payload;
 }
