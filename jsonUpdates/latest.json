@@ -579,9 +579,9 @@
       "Disease Setting": "2L Metastatic+",
       "Trial Name": "OZM-114\n\n",
       "Full title": "Phase 1b Expansion Study of CX-5461 In Patients With Solid Tumors and BRCA2 and/or PALB2 mutation",
-      "Additional notes": "BRCA2/PALB2. ",
+      "Additional notes": null,
       "Tissue Requirements": null,
-      "Biomarker/unselected": null,
+      "Biomarker/unselected": "BRCA2/PALB2",
       "Trial Intervention/Arms": "Phase 1b Expansion Study of CX-5461 In Patients with Solid Tumors and BRCA2 and/or PALB2 mutation ",
       "Eligibility ": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. ",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
@@ -621,9 +621,9 @@
       "Disease Setting": "2L Metastatic+",
       "Trial Name": "Platinum-Can\n\n\n",
       "Full title": "Comparing Second-Line NABPLAGEM vs. Nab-paclitaxel/Gemcitabine in BRCA1/2 or PALB2 Mutant Metastatic Pancreatic Ductal Adenocarcinoma",
-      "Additional notes": "BRCA1/2 or PALB2",
+      "Additional notes": null,
       "Tissue Requirements": "Archival tumour tissue unstained slides.",
-      "Biomarker/unselected": null,
+      "Biomarker/unselected": "BRCA1/2 or PALB2",
       "Trial Intervention/Arms": "NABPLAGEM VS. nab-paclitaxel and gemcitabine\n",
       "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma, adenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nExclusion:\nNo prior Cisplatin",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nDowon Choi\nDowon.Choi@uhn.ca\nPhone: 416-946-4501 x 4713",
@@ -684,6 +684,20 @@
       "Eligibility ": "Inclusion:\nDiagnosis of epithelial pancreatic cancer, confirmed with biopsy or suspected based on\nreview of imaging at the multi-disciplinary conference\nPlan for chemotherapy as part of treatment plan or ongoing treatment\nExclusion: \nLack of an email address\nInability to fluently speak and read English, given the questionnaires will only be\ndeveloped in English at first because of resource constraints\nInability or unwillingness to adhere to the study procedures, at the discretion of the\ninvestigator\nAdmitted as an inpatient at enrolment",
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
+      "Schema image": null,
+      "Schema image data": null
+    },
+    {
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "RIVER-mPDAC (Pre-activation)",
+      "Full title": "Research Investigation of ponsegromab in cancer cachexia-metastatic Pancreatic Ductal Adenocarcinoma",
+      "Additional notes": "Study to investigate the efficacy, safety and tolerability of systemic chemotherapy plus ponsegromab versus systemic chemotherapy plus placebo for the first-line treatment in adult participants with cachexia and metastatic pancreatic ductal adenocardinoma.",
+      "Tissue Requirements": "Archival tumor FFPE biopsy block or unstained freshly cut paraffin sections\nof tumor specimen collected within 6 months of enrollment.",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Ponsegromab Doubleblind Treatment 200 mg Q4W\nPonsegromab Doubleblind Treatment 400 mg Q4W\nPlacebo Double-blind Treatment Q4W",
+      "Eligibility ": "Inclusion:\nActive diagnosis of metastatic pancreatic ductal adenocarcinoma\nCachexia defined by Fearon criteria of weight loss\nCompleted 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\nExclusion:\nCurrent active reversible causes of decreased food intake\nCachexia caused by other reasons\nHistory of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\nNeuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\nRenal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
+      "Contacts": null,
+      "NCT number": "NCT06989437",
       "Schema image": null,
       "Schema image data": null
     }
@@ -923,6 +937,21 @@
         "Trial Name": "HPB Banking Protocol\n\n",
         "change": "modified",
         "timestamp": "2025-09-17T12:54:50"
+      },
+      {
+        "Trial Name": "OZM-114\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-18T15:34:07"
+      },
+      {
+        "Trial Name": "Platinum-Can\n\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-18T15:34:07"
+      },
+      {
+        "Trial Name": "RIVER-mPDAC (Pre-activation)",
+        "change": "added",
+        "timestamp": "2025-09-18T15:34:07"
       }
     ],
     "HCC": [
