@@ -74,7 +74,7 @@ exports.handler = async (event) => {
     //   user: decoded.sub,
     //   timestamp: new Date().toISOString()
     // };
-    const response = await fetch(`../jsonUpdates/latest.json?ver=${Date.now()}`);
+    const response = await fetch(`https://srhpb.netlify.app/jsonUpdates/latest.json?ver=${Date.now()}`);
     const protectedData = await response.json();
     
     return {
