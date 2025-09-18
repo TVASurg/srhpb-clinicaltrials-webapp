@@ -47,8 +47,7 @@ async function verifyJwt(token, { audience, issuer }) {
   // Verify claims
   if (payload.exp * 1000 < Date.now()) throw new Error("Token expired");
   if (payload.iss !== issuer) throw new Error("Bad issuer");
-  console.log("Token audience:", payload.aud);
-  if (payload.aud !== audience) throw new Error("Bad audience");
+  if (payload.aud !== audience) throw new Error("Bad audience; payload.aud is" + payload.aud + " audience is:" + audience);
 
   return payload;
 }
@@ -63,7 +62,7 @@ exports.handler = async (event) => {
 
   try {
     const decoded = await verifyJwt(token, {
-      audience: "https://srhpb.netlify.app/authentication/",
+      audience: 'https://srhpb.netlify.app/authentication/',
       issuer: "https://srhpb.ca.auth0.com/"
     });
 
