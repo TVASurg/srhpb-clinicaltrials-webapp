@@ -60,7 +60,7 @@ exports.handler = async (event) => {
 
   try {
     const decoded = await verifyJwt(token, {
-      audience: "68c449d70d9c7ef239c5e636",
+      audience: "https://srhpb.ca.auth0.com/api/v2/",
       issuer: "https://srhpb.ca.auth0.com/"
     });
 
