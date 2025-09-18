@@ -47,6 +47,7 @@ async function verifyJwt(token, { audience, issuer }) {
   // Verify claims
   if (payload.exp * 1000 < Date.now()) throw new Error("Token expired");
   if (payload.iss !== issuer) throw new Error("Bad issuer");
+  console.log("Token audience:", payload.aud);
   if (payload.aud !== audience) throw new Error("Bad audience");
 
   return payload;
