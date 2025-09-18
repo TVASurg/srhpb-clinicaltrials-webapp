@@ -158,7 +158,7 @@
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-  
+  <script src="./scripts.js"></script>
   <!-- Auth0 Lock utilization -->
   <script>
     // Initializing our Auth0Lock
@@ -195,16 +195,17 @@
       })
       .then(res => res.json())
       .then(data => {
-        document.getElementById("jsonDump").innerText = JSON.stringify(data, null, 2);
+        initAllData(data);
       })
       .catch(err => console.error("Error fetching data:", err));
     });
   </script>
-  <script src="./scripts.js"></script>
+  
  
 </body>
  
 </html>
+
 
 
 
