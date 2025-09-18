@@ -20,6 +20,7 @@ async function getKey(kid) {
 }
 
 async function verifyJwt(token, { audience, issuer }) {
+  console.log("Token audience:", payload.aud);
   const [headerB64, payloadB64, signatureB64] = token.split(".");
   if (!headerB64 || !payloadB64 || !signatureB64) {
     throw new Error("Invalid JWT format");
@@ -47,7 +48,6 @@ async function verifyJwt(token, { audience, issuer }) {
   if (payload.iss !== issuer) throw new Error("Bad issuer");
   if (payload.aud !== audience) throw new Error("Bad audience");
 
-  console.log(payload);
   return payload;
 }
 
