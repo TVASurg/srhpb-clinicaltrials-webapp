@@ -200,6 +200,24 @@
       // Show SPA content
       document.getElementById("main").classList.remove('d-none');
 
+      // 🔑 Decode the token payload to get user info
+      const base64Url = authResult.idToken.split('.')[1];
+      const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+      const userPayload = JSON.parse(window.atob(base64));
+
+      // ✅ Identify user in PostHog
+      posthog.identify(userPayload.sub, {
+        email: userPayload.email,
+        name: userPayload.name
+      });
+
+      // Debugging
+      console.log("✅ PostHog identify:", userPayload);
+      console.log("✅ PostHog event 'user_logged_in' sent");
+        
+      // Example: track login event
+      posthog.capture("user_logged_in");
+          
       // Fetch protected JSON
       fetch("/.netlify/functions/fetch-latest-json", {
         headers: {
@@ -218,6 +236,7 @@
 </body>
  
 </html>
+
 
 
 
