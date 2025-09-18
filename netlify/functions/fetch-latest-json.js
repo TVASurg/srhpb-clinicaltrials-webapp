@@ -69,11 +69,12 @@ exports.handler = async (event) => {
     });
 
     // ✅ If valid, return JSON
-    const protectedData = {
-      message: "This is protected JSON",
-      user: decoded.sub,
-      timestamp: new Date().toISOString()
-    };
+    // const protectedData = {
+    //   message: "This is protected JSON",
+    //   user: decoded.sub,
+    //   timestamp: new Date().toISOString()
+    // };
+    const protectedData = fetch(`../jsonUpdates/latest.json?ver=${Date.now()}`);
 
     return {
       statusCode: 200,
