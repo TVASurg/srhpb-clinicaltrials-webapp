@@ -20,7 +20,7 @@ async function getKey(kid) {
 }
 
 async function verifyJwt(token, { audience, issuer }) {
-  console.log("Token audience:", payload.aud);
+  
   const [headerB64, payloadB64, signatureB64] = token.split(".");
   if (!headerB64 || !payloadB64 || !signatureB64) {
     throw new Error("Invalid JWT format");
@@ -30,6 +30,7 @@ async function verifyJwt(token, { audience, issuer }) {
   const payload = JSON.parse(Buffer.from(payloadB64, "base64").toString("utf8"));
   const signature = Buffer.from(signatureB64, "base64url");
 
+  console.log("Token audience:", payload.aud);
   // Get public key for this JWT header.kid
   const key = await getKey(header.kid);
 
