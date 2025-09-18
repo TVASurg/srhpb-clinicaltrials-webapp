@@ -211,10 +211,6 @@
         email: userPayload.email,
         name: userPayload.name
       });
-
-      // Debugging
-      console.log("✅ PostHog identify:", userPayload);
-      console.log("✅ PostHog event 'user_logged_in' sent");
         
       // Example: track login event
       posthog.capture("user_logged_in");
@@ -237,6 +233,7 @@
 </body>
  
 </html>
+
 
 
 
