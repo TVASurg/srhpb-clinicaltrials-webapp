@@ -62,7 +62,7 @@ exports.handler = async (event) => {
 
   try {
     const decoded = await verifyJwt(token, {
-      audience: "srhpbAuth0API",
+      audience: "https://srhpb.netlify.app/authentication/",
       issuer: "https://srhpb.ca.auth0.com/"
     });
 
