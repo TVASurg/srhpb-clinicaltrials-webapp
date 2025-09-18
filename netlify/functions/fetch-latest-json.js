@@ -47,6 +47,7 @@ async function verifyJwt(token, { audience, issuer }) {
   if (payload.iss !== issuer) throw new Error("Bad issuer");
   if (payload.aud !== audience) throw new Error("Bad audience");
 
+  console.log(payload);
   return payload;
 }
 
