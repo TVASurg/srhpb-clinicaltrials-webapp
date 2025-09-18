@@ -1,20 +1,53 @@
-const jwt = require("jsonwebtoken");
-const jwksClient = require("jwks-rsa");
+// No requires needed – we'll use the built-in Web Crypto API + fetch
 
-// Configure with your Auth0 domain
-const client = jwksClient({
-  jwksUri: `https://srhpb.ca.auth0.com/.well-known/jwks.json`
-});
+async function getKey(kid) {
+  // Fetch JWKS from Auth0
+  const res = await fetch(`https://srhpb.ca.auth0.com/.well-known/jwks.json`);
+  const { keys } = await res.json();
 
-function getKey(header, callback) {
-  client.getSigningKey(header.kid, function(err, key) {
-    if (err) {
-      callback(err);
-    } else {
-      const signingKey = key.getPublicKey();
-      callback(null, signingKey);
-    }
-  });
+  // Find the matching JWK
+  const jwk = keys.find(k => k.kid === kid);
+  if (!jwk) throw new Error("Key not found");
+
+  // Import as CryptoKey
+  return crypto.subtle.importKey(
+    "jwk",
+    jwk,
+    { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" },
+    false,
+    ["verify"]
+  );
+}
+
+async function verifyJwt(token, { audience, issuer }) {
+  const [headerB64, payloadB64, signatureB64] = token.split(".");
+  if (!headerB64 || !payloadB64 || !signatureB64) {
+    throw new Error("Invalid JWT format");
+  }
+
+  const header = JSON.parse(Buffer.from(headerB64, "base64").toString("utf8"));
+  const payload = JSON.parse(Buffer.from(payloadB64, "base64").toString("utf8"));
+  const signature = Buffer.from(signatureB64, "base64url");
+
+  // Get public key for this JWT header.kid
+  const key = await getKey(header.kid);
+
+  // Verify signature
+  const valid = await crypto.subtle.verify(
+    "RSASSA-PKCS1-v1_5",
+    key,
+    signature,
+    Buffer.from(`${headerB64}.${payloadB64}`)
+  );
+
+  if (!valid) throw new Error("Invalid signature");
+
+  // Verify claims
+  if (payload.exp * 1000 < Date.now()) throw new Error("Token expired");
+  if (payload.iss !== issuer) throw new Error("Bad issuer");
+  if (payload.aud !== audience) throw new Error("Bad audience");
+
+  return payload;
 }
 
 exports.handler = async (event) => {
@@ -26,11 +59,9 @@ exports.handler = async (event) => {
   }
 
   try {
-    const decoded = await new Promise((resolve, reject) => {
-      jwt.verify(token, getKey, { audience: "68c449d70d9c7ef239c5e636", issuer: `https://srhpb.ca.auth0.com/` }, (err, decoded) => {
-        if (err) reject(err);
-        else resolve(decoded);
-      });
+    const decoded = await verifyJwt(token, {
+      audience: "68c449d70d9c7ef239c5e636",
+      issuer: "https://srhpb.ca.auth0.com/"
     });
 
     // ✅ If valid, return JSON
@@ -45,9 +76,7 @@ exports.handler = async (event) => {
       body: JSON.stringify(protectedData)
     };
 
-    console.log('that worked?');
-
   } catch (err) {
-    return { statusCode: 401, body: "Invalid token" };
+    return { statusCode: 401, body: "Unauthorized: " + err.message };
   }
 };
