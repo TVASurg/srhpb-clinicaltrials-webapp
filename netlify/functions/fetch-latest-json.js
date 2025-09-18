@@ -74,8 +74,9 @@ exports.handler = async (event) => {
     //   user: decoded.sub,
     //   timestamp: new Date().toISOString()
     // };
-    const protectedData = fetch(`../jsonUpdates/latest.json?ver=${Date.now()}`);
-
+    const response = await fetch(`${__dirname}/../jsonUpdates/latest.json?ver=${Date.now()}`);
+    const protectedData = await response.json();
+    
     return {
       statusCode: 200,
       body: JSON.stringify(protectedData)
