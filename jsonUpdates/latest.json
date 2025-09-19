@@ -741,6 +741,14 @@
     }
   ],
   "Closed": [],
+  "Dropdown menus": [
+    {
+      "Study status": "Active"
+    },
+    {
+      "Study status": "Not Recruiting"
+    }
+  ],
   "Changes": {
     "PDAC": [
       {
