@@ -75,7 +75,10 @@ main {
   height: 100vh;
   height: -webkit-fill-available;
   max-height: 100vh;
-  
+}
+
+#mainContent{
+    padding-top:200px;
 }
 
 .dropdown-toggle { outline: 0; }
@@ -109,25 +112,8 @@ main {
   margin-left: 1.25rem;
 }
 
-@media (max-width: 768px) {
-  #trialName {
-    scroll-margin-top: 200px;
-  }
-
-  #scroll-spacer {
-    display: block;
-    height: 500px;
-  }
-}
-
-@media (min-width: 769px) {
-  #trialName {
-    scroll-margin-top: 200px;
-  }
-  
-  #scroll-spacer {
-    display: none;
-  }
+.bottomSpacerActive{
+    padding-top:1000px;
 }
 
 .scrollarea {

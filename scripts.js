@@ -288,6 +288,7 @@ function fillTrialNameBasedOnBiomarker(biomarker)
     });
   });
 highlightCategory();
+scrollToTrialName("trialName");
 }
 
 function fillTrialNameBasedOnSetting(mainCategory, setting) {
@@ -378,6 +379,7 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
   
   //highlight category selected for breadcrumb purposes
   highlightCategory();
+  scrollToTrialName("trialName");
 }
 
 function fillTrialDetails(mainCategory, key) {
@@ -1070,4 +1072,27 @@ function clearTrialInfo()
 function test()
 {
   console.log(gastroesophageal_master);
+}
+
+function scrollToTrialName(scrollTarget)
+{
+    //breakpoint lg for bootstrap
+    const width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if (width <= 992)
+    {
+        const target = document.getElementById(scrollTarget);
+        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - document.getElementById("topNavBar").offsetHeight - 50;
+    
+        document.getElementById('footer').classList.add('bottomSpacerActive');
+            
+        window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+        });        
+    }
+}
+
+function removeFooterSpacing()
+{
+    document.getElementById('footer').classList.remove('bottomSpacerActive');
 }

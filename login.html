@@ -34,14 +34,14 @@
 <body>
 
   <main class="container">
-    <nav class="navbar sticky-top navbar-light bg-white">
+    <nav class="navbar fixed-top navbar-light bg-white">
       <div class="navbar-brand mx-auto">
         <img src="images/SRHPBlogo_retreat_optionB_onWhiteBg.png" alt="">
         <span class="topText text-center fw-bold h3 align-middle">GI clinical trials</span>
         
         </div>
     </nav>    
-    <div id="main" class="row d-none">
+    <div id="mainContent" class="row ">
         <div class="col-12 col-lg-3"> 
         <div class="flipNav">
           <div id="mainNavInner" class="flipNavInner">
@@ -53,11 +53,11 @@
             </button>
             <div class="collapse" id="ge-collapse" >
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Prior')"><li class="rounded diseaseState px-3 mx-2 py-2" >Prior to systemic treatment</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '1')"><li class="rounded diseaseState px-3 mx-2 py-2" >1st line</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '2')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '3')"><li class="rounded diseaseState px-3 mx-2 py-2" >3rd line</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Any line')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any line</li></a>
+                <a role="button" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Prior')"><li class="rounded diseaseState px-3 mx-2 py-2" >Prior to systemic treatment</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '1')"><li class="rounded diseaseState px-3 mx-2 py-2" >1st line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '2')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '3')"><li class="rounded diseaseState px-3 mx-2 py-2" >3rd line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Any line')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any line</li></a>
               </ul>
             </div>
           </li> 
@@ -68,52 +68,52 @@
             </button>
             <div class="collapse bg-hcc" id="hcc-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Peri-OR')"><li class="rounded diseaseState px-3 mx-2 py-2" >Peri-OR</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Pre-transplant')"><li class="rounded diseaseState px-3 mx-2 py-2" >Pre-transplant</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Any')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any line</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, '1st')"><li class="rounded diseaseState px-3 mx-2 py-2" >1st line</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, '2nd')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Last')"><li class="rounded diseaseState px-3 mx-2 py-2" >Last line</li></a>               </ul>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Peri-OR')"><li class="rounded diseaseState px-3 mx-2 py-2" >Peri-OR</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Pre-transplant')"><li class="rounded diseaseState px-3 mx-2 py-2" >Pre-transplant</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Any')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, '1st')"><li class="rounded diseaseState px-3 mx-2 py-2" >1st line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, '2nd')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Last')"><li class="rounded diseaseState px-3 mx-2 py-2" >Last line</li></a>               </ul>
             </div>
           </li>
           <li class="fs-5 bg-pancreas ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ">Pancreas</li>
-          <li class="d-grid bg-pancreas ps-2 "> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false" onclick="clearTrialInfo(); clearUpdateLine();">
+          <li class="d-grid bg-pancreas rounded-bottom ps-2 "> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false" onclick="clearTrialInfo(); clearUpdateLine();">
               PDAC
             </button>
             <div class="collapse " id="mccain-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Resectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Resectable</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Locally Advanced Unresectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Locally Advanced unresectable</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Any Line Advanced')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any Line Advanced</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '1L Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >1L Metastatic</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '2L Metastatic+')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L+ Metastatic</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Non-Therapeutic')"><li class="rounded diseaseState px-3 mx-2 py-2" >Non-Therapeutic</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Resectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Resectable</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Locally Advanced Unresectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Locally Advanced unresectable</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Any Line Advanced')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any Line Advanced</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '1L Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >1L Metastatic</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '2L Metastatic+')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L+ Metastatic</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Non-Therapeutic')"><li class="rounded diseaseState px-3 mx-2 py-2" >Non-Therapeutic</li></a>
 
               </ul>
             </div>
           </li>
-          <li id="pancreas_preactivation" class="mb-3 rounded-bottom bg-pancreas ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#pancPreactivate-collapse" onclick="clearTrialInfo();">
+<!--          <li id="pancreas_preactivation" class="mb-3 rounded-bottom bg-pancreas ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#pancPreactivate-collapse" onclick="clearTrialInfo();">
               Pre-activation
             </button>
             <div class="collapse" id="pancPreactivate-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, '1L Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >1L Metastatic</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, '2L Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L+ Metastatic</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, 'Any')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, '1L Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >1L Metastatic</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, '2L Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L+ Metastatic</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, 'Any')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any</li></a>
               </ul>
             </div>
-          </li>
+          </li>-->
           <li class="fs-5 bg-btc ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2">Biliary</li>
           <li class="d-grid mb-1 bg-btc rounded-bottom ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#cca-collapse" onclick="clearTrialInfo(); clearUpdateLine();">
               CCA
             </button>
             <div class="collapse" id="cca-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, 'Adjuvant')"><li class="rounded diseaseState px-3 mx-2 py-2" >Adjuvant</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, '1st')"><li class="rounded diseaseState px-3 mx-2 py-2" >1st line</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, '2nd')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, '3rd')"><li class="rounded diseaseState px-3 mx-2 py-2" >3rd line</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, 'Any')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, 'Adjuvant')"><li class="rounded diseaseState px-3 mx-2 py-2" >Adjuvant</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, '1st')"><li class="rounded diseaseState px-3 mx-2 py-2" >1st line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, '2nd')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, '3rd')"><li class="rounded diseaseState px-3 mx-2 py-2" >3rd line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, 'Any')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any line</li></a>
               </ul>
             </div>
           </li>
@@ -124,17 +124,15 @@
           <li class="fs-5 bg-gray-500 ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2">Biomarker</li>
             <div class="bg-gray-500 rounded-bottom">
               <ul class="btn-toggle-nav list-unstyled fw-normal py-2 ps-2">
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`MTAP`)"><li class="rounded diseaseState px-3 mx-2 py-2" >MTAP</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`CLDN18.2`)"><li class="rounded diseaseState px-3 mx-2 py-2" >CLDN18.2</li></a>                
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`HER-2 on IHC`)"><li class="rounded diseaseState px-3 mx-2 py-2" >HER-2 on IHC</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`HER2 `)"><li class="rounded diseaseState px-3 mx-2 py-2" >HER2</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`HER2 and PDL1`)"><li class="rounded diseaseState px-3 mx-2 py-2" >HER2 and PDL1</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`IDH1`)"><li class="rounded diseaseState px-3 mx-2 py-2" >IDH1</li></a>
-                <a href="#trialName" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`evidence of FGFR2 gene fusions or other rearrangements using NGS or FISH`)"><li class="rounded diseaseState px-3 mx-2 py-2" >Evidence of FGFR2 gene fusions</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`MTAP`)"><li class="rounded diseaseState px-3 mx-2 py-2" >MTAP</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`CLDN18.2`)"><li class="rounded diseaseState px-3 mx-2 py-2" >CLDN18.2</li></a>                
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`HER-2 on IHC`)"><li class="rounded diseaseState px-3 mx-2 py-2" >HER-2 on IHC</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`HER2 `)"><li class="rounded diseaseState px-3 mx-2 py-2" >HER2</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`HER2 and PDL1`)"><li class="rounded diseaseState px-3 mx-2 py-2" >HER2 and PDL1</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`IDH1`)"><li class="rounded diseaseState px-3 mx-2 py-2" >IDH1</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`evidence of FGFR2 gene fusions or other rearrangements using NGS or FISH`)"><li class="rounded diseaseState px-3 mx-2 py-2" >Evidence of FGFR2 gene fusions</li></a>
             </ul>
             </div>
-          </li> 
-
         </ul>
         
 
@@ -199,7 +197,7 @@
       localStorage.setItem("accessToken", authResult.accessToken);
 
       // Show SPA content
-      document.getElementById("main").classList.remove('d-none');
+      document.getElementById("mainContent").classList.remove('d-none');
 
       // 🔑 Decode the token payload to get user info
       const base64Url = authResult.idToken.split('.')[1];
