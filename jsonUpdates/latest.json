@@ -119,7 +119,7 @@
       "Eligibility ": "Her-2 overexpression.\nILD/Pneumonitis excluded.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT04379596",
-      "Study status": "Not Recruiting",
+      "Study status": "Active",
       "Schema image": null,
       "Schema image data": null
     },
@@ -164,7 +164,7 @@
       "Eligibility ": "Her-2 + (central confirmation).  ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06043427",
-      "Study status": "Not Recruiting",
+      "Study status": "Active",
       "Schema image": null,
       "Schema image data": null
     },
@@ -208,7 +208,7 @@
       "Trial Intervention/Arms": null,
       "Eligibility ": "those who decline or are or not eligible for MOCHA ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
-      "NCT number": "N/A",
+      "NCT number": null,
       "Study status": "Active",
       "Schema image": null,
       "Schema image data": null
@@ -1482,6 +1482,21 @@
         "Trial Name": "GEAR",
         "change": "modified",
         "timestamp": "2025-09-22T13:33:28"
+      },
+      {
+        "Trial Name": "GEAR",
+        "change": "modified",
+        "timestamp": "2025-09-22T13:43:22"
+      },
+      {
+        "Trial Name": "Destiny-Gastric 03 ",
+        "change": "modified",
+        "timestamp": "2025-09-22T16:33:13"
+      },
+      {
+        "Trial Name": "GA.4 ",
+        "change": "modified",
+        "timestamp": "2025-09-22T16:33:13"
       }
     ],
     "CCA": [
