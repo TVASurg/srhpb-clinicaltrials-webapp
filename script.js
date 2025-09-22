@@ -18,6 +18,7 @@ function initAllData() {
             gastroesophageal_master["keyCriteria"].push(row["Eligibility "]);
             gastroesophageal_master["contact"].push(row["Contacts"]);
             gastroesophageal_master["NCT"].push(row["NCT number"]);
+            gastroesophageal_master["status"].push(row["Study status"]);
             gastroesophageal_master["schema"].push(row["Schema image data"]);
             }
             else if (row["Disease Setting"] == null)
@@ -31,6 +32,7 @@ function initAllData() {
             gastroesophageal_master["keyCriteria"].push(row["Eligibility "]);
             gastroesophageal_master["contact"].push(row["Contacts"]);
             gastroesophageal_master["NCT"].push(row["NCT number"]);
+            gastroesophageal_master["status"].push(row["Study status"]);
             gastroesophageal_master["schema"].push(row["Schema image data"]);
             }
             if (row["Biomarker/unselected"])
@@ -54,6 +56,7 @@ function initAllData() {
             liver_HCC_master["keyCriteria"].push(row["Eligibility "]);
             liver_HCC_master["contact"].push(row["Contacts"]);
             liver_HCC_master["NCT"].push(row["NCT number"]);
+            liver_HCC_master["status"].push(row["Study status"]);
             liver_HCC_master["schema"].push(row["Schema image data"]);
 
             if (row["Biomarker/unselected"])
@@ -77,6 +80,7 @@ function initAllData() {
             pancreas_master["keyCriteria"].push(row["Eligibility "]);
             pancreas_master["contact"].push(row["Contacts"]);
             pancreas_master["NCT"].push(row["NCT number"]);
+            pancreas_master["status"].push(row["Study status"]);
             //adding in base64 encoded images
             pancreas_master["schema"].push(row["Schema image data"]);
 
@@ -101,6 +105,7 @@ function initAllData() {
             biliary_CCA_master["keyCriteria"].push(row["Eligibility "]);
             biliary_CCA_master["contact"].push(row["Contacts"]);
             biliary_CCA_master["NCT"].push(row["NCT number"]);
+            biliary_CCA_master["status"].push(row["Study status"]);
             biliary_CCA_master["schema"].push(row["Schema image data"]);
 
             //if the row["Biomarker"] contains data
@@ -150,6 +155,7 @@ const gastroesophageal_master = {
   contact: [],
   NCT:[],
   schema:[],
+  status:[],
   label: "Gastroesophageal" //this is the sheet name
 };
 
@@ -164,6 +170,7 @@ const biliary_CCA_master = {
   contact: [],
   NCT:[],
   schema:[],
+  status:[],
   label: "CCA" //this is the sheet name
 };
 
@@ -178,6 +185,7 @@ const liver_HCC_master  = {
   contact: [],
   NCT:[],
   schema:[],
+  status:[],
   label: "HCC" //this is the sheet name
 };
 
@@ -192,6 +200,7 @@ const pancreas_master  = {
   contact: [],
   NCT:[],
   schema:[],
+  status:[],
   label: "PDAC" //this is the sheet name
 };
 
@@ -499,6 +508,8 @@ function fillTrialDetails(mainCategory, key) {
   });
 
   //Contact
+  if(mainCategory[`contact`][key] != null)
+  {
   contactString += '<li class="detailsSection04 list-group-item btn btn-toggle d-inline-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#contactCollapse">Contact</li><li class="list-inline-item ps-5 collapse" id="contactCollapse"><p class="py-2">';
 
   
@@ -506,7 +517,7 @@ function fillTrialDetails(mainCategory, key) {
   //contactString += mainCategory[`contact`][key].replaceAll("\n", "<br/>");
   contactString += parseContact(mainCategory[`contact`][key]);
   contactString += '</p></li>';
-  
+  }
   //More information link
   if(mainCategory[`NCT`][key] != null)
     {
@@ -523,6 +534,7 @@ function fillTrialDetails(mainCategory, key) {
   document.getElementById("trialDetails").innerHTML = htmlString;
 
   displayLastUpdateForTrial(mainCategory[`label`], mainCategory[`names`][key]);
+  displayStudyStatus(mainCategory['status'][key]);
 
   //document.getElementById("scroll-spacer").style.display= 'none';
 }
@@ -1029,6 +1041,8 @@ function printCommunityList()
 function clearUpdateLine()
 {
   document.getElementById("trialLastUpdated").innerHTML = "";
+  document.getElementById("studyStatus").innerHTML = "";
+  document.getElementById("studyStatus").classList.remove('bg-danger','bg-success');
 }
 
 function displayLastUpdateForTrial(mainCategory, trialName)
@@ -1053,6 +1067,20 @@ function displayLastUpdateForTrial(mainCategory, trialName)
   
   //here we fill in the last updated info to a badge
   document.getElementById("trialLastUpdated").innerHTML = parsedDateHTML;
+}
+
+function displayStudyStatus(studystatus)
+{
+  if (studystatus != "Active")
+  {
+    document.getElementById("studyStatus").classList.add("bg-danger");
+  }
+  else
+  {
+    document.getElementById("studyStatus").classList.add("bg-success");
+  }
+
+  document.getElementById("studyStatus").innerHTML = studystatus;
 }
 
 function toggleNav()
