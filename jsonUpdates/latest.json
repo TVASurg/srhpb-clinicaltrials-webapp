@@ -606,21 +606,6 @@
       "Study status": "Active",
       "Schema image": null,
       "Schema image data": null
-    },
-    {
-      "Disease Setting": "1L Metastatic",
-      "Trial Name": "RIVER-mPDAC (Pre-activation)",
-      "Full title": "Research Investigation of ponsegromab in cancer cachexia-metastatic Pancreatic Ductal Adenocarcinoma",
-      "Additional notes": "Study to investigate the efficacy, safety and tolerability of systemic chemotherapy plus ponsegromab versus systemic chemotherapy plus placebo for the first-line treatment in adult participants with cachexia and metastatic pancreatic ductal adenocardinoma.",
-      "Tissue Requirements": "Archival tumor FFPE biopsy block or unstained freshly cut paraffin sections\nof tumor specimen collected within 6 months of enrollment.",
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Ponsegromab Doubleblind Treatment 200 mg Q4W\nPonsegromab Doubleblind Treatment 400 mg Q4W\nPlacebo Double-blind Treatment Q4W",
-      "Eligibility ": "Inclusion:\nActive diagnosis of metastatic pancreatic ductal adenocarcinoma\nCachexia defined by Fearon criteria of weight loss\nCompleted 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\nExclusion:\nCurrent active reversible causes of decreased food intake\nCachexia caused by other reasons\nHistory of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\nNeuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\nRenal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
-      "Contacts": null,
-      "NCT number": "NCT06989437",
-      "Study status": null,
-      "Schema image": null,
-      "Schema image data": null
     }
   ],
   "CCA": [
@@ -745,7 +730,23 @@
       "Schema image data": null
     }
   ],
-  "Preactivation": [],
+  "Preactivation": [
+    {
+      "Organ group": "1L Metastatic",
+      "Disease Setting": "RIVER-mPDAC",
+      "Trial Name": "Research Investigation of ponsegromab in cancer cachexia-metastatic Pancreatic Ductal Adenocarcinoma",
+      "Full title": "Study to investigate the efficacy, safety and tolerability of systemic chemotherapy plus ponsegromab versus systemic chemotherapy plus placebo for the first-line treatment in adult participants with cachexia and metastatic pancreatic ductal adenocardinoma.",
+      "Additional notes": "Archival tumor FFPE biopsy block or unstained freshly cut paraffin sections\nof tumor specimen collected within 6 months of enrollment.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": "Ponsegromab Doubleblind Treatment 200 mg Q4W\nPonsegromab Doubleblind Treatment 400 mg Q4W\nPlacebo Double-blind Treatment Q4W",
+      "Trial Intervention/Arms": "Inclusion:\nActive diagnosis of metastatic pancreatic ductal adenocarcinoma\nCachexia defined by Fearon criteria of weight loss\nCompleted 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\nExclusion:\nCurrent active reversible causes of decreased food intake\nCachexia caused by other reasons\nHistory of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\nNeuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\nRenal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
+      "Eligibility ": null,
+      "Contacts": "NCT06989437",
+      "NCT number": null,
+      "Schema image": null,
+      "Schema image data": null
+    }
+  ],
   "Closed": [],
   "Dropdown Menus": [
     {
@@ -1245,6 +1246,13 @@
         "Trial Name": " FOENIX-CCA4  (Sponsor: Taiho)",
         "change": "added",
         "timestamp": "2025-09-17T12:54:50"
+      }
+    ],
+    "Preactivation": [
+      {
+        "Trial Name": "Research Investigation of ponsegromab in cancer cachexia-metastatic Pancreatic Ductal Adenocarcinoma",
+        "change": "added",
+        "timestamp": "2025-09-23T17:05:42"
       }
     ]
   }
