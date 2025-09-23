@@ -206,7 +206,7 @@
       "Tissue Requirements": null,
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": null,
-      "Eligibility ": "those who decline or are or not eligible for MOCHA ",
+      "Eligibility ": "Those who decline or are or not eligible for MOCHA ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": null,
       "Study status": "Active",
@@ -845,96 +845,6 @@
         "timestamp": "2025-09-15T17:19:28"
       },
       {
-        "Trial Name": "DORA (WOO)",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "GO44479/ROCHE (Vaccine Study)\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "Prosper-PANC Cohort 1\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "ABLATE (radiation)\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "NASC-009/NCI 10464\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "Prosper-PANC Cohort 2\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "CLARITY-PanTumour01 - Claudin 18.2\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "20230223 (AMG193) - MTAP Deletion\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "PRISM-1 (NOT RECRUITING)\n\n\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "OZM-114\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "ADOPT\n\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "BOLD-100-001\n\n \n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "Platinum-Can\n\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "NUANCE\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "OPCS Registry\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "HPB Banking Protocol\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "WATCH-PC\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
         "Trial Name": "CLARITY-PanTumour01 - Claudin 18.2\n\n",
         "change": "modified",
         "timestamp": "2025-09-17T09:56:09"
@@ -1003,101 +913,6 @@
         "Trial Name": "RIVER-mPDAC (Pre-activation)",
         "change": "added",
         "timestamp": "2025-09-18T15:34:07"
-      },
-      {
-        "Trial Name": "DORA (WOO)",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "GO44479/ROCHE (Vaccine Study)\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "Prosper-PANC Cohort 1\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "ABLATE (radiation)\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "NASC-009/NCI 10464\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "Prosper-PANC Cohort 2\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "CLARITY-PanTumour01 - Claudin 18.2\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "20230223 (AMG193) - MTAP Deletion\n (NOT RECRUITING)\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "PRISM-1 (NOT RECRUITING)\n\n\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "OZM-114\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "ADOPT\n\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "BOLD-100-001\n\n \n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "Platinum-Can\n\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "NUANCE\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "OPCS Registry\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "HPB Banking Protocol\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "WATCH-PC\n\n",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
-      },
-      {
-        "Trial Name": "RIVER-mPDAC (Pre-activation)",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:10"
       }
     ],
     "HCC": [
@@ -1217,94 +1032,9 @@
         "timestamp": "2025-09-16T16:58:38"
       },
       {
-        "Trial Name": "NEOTOMA",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "HMLTO002",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "ARTEMIDE HCC01",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "HE.2",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "CaboTx\n ",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "TYR430-101",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "ITER-002-HCC",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "CHS-388-202",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
         "Trial Name": "TYR430-101",
         "change": "modified",
         "timestamp": "2025-09-17T12:54:50"
-      },
-      {
-        "Trial Name": "NEOTOMA",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:30:26"
-      },
-      {
-        "Trial Name": "NEOTOMA",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "HMLTO002",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "ARTEMIDE HCC01",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "HE.2",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "CaboTx\n ",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "TYR430-101",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "ITER-002-HCC",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "CHS-388-202",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
       }
     ],
     "Gastroesophageal": [
@@ -1399,104 +1129,9 @@
         "timestamp": "2025-09-10T17:39:06"
       },
       {
-        "Trial Name": "MOCHA",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "Destiny-Gastric 03 ",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "Clarity-Gastric01 ",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "ARTEMIDE-Gastric01 ",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "GA.4 ",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "TORO ",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "REJOICE-GI01",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
         "Trial Name": "GEAR",
         "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "GEAR",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:30:26"
-      },
-      {
-        "Trial Name": "MOCHA",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:33:28"
-      },
-      {
-        "Trial Name": "Destiny-Gastric 03 ",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:33:28"
-      },
-      {
-        "Trial Name": "Clarity-Gastric01 ",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:33:28"
-      },
-      {
-        "Trial Name": "ARTEMIDE-Gastric01 ",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:33:28"
-      },
-      {
-        "Trial Name": "GA.4 ",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:33:28"
-      },
-      {
-        "Trial Name": "TORO ",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:33:28"
-      },
-      {
-        "Trial Name": "REJOICE-GI01",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:33:28"
-      },
-      {
-        "Trial Name": "GEAR",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:33:28"
-      },
-      {
-        "Trial Name": "GEAR",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:43:22"
-      },
-      {
-        "Trial Name": "Destiny-Gastric 03 ",
-        "change": "modified",
-        "timestamp": "2025-09-22T16:33:13"
-      },
-      {
-        "Trial Name": "GA.4 ",
-        "change": "modified",
-        "timestamp": "2025-09-22T16:33:13"
+        "timestamp": "2025-09-23T09:20:07"
       }
     ],
     "CCA": [
@@ -1548,46 +1183,6 @@
       {
         "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
         "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "Destiny-BTC01",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "\nHERIZON-BTC-302",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "Clarity-Pantumor",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "ProvIHDe",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "CGT4859 ",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "TYR430",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": " FOENIX-CCA4",
-        "change": "modified",
-        "timestamp": "2025-09-17T09:06:32"
-      },
-      {
-        "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
-        "change": "modified",
         "timestamp": "2025-09-17T11:55:13"
       },
       {
@@ -1619,46 +1214,6 @@
         "Trial Name": " FOENIX-CCA4  (Sponsor: Taiho)",
         "change": "added",
         "timestamp": "2025-09-17T12:54:50"
-      },
-      {
-        "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "Destiny-BTC01",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "\nHERIZON-BTC-302 (Sponsor: Jazz pharma)",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "Clarity-Pantumor",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "ProvIHDe",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "CGT4859 ",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": "TYR430",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
-      },
-      {
-        "Trial Name": " FOENIX-CCA4  (Sponsor: Taiho)",
-        "change": "modified",
-        "timestamp": "2025-09-22T13:39:09"
       }
     ]
   }
