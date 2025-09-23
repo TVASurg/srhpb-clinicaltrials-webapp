@@ -264,7 +264,7 @@
       "Disease Setting": "1st Line ",
       "Trial Name": "HE.2",
       "Full title": "A Phase II Study of STRIDE (Durvalumab + Tremelimumab) with Lenvatinib Versus Stride Alone in Patients with Unresectable Hepatocellular Carcinoma (SLIDE-HCC)",
-      "Additional notes": "Open and accruing ",
+      "Additional notes": null,
       "Tissue Requirements": null,
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "ARM 1: STRIDE (durvalumab + tremelimumab at first treatment followed by durvalumab monotherapy every 4 weeks\nARM 2: STRIDE + lenvatinib daily",
@@ -309,7 +309,7 @@
       "Disease Setting": "Last line",
       "Trial Name": "ITER-002-HCC",
       "Full title": "A phase 1/2 exploratory study of the TBL1 inhibitor, tegavivint (BC2059), in patients with advanced hepatocellular carcinoma",
-      "Additional notes": "Open ",
+      "Additional notes": null,
       "Tissue Requirements": "Pre- and on treatment biopsies",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Tegavivint (BC2059), or tegavivint+pembro",
@@ -324,7 +324,7 @@
       "Disease Setting": "1st line ",
       "Trial Name": "CHS-388-202",
       "Full title": "A Randomized Phase 2 Study of Casdozokitug in Combination With Toripalimab Plus Bevacizumab in Participants With Unresectable and/or Locally Advanced or Metastatic Hepatocellular Carcinoma ",
-      "Additional notes": "Open ",
+      "Additional notes": null,
       "Tissue Requirements": "Baseline biopsy: fresh, or archival within 2 years of screening.",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "• Arm A: casdozokitug 700 mg + toripalimab 240 mg + bevacizumab 15 mg/kg intravenously (IV) every 3 weeks (Q3W) on Day 1 of a 21-day cycle (n ~ 24). \n• Arm B: casdozokitug 1400 mg + toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24). \n• Arm C: toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24) ",
@@ -566,7 +566,7 @@
     },
     {
       "Disease Setting": "1L Metastatic",
-      "Trial Name": "20230223 (AMG193) - MTAP Deletion\n (NOT RECRUITING)\n",
+      "Trial Name": "20230223 (AMG193) - MTAP Deletion\n",
       "Full title": "A Study Evaluating AMG 193 in Combination With Other Therapies in Participants With Advanced Gastrointestinal, Biliary Tract, or Pancreatic Cancers With Homozygous Methylthioadenosine Phosphorylase (MTAP)-Deletion",
       "Additional notes": "MTAP deletion, NGS pre-screening through Foundation Medicine included in study. ",
       "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue",
@@ -596,7 +596,7 @@
     },
     {
       "Disease Setting": "1L Metastatic",
-      "Trial Name": "PRISM-1 (NOT RECRUITING)\n\n\n\n",
+      "Trial Name": "PRISM-1\n\n\n\n",
       "Full title": "A Randomized, Placebo-Controlled, Double-Blind, Multicenter Phase 3 Trial of Quemliclustat and Chemotherapy Versus Placebo and Chemotherapy in Patients with Treatment Naïve Metastatic Pancreatic Ductal Adenocarcinoma",
       "Additional notes": "Previously untreated mPDAC\nNeo/Adj permitted if given >12m before randomization.",
       "Tissue Requirements": null,
@@ -740,7 +740,7 @@
       "Eligibility ": "Inclusion:\nActive diagnosis of metastatic pancreatic ductal adenocarcinoma\nCachexia defined by Fearon criteria of weight loss\nCompleted 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\nExclusion:\nCurrent active reversible causes of decreased food intake\nCachexia caused by other reasons\nHistory of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\nNeuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\nRenal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
       "Contacts": null,
       "NCT number": "NCT06989437",
-      "Study status": "Active",
+      "Study status": null,
       "Schema image": null,
       "Schema image data": null
     }
@@ -913,6 +913,21 @@
         "Trial Name": "RIVER-mPDAC (Pre-activation)",
         "change": "added",
         "timestamp": "2025-09-18T15:34:07"
+      },
+      {
+        "Trial Name": "20230223 (AMG193) - MTAP Deletion\n",
+        "change": "added",
+        "timestamp": "2025-09-23T16:09:52"
+      },
+      {
+        "Trial Name": "PRISM-1\n\n\n\n",
+        "change": "added",
+        "timestamp": "2025-09-23T16:09:52"
+      },
+      {
+        "Trial Name": "RIVER-mPDAC (Pre-activation)",
+        "change": "modified",
+        "timestamp": "2025-09-23T16:09:52"
       }
     ],
     "HCC": [
@@ -1035,6 +1050,21 @@
         "Trial Name": "TYR430-101",
         "change": "modified",
         "timestamp": "2025-09-17T12:54:50"
+      },
+      {
+        "Trial Name": "HE.2",
+        "change": "modified",
+        "timestamp": "2025-09-23T16:09:52"
+      },
+      {
+        "Trial Name": "ITER-002-HCC",
+        "change": "modified",
+        "timestamp": "2025-09-23T16:09:52"
+      },
+      {
+        "Trial Name": "CHS-388-202",
+        "change": "modified",
+        "timestamp": "2025-09-23T16:09:52"
       }
     ],
     "Gastroesophageal": [
