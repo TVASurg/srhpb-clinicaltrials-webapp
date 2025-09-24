@@ -690,10 +690,10 @@
       "Full title": "A Phase I/II Study of an FGFR2/​3 Inhibitor (CGT4859) in Patients With Cholangiocarcinoma and Other Advanced Solid Tumors",
       "Additional notes": null,
       "Tissue Requirements": null,
-      "Biomarker/unselected": null,
+      "Biomarker/unselected": "FGFR2\nFGFR3",
       "Trial Intervention/Arms": "CGT4859 ",
       "Eligibility ": "FGFR2 fusions.\nExcluded if received more than 2 prior FGFRi therapies.",
-      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
+      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nPrimary CRC:\nStephen Lam\nstephen.lam@uhn.ca",
       "NCT number": "NCT06777316",
       "Study status": "Active",
       "Schema image": null,
@@ -705,7 +705,7 @@
       "Full title": "A Multicenter, Open-label, First-in-Human Study of TYRA-430 in Advanced Hepatocellular Carcinoma and Other Solid Tumors with Activating FGF/FGFR pathway aberrations (SURF-431)",
       "Additional notes": null,
       "Tissue Requirements": null,
-      "Biomarker/unselected": null,
+      "Biomarker/unselected": "FGF/FGFR",
       "Trial Intervention/Arms": "TYR430",
       "Eligibility ": "FGF/FGFR pathway alteration",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
@@ -716,11 +716,11 @@
     },
     {
       "Disease Setting": "2nd or later lines",
-      "Trial Name": " FOENIX-CCA4  (Sponsor: Taiho)",
+      "Trial Name": "FOENIX-CCA4  (Sponsor: Taiho)\nTAS-120-205",
       "Full title": "Phase 2 Study of Futibatinib 20 mg and 16 mg in Patients with \nAdvanced Cholangiocarcinoma with FGFR2 Fusions or \nRearrangements\n",
       "Additional notes": null,
       "Tissue Requirements": "Archival tissue or blood sample for ctDNA. Testing by FoundationOne CDx.  ",
-      "Biomarker/unselected": "evidence of FGFR2 gene fusions or other rearrangements using NGS or FISH",
+      "Biomarker/unselected": "FGFR2 gene fusions;\nFGFR2  or other rearrangements using NGS or FISH",
       "Trial Intervention/Arms": "A:  20 mg futibatinib orally\nB: 16 mg  futibatinib orally \n",
       "Eligibility ": "Prior Gem/Cis treatment; Histological or cytological diagnosis of iCCA or eCCA; If FGFR status unknown, can submit archival tissue or blood for testing by Sponsor, if patient meets criteria. ",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
@@ -1246,6 +1246,21 @@
         "Trial Name": " FOENIX-CCA4  (Sponsor: Taiho)",
         "change": "added",
         "timestamp": "2025-09-17T12:54:50"
+      },
+      {
+        "Trial Name": "CGT4859 ",
+        "change": "modified",
+        "timestamp": "2025-09-24T14:25:19"
+      },
+      {
+        "Trial Name": "TYR430",
+        "change": "modified",
+        "timestamp": "2025-09-24T14:25:19"
+      },
+      {
+        "Trial Name": "FOENIX-CCA4  (Sponsor: Taiho)\nTAS-120-205",
+        "change": "added",
+        "timestamp": "2025-09-24T14:25:19"
       }
     ],
     "Preactivation": [
