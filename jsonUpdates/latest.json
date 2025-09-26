@@ -161,7 +161,7 @@
       "Tissue Requirements": "Archival tissue (most recent or as per MRP/PI’s discretion); fresh tissue (2xT cores for screening; 3xT cores optional biopsy) ",
       "Biomarker/unselected": "HER2 ",
       "Trial Intervention/Arms": "Ramicirumab/paclitaxel +/- ZW25 ",
-      "Eligibility ": "Her-2 + (central confirmation).  ",
+      "Eligibility ": "Her-2 + (central confirmation).",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06043427",
       "Study status": "Active",
@@ -1285,6 +1285,11 @@
         "Trial Name": "GEAR",
         "change": "modified",
         "timestamp": "2025-09-23T09:20:07"
+      },
+      {
+        "Trial Name": "GA.4 ",
+        "change": "modified",
+        "timestamp": "2025-09-26T13:35:41"
       }
     ],
     "CCA": [
