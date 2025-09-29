@@ -431,7 +431,7 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "CLARITY-PanTumour01 - Claudin 18.2\n\n",
       "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2",
-      "Additional notes": " Neoadjuvant/adjuvant chemo allowed if progressed\n ≥ 6 months since last dose.",
+      "Additional notes": "Neoadjuvant/adjuvant chemo allowed if progressed \n≥ 6 months since last dose.",
       "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue ",
       "Biomarker/unselected": "CLDN18.2",
       "Trial Intervention/Arms": "Arm1: AZD0901 in combination with 5FU/leucovorin and Irinotecan or nanoliposomal Irinotecan  \n\nArm2: AZD0901 combination with Gemcitabine ",
@@ -971,6 +971,11 @@
         "Trial Name": "ADOPT\n\n\n",
         "change": "modified",
         "timestamp": "2025-09-25T17:35:04"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01 - Claudin 18.2\n\n",
+        "change": "modified",
+        "timestamp": "2025-09-29T08:43:23"
       }
     ],
     "HCC": [
