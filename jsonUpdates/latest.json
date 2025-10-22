@@ -725,7 +725,7 @@
       "Eligibility ": "histologically-confirmed cholangio; \nlocally or centrally confirmed IDH1 mutation\n",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nTrial Nurse:\nSerena (Ching) Kao\nChing.Kao@uhn.ca\n",
       "NCT number": "NCT06501625",
-      "Study status": null,
+      "Study status": "Active",
       "Schema image": null,
       "Schema image data": null
     }
@@ -1462,6 +1462,11 @@
         "Trial Name": "S095031-210",
         "change": "added",
         "timestamp": "2025-09-25T17:35:04"
+      },
+      {
+        "Trial Name": "S095031-210",
+        "change": "modified",
+        "timestamp": "2025-10-22T14:37:07"
       }
     ],
     "Preactivation": [
