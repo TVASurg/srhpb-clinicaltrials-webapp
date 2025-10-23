@@ -641,11 +641,11 @@
     },
     {
       "Disease Setting": "2nd or 3rd line",
-      "Trial Name": "Clarity-Pantumor",
+      "Trial Name": "CLARITY-PanTumour01",
       "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2 (CLARITY-PanTumour01)",
       "Additional notes": "BTC cohort:\nPre-screening & screening on hold",
       "Tissue Requirements": null,
-      "Biomarker/unselected": null,
+      "Biomarker/unselected": "CLDN18.2",
       "Trial Intervention/Arms": "AZD0901 monotherapy",
       "Eligibility ": "Claudin 18.2+\nPrior exposure to any CLDN18.2 targeted agents except anti-\nCLDN18.2 monoclonal antibody are excluded",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -1467,6 +1467,11 @@
         "Trial Name": "S095031-210",
         "change": "modified",
         "timestamp": "2025-10-22T14:37:07"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01",
+        "change": "added",
+        "timestamp": "2025-10-23T09:52:52"
       }
     ],
     "Preactivation": [
