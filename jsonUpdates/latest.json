@@ -429,7 +429,7 @@
     },
     {
       "Disease Setting": "1L Metastatic",
-      "Trial Name": "CLARITY-PanTumour01 - Claudin 18.2 \n\n",
+      "Trial Name": "CLARITY-PanTumour01\n\n",
       "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2",
       "Additional notes": "Neoadjuvant/adjuvant chemo allowed if progressed \n≥ 6 months since last dose.",
       "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue ",
@@ -1001,6 +1001,11 @@
         "Trial Name": "DORA (WOO)",
         "change": "modified",
         "timestamp": "2025-10-21T15:20:12"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01\n\n",
+        "change": "added",
+        "timestamp": "2025-10-23T10:00:03"
       }
     ],
     "HCC": [
