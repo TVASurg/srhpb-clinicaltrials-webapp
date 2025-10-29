@@ -22,32 +22,34 @@
     <div class="row">
 
     <!-- Main topic breadcrumb -->
-    <div class="d-grid gap-1 col-12 p-1">
+    <div id="bc_mainTopic" class="d-grid gap-1 col-12 p-1 d-none">
       <div class="btn-group" role="group" aria-label="mainCategoryCrumb" style="min-height: 70px;">
         <button type="button" class="btn btn-dark col-4">Main topic</button>
-        <button type="button" class="btn btn-outline-dark col-8">Donor management</button>
+        <button id="bc_mainTopic_text" type="button" class="btn btn-outline-dark col-8"></button>
       </div>
     </div>
 
     <!-- Section breadcrumb -->
-    <div class="d-grid gap-1 col-12 p-1">
+    <div id="bc_section" class="d-grid gap-1 col-12 p-1 d-none">
       <div class="btn-group" role="group" aria-label="subCategoryCrumb" style="min-height: 70px;">
         <button type="button" class="btn btn-dark col-4">Section</button>
-        <button type="button" class="btn btn-outline-dark col-8">Living donor evaluation</button>
+        <button id="bc_section_text" type="button" class="btn btn-outline-dark col-8"></button>
       </div>
     </div>
 
     <!-- Subsection breadcrumb -->
-    <div class="d-grid gap-1 col-12 p-1">
+    <div id="bc_subsection" class="d-grid gap-1 col-12 p-1 d-none">
       <div class="btn-group" role="group" aria-label="subCategoryCrumb" style="min-height: 70px;">
         <button type="button" class="btn btn-dark col-4">Subsection</button>
-        <button type="button" class="btn btn-outline-dark col-8">Suitability criteria</button>
+        <button id="bc_subsection_text" type="button" class="btn btn-outline-dark col-8"></button>
       </div>
     </div>
 
     <!-- Main topic menu  -->
-    <!-- <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Donor <br/>management</button>
+    
+    <div id="menu_mainTopic" class="d-flex p-0 m-0">
+    <div class="d-grid gap-1 col-6 p-1">
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="mainTopicSelected(`Donor management`)">Donor <br/>management</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Recipient listing <br/> / Pre-transplant management</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Recipient - <br/>Long term post-transplant management</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Calculators</button>
@@ -58,11 +60,25 @@
       <button class="p-0 btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Recipient -<br/>Perioperative/Immediate<br/>post-transplant care</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Special <br/>considerations</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Resident / Fellow <br/> resources</button>
-    </div> -->
+    </div> 
+    </div>
 
     <!-- 2 column menu -->
-    <!-- <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Suitability Criteria</button>
+    <div id="menu_section" class="d-flex p-0 m-0 d-none">
+    <div class="d-grid gap-1 col-6 p-1">
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="sectionSelected(`Living donor evaluation`)">Living donor evaluation</button>
+    </div>
+
+    <div class="d-grid gap-1 col-6 p-1">
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Deceased donor evaluation</button>
+    </div> 
+    </div>
+
+
+    <!-- 2 column menu -->
+    <div id="menu_subsection" class="d-flex p-0 m-0 d-none">
+    <div class="d-grid gap-1 col-6 p-1">
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="subSectionSelected(`Suitability Criteria`)">Suitability Criteria</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Work-up Protocol</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Living donor surgery (LDL-007)</button>
     </div>
@@ -71,17 +87,21 @@
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Living Donor Evaluation Process Overview</button>
       <button class="p-0 btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Donor Compensation and Support</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Hepatitis Virus Positive Donors</button>
-    </div> -->
+    </div> 
+    </div>
+   
     
     <!-- 1 column menu  -->
+    <div id="menu_content" class="d-flex p-0 m-0 d-none">
     <div class="d-grid gap-1 col p-1">
       <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Living Liver Donation Referral</button>
       <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Expedited Liver Donor Suitability</button>
       <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Medical Record Documentation and Consent</button>
       <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Informed Consent</button>
     </div>
+    </div>
 
-    <!-- Main content -->
+    <!-- Main content as an offCanvas element-->
      <div class="offcanvas offcanvas-bottom" data-bs-backdrop="static" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel" style="min-height: 95%;">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasBottomLabel">Informed Consent</h5>
@@ -139,6 +159,64 @@ Donec dapibus ultrices risus ut viverra. Aliquam erat volutpat. Donec mollis ero
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script>
+    function test()
+    {
+      
+    }
+
+    //forwards nav
+    function mainTopicSelected(selectedTopic)
+    {
+      //menuToHide
+      document.getElementById("menu_mainTopic").classList.toggle("d-none");
+
+      //showBreadcrumb
+      document.getElementById("bc_mainTopic_text").innerHTML=selectedTopic;
+      document.getElementById("bc_mainTopic").classList.toggle("d-none");
+
+      //menuToShow
+      document.getElementById("menu_section").classList.toggle("d-none");
+    }
+    function sectionSelected(selectedSection)
+    {
+      //menuToHide
+      document.getElementById("menu_section").classList.toggle("d-none");
+
+      //showBreadcrumb
+      document.getElementById("bc_section_text").innerHTML=selectedSection;
+      document.getElementById("bc_section").classList.toggle("d-none");
+
+      //menuToShow
+      document.getElementById("menu_subsection").classList.toggle("d-none");
+    }
+    function subSectionSelected(selectedSubsection)
+    {
+      //menuToHide
+      document.getElementById("menu_subsection").classList.toggle("d-none");
+
+      //showBreadcrumb
+      document.getElementById("bc_subsection_text").innerHTML=selectedSubsection;
+      document.getElementById("bc_subsection").classList.toggle("d-none");
+
+      //menuToShow
+      document.getElementById("menu_content").classList.toggle("d-none");
+
+    }
+
+    //backwards nav
+    //consider how far back user wants to go
+    //then determine which breadcrumbs to clear, which to stay
+    //then determine which menu to bring back
+
+
+    function clearMenuArea()
+    {
+
+    }
+
+
+  </script>
   
 </body>
 
