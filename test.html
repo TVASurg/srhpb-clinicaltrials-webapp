@@ -20,8 +20,33 @@
     </nav>    
 
     <div class="row">
-    <!-- Top level menu  -->
-    <div class="d-grid gap-1 col-6 p-1">
+
+    <!-- Main topic breadcrumb -->
+    <div class="d-grid gap-1 col-12 p-1">
+      <div class="btn-group" role="group" aria-label="mainCategoryCrumb" style="min-height: 70px;">
+        <button type="button" class="btn btn-dark col-4">Main topic</button>
+        <button type="button" class="btn btn-outline-dark col-8">Donor management</button>
+      </div>
+    </div>
+
+    <!-- Section breadcrumb -->
+    <div class="d-grid gap-1 col-12 p-1">
+      <div class="btn-group" role="group" aria-label="subCategoryCrumb" style="min-height: 70px;">
+        <button type="button" class="btn btn-dark col-4">Section</button>
+        <button type="button" class="btn btn-outline-dark col-8">Living donor evaluation</button>
+      </div>
+    </div>
+
+    <!-- Subsection breadcrumb -->
+    <div class="d-grid gap-1 col-12 p-1">
+      <div class="btn-group" role="group" aria-label="subCategoryCrumb" style="min-height: 70px;">
+        <button type="button" class="btn btn-dark col-4">Subsection</button>
+        <button type="button" class="btn btn-outline-dark col-8">Suitability criteria</button>
+      </div>
+    </div>
+
+    <!-- Main topic menu  -->
+    <!-- <div class="d-grid gap-1 col-6 p-1">
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Donor <br/>management</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Recipient listing <br/> / Pre-transplant management</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Recipient - <br/>Long term post-transplant management</button>
@@ -33,44 +58,78 @@
       <button class="p-0 btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Recipient -<br/>Perioperative/Immediate<br/>post-transplant care</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Special <br/>considerations</button>
       <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Resident / Fellow <br/> resources</button>
-    </div>
-    <!-- Top level menu  -->
+    </div> -->
 
-    <!-- Subcategory level menu  -->
+    <!-- 2 column menu -->
+    <!-- <div class="d-grid gap-1 col-6 p-1">
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Suitability Criteria</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Work-up Protocol</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Living donor surgery (LDL-007)</button>
+    </div>
+
     <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Pediatric Patient Transition</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Neuroendocrine Liver Metastase</button>
-
-    </div>
-
-    <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">ABO-Incompatible Liver Transplant Protocol</button>
-      <button class="p-0 btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Mayo Protocol for Hilar Cholangiocarcinoma</button>
-    </div>
-    <!-- Subcategory level menu  -->
-
-
-    <div class="d-grid gap-1 col-12 p-1">
-      <div class="btn-group" role="group" aria-label="mainCategoryCrumb" style="min-height: 70px;">
-        <button type="button" class="btn btn-dark col-4">Main category</button>
-        <button type="button" class="btn btn-outline-dark col-8">Living donor evaluation</button>
-      </div>
-    </div>
-
-    <div class="d-grid gap-1 col-12 p-1">
-      <div class="btn-group" role="group" aria-label="subCategoryCrumb" style="min-height: 70px;">
-        <button type="button" class="btn btn-dark col-4">Subcategory</button>
-        <button type="button" class="btn btn-outline-dark col-8">Suitability criteria</button>
-      </div>
-    </div>
-
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Living Donor Evaluation Process Overview</button>
+      <button class="p-0 btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Donor Compensation and Support</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Hepatitis Virus Positive Donors</button>
+    </div> -->
     
+    <!-- 1 column menu  -->
     <div class="d-grid gap-1 col p-1">
-      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">General Work up and Considerations for Diseased Donors</button>
-      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Donor risk factors and Selection Criteria</button>
-      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Retrieval & Logistics</button>
-      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Marginal donor considerations (steatosis, age, cold ischemia)</button>
-      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Graft perfusion & packaging SOP (LDL-009)</button>
+      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Living Liver Donation Referral</button>
+      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Expedited Liver Donor Suitability</button>
+      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Medical Record Documentation and Consent</button>
+      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Informed Consent</button>
+    </div>
+
+    <!-- Main content -->
+     <div class="offcanvas offcanvas-bottom" data-bs-backdrop="static" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel" style="min-height: 95%;">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">Informed Consent</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body ">
+        
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec scelerisque turpis, a volutpat augue. Maecenas bibendum, mi egestas placerat fermentum, diam est lobortis elit, ut lobortis metus enim ac mauris. Praesent eget hendrerit libero. Duis et justo rutrum nibh placerat condimentum eu vitae nulla. Sed vel ex scelerisque, dictum magna a, ornare mi. Etiam ultrices libero ipsum, id volutpat metus varius vitae. Nullam ante nisi, tempus in sodales ac, convallis ut tellus. Pellentesque auctor ipsum in orci pellentesque, vitae mollis dui maximus. Phasellus quis massa hendrerit, congue nisi a, efficitur velit.
+
+Donec sodales luctus luctus. Sed sodales, arcu eu lacinia semper, eros justo tincidunt elit, condimentum pellentesque sem magna a dolor. Nulla porttitor quam vel luctus pellentesque. Proin gravida ornare purus. Sed accumsan, leo quis ullamcorper consectetur, dolor sapien accumsan urna, in tincidunt eros quam eu leo. Cras ex eros, finibus et diam non, bibendum lacinia massa. Pellentesque ac urna nunc. Vivamus mollis viverra tincidunt. Phasellus convallis tristique lectus id consectetur. Sed quis nisi eget nibh lacinia bibendum id nec dolor. Proin at tristique mauris. Donec finibus tortor at sollicitudin ornare. Morbi sagittis, tellus in finibus tempus, enim leo posuere lectus, nec rutrum nunc odio eget elit. Aliquam bibendum velit vel ultricies mattis.
+
+Vivamus cursus fermentum felis, nec ornare odio hendrerit a. Nam nec augue augue. Nam molestie, arcu non vestibulum cursus, lectus lorem hendrerit tortor, nec ornare nisi nibh sed neque. Donec sit amet ullamcorper ligula, id venenatis tellus. Sed auctor purus id commodo scelerisque. Donec lobortis eros tortor, non egestas turpis elementum vel. Sed at sapien vitae ipsum tincidunt tristique. Fusce non dictum arcu. Pellentesque mattis, tortor id scelerisque gravida, nisl sapien condimentum diam, at efficitur risus leo vitae tortor. Phasellus vulputate eros eget arcu vulputate, vel euismod erat consectetur. Sed non congue orci, at porttitor felis. Morbi dapibus nisi nisl, eu sodales urna blandit at. Integer metus odio, viverra fringilla felis nec, rhoncus condimentum leo. Mauris varius pharetra sapien, lacinia blandit elit molestie eu. Sed id tempus erat.
+
+Morbi sit amet ipsum placerat nulla euismod luctus. Mauris et feugiat risus. Aliquam erat volutpat. Fusce libero turpis, facilisis at bibendum a, varius eget augue. Curabitur eu massa odio. Fusce nec velit eu ligula malesuada lobortis ac eu est. Pellentesque at mauris vitae diam tincidunt vestibulum eget vel nulla. Aenean luctus eleifend sapien vel suscipit. Mauris venenatis nunc nec risus varius, ac laoreet velit faucibus. Aliquam erat volutpat. Nulla facilisi. Nunc faucibus non nibh egestas ullamcorper.
+
+Curabitur nulla tortor, laoreet id faucibus et, consectetur at ipsum. Nam euismod augue sed cursus congue. Nulla id congue turpis. Vestibulum tempus, sapien at laoreet finibus, ipsum elit lacinia quam, commodo maximus lorem purus vitae metus. In lacinia tortor placerat justo sagittis, ac bibendum quam tristique. In mattis eget orci tincidunt faucibus. Nullam porttitor consequat iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam erat nulla, mollis vitae nibh a, posuere dignissim dolor. Etiam maximus gravida massa. Etiam imperdiet turpis vel aliquet ullamcorper. Maecenas eget lobortis turpis.
+
+Cras vestibulum suscipit elit nec commodo. Nam in nulla placerat, faucibus odio at, molestie quam. Aenean non massa arcu. Fusce vitae malesuada nunc, eget gravida sem. Maecenas viverra mi sed urna sodales consequat. Suspendisse blandit lectus id dictum vestibulum. Mauris tristique felis at nisi scelerisque semper.
+
+Duis vel dui ac velit varius malesuada. Sed lobortis, risus non vestibulum vehicula, diam ante condimentum lorem, in mattis massa nisi sed sapien. Nulla malesuada felis orci, sed maximus odio dignissim quis. Etiam a ipsum nibh. Sed quis velit id nunc pharetra mollis. Vestibulum cursus libero magna, in sagittis tellus ultrices ac. Nullam dapibus nibh sem, ac gravida tortor consectetur et. Cras tincidunt lectus magna, id pellentesque neque tincidunt in. Nam id tellus vel velit dignissim hendrerit a in nisi. Mauris at risus quis massa cursus gravida sed id nibh. Quisque eu ornare eros, eget mollis lectus. Integer fringilla, diam vitae mollis tristique, orci diam aliquet elit, sit amet iaculis quam justo ac urna. Quisque porttitor egestas pharetra. Nunc eleifend cursus ante, ut fringilla sapien finibus id. Vivamus quis ultricies turpis, a condimentum erat.
+
+Nam varius aliquet tristique. Quisque vestibulum at tortor vel posuere. Curabitur pretium et massa in rutrum. Pellentesque accumsan odio sit amet augue fermentum mattis. Phasellus bibendum sem eu dictum finibus. Pellentesque varius, sapien a scelerisque feugiat, diam ipsum pellentesque quam, quis posuere lorem ante ac dui. Morbi iaculis dui ut turpis posuere iaculis. Sed ac varius velit. Nam ornare neque sed lectus rutrum fringilla. Suspendisse consequat dolor risus. Duis vitae ultricies elit. Aliquam nec porta dolor. Praesent faucibus nulla non dui mattis, sit amet bibendum magna blandit. Praesent risus neque, pretium nec molestie sit amet, sollicitudin vitae nulla.
+
+Curabitur vestibulum, nunc ut vestibulum venenatis, massa massa hendrerit neque, tempus posuere diam augue eget tortor. Nam vitae libero blandit, tincidunt leo et, venenatis dui. Nullam mollis ante neque, id luctus nibh cursus vel. Praesent id efficitur tellus, a pulvinar eros. Morbi posuere lectus posuere, sodales purus hendrerit, egestas ante. Proin sollicitudin purus libero, vel posuere odio hendrerit eget. Mauris neque eros, hendrerit et lacus eget, laoreet accumsan tellus. Quisque fringilla ac velit venenatis consectetur. Etiam suscipit fringilla mollis. Morbi sodales aliquam arcu. Integer efficitur fringilla magna, ac placerat tellus elementum et. Cras porta felis in urna ultricies, eget dignissim nulla molestie. Maecenas diam dolor, congue ultricies mollis ac, pellentesque a neque. Mauris sit amet sollicitudin sapien. Maecenas hendrerit lacus sed dui posuere tempus. In id dolor sollicitudin, vehicula nulla id, condimentum nibh.
+
+In non malesuada nisl. Nunc nulla erat, mattis sit amet purus laoreet, elementum rhoncus purus. Ut tempus quis libero egestas bibendum. Vestibulum egestas consequat sapien, non gravida ligula dictum et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque condimentum justo tortor, in posuere justo semper vel. Pellentesque nec lacinia sem. Fusce sit amet risus et sapien convallis luctus nec ut arcu. Duis nec ligula vestibulum, rutrum diam at, interdum nulla. Mauris interdum est et lorem sollicitudin, eu mollis sem auctor. Cras ultrices mi eu mauris tincidunt elementum. Pellentesque faucibus lacinia lectus vitae consequat. Cras magna augue, dictum vitae neque eget, cursus tincidunt eros. Sed vitae nisi magna.
+
+Pellentesque ac nisl nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam vitae nulla sed purus iaculis dignissim eu nec tellus. Mauris sed quam et nisl posuere placerat vitae sed turpis. Suspendisse vehicula ipsum eget nunc ultrices venenatis. Cras porta nisl quis tellus aliquam, vel tempor lorem varius. Phasellus mi augue, ullamcorper vehicula feugiat ut, lacinia nec diam. Vestibulum pharetra lacinia elit, a lobortis mi mollis volutpat. In finibus facilisis orci vitae tristique. Ut molestie odio at leo porta, vitae mollis risus maximus. Sed placerat nunc suscipit nisi commodo finibus.
+
+Vestibulum vitae eros euismod, tempor urna id, interdum eros. Sed ut dui mollis, pretium nisl in, aliquet nulla. Donec consectetur diam ante, eu elementum neque bibendum vitae. Ut congue, metus id luctus ultrices, enim justo ornare ex, ac varius dui justo in felis. Pellentesque vitae efficitur lacus. Sed a porttitor eros. Aenean sapien elit, scelerisque non tristique vel, mollis at nibh. Morbi nec imperdiet lacus, at lobortis tellus. Morbi placerat mi orci, vitae scelerisque libero cursus quis. Integer porta risus vel pellentesque malesuada. Ut cursus mollis justo, vel consequat augue auctor pharetra.
+
+Phasellus malesuada dui et libero iaculis, nec vulputate mauris dapibus. Nullam vestibulum est eu tempor porttitor. Vestibulum imperdiet viverra lorem, vitae finibus leo aliquam et. Duis cursus ullamcorper nisl, sed iaculis quam porttitor in. Donec sit amet porta ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse finibus congue leo sit amet fringilla. Maecenas imperdiet lectus eget risus porta volutpat. Duis quam nisl, porta eu tempus et, cursus quis nunc. Maecenas vitae mauris nec justo sodales luctus.
+
+Proin viverra mauris mi, eu faucibus elit vehicula vestibulum. Phasellus hendrerit, ipsum sed facilisis ultricies, tortor sapien dignissim arcu, convallis consectetur metus metus sit amet est. Aenean turpis est, porttitor sit amet leo vitae, aliquet auctor est. Donec mi nunc, maximus sit amet sem eu, pulvinar faucibus ligula. In fringilla, elit ut imperdiet iaculis, eros ligula varius leo, quis bibendum nulla sapien id nunc. Etiam non lorem ac purus condimentum consequat. In et justo odio. Nam justo mi, hendrerit non ante quis, auctor ornare neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed et orci interdum ex euismod maximus ut quis nisl. Maecenas non lacus sit amet risus rhoncus venenatis at sit amet nibh.
+
+Etiam auctor nulla vitae mi condimentum interdum. Phasellus quis pretium mi. Integer cursus ullamcorper sollicitudin. Donec ac rhoncus tortor. Morbi fermentum erat eleifend augue mollis, blandit posuere leo aliquam. Phasellus vel neque porta, volutpat dolor id, maximus ligula. Maecenas bibendum purus a euismod tempor. Sed sit amet eleifend tortor. Proin sollicitudin scelerisque ligula, ut mollis velit porta ac. Nulla tristique blandit ipsum, non sagittis magna finibus quis. Aenean fringilla arcu risus, eu faucibus neque aliquam id. Quisque eleifend nibh id turpis porttitor tristique. Integer ante mauris, posuere sit amet ultricies sollicitudin, placerat non libero. Proin vitae urna lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Sed sed erat leo. Nulla quis sapien ullamcorper, tempor ipsum non, tristique eros. Suspendisse potenti. Maecenas faucibus leo eget lorem iaculis, vel porttitor lacus congue. Nam ac eros non felis elementum interdum ut eget elit. Duis iaculis urna leo, eu commodo nunc mollis eget. Nunc eu quam tempor, vehicula augue vitae, facilisis elit. Morbi elementum vestibulum libero in lacinia. Suspendisse nec turpis id ipsum cursus laoreet non eu urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec malesuada quis augue a placerat. Ut nibh turpis, maximus eget faucibus sed, vestibulum scelerisque metus. Donec viverra facilisis lorem, quis efficitur nisi convallis at. Ut magna mi, ultrices eu diam vitae, accumsan luctus urna.
+
+Cras laoreet, lacus vel faucibus interdum, nisi metus porttitor massa, eget pulvinar diam dolor eu sapien. Duis ullamcorper risus aliquet leo commodo, eget maximus leo placerat. Maecenas posuere turpis et lacus pulvinar, a bibendum est placerat. Nam faucibus, erat sit amet tristique condimentum, risus est eleifend mauris, quis sagittis orci felis ut elit. Pellentesque maximus laoreet est, at bibendum dui blandit vel. Vivamus nec dolor eget ipsum dapibus laoreet ut viverra mauris. Quisque nec erat dapibus, ultrices ligula et, ultricies est.
+
+Vestibulum venenatis justo vel commodo lacinia. Duis tincidunt velit vel quam tempus consectetur. Vivamus malesuada lectus eget sem aliquam, vitae porttitor justo auctor. Nullam mi nisl, condimentum et placerat ut, sodales at enim. Quisque rhoncus sodales orci. Nullam ornare, nunc non eleifend auctor, lorem purus tincidunt nibh, ut vulputate mi tellus non eros. Nam libero nibh, hendrerit nec dapibus vel, faucibus sed nunc. Integer ipsum urna, fermentum id nisl vitae, tempus tristique orci. Duis eget venenatis mi. Donec et urna ut dolor mollis commodo eu consectetur nisl. Pellentesque ultricies interdum posuere. Sed laoreet magna vel erat ornare pellentesque. Nam condimentum, ipsum sodales gravida laoreet, odio nulla semper ligula, malesuada fringilla lectus purus vitae turpis. In pretium mi quis magna elementum, at ultrices sem blandit. Phasellus imperdiet arcu id neque tincidunt tempus sit amet in turpis.
+
+Quisque eu vestibulum augue. Fusce justo lacus, rutrum ut placerat id, rutrum quis ex. Aliquam consequat ut ligula quis dapibus. Duis erat risus, elementum vitae sagittis quis, cursus id mi. Sed ultricies bibendum dictum. In nulla ante, condimentum sit amet dolor id, condimentum viverra eros. Cras sed mollis lectus. Praesent consectetur velit est, et molestie mauris posuere sit amet. Sed et velit imperdiet, tempus dui at, luctus nulla. Cras scelerisque turpis eu lacinia vulputate. Aenean mollis finibus justo nec viverra.
+
+Donec dapibus ultrices risus ut viverra. Aliquam erat volutpat. Donec mollis eros id ante ultrices condimentum. Donec volutpat mauris ante, lobortis placerat nibh imperdiet vitae. Aenean sollicitudin at sapien ut dictum. Donec tristique, ex eget hendrerit euismod, dui turpis maximus dui, sed euismod metus diam id erat. Ut elementum nulla sit amet lectus ultricies, id ornare dolor bibendum. Sed tempor ex ac euismod tempus. 
+      </div>
     </div>
 
 
