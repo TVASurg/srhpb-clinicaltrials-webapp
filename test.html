@@ -17,6 +17,7 @@
 
   <main class="container">
     <nav class="navbar navbar-light bg-primary p-5">
+      
     </nav>    
 
     <div class="row">
@@ -45,60 +46,39 @@
       </div>
     </div>
 
+    <!-- Breadcrumb nav -->
+    <nav style="--bs-breadcrumb-divider: '>';" class="border border-secondary rounded mt-2" aria-label="breadcrumb">
+      <ol id ="nav_breadcrumb" class="breadcrumb m-3"> You are here: &nbsp;
+        <li class="breadcrumb-item"><a href="#" onclick="returnToHome()">Home</a></li>
+        <!-- <li class="breadcrumb-item active" aria-current="page">Home</a></li> -->
+      </ol>
+    </nav>
+
     <!-- Main topic menu  -->
     
     <div id="menu_mainTopic" class="d-flex p-0 m-0">
     <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="mainTopicSelected(`Donor management`)">Donor <br/>management</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Recipient listing <br/> / Pre-transplant management</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Recipient - <br/>Long term post-transplant management</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Calculators</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._01_menu, `_01_menu`); updateBreadcrumb(`Donor management`, `_01_menu`)">Donor <br/>management</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._03_menu, `_03_menu`); updateBreadcrumb(`Recipient listing/Pre-transplant management`, `_03_menu`)">Recipient listing <br/> / Pre-transplant management</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._05_menu, `_05_menu`); updateBreadcrumb(`Recipient - Long term post-transplant management`, `_05_menu`)">Recipient - <br/>Long term post-transplant management</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showContentMenu(collectionArrays._07_menu, `_07_menu`); updateBreadcrumb(`Calculators`, `_07_menu`)">Calculators</button>
     </div>
 
     <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Recipient <br/> evaluation</button>
-      <button class="p-0 btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Recipient -<br/>Perioperative/Immediate<br/>post-transplant care</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Special <br/>considerations</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Resident / Fellow <br/> resources</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._02_menu, `_02_menu`); updateBreadcrumb(`Recipient evaluation`, `_02_menu`)">Recipient <br/> evaluation</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._04_menu, `_04_menu`); updateBreadcrumb(`Recipient - Perioperative/Immediate post-transplant care`, `_04_menu`)">Recipient -<br/>Perioperative/Immediate<br/>post-transplant care</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showContentMenu(collectionArrays._06_menu, `_06_menu`); updateBreadcrumb(`Special considerations`, `_06_menu`)">Special <br/>considerations</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showContentMenu(collectionArrays._08_menu, `_08_menu`); updateBreadcrumb(`Resident/Fellow resources`, `_08_menu`)">Resident / Fellow <br/> resources</button>
     </div> 
     </div>
 
     <!-- 2 column menu -->
-    <div id="menu_section" class="d-flex p-0 m-0 d-none">
-    <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="sectionSelected(`Living donor evaluation`)">Living donor evaluation</button>
+    <div id="menu_section" class="d-flex p-0 m-0">
     </div>
-
-    <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Deceased donor evaluation</button>
-    </div> 
-    </div>
-
-
-    <!-- 2 column menu -->
-    <div id="menu_subsection" class="d-flex p-0 m-0 d-none">
-    <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="subSectionSelected(`Suitability Criteria`)">Suitability Criteria</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Work-up Protocol</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Living donor surgery (LDL-007)</button>
-    </div>
-
-    <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Living Donor Evaluation Process Overview</button>
-      <button class="p-0 btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Donor Compensation and Support</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;">Hepatitis Virus Positive Donors</button>
-    </div> 
-    </div>
-   
+  
     
     <!-- 1 column menu  -->
-    <div id="menu_content" class="d-flex p-0 m-0 d-none">
-    <div class="d-grid gap-1 col p-1">
-      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Living Liver Donation Referral</button>
-      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Expedited Liver Donor Suitability</button>
-      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;">Medical Record Documentation and Consent</button>
-      <button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Informed Consent</button>
-    </div>
+    <div id="menu_content" class="d-flex p-0 m-0">
     </div>
 
     <!-- Main content as an offCanvas element-->
@@ -160,20 +140,50 @@ Donec dapibus ultrices risus ut viverra. Aliquam erat volutpat. Donec mollis ero
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
   <script>
-    function test()
-    {
-      
-    }
+    const collectionArrays = {
 
-    //forwards nav
+      _00_topMenu:[],
+
+      _01_menu:["Living donor evaluation", "Deceased donor evaluation"],
+      _02_menu:["Transplant indications", "Contraindications", "Pre-transplant work up"],
+      _03_menu:["Listing and waitlist management", "Pre-transplant work up"],
+      _04_menu:["Surgical (Procedure/Complications)","Medical (Medications/Management)"],
+      _05_menu:["Immunosuppression","Common infections and treatment","Complications","Management"],
+      _06_menu:["Pediatric patient transition", "Neuroendocrine liver metastases", "ABO-incompatible liver transplant protocol", "Mayo protocol for hilar cholangiocarcinoma"],
+      _07_menu:["MELD-Na score","Milan criteria","Total tumor volume (TTV)","Child-Pugh score","Kings College criteria"],
+      _08_menu:["MOT call","Liver transplant rotations","Logbook","Directory","Call/rounds schedule"],
+
+      _01_menu_01:["Suitability criteria","Living donor evaluation process overview","Work up protocol","Donor compensation and support","Living donor surgery","Hepatitis virus positive donors"],
+
+      _01_menu_02:["General workup and considerations for diseased donors","Donor risk factors and selection criteria","Retrieval and logistics","Marginal donor considerations","Graft perfusion and packaging SOP"],
+
+      _02_menu_01:["Indications", "Referrals","Exception points"],
+      _02_menu_02:["Contraindications to listing", "Referrals to UHN"],
+      _02_menu_03:["Formal assessment"],
+
+      _03_menu_01:["HCC", "SAH", "Chronic ALD"],
+      _03_menu_02:["Assessment and testing for listed patients", "Smoking cessation"],
+
+      _04_menu_01:["Pre-operative (Bloodwork and prep)", "Pre-operative (Donor)","Operative (Living donor process)", "Intraoperative management", "Transfusion protocols", "Post-operative(Living donor)"],
+      _04_menu_02:["Surgical ICU and early post-op medical care", "Anti-rejection meds", "Bacterial prophylaxis meds", "Viral prophylaxis meds", "Anti-fungal and anti-parasitic prophylaxis meds", "Other medications"],
+
+      _05_menu_01:["Immunosuppression management","Immune checkpoint therapy", "INDILIV year 1", "INDILIV beyond year 1"],
+      _05_menu_02:["Common infections and treatment", "Hepatitis patients", "Acute complications"],
+      _05_menu_03:["Cardiovascular concerns post transplant", "Gout", "Osteoporosis/Osteopenia", "Chronic ductopenic rejection"],
+      _05_menu_04:["Post-transplant bloodwork and management","Imaging surveillance", "HCC surveillance"]
+
+      //06,07,08 all jump direct to offcanvas content
+
+
+    }
+    
+    //delete these
     function mainTopicSelected(selectedTopic)
     {
       //menuToHide
       document.getElementById("menu_mainTopic").classList.toggle("d-none");
 
       //showBreadcrumb
-      document.getElementById("bc_mainTopic_text").innerHTML=selectedTopic;
-      document.getElementById("bc_mainTopic").classList.toggle("d-none");
 
       //menuToShow
       document.getElementById("menu_section").classList.toggle("d-none");
@@ -184,8 +194,6 @@ Donec dapibus ultrices risus ut viverra. Aliquam erat volutpat. Donec mollis ero
       document.getElementById("menu_section").classList.toggle("d-none");
 
       //showBreadcrumb
-      document.getElementById("bc_section_text").innerHTML=selectedSection;
-      document.getElementById("bc_section").classList.toggle("d-none");
 
       //menuToShow
       document.getElementById("menu_subsection").classList.toggle("d-none");
@@ -196,11 +204,109 @@ Donec dapibus ultrices risus ut viverra. Aliquam erat volutpat. Donec mollis ero
       document.getElementById("menu_subsection").classList.toggle("d-none");
 
       //showBreadcrumb
-      document.getElementById("bc_subsection_text").innerHTML=selectedSubsection;
-      document.getElementById("bc_subsection").classList.toggle("d-none");
 
       //menuToShow
       document.getElementById("menu_content").classList.toggle("d-none");
+
+    }
+
+    function returnToHome()
+    {
+      document.getElementById(`nav_breadcrumb`).innerHTML = `You are here: &nbsp;<li class="breadcrumb-item"><a href="#" onclick="returnToHome()">Home</a></li>`;
+      document.getElementById('menu_section').innerHTML= "";
+      document.getElementById('menu_content').innerHTML= "";
+      document.getElementById('menu_mainTopic').classList.remove(`d-none`);
+    }
+
+    function updateBreadcrumb(crumbToAdd, arrayName)
+    {
+
+      //need to distinguish between 1-5 and 6-8 - otherwise 6-8 show tiles, should show content
+      //also need to distinguish between tile/content...
+      var addedLinkHTML = "";
+      
+      addedLinkHTML += `<li class="breadcrumb-item active" aria-current="page"><a href="#" onclick="showTileMenu(`;
+      addedLinkHTML += `collectionArrays.`+ arrayName + `, '`+ arrayName + `')">`;  
+      addedLinkHTML += crumbToAdd;
+      addedLinkHTML += `</a></li>`;
+
+      document.getElementById(`nav_breadcrumb`).innerHTML += addedLinkHTML;
+
+
+      
+    }
+    
+    function showTileMenu(menuArray, arrayName)
+    {
+      //strings to create
+      var tileLeftColumnHTML = "";
+      var tileRightColumnHTML = "";
+      
+      //hide mainMenu
+      document.getElementById('menu_mainTopic').classList.add(`d-none`);
+
+      //clear current tile/content menu
+      document.getElementById('menu_section').innerHTML= "";
+      document.getElementById('menu_content').innerHTML= "";
+      
+      tileLeftColumnHTML += `<div class="d-grid gap-1 col-6 p-1">`;
+      tileRightColumnHTML += `<div class="d-grid gap-1 col-6 p-1">`;
+
+      //iterate array items via even/odd
+      for (i=0; i<menuArray.length; i++)
+      { 
+        if (i % 2 == 0 )//even
+        {
+          //need to add breadcrumb here
+
+          tileLeftColumnHTML += `<button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;"`;
+          tileLeftColumnHTML += `onclick="showContentMenu(collectionArrays.`+ arrayName + `_0` + (i+1) +`)">`;
+          tileLeftColumnHTML += menuArray[i];
+          tileLeftColumnHTML += `</button>`;
+
+        }else //odd
+        {
+          tileRightColumnHTML += `<button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;"`;
+          tileRightColumnHTML += `onclick="showContentMenu(collectionArrays.`+ arrayName + `_0` + (i+1) +`)">`;
+          tileRightColumnHTML += menuArray[i];
+          tileRightColumnHTML += `</button>`;
+
+        }
+
+      }
+      tileLeftColumnHTML += `</div>`;
+      tileRightColumnHTML += `</div>`;
+
+      document.getElementById('menu_section').innerHTML = tileLeftColumnHTML + tileRightColumnHTML;
+    }
+
+    function showContentMenu(menuArray)
+    {
+      //strings to create
+      var contentHTML = "";
+
+      //clear current menu
+      document.getElementById('menu_mainTopic').classList.add(`d-none`);
+      document.getElementById('menu_section').innerHTML= "";
+
+      //iterate and fill contentHTML
+      contentHTML += `<div class="d-grid gap-1 col p-1">`;
+      
+      for (i=0; i<menuArray.length; i++)
+      {
+        contentHTML += `<button class="btn btn-outline-dark mt-2 rounded px-5" style="min-height: 70px;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">`;
+        contentHTML +=  menuArray[i];
+        contentHTML += `</button>`;
+      }
+
+      contentHTML += `</div>`;
+
+      document.getElementById('menu_content').innerHTML = contentHTML;
+
+    }
+
+    function showOffCanvas()
+    {
 
     }
 
