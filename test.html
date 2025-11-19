@@ -22,30 +22,6 @@
 
     <div class="row">
 
-    <!-- Main topic breadcrumb -->
-    <div id="bc_mainTopic" class="d-grid gap-1 col-12 p-1 d-none">
-      <div class="btn-group" role="group" aria-label="mainCategoryCrumb" style="min-height: 70px;">
-        <button type="button" class="btn btn-dark col-4">Main topic</button>
-        <button id="bc_mainTopic_text" type="button" class="btn btn-outline-dark col-8"></button>
-      </div>
-    </div>
-
-    <!-- Section breadcrumb -->
-    <div id="bc_section" class="d-grid gap-1 col-12 p-1 d-none">
-      <div class="btn-group" role="group" aria-label="subCategoryCrumb" style="min-height: 70px;">
-        <button type="button" class="btn btn-dark col-4">Section</button>
-        <button id="bc_section_text" type="button" class="btn btn-outline-dark col-8"></button>
-      </div>
-    </div>
-
-    <!-- Subsection breadcrumb -->
-    <div id="bc_subsection" class="d-grid gap-1 col-12 p-1 d-none">
-      <div class="btn-group" role="group" aria-label="subCategoryCrumb" style="min-height: 70px;">
-        <button type="button" class="btn btn-dark col-4">Subsection</button>
-        <button id="bc_subsection_text" type="button" class="btn btn-outline-dark col-8"></button>
-      </div>
-    </div>
-
     <!-- Breadcrumb nav -->
     <nav style="--bs-breadcrumb-divider: '>';" class="border border-secondary rounded mt-2" aria-label="breadcrumb">
       <ol id ="nav_breadcrumb" class="breadcrumb m-3"> You are here: &nbsp;
@@ -58,17 +34,17 @@
     
     <div id="menu_mainTopic" class="d-flex p-0 m-0">
     <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._01_menu, `_01_menu`); updateBreadcrumb(`Donor management`, `_01_menu`)">Donor <br/>management</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._03_menu, `_03_menu`); updateBreadcrumb(`Recipient listing/Pre-transplant management`, `_03_menu`)">Recipient listing <br/> / Pre-transplant management</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._05_menu, `_05_menu`); updateBreadcrumb(`Recipient - Long term post-transplant management`, `_05_menu`)">Recipient - <br/>Long term post-transplant management</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showContentMenu(collectionArrays._07_menu, `_07_menu`); updateBreadcrumb(`Calculators`, `_07_menu`)">Calculators</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._01_menu, `_01_menu`); updateBreadcrumb(`Donor management`, `_01_menu`, false)">Donor <br/>management</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._03_menu, `_03_menu`); updateBreadcrumb(`Recipient listing/Pre-transplant management`, `_03_menu`, false)">Recipient listing <br/> / Pre-transplant management</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._05_menu, `_05_menu`); updateBreadcrumb(`Recipient - Long term post-transplant management`, `_05_menu`, false)">Recipient - <br/>Long term post-transplant management</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showContentMenu(collectionArrays._07_menu, `_07_menu`); updateBreadcrumb(`Calculators`, `_07_menu`, true)">Calculators</button>
     </div>
 
     <div class="d-grid gap-1 col-6 p-1">
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._02_menu, `_02_menu`); updateBreadcrumb(`Recipient evaluation`, `_02_menu`)">Recipient <br/> evaluation</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._04_menu, `_04_menu`); updateBreadcrumb(`Recipient - Perioperative/Immediate post-transplant care`, `_04_menu`)">Recipient -<br/>Perioperative/Immediate<br/>post-transplant care</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showContentMenu(collectionArrays._06_menu, `_06_menu`); updateBreadcrumb(`Special considerations`, `_06_menu`)">Special <br/>considerations</button>
-      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showContentMenu(collectionArrays._08_menu, `_08_menu`); updateBreadcrumb(`Resident/Fellow resources`, `_08_menu`)">Resident / Fellow <br/> resources</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._02_menu, `_02_menu`); updateBreadcrumb(`Recipient evaluation`, `_02_menu`, false)">Recipient <br/> evaluation</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showTileMenu(collectionArrays._04_menu, `_04_menu`); updateBreadcrumb(`Recipient - Perioperative/Immediate post-transplant care`, `_04_menu`, false)">Recipient -<br/>Perioperative/Immediate<br/>post-transplant care</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showContentMenu(collectionArrays._06_menu, `_06_menu`); updateBreadcrumb(`Special considerations`, `_06_menu`, true)">Special <br/>considerations</button>
+      <button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;" onclick="showContentMenu(collectionArrays._08_menu, `_08_menu`); updateBreadcrumb(`Resident/Fellow resources`, `_08_menu`, true)">Resident / Fellow <br/> resources</button>
     </div> 
     </div>
 
@@ -176,39 +152,7 @@ Donec dapibus ultrices risus ut viverra. Aliquam erat volutpat. Donec mollis ero
 
 
     }
-    
-    //delete these
-    function mainTopicSelected(selectedTopic)
-    {
-      //menuToHide
-      document.getElementById("menu_mainTopic").classList.toggle("d-none");
 
-      //showBreadcrumb
-
-      //menuToShow
-      document.getElementById("menu_section").classList.toggle("d-none");
-    }
-    function sectionSelected(selectedSection)
-    {
-      //menuToHide
-      document.getElementById("menu_section").classList.toggle("d-none");
-
-      //showBreadcrumb
-
-      //menuToShow
-      document.getElementById("menu_subsection").classList.toggle("d-none");
-    }
-    function subSectionSelected(selectedSubsection)
-    {
-      //menuToHide
-      document.getElementById("menu_subsection").classList.toggle("d-none");
-
-      //showBreadcrumb
-
-      //menuToShow
-      document.getElementById("menu_content").classList.toggle("d-none");
-
-    }
 
     function returnToHome()
     {
@@ -218,22 +162,25 @@ Donec dapibus ultrices risus ut viverra. Aliquam erat volutpat. Donec mollis ero
       document.getElementById('menu_mainTopic').classList.remove(`d-none`);
     }
 
-    function updateBreadcrumb(crumbToAdd, arrayName)
+    function updateBreadcrumb(crumbToAdd, arrayName, isTerminal)
     {
-
-      //need to distinguish between 1-5 and 6-8 - otherwise 6-8 show tiles, should show content
-      //also need to distinguish between tile/content...
+     
       var addedLinkHTML = "";
       
-      addedLinkHTML += `<li class="breadcrumb-item active" aria-current="page"><a href="#" onclick="showTileMenu(`;
+      if (isTerminal == true)
+      {
+        addedLinkHTML += `<li class="breadcrumb-item active" aria-current="page"><a href="#" onclick="showContentMenu(`;
+      }
+      else if (isTerminal == false)
+      {
+        addedLinkHTML += `<li class="breadcrumb-item active" aria-current="page"><a href="#" onclick="showTileMenu(`;
+          
+      }
       addedLinkHTML += `collectionArrays.`+ arrayName + `, '`+ arrayName + `')">`;  
       addedLinkHTML += crumbToAdd;
       addedLinkHTML += `</a></li>`;
 
       document.getElementById(`nav_breadcrumb`).innerHTML += addedLinkHTML;
-
-
-      
     }
     
     function showTileMenu(menuArray, arrayName)
@@ -258,19 +205,19 @@ Donec dapibus ultrices risus ut viverra. Aliquam erat volutpat. Donec mollis ero
         if (i % 2 == 0 )//even
         {
           //need to add breadcrumb here
-
           tileLeftColumnHTML += `<button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;"`;
-          tileLeftColumnHTML += `onclick="showContentMenu(collectionArrays.`+ arrayName + `_0` + (i+1) +`)">`;
+          tileLeftColumnHTML += `onclick="showContentMenu(collectionArrays.`+ arrayName + `_0` + (i+1) +`);`;
+          tileLeftColumnHTML += `updateBreadcrumb('` + menuArray[i] + `', '` + arrayName + `_0` + (i+1) + `' , true)` + `">`;
           tileLeftColumnHTML += menuArray[i];
           tileLeftColumnHTML += `</button>`;
 
         }else //odd
         {
           tileRightColumnHTML += `<button class="btn btn-outline-dark mt-2 rounded" style="min-height: 110px;"`;
-          tileRightColumnHTML += `onclick="showContentMenu(collectionArrays.`+ arrayName + `_0` + (i+1) +`)">`;
+          tileRightColumnHTML += `onclick="showContentMenu(collectionArrays.`+ arrayName + `_0` + (i+1) +`);`;
+          tileRightColumnHTML += `updateBreadcrumb('` + menuArray[i] + `', '` + arrayName + `_0` + (i+1) + `' , true)` + `">`;
           tileRightColumnHTML += menuArray[i];
           tileRightColumnHTML += `</button>`;
-
         }
 
       }
@@ -278,6 +225,13 @@ Donec dapibus ultrices risus ut viverra. Aliquam erat volutpat. Donec mollis ero
       tileRightColumnHTML += `</div>`;
 
       document.getElementById('menu_section').innerHTML = tileLeftColumnHTML + tileRightColumnHTML;
+
+      //hardcode to make sure breadcrumb trail makes sense...
+      //if current ol in breadcrumb has more than 2 li, delete last one
+      if (document.getElementById(`nav_breadcrumb`).querySelectorAll('li').length > 2)
+      {
+        document.getElementById(`nav_breadcrumb`).removeChild(document.getElementById(`nav_breadcrumb`).lastElementChild);
+      }
     }
 
     function showContentMenu(menuArray)
