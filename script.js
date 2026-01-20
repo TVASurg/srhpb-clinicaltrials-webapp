@@ -45,7 +45,6 @@ function initAllData() {
 
           });
 
-          console.log(gastroesophageal_master);
       }
         else if (sheetName === "HCC") {
           rows.forEach((row, i) => {
@@ -121,6 +120,31 @@ function initAllData() {
             }
           });
         }
+        else if (sheetName === "CRC") {
+          rows.forEach((row, i) => {
+            colorectal_master["names"].push(row["Trial Name"]);
+            colorectal_master["setting"].push(row["Disease Setting"]);
+            colorectal_master["fullTitle"].push(row["Full title"]);
+            colorectal_master["additionalNotes"].push(row["Additional notes"]);
+            colorectal_master["tissueRequirements"].push(row["Tissue Requirements"]);
+            colorectal_master["arms"].push(row["Trial Intervention/Arms"]);
+            colorectal_master["keyCriteria"].push(row["Eligibility "]);
+            colorectal_master["contact"].push(row["Contacts"]);
+            colorectal_master["NCT"].push(row["NCT number"]);
+            colorectal_master["status"].push(row["Study status"]);
+            colorectal_master["schema"].push(row["Schema image data"]);
+
+            //if the row["Biomarker"] contains data
+            //push the biomarker and name to the biomarker array
+            if (row["Biomarker/unselected"])
+            {
+             biomarker_master["categories"].push("CRC");
+             biomarker_master["names"].push(row["Trial Name"]);
+             biomarker_master["biomarker"].push(row["Biomarker/unselected"]);
+             biomarker_master["keyInCategory"].push(i);
+            }
+          });
+        }
 
       }
         for (const[sheetName,rows] of Object.entries(data.Changes))
@@ -145,6 +169,22 @@ const biomarker_master ={
   names: [],
   biomarker: []
 }
+
+const colorectal_master = {
+  names: [],
+  setting: [],
+  fullTitle: [],
+  additionalNotes: [],
+  tissueRequirements: [],
+  arms: [],
+  keyCriteria: [],
+  contact: [],
+  NCT:[],
+  schema:[],
+  status:[],
+  label: "CRC" //this is the sheet name
+};
+
 
 const gastroesophageal_master = {
   names: [],
@@ -206,7 +246,7 @@ const pancreas_master  = {
   label: "PDAC" //this is the sheet name
 };
 
-const pancreas_preactivation = {
+const pNET_master = {
   names: [],
   setting: [],
   fullTitle: [],
@@ -216,7 +256,9 @@ const pancreas_preactivation = {
   keyCriteria: [],
   contact: [],
   NCT:[],
-  schema:[]
+  schema:[],
+  status:[],
+  label: "pNET" //this is the sheet name
 };
 
 const changes = [];
@@ -321,6 +363,10 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
   outputHTMLstring += '<div class="btn-group-vertical p-3" role="group" ';
 
   switch (mainCategory) {
+    case colorectal_master:
+      outputHTMLstring += 'data-bs-theme="colorectal">';
+      break;
+
     case gastroesophageal_master:
       outputHTMLstring += 'data-bs-theme="ge">';
       break;
@@ -419,6 +465,10 @@ function fillTrialDetails(mainCategory, key) {
   htmlString += '<ul class="list-group list-group p-3"';
 
   switch (mainCategory) {
+    case colorectal_master:
+      htmlString += ' data-bs-theme="colorectal">';
+      break;
+
     case gastroesophageal_master:
       htmlString += ' data-bs-theme="ge">';
       break;
@@ -1110,7 +1160,7 @@ function clearTrialInfo()
 
 function test()
 {
-  console.log(gastroesophageal_master);
+
 }
 
 function scrollToTrialName(scrollTarget)

@@ -40,6 +40,21 @@
           <div id="mainNavInner" class="flipNavInner">
         <ul id ="diseaseNav" class="list-unstyled ps-0 flipNavFront">
           
+          <li class="fs-5 bg-colorectal ps-2 rounded-top fw-bold border-bottom py-2 mt-1 ps-2" >Colorectal</li>
+          <li class="d-grid mb-1 bg-colorectal rounded-bottom ps-2" > <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#crc-collapse" onclick="clearTrialInfo(); clearUpdateLine();">
+              CRC
+            </button>
+            <div class="collapse" id="crc-collapse" >
+              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
+                <a role="button" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(colorectal_master, 'Peri')"><li class="rounded diseaseState px-3 mx-2 py-2" >Peri-operative</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(colorectal_master, '1')"><li class="rounded diseaseState px-3 mx-2 py-2" >1st line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(colorectal_master, '2')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(colorectal_master, 'Last')"><li class="rounded diseaseState px-3 mx-2 py-2" >Last line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(colorectal_master, 'Any line')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any line</li></a>
+              </ul>
+            </div>
+          </li> 
+
            <li class="fs-5 bg-gastroesophageal ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2" >Gastroesophageal</li>
           <li class="d-grid mb-1 bg-gastroesophageal rounded-bottom ps-2" > <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#ge-collapse" onclick="clearTrialInfo(); clearUpdateLine();">
               GE
@@ -55,8 +70,8 @@
             </div>
           </li> 
 
-          <li class="fs-5 bg-hcc ps-2 rounded-top fw-bold border-bottom py-2 mt-3 ps-2">Liver</li>
-          <li class="d-grid mb-3 bg-hcc ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#hcc-collapse" onclick="clearTrialInfo(); clearUpdateLine();">
+          <li class="fs-5 bg-hcc ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2">Liver</li>
+          <li class="d-grid mb-2 bg-hcc ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#hcc-collapse" onclick="clearTrialInfo(); clearUpdateLine();">
               HCC
             </button>
             <div class="collapse bg-hcc" id="hcc-collapse">
@@ -69,7 +84,7 @@
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(liver_HCC_master, 'Last')"><li class="rounded diseaseState px-3 mx-2 py-2" >Last line</li></a>               </ul>
             </div>
           </li>
-          <li class="fs-5 bg-pancreas ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ">Pancreas</li>
+          <li class="fs-5 bg-pancreas ps-2 rounded-top fw-bold border-bottom p-2">Pancreas</li>
           <li class="d-grid bg-pancreas ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false" onclick="clearTrialInfo(); clearUpdateLine();">
               PDAC
             </button>

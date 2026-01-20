@@ -9,7 +9,7 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   
-  --bs-colorectal: #1b295c;
+  --bs-colorectal: rgb(104, 119, 173);
   --bs-gastroesophageal: #9999e1;
   --bs-hcc: #54d17e;
   --bs-pancreas: #ad7bac;
@@ -150,6 +150,40 @@ perspective: 1000px;
   top: 0;
   left: 0;
   transform: rotateY(180deg);
+}
+
+[data-bs-theme="colorectal"] {
+  --bs-body-color: var(--bs-gray-900);
+  --bs-body-bg: var(--bs-colorectal);
+  width: 100%;
+
+  .btn-outline-custom {
+    --bs-btn-bg: color-mix(in srgb, var(--bs-colorectal) 50%, var(--bs-gray-100) 50%);
+    --bs-btn-border-color: #{rgba($white, .25)};
+    width: 100%;
+  }
+
+  .btn-check:checked + .btn{
+    background-color: color-mix(in srgb, var(--bs-colorectal) 70%, var(--bs-gray-500) 30%) !important;
+    font-weight: 500;
+  }
+
+  .detailsSection01{
+    background-color: color-mix(in srgb, var(--bs-colorectal) 50%, var(--bs-gray-100) 50%);
+    font-weight: 500;
+  }
+  .detailsSection02{
+    background-color: color-mix(in srgb, var(--bs-colorectal) 50%, var(--bs-gray-300) 50%);
+    font-weight: 500;    
+  }
+  .detailsSection03{
+    background-color: color-mix(in srgb, var(--bs-colorectal) 50%, var(--bs-gray-500) 50%);
+    font-weight: 500;    
+  }
+  .detailsSection04{
+    background-color: color-mix(in srgb, var(--bs-colorectal) 50%, var(--bs-gray-600) 50%);
+    font-weight: 500;    
+  }
 }
 
 [data-bs-theme="ge"] {
