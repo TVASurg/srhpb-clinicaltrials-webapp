@@ -1422,6 +1422,123 @@ doc.autoTable({
 });
 }
 
+if (data.pNET != null){
+// Map of PDF header → JSON key
+const columnMap = [
+  { header: "", key: null }, // first column for vertical rowspan text
+  { header: "Title", key: "Trial Name" },
+  { header: "Setting", key: "Disease Setting" },
+  { header: "Arms", key: "Trial Intervention/Arms" },
+  { header: "Key Criteria", key: "Eligibility " },
+  { header: "Contact", key: "Contacts" },
+  { header: "NCT", key: "NCT number" }
+];
+
+// Build headers from mapping
+const headers = columnMap.map(col => col.header);
+
+  const rows = data.pNET.map(trial =>
+  columnMap.map((col, colIndex) => {
+    let value = trial[col.key] ?? "";
+
+    if (typeof value === "string" && value.includes("Coordinator")) {
+      // Keep only text before "Coordinator"
+      value = value.split("Coordinator")[0].trim();
+    }
+
+
+  
+    return value;
+  })
+);
+
+// Variable to store rowspan height
+let groupRowSpanHeight = 0;
+
+doc.addPage();
+
+doc.autoTable({
+  head: [headers],
+  body: rows,
+  styles: { fontSize: 10, font: "OpenSans", cellPadding: 2, overflow: 'linebreak', lineWidth: 0.2, lineColor: [50, 50, 50]},
+  headStyles: { fillColor: [128, 128, 128], textColor: 255 },
+  pagebreak: 'auto',
+  rowPageBreak: 'avoid',
+  columnStyles: {
+    0: { cellWidth: 12, lineWidth: 0, textColor: 255, fillColor: false },
+    1: { cellWidth: 40 },
+    2: { cellWidth: 30 },
+    3: { cellWidth: 55 },
+    4: { cellWidth: 55 },
+    5: { cellWidth: 50 }
+  },
+  didParseCell: function (data) {
+    if (data.section === 'body') {
+      if (data.row.index % 2 === 0 && data.column.index > 0 ) {
+        data.cell.styles.fillColor = [201, 197, 197];
+      } else if (data.column.index > 0){
+        data.cell.styles.fillColor = [255, 255, 255];
+      }
+    }
+  },
+  didDrawPage: function (data) {
+    const table = data.table;
+    const startY = table.settings.margin.top;   // top of header
+    const endY = data.cursor.y;                  // bottom of rows on this page
+    const startX = table.settings.margin.left;
+    const cellWidth = 11;                       // width of your rotated column
+
+    // Draw filled rectangle spanning header + body for this page
+    doc.setFillColor(128, 128, 128);
+    doc.rect(startX, startY, cellWidth, endY - startY, 'F');
+
+
+    // Rotated text
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(15);
+    doc.setFont("helvetica", "bold");
+    doc.text("pNET", startX + cellWidth / 2 + 9, startY + (endY - startY) / 2, {
+      angle: 90,
+      align: 'center',
+      baseline: 'middle'
+    });
+  },
+  willDrawCell: function(data) {
+    // Skip all cells in the first column (header + body)
+    if (data.column.index === 0) {
+      return false; // skip drawing this cell
+    }
+  },
+  didDrawCell: function (data) {
+  if (
+    data.section !== 'body' ||
+    data.column.index !== 6 ||
+    typeof data.cell.raw !== 'string' ||
+    data.cell.raw.trim() === ''
+  ) {
+    return;
+  }
+
+  const text = data.cell.raw;
+  const url = `https://clinicaltrials.gov/study/${encodeURIComponent(text)}`;
+
+  const padding = data.cell.padding('left');
+  const fontSize = data.cell.styles.fontSize;
+
+  // Estimate text position
+  const x = data.cell.x + padding;
+  const y = data.cell.y + padding;
+
+  const textWidth = doc.getTextWidth(text);
+  const textHeight = fontSize;
+
+  doc.link(x, y, textWidth, textHeight, { url });
+
+
+}
+});
+}
+
 }
 
 function printCommunityList()
