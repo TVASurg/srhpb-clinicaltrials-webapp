@@ -3,7 +3,7 @@ function initAllData(data) {
       ericList(data);
       // Loop through each sheet
         for (const [sheetName, rows] of Object.entries(data)) {
-        if (sheetName === "Gastroesophageal") {
+        if (sheetName === "GE") {
           rows.forEach((row, i) => {
             if (row["Disease Setting"]){
             gastroesophageal_master["names"].push(row["Trial Name"]);
