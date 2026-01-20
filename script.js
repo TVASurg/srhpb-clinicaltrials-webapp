@@ -170,6 +170,22 @@ function initAllData() {
             }
           });
         }
+      else if (sheetName === "Closed") {
+          rows.forEach((row, i) => {
+            closed_master["names"].push(row["Trial Name"]);
+            closed_master["categories"].push(row["Organ group"]);
+            closed_master["setting"].push(row["Disease Setting"]);
+            closed_master["fullTitle"].push(row["Full title"]);
+            closed_master["additionalNotes"].push(row["Additional notes"]);
+            closed_master["tissueRequirements"].push(row["Tissue Requirements"]);
+            closed_master["arms"].push(row["Trial Intervention/Arms"]);
+            closed_master["keyCriteria"].push(row["Eligibility "]);
+            closed_master["contact"].push(row["Contacts"]);
+            closed_master["NCT"].push(row["NCT number"]);
+            closed_master["status"].push(row["Study status"]);
+            closed_master["schema"].push(row["Schema image data"]);
+          });
+        }
 
       }
         for (const[sheetName,rows] of Object.entries(data.Changes))
@@ -209,7 +225,6 @@ const colorectal_master = {
   status:[],
   label: "CRC" //this is the sheet name
 };
-
 
 const gastroesophageal_master = {
   names: [],
@@ -284,6 +299,22 @@ const pNET_master = {
   schema:[],
   status:[],
   label: "pNET" //this is the sheet name
+};
+
+const closed_master = {
+  names: [],
+  categories: [],
+  setting: [],
+  fullTitle: [],
+  additionalNotes: [],
+  tissueRequirements: [],
+  arms: [],
+  keyCriteria: [],
+  contact: [],
+  NCT:[],
+  schema:[],
+  status:[],
+  label: "Closed" //this is the sheet name
 };
 
 const changes = [];
@@ -415,6 +446,10 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
     case biliary_CCA_master:
       outputHTMLstring += 'data-bs-theme="cca">';
       break;
+    
+     case closed_master:
+      outputHTMLstring += 'data-bs-theme="closed">';
+      break;
 
     default:
       outputHTMLstring += '>';
@@ -476,7 +511,10 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
   });
   
   //highlight category selected for breadcrumb purposes
-  highlightCategory();
+  if(mainCategory != closed_master)
+    {
+      highlightCategory();
+    }
   scrollToTrialName("trialName");
 }
 
@@ -484,6 +522,7 @@ function fillTrialDetails(mainCategory, key) {
   clearUpdateLine();
   var htmlString = "";
   var titleString = "";
+  var categoriesString = "";
   var notesString = "";
   var tissueReqString = "";
   var settingString = "";
@@ -521,6 +560,10 @@ function fillTrialDetails(mainCategory, key) {
     case biliary_CCA_master:
       htmlString += ' data-bs-theme="cca">';
       break;
+
+    case closed_master:
+      htmlString += ' data-bs-theme="closed">';
+      break;
   
     default:
       htmlString += '>';
@@ -539,6 +582,14 @@ function fillTrialDetails(mainCategory, key) {
     notesString += '<li class="detailsSection01 list-group-item btn btn-toggle d-inline-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#notesCollapse">Summary</li><li class="list-inline-item ps-5 collapse" id="notesCollapse"><p class="py-2">';
     notesString += mainCategory[`additionalNotes`][key].replaceAll("\n", "<br/>");
     notesString += '</p></li>';
+    }
+
+  //Mainly for the closed/archived cases here
+  if(mainCategory == closed_master && mainCategory[`categories`][key] != null)
+    {
+    categoriesString += '<li class="detailsSection01 list-group-item btn btn-toggle d-inline-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#categoryCollapse">Organ group</li><li class="list-inline-item ps-5 collapse" id="categoryCollapse"><p class="py-2">';
+    categoriesString += mainCategory[`categories`][key].replaceAll("\n", "<br/>");
+    categoriesString += '</p></li>';
     }
  
   //Schema
@@ -616,14 +667,17 @@ function fillTrialDetails(mainCategory, key) {
   NCTstring += '">Link to clinicaltrials.gov</p></li>';
     }   
 
-  htmlString += titleString + notesString + schemaString + settingString+ armString + tissueReqString + criteriaString + biomarkerString + contactString + NCTstring;
+  htmlString += titleString + categoriesString + notesString + schemaString + settingString+ armString + tissueReqString + criteriaString + biomarkerString + contactString + NCTstring;
   
   htmlString += "</ul>";
  
   document.getElementById("trialDetails").innerHTML = htmlString;
 
   displayLastUpdateForTrial(mainCategory[`label`], mainCategory[`names`][key]);
-  displayStudyStatus(mainCategory['status'][key]);
+  if (mainCategory != closed_master)
+  {
+    displayStudyStatus(mainCategory['status'][key]);
+  }
 
   //document.getElementById("scroll-spacer").style.display= 'none';
 }

@@ -352,3 +352,35 @@ perspective: 1000px;
     font-weight: 500;    
   }
 }
+
+[data-bs-theme="closed"] {
+
+  .btn-outline-custom {
+    --bs-btn-bg: white;
+    --bs-btn-border-color: var(--bs-gray-500);
+    width: 100%;
+  }
+
+  .btn-check:checked + .btn{
+    background-color: var(--bs-gray-500);
+    font-weight: 500;
+  }
+
+  .detailsSection01{
+    background-color: var(--bs-gray-200);
+    font-weight: 500;
+  }
+  .detailsSection02{
+    background-color: var(--bs-gray-200);
+    font-weight: 500;    
+  }
+  .detailsSection03{
+    background-color: var(--bs-gray-200);
+    font-weight: 500;    
+  }
+  .detailsSection04{
+    background-color: var(--bs-gray-200);
+    font-weight: 500;    
+  }
+
+}
