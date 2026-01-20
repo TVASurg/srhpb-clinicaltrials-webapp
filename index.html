@@ -85,7 +85,7 @@
             </div>
           </li>
           <li class="fs-5 bg-pancreas ps-2 rounded-top fw-bold border-bottom p-2">Pancreas</li>
-          <li class="d-grid bg-pancreas ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false" onclick="clearTrialInfo(); clearUpdateLine();">
+          <li class="d-grid bg-pancreas ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false" onclick="clearTrialInfo(); clearUpdateLine();">
               PDAC
             </button>
             <div class="collapse " id="mccain-collapse">
@@ -94,23 +94,24 @@
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Locally Advanced Unresectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Locally Advanced unresectable</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Any Line Advanced')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any Line Advanced</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '1L Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >1L Metastatic</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '2L Only Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L Only</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '2L Metastatic+')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L+ Metastatic</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Non-Therapeutic')"><li class="rounded diseaseState px-3 mx-2 py-2" >Non-Therapeutic</li></a>
 
               </ul>
             </div>
           </li>
-          <!--<li id="pancreas_preactivation" class="mb-3 rounded-bottom bg-pancreas ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#pancPreactivate-collapse" onclick="clearTrialInfo();">
-              Pre-activation
+          <li class="d-grid bg-pnet ps-2 rounded-bottom"> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#pnet-collapse" aria-expanded="false" onclick="clearTrialInfo(); clearUpdateLine();">
+              pNET
             </button>
-            <div class="collapse" id="pancPreactivate-collapse">
+            <div class="collapse " id="pnet-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, '1L Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >1L Metastatic</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, '2L Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L+ Metastatic</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_preActivation, 'Any')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pNET_master, '2')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L+ Metastatic</li></a>
+
+
               </ul>
             </div>
-          </li>-->
+          </li>
           <li class="fs-5 bg-btc ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2">Biliary</li>
           <li class="d-grid mb-1 bg-btc rounded-bottom ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#cca-collapse" onclick="clearTrialInfo(); clearUpdateLine();">
               CCA

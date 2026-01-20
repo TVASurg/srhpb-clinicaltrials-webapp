@@ -145,6 +145,31 @@ function initAllData() {
             }
           });
         }
+        else if (sheetName === "pNET") {
+          rows.forEach((row, i) => {
+            pNET_master["names"].push(row["Trial Name"]);
+            pNET_master["setting"].push(row["Disease Setting"]);
+            pNET_master["fullTitle"].push(row["Full title"]);
+            pNET_master["additionalNotes"].push(row["Additional notes"]);
+            pNET_master["tissueRequirements"].push(row["Tissue Requirements"]);
+            pNET_master["arms"].push(row["Trial Intervention/Arms"]);
+            pNET_master["keyCriteria"].push(row["Eligibility "]);
+            pNET_master["contact"].push(row["Contacts"]);
+            pNET_master["NCT"].push(row["NCT number"]);
+            pNET_master["status"].push(row["Study status"]);
+            pNET_master["schema"].push(row["Schema image data"]);
+
+            //if the row["Biomarker"] contains data
+            //push the biomarker and name to the biomarker array
+            if (row["Biomarker/unselected"])
+            {
+             biomarker_master["categories"].push("pNET");
+             biomarker_master["names"].push(row["Trial Name"]);
+             biomarker_master["biomarker"].push(row["Biomarker/unselected"]);
+             biomarker_master["keyInCategory"].push(i);
+            }
+          });
+        }
 
       }
         for (const[sheetName,rows] of Object.entries(data.Changes))
@@ -277,6 +302,10 @@ function fillTrialNameBasedOnBiomarker(biomarker)
    if (biomarker_master[`biomarker`][i] == biomarker)
    {//add in switches for div group based on category?
     switch (biomarker_master[`categories`][i]) {
+      case "CRC":
+        outputHTMLline += '<div data-bs-theme="colorectal">';
+        break;
+
       case "GE":
         outputHTMLline += '<div data-bs-theme="ge">';
         break;
@@ -363,6 +392,10 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
   outputHTMLstring += '<div class="btn-group-vertical p-3" role="group" ';
 
   switch (mainCategory) {
+    case pNET_master:
+      outputHTMLstring += 'data-bs-theme="pnet">';
+      break;
+    
     case colorectal_master:
       outputHTMLstring += 'data-bs-theme="colorectal">';
       break;
@@ -467,6 +500,10 @@ function fillTrialDetails(mainCategory, key) {
   switch (mainCategory) {
     case colorectal_master:
       htmlString += ' data-bs-theme="colorectal">';
+      break;
+
+    case pNET_master:
+      htmlString += ' data-bs-theme="pnet">';
       break;
 
     case gastroesophageal_master:
