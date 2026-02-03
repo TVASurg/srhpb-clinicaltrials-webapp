@@ -1543,7 +1543,12 @@ doc.autoTable({
 
 function printCommunityList()
 {
-  doc.save("testClinicalTrialsList.pdf");  
+  var today = new Date();
+  var currentYear = today.getFullYear();
+  var currentMonth = today.toLocaleString('default', { month: 'short' });
+  var pdfName = currentYear + "_" + currentMonth + ".pdf";
+
+  doc.save(pdfName);  
 }
 
 function clearUpdateLine()
