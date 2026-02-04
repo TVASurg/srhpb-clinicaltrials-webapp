@@ -29,7 +29,7 @@ function initAllData() {
             gastroesophageal_master["contact"].push(row["Contacts"]);
             gastroesophageal_master["NCT"].push(row["NCT number"]);
             gastroesophageal_master["status"].push(row["Study status"]);
-            gastroesophageal_master["schema"].push(row["Schema image data"]);
+            gastroesophageal_master["schema"].push(row["Schema image"]);
             }
             else if (row["Disease Setting"] == null)
             {
@@ -43,7 +43,7 @@ function initAllData() {
             gastroesophageal_master["contact"].push(row["Contacts"]);
             gastroesophageal_master["NCT"].push(row["NCT number"]);
             gastroesophageal_master["status"].push(row["Study status"]);
-            gastroesophageal_master["schema"].push(row["Schema image data"]);
+            gastroesophageal_master["schema"].push(row["Schema image"]);
             }
             if (row["Biomarker/unselected"])
             {
@@ -68,7 +68,7 @@ function initAllData() {
             liver_HCC_master["contact"].push(row["Contacts"]);
             liver_HCC_master["NCT"].push(row["NCT number"]);
             liver_HCC_master["status"].push(row["Study status"]);
-            liver_HCC_master["schema"].push(row["Schema image data"]);
+            liver_HCC_master["schema"].push(row["Schema image"]);
 
             if (row["Biomarker/unselected"])
             {
@@ -93,7 +93,7 @@ function initAllData() {
             pancreas_master["NCT"].push(row["NCT number"]);
             pancreas_master["status"].push(row["Study status"]);
             //adding in base64 encoded images
-            pancreas_master["schema"].push(row["Schema image data"]);
+            pancreas_master["schema"].push(row["Schema image"]);
 
             if (row["Biomarker/unselected"])
             {
@@ -117,7 +117,7 @@ function initAllData() {
             biliary_CCA_master["contact"].push(row["Contacts"]);
             biliary_CCA_master["NCT"].push(row["NCT number"]);
             biliary_CCA_master["status"].push(row["Study status"]);
-            biliary_CCA_master["schema"].push(row["Schema image data"]);
+            biliary_CCA_master["schema"].push(row["Schema image"]);
 
             //if the row["Biomarker"] contains data
             //push the biomarker and name to the biomarker array
@@ -142,7 +142,7 @@ function initAllData() {
             colorectal_master["contact"].push(row["Contacts"]);
             colorectal_master["NCT"].push(row["NCT number"]);
             colorectal_master["status"].push(row["Study status"]);
-            colorectal_master["schema"].push(row["Schema image data"]);
+            colorectal_master["schema"].push(row["Schema image"]);
 
             //if the row["Biomarker"] contains data
             //push the biomarker and name to the biomarker array
@@ -167,7 +167,7 @@ function initAllData() {
             pNET_master["contact"].push(row["Contacts"]);
             pNET_master["NCT"].push(row["NCT number"]);
             pNET_master["status"].push(row["Study status"]);
-            pNET_master["schema"].push(row["Schema image data"]);
+            pNET_master["schema"].push(row["Schema image"]);
 
             //if the row["Biomarker"] contains data
             //push the biomarker and name to the biomarker array
@@ -193,7 +193,7 @@ function initAllData() {
             closed_master["contact"].push(row["Contacts"]);
             closed_master["NCT"].push(row["NCT number"]);
             closed_master["status"].push(row["Study status"]);
-            closed_master["schema"].push(row["Schema image data"]);
+            closed_master["schema"].push(row["Schema image"]);
           });
         }
 
@@ -609,7 +609,7 @@ function fillTrialDetails(mainCategory, key) {
   // schemaString += '<a href="" onclick="event.preventDefault(); openImage(`';
   // schemaString += mainCategory[`schema`][key]; 
   // schemaString += '`)">View Schema</a></p></li>';
-  schemaString += "<img class='img-fluid mx-0 px-0 my-2 py-2' src='";
+  schemaString += "<img class='img-fluid mx-0 px-0 my-2 py-2' src='images/schema-images/";
   schemaString += mainCategory[`schema`][key];
   schemaString += "'></p>";
     }
@@ -1619,10 +1619,6 @@ function clearTrialInfo()
     document.getElementById("trialDetails").innerHTML = "";
 }
 
-function test()
-{
-
-}
 
 function scrollToTrialName(scrollTarget)
 {
