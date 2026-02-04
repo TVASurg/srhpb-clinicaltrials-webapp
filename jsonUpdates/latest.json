@@ -82,13 +82,13 @@
       "Disease Setting": "2nd line ",
       "Trial Name": "GSK223675 ",
       "Full title": "A Phase 1b/2, Multicenter, Open-label Study to Evaluate the Efficacy and Safety of GSK5764227 Alone and in Combination in Participants With Previously Treated Advanced Unresectable or Metastatic Gastrointestinal Solid Tumors.",
-      "Additional notes": null,
+      "Additional notes": "CRC-A: Closed to enrollment\nCRC-B: On Pause",
       "Tissue Requirements": "Must provide tumor tissue from a newly obtained fresh biopsy or an archival tumor tissue.",
-      "Trial Intervention/Arms": "GSK223675 (B7-H3 ADC) ",
+      "Trial Intervention/Arms": "GSK223675 (B7-H3 ADC) \nCRC-A Q3W (Closed)\nCRC-B Q2W (On Pause)",
       "Eligibility ": "Inclusion criteria:\nNo prior irinotecan exposure.\nLocally advanced or unresectable metastatic adenocarcinoma of the colon or rectum.\nMust have received at least 1 and no more than 2 lines of systemic treatment for advanced colorectal cancer (CRC), with documented progression on most recent prior line of therapy.\nExclusion criteria:\nHas a malignancy (except disease under study) that has progressed or required active treatment within the past 24 months except for basal cell or squamous cell carcinomas of the skin or in-situ carcinomas.\nHas had any major surgery within 28 days prior to randomization.\nHas severe, uncontrolled or active cardiovascular disorders.\nHas serious or poorly controlled hypertension.\nHas clinically significant bleeding symptoms or significant bleeding tendency within 1 month prior to the first dose.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06885034",
-      "Study status": "Active",
+      "Study status": "Not recruiting",
       "Schema image": "NCT06885034.png"
     },
     {
@@ -2781,6 +2781,11 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "GSK223675 ",
+        "change": "modified",
+        "timestamp": "2026-02-04T15:31:29"
       }
     ],
     "GE": [
