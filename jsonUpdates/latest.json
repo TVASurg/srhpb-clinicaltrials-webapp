@@ -644,14 +644,14 @@
       "Disease Setting": "2L Only Metastatic",
       "Trial Name": "GSK223675",
       "Full title": "A Phase 1b/2, multicenter, open-label study to evaluate the efficacy and safety of GSK5764227 alone and in combination in participants with previously treated advanced unresectable or metastatic gastrointestinal solid tumors.",
-      "Additional notes": "Cohort B = PDAC (2L only)",
+      "Additional notes": "Cohort B = PDAC (2L only) - ON PAUSE since 04-Feb-2026.",
       "Tissue Requirements": "Fresh core biopsy (if not feasible, archival tumor tissue, FFPE block (preferred), slides from the most recent biopsy is acceptable).",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Cohort B (PDAC):\nPart 1B: Signal Seeking\n• GSK'227 10 mg/kg Q3W\nPart 1B: Optional Extension\n• GSK'227 ≤ 10 mg/kg Q3W and/or ≤ 6 mg/kg Q2W",
       "Eligibility ": "Inclusion criteria: \n• Histologically or cytologically confirmed unresectable, LAPDAC or mPDAC.\n• Must have received 1 and no more than 1 line of therapy for advanced PDAC, with documented progression (PD on neoadjuvant or adjuvant chemotherapy during treatment or within 6 months of EOT are eligible).\n• At least 1 target lesion per RECIST 1.1.\nExclusion criteria: \n• Has a malignancy (except disease under study) that has progressed or required active treatment within the past 24 months except for basal cell or squamous cell carcinomas of the skin or in-situ carcinoma.\n• Is currently enrolled or has participated in any other clinical study involving an investigational study intervention or any other type of interventional medical research and/or has received treatment with any anticancer or investigational agent before first dose of study intervention.\n• Has received immunosuppressive agents within 30 days prior to first dose of study intervention.\n• Has received any prior therapy with an ADC with a TOPO1-inhibitor payload.\n• Has serious or poorly controlled hypertension.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06885034",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": "NCT06885034.png"
     },
     {
@@ -1259,6 +1259,111 @@
         "Trial Name": "CA240-0030",
         "change": "modified",
         "timestamp": "2026-02-04T08:58:08"
+      },
+      {
+        "Trial Name": "CA240-0030",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:01:34"
+      },
+      {
+        "Trial Name": "CA240-0030",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:10:03"
+      },
+      {
+        "Trial Name": "CA240-0030",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:10:47"
+      },
+      {
+        "Trial Name": "DORA (WOO)",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "GO44479/ROCHE (Vaccine Study)\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "ABLATE (radiation)\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "NASC-009/NCI 10464\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "20230223 (AMG193) - MTAP Deletion\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "OZM-114\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "ADOPT\n\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "BOLD-100-001\n\n \n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "Platinum-Can\n\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "OPCS Registry\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "HPB Banking Protocol\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "WATCH-PC\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "GSK223675",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "CA240-0030",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "GSK223675",
+        "change": "modified",
+        "timestamp": "2026-02-04T11:25:25"
       }
     ],
     "HCC": [
@@ -1546,6 +1651,56 @@
         "Trial Name": "Debio 0123-106",
         "change": "added",
         "timestamp": "2026-02-02T13:59:12"
+      },
+      {
+        "Trial Name": "NEOTOMA",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "BeyondIO (HMLTO002)",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "ARTEMIDE HCC01",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "HE.2",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "CHS-388-202",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "CaboTx\n ",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "TYR430-101",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "ITER-002-HCC",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "BANTAM-01",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
       }
     ],
     "Gastroesophageal": [
@@ -1935,6 +2090,46 @@
         "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
         "change": "modified",
         "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "Destiny-BTC01",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "\nHERIZON-BTC-302 (Sponsor: Jazz pharma)",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "ProvIHDe",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "CGT4859 ",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "SURF-431",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "FOENIX-CCA4 \nTAS-120-205",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "S095031-210",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
       }
     ],
     "Preactivation": [
@@ -1989,6 +2184,31 @@
         "Trial Name": "NUANCE\n\n",
         "change": "added",
         "timestamp": "2026-01-27T14:44:57"
+      },
+      {
+        "Trial Name": "PRISM-1\n\n\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "Prosper-PANC Cohort 1\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "Prosper-PANC Cohort 2\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "NUANCE\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
       }
     ],
     "CRC": [
@@ -2511,6 +2731,56 @@
         "Trial Name": "Debio 0123-106",
         "change": "added",
         "timestamp": "2026-02-02T13:59:12"
+      },
+      {
+        "Trial Name": "GSK219606 (AZUR2)",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "61186372COR3001 (ORIGAMI-2)",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "D798VC00001 (CANTOR)",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "WO42758 (INTRINSIC)",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "BOLD-100-001 (TRIO039)",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "C4761001 ",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "GSK223675 ",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "ONO-4578-10",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "CO.33 (BATTMAN)",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
       }
     ],
     "GE": [
@@ -2573,6 +2843,66 @@
         "Trial Name": "AndroMETa-GEA-977",
         "change": "added",
         "timestamp": "2026-01-15T14:23:11"
+      },
+      {
+        "Trial Name": "MOCHA",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "Clarity-Gastric01 ",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "ARTEMIDE-Gastric01 ",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "GA.4 ",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "TORO ",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "REJOICE-GI01",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "GEAR",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "IRONGOOSE",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "DEFEAT",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "NEEDS",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "DESTINY-Gastric03",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "AndroMETa-GEA-977",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
       }
     ],
     "pNET": [
@@ -2605,6 +2935,16 @@
         "Trial Name": "Debio 0123-106",
         "change": "added",
         "timestamp": "2026-02-02T13:59:12"
+      },
+      {
+        "Trial Name": "Belzutifan Advanced Pancreatic Neuroendocrine Tumor (pNET), or Von Hippel-Lindau (VHL) Disease-Associated Tumors (MK-6482-015) ",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-02-04T09:41:02"
       }
     ]
   }
