@@ -82,13 +82,13 @@
       "Disease Setting": "2nd line ",
       "Trial Name": "GSK223675 ",
       "Full title": "A Phase 1b/2, Multicenter, Open-label Study to Evaluate the Efficacy and Safety of GSK5764227 Alone and in Combination in Participants With Previously Treated Advanced Unresectable or Metastatic Gastrointestinal Solid Tumors.",
-      "Additional notes": "CRC-A: Closed to enrollment\nCRC-B: On Pause",
+      "Additional notes": null,
       "Tissue Requirements": "Must provide tumor tissue from a newly obtained fresh biopsy or an archival tumor tissue.",
-      "Trial Intervention/Arms": "GSK223675 (B7-H3 ADC) \nCRC-A Q3W (Closed)\nCRC-B Q2W (On Pause)",
+      "Trial Intervention/Arms": "GSK223675 (B7-H3 ADC) ",
       "Eligibility ": "Inclusion criteria:\nNo prior irinotecan exposure.\nLocally advanced or unresectable metastatic adenocarcinoma of the colon or rectum.\nMust have received at least 1 and no more than 2 lines of systemic treatment for advanced colorectal cancer (CRC), with documented progression on most recent prior line of therapy.\nExclusion criteria:\nHas a malignancy (except disease under study) that has progressed or required active treatment within the past 24 months except for basal cell or squamous cell carcinomas of the skin or in-situ carcinomas.\nHas had any major surgery within 28 days prior to randomization.\nHas severe, uncontrolled or active cardiovascular disorders.\nHas serious or poorly controlled hypertension.\nHas clinically significant bleeding symptoms or significant bleeding tendency within 1 month prior to the first dose.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06885034",
-      "Study status": "Not recruiting",
+      "Study status": "Active",
       "Schema image": "NCT06885034.png"
     },
     {
@@ -127,19 +127,6 @@
       "Eligibility ": "Inclusion Criteria:\n- Male or female and ≥12 years-of-age at the time of signature of the ICF.\n- ECOG Performance Status score of 0 or 1. Lansky performance status ≥50 for patients ≤16 years of age\n- Patients are eligible if, in the opinion of the Investigator, the patient is not a candidate for,\nor would be unlikely to tolerate or derive significant clinical benefit from, appropriate standard-of-care therapy, or if the patient declines standard-of-care therapy. Documented counselling by the center Investigator on benefits/risks of standard-of-care therapy is required for enrolled patients who decline standard-of-care therapy.\n- Measurable disease as per RECIST v1.1.\n- Ability to swallow and retain oral tablets and capsules whole and intact.\n- Hemoglobin ≥10.0 g/dL except if anemia is due to potentially reversible and manageable etiology (e.g. bleeding from tumor lesion)\n- Creatinine clearance ≥60 mL/min calculated using Cockcroft-Gault equation or measured by 24-hour urine collection. For patients 12 to 17 years of age, renal function should be calculated using Cockcroft-Gault or institutional standard, including institutional formula specific for this age group.\n\nExclusion Criteria:\n- Chemotherapy or small molecule antineoplastic agent given within 21 days or <5 halflives,\nand monoclonal antibodies given within 28 days or <5 half-lives, whichever is shorter, prior to first dose of study drug.\n- Presence of other known second malignancy with the exception of any cancer that has been in complete remission for ≥ 2 years or completely resected squamous and basal cell carcinomas of the skin.\n- Prior therapy with a PKMYT1 or WEE1 inhibitor.\n- Patients who are unable to swallow oral tablets and capsules whole and intact\n- Clinically significant gastrointestinal abnormality that would affect the absorption of drugs, such as malabsorption syndrome, major resection of the small bowel, total gastrectomy, or inflammatory bowel disease.\n- Major surgery (excluding placement of vascular access) within 4 weeks prior to first dose of study drug.\n- Uncontrolled, symptomatic brain metastases.\n- Uncontrolled hypertension (systolic blood pressure ≥160 mmHg; diastolic blood pressure ≥100 mmHg) despite adequate treatment prior to first dose of study drug.\n- Patients with active, uncontrolled bacterial, fungal, or viral infection, including hepatitis B virus (HBV), hepatitis C virus (HCV), known human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) related illness.\n- Moderate or severe hepatic impairment (ie, Child-Pugh class B or C).\n- Mean resting QT interval corrected for heart rate (QTc) interval using the Fridericia formula (QTcF) >450 msec (as calculated per institutional standards) obtained from 3 ECGs ≥1 minute apart at study entry.\n- Current treatment with medications that are well-known to prolong the QT interval or with known risk of TdP (Appendix 2). If patients are on these medications, a wash-out period of at least 5 half-lives is needed prior to receiving the treatment.\n- Immunization with live or live-attenuated vaccine within 28 days prior to study inclusion or planned injection of live or live-attenuated vaccine.",
       "Contacts": "PI: Dr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
-      "Study status": "Active",
-      "Schema image": null
-    },
-    {
-      "Disease Setting": "2L+",
-      "Trial Name": "Phase 1 of NDI-219216 in Patients with Advanced Solid Tumors with MSI-H/dMMR",
-      "Full title": "A Phase 1 Open-label, Multi-center Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Antitumor Activity of NDI-219216 as a Single Agent in Patients with Advanced Solid Tumors with and without Microsatellite Instability and/or Deficient Mismatch Repair",
-      "Additional notes": "Solid tumor patients with MSI-H/dMMR\nProgressed or intolerant of SOC",
-      "Tissue Requirements": "Archival tissue",
-      "Trial Intervention/Arms": "NDI-219216 (Werner helicase inhibitor) orally daily ",
-      "Eligibility ": "MSI-H/dMMR\nProgressed or intolerant of SOC",
-      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
-      "NCT number": "NCT06898450",
       "Study status": "Active",
       "Schema image": null
     }
@@ -405,7 +392,7 @@
       "Full title": "A Multicenter, Open-label, First-in-Human Study of TYRA-430 in Advanced Hepatocellular Carcinoma and Other Solid Tumors with Activating FGF/FGFR pathway aberrations",
       "Additional notes": "Participating in Part A\n\nWaitlist for spots. ",
       "Tissue Requirements": "Archival FFPE block (less than two years old). If unavailable, fresh biopsy if deemed medically safe by physician. ",
-      "Biomarker/unselected": "FGF/FGFR",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "TYRA-430",
       "Eligibility ": "Adults with histologically confirmed HCC, or advanced solid tumors with any FGF/FGFR pathway alteration.\nChild-Pugh Score class A.",
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca\n\nCoordinator: \nStephen Lam",
@@ -1714,11 +1701,6 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-02-04T09:41:02"
-      },
-      {
-        "Trial Name": "TYR430-101",
-        "change": "modified",
-        "timestamp": "2026-02-20T11:08:30"
       }
     ],
     "Gastroesophageal": [
@@ -2799,16 +2781,6 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-02-04T09:41:02"
-      },
-      {
-        "Trial Name": "GSK223675 ",
-        "change": "modified",
-        "timestamp": "2026-02-04T15:31:29"
-      },
-      {
-        "Trial Name": "Phase 1 of NDI-219216 in Patients with Advanced Solid Tumors with MSI-H/dMMR",
-        "change": "added",
-        "timestamp": "2026-02-20T11:08:30"
       }
     ],
     "GE": [
