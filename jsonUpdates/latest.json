@@ -36,7 +36,7 @@
       "Eligibility ": "Inclusion criteria:\nNo radiological evidence of liver metastasis.\nPresence of measurable disease by RECIST 1.1 criteria.\nNo prior systemic therapy for mCRC, except for neoadjuvant/adjuvant chemotherapy where > 6 months have elapsed between completion and recurrence.\nKnown pMMR/MSS status\nExclusion criteria:\nActive or prior documented autoimmune or inflammatory disorders or cardiac conditions.\nPrior history of hypertensive crisis or hypertensive encephalopathy or bleeding risks.\nDeep venous thrombosis, pulmonary embolism, arterial thrombosis, transient ischemic attack or cerebrovascular accident.\nPrior exposure to immune mediated therapy.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06792695",
-      "Study status": "Active",
+      "Study status": "Not recruiting",
       "Schema image": "NCT06792695.png"
     },
     {
@@ -258,7 +258,7 @@
       "Schema image": null
     },
     {
-      "Disease Setting": "Curative",
+      "Disease Setting": "Resectable",
       "Trial Name": "DEFEAT",
       "Full title": "Deciphering Factors of Treatment Resistance in Gastrointestinal Cancers",
       "Additional notes": "Prospective collection of clinical data, tissue",
@@ -272,7 +272,7 @@
       "Schema image": null
     },
     {
-      "Disease Setting": "Curative",
+      "Disease Setting": "Resectable",
       "Trial Name": "NEEDS",
       "Full title": "Neoadjuvant Chemoradiotherapy and Surgery for Esophageal Squamous Cell Carcinoma Versus Definitive Chemoradiotherapy With Salvage Surgery as Needed",
       "Additional notes": null,
@@ -359,7 +359,7 @@
     },
     {
       "Disease Setting": "1st Line ",
-      "Trial Name": "HE.2",
+      "Trial Name": "HE.2 (SLIDE-HCC)",
       "Full title": "A Phase II Study of STRIDE (Durvalumab + Tremelimumab) with Lenvatinib Versus Stride Alone in Patients with Unresectable Hepatocellular Carcinoma (SLIDE-HCC)",
       "Additional notes": null,
       "Tissue Requirements": "Archival tumor tissue (optional). \n\n1 FFPE block, >30% cellularity, sufficient for 20 x 5-10 micron sections to be cut. \n\nTo be submitted within 4 weeks after randomization. ",
@@ -487,7 +487,7 @@
     },
     {
       "Disease Setting": "1st line",
-      "Trial Name": "\nHERIZON-BTC-302 (Sponsor: Jazz pharma)",
+      "Trial Name": "HERIZON-BTC-302 (Sponsor: Jazz pharma)",
       "Full title": "An Open-label Randomized Trial of the Efficacy and Safety of Zanidatamab With Standard-of-care Therapy Against Standard-of-care Therapy Alone for Advanced HER2-positive Biliary Tract Cancer",
       "Additional notes": "Patient must be randomized before starting C3. ",
       "Tissue Requirements": "Fresh biopsy or archival (up to 6 months old). ",
@@ -511,34 +511,6 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06219941",
       "Study status": "Not Recruiting",
-      "Schema image": null
-    },
-    {
-      "Disease Setting": "2nd line",
-      "Trial Name": "ProvIHDe",
-      "Full title": "An Open-Label Early Access Phase 3b Study of Ivosidenib in Patients With a Pretreated Locally Advanced or Metastatic Cholangiocarcinoma",
-      "Additional notes": "PMH slots have been filled. Request additional slot from Sponsor",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": "IDH1",
-      "Trial Intervention/Arms": "Ivosidenib",
-      "Eligibility ": "IDH1+\nNot eligible for curative-intent resection, transplantation, or ablative therapies\nHave tried at least 1 prior type of systemic therapy for CCA, and have recovered from any side effects\nExcluded if received a prior IDH1 inhibitor or a transplant",
-      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
-      "NCT number": "NCT05876754",
-      "Study status": "Active",
-      "Schema image": null
-    },
-    {
-      "Disease Setting": "Any line",
-      "Trial Name": "CGT4859 ",
-      "Full title": "A Phase I/II Study of an FGFR2/​3 Inhibitor (CGT4859) in Patients With Cholangiocarcinoma and Other Advanced Solid Tumors",
-      "Additional notes": null,
-      "Tissue Requirements": null,
-      "Biomarker/unselected": "FGFR2\nFGFR3",
-      "Trial Intervention/Arms": "CGT4859 ",
-      "Eligibility ": "FGFR2 fusions.\nExcluded if received more than 2 prior FGFRi therapies.\nHave measurable disease per RECIST v1.1.\n",
-      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nPrimary CRC:\nStephen Lam\nstephen.lam@uhn.ca",
-      "NCT number": "NCT06777316",
-      "Study status": "Active",
       "Schema image": null
     },
     {
@@ -594,6 +566,20 @@
       "Eligibility ": "Age >18 years.\nDiagnosis of biliary tract or pancreatic cancer at any stage, confirmed by pathology, radiology or multidisciplinary review.\nUnderwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.\nAble to read and understand English.",
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinator:\nErin Winter\nErin.Winter@uhn.ca",
       "NCT number": null,
+      "Study status": "Active",
+      "Schema image": null
+    },
+    {
+      "Disease Setting": "Neoadjuvant",
+      "Trial Name": "NEOLANGIO",
+      "Full title": "Perioperative Therapy With Gemcitabine/Cisplatin/Nab-Paclitaxel and Rilvegostomig for Patients With Resectable Intrahepatic Cholangiocarcinoma (iCCA) - A Phase II Trial",
+      "Additional notes": "resectable intrahepatic Cholangiocarcinoma",
+      "Tissue Requirements": "Archival or fresh biopsy required",
+      "Biomarker/unselected": "none",
+      "Trial Intervention/Arms": "Single arm study - all participants receive 2 pre-op and 4 post-op cycles of Gem/Cis /Nab-Paclitaxel and Rilvegostomig (Q3W), followed by maintenance Rilvegostomig ",
+      "Eligibility ": "Age >18 years;\nCapable of informed consent;\nHistologically-proven iCCA;\nComplete surgical resection must be achievable;\nNo evidence of metastatic disease; \nECOG 0 or 1\n\n",
+      "Contacts": "Site PI:\nDr Arndt Vogel\nTrial Nurse:\nGuillaume Cheung",
+      "NCT number": "NCT06569225",
       "Study status": "Active",
       "Schema image": null
     }
@@ -965,6 +951,34 @@
       "Eligibility ": "Patients diagnosed with PDAC on chemotherapy",
       "Contacts": "Coordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
+      "Schema image": null
+    },
+    {
+      "Organ group": "CCA",
+      "Disease Setting": "Any line",
+      "Trial Name": "CGT4859 ",
+      "Full title": "A Phase I/II Study of an FGFR2/​3 Inhibitor (CGT4859) in Patients With Cholangiocarcinoma and Other Advanced Solid Tumors",
+      "Additional notes": null,
+      "Tissue Requirements": null,
+      "Biomarker/unselected": "FGFR2\nFGFR3",
+      "Trial Intervention/Arms": "CGT4859 ",
+      "Eligibility ": "FGFR2 fusions.\nExcluded if received more than 2 prior FGFRi therapies.\nHave measurable disease per RECIST v1.1.\n",
+      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nPrimary CRC:\nStephen Lam\nstephen.lam@uhn.ca",
+      "NCT number": "NCT06777316",
+      "Schema image": null
+    },
+    {
+      "Organ group": "CCA",
+      "Disease Setting": "2nd line",
+      "Trial Name": "ProvIHDe",
+      "Full title": "An Open-Label Early Access Phase 3b Study of Ivosidenib in Patients With a Pretreated Locally Advanced or Metastatic Cholangiocarcinoma",
+      "Additional notes": "PMH slots have been filled. Request additional slot from Sponsor",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": "IDH1",
+      "Trial Intervention/Arms": "Ivosidenib",
+      "Eligibility ": "IDH1+\nNot eligible for curative-intent resection, transplantation, or ablative therapies\nHave tried at least 1 prior type of systemic therapy for CCA, and have recovered from any side effects\nExcluded if received a prior IDH1 inhibitor or a transplant",
+      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
+      "NCT number": "NCT05876754",
       "Schema image": null
     }
   ],
@@ -1752,6 +1766,11 @@
         "Trial Name": "TYR430-101",
         "change": "modified",
         "timestamp": "2026-02-20T11:08:30"
+      },
+      {
+        "Trial Name": "HE.2 (SLIDE-HCC)",
+        "change": "added",
+        "timestamp": "2026-02-23T14:39:13"
       }
     ],
     "Gastroesophageal": [
@@ -2186,6 +2205,16 @@
         "Trial Name": "CAN-PREFER",
         "change": "added",
         "timestamp": "2026-02-23T13:18:05"
+      },
+      {
+        "Trial Name": "HERIZON-BTC-302 (Sponsor: Jazz pharma)",
+        "change": "added",
+        "timestamp": "2026-02-23T14:39:13"
+      },
+      {
+        "Trial Name": "NEOLANGIO",
+        "change": "added",
+        "timestamp": "2026-02-23T14:39:13"
       }
     ],
     "Preactivation": [
@@ -2265,6 +2294,16 @@
         "Trial Name": "NUANCE\n\n",
         "change": "modified",
         "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "CGT4859 ",
+        "change": "added",
+        "timestamp": "2026-02-23T14:39:13"
+      },
+      {
+        "Trial Name": "ProvIHDe",
+        "change": "added",
+        "timestamp": "2026-02-23T14:39:13"
       }
     ],
     "CRC": [
@@ -2847,6 +2886,11 @@
         "Trial Name": "Phase 1 of NDI-219216 in Patients with Advanced Solid Tumors with MSI-H/dMMR",
         "change": "added",
         "timestamp": "2026-02-20T11:08:30"
+      },
+      {
+        "Trial Name": "D798VC00001 (CANTOR)",
+        "change": "modified",
+        "timestamp": "2026-02-23T14:39:13"
       }
     ],
     "GE": [
@@ -2969,6 +3013,16 @@
         "Trial Name": "AndroMETa-GEA-977",
         "change": "modified",
         "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "DEFEAT",
+        "change": "modified",
+        "timestamp": "2026-02-23T14:39:13"
+      },
+      {
+        "Trial Name": "NEEDS",
+        "change": "modified",
+        "timestamp": "2026-02-23T14:39:13"
       }
     ],
     "pNET": [
