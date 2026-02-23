@@ -503,7 +503,7 @@
       "Disease Setting": "2nd or 3rd line",
       "Trial Name": "CLARITY-PanTumour01",
       "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2 (CLARITY-PanTumour01)",
-      "Additional notes": "BTC cohort:\nPre-screening & screening on hold until end of Q1 2026.",
+      "Additional notes": "BTC cohort:\nPre-screening & screening on hold until May/June of 2026.",
       "Tissue Requirements": null,
       "Biomarker/unselected": "CLDN18.2",
       "Trial Intervention/Arms": "AZD0901 monotherapy",
@@ -582,6 +582,20 @@
       "NCT number": "NCT06569225",
       "Study status": "Active",
       "Schema image": null
+    },
+    {
+      "Disease Setting": "2nd or later lines",
+      "Trial Name": "BLUESTAR (D6900C00001)",
+      "Full title": "A Phase I/IIa Multi-center, Open-label Master Protocol Dose Escalation and Expansion Study of AZD8205 as Monotherapy and in Combination with Anticancer Agents in Participants with Advanced Solid Tumors (BLUESTAR) ",
+      "Additional notes": "Status: GI cohort is currently closed to accrual. \n\nMandatory pre-screening phase for all consenting patients in Parts A and B.\n\nMust have received at least 1 line but no more than 2 prior systemic lines of therapy for metastatic/relapsed disease.\nSub-study 2 will evaluate the safety, tolerability, pharmacokinetics, pharmacodynamics, and antitumor activity of AZD8205 when given in combination with rilvegostomig (AZD2936) in participants with B7-H4 expressing advanced tumors. Part A (dose escalation) will evaluate the safety and tolerability of AZD8205 in combination with rilvegostomig (anti-TIGIT/anti-PD-1) in participants with positive levels of B7-H4 tumor expression to determine a maximum tolerated dose (MTD) and/or recommended Phase 2 dose (RP2D).",
+      "Tissue Requirements": "Mandatory FFPE tumor sample at the time of diagnosis of met or LA disease (in case multiple samples are available, the most recent sample must be provided, preferentially up to 3 years old), unless this is not available, when a tumor sample from diagnosis could be provided, 3-4 cores required for fresh tissue. For archival tissue slides, minimum of 10-20 additional unstained slides.",
+      "Biomarker/unselected": "B7-H4",
+      "Trial Intervention/Arms": "1.6 mg/kg (AZD8205) Q3W and 750 mg (rilvegostomig) Q3W. In each dose escalation cohort, a minimum of 3 participants will initially be planned to be dosed. If significant toxicities are observed during the first cycle for any of the first 3 participants, further enrollment into the cohort will be halted until the SRC has reviewed all the safety and PK data related to the participant and cumulative data from all participants dosed in the sub-study to determine appropriate action.",
+      "Eligibility ": "Documented positive B7-H4 expression by prospective central testing on the tumor \nsample provided during pre-screening\n\n− Histologically/cytologically verified, non resectable, recurrent, or metastatic biliary tract carcinoma including intrahepatic cholangiocarcinoma, extrahepatic (hilar, distal) cholangiocarcinoma, and gallbladder carcinoma (NOTE: Ampullary cancers are not eligible).\n− Participants must have received at least 1 but no more than 2 prior systemic lines of  therapy for metastatic/relapsed disease as follows:\no Adjuvant chemotherapy will be considered as one line of therapy if recurrence occurs during or within 6 months after adjuvant chemotherapy has ended.\no Participants with actionable genomic alterations (eg, BRAF V600E mutations, fibroblast growth factor receptor fusions or isocitrate dehydrogenase mutations) may have received targeted therapy as per local practice.\no Therapy changed due to toxicity or intolerance in the absence of progression will be considered part of the same line (ie, not counted independently).",
+      "Contacts": "Site PI: \nDr. Amit Oza\nAmit.Oza@uhn.ca\n\nCoordinator: \nDowon Choi\ndowon.choi@uhn.ca\n416-946-4501 ext. 4713",
+      "NCT number": "NCT05123482",
+      "Study status": "Not Recruiting",
+      "Schema image": null
     }
   ],
   "PDAC": [
@@ -643,34 +657,6 @@
     },
     {
       "Disease Setting": "1L Metastatic",
-      "Trial Name": "CLARITY-PanTumour01\n\n",
-      "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2",
-      "Additional notes": "Neoadjuvant/adjuvant chemo allowed if progressed \n≥ 6 months since last dose.\n\nOn hold.",
-      "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue ",
-      "Biomarker/unselected": "CLDN18.2",
-      "Trial Intervention/Arms": "Arm1: AZD0901 in combination with 5FU/leucovorin and Irinotecan or nanoliposomal Irinotecan  \n\nArm2 (CLOSED): AZD0901 combination with Gemcitabine ",
-      "Eligibility ": "Inclusion: \nCLDN18.2 positive\nat least one measurable lesion according to RECIST v1.1.\nLife expectancy of ≥ 12 weeks.\nExclusion:\nUnstable or active peptic ulcer disease or digestive tract bleeding including but not limited to clinically significant bleeding in the setting of prior CLDN18.2 directed therapy.\nClinically significant ascites that require drainage.\nHistory of another primary malignancy.",
-      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nCoordinator (Pre-screen):  \nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757\n\nCoordinator (Screen): \nGuillaume Cheung\nguillaume.cheung@uhn.ca\nTel: 416-946-4501 ext. 4727",
-      "NCT number": "NCT06219941",
-      "Study status": "Not Recruiting",
-      "Schema image": null
-    },
-    {
-      "Disease Setting": "1L Metastatic",
-      "Trial Name": "20230223 (AMG193) - MTAP Deletion\n",
-      "Full title": "A Study Evaluating AMG 193 in Combination With Other Therapies in Participants With Advanced Gastrointestinal, Biliary Tract, or Pancreatic Cancers With Homozygous Methylthioadenosine Phosphorylase (MTAP)-Deletion",
-      "Additional notes": "MTAP deletion, NGS pre-screening through Foundation Medicine included in study. ",
-      "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue",
-      "Biomarker/unselected": "MTAP",
-      "Trial Intervention/Arms": "AMG 193 alone or in combination with mFOLFIRINOX or with Gemcitabine and Nab-paclitaxel \n\nActive arm: AMG 193 + mFFX",
-      "Eligibility ": "Inclusion:\nECOG 0-1 \nTumor tissue (FFPE sample) or an archival block (16 slides) must be available. Participants without archived tumor tissue available may be allowed to enroll by undergoing tumor biopsy before dosing.\nHomozygous MTAP-deletion\nDisease measurable as defined by RECIST v1.1.\nExclusion:\nPrior systemic therapy for advanced or unresectable (locally advanced) adenocarcinoma of the pancreas.\nPrior treatment with a MAT2A inhibitor or a PRMT5 inhibitor.\nRadiation therapy within 28 days of first dose.\n",
-      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nOchir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca \n\nMaggie Hildebrand \nMaggie.Hildebrand@uhn.ca",
-      "NCT number": "NCT06360354",
-      "Study status": "Not Recruiting",
-      "Schema image": null
-    },
-    {
-      "Disease Setting": "1L Metastatic",
       "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
       "Full title": "Pancreatic Cancer Glucose Assessment and Regulation Study",
       "Additional notes": "Metastatic PDAC to start 1L. FOLFIRINOX, no prior diabetes diagnosis\nHbA1C < 6.5% ",
@@ -681,7 +667,7 @@
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": "NCT05132244",
       "Study status": "Not Recruiting",
-      "Schema image": "NCT05132244.png"
+      "Schema image": null
     },
     {
       "Disease Setting": "2L Metastatic+",
@@ -695,7 +681,7 @@
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
       "NCT number": "NCT04890613",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": "NCT05132244.png"
     },
     {
       "Disease Setting": "2L Metastatic+",
@@ -709,7 +695,7 @@
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinator:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
       "NCT number": "NCT06813079",
       "Study status": "Active",
-      "Schema image": "NCT06813079.png"
+      "Schema image": null
     },
     {
       "Disease Setting": "2L Metastatic+",
@@ -723,21 +709,7 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nNurse: \nDowon Choi/Sarah Eng\n\nCDC: \nDivakar Harihar Kanpure",
       "NCT number": "NCT04421820",
       "Study status": "Active",
-      "Schema image": null
-    },
-    {
-      "Disease Setting": "2L Metastatic+",
-      "Trial Name": "Platinum-Can\n\n\n",
-      "Full title": "Comparing Second-Line NABPLAGEM vs. Nab-paclitaxel/Gemcitabine in BRCA1/2 or PALB2 Mutant Metastatic Pancreatic Ductal Adenocarcinoma",
-      "Additional notes": null,
-      "Tissue Requirements": "Archival tumour tissue unstained slides.",
-      "Biomarker/unselected": "BRCA1/2 or PALB2",
-      "Trial Intervention/Arms": "NABPLAGEM VS. nab-paclitaxel and gemcitabine\n",
-      "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma, adenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nExclusion:\nNo prior Cisplatin",
-      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nDowon Choi\nDowon.Choi@uhn.ca\nPhone: 416-946-4501 x 4713",
-      "NCT number": "NCT06783140",
-      "Study status": "Active",
-      "Schema image": null
+      "Schema image": "NCT06813079.png"
     },
     {
       "Disease Setting": "Non-Therapeutic",
@@ -793,7 +765,7 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06885034",
       "Study status": "Not Recruiting",
-      "Schema image": "NCT06885034.png"
+      "Schema image": null
     },
     {
       "Disease Setting": "Any line",
@@ -807,7 +779,7 @@
       "Contacts": "PI: Dr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": "NCT06885034.png"
     },
     {
       "Disease Setting": "1L Metastatic",
@@ -821,7 +793,7 @@
       "Contacts": "Site PI:\nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Coordinator:\nSerena (Ching) Kao",
       "NCT number": "NCT07076121",
       "Study status": "Active",
-      "Schema image": "NCT07076121.png"
+      "Schema image": null
     },
     {
       "Disease Setting": "Non-Therapeutic",
@@ -835,7 +807,7 @@
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": "NCT07076121.png"
     }
   ],
   "pNET": [
@@ -896,20 +868,6 @@
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nOchir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca ",
       "NCT number": "NCT06608927",
       "Schema image": null
-    },
-    {
-      "Organ group": "CCA",
-      "Disease Setting": "Adjuvant",
-      "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
-      "Full title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter, Global Study of Rilvegostomig in Combination With Chemotherapy as Adjuvant Treatment After Resection of Biliary Tract Cancer With Curative Intent (ARTEMIDE-Biliary01)",
-      "Additional notes": "UHN has reached target enrollment. Additional slots may be available - request from Sponsor",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "A: rilvegostomig + SOC\nB: placebo + SOC",
-      "Eligibility ": "R0/R1 resection, within 12 weeks\nNo ampullary/NET",
-      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131",
-      "NCT number": "NCT06109779",
-      "Schema image": "NCT06109779.png"
     },
     {
       "Organ group": "PDAC",
@@ -979,6 +937,48 @@
       "Eligibility ": "IDH1+\nNot eligible for curative-intent resection, transplantation, or ablative therapies\nHave tried at least 1 prior type of systemic therapy for CCA, and have recovered from any side effects\nExcluded if received a prior IDH1 inhibitor or a transplant",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
       "NCT number": "NCT05876754",
+      "Schema image": null
+    },
+    {
+      "Organ group": "PDAC",
+      "Disease Setting": "2L Metastatic+",
+      "Trial Name": "Platinum-Can\n\n\n",
+      "Full title": "Comparing Second-Line NABPLAGEM vs. Nab-paclitaxel/Gemcitabine in BRCA1/2 or PALB2 Mutant Metastatic Pancreatic Ductal Adenocarcinoma",
+      "Additional notes": null,
+      "Tissue Requirements": "Archival tumour tissue unstained slides.",
+      "Biomarker/unselected": "BRCA1/2 or PALB2",
+      "Trial Intervention/Arms": "NABPLAGEM VS. nab-paclitaxel and gemcitabine\n",
+      "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma, adenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nExclusion:\nNo prior Cisplatin",
+      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nDowon Choi\nDowon.Choi@uhn.ca\nPhone: 416-946-4501 x 4713",
+      "NCT number": "NCT06783140",
+      "Schema image": null
+    },
+    {
+      "Organ group": "PDAC",
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "20230223 (AMG193) - MTAP Deletion\n",
+      "Full title": "A Study Evaluating AMG 193 in Combination With Other Therapies in Participants With Advanced Gastrointestinal, Biliary Tract, or Pancreatic Cancers With Homozygous Methylthioadenosine Phosphorylase (MTAP)-Deletion",
+      "Additional notes": "MTAP deletion, NGS pre-screening through Foundation Medicine included in study. ",
+      "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue",
+      "Biomarker/unselected": "MTAP",
+      "Trial Intervention/Arms": "AMG 193 alone or in combination with mFOLFIRINOX or with Gemcitabine and Nab-paclitaxel \n\nActive arm: AMG 193 + mFFX",
+      "Eligibility ": "Inclusion:\nECOG 0-1 \nTumor tissue (FFPE sample) or an archival block (16 slides) must be available. Participants without archived tumor tissue available may be allowed to enroll by undergoing tumor biopsy before dosing.\nHomozygous MTAP-deletion\nDisease measurable as defined by RECIST v1.1.\nExclusion:\nPrior systemic therapy for advanced or unresectable (locally advanced) adenocarcinoma of the pancreas.\nPrior treatment with a MAT2A inhibitor or a PRMT5 inhibitor.\nRadiation therapy within 28 days of first dose.\n",
+      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nOchir Gansukh\n416-946-4501 ext. 4551\nochir.gansukh@uhn.ca \n\nMaggie Hildebrand \nMaggie.Hildebrand@uhn.ca",
+      "NCT number": "NCT06360354",
+      "Schema image": null
+    },
+    {
+      "Organ group": "PDAC",
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "CLARITY-PanTumour01\n\n",
+      "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2",
+      "Additional notes": "Neoadjuvant/adjuvant chemo allowed if progressed \n≥ 6 months since last dose.\n",
+      "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue ",
+      "Biomarker/unselected": "CLDN18.2",
+      "Trial Intervention/Arms": "Arm1: AZD0901 in combination with 5FU/leucovorin and Irinotecan or nanoliposomal Irinotecan  \n\nArm2: AZD0901 combination with Gemcitabine ",
+      "Eligibility ": "Inclusion: \nCLDN18.2 positive\nat least one measurable lesion according to RECIST v1.1.\nLife expectancy of ≥ 12 weeks.\nExclusion:\nUnstable or active peptic ulcer disease or digestive tract bleeding including but not limited to clinically significant bleeding in the setting of prior CLDN18.2 directed therapy.\nClinically significant ascites that require drainage.\nHistory of another primary malignancy.",
+      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nCoordinator (Pre-screen):  \nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757\n\nCoordinator (Screen): \nGuillaume Cheung\nguillaume.cheung@uhn.ca\nTel: 416-946-4501 ext. 4727",
+      "NCT number": "NCT06219941",
       "Schema image": null
     }
   ],
@@ -1424,6 +1424,46 @@
         "Trial Name": "CAN-PREFER",
         "change": "added",
         "timestamp": "2026-02-23T13:18:05"
+      },
+      {
+        "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "OZM-114\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "ADOPT\n\n\n",
+        "change": "modified",
+        "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "BOLD-100-001\n\n \n\n",
+        "change": "modified",
+        "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "GSK223675",
+        "change": "modified",
+        "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "CA240-0030",
+        "change": "modified",
+        "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "CAN-PREFER",
+        "change": "modified",
+        "timestamp": "2026-02-23T17:22:21"
       }
     ],
     "HCC": [
@@ -2220,6 +2260,16 @@
         "Trial Name": "NEOLANGIO",
         "change": "modified",
         "timestamp": "2026-02-23T14:47:59"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01",
+        "change": "modified",
+        "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "BLUESTAR (D6900C00001)",
+        "change": "added",
+        "timestamp": "2026-02-23T17:22:21"
       }
     ],
     "Preactivation": [
@@ -2309,6 +2359,21 @@
         "Trial Name": "ProvIHDe",
         "change": "added",
         "timestamp": "2026-02-23T14:39:13"
+      },
+      {
+        "Trial Name": "Platinum-Can\n\n\n",
+        "change": "added",
+        "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "20230223 (AMG193) - MTAP Deletion\n",
+        "change": "added",
+        "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01\n\n",
+        "change": "added",
+        "timestamp": "2026-02-23T17:22:21"
       }
     ],
     "CRC": [
