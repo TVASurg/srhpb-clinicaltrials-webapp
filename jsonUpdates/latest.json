@@ -575,10 +575,10 @@
       "Full title": "Perioperative Therapy With Gemcitabine/Cisplatin/Nab-Paclitaxel and Rilvegostomig for Patients With Resectable Intrahepatic Cholangiocarcinoma (iCCA) - A Phase II Trial",
       "Additional notes": "resectable intrahepatic Cholangiocarcinoma",
       "Tissue Requirements": "Archival or fresh biopsy required",
-      "Biomarker/unselected": "none",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Single arm study - all participants receive 2 pre-op and 4 post-op cycles of Gem/Cis /Nab-Paclitaxel and Rilvegostomig (Q3W), followed by maintenance Rilvegostomig ",
       "Eligibility ": "Age >18 years;\nCapable of informed consent;\nHistologically-proven iCCA;\nComplete surgical resection must be achievable;\nNo evidence of metastatic disease; \nECOG 0 or 1\n\n",
-      "Contacts": "Site PI:\nDr Arndt Vogel\nTrial Nurse:\nGuillaume Cheung",
+      "Contacts": "Site PI:\nDr Arndt Vogel\narndt.vogel@uhn.ca\n\nTrial Nurse:\nGuillaume Cheung\nguillaume.cheung@uhn.ca",
       "NCT number": "NCT06569225",
       "Study status": "Active",
       "Schema image": null
@@ -2215,6 +2215,11 @@
         "Trial Name": "NEOLANGIO",
         "change": "added",
         "timestamp": "2026-02-23T14:39:13"
+      },
+      {
+        "Trial Name": "NEOLANGIO",
+        "change": "modified",
+        "timestamp": "2026-02-23T14:47:59"
       }
     ],
     "Preactivation": [
