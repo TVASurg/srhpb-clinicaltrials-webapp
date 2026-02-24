@@ -272,7 +272,7 @@
       "Schema image": null
     },
     {
-      "Disease Setting": "Resectable",
+      "Disease Setting": "Prior to any systemic treatment ",
       "Trial Name": "NEEDS",
       "Full title": "Neoadjuvant Chemoradiotherapy and Surgery for Esophageal Squamous Cell Carcinoma Versus Definitive Chemoradiotherapy With Salvage Surgery as Needed",
       "Additional notes": null,
@@ -3113,6 +3113,11 @@
         "Trial Name": "NEEDS",
         "change": "modified",
         "timestamp": "2026-02-23T14:39:13"
+      },
+      {
+        "Trial Name": "NEEDS",
+        "change": "modified",
+        "timestamp": "2026-02-24T10:18:44"
       }
     ],
     "pNET": [
