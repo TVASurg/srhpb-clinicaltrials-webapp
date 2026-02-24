@@ -787,7 +787,7 @@
       "Full title": "A Randomized, Phase 2/3 Study Comparing BMS-986504 in Combination with Nab-paclitaxel and Gemcitabine versus Placebo in Combination with Nab-paclitaxel and Gemcitabine in Participants with Untreated Metastatic Pancreatic Ductal Adenocarcinoma Harboring Homozygous MTAP Deletion",
       "Additional notes": "This Phase 2/3 study will evaluate the safety and efficacy of BMS-986504 in combination with nab-p/gem as first-line therapy in previously untreated participants with metastatic PDAC with homozygous MTAP deletion",
       "Tissue Requirements": "Fresh tumor tissue or archival tissue that's obtained within 5 years prior to randomization must be submitted during pre-screening. Eligibility is based on evidence of homozygous MTAP deletion or MTAP loss detected in tumor tissue using Sponsor-provided central test or a Sponsor pre-approved local test. Turnaround time for central FMI testing is 14 calendar days. If participants receive up to 1 cycle of nab-p/gem prior to randomization, tumor tissue must be collected prior to starting nab-p/gem. For fresh tumor tissue, collect 3 research cores.",
-      "Biomarker/unselected": "Homozygous MTAP deletion or MTAP loss",
+      "Biomarker/unselected": "MTAP",
       "Trial Intervention/Arms": "Phase 2:\nArm A- BMS-986504 400 mg QD + nab-paclitaxel & gemcitabine\nArm B- BMS-986504 600 mg QD + nab-paclitaxel & gemcitabine\nArm C- Placebo 400 mg QD + nab-paclitaxel & gemcitabine\nArm D- Placebo 600 mg QD + nab-paclitaxel & gemcitabine\n \nPhase 3:\nArm E- BMS-986504 RP3D + nab-paclitaxel & gemcitabine\nArm F- Placebo + nab-paclitaxel & gemcitabine",
       "Eligibility ": "Inclusion:\n• Histologically or cytologically confirmed diagnosis of metastatic PDAC\n• Confirmed MTAP deletion or MTAP loss (pre-screening)\n• Must not have received any systemic anticancer treatments in the metastatic setting. May receive up to 1 cycle of nab-p/gem in the metastatic setting but must not have progressed or required discontinuation due to intolerable toxicity. Last dose of initial cycle of nab-p/gem must be administered 14 days prior to randomization.\n• May have received prior adjuvant and/or neoadjuvant treatments as long as disease did not progress within 6 months of completion of treatment\n• At least one measurable lesion according to RECIST v1.1\n• ECOG 0-1\n\nExclusion:\n• Concurrent malignancy (present during screening) requiring treatment or history of prior malignancy active within 2 years prior to screening.\n• Symptomatic brain metastases\n• Known or suspected impairment of gastrointestinal function that may prohibit the ability to absorb or swallow an oral medication\n• Significant ascites that requires drainage within 1 month prior to randomization\n• Prior treatment with a PRMT5 or MAT2A inhibitor",
       "Contacts": "Site PI:\nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Coordinator:\nSerena (Ching) Kao",
@@ -1479,6 +1479,11 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-02-24T09:47:54"
+      },
+      {
+        "Trial Name": "CA240-0030",
+        "change": "modified",
+        "timestamp": "2026-02-24T13:38:44"
       }
     ],
     "HCC": [
