@@ -768,7 +768,7 @@
       "Schema image": null
     },
     {
-      "Disease Setting": "Any line",
+      "Disease Setting": "Any Line Advanced",
       "Trial Name": "Debio 0123-106",
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
@@ -825,7 +825,7 @@
       "Schema image": null
     },
     {
-      "Disease Setting": "Any line",
+      "Disease Setting": "Any Line Advanced",
       "Trial Name": "Debio 0123-106",
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
@@ -1474,6 +1474,11 @@
         "Trial Name": "CAN-PREFER",
         "change": "modified",
         "timestamp": "2026-02-24T07:41:31"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-02-24T09:47:54"
       }
     ],
     "HCC": [
@@ -3150,6 +3155,11 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-02-24T09:47:54"
       }
     ]
   }
