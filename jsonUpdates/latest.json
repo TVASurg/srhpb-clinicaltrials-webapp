@@ -595,7 +595,7 @@
       "Contacts": "Site PI: \nDr. Amit Oza\nAmit.Oza@uhn.ca\n\nCoordinator: \nDowon Choi\ndowon.choi@uhn.ca\n416-946-4501 ext. 4713",
       "NCT number": "NCT05123482",
       "Study status": "Not Recruiting",
-      "Schema image": null
+      "Schema image": "NCT05123482.png"
     }
   ],
   "PDAC": [
@@ -793,7 +793,7 @@
       "Contacts": "Site PI:\nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Coordinator:\nSerena (Ching) Kao",
       "NCT number": "NCT07076121",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": "NCT07076121.png"
     },
     {
       "Disease Setting": "Non-Therapeutic",
@@ -807,7 +807,7 @@
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": "NCT07076121.png"
+      "Schema image": null
     }
   ],
   "pNET": [
@@ -1464,6 +1464,16 @@
         "Trial Name": "CAN-PREFER",
         "change": "modified",
         "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "CA240-0030",
+        "change": "modified",
+        "timestamp": "2026-02-24T07:41:31"
+      },
+      {
+        "Trial Name": "CAN-PREFER",
+        "change": "modified",
+        "timestamp": "2026-02-24T07:41:31"
       }
     ],
     "HCC": [
@@ -2270,6 +2280,11 @@
         "Trial Name": "BLUESTAR (D6900C00001)",
         "change": "added",
         "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "BLUESTAR (D6900C00001)",
+        "change": "modified",
+        "timestamp": "2026-02-24T07:41:31"
       }
     ],
     "Preactivation": [
