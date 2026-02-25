@@ -862,6 +862,11 @@ const rows = data.CRC.map(trial =>
       value = value.split("Coordinator")[0].trim();
     }
 
+    /* if (typeof value === "string" && value.includes("Nurse")) {
+      // Keep only text before "Coordinator"
+      value = value.split("Nurse")[0].trim();
+    }*/
+
  
 
     return value;
