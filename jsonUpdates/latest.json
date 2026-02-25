@@ -567,7 +567,7 @@
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinator:\nErin Winter\nErin.Winter@uhn.ca",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": "CAN-PREFER.png"
     },
     {
       "Disease Setting": "Neoadjuvant",
@@ -807,7 +807,7 @@
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": "CAN-PREFER.png"
     }
   ],
   "pNET": [
@@ -1484,6 +1484,11 @@
         "Trial Name": "CA240-0030",
         "change": "modified",
         "timestamp": "2026-02-24T13:38:44"
+      },
+      {
+        "Trial Name": "CAN-PREFER",
+        "change": "modified",
+        "timestamp": "2026-02-25T09:17:50"
       }
     ],
     "HCC": [
@@ -2295,6 +2300,11 @@
         "Trial Name": "BLUESTAR (D6900C00001)",
         "change": "modified",
         "timestamp": "2026-02-24T07:41:31"
+      },
+      {
+        "Trial Name": "CAN-PREFER",
+        "change": "modified",
+        "timestamp": "2026-02-25T09:17:50"
       }
     ],
     "Preactivation": [
