@@ -38,7 +38,7 @@
       <div class="col-12 col-lg-3"> 
         <div class="flipNav">
           <div id="mainNavInner" class="flipNavInner">
-        <ul id ="diseaseNav" class="list-unstyled ps-0 flipNavFront">
+                <ul id ="diseaseNav" class="list-unstyled ps-0 flipNavFront">
           
           <li class="fs-5 bg-colorectal ps-2 rounded-top fw-bold border-bottom py-2 mt-1 ps-2" >Colorectal</li>
           <li class="d-grid mb-1 bg-colorectal rounded-bottom ps-2" > <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#crc-collapse" onclick="clearTrialInfo(); clearUpdateLine();">
@@ -62,6 +62,7 @@
             <div class="collapse" id="ge-collapse" >
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
                 <a role="button" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Prior')"><li class="rounded diseaseState px-3 mx-2 py-2" >Prior to systemic treatment</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Resectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Resectable</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '1')"><li class="rounded diseaseState px-3 mx-2 py-2" >1st line</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '2')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '3')"><li class="rounded diseaseState px-3 mx-2 py-2" >3rd line</li></a>
@@ -106,6 +107,7 @@
             </button>
             <div class="collapse " id="pnet-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pNET_master, 'Any')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any Line Advanced</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pNET_master, '2')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L+ Metastatic</li></a>
 
 
@@ -123,6 +125,8 @@
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, '2nd')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, '3rd')"><li class="rounded diseaseState px-3 mx-2 py-2" >3rd line</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, 'Any')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any line</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, 'Non')"><li class="rounded diseaseState px-3 mx-2 py-2" >Non-Therapeutic</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(biliary_CCA_master, 'Neoadjuvant')"><li class="rounded diseaseState px-3 mx-2 py-2" >Neoadjuvant</li></a>
               </ul>
             </div>
           </li>
