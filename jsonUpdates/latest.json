@@ -375,14 +375,14 @@
       "Disease Setting": "1st line ",
       "Trial Name": "CHS-388-202",
       "Full title": "A Randomized Phase 2 Study of Casdozokitug in Combination With Toripalimab Plus Bevacizumab in Participants With Unresectable and/or Locally Advanced or Metastatic Hepatocellular Carcinoma ",
-      "Additional notes": null,
+      "Additional notes": "SCREENING CLOSED as of 04-Mar-2026",
       "Tissue Requirements": "Baseline biopsy mandatory. \nArchival FFPE block (less than two years old), if unavailable, fresh biopsy, 3-5 cores. \n\nOn-treatment biopsy (collect between C2D1 post-dosing - C2D15): if medically feasible \n\nEOT or disease progression biopsy: Optional \n",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "• Arm A: casdozokitug 700 mg + toripalimab 240 mg + bevacizumab 15 mg/kg intravenously (IV) every 3 weeks (Q3W) on Day 1 of a 21-day cycle (n ~ 24). \n• Arm B: casdozokitug 1400 mg + toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24). \n• Arm C: toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24) ",
       "Eligibility ": "Unresectable, locally advanced or metastatic HCC. No prior systemic therapy. ",
       "Contacts": "Site PI: \nDr. Erica Tsang\nerica.tsang@uhn.ca\n416-946-4501 ext. 4853\n\nCoordinator: \nMary Wei",
       "NCT number": "NCT06679985",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": "NCT06679985.png"
     },
     {
@@ -1836,6 +1836,11 @@
         "Trial Name": "HE.2 (SLIDE-HCC)",
         "change": "added",
         "timestamp": "2026-02-23T14:39:13"
+      },
+      {
+        "Trial Name": "CHS-388-202",
+        "change": "modified",
+        "timestamp": "2026-03-04T10:06:18"
       }
     ],
     "Gastroesophageal": [
