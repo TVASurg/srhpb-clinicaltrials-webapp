@@ -163,14 +163,14 @@
       "Disease Setting": "3L+",
       "Trial Name": "Clarity-Gastric01 ",
       "Full title": "A Phase III Multi-center, Open-label, Sponsor-blinded, \nRandomized Study of AZD0901 Monotherapy Compared with \nInvestigator’s Choice of Therapy in Second- or Later-Line Adult \nParticipants with Advanced/Metastatic Gastric or \nGastroesophageal Junction Adenocarcinoma Expressing \nClaudin18.2",
-      "Additional notes": null,
+      "Additional notes": "Enrollment on HOLD (11Mar2026)",
       "Tissue Requirements": "Archival tissue (≤24 months); fresh tissue (3xT cores) ",
       "Biomarker/unselected": "CLDN18.2",
       "Trial Intervention/Arms": "AZD0901 vs physician’s choice \nArm 1: Participants in the AZD0901 arm 1 will receive 2.2 mg/kg AZD0901 IV, Q3W\nArm 2: Participants in the AZD0901 arm 2 will receive 1.8 mg/kg AZD0901 IV, Q3W (Discontinued following dose selection made on Jan 2025)\n Arm 3: Regimen of \nInvestigator’s choice. These include:\n- 2L: Ramucirumab 8 mg/kg IV on Days 1 and 15 and paclitaxel 80 mg/m2 IV on Days 1, 8, and 15, Q4W\n- 2L: Paclitaxel 80 mg/m2 IV on Days 1, 8, and 15, Q4W (for participants with contraindication to ramucirumab only)\n- 2L: Docetaxel 75-100 mg/m2 IV on Day 1, Q3W (for participants with contraindication to ramucirumab only)\n- 3L+: Irinotecan 150-180 mg/m2 IV on Days 1 and 15, Q4W [As of 16Jul25, Slot Request Form need to be sent to sponsor for eligibility]",
       "Eligibility ": "Disease progression on or after at least one prior line of treatment (LoT) for advanced or metastatic disease, which included a fluoropyrimidine and a platinum, for advanced or metastatic disease.\nMust have at least one measurable or evaluable lesion assessed by the Investigator based on RECIST 1.1.",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06346392",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": "NCT06346392.png"
     },
     {
@@ -370,20 +370,6 @@
       "NCT number": "NCT06880523",
       "Study status": "Active",
       "Schema image": "NCT06880523.png"
-    },
-    {
-      "Disease Setting": "1st line ",
-      "Trial Name": "CHS-388-202",
-      "Full title": "A Randomized Phase 2 Study of Casdozokitug in Combination With Toripalimab Plus Bevacizumab in Participants With Unresectable and/or Locally Advanced or Metastatic Hepatocellular Carcinoma ",
-      "Additional notes": "SCREENING CLOSED as of 04-Mar-2026",
-      "Tissue Requirements": "Baseline biopsy mandatory. \nArchival FFPE block (less than two years old), if unavailable, fresh biopsy, 3-5 cores. \n\nOn-treatment biopsy (collect between C2D1 post-dosing - C2D15): if medically feasible \n\nEOT or disease progression biopsy: Optional \n",
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "• Arm A: casdozokitug 700 mg + toripalimab 240 mg + bevacizumab 15 mg/kg intravenously (IV) every 3 weeks (Q3W) on Day 1 of a 21-day cycle (n ~ 24). \n• Arm B: casdozokitug 1400 mg + toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24). \n• Arm C: toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24) ",
-      "Eligibility ": "Unresectable, locally advanced or metastatic HCC. No prior systemic therapy. ",
-      "Contacts": "Site PI: \nDr. Erica Tsang\nerica.tsang@uhn.ca\n416-946-4501 ext. 4853\n\nCoordinator: \nMary Wei",
-      "NCT number": "NCT06679985",
-      "Study status": "Not Recruiting",
-      "Schema image": "NCT06679985.png"
     },
     {
       "Disease Setting": "1st or 2nd",
@@ -858,7 +844,7 @@
     {
       "Organ group": "PDAC",
       "Disease Setting": "1L Metastatic",
-      "Trial Name": "PRISM-1\n\n\n\n",
+      "Trial Name": "CHS-388-202 ",
       "Full title": "A Randomized, Placebo-Controlled, Double-Blind, Multicenter Phase 3 Trial of Quemliclustat and Chemotherapy Versus Placebo and Chemotherapy in Patients with Treatment Naïve Metastatic Pancreatic Ductal Adenocarcinoma",
       "Additional notes": "Previously untreated mPDAC\nNeo/Adj permitted if given >12m before randomization.",
       "Tissue Requirements": null,
@@ -980,6 +966,20 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nCoordinator (Pre-screen):  \nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757\n\nCoordinator (Screen): \nGuillaume Cheung\nguillaume.cheung@uhn.ca\nTel: 416-946-4501 ext. 4727",
       "NCT number": "NCT06219941",
       "Schema image": null
+    },
+    {
+      "Organ group": "HCC",
+      "Disease Setting": "1st line ",
+      "Trial Name": "CHS-388-202",
+      "Full title": "A Randomized Phase 2 Study of Casdozokitug in Combination With Toripalimab Plus Bevacizumab in Participants With Unresectable and/or Locally Advanced or Metastatic Hepatocellular Carcinoma ",
+      "Additional notes": null,
+      "Tissue Requirements": "Baseline biopsy mandatory. \nArchival FFPE block (less than two years old), if unavailable, fresh biopsy, 3-5 cores. \n\nOn-treatment biopsy (collect between C2D1 post-dosing - C2D15): if medically feasible \n\nEOT or disease progression biopsy: Optional \n",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "• Arm A: casdozokitug 700 mg + toripalimab 240 mg + bevacizumab 15 mg/kg intravenously (IV) every 3 weeks (Q3W) on Day 1 of a 21-day cycle (n ~ 24). \n• Arm B: casdozokitug 1400 mg + toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24). \n• Arm C: toripalimab 240 mg + bevacizumab 15 mg/kg IV Q3W on Day 1 of a 21-day cycle (n ~ 24) ",
+      "Eligibility ": "Unresectable, locally advanced or metastatic HCC. No prior systemic therapy. ",
+      "Contacts": "Site PI: \nDr. Erica Tsang\nerica.tsang@uhn.ca\n416-946-4501 ext. 4853\n\nCoordinator: \nMary Wei",
+      "NCT number": "NCT06679985",
+      "Schema image": "NCT06679985.png"
     }
   ],
   "Dropdown Menus": [
@@ -2414,6 +2414,16 @@
         "Trial Name": "CLARITY-PanTumour01\n\n",
         "change": "added",
         "timestamp": "2026-02-23T17:22:21"
+      },
+      {
+        "Trial Name": "CHS-388-202 ",
+        "change": "added",
+        "timestamp": "2026-03-12T17:11:27"
+      },
+      {
+        "Trial Name": "CHS-388-202",
+        "change": "added",
+        "timestamp": "2026-03-12T17:11:27"
       }
     ],
     "CRC": [
@@ -3138,6 +3148,11 @@
         "Trial Name": "NEEDS",
         "change": "modified",
         "timestamp": "2026-02-24T10:18:44"
+      },
+      {
+        "Trial Name": "Clarity-Gastric01 ",
+        "change": "modified",
+        "timestamp": "2026-03-12T17:11:27"
       }
     ],
     "pNET": [
