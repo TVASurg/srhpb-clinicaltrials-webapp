@@ -694,7 +694,7 @@
       "Eligibility ": "Inclusion: \nHistologically and/or cytologically confirmed gastrointestinal tumours that are metastatic or unresectable, and have measurable disease according to RECIST v1.1 (at least one measurable lesion)\nARM VII --> subjects must have received only 1 prior line of therapy but remain naive to oxaliplatin prior to enrollment\nExclusion: \nMSH-H tumours; concurrent monoclonal antibody therapy: anti-EGFR or anti-VEGF ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nNurse: \nDowon Choi/Sarah Eng\n\nCDC: \nDivakar Harihar Kanpure",
       "NCT number": "NCT04421820",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": "NCT06813079.png"
     },
     {
@@ -1494,6 +1494,11 @@
         "Trial Name": "DORA (WOO)",
         "change": "modified",
         "timestamp": "2026-03-17T14:20:14"
+      },
+      {
+        "Trial Name": "BOLD-100-001\n\n \n\n",
+        "change": "modified",
+        "timestamp": "2026-03-17T16:17:26"
       }
     ],
     "HCC": [
