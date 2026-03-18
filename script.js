@@ -208,7 +208,7 @@ function initAllData() {
     //.catch(err => console.error('Error parsing JSON:', err));
   
   //hidePreactivations(pancreas_preactivation, "pancreas_preactivation")
-  //console.log(changes);
+  
 }
 
 //then populate these const arrays 
@@ -248,7 +248,7 @@ const gastroesophageal_master = {
   NCT:[],
   schema:[],
   status:[],
-  label: "Gastroesophageal" //this is the sheet name
+  label: "GE" //this is the sheet name
 };
 
 const biliary_CCA_master = {
@@ -649,12 +649,15 @@ function fillTrialDetails(mainCategory, key) {
   //Biomarker (if present)
   //
   biomarker_master[`names`].forEach((element,index) => {
-  if (element == mainCategory[`names`][key])
+  if (element == mainCategory[`names`][key]){
 
-    //console.log(biomarker_master[`biomarker`][index])
-    biomarkerString += '<li class="detailsSection03 list-group-item btn btn-toggle d-inline-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#biomarkerCollapse">Biomarkers</li><li class="list-inline-item ps-5 collapse" id="biomarkerCollapse"><p class="py-2">' + biomarker_master[`biomarker`][index].replaceAll("\n", "<br/>") + '</p></li>';
+    //this is added to match the specific category in trials; sometimes there's copypasta between trials that span multiple organ groups, we just want to list one (that's relevant)
+    if(biomarker_master[`categories`][index] == mainCategory[`label`])
+    {    
+      biomarkerString += '<li class="detailsSection03 list-group-item btn btn-toggle d-inline-flex align-items-center" data-bs-toggle="collapse" data-bs-target="#biomarkerCollapse">Biomarkers</li><li class="list-inline-item ps-5 collapse" id="biomarkerCollapse"><p class="py-2">' + biomarker_master[`biomarker`][index].replaceAll("\n", "<br/>") + '</p></li>';
+    }
 
-    
+    }
   });
 
   //Contact
