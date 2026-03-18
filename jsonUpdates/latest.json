@@ -517,7 +517,7 @@
       "Disease Setting": "2nd or later lines",
       "Trial Name": "FOENIX-CCA4 \nTAS-120-205",
       "Full title": "Phase 2 Study of Futibatinib 20 mg and 16 mg in Patients with \nAdvanced Cholangiocarcinoma with FGFR2 Fusions or \nRearrangements\n",
-      "Additional notes": null,
+      "Additional notes": "Study phase 2: No prior FGFR inhibitors allowed. ",
       "Tissue Requirements": "Blood sample for ctDNA. Testing by FoundationOne CDx.  ",
       "Biomarker/unselected": "FGFR2 gene fusions;\nFGFR2  or other rearrangements using NGS or FISH",
       "Trial Intervention/Arms": "A:  20 mg futibatinib orally\nB: 16 mg  futibatinib orally \n",
@@ -2320,6 +2320,11 @@
         "Trial Name": "CAN-PREFER",
         "change": "modified",
         "timestamp": "2026-02-25T09:17:50"
+      },
+      {
+        "Trial Name": "FOENIX-CCA4 \nTAS-120-205",
+        "change": "modified",
+        "timestamp": "2026-03-18T13:31:33"
       }
     ],
     "Preactivation": [
