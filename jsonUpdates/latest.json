@@ -653,7 +653,7 @@
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": "NCT05132244",
       "Study status": "Not Recruiting",
-      "Schema image": null
+      "Schema image": "NCT05132244.png"
     },
     {
       "Disease Setting": "2L Metastatic+",
@@ -667,7 +667,7 @@
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
       "NCT number": "NCT04890613",
       "Study status": "Active",
-      "Schema image": "NCT05132244.png"
+      "Schema image": null
     },
     {
       "Disease Setting": "2L Metastatic+",
@@ -681,7 +681,7 @@
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinator:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
       "NCT number": "NCT06813079",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": "NCT06813079.png"
     },
     {
       "Disease Setting": "2L Metastatic+",
@@ -695,7 +695,7 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nNurse: \nDowon Choi/Sarah Eng\n\nCDC: \nDivakar Harihar Kanpure",
       "NCT number": "NCT04421820",
       "Study status": "Not Recruiting",
-      "Schema image": "NCT06813079.png"
+      "Schema image": null
     },
     {
       "Disease Setting": "Non-Therapeutic",
@@ -751,7 +751,7 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06885034",
       "Study status": "Not Recruiting",
-      "Schema image": null
+      "Schema image": "NCT06885034.png"
     },
     {
       "Disease Setting": "Any Line Advanced",
@@ -765,7 +765,7 @@
       "Contacts": "PI: Dr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
       "Study status": "Active",
-      "Schema image": "NCT06885034.png"
+      "Schema image": null
     },
     {
       "Disease Setting": "1L Metastatic",
@@ -1499,6 +1499,36 @@
         "Trial Name": "BOLD-100-001\n\n \n\n",
         "change": "modified",
         "timestamp": "2026-03-17T16:17:26"
+      },
+      {
+        "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
+        "change": "modified",
+        "timestamp": "2026-03-18T15:07:04"
+      },
+      {
+        "Trial Name": "OZM-114\n\n",
+        "change": "modified",
+        "timestamp": "2026-03-18T15:07:04"
+      },
+      {
+        "Trial Name": "ADOPT\n\n\n",
+        "change": "modified",
+        "timestamp": "2026-03-18T15:07:04"
+      },
+      {
+        "Trial Name": "BOLD-100-001\n\n \n\n",
+        "change": "modified",
+        "timestamp": "2026-03-18T15:07:04"
+      },
+      {
+        "Trial Name": "GSK223675",
+        "change": "modified",
+        "timestamp": "2026-03-18T15:07:04"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-03-18T15:07:04"
       }
     ],
     "HCC": [
