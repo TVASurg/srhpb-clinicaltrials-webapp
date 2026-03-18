@@ -567,7 +567,7 @@
       "Contacts": "Site PI:\nDr Arndt Vogel\narndt.vogel@uhn.ca\n\nTrial Nurse:\nGuillaume Cheung\nguillaume.cheung@uhn.ca",
       "NCT number": "NCT06569225",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": "NCT06569225.png"
     },
     {
       "Disease Setting": "2nd or later lines",
@@ -597,7 +597,7 @@
       "Contacts": "Site PI:\nErica Tsang \nErica.tsang@uhn.ca\n\nCoordinator:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
       "NCT number": "NCT06060405",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": "NCT06060405.png"
     },
     {
       "Disease Setting": "Resectable",
@@ -1529,6 +1529,11 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-03-18T15:07:04"
+      },
+      {
+        "Trial Name": "DORA (WOO)",
+        "change": "modified",
+        "timestamp": "2026-03-18T15:14:14"
       }
     ],
     "HCC": [
@@ -2355,6 +2360,11 @@
         "Trial Name": "FOENIX-CCA4 \nTAS-120-205",
         "change": "modified",
         "timestamp": "2026-03-18T13:31:33"
+      },
+      {
+        "Trial Name": "NEOLANGIO",
+        "change": "modified",
+        "timestamp": "2026-03-18T15:14:14"
       }
     ],
     "Preactivation": [
