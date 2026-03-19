@@ -83,9 +83,7 @@ export async function handler(event) {
   } catch (err) {
     return {
       statusCode: 400,
-      body: JSON.stringify({ error: 'Upload failed', details: err.message }),
-      message: 'TOKEN EXISTS:' + !!process.env.GH_TOKEN,
-      message: 'TOKEN LENGTH:' + process.env.GH_TOKEN?.length,
+      body: JSON.stringify({ error: 'Upload failed', details: err.message })
     };
   }
 }
