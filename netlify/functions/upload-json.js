@@ -46,7 +46,7 @@ export async function handler(event) {
       const putResp = await fetch(url, {
         method: 'PUT',
         headers: {
-          'Authorization': `Bearer ${token}`,
+          'Authorization': `token ${token}`,
           'Content-Type': 'application/json',
           'User-Agent': 'Netlify-Upload-JSON'
         },
