@@ -120,7 +120,7 @@
       "Tissue Requirements": "Archival formalin fixed paraffin block of tumour tissue for correlative analyses when tumour tissue is available.",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "A: BOTENSILIMAB + BALSTILIMAB \nB: Best supportive care",
-      "Eligibility ": "Inclusion criteria:\nCRC that is not dMMRor MSI-H.\nReceived and failed all prior available therapies, such that the standard of care for the patient would be best supportive care (BSC).\nPresence of measurable or evaluable disease as RECIST 1.1.\nExclusion criteria:\nHistory of primary immunodeficiency, solid organ transplant or allogeneic bone marrow transplant.\nCurrent or prior use of immunosuppressive medication within 7 days before the first dose.\nActive brain metastases or leptomeningeal metastases.\nReceipt of anti-cancer chemotherapy or biologic therapy within the lesser of i) 21 days, or ii) the usual cycle length of the regimen prior to the first planned dose of study drug.\nPrior exposure to anti-PD-1/PD-L1/CTLA-4 therapy.",
+      "Eligibility ": "Inclusion criteria:\nCRC that is not dMMR or MSI-H.\nReceived and failed all prior available therapies, such that the standard of care for the patient would be best supportive care (BSC).\nPresence of measurable or evaluable disease as RECIST 1.1.\nExclusion criteria:\nHistory of primary immunodeficiency, solid organ transplant or allogeneic bone marrow transplant.\nCurrent or prior use of immunosuppressive medication within 7 days before the first dose.\nActive brain metastases or leptomeningeal metastases.\nReceipt of anti-cancer chemotherapy or biologic therapy within the lesser of i) 21 days, or ii) the usual cycle length of the regimen prior to the first planned dose of study drug.\nPrior exposure to anti-PD-1/PD-L1/CTLA-4 therapy.",
       "Contacts": "Site PI:\nSanz Enrique\nenrique.sanz@uhn.ca",
       "NCT number": "NCT07152821",
       "Study status": "Active",
@@ -206,7 +206,7 @@
       "Tissue Requirements": "Archival tissue (most recent or as per MRP/PI’s discretion); fresh tissue (2xT cores for screening; 3xT cores optional biopsy) ",
       "Biomarker/unselected": "HER2 ",
       "Trial Intervention/Arms": "ARM 1 - Standard Chemotherapy (Paclitaxel + Ramucirumab)                                                     \nARM 2 - Standard Chemotherapy (Paclitaxel + Ramucirumab) plus Zanidatamab",
-      "Eligibility ": "Her-2 + (central confirmation).\nParticipants must have received and failed at least one prior trastuzumab-containing regimen in combination with platinum-based chemotherapy.\nmust have presence of measurable or evaluable disease as defined by Response Evaluation Criteria in Solid Tumours (RECIST 1.1).",
+      "Eligibility ": "Her-2 + (central confirmation).\nParticipants must have received and failed at least one prior trastuzumab-containing regimen in combination with platinum-based chemotherapy.\nMust have presence of measurable or evaluable disease as defined by Response Evaluation Criteria in Solid Tumours (RECIST 1.1).",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06043427",
       "Study status": "Active",
@@ -250,7 +250,7 @@
       "Trial Intervention/Arms": null,
       "Eligibility ": "Those who decline or are or not eligible for MOCHA ",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
-      "NCT number": "N/A",
+      "NCT number": null,
       "Study status": "Active",
       "Schema image": null
     },
@@ -491,7 +491,7 @@
       "Biomarker/unselected": "Her-2+",
       "Trial Intervention/Arms": "A: ZW25 + SOC\nB: SOC",
       "Eligibility ": "Locally advanced unresectable or metastatic BTC and not eligible for curative resection, transplantation,or ablative therapies.\nReceived no more than 2 cycles of systemic therapy which is limited to Cisplatin and Gemcitabine (CisGem) with or without a PD-1/L1 inhibitor\nAssessable (measurable or non-measurable) disease as defined by Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1).\n",
-      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca \nTrial Nurse: Guillaume\nguillaume.cheung@uhn.ca",
+      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca \n\nTrial Nurse: \nGuillaume Cheung\nguillaume.cheung@uhn.ca",
       "NCT number": "NCT06282575",
       "Study status": "Active",
       "Schema image": null
@@ -546,7 +546,7 @@
       "Tissue Requirements": null,
       "Biomarker/unselected": "IDH1",
       "Trial Intervention/Arms": "Ivosidenib + GemCis/Durva",
-      "Eligibility ": "histologically-confirmed cholangio; \nlocally or centrally confirmed IDH1 mutation\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin treatment is permitted before study participation. ",
+      "Eligibility ": "Histologically-confirmed cholangio; \nlocally or centrally confirmed IDH1 mutation\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin treatment is permitted before study participation. ",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nTrial Nurse:\nSerena (Ching) Kao\nChing.Kao@uhn.ca\n",
       "NCT number": "NCT06501625",
       "Study status": "Active",
@@ -2383,6 +2383,16 @@
         "Trial Name": "NEOLANGIO",
         "change": "modified",
         "timestamp": "2026-03-18T15:14:14"
+      },
+      {
+        "Trial Name": "HERIZON-BTC-302 (Sponsor: Jazz pharma)",
+        "change": "modified",
+        "timestamp": "2026-03-26T17:14:37"
+      },
+      {
+        "Trial Name": "S095031-210",
+        "change": "modified",
+        "timestamp": "2026-03-26T17:14:37"
       }
     ],
     "Preactivation": [
@@ -3139,6 +3149,11 @@
         "Trial Name": "Phase 1 of NDI-219216 in Patients with Advanced Solid Tumors with MSI-H/dMMR",
         "change": "modified",
         "timestamp": "2026-03-19T13:56:20"
+      },
+      {
+        "Trial Name": "CO.33 (BATTMAN)",
+        "change": "modified",
+        "timestamp": "2026-03-26T17:14:37"
       }
     ],
     "GE": [
@@ -3286,6 +3301,16 @@
         "Trial Name": "Clarity-Gastric01 ",
         "change": "modified",
         "timestamp": "2026-03-19T13:56:20"
+      },
+      {
+        "Trial Name": "GA.4 ",
+        "change": "modified",
+        "timestamp": "2026-03-26T17:14:37"
+      },
+      {
+        "Trial Name": "GEAR",
+        "change": "modified",
+        "timestamp": "2026-03-26T17:14:37"
       }
     ],
     "pNET": [
