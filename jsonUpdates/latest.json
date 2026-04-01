@@ -731,7 +731,7 @@
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Questionnaire + one-time blood draw",
       "Eligibility ": "All patients diagnosed with PDAC",
-      "Contacts": "Coordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
+      "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
       "Study status": "Active",
       "Schema image": null
@@ -745,7 +745,7 @@
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Fresh tumor collection for WGTS ± organoids",
       "Eligibility ": "Clinical (presumed) or pathological diagnosis of any HPB malignancy, specifically HCC, PDAC or CCA, including all histological subtypes or mixed histology.\nAssessed and/or treated at UHN.\nAge >18 years.",
-      "Contacts": "Coordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
+      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
       "Study status": "Active",
       "Schema image": null
@@ -787,7 +787,7 @@
       "Biomarker/unselected": "One of: CCNE1 amplification; FBXW7 deleterious mutations, or PPP2R1A deleterious mutations.",
       "Trial Intervention/Arms": "Patient will be assign to only one dosing schedule - lunresertib in combination with Debio 0123 on the 3 days on/4 days off dosing for two weeks, followed by a week break (2 week on/1 week off). Dosage of lunresertib and Debio0123 may vary.",
       "Eligibility ": "Inclusion Criteria:\n- Male or female and ≥12 years-of-age at the time of signature of the ICF.\n- ECOG Performance Status score of 0 or 1. Lansky performance status ≥50 for patients ≤16 years of age\n- Patients are eligible if, in the opinion of the Investigator, the patient is not a candidate for,\nor would be unlikely to tolerate or derive significant clinical benefit from, appropriate standard-of-care therapy, or if the patient declines standard-of-care therapy. Documented counselling by the center Investigator on benefits/risks of standard-of-care therapy is required for enrolled patients who decline standard-of-care therapy.\n- Measurable disease as per RECIST v1.1.\n- Ability to swallow and retain oral tablets and capsules whole and intact.\n- Hemoglobin ≥10.0 g/dL except if anemia is due to potentially reversible and manageable etiology (e.g. bleeding from tumor lesion)\n- Creatinine clearance ≥60 mL/min calculated using Cockcroft-Gault equation or measured by 24-hour urine collection. For patients 12 to 17 years of age, renal function should be calculated using Cockcroft-Gault or institutional standard, including institutional formula specific for this age group.\n\nExclusion Criteria:\n- Chemotherapy or small molecule antineoplastic agent given within 21 days or <5 halflives,\nand monoclonal antibodies given within 28 days or <5 half-lives, whichever is shorter, prior to first dose of study drug.\n- Presence of other known second malignancy with the exception of any cancer that has been in complete remission for ≥ 2 years or completely resected squamous and basal cell carcinomas of the skin.\n- Prior therapy with a PKMYT1 or WEE1 inhibitor.\n- Patients who are unable to swallow oral tablets and capsules whole and intact\n- Clinically significant gastrointestinal abnormality that would affect the absorption of drugs, such as malabsorption syndrome, major resection of the small bowel, total gastrectomy, or inflammatory bowel disease.\n- Major surgery (excluding placement of vascular access) within 4 weeks prior to first dose of study drug.\n- Uncontrolled, symptomatic brain metastases.\n- Uncontrolled hypertension (systolic blood pressure ≥160 mmHg; diastolic blood pressure ≥100 mmHg) despite adequate treatment prior to first dose of study drug.\n- Patients with active, uncontrolled bacterial, fungal, or viral infection, including hepatitis B virus (HBV), hepatitis C virus (HCV), known human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) related illness.\n- Moderate or severe hepatic impairment (ie, Child-Pugh class B or C).\n- Mean resting QT interval corrected for heart rate (QTc) interval using the Fridericia formula (QTcF) >450 msec (as calculated per institutional standards) obtained from 3 ECGs ≥1 minute apart at study entry.\n- Current treatment with medications that are well-known to prolong the QT interval or with known risk of TdP (Appendix 2). If patients are on these medications, a wash-out period of at least 5 half-lives is needed prior to receiving the treatment.\n- Immunization with live or live-attenuated vaccine within 28 days prior to study inclusion or planned injection of live or live-attenuated vaccine.",
-      "Contacts": "PI: Dr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
+      "Contacts": "Site PI: \nDr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
       "Study status": "Active",
       "Schema image": null
@@ -845,7 +845,7 @@
       "Biomarker/unselected": "CCNE1\nFBXW7\nPPP2R1A",
       "Trial Intervention/Arms": "Patient will be assign to only one dosing schedule - lunresertib in combination with Debio 0123 on the 3 days on/4 days off dosing for two weeks, followed by a week break (2 week on/1 week off). Dosage of lunresertib and Debio0123 may vary.",
       "Eligibility ": "Inclusion Criteria:\n- Male or female and ≥12 years-of-age at the time of signature of the ICF.\n- ECOG Performance Status score of 0 or 1. Lansky performance status ≥50 for patients ≤16 years of age\n- Patients are eligible if, in the opinion of the Investigator, the patient is not a candidate for,\nor would be unlikely to tolerate or derive significant clinical benefit from, appropriate standard-of-care therapy, or if the patient declines standard-of-care therapy. Documented counselling by the center Investigator on benefits/risks of standard-of-care therapy is required for enrolled patients who decline standard-of-care therapy.\n- Measurable disease as per RECIST v1.1.\n- Ability to swallow and retain oral tablets and capsules whole and intact.\n- Hemoglobin ≥10.0 g/dL except if anemia is due to potentially reversible and manageable etiology (e.g. bleeding from tumor lesion)\n- Creatinine clearance ≥60 mL/min calculated using Cockcroft-Gault equation or measured by 24-hour urine collection. For patients 12 to 17 years of age, renal function should be calculated using Cockcroft-Gault or institutional standard, including institutional formula specific for this age group.\n\nExclusion Criteria:\n- Chemotherapy or small molecule antineoplastic agent given within 21 days or <5 halflives,\nand monoclonal antibodies given within 28 days or <5 half-lives, whichever is shorter, prior to first dose of study drug.\n- Presence of other known second malignancy with the exception of any cancer that has been in complete remission for ≥ 2 years or completely resected squamous and basal cell carcinomas of the skin.\n- Prior therapy with a PKMYT1 or WEE1 inhibitor.\n- Patients who are unable to swallow oral tablets and capsules whole and intact\n- Clinically significant gastrointestinal abnormality that would affect the absorption of drugs, such as malabsorption syndrome, major resection of the small bowel, total gastrectomy, or inflammatory bowel disease.\n- Major surgery (excluding placement of vascular access) within 4 weeks prior to first dose of study drug.\n- Uncontrolled, symptomatic brain metastases.\n- Uncontrolled hypertension (systolic blood pressure ≥160 mmHg; diastolic blood pressure ≥100 mmHg) despite adequate treatment prior to first dose of study drug.\n- Patients with active, uncontrolled bacterial, fungal, or viral infection, including hepatitis B virus (HBV), hepatitis C virus (HCV), known human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) related illness.\n- Moderate or severe hepatic impairment (ie, Child-Pugh class B or C).\n- Mean resting QT interval corrected for heart rate (QTc) interval using the Fridericia formula (QTcF) >450 msec (as calculated per institutional standards) obtained from 3 ECGs ≥1 minute apart at study entry.\n- Current treatment with medications that are well-known to prolong the QT interval or with known risk of TdP (Appendix 2). If patients are on these medications, a wash-out period of at least 5 half-lives is needed prior to receiving the treatment.\n- Immunization with live or live-attenuated vaccine within 28 days prior to study inclusion or planned injection of live or live-attenuated vaccine.",
-      "Contacts": "PI: Dr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
+      "Contacts": "PI: Dr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
       "Study status": "Active",
       "Schema image": null
@@ -1566,6 +1566,21 @@
         "Trial Name": "BOLD-100-001\n\n \n\n",
         "change": "modified",
         "timestamp": "2026-03-19T13:56:20"
+      },
+      {
+        "Trial Name": "OPCS Registry\n",
+        "change": "modified",
+        "timestamp": "2026-04-01T13:58:38"
+      },
+      {
+        "Trial Name": "HPB Banking Protocol\n\n",
+        "change": "modified",
+        "timestamp": "2026-04-01T13:58:38"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-04-01T13:58:38"
       }
     ],
     "HCC": [
@@ -3407,6 +3422,11 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-03-19T13:56:20"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-04-01T13:58:38"
       }
     ]
   }
