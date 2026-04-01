@@ -336,7 +336,7 @@
       "Contacts": "Site PI:\nDr. Elena Elimova\nElena.Elimova@uhn.ca\n\nTrial Nurse:\nStephen Lam\nstephen.lam@uhn.ca",
       "NCT number": "NCT07221149",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": "NCT07221149.png"
     }
   ],
   "HCC": [
@@ -3330,6 +3330,11 @@
         "Trial Name": "CA2660004 (ROSETTA Gastric-204)",
         "change": "added",
         "timestamp": "2026-03-31T16:41:01"
+      },
+      {
+        "Trial Name": "CA2660004 (ROSETTA Gastric-204)",
+        "change": "modified",
+        "timestamp": "2026-04-01T08:46:34"
       }
     ],
     "pNET": [
