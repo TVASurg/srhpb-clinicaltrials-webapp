@@ -12,7 +12,9 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT05855200",
       "Study status": "Active",
-      "Schema image": "NCT05855200.png"
+      "Schema image": "NCT05855200.png",
+      "Key criteria (for PDF)": "Untreated resectable CRC.\nMSI-H/dMMR.",
+      "PI contact (for PDF)": "eric.chen@uhn.ca"
     },
     {
       "Disease Setting": "1st line ",
@@ -26,7 +28,9 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06662786",
       "Study status": "Active",
-      "Schema image": "NCT06662786.png"
+      "Schema image": "NCT06662786.png",
+      "Key criteria (for PDF)": "Unresectable left-sided \nKRAS/NRA/BRAF WT.\n>12 months from completion adjuvant therapy to recurrence.",
+      "PI contact (for PDF)": "eric.chen@uhn.ca"
     },
     {
       "Disease Setting": "1st line ",
@@ -40,7 +44,9 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06792695",
       "Study status": "Not recruiting",
-      "Schema image": "NCT06792695.png"
+      "Schema image": "NCT06792695.png",
+      "Key criteria (for PDF)": "pMMR/MSS status.\nNo radiological evidence of liver metastasis.\nNeoadjuvant/adjuvant chemotherapy where > 6 months have elapsed is allowed.",
+      "PI contact (for PDF)": "eric.chen@uhn.ca"
     },
     {
       "Disease Setting": "1st line ",
@@ -54,7 +60,9 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT04929223",
       "Study status": "Active",
-      "Schema image": "NCT04929223.png"
+      "Schema image": "NCT04929223.png",
+      "Key criteria (for PDF)": "KRAS G12C.\n2 cycles of chemo allowed.",
+      "PI contact (for PDF)": "eric.chen@uhn.ca"
     },
     {
       "Disease Setting": "2nd line ",
@@ -68,7 +76,9 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT04421820",
       "Study status": "Active",
-      "Schema image": "NCT04421820.png"
+      "Schema image": "NCT04421820.png",
+      "Key criteria (for PDF)": "Progressing on 1st line FOLFIRI.\nMust have received only 1 prior line of therapy in the metastatic setting but remain naïve to oxaliplatin.\n",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca"
     },
     {
       "Disease Setting": "Any line",
@@ -82,7 +92,9 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT05355701",
       "Study status": "Active",
-      "Schema image": "NCT05355701.png"
+      "Schema image": "NCT05355701.png",
+      "Key criteria (for PDF)": "BRAF \nDisease progressed during/following last prior treatment and no satisfactory alternative treatment options.",
+      "PI contact (for PDF)": "eric.chen@uhn.ca "
     },
     {
       "Disease Setting": "2nd line ",
@@ -96,7 +108,9 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06885034",
       "Study status": "Not recruiting",
-      "Schema image": "NCT06885034.png"
+      "Schema image": "NCT06885034.png",
+      "Key criteria (for PDF)": "No prior irinotecan exposure.\nReceived at least 1 and no more than 2 lines of systemic treatment for advanced CRC.",
+      "PI contact (for PDF)": "eric.chen@uhn.ca"
     },
     {
       "Disease Setting": "1st line ",
@@ -110,7 +124,9 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06948448",
       "Study status": "Active",
-      "Schema image": "NCT06948448.png"
+      "Schema image": "NCT06948448.png",
+      "Key criteria (for PDF)": "LA/mCRC. No prior systermic treatment.\nPD-L1  \nCPS > 1 (expected to be 40%).",
+      "PI contact (for PDF)": "eric.chen@uhn.ca"
     },
     {
       "Disease Setting": "Last line",
@@ -124,7 +140,9 @@
       "Contacts": "Site PI:\nSanz Enrique\nenrique.sanz@uhn.ca",
       "NCT number": "NCT07152821",
       "Study status": "Active",
-      "Schema image": "NCT07152821.png"
+      "Schema image": "NCT07152821.png",
+      "Key criteria (for PDF)": "Not dMMR or MSI-H.\nProgressed on all available therapies.",
+      "PI contact (for PDF)": "enrique.sanzgarcia@uhn.ca"
     },
     {
       "Disease Setting": "Any line",
@@ -138,7 +156,9 @@
       "Contacts": "Site PI:\nDr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "If patient is not a candidate for or would be unlikely to tolerate/derive significant clinical benefit from SOC therapy, or if the patient declines SOC therapy.",
+      "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
     },
     {
       "Disease Setting": "2L+",
@@ -152,7 +172,9 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06898450",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "MSI-H/dMMR refractory to SOC.",
+      "PI contact (for PDF)": "eric.chen@uhn.ca "
     }
   ],
   "GE": [
@@ -168,7 +190,9 @@
       "Contacts": "Site PI:\nJonathan Yeung (Arm 1)\n\nElena Elimova\nelena.elimova@uhn.ca (Arm 2)",
       "NCT number": "NCT04219137",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Both locally advanced and metastatic. ",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca "
     },
     {
       "Disease Setting": "3L+",
@@ -182,7 +206,9 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06346392",
       "Study status": "Not Recruiting",
-      "Schema image": "NCT06346392.png"
+      "Schema image": "NCT06346392.png",
+      "Key criteria (for PDF)": "Claudin 18.2+\nPD on or after at least one line of treatment.",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca"
     },
     {
       "Disease Setting": "1st line",
@@ -196,7 +222,9 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06764875",
       "Study status": "Active",
-      "Schema image": "NCT06764875.png"
+      "Schema image": "NCT06764875.png",
+      "Key criteria (for PDF)": "Her-2 + and PDL1 CPS ≥ 1. \nLVEF ≥ 55% within 28 days before randomization.",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca"
     },
     {
       "Disease Setting": "2L+",
@@ -210,7 +238,9 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06043427",
       "Study status": "Active",
-      "Schema image": "NCT06043427.png"
+      "Schema image": "NCT06043427.png",
+      "Key criteria (for PDF)": "Her-2 + (central confirmation).  \nReceived and failed at least one prior trastuzumab-containing regimen in combination with platinum-based chemotherapy.",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca "
     },
     {
       "Disease Setting": "Any line ",
@@ -224,7 +254,9 @@
       "Contacts": "Site PI:\nElliot Wakeam\nelliot.wakeam@uhn.ca",
       "NCT number": "NCT06668454",
       "Study status": "Active",
-      "Schema image": "NCT06668454.png"
+      "Schema image": "NCT06668454.png",
+      "Key criteria (for PDF)": "Oligometastatic disease (up to 5 sites).\nCandidates for both systemic therapy and surgical resection.",
+      "PI contact (for PDF)": "elliot.wakeam@uhn.ca"
     },
     {
       "Disease Setting": "3L+",
@@ -238,7 +270,9 @@
       "Contacts": "Site PI:\nLucy Ma\nlucy.ma@uhn.ca",
       "NCT number": "NCT06864169",
       "Study status": "Active",
-      "Schema image": "NCT06864169.png"
+      "Schema image": "NCT06864169.png",
+      "Key criteria (for PDF)": "Has received prior therapy\nNot biomarker selected.\nPatients with previous topoisomerase 1 inhibitor are excluded.",
+      "PI contact (for PDF)": "lucy.ma@uhn.ca"
     },
     {
       "Disease Setting": "Any line",
@@ -252,7 +286,9 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Those who decline or are or not eligible for MOCHA.",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca"
     },
     {
       "Disease Setting": "Prior to any treatment ",
@@ -266,7 +302,9 @@
       "Contacts": "Site PI:\nElliot Wakeam\nelliot.wakeam@uhn.ca",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Patients who are scheduled to undergo treatment including surgery, radiation therapy, chemotherapy, or any combination of these.",
+      "PI contact (for PDF)": "elliot.wakeam@uhn.ca"
     },
     {
       "Disease Setting": "Resectable",
@@ -280,7 +318,9 @@
       "Contacts": "Site PI:\nKarineh Kazazian\nkarineh.kazazian@uhn.ca",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Undergoing a curative-intent resection or biopsy of gastric, colorectal, or small bowel cancer.",
+      "PI contact (for PDF)": "karineh.kazazian@uhn.ca"
     },
     {
       "Disease Setting": "Prior to any systemic treatment ",
@@ -294,7 +334,9 @@
       "Contacts": "Site PI:\nJelena Lukovic\njelena.lukovic@uhn.ca",
       "NCT number": "NCT04460352",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "SCC of the esophagus in locally advanced stages cT1 N+ or cT2-4a any N, M0.",
+      "PI contact (for PDF)": "jelena.lukovic@uhn.ca"
     },
     {
       "Disease Setting": "1L",
@@ -308,7 +350,9 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca",
       "NCT number": "NCT04379596",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Her-2 1+ or 2+/ISH neg\nILD/Pneumonitis excluded.",
+      "PI contact (for PDF)": "eric.chen@uhn.ca "
     },
     {
       "Disease Setting": "1L ",
@@ -322,7 +366,9 @@
       "Contacts": "Site PI: \nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06628310",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Not biomarker selected.\nHER2 negative\n",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca "
     },
     {
       "Disease Setting": "1L ",
@@ -336,7 +382,9 @@
       "Contacts": "Site PI:\nDr. Elena Elimova\nElena.Elimova@uhn.ca\n\nTrial Nurse:\nStephen Lam\nstephen.lam@uhn.ca",
       "NCT number": "NCT07221149",
       "Study status": "Active",
-      "Schema image": "NCT07221149.png"
+      "Schema image": "NCT07221149.png",
+      "Key criteria (for PDF)": "Advanced or mGC, GEJC, or distal EAC with no prior systemic treatment. Earlier adjuvant or neoadjuvant therapy is allowed if completed over 6 months before diagnosis, recurrence or mets.",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca "
     }
   ],
   "HCC": [
@@ -352,7 +400,9 @@
       "Contacts": "Site PI:\nAnand Ghanekar\nanand.ghanekar@uhn.ca\n\nCoordinators: \nMary Wei\nGuillaume Cheung\n\nShiva Babakhani\nGiselle Caballero",
       "NCT number": "NCT05440864",
       "Study status": "Active",
-      "Schema image": "NCT05440864.png"
+      "Schema image": "NCT05440864.png",
+      "Key criteria (for PDF)": "Resectable HCC. ",
+      "PI contact (for PDF)": "anand.ghanekar@uhn.ca"
     },
     {
       "Disease Setting": "Pre-transplant",
@@ -366,7 +416,9 @@
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\n\nCoordinator:\nGuillaume Cheung",
       "NCT number": "NCT05185505",
       "Study status": "Active",
-      "Schema image": "NCT05185505.png"
+      "Schema image": "NCT05185505.png",
+      "Key criteria (for PDF)": "HCC, candidate for liver transplant. ",
+      "PI contact (for PDF)": "arndt.vogel@uhn.ca"
     },
     {
       "Disease Setting": "1st line",
@@ -380,7 +432,9 @@
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nOchir Gansukh",
       "NCT number": "NCT06921785",
       "Study status": "Not Recruiting",
-      "Schema image": "NCT06921785.png"
+      "Schema image": "NCT06921785.png",
+      "Key criteria (for PDF)": "HCC, not prior systemic therapy. \nNo main portal vein thrombosis.",
+      "PI contact (for PDF)": "jennifer.knox@uhn.ca "
     },
     {
       "Disease Setting": "1st Line ",
@@ -394,7 +448,9 @@
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nDowon Choi",
       "NCT number": "NCT06880523",
       "Study status": "Active",
-      "Schema image": "NCT06880523.png"
+      "Schema image": "NCT06880523.png",
+      "Key criteria (for PDF)": "HCC, no prior systemic therapy\nVP4, Child-Pugh B7 eligible.",
+      "PI contact (for PDF)": "jennifer.knox@uhn.ca"
     },
     {
       "Disease Setting": "1st or 2nd",
@@ -408,7 +464,9 @@
       "Contacts": "Site PIs:\nRobert Grant\nrobert.grant@uhn.ca\n\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator: \nSerena Kao ",
       "NCT number": "NCT04204850",
       "Study status": "Active",
-      "Schema image": "NCT04204850.png"
+      "Schema image": "NCT04204850.png",
+      "Key criteria (for PDF)": "Recurrence after transplant. ",
+      "PI contact (for PDF)": "robert.grant@uhn.ca \njennifer.knox@uhn.ca "
     },
     {
       "Disease Setting": "Any line",
@@ -422,7 +480,9 @@
       "Contacts": "Site PI:\nArdnt Vogel\nardnt.vogel@uhn.ca\n\nCoordinator: \nStephen Lam",
       "NCT number": "NCT06915753",
       "Study status": "Active",
-      "Schema image": "NCT06915753.png"
+      "Schema image": "NCT06915753.png",
+      "Key criteria (for PDF)": "FGF, FGFR4/3 pathway alterations. ",
+      "PI contact (for PDF)": "ardnt.vogel@uhn.ca "
     },
     {
       "Disease Setting": "Last line",
@@ -436,7 +496,9 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501\n\nCoordinator: \nGuillaume Cheung",
       "NCT number": "NCT05797805",
       "Study status": "Active",
-      "Schema image": "NCT05797805.png"
+      "Schema image": "NCT05797805.png",
+      "Key criteria (for PDF)": "CTNNB1 or AXIN1. \nPre- and on treatment biopies. ",
+      "PI contact (for PDF)": "eric.chen@uhn.ca "
     },
     {
       "Disease Setting": "2nd",
@@ -450,7 +512,9 @@
       "Contacts": "Site PI:\nDr. Arndt Vogel\nArndt.Vogel@uhn.ca\nCoordinator:\nRegulatory & Data: Sylvia Tran\nSylvia.Tran@uhn.ca\nStudy Nurse: Ochir Gansukh\nOchir.Gansukh@uhn.ca",
       "NCT number": "NCT06764316",
       "Study status": "Active",
-      "Schema image": "NCT06764316.png"
+      "Schema image": "NCT06764316.png",
+      "Key criteria (for PDF)": "Glypican-3 + on IHC.",
+      "PI contact (for PDF)": "ardnt.vogel@uhn.ca "
     },
     {
       "Disease Setting": "Any line",
@@ -464,7 +528,9 @@
       "Contacts": "Site PI: \nDr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: \nVivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "If patient is not a candidate for or would be unlikely to tolerate/derive significant clinical benefit from SOC therapy, or if the patient declines SOC therapy.",
+      "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
     }
   ],
   "CCA": [
@@ -480,7 +546,9 @@
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131",
       "NCT number": "NCT06109779",
       "Study status": "Not Recruiting",
-      "Schema image": "NCT06109779.png"
+      "Schema image": "NCT06109779.png",
+      "Key criteria (for PDF)": "R0/R1 resection, within 12 weeks. No ampullary/NET.",
+      "PI contact (for PDF)": "jennifer.knox@uhn.ca"
     },
     {
       "Disease Setting": "1st line",
@@ -494,7 +562,9 @@
       "Contacts": "Site PI:\nErica Tsang\nerica.tsang@uhn.ca",
       "NCT number": "NCT06467357",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Unresectable, previously untreated, locally advanced or metastatic.\nHer-2 +",
+      "PI contact (for PDF)": "erica.tsang@uhn.ca "
     },
     {
       "Disease Setting": "1st line",
@@ -508,7 +578,9 @@
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca \n\nTrial Nurse: \nGuillaume Cheung\nguillaume.cheung@uhn.ca",
       "NCT number": "NCT06282575",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Locally advanced unresectable or metastatic BTC, Her-2 +",
+      "PI contact (for PDF)": "arndt.vogel@uhn.ca "
     },
     {
       "Disease Setting": "2nd or 3rd line",
@@ -522,7 +594,9 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06219941",
       "Study status": "Not Recruiting",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Claudin 18.2+ \nNo prior exposure to CLDN18.2 targeted agents.",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca "
     },
     {
       "Disease Setting": "Any line",
@@ -536,7 +610,9 @@
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
       "NCT number": "NCT06915753",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "FGF/FGFR pathway alteration.",
+      "PI contact (for PDF)": "arndt.vogel@uhn.ca"
     },
     {
       "Disease Setting": "2nd or later lines",
@@ -550,7 +626,9 @@
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
       "NCT number": "NCT05727176",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "FGFR2 fusion or rearrangement\nno prior anti-FGFR therapy.",
+      "PI contact (for PDF)": "arndt.vogel@uhn.ca"
     },
     {
       "Disease Setting": "1st line",
@@ -564,7 +642,9 @@
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nTrial Nurse:\nSerena (Ching) Kao\nChing.Kao@uhn.ca\n",
       "NCT number": "NCT06501625",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "IDH-1 mutated\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin is permitted.",
+      "PI contact (for PDF)": "arndt.vogel@uhn.ca "
     },
     {
       "Disease Setting": "Non-Therapeutic",
@@ -578,7 +658,9 @@
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinator:\nErin Winter\nErin.Winter@uhn.ca",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": "CAN-PREFER.png"
+      "Schema image": "CAN-PREFER.png",
+      "Key criteria (for PDF)": "Underwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.",
+      "PI contact (for PDF)": "robert.grant@uhn.ca"
     },
     {
       "Disease Setting": "Neoadjuvant",
@@ -592,7 +674,9 @@
       "Contacts": "Site PI:\nDr Arndt Vogel\narndt.vogel@uhn.ca\n\nTrial Nurse:\nGuillaume Cheung\nguillaume.cheung@uhn.ca",
       "NCT number": "NCT06569225",
       "Study status": "Active",
-      "Schema image": "NCT06569225.png"
+      "Schema image": "NCT06569225.png",
+      "Key criteria (for PDF)": "Complete surgical resection must be achievable.",
+      "PI contact (for PDF)": "arndt.vogel@uhn.ca"
     },
     {
       "Disease Setting": "2nd or later lines",
@@ -606,7 +690,9 @@
       "Contacts": "Site PI: \nDr. Amit Oza\nAmit.Oza@uhn.ca\n\nCoordinator: \nDowon Choi\ndowon.choi@uhn.ca\n416-946-4501 ext. 4713",
       "NCT number": "NCT05123482",
       "Study status": "Not Recruiting",
-      "Schema image": "NCT05123482.png"
+      "Schema image": "NCT05123482.png",
+      "Key criteria (for PDF)": "Documented positive B7-H4 expression.\nParticipants must have received at least 1 but no more than 2 prior LOT for metastatic/relapsed disease.",
+      "PI contact (for PDF)": "Amit.Oza@uhn.ca"
     }
   ],
   "PDAC": [
@@ -622,7 +708,9 @@
       "Contacts": "Site PI:\nErica Tsang \nErica.tsang@uhn.ca\n\nCoordinator:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
       "NCT number": "NCT06060405",
       "Study status": "Active",
-      "Schema image": "NCT06060405.png"
+      "Schema image": "NCT06060405.png",
+      "Key criteria (for PDF)": "Resectable pancreatic cancer by NCCN criteria. \nCA 19-9 < 300.",
+      "PI contact (for PDF)": "erica.tsang@uhn.ca "
     },
     {
       "Disease Setting": "Resectable",
@@ -636,7 +724,9 @@
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nGuillaume Cheung\nguillaume.cheung@uhn.ca\nTel: 416-946-4501 ext. 4727",
       "NCT number": "NCT05968326",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Fresh tissue collection-prescreening. \nT1-T3, N0-N2, and M0 ",
+      "PI contact (for PDF)": "jennifer.knox@uhn.ca "
     },
     {
       "Disease Setting": "Locally Advanced Unresectable",
@@ -650,7 +740,9 @@
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": "NCT06453486",
       "Study status": "Active",
-      "Schema image": "NCT06453486.png"
+      "Schema image": "NCT06453486.png",
+      "Key criteria (for PDF)": "Unresectable PDAC on 1L. chemotherapy >16 weeks without progression. ",
+      "PI contact (for PDF)": "erica.tsang@uhn.ca "
     },
     {
       "Disease Setting": "Locally Advanced Unresectable",
@@ -664,7 +756,9 @@
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
       "NCT number": "NCT05411094",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Unresectable PDAC on 1L. chemotherapy > 16 weeks without progression. ",
+      "PI contact (for PDF)": "erica.tsang@uhn.ca "
     },
     {
       "Disease Setting": "1L Metastatic",
@@ -678,7 +772,9 @@
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": "NCT05132244",
       "Study status": "Not Recruiting",
-      "Schema image": "NCT05132244.png"
+      "Schema image": "NCT05132244.png",
+      "Key criteria (for PDF)": "Metastatic PDAC to start 1L. FOLFIRINOX, no prior diabetes diagnosis.",
+      "PI contact (for PDF)": "erica.tsang@uhn.ca "
     },
     {
       "Disease Setting": "2L Metastatic+",
@@ -692,7 +788,9 @@
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
       "NCT number": "NCT04890613",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "BRCA2/PALB2. ",
+      "PI contact (for PDF)": "jennifer.knox@uhn.ca "
     },
     {
       "Disease Setting": "2L Metastatic+",
@@ -706,7 +804,9 @@
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinator:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
       "NCT number": "NCT06813079",
       "Study status": "Active",
-      "Schema image": "NCT06813079.png"
+      "Schema image": "NCT06813079.png",
+      "Key criteria (for PDF)": "Disease progression post-SOC (Cohort A).\nStable disease or partial response to FOLFIRINOX after ≥4 months (Cohort B).",
+      "PI contact (for PDF)": "robert.grant@uhn.ca"
     },
     {
       "Disease Setting": "2L Metastatic+",
@@ -720,7 +820,9 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nNurse: \nDowon Choi/Sarah Eng\n\nCDC: \nDivakar Harihar Kanpure",
       "NCT number": "NCT04421820",
       "Study status": "Not Recruiting",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "ARM VII --> subjects must have received only 1 prior line of therapy but remain naive to oxaliplatin prior to enrollment.",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca"
     },
     {
       "Disease Setting": "Non-Therapeutic",
@@ -734,7 +836,9 @@
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "All patients diagnosed with PDAC.",
+      "PI contact (for PDF)": "robert.grant@uhn.ca"
     },
     {
       "Disease Setting": "Non-Therapeutic",
@@ -748,7 +852,9 @@
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Diagnosis of HCC, PDAC or CCA, including all histological subtypes or mixed histology.\nAssessed and/or treated at UHN.",
+      "PI contact (for PDF)": "jennifer.knox@uhn.ca"
     },
     {
       "Disease Setting": "Non-Therapeutic",
@@ -762,7 +868,9 @@
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "Planned for/receiving  chemotherapy. \nPts. with no email address,  inability to fluently speak and read English and those admitted as an inpatient at enrolment are excluded.",
+      "PI contact (for PDF)": "robert.grant@uhn.ca"
     },
     {
       "Disease Setting": "2L Only Metastatic",
@@ -776,7 +884,9 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06885034",
       "Study status": "Not Recruiting",
-      "Schema image": "NCT06885034.png"
+      "Schema image": "NCT06885034.png",
+      "Key criteria (for PDF)": "Must have received no more than1 line of therapy for advanced PDAC, with PD on neoadjuvant or adjuvant chemo during treatment or within 6 months of EOT.",
+      "PI contact (for PDF)": "eric.chen@uhn.ca"
     },
     {
       "Disease Setting": "Any Line Advanced",
@@ -790,7 +900,9 @@
       "Contacts": "Site PI: \nDr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "If patient is not a candidate for or would be unlikely to tolerate/derive significant clinical benefit from SOC therapy, or if the patient declines SOC therapy.",
+      "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
     },
     {
       "Disease Setting": "1L Metastatic",
@@ -804,7 +916,9 @@
       "Contacts": "Site PI:\nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Coordinator:\nSerena (Ching) Kao",
       "NCT number": "NCT07076121",
       "Study status": "Active",
-      "Schema image": "NCT07076121.png"
+      "Schema image": "NCT07076121.png",
+      "Key criteria (for PDF)": "MTAP deletion\nMay receive up to 1 cycle of nab-p/gem in the metastatic setting but must not have progressed or required discontinuation due to toxicity.",
+      "PI contact (for PDF)": "jennifer.knox@uhn.ca"
     },
     {
       "Disease Setting": "Non-Therapeutic",
@@ -818,7 +932,9 @@
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": "CAN-PREFER.png"
+      "Schema image": "CAN-PREFER.png",
+      "Key criteria (for PDF)": "Underwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.",
+      "PI contact (for PDF)": "robert.grant@uhn.ca"
     }
   ],
   "pNET": [
@@ -834,7 +950,9 @@
       "Contacts": "Site PI:\nRaymond Jang\nraymond.jang@uhn.ca",
       "NCT number": "NCT04924075",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "PNET who have progressed on everolimus or sunitinib. ",
+      "PI contact (for PDF)": "raymond.jang@uhn.ca "
     },
     {
       "Disease Setting": "Any Line Advanced",
@@ -848,7 +966,9 @@
       "Contacts": "PI: Dr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
       "Study status": "Active",
-      "Schema image": null
+      "Schema image": null,
+      "Key criteria (for PDF)": "If patient is not a candidate for or would be unlikely to tolerate/derive significant clinical benefit from SOC therapy, or if the patient declines SOC therapy.",
+      "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
     }
   ],
   "Preactivation": [
@@ -1581,6 +1701,81 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-04-01T13:58:38"
+      },
+      {
+        "Trial Name": "DORA (WOO)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "GO44479/ROCHE (Vaccine Study)\n\n",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "ABLATE (radiation)\n\n",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "NASC-009/NCI 10464\n\n",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "OZM-114\n\n",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "ADOPT\n\n\n",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "BOLD-100-001\n\n \n\n",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "OPCS Registry\n",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "HPB Banking Protocol\n\n",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "WATCH-PC\n\n",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "GSK223675",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "CA240-0030",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "CAN-PREFER",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
       }
     ],
     "HCC": [
@@ -1938,6 +2133,51 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-04-01T09:56:40"
+      },
+      {
+        "Trial Name": "NEOTOMA",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "BeyondIO (HMLTO002)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "ARTEMIDE HCC01",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "HE.2 (SLIDE-HCC)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "CaboTx\n ",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "TYR430-101",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "ITER-002-HCC",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "BANTAM-01",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
       }
     ],
     "Gastroesophageal": [
@@ -2427,6 +2667,56 @@
         "Trial Name": "S095031-210",
         "change": "modified",
         "timestamp": "2026-03-26T17:14:37"
+      },
+      {
+        "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "Destiny-BTC01",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "HERIZON-BTC-302 (Sponsor: Jazz pharma)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "SURF-431",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "FOENIX-CCA4 \nTAS-120-205",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "S095031-210",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "CAN-PREFER",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "NEOLANGIO",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "BLUESTAR (D6900C00001)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
       }
     ],
     "Preactivation": [
@@ -3193,6 +3483,61 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-04-01T09:56:40"
+      },
+      {
+        "Trial Name": "GSK219606 (AZUR2)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "61186372COR3001 (ORIGAMI-2)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "D798VC00001 (CANTOR)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "WO42758 (INTRINSIC)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "BOLD-100-001 (TRIO039)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "C4761001 ",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "GSK223675 ",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "ONO-4578-10",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "CO.33 (BATTMAN)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "Phase 1 of NDI-219216 in Patients with Advanced Solid Tumors with MSI-H/dMMR",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
       }
     ],
     "GE": [
@@ -3365,6 +3710,71 @@
         "Trial Name": "CA2660004 (ROSETTA Gastric-204)",
         "change": "modified",
         "timestamp": "2026-04-01T09:56:40"
+      },
+      {
+        "Trial Name": "MOCHA",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "Clarity-Gastric01 ",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "ARTEMIDE-Gastric01 ",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "GA.4 ",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "TORO ",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "REJOICE-GI01",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "GEAR",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "IRONGOOSE",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "DEFEAT",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "NEEDS",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "DESTINY-Gastric03",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "AndroMETa-GEA-977",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "CA2660004 (ROSETTA Gastric-204)",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
       }
     ],
     "pNET": [
@@ -3427,6 +3837,16 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-04-01T13:58:38"
+      },
+      {
+        "Trial Name": "Belzutifan Advanced Pancreatic Neuroendocrine Tumor (pNET), or Von Hippel-Lindau (VHL) Disease-Associated Tumors (MK-6482-015) ",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-04-09T10:21:06"
       }
     ]
   }
