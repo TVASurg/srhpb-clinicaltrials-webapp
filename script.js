@@ -971,8 +971,8 @@ const columnMap = [
   { header: "Title", key: "Trial Name" },
   { header: "Setting", key: "Disease Setting" },
   { header: "Arms", key: "Trial Intervention/Arms" },
-  { header: "Key Criteria", key: "Eligibility " },
-  { header: "Contact", key: "Contacts" },
+  { header: "Key Criteria", key: "Key criteria (for PDF)" },
+  { header: "Contact", key: "PI contact (for PDF)" },
   { header: "NCT", key: "NCT number" }
 ];
 
@@ -1087,8 +1087,8 @@ const columnMap = [
   { header: "Title", key: "Trial Name" },
   { header: "Setting", key: "Disease Setting" },
   { header: "Arms", key: "Trial Intervention/Arms" },
-  { header: "Key Criteria", key: "Additional notes" },
-  { header: "Contact", key: "Contacts" },
+  { header: "Key Criteria", key: "Key criteria (for PDF)" },
+  { header: "Contact", key: "PI contact (for PDF)" },
   { header: "NCT", key: "NCT number" }
 ];
 // Build headers from mapping
@@ -1204,8 +1204,8 @@ const columnMap = [
   { header: "Title", key: "Trial Name" },
   { header: "Setting", key: "Disease Setting" },
   { header: "Arms", key: "Trial Intervention/Arms" },
-  { header: "Key Criteria", key: "Additional notes" },
-  { header: "Contact", key: "Contacts" },
+  { header: "Key Criteria", key: "Key criteria (for PDF)" },
+  { header: "Contact", key: "PI contact (for PDF)" },
   { header: "NCT", key: "NCT number" }
 ];
 // Build headers from mapping
@@ -1320,8 +1320,8 @@ const columnMap = [
   { header: "Title", key: "Trial Name" },
   { header: "Setting", key: "Disease Setting" },
   { header: "Arms", key: "Trial Intervention/Arms" },
-  { header: "Key Criteria", key: "Eligibility " },
-  { header: "Contact", key: "Contacts" },
+  { header: "Key Criteria", key: "Key criteria (for PDF)" },
+  { header: "Contact", key: "PI contact (for PDF)" },
   { header: "NCT", key: "NCT number" }
 ];
 
@@ -1437,8 +1437,8 @@ const columnMap = [
   { header: "Title", key: "Trial Name" },
   { header: "Setting", key: "Disease Setting" },
   { header: "Arms", key: "Trial Intervention/Arms" },
-  { header: "Key Criteria", key: "Eligibility " },
-  { header: "Contact", key: "Contacts" },
+  { header: "Key Criteria", key: "Key criteria (for PDF)" },
+  { header: "Contact", key: "PI contact (for PDF)" },
   { header: "NCT", key: "NCT number" }
 ];
 
