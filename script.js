@@ -879,6 +879,7 @@ const rows = data.CRC.map(trial =>
 // Variable to store rowspan height
 let groupRowSpanHeight = 0;
 
+//doc.addPage();
 doc.autoTable({
   head: [headers],
   body: rows,
