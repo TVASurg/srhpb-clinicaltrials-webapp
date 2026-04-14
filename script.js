@@ -803,7 +803,8 @@ function highlightCategory()
   event.target.classList.add('selectedCategory');
 }
 
-addIndicator(); 
+addIndicator();
+addPDFcoverPage(); 
 initAllData();
 
 function openImage(dataUrl) {
@@ -833,6 +834,25 @@ function openImage(dataUrl) {
 
     // Optional: release memory after a while
     setTimeout(() => URL.revokeObjectURL(blobUrl), 10000);
+}
+
+function addPDFcoverPage()
+{
+  //add in cover page
+  const coverImg = new Image();
+  coverImg.src = 'images/communityListCoverPage.jpg';
+  doc.addImage(coverImg, 'JPEG', -10,-20,315,245);
+
+  var today = new Date();
+  var currentYear = today.getFullYear();
+  var currentMonth = (today.toLocaleString('default', { month: 'long' })).toUpperCase();
+
+  var dateToPrint = currentMonth + ' ' + currentYear;
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(84);
+  doc.setTextColor('#9c8439');
+  doc.text(dateToPrint, 150, 150, { align: "center" });
+
 }
 
 function ericList(data)
@@ -879,7 +899,7 @@ const rows = data.CRC.map(trial =>
 // Variable to store rowspan height
 let groupRowSpanHeight = 0;
 
-//doc.addPage();
+doc.addPage();
 doc.autoTable({
   head: [headers],
   body: rows,
@@ -893,7 +913,7 @@ doc.autoTable({
     2: { cellWidth: 30 },
     3: { cellWidth: 55 },
     4: { cellWidth: 55 },
-    5: { cellWidth: 50 },
+    5: { cellWidth: 51 },
     6: { cellWidth: 30 }
   },
   didParseCell: function (data) {
@@ -1012,7 +1032,8 @@ doc.autoTable({
     2: { cellWidth: 30 },
     3: { cellWidth: 55 },
     4: { cellWidth: 55 },
-    5: { cellWidth: 50 }
+    5: { cellWidth: 51 },
+    6: { cellWidth: 30 }
   },
   didParseCell: function (data) {
     if (data.section === 'body') {
@@ -1129,7 +1150,8 @@ doc.autoTable({
     2: { cellWidth: 30 },
     3: { cellWidth: 55 },
     4: { cellWidth: 55 },
-    5: { cellWidth: 50 }
+    5: { cellWidth: 51 },
+    6: { cellWidth: 30 }
   },
   didParseCell: function (data) {
     if (data.section === 'body') {
@@ -1245,7 +1267,8 @@ doc.autoTable({
     2: { cellWidth: 30 },
     3: { cellWidth: 55 },
     4: { cellWidth: 55 },
-    5: { cellWidth: 50 }
+    5: { cellWidth: 51 },
+    6: { cellWidth: 30 }
   },
   didParseCell: function (data) {
     if (data.section === 'body') {
@@ -1362,7 +1385,8 @@ doc.autoTable({
     2: { cellWidth: 30 },
     3: { cellWidth: 55 },
     4: { cellWidth: 55 },
-    5: { cellWidth: 50 }
+    5: { cellWidth: 51 },
+    6: { cellWidth: 30 }
   },
   didParseCell: function (data) {
     if (data.section === 'body') {
@@ -1479,7 +1503,8 @@ doc.autoTable({
     2: { cellWidth: 30 },
     3: { cellWidth: 55 },
     4: { cellWidth: 55 },
-    5: { cellWidth: 50 }
+    5: { cellWidth: 51 },
+    6: { cellWidth: 30 }
   },
   didParseCell: function (data) {
     if (data.section === 'body') {
