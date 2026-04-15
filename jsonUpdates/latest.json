@@ -195,22 +195,6 @@
       "PI contact (for PDF)": "elena.elimova@uhn.ca "
     },
     {
-      "Disease Setting": "3L+",
-      "Trial Name": "Clarity-Gastric01 ",
-      "Full title": "A Phase III Multi-center, Open-label, Sponsor-blinded, \nRandomized Study of AZD0901 Monotherapy Compared with \nInvestigator’s Choice of Therapy in Second- or Later-Line Adult \nParticipants with Advanced/Metastatic Gastric or \nGastroesophageal Junction Adenocarcinoma Expressing \nClaudin18.2",
-      "Additional notes": "Enrollment CLOSED (19Mar2026)",
-      "Tissue Requirements": "Archival tissue (≤24 months); fresh tissue (3xT cores) ",
-      "Biomarker/unselected": "CLDN18.2",
-      "Trial Intervention/Arms": "AZD0901 vs physician’s choice \nArm 1: Participants in the AZD0901 arm 1 will receive 2.2 mg/kg AZD0901 IV, Q3W\nArm 2: Participants in the AZD0901 arm 2 will receive 1.8 mg/kg AZD0901 IV, Q3W (Discontinued following dose selection made on Jan 2025)\n Arm 3: Regimen of \nInvestigator’s choice. These include:\n- 2L: Ramucirumab 8 mg/kg IV on Days 1 and 15 and paclitaxel 80 mg/m2 IV on Days 1, 8, and 15, Q4W\n- 2L: Paclitaxel 80 mg/m2 IV on Days 1, 8, and 15, Q4W (for participants with contraindication to ramucirumab only)\n- 2L: Docetaxel 75-100 mg/m2 IV on Day 1, Q3W (for participants with contraindication to ramucirumab only)\n- 3L+: Irinotecan 150-180 mg/m2 IV on Days 1 and 15, Q4W [As of 16Jul25, Slot Request Form need to be sent to sponsor for eligibility]",
-      "Eligibility ": "Disease progression on or after at least one prior line of treatment (LoT) for advanced or metastatic disease, which included a fluoropyrimidine and a platinum, for advanced or metastatic disease.\nMust have at least one measurable or evaluable lesion assessed by the Investigator based on RECIST 1.1.",
-      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
-      "NCT number": "NCT06346392",
-      "Study status": "Not Recruiting",
-      "Schema image": "NCT06346392.png",
-      "Key criteria (for PDF)": "Claudin 18.2+\nPD on or after at least one line of treatment.",
-      "PI contact (for PDF)": "elena.elimova@uhn.ca"
-    },
-    {
       "Disease Setting": "1st line",
       "Trial Name": "ARTEMIDE-Gastric01 ",
       "Full title": "A Randomized, Phase III Study of Rilvegostomig in Combination with Fluoropyrimidine and Trastuzumab Deruxtecan versus Trastuzumab, Chemotherapy, and Pembrolizumab for the First-line Treatment of HER2-positive Gastric Cancer ",
@@ -531,6 +515,22 @@
       "Schema image": null,
       "Key criteria (for PDF)": "If patient is not a candidate for or would be unlikely to tolerate/derive significant clinical benefit from SOC therapy, or if the patient declines SOC therapy.",
       "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
+    },
+    {
+      "Disease Setting": "Non-Therapeutic",
+      "Trial Name": "HPB Robotic Surgery Database ",
+      "Full title": "HPB Robotic Surgery Prospective Database Curriculum Development.",
+      "Additional notes": "This is an Observational Quality Assessment study that aims to gather clinical data and assess the quality of care recommended and received by patients underwent HPB robotic surgeries.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "We will examine the surgical outcomes, short and long term complications, morbidity and mortality and overall process of treatment approaches.\n\nConduct a retrospective data analysis of the patients from the electronic patient record system or patients’ paper charts.",
+      "Eligibility ": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
+      "Contacts": "Site PI:\nDr. Chaya Shwaartz\nchaya.shwaartz@uhn.ca\n\nStudy Coordinator\nGiselle Caballero\ngiselle.caballero@uhn.ca",
+      "NCT number": null,
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
+      "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
     }
   ],
   "CCA": [
@@ -693,6 +693,22 @@
       "Schema image": "NCT05123482.png",
       "Key criteria (for PDF)": "Documented positive B7-H4 expression.\nParticipants must have received at least 1 but no more than 2 prior LOT for metastatic/relapsed disease.",
       "PI contact (for PDF)": "Amit.Oza@uhn.ca"
+    },
+    {
+      "Disease Setting": "Non-Therapeutic",
+      "Trial Name": "HPB Robotic Surgery Database ",
+      "Full title": "HPB Robotic Surgery Prospective Database Curriculum Development.",
+      "Additional notes": "This is an Observational Quality Assessment study that aims to gather clinical data and assess the quality of care recommended and received by patients underwent HPB robotic surgeries.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "We will examine the surgical outcomes, short and long term complications, morbidity and mortality and overall process of treatment approaches.\n\nConduct a retrospective data analysis of the patients from the electronic patient record system or patients’ paper charts.",
+      "Eligibility ": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
+      "Contacts": "Site PI:\nDr. Chaya Shwaartz\nchaya.shwaartz@uhn.ca\n\nStudy Coordinator\nGiselle Caballero\ngiselle.caballero@uhn.ca",
+      "NCT number": null,
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
+      "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
     }
   ],
   "PDAC": [
@@ -809,22 +825,6 @@
       "PI contact (for PDF)": "robert.grant@uhn.ca"
     },
     {
-      "Disease Setting": "2L Metastatic+",
-      "Trial Name": "BOLD-100-001\n\n \n\n",
-      "Full title": "A Phase 1b/2a Dose Escalation Study of BOLD-100 in Combination With FOLFOX Chemotherapy in Patients With Advanced Solid Tumours",
-      "Additional notes": "CLOSED\n\nTo assess the safety, tolerability and MTD of SOC combination chemotherapy + BOLD-100 in advanced solid tumours",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Arm VII: dose expansion - randomized 1:1:1 open label to 500 mg/m2 or 625 mg/m2 BOLD-100 in combination with FOLFOX or FOLFOX alone \n\nBOLD-100: IV ruthenium-based small molecule decreasing GRP78 in tumor cells",
-      "Eligibility ": "Inclusion: \nHistologically and/or cytologically confirmed gastrointestinal tumours that are metastatic or unresectable, and have measurable disease according to RECIST v1.1 (at least one measurable lesion)\nARM VII --> subjects must have received only 1 prior line of therapy but remain naive to oxaliplatin prior to enrollment\nExclusion: \nMSH-H tumours; concurrent monoclonal antibody therapy: anti-EGFR or anti-VEGF ",
-      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nNurse: \nDowon Choi/Sarah Eng\n\nCDC: \nDivakar Harihar Kanpure",
-      "NCT number": "NCT04421820",
-      "Study status": "Not Recruiting",
-      "Schema image": null,
-      "Key criteria (for PDF)": "ARM VII --> subjects must have received only 1 prior line of therapy but remain naive to oxaliplatin prior to enrollment.",
-      "PI contact (for PDF)": "elena.elimova@uhn.ca"
-    },
-    {
       "Disease Setting": "Non-Therapeutic",
       "Trial Name": "OPCS Registry\n",
       "Full title": "Ontario Pancreas Cancer Study: Identifying genetic, environmental, and lifestyle causes of PDAC",
@@ -935,6 +935,38 @@
       "Schema image": "CAN-PREFER.png",
       "Key criteria (for PDF)": "Underwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.",
       "PI contact (for PDF)": "robert.grant@uhn.ca"
+    },
+    {
+      "Disease Setting": "Non-Therapeutic",
+      "Trial Name": "Post operative pain in MIS vs Open Distal Pancreatectomy",
+      "Full title": "A Comparative Study of Postoperative Pain and Medication Use in Minimally Invasive and Open Distal Pancreatectomy",
+      "Additional notes": "This study will prospectively examine pain levels and medication use following Robotic, Laparoscopic and open distal pancreatectomy, providing valuable insights into the relative outcomes of these techniques for pain management and recovery.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Data will be collected from patients' medical records (EPIC) and will encompass various aspects, including patient demographics (Age, sex, BMI) clinical characteristics (Comorbidities, indication for surgery, and pathology) and Surgical Details such as Operative approach (robotic, laparoscopic, open), operative time, and estimated blood loss (EBL) and post-operative outcome. This study will also gather data on postoperative pain and pain medication use through a customized pain questionnaire administered during the inpatient stay and post-discharge up to four weeks.",
+      "Eligibility ": "Adult patients (over 18 years) who undergo distal pancreatectomy for any diagnosis at UHN. Patient who undergoes surgery through minimally invasive (robotic or laparoscopic) or open surgical approaches, will be included in the study.",
+      "Contacts": "Site PI: \nDr. Chaya Shwaartz\nchaya.shwaartz@uhn.ca\n\nStudy Coordinator:\nDorian Facey\ndorian.facey@uhn.ca\n437-779-7757",
+      "NCT number": null,
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "Patients undergoing distal pancreatectomy for any diagnosis at UHN (PDAC, IPMN, pNET).",
+      "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
+    },
+    {
+      "Disease Setting": "Non-Therapeutic",
+      "Trial Name": "HPB Robotic Surgery Database ",
+      "Full title": "HPB Robotic Surgery Prospective Database Curriculum Development.",
+      "Additional notes": "This is an Observational Quality Assessment study that aims to gather clinical data and assess the quality of care recommended and received by patients underwent HPB robotic surgeries.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "We will examine the surgical outcomes, short and long term complications, morbidity and mortality and overall process of treatment approaches.\n\nConduct a retrospective data analysis of the patients from the electronic patient record system or patients’ paper charts.",
+      "Eligibility ": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
+      "Contacts": "Site PI:\nDr. Chaya Shwaartz\nchaya.shwaartz@uhn.ca\n\nStudy Coordinator\nGiselle Caballero\ngiselle.caballero@uhn.ca",
+      "NCT number": null,
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
+      "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
     }
   ],
   "pNET": [
@@ -969,6 +1001,38 @@
       "Schema image": null,
       "Key criteria (for PDF)": "If patient is not a candidate for or would be unlikely to tolerate/derive significant clinical benefit from SOC therapy, or if the patient declines SOC therapy.",
       "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
+    },
+    {
+      "Disease Setting": "Non-Therapeutic",
+      "Trial Name": "Post operative pain in MIS vs Open Distal Pancreatectomy",
+      "Full title": "A Comparative Study of Postoperative Pain and Medication Use in Minimally Invasive and Open Distal Pancreatectomy",
+      "Additional notes": "This study will prospectively examine pain levels and medication use following Robotic, Laparoscopic and open distal pancreatectomy, providing valuable insights into the relative outcomes of these techniques for pain management and recovery.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Data will be collected from patients' medical records (EPIC) and will encompass various aspects, including patient demographics (Age, sex, BMI) clinical characteristics (Comorbidities, indication for surgery, and pathology) and Surgical Details such as Operative approach (robotic, laparoscopic, open), operative time, and estimated blood loss (EBL) and post-operative outcome. This study will also gather data on postoperative pain and pain medication use through a customized pain questionnaire administered during the inpatient stay and post-discharge up to four weeks.",
+      "Eligibility ": "Adult patients (over 18 years) who undergo distal pancreatectomy for any diagnosis at UHN. Patient who undergoes surgery through minimally invasive (robotic or laparoscopic) or open surgical approaches, will be included in the study.",
+      "Contacts": "Site PI: \nDr. Chaya Shwaartz\nchaya.shwaartz@uhn.ca\n\nStudy Coordinator:\nDorian Facey\ndorian.facey@uhn.ca\n437-779-7757",
+      "NCT number": null,
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "Patients undergoing distal pancreatectomy for any diagnosis at UHN (PDAC, IPMN, pNET).",
+      "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
+    },
+    {
+      "Disease Setting": "Non-Therapeutic",
+      "Trial Name": "HPB Robotic Surgery Database ",
+      "Full title": "HPB Robotic Surgery Prospective Database Curriculum Development.",
+      "Additional notes": "This is an Observational Quality Assessment study that aims to gather clinical data and assess the quality of care recommended and received by patients underwent HPB robotic surgeries.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "We will examine the surgical outcomes, short and long term complications, morbidity and mortality and overall process of treatment approaches.\n\nConduct a retrospective data analysis of the patients from the electronic patient record system or patients’ paper charts.",
+      "Eligibility ": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
+      "Contacts": "Site PI:\nDr. Chaya Shwaartz\nchaya.shwaartz@uhn.ca\n\nStudy Coordinator\nGiselle Caballero\ngiselle.caballero@uhn.ca",
+      "NCT number": null,
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
+      "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
     }
   ],
   "Preactivation": [
@@ -1127,6 +1191,34 @@
       "Contacts": "Site PI: \nDr. Erica Tsang\nerica.tsang@uhn.ca\n416-946-4501 ext. 4853\n\nCoordinator: \nMary Wei",
       "NCT number": "NCT06679985",
       "Schema image": "NCT06679985.png"
+    },
+    {
+      "Organ group": "PDAC",
+      "Disease Setting": "2L Metastatic+",
+      "Trial Name": "BOLD-100-001\n\n \n\n",
+      "Full title": "A Phase 1b/2a Dose Escalation Study of BOLD-100 in Combination With FOLFOX Chemotherapy in Patients With Advanced Solid Tumours",
+      "Additional notes": "CLOSED\n\nTo assess the safety, tolerability and MTD of SOC combination chemotherapy + BOLD-100 in advanced solid tumours",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Arm VII: dose expansion - randomized 1:1:1 open label to 500 mg/m2 or 625 mg/m2 BOLD-100 in combination with FOLFOX or FOLFOX alone \n\nBOLD-100: IV ruthenium-based small molecule decreasing GRP78 in tumor cells",
+      "Eligibility ": "Inclusion: \nHistologically and/or cytologically confirmed gastrointestinal tumours that are metastatic or unresectable, and have measurable disease according to RECIST v1.1 (at least one measurable lesion)\nARM VII --> subjects must have received only 1 prior line of therapy but remain naive to oxaliplatin prior to enrollment\nExclusion: \nMSH-H tumours; concurrent monoclonal antibody therapy: anti-EGFR or anti-VEGF ",
+      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nNurse: \nDowon Choi/Sarah Eng\n\nCDC: \nDivakar Harihar Kanpure",
+      "NCT number": "NCT04421820",
+      "Schema image": null
+    },
+    {
+      "Organ group": "GE",
+      "Disease Setting": "3L+",
+      "Trial Name": "Clarity-Gastric01 ",
+      "Full title": "A Phase III Multi-center, Open-label, Sponsor-blinded, \nRandomized Study of AZD0901 Monotherapy Compared with \nInvestigator’s Choice of Therapy in Second- or Later-Line Adult \nParticipants with Advanced/Metastatic Gastric or \nGastroesophageal Junction Adenocarcinoma Expressing \nClaudin18.2",
+      "Additional notes": "Enrollment CLOSED (19Mar2026)",
+      "Tissue Requirements": "Archival tissue (≤24 months); fresh tissue (3xT cores) ",
+      "Biomarker/unselected": "CLDN18.2",
+      "Trial Intervention/Arms": "AZD0901 vs physician’s choice \nArm 1: Participants in the AZD0901 arm 1 will receive 2.2 mg/kg AZD0901 IV, Q3W\nArm 2: Participants in the AZD0901 arm 2 will receive 1.8 mg/kg AZD0901 IV, Q3W (Discontinued following dose selection made on Jan 2025)\n Arm 3: Regimen of \nInvestigator’s choice. These include:\n- 2L: Ramucirumab 8 mg/kg IV on Days 1 and 15 and paclitaxel 80 mg/m2 IV on Days 1, 8, and 15, Q4W\n- 2L: Paclitaxel 80 mg/m2 IV on Days 1, 8, and 15, Q4W (for participants with contraindication to ramucirumab only)\n- 2L: Docetaxel 75-100 mg/m2 IV on Day 1, Q3W (for participants with contraindication to ramucirumab only)\n- 3L+: Irinotecan 150-180 mg/m2 IV on Days 1 and 15, Q4W [As of 16Jul25, Slot Request Form need to be sent to sponsor for eligibility]",
+      "Eligibility ": "Disease progression on or after at least one prior line of treatment (LoT) for advanced or metastatic disease, which included a fluoropyrimidine and a platinum, for advanced or metastatic disease.\nMust have at least one measurable or evaluable lesion assessed by the Investigator based on RECIST 1.1.",
+      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
+      "NCT number": "NCT06346392",
+      "Schema image": null
     }
   ],
   "Dropdown Menus": [
@@ -1776,6 +1868,16 @@
         "Trial Name": "CAN-PREFER",
         "change": "modified",
         "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "Post operative pain in MIS vs Open Distal Pancreatectomy",
+        "change": "added",
+        "timestamp": "2026-04-15T10:38:37"
+      },
+      {
+        "Trial Name": "HPB Robotic Surgery Database ",
+        "change": "added",
+        "timestamp": "2026-04-15T10:38:37"
       }
     ],
     "HCC": [
@@ -2178,6 +2280,11 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "HPB Robotic Surgery Database ",
+        "change": "added",
+        "timestamp": "2026-04-15T10:38:37"
       }
     ],
     "Gastroesophageal": [
@@ -2717,6 +2824,11 @@
         "Trial Name": "BLUESTAR (D6900C00001)",
         "change": "modified",
         "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "HPB Robotic Surgery Database ",
+        "change": "added",
+        "timestamp": "2026-04-15T10:38:37"
       }
     ],
     "Preactivation": [
@@ -2831,6 +2943,16 @@
         "Trial Name": "CHS-388-202",
         "change": "added",
         "timestamp": "2026-03-12T17:11:27"
+      },
+      {
+        "Trial Name": "BOLD-100-001\n\n \n\n",
+        "change": "added",
+        "timestamp": "2026-04-15T10:38:37"
+      },
+      {
+        "Trial Name": "Clarity-Gastric01 ",
+        "change": "added",
+        "timestamp": "2026-04-15T10:38:37"
       }
     ],
     "CRC": [
@@ -3847,6 +3969,16 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "Post operative pain in MIS vs Open Distal Pancreatectomy",
+        "change": "added",
+        "timestamp": "2026-04-15T10:38:37"
+      },
+      {
+        "Trial Name": "HPB Robotic Surgery Database ",
+        "change": "added",
+        "timestamp": "2026-04-15T10:38:37"
       }
     ]
   }
