@@ -584,6 +584,22 @@
     },
     {
       "Disease Setting": "1st line",
+      "Trial Name": "\nD702NC00001 (ARTEMIDE-Biliary02)",
+      "Full title": "\nPhase III Study of Rilvegostomig or Durvalumab in Combination with Chemotherapy as First-line Treatment of Advanced BTC",
+      "Additional notes": null,
+      "Tissue Requirements": "Tissue Required for PD-L1 testing",
+      "Biomarker/unselected": "PD-L1",
+      "Trial Intervention/Arms": "A: Durvalumab + GemCis\nB: Rilvegostomig + GemCis",
+      "Eligibility ": "Locally advanced unresectable or metastatic BTC and not eligible for  resection. No prior therapy.  Known PD-L1 status\nMeasurable disease by RECIST 1.1  \n\n",
+      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nTrial Nurse:\nSerena (Ching) Kao\nChing.Kao@uhn.ca",
+      "NCT number": "NCT07221253",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "1L, advanced BTC",
+      "PI contact (for PDF)": "arndt.vogel@uhn.ca "
+    },
+    {
+      "Disease Setting": "1st line",
       "Trial Name": "HERIZON-BTC-302 (Sponsor: Jazz pharma)",
       "Full title": "An Open-label Randomized Trial of the Efficacy and Safety of Zanidatamab With Standard-of-care Therapy Against Standard-of-care Therapy Alone for Advanced HER2-positive Biliary Tract Cancer",
       "Additional notes": "Patient must be randomized before starting C3. ",
@@ -597,22 +613,6 @@
       "Schema image": null,
       "Key criteria (for PDF)": "Locally advanced unresectable or metastatic BTC, Her-2 +",
       "PI contact (for PDF)": "arndt.vogel@uhn.ca "
-    },
-    {
-      "Disease Setting": "2nd or 3rd line",
-      "Trial Name": "CLARITY-PanTumour01",
-      "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2 (CLARITY-PanTumour01)",
-      "Additional notes": "BTC cohort:\nPre-screening & screening on hold until May/June of 2026.",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": "CLDN18.2",
-      "Trial Intervention/Arms": "AZD0901 monotherapy",
-      "Eligibility ": "Claudin 18.2+\nPrior exposure to any CLDN18.2 targeted agents except anti-\nCLDN18.2 monoclonal antibody are excluded\nMust have at least one measurable lesion according to RECIST v1.1.",
-      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
-      "NCT number": "NCT06219941",
-      "Study status": "Not Recruiting",
-      "Schema image": null,
-      "Key criteria (for PDF)": "Claudin 18.2+ \nNo prior exposure to CLDN18.2 targeted agents.",
-      "PI contact (for PDF)": "elena.elimova@uhn.ca "
     },
     {
       "Disease Setting": "Any line",
@@ -1235,6 +1235,20 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06346392",
       "Schema image": null
+    },
+    {
+      "Organ group": "BTC",
+      "Disease Setting": "2L or 3L",
+      "Trial Name": "CLARITY-PanTumour01",
+      "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2 (CLARITY-PanTumour01)",
+      "Additional notes": "BTC cohort:\nPre-screening & screening on hold until May/June of 2026. Enrollment closed April 17, 2026",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": "CLDN18.2",
+      "Trial Intervention/Arms": "AZD0901 monotherapy",
+      "Eligibility ": "Claudin 18.2+\nPrior exposure to any CLDN18.2 targeted agents except anti-\nCLDN18.2 monoclonal antibody are excluded\nMust have at least one measurable lesion according to RECIST v1.1.",
+      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
+      "NCT number": "NCT06219941",
+      "Schema image": "Not Recruiting"
     }
   ],
   "Dropdown Menus": [
@@ -2845,6 +2859,11 @@
         "Trial Name": "HPB Robotic Surgery Database ",
         "change": "added",
         "timestamp": "2026-04-15T10:38:37"
+      },
+      {
+        "Trial Name": "\nD702NC00001 (ARTEMIDE-Biliary02)",
+        "change": "added",
+        "timestamp": "2026-04-17T12:17:10"
       }
     ],
     "Preactivation": [
@@ -2969,6 +2988,11 @@
         "Trial Name": "Clarity-Gastric01 ",
         "change": "added",
         "timestamp": "2026-04-15T10:38:37"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01",
+        "change": "added",
+        "timestamp": "2026-04-17T12:17:10"
       }
     ],
     "CRC": [
