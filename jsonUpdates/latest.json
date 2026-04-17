@@ -175,6 +175,22 @@
       "Schema image": null,
       "Key criteria (for PDF)": "MSI-H/dMMR refractory to SOC.",
       "PI contact (for PDF)": "eric.chen@uhn.ca "
+    },
+    {
+      "Disease Setting": "1st line ",
+      "Trial Name": "61186372GIC2002 (OrigAMI-1)",
+      "Full title": "A Phase 1b/2, Open-Label Study of Amivantamab Monotherapy and in Addition to Standard-of-Care Chemotherapy in Participants with Advanced or Metastatic Colorectal Cancer.",
+      "Additional notes": "Only Cohort F is available at this time: Amivantamab (subcutaneous) + mFOLFOX6 for 1L right-sided mCRC",
+      "Tissue Requirements": "Fresh biopsy at screening is required, if clinically feasible. If not clinically feasible, archival tissue submission is required. Minimum 15 x 5 micron slides, or 1 FFPE block. Central tissue testing is not used to determine eligibility. ",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Only Cohort F is open at this time: Amivantamab (subcutaneous) + mFOLFOX6.",
+      "Eligibility ": "Inclusion:\n\n- Participants must be treatment-naïve for right-sided unresectable or metastatic CRC and be eligible for treatment with mFOLFOX6 according to local regulatory approvals and SoC guidelines.\n\n- ECOG 0 or 1\n\nExclusion:\n\n- Cohort F: Participant with identified mutation in KRAS, NRAS, BRAF V600, or PTEN, identified fusions in ALK, ROS-1, RET, and NTRK-1, ERBB2/HER2 amplification, or identified to have MSI-H status.",
+      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
+      "NCT number": "NCT05379595",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "Treatment-naïve for right-sided unresectable/mCRC and eligible for mFOLFOX6.",
+      "PI contact (for PDF)": "eric.chen@uhn.ca "
     }
   ],
   "GE": [
@@ -3660,6 +3676,11 @@
         "Trial Name": "Phase 1 of NDI-219216 in Patients with Advanced Solid Tumors with MSI-H/dMMR",
         "change": "modified",
         "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "61186372GIC2002 (OrigAMI-1)",
+        "change": "added",
+        "timestamp": "2026-04-17T09:22:52"
       }
     ],
     "GE": [
