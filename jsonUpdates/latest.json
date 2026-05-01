@@ -134,14 +134,14 @@
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
       "Tissue Requirements": "Archived tumor tissue sample available or lesion that can be safely biopsied if the archival sample is not available. There are no specific requirements for tissue type, but sample needs to have 30% tumour content. Archival sample are to be prepared into 20 slides for IHC, FISH, and DNA/RNA extraction. \n\nPatients who do not have archival sample and biopsy collection are not feasible due to safety reason are still possible to be screen for the study after consultation with study Sponsor. ",
-      "Biomarker/unselected": "One of: CCNE1 amplification; FBXW7 deleterious mutations, or PPP2R1A deleterious mutations.",
+      "Biomarker/unselected": "CCNE1\nFBXW7\nPPP2R1A",
       "Trial Intervention/Arms": "Patient will be assign to only one dosing schedule - lunresertib in combination with Debio 0123 on the 3 days on/4 days off dosing for two weeks, followed by a week break (2 week on/1 week off). Dosage of lunresertib and Debio0123 may vary.",
       "Eligibility ": "Inclusion Criteria:\n- Male or female and ≥12 years-of-age at the time of signature of the ICF.\n- ECOG Performance Status score of 0 or 1. Lansky performance status ≥50 for patients ≤16 years of age\n- Patients are eligible if, in the opinion of the Investigator, the patient is not a candidate for,\nor would be unlikely to tolerate or derive significant clinical benefit from, appropriate standard-of-care therapy, or if the patient declines standard-of-care therapy. Documented counselling by the center Investigator on benefits/risks of standard-of-care therapy is required for enrolled patients who decline standard-of-care therapy.\n- Measurable disease as per RECIST v1.1.\n- Ability to swallow and retain oral tablets and capsules whole and intact.\n- Hemoglobin ≥10.0 g/dL except if anemia is due to potentially reversible and manageable etiology (e.g. bleeding from tumor lesion)\n- Creatinine clearance ≥60 mL/min calculated using Cockcroft-Gault equation or measured by 24-hour urine collection. For patients 12 to 17 years of age, renal function should be calculated using Cockcroft-Gault or institutional standard, including institutional formula specific for this age group.\n\nExclusion Criteria:\n- Chemotherapy or small molecule antineoplastic agent given within 21 days or <5 halflives,\nand monoclonal antibodies given within 28 days or <5 half-lives, whichever is shorter, prior to first dose of study drug.\n- Presence of other known second malignancy with the exception of any cancer that has been in complete remission for ≥ 2 years or completely resected squamous and basal cell carcinomas of the skin.\n- Prior therapy with a PKMYT1 or WEE1 inhibitor.\n- Patients who are unable to swallow oral tablets and capsules whole and intact\n- Clinically significant gastrointestinal abnormality that would affect the absorption of drugs, such as malabsorption syndrome, major resection of the small bowel, total gastrectomy, or inflammatory bowel disease.\n- Major surgery (excluding placement of vascular access) within 4 weeks prior to first dose of study drug.\n- Uncontrolled, symptomatic brain metastases.\n- Uncontrolled hypertension (systolic blood pressure ≥160 mmHg; diastolic blood pressure ≥100 mmHg) despite adequate treatment prior to first dose of study drug.\n- Patients with active, uncontrolled bacterial, fungal, or viral infection, including hepatitis B virus (HBV), hepatitis C virus (HCV), known human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) related illness.\n- Moderate or severe hepatic impairment (ie, Child-Pugh class B or C).\n- Mean resting QT interval corrected for heart rate (QTc) interval using the Fridericia formula (QTcF) >450 msec (as calculated per institutional standards) obtained from 3 ECGs ≥1 minute apart at study entry.\n- Current treatment with medications that are well-known to prolong the QT interval or with known risk of TdP (Appendix 2). If patients are on these medications, a wash-out period of at least 5 half-lives is needed prior to receiving the treatment.\n- Immunization with live or live-attenuated vaccine within 28 days prior to study inclusion or planned injection of live or live-attenuated vaccine.",
       "Contacts": "Site PI:\nDr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
       "Study status": "Active",
       "Schema image": null,
-      "Key criteria (for PDF)": "If patient is not a candidate for or would be unlikely to tolerate/derive significant clinical benefit from SOC therapy, or if the patient declines SOC therapy.",
+      "Key criteria (for PDF)": "CCNE-1 amplification, FBXW7 mutation, or PPP2R1A mutation.",
       "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
     },
     {
@@ -506,14 +506,14 @@
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
       "Tissue Requirements": "Archived tumor tissue sample available or lesion that can be safely biopsied if the archival sample is not available. There are no specific requirements for tissue type, but sample needs to have 30% tumour content. Archival sample are to be prepared into 20 slides for IHC, FISH, and DNA/RNA extraction. \n\nPatients who do not have archival sample and biopsy collection are not feasible due to safety reason are still possible to be screen for the study after consultation with study Sponsor. ",
-      "Biomarker/unselected": "One of: CCNE1 amplification; FBXW7 deleterious mutations, or PPP2R1A deleterious mutations.",
+      "Biomarker/unselected": "CCNE1\nFBXW7\nPPP2R1A",
       "Trial Intervention/Arms": "Patient will be assign to only one dosing schedule - lunresertib in combination with Debio 0123 on the 3 days on/4 days off dosing for two weeks, followed by a week break (2 week on/1 week off). Dosage of lunresertib and Debio0123 may vary.",
       "Eligibility ": "Inclusion Criteria:\n- Male or female and ≥12 years-of-age at the time of signature of the ICF.\n- ECOG Performance Status score of 0 or 1. Lansky performance status ≥50 for patients ≤16 years of age\n- Patients are eligible if, in the opinion of the Investigator, the patient is not a candidate for,\nor would be unlikely to tolerate or derive significant clinical benefit from, appropriate standard-of-care therapy, or if the patient declines standard-of-care therapy. Documented counselling by the center Investigator on benefits/risks of standard-of-care therapy is required for enrolled patients who decline standard-of-care therapy.\n- Measurable disease as per RECIST v1.1.\n- Ability to swallow and retain oral tablets and capsules whole and intact.\n- Hemoglobin ≥10.0 g/dL except if anemia is due to potentially reversible and manageable etiology (e.g. bleeding from tumor lesion)\n- Creatinine clearance ≥60 mL/min calculated using Cockcroft-Gault equation or measured by 24-hour urine collection. For patients 12 to 17 years of age, renal function should be calculated using Cockcroft-Gault or institutional standard, including institutional formula specific for this age group.\n\nExclusion Criteria:\n- Chemotherapy or small molecule antineoplastic agent given within 21 days or <5 halflives,\nand monoclonal antibodies given within 28 days or <5 half-lives, whichever is shorter, prior to first dose of study drug.\n- Presence of other known second malignancy with the exception of any cancer that has been in complete remission for ≥ 2 years or completely resected squamous and basal cell carcinomas of the skin.\n- Prior therapy with a PKMYT1 or WEE1 inhibitor.\n- Patients who are unable to swallow oral tablets and capsules whole and intact\n- Clinically significant gastrointestinal abnormality that would affect the absorption of drugs, such as malabsorption syndrome, major resection of the small bowel, total gastrectomy, or inflammatory bowel disease.\n- Major surgery (excluding placement of vascular access) within 4 weeks prior to first dose of study drug.\n- Uncontrolled, symptomatic brain metastases.\n- Uncontrolled hypertension (systolic blood pressure ≥160 mmHg; diastolic blood pressure ≥100 mmHg) despite adequate treatment prior to first dose of study drug.\n- Patients with active, uncontrolled bacterial, fungal, or viral infection, including hepatitis B virus (HBV), hepatitis C virus (HCV), known human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) related illness.\n- Moderate or severe hepatic impairment (ie, Child-Pugh class B or C).\n- Mean resting QT interval corrected for heart rate (QTc) interval using the Fridericia formula (QTcF) >450 msec (as calculated per institutional standards) obtained from 3 ECGs ≥1 minute apart at study entry.\n- Current treatment with medications that are well-known to prolong the QT interval or with known risk of TdP (Appendix 2). If patients are on these medications, a wash-out period of at least 5 half-lives is needed prior to receiving the treatment.\n- Immunization with live or live-attenuated vaccine within 28 days prior to study inclusion or planned injection of live or live-attenuated vaccine.",
       "Contacts": "Site PI: \nDr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: \nVivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
       "Study status": "Active",
       "Schema image": null,
-      "Key criteria (for PDF)": "If patient is not a candidate for or would be unlikely to tolerate/derive significant clinical benefit from SOC therapy, or if the patient declines SOC therapy.",
+      "Key criteria (for PDF)": "CCNE-1 amplification, FBXW7 mutation, or PPP2R1A mutation.",
       "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
     },
     {
@@ -894,14 +894,14 @@
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
       "Tissue Requirements": "Archived tumor tissue sample available or lesion that can be safely biopsied if the archival sample is not available. There are no specific requirements for tissue type, but sample needs to have 30% tumour content. Archival sample are to be prepared into 20 slides for IHC, FISH, and DNA/RNA extraction. \n\nPatients who do not have archival sample and biopsy collection are not feasible due to safety reason are still possible to be screen for the study after consultation with study Sponsor. ",
-      "Biomarker/unselected": "One of: CCNE1 amplification; FBXW7 deleterious mutations, or PPP2R1A deleterious mutations.",
+      "Biomarker/unselected": "CCNE1\nFBXW7\nPPP2R1A",
       "Trial Intervention/Arms": "Patient will be assign to only one dosing schedule - lunresertib in combination with Debio 0123 on the 3 days on/4 days off dosing for two weeks, followed by a week break (2 week on/1 week off). Dosage of lunresertib and Debio0123 may vary.",
       "Eligibility ": "Inclusion Criteria:\n- Male or female and ≥12 years-of-age at the time of signature of the ICF.\n- ECOG Performance Status score of 0 or 1. Lansky performance status ≥50 for patients ≤16 years of age\n- Patients are eligible if, in the opinion of the Investigator, the patient is not a candidate for,\nor would be unlikely to tolerate or derive significant clinical benefit from, appropriate standard-of-care therapy, or if the patient declines standard-of-care therapy. Documented counselling by the center Investigator on benefits/risks of standard-of-care therapy is required for enrolled patients who decline standard-of-care therapy.\n- Measurable disease as per RECIST v1.1.\n- Ability to swallow and retain oral tablets and capsules whole and intact.\n- Hemoglobin ≥10.0 g/dL except if anemia is due to potentially reversible and manageable etiology (e.g. bleeding from tumor lesion)\n- Creatinine clearance ≥60 mL/min calculated using Cockcroft-Gault equation or measured by 24-hour urine collection. For patients 12 to 17 years of age, renal function should be calculated using Cockcroft-Gault or institutional standard, including institutional formula specific for this age group.\n\nExclusion Criteria:\n- Chemotherapy or small molecule antineoplastic agent given within 21 days or <5 halflives,\nand monoclonal antibodies given within 28 days or <5 half-lives, whichever is shorter, prior to first dose of study drug.\n- Presence of other known second malignancy with the exception of any cancer that has been in complete remission for ≥ 2 years or completely resected squamous and basal cell carcinomas of the skin.\n- Prior therapy with a PKMYT1 or WEE1 inhibitor.\n- Patients who are unable to swallow oral tablets and capsules whole and intact\n- Clinically significant gastrointestinal abnormality that would affect the absorption of drugs, such as malabsorption syndrome, major resection of the small bowel, total gastrectomy, or inflammatory bowel disease.\n- Major surgery (excluding placement of vascular access) within 4 weeks prior to first dose of study drug.\n- Uncontrolled, symptomatic brain metastases.\n- Uncontrolled hypertension (systolic blood pressure ≥160 mmHg; diastolic blood pressure ≥100 mmHg) despite adequate treatment prior to first dose of study drug.\n- Patients with active, uncontrolled bacterial, fungal, or viral infection, including hepatitis B virus (HBV), hepatitis C virus (HCV), known human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) related illness.\n- Moderate or severe hepatic impairment (ie, Child-Pugh class B or C).\n- Mean resting QT interval corrected for heart rate (QTc) interval using the Fridericia formula (QTcF) >450 msec (as calculated per institutional standards) obtained from 3 ECGs ≥1 minute apart at study entry.\n- Current treatment with medications that are well-known to prolong the QT interval or with known risk of TdP (Appendix 2). If patients are on these medications, a wash-out period of at least 5 half-lives is needed prior to receiving the treatment.\n- Immunization with live or live-attenuated vaccine within 28 days prior to study inclusion or planned injection of live or live-attenuated vaccine.",
       "Contacts": "Site PI: \nDr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
       "NCT number": "NCT04855656",
       "Study status": "Active",
       "Schema image": null,
-      "Key criteria (for PDF)": "If patient is not a candidate for or would be unlikely to tolerate/derive significant clinical benefit from SOC therapy, or if the patient declines SOC therapy.",
+      "Key criteria (for PDF)": "CCNE-1 amplification, FBXW7 mutation, or PPP2R1A mutation.",
       "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
     },
     {
@@ -999,7 +999,7 @@
       "NCT number": "NCT04855656",
       "Study status": "Active",
       "Schema image": null,
-      "Key criteria (for PDF)": "If patient is not a candidate for or would be unlikely to tolerate/derive significant clinical benefit from SOC therapy, or if the patient declines SOC therapy.",
+      "Key criteria (for PDF)": "CCNE-1 amplification, FBXW7 mutation, or PPP2R1A mutation.",
       "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
     },
     {
@@ -1906,6 +1906,11 @@
         "Trial Name": "HPB Robotic Surgery Database ",
         "change": "added",
         "timestamp": "2026-04-15T10:38:37"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:08:34"
       }
     ],
     "HCC": [
@@ -2313,6 +2318,11 @@
         "Trial Name": "HPB Robotic Surgery Database ",
         "change": "added",
         "timestamp": "2026-04-15T10:38:37"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:08:34"
       }
     ],
     "Gastroesophageal": [
@@ -3708,6 +3718,11 @@
         "Trial Name": "61186372GIC2002 (OrigAMI-1)",
         "change": "added",
         "timestamp": "2026-04-17T09:22:52"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:08:34"
       }
     ],
     "GE": [
@@ -4027,6 +4042,11 @@
         "Trial Name": "HPB Robotic Surgery Database ",
         "change": "added",
         "timestamp": "2026-04-15T10:38:37"
+      },
+      {
+        "Trial Name": "Debio 0123-106",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:08:34"
       }
     ]
   }
