@@ -1,22 +1,6 @@
 {
   "CRC": [
     {
-      "Disease Setting": "Peri-operative ",
-      "Trial Name": "GSK219606 (AZUR2)",
-      "Full title": "A Phase 3, Open-Label, Randomized Study of Perioperative Dostarlimab Monotherapy Versus Standard of Care in Participants With Untreated T4N0 or Stage III dMMR/MSI-H Resectable Colon Cancer.",
-      "Additional notes": null,
-      "Tissue Requirements": null,
-      "Biomarker/unselected": "MSI-H/dMMR",
-      "Trial Intervention/Arms": "A: Dostarlimab x 4, OR, Dostarlimab x 4 \nB: OR, SOC (CAPEOX, FOLFOX)",
-      "Eligibility ": "Inclusion criteria:\nUntreated resectable CRC.\nMSI-H/dMMR. \nT4N0 or stage III only.\nExclusion criteria:\nHas received prior medical therapy (chemotherapy, immunotherapy, biologic, or targeted therapy), radiation therapy or surgery for management of the current diagnosis of colon cancer.\nPatients with a history of colonic obstruction in the context of current colon cancer diagnosis and treated with colonic stents.",
-      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
-      "NCT number": "NCT05855200",
-      "Study status": "Active",
-      "Schema image": "NCT05855200.png",
-      "Key criteria (for PDF)": "Untreated resectable CRC.\nMSI-H/dMMR.",
-      "PI contact (for PDF)": "eric.chen@uhn.ca"
-    },
-    {
       "Disease Setting": "1st line ",
       "Trial Name": "61186372COR3001 (ORIGAMI-2)",
       "Full title": "A Randomized, Open-label Phase 3 Study of Amivantamab and mFOLFOX6 or FOLFIRI Versus Cetuximab and mFOLFOX6 or FOLFIRI as First-line Treatment in Participants With KRAS/NRAS and BRAF Wild-type Unresectable or Metastatic Left-sided Colorectal Cancer.",
@@ -1249,6 +1233,20 @@
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06219941",
       "Schema image": "Not Recruiting"
+    },
+    {
+      "Organ group": "CRC",
+      "Disease Setting": "Peri-operative ",
+      "Trial Name": "GSK219606 (AZUR2)",
+      "Full title": "A Phase 3, Open-Label, Randomized Study of Perioperative Dostarlimab Monotherapy Versus Standard of Care in Participants With Untreated T4N0 or Stage III dMMR/MSI-H Resectable Colon Cancer.",
+      "Additional notes": null,
+      "Tissue Requirements": null,
+      "Biomarker/unselected": "MSI-H/dMMR",
+      "Trial Intervention/Arms": "A: Dostarlimab x 4, OR, Dostarlimab x 4 \nB: OR, SOC (CAPEOX, FOLFOX)",
+      "Eligibility ": "Inclusion criteria:\nUntreated resectable CRC.\nMSI-H/dMMR. \nT4N0 or stage III only.\nExclusion criteria:\nHas received prior medical therapy (chemotherapy, immunotherapy, biologic, or targeted therapy), radiation therapy or surgery for management of the current diagnosis of colon cancer.\nPatients with a history of colonic obstruction in the context of current colon cancer diagnosis and treated with colonic stents.",
+      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
+      "NCT number": "NCT05855200",
+      "Schema image": "NCT05855200.png"
     }
   ],
   "Dropdown Menus": [
@@ -2993,6 +2991,11 @@
         "Trial Name": "CLARITY-PanTumour01",
         "change": "added",
         "timestamp": "2026-04-17T12:17:10"
+      },
+      {
+        "Trial Name": "GSK219606 (AZUR2)",
+        "change": "added",
+        "timestamp": "2026-05-01T12:59:30"
       }
     ],
     "CRC": [
