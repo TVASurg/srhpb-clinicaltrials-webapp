@@ -6,7 +6,7 @@
       "Full title": "A Randomized, Open-label Phase 3 Study of Amivantamab and mFOLFOX6 or FOLFIRI Versus Cetuximab and mFOLFOX6 or FOLFIRI as First-line Treatment in Participants With KRAS/NRAS and BRAF Wild-type Unresectable or Metastatic Left-sided Colorectal Cancer.",
       "Additional notes": null,
       "Tissue Requirements": "Fresh tumor tissue: KRAS, NRAS, and BRAF wild-type (WT) tumor by local and/or central testing (if available).",
-      "Biomarker/unselected": "KRAS/NRAS and BRAF",
+      "Biomarker/unselected": "KRAS/NRAS\nBRAF WT",
       "Trial Intervention/Arms": "A: Amivantamab + chemo (mFOLFOX6 or FOLFIRI)\nB: Cetuximab + chemo (mFOLFOX6 or FOLFIRI)",
       "Eligibility ": "Inclusion criteria:\nUnresectable left-sided CRC.\nKRAS/NRA/BRAF WT. \nNeoadjuvant/Adj in non-metastatic disease eligible (>12m after last dose).\nExclusion criteria:\nHas a prior or concurrent second malignancy other than the disease under study or one whose natural history or treatment is likely to interfere with any study endpoints of safety or the efficacy of the study treatmens\nKnown mismatch repair deficiency (dMMR/MSI-H) status and HER2-positive/amplified tumor.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
@@ -54,7 +54,7 @@
       "Full title": "A Phase 1b/2a Dose Escalation Study of BOLD-100 in Combination With FOLFOX Chemotherapy in Patients With Advanced Solid Tumours.",
       "Additional notes": null,
       "Tissue Requirements": null,
-      "Biomarker/unselected": "BRAF WT (Wild type)",
+      "Biomarker/unselected": "BRAF WT",
       "Trial Intervention/Arms": "• Control Arm (FOLFOX alone)\n• 500mg/m2 BOLD-100 + FOLFOX\n• 625mg/m2 BOLD-100 + FOLFOX",
       "Eligibility ": "Inclusion criteria:\nMust have received only 1 prior line of therapy in the metastatic setting but remain naïve to oxaliplatin prior to enrollment in this study.\nPrior oxaliplatin therapy is permitted in the following two situations: 1) Patients who have received oxaliplatin in the adjuvant setting. 2) Patients who have received oxaliplatin in the first line metastatic setting but did not progress on treatment or within 3 months of oxaliplatin treatment cessation.\nProgressing on 1st line FOLFIRI.\nHave measurable disease according to RECIST1.1 (at least one measurable lesion).\nExclusion criteria:\nPrevious intolerance to or significant reaction secondary to fluorouracil or oxaliplatin.\nPatients considered resistant to Oxaliplatin: • Patients who have received oxaliplatin in the adjuvant setting who have progressed / relapsed within 6 months of their last oxaliplatin administration.\nPatients with advanced colorectal cancer who have progressed (based on RECIST 1.1) while on or within 3 months of their last administration of oxaliplatin.\nAny other known malignancy within 3 years before the start of treatment (with the exception of non-melanoma skin cancer that had undergone curative treatment, cervical cancer in situ, or ductal/lobular carcinoma in situ of the breast that has underwent local treatment).\nActive gastrointestinal tract disease with malabsorption syndrome.\nTreatment with radiation therapy or surgery within 4 weeks prior to starting treatment.",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -70,7 +70,7 @@
       "Full title": "A Phase 1, open-label, dose escalation and dose expansion study to evaluate the safety, tolerability, pharmacokinetics, and anti tumor activity of PF-07799933 (ARRY-440) as a single agent and in combination therapy in participants 16 years and older with advanced solid tumors with BRAF alterations.",
       "Additional notes": null,
       "Tissue Requirements": "Archival tissue of sufficient quality and quantity within 6 months of consent, otherwise fresh biopsy required during screening (sponsor can be asked to accept previous archival tissue if patient is not fit for additional biopsy).",
-      "Biomarker/unselected": "BRAF V600E.",
+      "Biomarker/unselected": "BRAF V600E",
       "Trial Intervention/Arms": "C4761001 (Braf inhibitor) + cetuximab ",
       "Eligibility ": "Inclusion criteria:\nNo prior encorafenib exposure.\nBRAF V600E in tumor tissue and/or blood.\nDisease progressed during/following last prior treatment and no satisfactory alternative treatment options.\nExclusion criteria:\nSystemic anti-cancer therapy or small molecule therapeutics ongoing at the start of study treatment.\nConcurrent neuromuscular disorder associated with elevated creatine kinase (CK).",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
@@ -200,9 +200,9 @@
       "Full title": "A Randomized, Phase III Study of Rilvegostomig in Combination with Fluoropyrimidine and Trastuzumab Deruxtecan versus Trastuzumab, Chemotherapy, and Pembrolizumab for the First-line Treatment of HER2-positive Gastric Cancer ",
       "Additional notes": null,
       "Tissue Requirements": "Archival tissue (≤6 months); fresh tissue (3xT cores) ",
-      "Biomarker/unselected": "HER2 and PDL1",
+      "Biomarker/unselected": "HER2 and PD-L1",
       "Trial Intervention/Arms": "A: Rilve + T-DXd + 5FU/Cape\nB: Pembro + tras + 5FU/Cape + platinum \nC: Rilve + tras + 5FU/Cape + platinum",
-      "Eligibility ": "Her-2 + and PDL1 CPS ≥ 1. \nPreviously untreated, unresectable, locally advanced or metastatic gastric or GEJ adenocarcinoma.\nHave measurable target disease assessed by the Investigator based on RECIST v1.1.\nLVEF ≥ 55% within 28 days before randomization.",
+      "Eligibility ": "Her-2 + and PD-L1 CPS ≥ 1. \nPreviously untreated, unresectable, locally advanced or metastatic gastric or GEJ adenocarcinoma.\nHave measurable target disease assessed by the Investigator based on RECIST v1.1.\nLVEF ≥ 55% within 28 days before randomization.",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06764875",
       "Study status": "Active",
@@ -360,7 +360,7 @@
       "Full title": "A Blinded, Randomized, Phase 2/3 Study of Pumitamig in Combination with Chemotherapy Versus Nivolumab in Combination with Chemotherapy in Participants with Previously Untreated Advanced or Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma.",
       "Additional notes": "CA2660004 is a global, operationally seamless randomized Phase 2/3 study in the first-line\ntreatment setting of participants with advanced or metastatic HER2-negative GC, GEJC, or EAC\nwith PD-L1 ≥ 1.\nAnti-PD(L)-1 and anti-VEGF drugs have previously proven beneficial in many malignancies.\nPumitamig (also referred to as BMS-986545, BNT327, or PM8002) is a novel bispecific antibody\nthat selectively binds to PD-L1, interrupting the immunosuppressive effect of the tumor on\nimmune cells, and also neutralizes VEGF-A in the tumor microenvironment. Pumitamig has\nshown promising activity in early phase studies across tumor types.\nCA2660004 aims to investigate the safety and efficacy of pumitamig and establish whether the\naddition of pumitamig to chemotherapy can improve survival outcomes in participants with GC,\nGEJC, or EAC with PD-L1 ≥ 1 when compared to nivolumab with chemotherapy.",
       "Tissue Requirements": "All participants must have tumor tissue samples adequate for genetic testing from a representative\nparaffin embedded tumor block containing enough tissue to cut 15 to 20 (4 to 5μm) sections or a\nminimum of 15 unstained slides with a 4 to 5μm section per slide. Submission of 20 unstained\nslides is strongly recommended to enable critical exploratory biomarker work. Fresh biopsies are\npreferred, but archival tissue biopsies (obtained within 6 months prior to date of enrollment) or\nunstained slides (≤ 4 months old) are acceptable. Tissue may be from a core biopsy, punch biopsy,\nexcisional biopsy, or surgical specimen. Fine needle aspirations, other cytology samples and\nbiopsy samples from bone lesions are not acceptable. Any deviation from these requirements must be approved by the Medical Monitor (or designee) prior to tissue submission.",
-      "Biomarker/unselected": "HER 2\nPD-L1",
+      "Biomarker/unselected": "HER2 and PD-L1",
       "Trial Intervention/Arms": "Phase 2 Dose Optimization\n\nArm A1:\n- Pumitamig 1000 mg (body weight ≥ 50 kg) or 800 mg (body weight < 50 kg) IV\nQ2W\n- FOLFOX: Oxaliplatin 85 mg/m2 (D1) + leucovorin 400 mg/m2 (D1) + 5-FU 400 mg/m2 (D1) + 5-FU 1200 mg/m2 (D1 to D2) IV Q2W\n\nArm A2:\n- Pumitamig 1500 mg (body weight ≥ 50 kg) or 1200 mg (body weight < 50 kg) IV\nQ2W\n- FOLFOX: Oxaliplatin 85 mg/m2 (D1) + leucovorin 400 mg/m2 (D1) + 5-FU 400 mg/m2 (D1) + 5-FU 1200 mg/m2 (D1 to D2) IV Q2W\n\nArm B:\n- Nivolumab 240 mg IV Q2W\n- FOLFOX: Oxaliplatin 85 mg/m2 (D1) + leucovorin 400 mg/m2 (D1) + 5-FU 400 mg/m2 (D1) + 5-FU 1200 mg/m2 (D1 to D2) IV Q2W\n\nPhase 3\n\nArm C:\n- Pumitamig + FOLFOX: Pumitamig RP3D + oxaliplatin 85 mg/m2 (D1) +\nleucovorin 400 mg/m2 (D1) + 5-FU 400 mg/m2 (D1) + 5-FU 1200 mg/m2 (D1 to\nD2) IV Q2W\nor\n- Pumitamig + CAPOX: Pumitamig RP3D + oxaliplatin 130 mg/m2 (D1) IV +\ncapecitabine 1000 mg/m2 orally BID (D1 to D14) Q3W\n\nArm D:\n- Nivolumab + FOLFOX: Nivolumab 240 mg + oxaliplatin 85 mg/m2 (D1) +\nleucovorin 400 mg/m2 (D1) + 5-FU 400 mg/m2 (D1) + 5-FU 1200 mg/m2 (D1 to\nD2) IV Q2W\nor\n-Nivolumab + CAPOX: Nivolumab 240 mg + oxaliplatin 130 mg/m2 (D1) IV +\ncapecitabine 1000 mg/m2 orally BID (D1 to D14) Q3W",
       "Eligibility ": "Inclusion Criteria:\nParticipants are eligible to be included in the study only if all of the following criteria are met:\nSigned Written Informed Consent\n1) Participants must have signed and dated an IRB/IEC-approved written ICF in accordance with\nregulatory, local, and institutional guidelines. The study specific ICF and any optional ICFs\n(if applicable) must be obtained before performing any protocol-related procedures that are\nnot part of normal patient care.\nNote: Participants must agree to comply with the requirements and restrictions listed in the\ninformed consent and in this protocol.\nType of Participant and Target Disease Characteristics\n2) Previously untreated with systemic treatment for advanced/metastatic disease, histologically\nor cytologically confirmed advanced or metastatic GC, GEJC or distal EAC. GEJ involvement can be confirmed via biopsy, endoscopy, or imaging.\nNote: Prior adjuvant or neoadjuvant chemotherapy, immunotherapy with PD-(L)1 and/or\nchemoradiotherapy for GC, GEJC, or EAC are permitted if the last dose of treatment was\ncompleted > 6 months prior to diagnosis of recurrent or metastatic disease. Recruitment of\nthis type of participant will be limited to 20% of total population. Palliative radiotherapy is\nallowed and must be completed 2 weeks prior to randomization.\n3) Documented HER2-negative cancer, as determined according to local guidelines\n4) Measurable disease as defined by RECIST v1.1.\n5) ECOG performance status score of 0 or 1.\n6) Tumor tissue requirements:\nFresh or archival (if obtained within 6 months prior to date of enrollment) must be submitted.\nTumor biopsy having significant risk to the safety and/or well-being of the participant should\nnot be performed. Intervening systemic treatment or radiation to the site of tissue is not\nallowed. FFPE block specimens are preferred to slides. FFPE tissue blocks must contain\nsufficient tissue to support the minimum number of slides. If blocks cannot be provided,\nfreshly cut sections (≤ 4 months old) must be submitted. A minimum of 15 unstained slides\nis required and must be cut sequentially from the same block; submission of 20 unstained\nslides is strongly recommended to enable important exploratory biomarker work. If despite\nbest efforts, a minimum of 15 slides is not obtainable, submission of fewer slides may be\nacceptable upon discussion with the Medical Monitor. Tissue must be submitted prior to\nrandomization for PD-L1 testing using the Sponsor-provided central test, exploratory\nbiomarker testing, and additional CDx-related testing. In exceptional cases, tissue can be\nsubmitted after randomization upon discussion with the Medical Monitor.\nSee APPENDIX 6 for country-specific requirements.\nNote: Core needle biopsy, punch biopsy, excisional biopsy, or surgical specimens are acceptable.\nNote: Fine needle aspirates, pleural effusion drainage, other cytology samples, and biopsies of bone lesions are not acceptable.\n7) Documented PD-L1 ≥ 1 as determined by the Sponsor pre-approved local PD-L1 IHC assays\nor through Sponsor-provided central laboratory testing.\nAge of Participant\n8) Participant must be ≥ 18 years of age at the time of signing the ICF. Reproductive Status\nNote: The investigator or designee shall counsel IOCBP participants (as defined in APPENDIX 3) and male (as assigned at birth) participants who are sexually active with IOCBP on the importance of pregnancy prevention, the implications of an unexpected pregnancy, and the potential of fetal toxicity occurring due to transmission of study intervention present in seminal fluid to a developing fetus, even if the participant has undergone a successful vasectomy or if the partner is pregnant.\nNote: The investigator or designee shall evaluate the effectiveness of the contraceptive\nmethod in relationship to the first dose of study intervention.\nNote: Local laws and regulations may require the use of alternative and/or additional contraceptive methods.\nNote: Study participants receiving study intervention have the potential risk of infertility, either temporary or permanent. The investigator or designee shall counsel participants on further information about locally available fertility preservation options including cryopreservation of gametes, prior to treatment as clinically appropriate.\n9) Female (as assigned at birth) participants:\nNote: Female (as assigned at birth) participants who are not of childbearing potential (as defined in APPENDIX 3) must have documented proof of reproductive status.\nNote: Documentation can be obtained from the site personnel’s review of the participant’s medical records, medical examination, or medical history interview.\nNote: Individuals who are not of childbearing potential are exempt from contraceptive requirements.\na) IOCBP must have a negative highly sensitive urine or serum as required by local regulations pregnancy test (minimum sensitivity 25 IU/L or equivalent units of HCG) within 24 (or up to 72) hours prior to the start of study intervention.\nNote: If a urine test cannot be confirmed as negative (eg, an ambiguous result), a serum pregnancy test is required. In such cases, the participant must be excluded from participation if the serum pregnancy result is positive.\nNote: The investigator is responsible for review of medical history, menstrual history, and recent sexual activity to potentially decrease the risk for inclusion of an individual with an undetected pregnancy.\nb) IOCBP and male (as assigned at birth) participants who are sexually active with IOCBP must agree to follow instructions for method(s) of contraception as described below and included in the ICF.\n(1) IOCBP are permitted to use hormonal contraceptive methods (as described in APPENDIX 3).\nc) A female (as assigned at birth) is eligible to participate if they are not pregnant or breastfeeding and at least 1 of the following conditions applies:\n(2) Is not an IOCBP\nOR\nIs an IOCBP and using a contraceptive method that is highly effective (with a failure rate of < 1% per year), preferably with user independent methods, as described in APPENDIX 3, during the intervention period and for at least 9 months after the last dose of study intervention and agrees not to donate eggs (ova, oocytes) for the purpose of reproduction for the same period.\n10) Male (as assigned at birth) participants\nNote: A male (as assigned at birth) who is sexually active with IOCBP must agree to\nfollow instructions for method(s) of contraception as described below and included in the\nICF.\nNote: Azoospermic males are not exempt from contraceptive requirements and will be required to always use a latex or other synthetic condom during any sexual activity (eg, vaginal, anal, oral) with IOCBP, even if the participant has undergone a successful vasectomy or if the partner is pregnant.\na) Male (as assigned at birth) participants are required to use a condom during the intervention period and for at least 6 months after the last dose of study intervention.\nb) IOCBP partners of male (as assigned at birth) participants should be advised to use a highly effective method of contraception during the study intervention period and for at least 6 months after the last dose of study intervention for the male participant.\nc) Male (as assigned at birth) participants with a pregnant or breastfeeding partner must agree\nto remain abstinent from sexual activity or use a male condom during any sexual activity (eg, vaginal, anal, oral) during the intervention period and for at least 6 months after the\nlast dose of study intervention.\nd) Male (as assigned at birth) participants must refrain from donating sperm during the intervention period and for at least 6 months after the last dose of study intervention.\ne) Breastfeeding partners of male (as assigned at birth) participants should be advised to consult their health care provider about using appropriate highly effective contraception during the time the male participant is required to use condoms.\n\nExclusion Criteria:\nParticipants are excluded from the study if any of the following criteria are met:\nMedical Conditions\n1) Untreated known CNS metastases.\nNote: Participants are eligible if CNS metastases are adequately treated, and participants are\nneurologically returned to baseline (except for residual signs or symptoms related to the CNS\ntreatment) for at least 2 weeks prior to randomization.\nNote: Participants must have either discontinued corticosteroids or be on a stable or\ndecreasing dose of ≤ 10 mg prednisone (or equivalent) daily for at least 2 weeks prior to\nrandomization.\nNote: Baseline imaging required at screening must be performed 28 days after treatment for\nCNS metastases is completed. CNS metastases must be radiographically stable.\n2) Active, known, or suspected autoimmune disease. A condition requiring systemic treatment\nwith either corticosteroids (> 10 mg daily prednisone equivalents) or other\nimmunosuppressive medications within 14 days of study intervention administration.\nInhaled or topical steroids, and adrenal replacement doses > 10 mg prednisone equivalents\ndaily are permitted in the absence of active autoimmune disease.\nNote: Participants with history of Grade >3 immune-mediated AEs leading to\ndiscontinuation of prior immunotherapy are excluded.\nNote: Participants with Type I diabetes mellitus, residual hypothyroidism due to autoimmune\nthyroiditis only requiring hormone replacement, or skin disorders (such as vitiligo, psoriasis,\nor alopecia) not requiring systemic treatment are permitted to enroll.\n3) Prior malignancy active within the previous 2 years except for locally curable cancers that\nhave been apparently cured, such as basal or squamous cell skin cancer, superficial bladder\ncancer, or carcinoma in situ of the prostate, cervix, or breast and considered to be of low risk\nof recurrence.\n4) Significant cardiovascular disease, such as myocardial infarction, unstable angina, arterial\nthrombosis or cerebrovascular accident within 6 months prior to randomization, uncontrolled hypertension (≥ 160 systolic, ≥ 100 diastolic mm Hg) despite optimal medical management.\nCongenital long QT syndrome or QTc prolongation > 480 msec (the ECG can be repeated at\nthe discretion of the investigator prior to randomization.\n5) Major surgery, open biopsy, or significant traumatic injury within 28 days prior to\nrandomization, or anticipation of the need for major surgery during the course of study\nintervention.\n6) Serious or non-healing wound, or (incompletely healed) bone fracture.\n7) Evidence of major coagulation disorders (eg, hemophilia)\n8) Clinically significant hematemesis or clinically significant GI hemorrhage within 28 days\nprior to randomization, or tumor lesions invading large vessels with significant risk of\nbleeding by investigator’s assessment.\n9) History of deep vein thrombosis, pulmonary embolism, or any other significant\nthromboembolism within 3 months prior to randomization, unless the participant has been\nfully treated (eg, inferior vena cava filter placed) and/or adequately anticoagulated on a\nprophylactic dose.\n10) History of abdominal fistula or GI perforation within 6 months of randomization.\n11) Known DPD deficiency.\nNote: Systematic screening for DPD deficiency testing must be conducted where locally\nmandated (see APPENDIX 6 for country-specific requirements).\n12) Any serious or uncontrolled medical disorder or active infection that, in the opinion of the\ninvestigator, may increase the risk associated with study participation, study intervention\nadministration, or would impair the ability of the participant to receive study intervention.\nPrior/Concomitant Therapy\n13) Inability to comply with restrictions and prohibited treatments as listed in Section 7.7: Prior\nand Concomitant Therapy.\n14) Treatment with botanical preparations (eg, herbal supplements or traditional Chinese\nmedicines) with an antitumor indication intended to treat the disease under study within\n2 weeks prior to randomization.\n15) Participants who have received a live/attenuated vaccine within 30 days of randomization (eg,\nvaricella, zoster, yellow fever, rotavirus, oral polio and measles, mumps, rubella).\n16) Prior focal palliative radiotherapy must have been completed at least 14 days prior to\nrandomization.\n17) Current or recent (within 10 days prior to first dose of study intervention) ongoing treatment\nwith therapeutic-dose anticoagulants.\nNote: Prophylactic anticoagulation (eg, for DVT prophylaxis) is permitted if medically\nindicated.\nReproductive Status\n18) Participant is a IOCBP who is pregnant or breastfeeding, or who intends to become pregnant\nduring participation in the study.\nPhysical and Laboratory Test Findings\n19) Screening laboratory values must meet the following criteria:\na) Neutrophils < 1500/μL\nb) Platelets < 100 × 103/μL\nc) Hemoglobin < 9.0 g/dL\nd) Serum albumin < 3.0 g/dL\ne) CrCl < 40 mL/min (measured or calculated using the Cockcroft-Gault formula)\nf) AST or ALT > 3.0× ULN (or > 5.0× ULN if liver metastases are present)\ng) Total bilirubin > 1.5× ULN (except participants with the history of Gilbert Syndrome,\nbilirubin level of ≥ 3.0× ULN)\nh) Proteinuria ≥ 2+ by urine dipstick or urinalysis at baseline.\nNote: For participants with proteinuria ≥ 2+ by urine dipstick or urinalysis at baseline,\n24-hour urine must be collected. Proteinuria > 1g/24 hours is exclusionary. It is acceptable\nto estimate urine UPCR instead of 24-hour urine collection. UPCR > 1000 mg/g is\nexclusionary.\ni) INR or PT aPTT > 1.5× ULN.\n20) Active viral hepatitis, defined as follows:\na) Any positive test result for HBV indicating presence of virus (eg, HBsAg or HBV DNA)\npositive would be excluded.\nNote: Participants with anti-hepatitis B antibodies attributed to prior vaccination or\nresolved infection are eligible to enroll.\nSee APPENDIX 6 for country-specific requirements.\nb) Any positive test for HCV indicating presence of active viral replication (detectable\nHCV-RNA). Note: Participants with positive HCV antibody and an undetectable HCV\nRNA are eligible to enroll.\n21) Known HIV infection or known AIDS, with the following exceptions:\na) Participants with CD4+ T cell counts ≥ 350 cells/mL per local laboratory should generally\nbe eligible for the study.\nb) Participants who have not had an opportunistic infection within the past 12 months are\neligible.\nNote: Eligible participants should have adequate virological control and be on ART for at\nleast 4 weeks prior to first dose and continue on ART therapy (as clinically indicated) while\nenrolled on-study.\nNote: HIV testing must be conducted where locally mandated. HIV-positive participants must\nbe excluded where mandated locally.\nAllergies and Adverse Drug Reactions\n22) History of allergy or hypersensitivity to study intervention components.\n23) Any contraindications to nivolumab or any of the study chemotherapy regimen drugs selected\nby the investigator. Investigators should refer to local package insert of nivolumab and the\nchemotherapy drugs.\nOther Exclusion Criteria\n24) Prisoners or participants who are involuntarily incarcerated. (Note: Under certain specific\ncircumstances and only in countries where local regulations permit, a person who has been\nimprisoned while on study may be permitted to continue as a participant. Strict conditions\napply, and Sponsor approval is required.).",
       "Contacts": "Site PI:\nDr. Elena Elimova\nElena.Elimova@uhn.ca\n\nTrial Nurse:\nStephen Lam\nstephen.lam@uhn.ca",
@@ -556,7 +556,7 @@
       "Full title": "DESTINY-Biliary Tract Cancer-01: A Phase 3 Study of Trastuzumab Deruxtecan (T-DXd) and Rilvegostomig Versus Standard-of-Care Gemcitabine, Cisplatin, and Durvalumab for First Line Locally Advanced or Metastatic HER2-expressing Biliary Tract Cancer",
       "Additional notes": null,
       "Tissue Requirements": null,
-      "Biomarker/unselected": "Her-2+",
+      "Biomarker/unselected": "HER2",
       "Trial Intervention/Arms": "A: TdXD + rilvegostomig\nB: TdXD\nC: GemCis/Durva",
       "Eligibility ": "Unresectable, previously untreated,locally advanced or metastatic\nHer-2+",
       "Contacts": "Site PI:\nErica Tsang\nerica.tsang@uhn.ca",
@@ -588,7 +588,7 @@
       "Full title": "An Open-label Randomized Trial of the Efficacy and Safety of Zanidatamab With Standard-of-care Therapy Against Standard-of-care Therapy Alone for Advanced HER2-positive Biliary Tract Cancer",
       "Additional notes": "Patient must be randomized before starting C3. ",
       "Tissue Requirements": "Fresh biopsy or archival (up to 6 months old). ",
-      "Biomarker/unselected": "Her-2+",
+      "Biomarker/unselected": "HER2",
       "Trial Intervention/Arms": "A: ZW25 + SOC\nB: SOC",
       "Eligibility ": "Locally advanced unresectable or metastatic BTC and not eligible for curative resection, transplantation,or ablative therapies.\nReceived no more than 2 cycles of systemic therapy which is limited to Cisplatin and Gemcitabine (CisGem) with or without a PD-1/L1 inhibitor\nAssessable (measurable or non-measurable) disease as defined by Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1).\n",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca \n\nTrial Nurse: \nGuillaume Cheung\nguillaume.cheung@uhn.ca",
@@ -620,9 +620,9 @@
       "Full title": "Phase 2 Study of Futibatinib 20 mg and 16 mg in Patients with \nAdvanced Cholangiocarcinoma with FGFR2 Fusions or \nRearrangements\n",
       "Additional notes": "Study phase 2: No prior FGFR inhibitors allowed. ",
       "Tissue Requirements": "Blood sample for ctDNA. Testing by FoundationOne CDx.  ",
-      "Biomarker/unselected": "FGFR2 gene fusions;\nFGFR2  or other rearrangements using NGS or FISH",
+      "Biomarker/unselected": "FGFR2",
       "Trial Intervention/Arms": "A:  20 mg futibatinib orally\nB: 16 mg  futibatinib orally \n",
-      "Eligibility ": "Prior Gem/Cis treatment; Histological or cytological diagnosis of iCCA or eCCA; If FGFR status unknown, can submit archival tissue or blood for testing by Sponsor, if patient meets criteria. ",
+      "Eligibility ": "FGFR2 gene fusions; FGFR2  or other rearrangements using NGS or FISH.\nPrior Gem/Cis treatment; Histological or cytological diagnosis of iCCA or eCCA; If FGFR status unknown, can submit archival tissue or blood for testing by Sponsor, if patient meets criteria. ",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
       "NCT number": "NCT05727176",
       "Study status": "Active",
@@ -784,7 +784,7 @@
       "Tissue Requirements": null,
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Continuous glucose monitor (CGM) for first 2 months of mFFX \n\nArm 1: Intensive glucose intervention with endocrinologist directed glycemic management, with target glucose levels between 4-10 mmol/L \n\nArm 2: Standard of care glucose intervention with intervention only if glucose level >15 mmol/L (Blinded to CGM results) ",
-      "Eligibility ": "\nExclusion:\nAbsence of distant or lymph node metastases. Participants with borderline resectable or locally advanced PDAC are not eligible.\nReceived prior systemic therapy (chemotherapy or any other anti-cancer agent) for treatment of metastatic PDAC\nKnown diagnosis of type I diabetes where strict glucose control and close Endocrinology follow-up is already indicated.\nKnown diagnosis of type II diabetes and already followed by Endocrinologist.",
+      "Eligibility ": "Inclusion: \nPatients must be planned to undergo 1L mFOLFIRINOX.\nECOG status 0-1.\nMeasurable or evaluable disease by RECIST 1.1 at baseline.\n\nExclusion:\nAbsence of distant or lymph node metastases. Participants with borderline resectable or locally advanced PDAC are not eligible.\nReceived prior systemic therapy (chemotherapy or any other anti-cancer agent) for treatment of metastatic PDAC\nKnown diagnosis of type I diabetes where strict glucose control and close Endocrinology follow-up is already indicated.\nKnown diagnosis of type II diabetes and already followed by Endocrinologist.",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": "NCT05132244",
       "Study status": "Not Recruiting",
@@ -798,7 +798,7 @@
       "Full title": "Phase 1b Expansion Study of CX-5461 In Patients With Solid Tumors and BRCA2 and/or PALB2 mutation",
       "Additional notes": null,
       "Tissue Requirements": "Tumor biopsy at screening and at the time of disease progression.\nBlood collected at screening, Day 1 and Day 8 of cycles 1 and 2 (each cycle is 28 days), every 8 weeks after cycle 2, and at the time of study discontinuation.",
-      "Biomarker/unselected": "BRCA2/PALB2",
+      "Biomarker/unselected": "BRCA2\nPALB2",
       "Trial Intervention/Arms": "Phase 1b Expansion Study of CX-5461 In Patients with Solid Tumors and BRCA2 and/or PALB2 mutation ",
       "Eligibility ": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. ",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
@@ -1911,6 +1911,16 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-05-01T16:08:34"
+      },
+      {
+        "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:47:32"
+      },
+      {
+        "Trial Name": "OZM-114\n\n",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:47:32"
       }
     ],
     "HCC": [
@@ -2872,6 +2882,21 @@
         "Trial Name": "\nD702NC00001 (ARTEMIDE-Biliary02)",
         "change": "added",
         "timestamp": "2026-04-17T12:17:10"
+      },
+      {
+        "Trial Name": "Destiny-BTC01",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:47:32"
+      },
+      {
+        "Trial Name": "HERIZON-BTC-302 (Sponsor: Jazz pharma)",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:47:32"
+      },
+      {
+        "Trial Name": "FOENIX-CCA4 \nTAS-120-205",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:47:32"
       }
     ],
     "Preactivation": [
@@ -3723,6 +3748,21 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-05-01T16:08:34"
+      },
+      {
+        "Trial Name": "61186372COR3001 (ORIGAMI-2)",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:47:32"
+      },
+      {
+        "Trial Name": "BOLD-100-001 (TRIO039)",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:47:32"
+      },
+      {
+        "Trial Name": "C4761001 ",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:47:32"
       }
     ],
     "GE": [
@@ -3960,6 +4000,16 @@
         "Trial Name": "CA2660004 (ROSETTA Gastric-204)",
         "change": "modified",
         "timestamp": "2026-04-09T10:21:06"
+      },
+      {
+        "Trial Name": "ARTEMIDE-Gastric01 ",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:47:32"
+      },
+      {
+        "Trial Name": "CA2660004 (ROSETTA Gastric-204)",
+        "change": "modified",
+        "timestamp": "2026-05-01T16:47:32"
       }
     ],
     "pNET": [
