@@ -892,7 +892,7 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "CA240-0030",
       "Full title": "A Randomized, Phase 2/3 Study Comparing BMS-986504 in Combination with Nab-paclitaxel and Gemcitabine versus Placebo in Combination with Nab-paclitaxel and Gemcitabine in Participants with Untreated Metastatic Pancreatic Ductal Adenocarcinoma Harboring Homozygous MTAP Deletion",
-      "Additional notes": "ON HOLD (06-May-2026)\n\nThis Phase 2/3 study will evaluate the safety and efficacy of BMS-986504 in combination with nab-p/gem as first-line therapy in previously untreated participants with metastatic PDAC with homozygous MTAP deletion",
+      "Additional notes": "ON HOLD (05-May-2026)\n\nThis Phase 2/3 study will evaluate the safety and efficacy of BMS-986504 in combination with nab-p/gem as first-line therapy in previously untreated participants with metastatic PDAC with homozygous MTAP deletion",
       "Tissue Requirements": "Fresh tumor tissue or archival tissue that's obtained within 5 years prior to randomization must be submitted during pre-screening. Eligibility is based on evidence of homozygous MTAP deletion or MTAP loss detected in tumor tissue using Sponsor-provided central test or a Sponsor pre-approved local test. Turnaround time for central FMI testing is 14 calendar days. If participants receive up to 1 cycle of nab-p/gem prior to randomization, tumor tissue must be collected prior to starting nab-p/gem. For fresh tumor tissue, collect 3 research cores.",
       "Biomarker/unselected": "MTAP",
       "Trial Intervention/Arms": "Phase 2:\nArm A- BMS-986504 400 mg QD + nab-paclitaxel & gemcitabine\nArm B- BMS-986504 600 mg QD + nab-paclitaxel & gemcitabine\nArm C- Placebo 400 mg QD + nab-paclitaxel & gemcitabine\nArm D- Placebo 600 mg QD + nab-paclitaxel & gemcitabine\n \nPhase 3:\nArm E- BMS-986504 RP3D + nab-paclitaxel & gemcitabine\nArm F- Placebo + nab-paclitaxel & gemcitabine",
@@ -1929,6 +1929,11 @@
         "Trial Name": "OZM-114\n\n",
         "change": "modified",
         "timestamp": "2026-05-07T09:18:04"
+      },
+      {
+        "Trial Name": "CA240-0030",
+        "change": "modified",
+        "timestamp": "2026-05-07T11:30:49"
       }
     ],
     "HCC": [
