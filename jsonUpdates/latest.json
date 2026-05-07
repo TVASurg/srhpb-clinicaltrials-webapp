@@ -803,7 +803,7 @@
       "Eligibility ": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. ",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
       "NCT number": "NCT04890613",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": null,
       "Key criteria (for PDF)": "BRCA2/PALB2. ",
       "PI contact (for PDF)": "jennifer.knox@uhn.ca "
@@ -1926,6 +1926,11 @@
         "Trial Name": "CA240-0030",
         "change": "modified",
         "timestamp": "2026-05-06T12:50:32"
+      },
+      {
+        "Trial Name": "OZM-114\n\n",
+        "change": "modified",
+        "timestamp": "2026-05-07T09:18:04"
       }
     ],
     "HCC": [
