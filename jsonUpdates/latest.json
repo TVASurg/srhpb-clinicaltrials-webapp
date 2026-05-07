@@ -794,22 +794,6 @@
     },
     {
       "Disease Setting": "2L Metastatic+",
-      "Trial Name": "OZM-114\n\n",
-      "Full title": "Phase 1b Expansion Study of CX-5461 In Patients With Solid Tumors and BRCA2 and/or PALB2 mutation",
-      "Additional notes": null,
-      "Tissue Requirements": "Tumor biopsy at screening and at the time of disease progression.\nBlood collected at screening, Day 1 and Day 8 of cycles 1 and 2 (each cycle is 28 days), every 8 weeks after cycle 2, and at the time of study discontinuation.",
-      "Biomarker/unselected": "BRCA2\nPALB2",
-      "Trial Intervention/Arms": "Phase 1b Expansion Study of CX-5461 In Patients with Solid Tumors and BRCA2 and/or PALB2 mutation ",
-      "Eligibility ": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. ",
-      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
-      "NCT number": "NCT04890613",
-      "Study status": "Not Recruiting",
-      "Schema image": null,
-      "Key criteria (for PDF)": "BRCA2/PALB2. ",
-      "PI contact (for PDF)": "jennifer.knox@uhn.ca "
-    },
-    {
-      "Disease Setting": "2L Metastatic+",
       "Trial Name": "ADOPT\n\n\n",
       "Full title": "ADOPT: ADaptive Organoid-Based Precision Therapy Study in Pancreatic Cancer, A Prospective Single-Arm Phase II Trial",
       "Additional notes": null,
@@ -1247,6 +1231,20 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT05855200",
       "Schema image": "NCT05855200.png"
+    },
+    {
+      "Organ group": "PDAC",
+      "Disease Setting": "2L Metastatic+",
+      "Trial Name": "OZM-114\n\n",
+      "Full title": "Phase 1b Expansion Study of CX-5461 In Patients With Solid Tumors and BRCA2 and/or PALB2 mutation",
+      "Additional notes": null,
+      "Tissue Requirements": "Tumor biopsy at screening and at the time of disease progression.\nBlood collected at screening, Day 1 and Day 8 of cycles 1 and 2 (each cycle is 28 days), every 8 weeks after cycle 2, and at the time of study discontinuation.",
+      "Biomarker/unselected": "BRCA2\nPALB2",
+      "Trial Intervention/Arms": "Phase 1b Expansion Study of CX-5461 In Patients with Solid Tumors and BRCA2 and/or PALB2 mutation ",
+      "Eligibility ": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. ",
+      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
+      "NCT number": "NCT04890613",
+      "Schema image": null
     }
   ],
   "Dropdown Menus": [
@@ -3041,6 +3039,11 @@
         "Trial Name": "GSK219606 (AZUR2)",
         "change": "added",
         "timestamp": "2026-05-01T12:59:30"
+      },
+      {
+        "Trial Name": "OZM-114\n\n",
+        "change": "added",
+        "timestamp": "2026-05-07T09:22:40"
       }
     ],
     "CRC": [
