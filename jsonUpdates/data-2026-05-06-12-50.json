@@ -369,22 +369,6 @@
       "Schema image": "NCT07221149.png",
       "Key criteria (for PDF)": "Advanced or mGC, GEJC, or distal EAC with no prior systemic treatment. Earlier adjuvant or neoadjuvant therapy is allowed if completed over 6 months before diagnosis, recurrence or mets.",
       "PI contact (for PDF)": "elena.elimova@uhn.ca "
-    },
-    {
-      "Disease Setting": "1L ",
-      "Trial Name": "CLARITY-Gastric 02 (D9803C00001)",
-      "Full title": "A Phase III, Multicentre, Randomised Controlled Study of Sonesitatug vedotin in Combination with Capecitabine with or without Rilvegostomig in First-line Claudin18.2-positive, HER2-negative, Advanced/Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma (CLARITY-Gastric 02).",
-      "Additional notes": "This is a Phase III, 2-cohort, randomised, open-label, sponsor-blinded (sponsor does not know which treatment you receive) , multicentre, global study assessing the efficacy and safety of sonesitatug vedotin in combination with capecitabine alone or in combination with rilvegostomig compared with standard of care (SoC) in participants with HER2-negative, unresectable, locally advanced, or metastatic gastric, gastroesophageal junction (GEJ), or esophageal adenocarcinoma expressing CLDN18.2 that has not been treated before, and to assess the clinical performance of the investigational in vitro diagnostics (IVDs). Cohort 1 is a 3-arm design that will evaluate sonesitatug vedotin in combination with rilvegostomig and capecitabine (Arm A) or sonesitatug vedotin in combination with nivolumab and capecitabine (Arm B), versus SoC nivolumab plus CAPOX or FOLFOX (Arm C) in participants who are CLDN18.2 positive and PD-L1 combined positive score (CPS) ≥ 1. Cohort 2 is a 2-arm design that will evaluate sonesitatug vedotin in combination with capecitabine (Arm D) versus CAPOX or FOLFOX alone or in combination with zolbetuximab (Arm E) in participants who are CLDN18.2 positive and PD-L1 CPS < 1 or CPS ≥ 1 and ICI ineligible. Approximately 1200 participants will be randomised in a 1:1:1 ratio in cohort 1, and about 930 participants will be randomised in a 1:1 ratio in cohort 2. Participants will receive study intervention until radiological progression unless there is evidence of unacceptable toxicity, withdrawal of consent, or other criteria for discontinuation are met. After study intervention discontinuation, all participants will undergo an end of treatment (EOT) visit within 7 days and will be followed up for safety assessments at about 30 days and 90 days after their last dose of study intervention, then all participants will be followed up for survival status until death, withdrawal of consent, or the end of the study.",
-      "Tissue Requirements": "FFPE tumor sample (fresh or archival - 3 months prior to screening) for CLDN18.2 and PD-L1 testing to central lab. Lab TAT is minimum 5 business days from sample received at central lab.\nHER 2 status by local testing.",
-      "Biomarker/unselected": "CLDN18.2 and PD-L1",
-      "Trial Intervention/Arms": "Arm A - Sonsesitatug Vedotin + Rilvegostomig + Capecitabine\nArm B - Sonsesitatug Vedotin + Nivolumab + Capecitabine\nArm C - Nivolumab + CAPOX or FOLFOX (SOC Arm)\nArm D - Sonsesitatug Vedotin + Capecitabine\nArm E - CAPOX or FOLFOX with or without Zolbetuximab (SOC Arm)",
-      "Eligibility ": "Inclusion criteria:\n- Previously untreated histologically documented unresectable, locally advanced, or metastatic gastric, GEJ, or distal esophagus (distal third of the esophagus) adenocarcinoma\n- Provision of a FFPE tumour sample (newly acquired or archival) adequate to assess the CLDN18.2 and PD-L1 expression prior to randomisation by central testing.\n- Positive CLDN18.2 expression\n- Confirmed PD-L1 CPS status by central IHC testing and ICI eligibility per investigator judgement\n- ECOG performance status of 0 or 1 with no deterioration to > 1 over the previous 2 weeks prior to baseline at screening and prior to randomisation.\n- At least one lesion (measurable and/or non-measurable) that can be accurately assessed by the investigator based on RECIST 1.1.\n- Adequate organ and bone marrow function\n\nExclusion criteria\n- Participants with known HER2-positive status as defined as IHC 3+ or IHC 2+/ISH+\n- Participant has significant or unstable gastric bleeding and/or untreated gastric ulcers.\n- Active or history of autoimmune or inflammatory disorders requiring systemic treatment with steroids or other immunosuppressive treatment or assessed by investigator as not appropriate to participate due to undue risk are excluded.\n- Has spinal cord compression or clinically active CNS metastases\n- History of brain perfusion problems (eg carotid stenosis) or stroke\n- Has CNS pathology\n- Participant has known clinically significant corneal disease (eg, active keratitis or corneal ulcerations).\n- Inadequate nutrition status\n- Participants with clinically significant pleural effusions or ascites and/or pleural effusions or ascites that require drainage, peritoneal shunt, or indwelling catheter/drain.\n- Participants that require parenteral nutrition support due to gastric or gastrointestinal obstruction.\n- History of organ transplant or allogeneic stem cell transplant.\n- Uncontrolled diabetes or diabetic neuropathy within 3 months prior to randomisation.\n-  A history of drug-induced non-infectious ILD/pneumonitis that has required oral or IV steroids.\n-  Uncontrolled active systemic fungal, bacterial, or other infection (defined as exhibiting ongoing signs/symptoms related to the infection and without improvement, despite appropriate antibiotics or other treatment).\n- Known partial or total DPD enzyme deficiency \n- Palliative radiotherapy with a limited field of radiation within 2 weeks or with wide field of radiation or to more than 30% of the bone marrow within 4 weeks before randomisation.\n- Prior exposure to any ADC with MMAE payload or any CLDN18.2 targeting treatment.\n- Current or prior use of immunosuppressive medication within 14 days before the first dose of study intervention should be excluded.\n- Major surgical procedure (excluding placement of vascular access) or significant traumatic injury within 4 weeks of the first dose of study intervention or an anticipated need for major surgery during the study.",
-      "Contacts": "Site PI: \nDr. Elena Elimova\nElena.Elimova@uhn.ca\n\nStudy Nurses: \nGuillaume Cheung guillaume.cheung@uhn.ca\n\nElaine Lung\nelaine.lung@uhn.ca\n\nCSRA: Huda Ahmed\nhudawaseem.ahmed@uhn.ca ",
-      "NCT number": "NCT07431281",
-      "Study status": "Active",
-      "Schema image": null,
-      "Key criteria (for PDF)": "CLDN18.2+ and PD-L1.",
-      "PI contact (for PDF)": "elena.elimova@uhn.ca "
     }
   ],
   "HCC": [
@@ -810,6 +794,22 @@
     },
     {
       "Disease Setting": "2L Metastatic+",
+      "Trial Name": "OZM-114\n\n",
+      "Full title": "Phase 1b Expansion Study of CX-5461 In Patients With Solid Tumors and BRCA2 and/or PALB2 mutation",
+      "Additional notes": null,
+      "Tissue Requirements": "Tumor biopsy at screening and at the time of disease progression.\nBlood collected at screening, Day 1 and Day 8 of cycles 1 and 2 (each cycle is 28 days), every 8 weeks after cycle 2, and at the time of study discontinuation.",
+      "Biomarker/unselected": "BRCA2\nPALB2",
+      "Trial Intervention/Arms": "Phase 1b Expansion Study of CX-5461 In Patients with Solid Tumors and BRCA2 and/or PALB2 mutation ",
+      "Eligibility ": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. ",
+      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
+      "NCT number": "NCT04890613",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "BRCA2/PALB2. ",
+      "PI contact (for PDF)": "jennifer.knox@uhn.ca "
+    },
+    {
+      "Disease Setting": "2L Metastatic+",
       "Trial Name": "ADOPT\n\n\n",
       "Full title": "ADOPT: ADaptive Organoid-Based Precision Therapy Study in Pancreatic Cancer, A Prospective Single-Arm Phase II Trial",
       "Additional notes": null,
@@ -908,7 +908,7 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "CA240-0030",
       "Full title": "A Randomized, Phase 2/3 Study Comparing BMS-986504 in Combination with Nab-paclitaxel and Gemcitabine versus Placebo in Combination with Nab-paclitaxel and Gemcitabine in Participants with Untreated Metastatic Pancreatic Ductal Adenocarcinoma Harboring Homozygous MTAP Deletion",
-      "Additional notes": "ON HOLD (05-May-2026)\n\nThis Phase 2/3 study will evaluate the safety and efficacy of BMS-986504 in combination with nab-p/gem as first-line therapy in previously untreated participants with metastatic PDAC with homozygous MTAP deletion",
+      "Additional notes": "ON HOLD (06-May-2026)\n\nThis Phase 2/3 study will evaluate the safety and efficacy of BMS-986504 in combination with nab-p/gem as first-line therapy in previously untreated participants with metastatic PDAC with homozygous MTAP deletion",
       "Tissue Requirements": "Fresh tumor tissue or archival tissue that's obtained within 5 years prior to randomization must be submitted during pre-screening. Eligibility is based on evidence of homozygous MTAP deletion or MTAP loss detected in tumor tissue using Sponsor-provided central test or a Sponsor pre-approved local test. Turnaround time for central FMI testing is 14 calendar days. If participants receive up to 1 cycle of nab-p/gem prior to randomization, tumor tissue must be collected prior to starting nab-p/gem. For fresh tumor tissue, collect 3 research cores.",
       "Biomarker/unselected": "MTAP",
       "Trial Intervention/Arms": "Phase 2:\nArm A- BMS-986504 400 mg QD + nab-paclitaxel & gemcitabine\nArm B- BMS-986504 600 mg QD + nab-paclitaxel & gemcitabine\nArm C- Placebo 400 mg QD + nab-paclitaxel & gemcitabine\nArm D- Placebo 600 mg QD + nab-paclitaxel & gemcitabine\n \nPhase 3:\nArm E- BMS-986504 RP3D + nab-paclitaxel & gemcitabine\nArm F- Placebo + nab-paclitaxel & gemcitabine",
@@ -1033,22 +1033,6 @@
       "Schema image": null,
       "Key criteria (for PDF)": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
       "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
-    },
-    {
-      "Disease Setting": "1L",
-      "Trial Name": "HS-19-657/SORENTO",
-      "Full title": "A randomized, multi-center, open-label, active-controlled Phase 3 trial to assess the efficacy and safety of octreotide subcutaneous depot (CAM2029) versus octreotide LAR or lanreotide ATG in patients with gastroenteropancreatic neuroendocrine tumors.",
-      "Additional notes": "HS-19-657 is a Phase 3, randomized, open-label, 2-arm study designed to compare the efficacy of the investigational product (CAM2029) to the Investigator’s choice of comparator treatment (octreotide long-acting release or lanreotide autogel). The study will be enrolling adult patients with advanced, well-differentiated gastroenteropancreatic neuroendocrine tumors (GEP-NET). During the study drug treatment period, participants will be randomized in a 1:1 ratio to one of the following study arms:\n-Arm 1: CAM2029 20 mg every 2 weeks\n-Arm 2: Comparator (octreotide LAR 30 mg or lanreotide ATG 120 mg) every 4 weeks\nCAM2029 will be administered by subcutaneous (SC) injection while octreotide LAR will be administered by intramuscular (IM) injection. Lanreotide ATG will be administered by deep SC injection while the rescue medication for both study arms, octreotide immediate release (IR), will be administered by SC injection. Rescue medication may be self-injected for symptom rescue as per standard practice during the trial and at the Investigator’s discretion.\nStudy participation is divided into a screening (28-day window), study drug treatment, and follow-up period. Participants who experience disease progression will have the option to enter the Open-label Extension Treatment Period, during which they will be treated with CAM2029 20 mg once weekly, regardless if which study arm they were initially assigned to. Once discontinuation criteria is met or the optional extension treatment period is completed, a safety follow-up visit will occur before participants enter the efficacy and survival follow-up period. Safety assessments include physical examinations, vital sign measurements, ECG variables and laboratory evaluations. Efficacy will be assessed by imaging scans and tumor measurements using RECIST 1.1 criteria. Research samples (blood and urine) will be collected for standard lab tests, pharmacokinetics and immunogenicity.",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Arm 1: CAM2029 20 mg every 2 weeks\nArm 2: Comparator (octreotide LAR 30 mg or lanreotide ATG 120 mg) every 4 weeks",
-      "Eligibility ": "Inclusion criteria: \n- Histologically confirmed, advanced (unresectable and/or metastatic), and well-differentiated NET of GEP or presumed GEP origin\n- At least 1 measurable, somatostatin receptor-positive*, lesion according to RECIST 1.1 determined by multiphasic CT or MRI (performed within 28 days before randomization)\n*Somatostatin-receptor imaging must be performed within 3 months before randomization. Somatostatin receptor-positive lesions are defined as lesions with a visual assessment of uptake greater than the liver\n- Results from FDG-PET CT for patients with well-differentiated Grade 3 NET (if performed) must show that FDG avid areas of disease also are avid on somatostatin-receptor imaging\n- Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 2\n- Female patients of childbearing potential must be willing to use an acceptable method of contraception from screening to the Safety Follow-up Visit\n\nExclusion criteria: \n- Poorly differentiated NEC, adenocarcinoid, goblet cell carcinoid, large cell NEC, small cell carcinoma, or mixed tumor\n- Previously diagnosed with multiple endocrine neoplasia Type 1\n- Tumor with primary origin outside the GEP tract\n- Documented evidence of disease progression while on treatment (including SSAs) for locally advanced unresectable or metastatic disease\n- Known central nervous system metastases\n- Consecutive treatment with long-acting SSAs for more than 6 months before randomization\n- Treatment of GEP-NET with trans-arterial chemoembolization or trans-arterial embolization within 12 months before screening\n- Previously received radioligand therapy (PRRT) at any time\n- Major surgery/surgical therapy for any cause within 1 month before screening, surgical therapy of loco-regional metastases within 3 months before screening, or minor surgery within 14 days before screening. Patient must have recovered from the treatment and be in good clinical condition\n- Patients with poorly controlled diabetes, as evidenced by hemoglobin A1c (HbA1c) >8.0%\n- Cardiac history or current diagnosis of cardiac disease indicating significant risk of safety for patients participating in the trial, such as uncontrolled or significant cardiac disease.\n- Clinically significant cardiac arrhythmias (e.g. ventricular tachycardia), complete left bundle branch block, or high-grade atrioventricular block (e.g. bifascicular block, Mobitz type II, and third-degree atrioventricular block)\n- Long QT syndrome, family history of idiopathic sudden death or congenital long QT syndrome.\n",
-      "Contacts": "Site PI:\nRaymond Jang\nraymond.jang@uhn.ca\n\nStudy Nurse: \nMary Lan Wei\nmarylan.wei@uhn.ca\n\nStudy Coordinator: Huda Ahmed\n",
-      "NCT number": "NCT05050942",
-      "Study status": "Active",
-      "Schema image": null,
-      "Key criteria (for PDF)": "Well-differentiated NET of GEP or presumed GEP origin. Somatostatin receptor (SSTR)-positive.",
-      "PI contact (for PDF)": "raymond.jang@uhn.ca"
     }
   ],
   "Preactivation": [
@@ -1263,20 +1247,6 @@
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT05855200",
       "Schema image": "NCT05855200.png"
-    },
-    {
-      "Organ group": "PDAC",
-      "Disease Setting": "2L Metastatic+",
-      "Trial Name": "OZM-114\n\n",
-      "Full title": "Phase 1b Expansion Study of CX-5461 In Patients With Solid Tumors and BRCA2 and/or PALB2 mutation",
-      "Additional notes": null,
-      "Tissue Requirements": "Tumor biopsy at screening and at the time of disease progression.\nBlood collected at screening, Day 1 and Day 8 of cycles 1 and 2 (each cycle is 28 days), every 8 weeks after cycle 2, and at the time of study discontinuation.",
-      "Biomarker/unselected": "BRCA2\nPALB2",
-      "Trial Intervention/Arms": "Phase 1b Expansion Study of CX-5461 In Patients with Solid Tumors and BRCA2 and/or PALB2 mutation ",
-      "Eligibility ": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. ",
-      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
-      "NCT number": "NCT04890613",
-      "Schema image": null
     }
   ],
   "Dropdown Menus": [
@@ -1956,16 +1926,6 @@
         "Trial Name": "CA240-0030",
         "change": "modified",
         "timestamp": "2026-05-06T12:50:32"
-      },
-      {
-        "Trial Name": "OZM-114\n\n",
-        "change": "modified",
-        "timestamp": "2026-05-07T09:18:04"
-      },
-      {
-        "Trial Name": "CA240-0030",
-        "change": "modified",
-        "timestamp": "2026-05-07T11:30:49"
       }
     ],
     "HCC": [
@@ -3076,11 +3036,6 @@
         "Trial Name": "GSK219606 (AZUR2)",
         "change": "added",
         "timestamp": "2026-05-01T12:59:30"
-      },
-      {
-        "Trial Name": "OZM-114\n\n",
-        "change": "added",
-        "timestamp": "2026-05-07T09:22:40"
       }
     ],
     "CRC": [
@@ -4060,11 +4015,6 @@
         "Trial Name": "CA2660004 (ROSETTA Gastric-204)",
         "change": "modified",
         "timestamp": "2026-05-01T16:47:32"
-      },
-      {
-        "Trial Name": "CLARITY-Gastric 02 (D9803C00001)",
-        "change": "added",
-        "timestamp": "2026-05-11T16:52:03"
       }
     ],
     "pNET": [
@@ -4152,16 +4102,6 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-05-01T16:08:34"
-      },
-      {
-        "Trial Name": "HS-19-657/SORENTO",
-        "change": "added",
-        "timestamp": "2026-05-11T16:52:03"
-      },
-      {
-        "Trial Name": "HS-19-657/SORENTO",
-        "change": "modified",
-        "timestamp": "2026-05-12T09:25:18"
       }
     ]
   }
