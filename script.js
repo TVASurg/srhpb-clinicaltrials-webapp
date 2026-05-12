@@ -208,7 +208,6 @@ function initAllData() {
     //.catch(err => console.error('Error parsing JSON:', err));
   
   //hidePreactivations(pancreas_preactivation, "pancreas_preactivation")
-  
 }
 
 //then populate these const arrays 
@@ -329,8 +328,74 @@ const closed_master = {
 
 const changes = [];
 
+function fillBiomarkersHTML()
+{
+  
+
+  //strip trailing spaces
+  var cleanedBiomarkerArray = biomarker_master[`biomarker`].map(item => item.trim());
+  
+  //remove duplicates
+  cleanedBiomarkerArray = [...new Set (cleanedBiomarkerArray)];
+
+  //deal with ors
+  //detect \n in entry
+  //split and push?
+  for (i=0; i<cleanedBiomarkerArray.length; i++)
+  {
+    if (cleanedBiomarkerArray[i].includes('\n'))
+    {
+      var tempArray = [];
+      tempArray = cleanedBiomarkerArray[i].split(/\n+/);
+
+      //remove the 'or' entry, then push the tempArray items
+      cleanedBiomarkerArray.splice(i,1);
+      cleanedBiomarkerArray.push(...tempArray)
+    }
+  }
+
+  //going to remove duplicates again
+  cleanedBiomarkerArray = [...new Set (cleanedBiomarkerArray)];
+  //sort alphabetically
+  cleanedBiomarkerArray.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+
+  //add if need be...max 4 at the moment?
+  var biomarkerMenu01InnerHTML = "";
+  var biomarkerMenu02InnerHTML = "";
+
+  //fill inner HTML of biomarker-1, biomarker-2 etc
+  //sample <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`MTAP`)"><li class="rounded diseaseState px-3 mx-2 py-2" >MTAP</li></a>
+  for(k=0; k<cleanedBiomarkerArray.length; k++)
+  
+  {
+    //paginate every 10 entries
+    if (k < 11)
+    {
+      biomarkerMenu01InnerHTML += `<a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker('`;
+      biomarkerMenu01InnerHTML += cleanedBiomarkerArray[k];
+      biomarkerMenu01InnerHTML += `')"><li class="rounded diseaseState px-3 mx-2 pt-2 pb-1">`;
+      biomarkerMenu01InnerHTML += cleanedBiomarkerArray[k];
+      biomarkerMenu01InnerHTML += `</li></a>`;
+
+    }else if (k >= 11)
+    {
+      biomarkerMenu02InnerHTML += `<a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker('`;
+      biomarkerMenu02InnerHTML += cleanedBiomarkerArray[k];
+      biomarkerMenu02InnerHTML += `')"><li class="rounded diseaseState px-3 mx-2 pt-2 pb-1">`;
+      biomarkerMenu02InnerHTML += cleanedBiomarkerArray[k];
+      biomarkerMenu02InnerHTML += `</li></a>`;
+    }
+
+  }
+  
+  document.getElementById('biomarker-1').innerHTML = biomarkerMenu01InnerHTML;
+  document.getElementById('biomarker-2').innerHTML = biomarkerMenu02InnerHTML;
+}
+
+
 function fillTrialNameBasedOnBiomarker(biomarker)
 {
+  
   var outputHTMLline = "";
   
   //create vertical radio button group
@@ -338,10 +403,22 @@ function fillTrialNameBasedOnBiomarker(biomarker)
 
   clearUpdateLine();
   
+  
+
   for (i=0; i < biomarker_master[`names`].length; i++)
   {
-   if (biomarker_master[`biomarker`][i] == biomarker)
-   {//add in switches for div group based on category?
+    //there needs to be a filter on the argument (biomarker) and the lookup
+    //in regards to the and/or
+
+   //if (biomarker_master[`biomarker`][i] == biomarker)
+   if (
+      biomarker_master[`biomarker`][i].includes(" and ") == false &&
+      biomarker_master[`biomarker`][i].includes(biomarker) == true ||
+      biomarker_master[`biomarker`][i] == biomarker 
+   )
+   {
+    //add in switches for div group based on category?
+
     switch (biomarker_master[`categories`][i]) {
       case "CRC":
         outputHTMLline += '<div data-bs-theme="colorectal">';
@@ -357,6 +434,10 @@ function fillTrialNameBasedOnBiomarker(biomarker)
 
       case "PDAC":
         outputHTMLline += '<div data-bs-theme="pdac">';
+        break;
+
+      case "pNET":
+        outputHTMLline += '<div data-bs-theme="pnet">';
         break;
 
       case "CCA":
@@ -397,7 +478,15 @@ function fillTrialNameBasedOnBiomarker(biomarker)
         const elementID = this.id.match(/\d+/g);
         const key = parseInt(elementID);
 
-        if (category == "HCC")
+        if (category == "CRC")
+        {
+          fillTrialDetails(colorectal_master, elementID);
+        }
+        else if (category == "GE")
+        {
+          fillTrialDetails(gastroesophageal_master, elementID);
+        }
+        else if (category == "HCC")
         {
           fillTrialDetails(liver_HCC_master, elementID);
         }
@@ -405,14 +494,15 @@ function fillTrialNameBasedOnBiomarker(biomarker)
         {
           fillTrialDetails(pancreas_master, elementID);
         }
+        else if (category == "pNET")
+        {
+          fillTrialDetails(pNET_master, elementID);
+        }
         else if (category == "CCA")
         {
           fillTrialDetails(biliary_CCA_master, elementID);
         }
-        else if (category == "GE")
-        {
-          fillTrialDetails(gastroesophageal_master, elementID);
-        }
+        
         
         
       }
@@ -1631,16 +1721,19 @@ function displayStudyStatus(studystatus)
 }
 
 function toggleNav()
+
 {
+    //default for organ groups
     if(document.getElementById("mainNavInner").classList.contains('active'))
     {
       document.getElementById("mainNavInner").classList.remove('active');
       document.getElementById("navToggle").innerHTML = "Browse by biomarker";
-    }else
+      
+    }else //case for biomarkers
     {
       document.getElementById("mainNavInner").classList.add('active'); 
       document.getElementById("navToggle").innerHTML = "Browse by organ group";
-
+      fillBiomarkersHTML();
     }
 
     clearTrialInfo();

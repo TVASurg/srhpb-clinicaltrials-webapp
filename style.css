@@ -384,3 +384,13 @@ perspective: 1000px;
   }
 
 }
+
+/*biomarker*/
+.nav-pills .nav-link {
+    color: #000 !important;            /* White text */
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--bs-gray-600) !important; /* Custom orange */
+    color: #ffffff !important;            /* White text */
+}

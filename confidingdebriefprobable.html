@@ -38,7 +38,7 @@
       <div class="col-12 col-lg-3"> 
         <div class="flipNav">
           <div id="mainNavInner" class="flipNavInner">
-                <ul id ="diseaseNav" class="list-unstyled ps-0 flipNavFront">
+        <ul id ="diseaseNav" class="list-unstyled ps-0 flipNavFront">
           
           <li class="fs-5 bg-colorectal ps-2 rounded-top fw-bold border-bottom py-2 mt-1 ps-2" >Colorectal</li>
           <li class="d-grid mb-1 bg-colorectal rounded-bottom ps-2" > <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#crc-collapse" onclick="clearTrialInfo(); clearUpdateLine();">
@@ -137,17 +137,29 @@
 
         <ul id="diseaseNav" class="list-unstyled ps-0 flipNavBack">
              
-          <li class="fs-5 bg-gray-500 ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2">Biomarker</li>
+          <li class="fs-5 bg-gray-500 ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2">Biomarkers</li>
             <div class="bg-gray-500 rounded-bottom">
-              <ul class="btn-toggle-nav list-unstyled fw-normal py-2 ps-2">
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`MTAP`)"><li class="rounded diseaseState px-3 mx-2 py-2" >MTAP</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`CLDN18.2`)"><li class="rounded diseaseState px-3 mx-2 py-2" >CLDN18.2</li></a>                
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`HER-2 on IHC`)"><li class="rounded diseaseState px-3 mx-2 py-2" >HER-2 on IHC</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`HER2 `)"><li class="rounded diseaseState px-3 mx-2 py-2" >HER2</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`HER2 and PDL1`)"><li class="rounded diseaseState px-3 mx-2 py-2" >HER2 and PDL1</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`IDH1`)"><li class="rounded diseaseState px-3 mx-2 py-2" >IDH1</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnBiomarker(`evidence of FGFR2 gene fusions or other rearrangements using NGS or FISH`)"><li class="rounded diseaseState px-3 mx-2 py-2" >Evidence of FGFR2 gene fusions</li></a>
-            </ul>
+              
+
+                
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="biomarker-1" role="tabpanel" aria-labelledby="biomarker-1-tab" tabindex="0">
+                    
+                </div>
+
+                <div class="tab-pane fade" id="biomarker-2" role="tabpanel" aria-labelledby="biomarker-2-tab" tabindex="0">
+
+
+            </div>
+            </div>
+              <ul class="nav nav-pills nav-justified">
+              <li class="nav-item">
+                <button class="nav-link active" id="biomarker-1-tab" data-bs-toggle="pill" data-bs-target="#biomarker-1" type="button" role="tab" aria-controls="biomarker-1-tab" aria-selected="true">1</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" id="biomarker-2-tab" data-bs-toggle="pill" data-bs-target="#biomarker-2" type="button" role="tab" aria-controls="biomarker-2-tab" aria-selected="true">2</button>
+              </li>
+              </ul>
             </div>
         </ul>
         
