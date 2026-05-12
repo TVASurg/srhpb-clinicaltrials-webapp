@@ -1035,7 +1035,7 @@
       "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
     },
     {
-      "Disease Setting": "1st Line",
+      "Disease Setting": "1L",
       "Trial Name": "HS-19-657/SORENTO",
       "Full title": "A randomized, multi-center, open-label, active-controlled Phase 3 trial to assess the efficacy and safety of octreotide subcutaneous depot (CAM2029) versus octreotide LAR or lanreotide ATG in patients with gastroenteropancreatic neuroendocrine tumors.",
       "Additional notes": "HS-19-657 is a Phase 3, randomized, open-label, 2-arm study designed to compare the efficacy of the investigational product (CAM2029) to the Investigator’s choice of comparator treatment (octreotide long-acting release or lanreotide autogel). The study will be enrolling adult patients with advanced, well-differentiated gastroenteropancreatic neuroendocrine tumors (GEP-NET). During the study drug treatment period, participants will be randomized in a 1:1 ratio to one of the following study arms:\n-Arm 1: CAM2029 20 mg every 2 weeks\n-Arm 2: Comparator (octreotide LAR 30 mg or lanreotide ATG 120 mg) every 4 weeks\nCAM2029 will be administered by subcutaneous (SC) injection while octreotide LAR will be administered by intramuscular (IM) injection. Lanreotide ATG will be administered by deep SC injection while the rescue medication for both study arms, octreotide immediate release (IR), will be administered by SC injection. Rescue medication may be self-injected for symptom rescue as per standard practice during the trial and at the Investigator’s discretion.\nStudy participation is divided into a screening (28-day window), study drug treatment, and follow-up period. Participants who experience disease progression will have the option to enter the Open-label Extension Treatment Period, during which they will be treated with CAM2029 20 mg once weekly, regardless if which study arm they were initially assigned to. Once discontinuation criteria is met or the optional extension treatment period is completed, a safety follow-up visit will occur before participants enter the efficacy and survival follow-up period. Safety assessments include physical examinations, vital sign measurements, ECG variables and laboratory evaluations. Efficacy will be assessed by imaging scans and tumor measurements using RECIST 1.1 criteria. Research samples (blood and urine) will be collected for standard lab tests, pharmacokinetics and immunogenicity.",
@@ -4157,6 +4157,11 @@
         "Trial Name": "HS-19-657/SORENTO",
         "change": "added",
         "timestamp": "2026-05-11T16:52:03"
+      },
+      {
+        "Trial Name": "HS-19-657/SORENTO",
+        "change": "modified",
+        "timestamp": "2026-05-12T09:25:18"
       }
     ]
   }
