@@ -6,7 +6,7 @@
       "Full title": "A Randomized, Open-label Phase 3 Study of Amivantamab and mFOLFOX6 or FOLFIRI Versus Cetuximab and mFOLFOX6 or FOLFIRI as First-line Treatment in Participants With KRAS/NRAS and BRAF Wild-type Unresectable or Metastatic Left-sided Colorectal Cancer.",
       "Additional notes": null,
       "Tissue Requirements": "Fresh tumor tissue: KRAS, NRAS, and BRAF wild-type (WT) tumor by local and/or central testing (if available).",
-      "Biomarker/unselected": "KRAS/NRAS\nBRAF WT",
+      "Biomarker/unselected": "KRAS/NRAS/BRAF WT",
       "Trial Intervention/Arms": "A: Amivantamab + chemo (mFOLFOX6 or FOLFIRI)\nB: Cetuximab + chemo (mFOLFOX6 or FOLFIRI)",
       "Eligibility ": "Inclusion criteria:\nUnresectable left-sided CRC.\nKRAS/NRA/BRAF WT. \nNeoadjuvant/Adj in non-metastatic disease eligible (>12m after last dose).\nExclusion criteria:\nHas a prior or concurrent second malignancy other than the disease under study or one whose natural history or treatment is likely to interfere with any study endpoints of safety or the efficacy of the study treatmens\nKnown mismatch repair deficiency (dMMR/MSI-H) status and HER2-positive/amplified tumor.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
@@ -3813,6 +3813,11 @@
         "Trial Name": "C4761001 ",
         "change": "modified",
         "timestamp": "2026-05-01T16:47:32"
+      },
+      {
+        "Trial Name": "61186372COR3001 (ORIGAMI-2)",
+        "change": "modified",
+        "timestamp": "2026-05-13T16:15:49"
       }
     ],
     "GE": [
