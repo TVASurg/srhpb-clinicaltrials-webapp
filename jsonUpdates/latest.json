@@ -188,7 +188,7 @@
       "Contacts": "Site PI: \nDr. Lucy Ma\nLucy.Ma@uhn.ca\n\nStudy Nurse: \nOchir Gansukh ochir.gansukh@uhn.ca\n\nData Coordinator: \nDemitra Michelis demitra.michelis@uhn.ca",
       "NCT number": "NCT06997497",
       "Study status": "Active",
-      "Schema image": null,
+      "Schema image": "NCT06997497.png",
       "Key criteria (for PDF)": "KRAS G12C-mutant pMMR/non-MSI-H LA/mCRC. Comparing MK-1084 (calderasib), cetuximab, and mFOLFOX6 vs. mFOLFOX6 with or without bevacizumab.",
       "PI contact (for PDF)": "Lucy.Ma@uhn.ca"
     }
@@ -3839,6 +3839,11 @@
         "Trial Name": "MK1084-012 (KANDLELIT-012)",
         "change": "added",
         "timestamp": "2026-05-14T09:41:00"
+      },
+      {
+        "Trial Name": "MK1084-012 (KANDLELIT-012)",
+        "change": "modified",
+        "timestamp": "2026-05-14T14:31:37"
       }
     ],
     "GE": [
