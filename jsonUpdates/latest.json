@@ -175,6 +175,22 @@
       "Schema image": null,
       "Key criteria (for PDF)": "Treatment-naïve for right-sided unresectable/mCRC and eligible for mFOLFOX6.",
       "PI contact (for PDF)": "eric.chen@uhn.ca "
+    },
+    {
+      "Disease Setting": "1st line ",
+      "Trial Name": "MK1084-012 (KANDLELIT-012)",
+      "Full title": "A Phase 3, Randomized, Open-label, Multicenter Clinical Study to Evaluate \nthe Safety and Efficacy of MK-1084, Cetuximab, and mFOLFOX6 versus mFOLFOX6 With  or Without Bevacizumab as First-line Treatment of Participants With KRAS G12C-mutant, Locally Advanced Unresectable or Metastatic Colorectal Cancer (KANDLELIT-012)",
+      "Additional notes": "For individuals at least 18 years of age with treatment-naïve KRAS G12C-mutant pMMR/non-MSI-H locally advanced unresectable or metastatic colorectal cancer. To compare MK-1084, cetuximab, and \nmFOLFOX6 versus mFOLFOX6 with or without bevacizumab.",
+      "Tissue Requirements": "Tissue required for confirmation of KRAS G12C status and biomarker research. \nArchival  tissue sample (≤5 years) or newly obtained (core, incisional, or excisional) biopsy of a tumor lesion not previously irradiated to enable central laboratory testing of KRAS G12C status and/or biomarker research.",
+      "Biomarker/unselected": "KRAS G12C",
+      "Trial Intervention/Arms": "Arm A: MK-1084 (calderasib) + Cetuximab + mFOLFOX6\nArm B: mFOLFOX6 +/- Bevacizumab",
+      "Eligibility ": "Inclusion\n1. Has a histologically confirmed diagnosis of locally advanced unresectable or metastatic \n(unresectable Stage III or Stage IV as defined by AJCC eighth edition) colorectal adenocarcinoma.\n2. Has locally confirmed pMMR/non-MSI-H status as determined using a sponsor-approved \ntesting method.\n3. Have measurable (eligible for selection as target lesions) disease based on RECIST 1.1 as \nassessed by BICR.\n4. Has not received systemic anticancer therapy for locally advanced unresectable or\nmetastatic colorectal cancer.\nNote: Neoadjuvant/adjuvant chemotherapy permitted if it was administered to treat non\nmetastatic disease and there is no documented disease progression within 6 months of \nchemotherapy completion.\nNote: A participant may receive up to 2 cycles of mFOLFOX6 or 1 cycle of CAPOX \nbefore or during the screening period (not applicable for participants in Part 1).\nNote: For Part 1, participants may be eligible if they have not received prior systemic \nanticancer therapy for mCRC or if they received one prior line of systemic therapy not \ncontaining oxaliplatin with or without an anti-VEGF monoclonal antibody (eg, \nbevacizumab).\n5. Tumor tissue demonstrates presence of a KRAS G12C mutation- Part 1: as assessed locally (Sponsor-approved assays not required)- Part 2: as assessed locally (Sponsor-approved assays required) or by central laboratory \ntesting\n6. Part 2 only: Provide an archival tumor tissue sample (≤5 years) or newly obtained (core, \nincisional, or excisional) biopsy of a tumor lesion not previously irradiated to enable \ncentral laboratory testing of KRAS G12C status and/or biomarker research. \n7. Life expectancy of at least 3 months, based on investigator assessment.\n8. An ECOG performance status of 0 or 1.\nExclusion\n1. Has active inflammatory bowel disease requiring immunosuppressive medication or \nprevious clear history of inflammatory bowel disease (eg, Crohn’s disease, ulcerative \ncolitis, chronic diarrhea).\n2. Has uncontrolled, significant cardiovascular disease or cerebrovascular disease.\n3. Has received prior systemic anticancer therapy for locally advanced unresectable or \nmetastatic CRC disease including investigational agents\n4. Received prior systemic anticancer therapy including investigational agents within 4 weeks before randomization.\n5. Has received previous treatment with an agent targeting KRAS mutations or prior anti\nEGFR mAb therapy (eg, cetuximab, panitumumab). \n6. Received prior radiotherapy within 2 weeks of start of study intervention, or has \nradiation-related toxicities, requiring corticosteroids.\n7. Has known active CNS metastases and/or carcinomatous meningitis or leptomeningeal\ndisease. \n8. Has severe hypersensitivity (Grade 3) to the components and/or excipients in cetuximab, \nbevacizumab, 5-fluorouracil, capecitabine, leucovorin, or oxaliplatin.\n9. Severe hypersensitivity (≥Grade 3) to MK-1084 and/or any of its excipients.",
+      "Contacts": "Site PI: \nDr. Lucy Ma\nLucy.Ma@uhn.ca\n\nStudy Nurse: \nOchir Gansukh ochir.gansukh@uhn.ca\n\nData Coordinator: \nDemitra Michelis demitra.michelis@uhn.ca",
+      "NCT number": "NCT06997497",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "KRAS G12C-mutant pMMR/non-MSI-H LA/mCRC. Comparing MK-1084 (calderasib), cetuximab, and mFOLFOX6 vs. mFOLFOX6 with or without bevacizumab.",
+      "PI contact (for PDF)": "Lucy.Ma@uhn.ca"
     }
   ],
   "GE": [
@@ -3818,6 +3834,11 @@
         "Trial Name": "61186372COR3001 (ORIGAMI-2)",
         "change": "modified",
         "timestamp": "2026-05-13T16:15:49"
+      },
+      {
+        "Trial Name": "MK1084-012 (KANDLELIT-012)",
+        "change": "added",
+        "timestamp": "2026-05-14T09:41:00"
       }
     ],
     "GE": [
