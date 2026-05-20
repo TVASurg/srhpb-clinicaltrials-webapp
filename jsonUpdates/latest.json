@@ -764,14 +764,14 @@
       "Disease Setting": "Resectable",
       "Trial Name": "GO44479/ROCHE (Vaccine Study)\n\n",
       "Full title": "A Study of the Efficacy and Safety of Adjuvant Autogene Cevumeran Plus Atezolizumab and mFOLFIRINOX Versus mFOLFIRINOX Alone in Participants With Resected PDAC",
-      "Additional notes": "Fresh tissue collection-prescreening. ",
+      "Additional notes": "Screening closed as of 20May2026.\nFresh tissue collection-prescreening. ",
       "Tissue Requirements": "Tissue collected at surgery for adjuvant vaccine manufacture (must consent for the fresh tissue collection at surgery before the surgery).",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Arm 1: autogene cevumeran+Atezo+mFOLFIRINOX  \n\nArm 2: mFOLFIRINOX ",
       "Eligibility ": "Inclusion: \nTNM Staging per AJCC: T1-T3, N0-N2, and M0 \nHistologically confirmed diagnosis of PDAC (HOP).\n- adenosquamous carcinoma of the pancreas are eligible for the study.\n- IPMN associated PDAC are NOT eligible for the study.\nInterval of between 6 and 12 weeks since resection of PDAC\nExclusion: \nPrior adjuvant, neoadjuvant, or induction treatment for pancreatic cancer\nKnown complete dihydropyrimidine dehydrogenase (DPD) deficiency \nPositive HIV at screening\nAbsence of spleen (due to splenectomy, splenic injury/infarction, or functional asplenia)\nDistal pancreatectomy with splenectomy is exclusionary.\nPreexisting neuropathy\nSignificant cardiovascular disease\nActive or history of autoimmune disease or immune deficiency\nHistory of malignancy within 5 years prior to screening, with the exception of the\ncancer under investigation in this study and malignancies with a negligible risk of\nmetastasis or death",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nGuillaume Cheung\nguillaume.cheung@uhn.ca\nTel: 416-946-4501 ext. 4727",
       "NCT number": "NCT05968326",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": null,
       "Key criteria (for PDF)": "Fresh tissue collection-prescreening. \nT1-T3, N0-N2, and M0 ",
       "PI contact (for PDF)": "jennifer.knox@uhn.ca "
@@ -2003,6 +2003,11 @@
         "Trial Name": "C3651021 (RIVER)",
         "change": "added",
         "timestamp": "2026-05-15T13:22:13"
+      },
+      {
+        "Trial Name": "GO44479/ROCHE (Vaccine Study)\n\n",
+        "change": "modified",
+        "timestamp": "2026-05-20T15:52:56"
       }
     ],
     "HCC": [
