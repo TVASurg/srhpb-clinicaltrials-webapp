@@ -358,14 +358,14 @@
       "Disease Setting": "1L ",
       "Trial Name": "AndroMETa-GEA-977",
       "Full title": "A Phase 2 Randomized Study to Evaluate the Safety, Efficacy, and Optimal Dose of \nTelisotuzumab Adizutecan in Combination with Fluorouracil, Leucovorin, and Budigalimab as First-Line \nTreatment in Subjects with Locally Advanced Unresectable or Metastatic Gastric, Gastroesophageal \nJunction, or Esophageal Adenocarcinoma",
-      "Additional notes": null,
+      "Additional notes": "Screening Closed as of 01-Jun-2026.",
       "Tissue Requirements": "Archival tissue (most recent); fresh tissue 3xT cores",
       "Biomarker/unselected": "c-Met",
       "Trial Intervention/Arms": "FOLFOX + budi vs Telisotuzumab adizutecan + budi + 5-FU + LV",
       "Eligibility ": "Have inoperable, advanced or metastatic histologically- or cytologically confirmed gastric, gastroesophageal junction, or esophageal adenocarcinoma. HER2 negative",
       "Contacts": "Site PI: \nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06628310",
-      "Study status": "Active",
+      "Study status": "Not recruiting",
       "Schema image": null,
       "Key criteria (for PDF)": "Not biomarker selected.\nHER2 negative\n",
       "PI contact (for PDF)": "elena.elimova@uhn.ca "
@@ -4127,6 +4127,11 @@
         "Trial Name": "CLARITY-Gastric 02 (D9803C00001)",
         "change": "added",
         "timestamp": "2026-05-11T16:52:03"
+      },
+      {
+        "Trial Name": "AndroMETa-GEA-977",
+        "change": "modified",
+        "timestamp": "2026-06-01T10:00:35"
       }
     ],
     "pNET": [
