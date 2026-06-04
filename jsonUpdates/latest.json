@@ -924,7 +924,7 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "CA240-0030",
       "Full title": "A Randomized, Phase 2/3 Study Comparing BMS-986504 in Combination with Nab-paclitaxel and Gemcitabine versus Placebo in Combination with Nab-paclitaxel and Gemcitabine in Participants with Untreated Metastatic Pancreatic Ductal Adenocarcinoma Harboring Homozygous MTAP Deletion",
-      "Additional notes": "ON HOLD (05-May-2026)\nPhase 2 Enrollment closed (28-May-2026)\n\nThis Phase 2/3 study will evaluate the safety and efficacy of BMS-986504 in combination with nab-p/gem as first-line therapy in previously untreated participants with metastatic PDAC with homozygous MTAP deletion",
+      "Additional notes": "ON HOLD (05-May-2026)\nPhase 2 Enrollment closed (27-May-2026)\n\nThis Phase 2/3 study will evaluate the safety and efficacy of BMS-986504 in combination with nab-p/gem as first-line therapy in previously untreated participants with metastatic PDAC with homozygous MTAP deletion",
       "Tissue Requirements": "Fresh tumor tissue or archival tissue that's obtained within 5 years prior to randomization must be submitted during pre-screening. Eligibility is based on evidence of homozygous MTAP deletion or MTAP loss detected in tumor tissue using Sponsor-provided central test or a Sponsor pre-approved local test. Turnaround time for central FMI testing is 14 calendar days. If participants receive up to 1 cycle of nab-p/gem prior to randomization, tumor tissue must be collected prior to starting nab-p/gem. For fresh tumor tissue, collect 3 research cores.",
       "Biomarker/unselected": "MTAP",
       "Trial Intervention/Arms": "Phase 2:\nArm A- BMS-986504 400 mg QD + nab-paclitaxel & gemcitabine\nArm B- BMS-986504 600 mg QD + nab-paclitaxel & gemcitabine\nArm C- Placebo 400 mg QD + nab-paclitaxel & gemcitabine\nArm D- Placebo 600 mg QD + nab-paclitaxel & gemcitabine\n \nPhase 3:\nArm E- BMS-986504 RP3D + nab-paclitaxel & gemcitabine\nArm F- Placebo + nab-paclitaxel & gemcitabine",
@@ -988,14 +988,14 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "C3651021 (RIVER)",
       "Full title": "A PHASE 2b/3, RANDOMIZED, DOUBLE-BLIND STUDY TO INVESTIGATE THE \nEFFICACY, SAFETY, AND TOLERABILITY OF PONSEGROMAB (PF-06946860) \nCOMPARED WITH PLACEBO BOTH WITH BACKGROUND FIRST-LINE \nCHEMOTHERAPY IN ADULT PARTICIPANTS WITH CACHEXIA AND \nMETASTATIC PANCREATIC DUCTAL ADENOCARCINOMA",
-      "Additional notes": "A Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
+      "Additional notes": "NOT YET ACTIVE\n\nA Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
       "Tissue Requirements": "If available, an archival tumor FFPE biopsy block or unstained freshly cut paraffin sections \nof tumor specimen collected within 6 months of enrollment should be submitted. If tumor tissue is not available or cannot be provided, the participant can still be enrolled if the study eligibility criteria are met. ",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Ponsegromab Double-blind Treatment 200mg Q4W\nPonsegromab Double-blind Treatment 400mg Q4W\nPlacebo Double-blind Treatment Q4W",
       "Eligibility ": "Key Inclusion Criteria: \n\n- Documented active diagnosis of metastatic pancreatic ductal adenocarcinoma\n- Cachexia defined by Fearon criteria of weight loss\n- Completed 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\n\nKey Exclusion Criteria: \n\n- Current active reversible causes of decreased food intake\n- Cachexia caused by other reasons\n- Any prior or current clinical diagnosis of heart failure, irrespective of left ventricular ejection fraction or New York Heart Association classification\n- Left ventricular ejection fraction <50%\n- Receiving tube feedings or parenteral nutrition at the time of Screening or Randomization\n- History of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\n- History of allergy or hypersensitivity to any of the chemotherapeutics or any of their excipients\n- Neuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\n- Inadequate liver function\n- Renal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
       "Contacts": "Site PI: \nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca\n\nStudy Data Coordinator:\nDemitra Michelis demitra.michelis@uhn.ca",
       "NCT number": "NCT06989437",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": null,
       "Key criteria (for PDF)": "Ponsegromab (PF-06946860 - monoclonal antibody) compared with placebo in mPDAC patients with cachexia.",
       "PI contact (for PDF)": "jennifer.knox@uhn.ca"
@@ -2013,6 +2013,16 @@
         "Trial Name": "CA240-0030",
         "change": "modified",
         "timestamp": "2026-05-28T09:16:00"
+      },
+      {
+        "Trial Name": "CA240-0030",
+        "change": "modified",
+        "timestamp": "2026-06-04T12:08:10"
+      },
+      {
+        "Trial Name": "C3651021 (RIVER)",
+        "change": "modified",
+        "timestamp": "2026-06-04T12:08:10"
       }
     ],
     "HCC": [
