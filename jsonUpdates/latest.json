@@ -511,7 +511,7 @@
       "Eligibility ": "Advanced HCC after failure/intolerance/contraindication to at least one prior line of systemic therapy. \nCTNNB1, APC or AXIN1 mutations, except on single agent dose escalation. \nChild-Pugh class A or ≤ 7 class B liver score (no hepatic encephalopathy) within 7 days of first dose of the investigational product(s).",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501\n\nCoordinator: \nGuillaume Cheung",
       "NCT number": "NCT05797805",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": "NCT05797805.png",
       "Key criteria (for PDF)": "CTNNB1 or AXIN1. \nPre- and on treatment biopies. ",
       "PI contact (for PDF)": "eric.chen@uhn.ca "
@@ -1077,7 +1077,7 @@
       "Eligibility ": "Inclusion criteria: \n- Histologically confirmed, advanced (unresectable and/or metastatic), and well-differentiated NET of GEP or presumed GEP origin\n- At least 1 measurable, somatostatin receptor-positive*, lesion according to RECIST 1.1 determined by multiphasic CT or MRI (performed within 28 days before randomization)\n*Somatostatin-receptor imaging must be performed within 3 months before randomization. Somatostatin receptor-positive lesions are defined as lesions with a visual assessment of uptake greater than the liver\n- Results from FDG-PET CT for patients with well-differentiated Grade 3 NET (if performed) must show that FDG avid areas of disease also are avid on somatostatin-receptor imaging\n- Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 2\n- Female patients of childbearing potential must be willing to use an acceptable method of contraception from screening to the Safety Follow-up Visit\n\nExclusion criteria: \n- Poorly differentiated NEC, adenocarcinoid, goblet cell carcinoid, large cell NEC, small cell carcinoma, or mixed tumor\n- Previously diagnosed with multiple endocrine neoplasia Type 1\n- Tumor with primary origin outside the GEP tract\n- Documented evidence of disease progression while on treatment (including SSAs) for locally advanced unresectable or metastatic disease\n- Known central nervous system metastases\n- Consecutive treatment with long-acting SSAs for more than 6 months before randomization\n- Treatment of GEP-NET with trans-arterial chemoembolization or trans-arterial embolization within 12 months before screening\n- Previously received radioligand therapy (PRRT) at any time\n- Major surgery/surgical therapy for any cause within 1 month before screening, surgical therapy of loco-regional metastases within 3 months before screening, or minor surgery within 14 days before screening. Patient must have recovered from the treatment and be in good clinical condition\n- Patients with poorly controlled diabetes, as evidenced by hemoglobin A1c (HbA1c) >8.0%\n- Cardiac history or current diagnosis of cardiac disease indicating significant risk of safety for patients participating in the trial, such as uncontrolled or significant cardiac disease.\n- Clinically significant cardiac arrhythmias (e.g. ventricular tachycardia), complete left bundle branch block, or high-grade atrioventricular block (e.g. bifascicular block, Mobitz type II, and third-degree atrioventricular block)\n- Long QT syndrome, family history of idiopathic sudden death or congenital long QT syndrome.\n",
       "Contacts": "Site PI:\nRaymond Jang\nraymond.jang@uhn.ca\n\nStudy Nurse: \nMary Lan Wei\nmarylan.wei@uhn.ca\n\nStudy Coordinator: Huda Ahmed\n",
       "NCT number": "NCT05050942",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": null,
       "Key criteria (for PDF)": "Well-differentiated NET of GEP or presumed GEP origin. Somatostatin receptor (SSTR)-positive.",
       "PI contact (for PDF)": "raymond.jang@uhn.ca"
@@ -2435,6 +2435,11 @@
         "Trial Name": "Debio 0123-106",
         "change": "modified",
         "timestamp": "2026-05-01T16:08:34"
+      },
+      {
+        "Trial Name": "ITER-002-HCC",
+        "change": "modified",
+        "timestamp": "2026-06-09T11:49:12"
       }
     ],
     "Gastroesophageal": [
@@ -4244,6 +4249,11 @@
         "Trial Name": "HS-19-657/SORENTO",
         "change": "modified",
         "timestamp": "2026-05-12T09:25:18"
+      },
+      {
+        "Trial Name": "HS-19-657/SORENTO",
+        "change": "modified",
+        "timestamp": "2026-06-09T11:49:12"
       }
     ]
   }
