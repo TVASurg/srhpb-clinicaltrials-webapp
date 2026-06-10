@@ -259,22 +259,6 @@
       "PI contact (for PDF)": "elliot.wakeam@uhn.ca"
     },
     {
-      "Disease Setting": "3L+",
-      "Trial Name": "REJOICE-GI01",
-      "Full title": "A Phase 2 Nonrandomized, Open-label, Multisite Study to Evaluate the Safety and Efficacy of Raludotatug Deruxtecan in Participants With Gastrointestinal Cancers",
-      "Additional notes": null,
-      "Tissue Requirements": "Archival tissue (≤5 years); fresh tissue (3xT cores) ",
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Raludotatug Deruxtecan (R-DXd, CDH6 targeting ADC)",
-      "Eligibility ": "Has one of the following: gastric, gastroesophageal junction or esophageal adenocarcinoma.\nHas received prior therapy for the cancer\nNot biomarker selected.\nExcluded if have a known additional malignancy that is progressing or has required active treatment within the past 3 years.\nPatients with previous topoisomerase 1 inhibitor are excluded.",
-      "Contacts": "Site PI:\nLucy Ma\nlucy.ma@uhn.ca",
-      "NCT number": "NCT06864169",
-      "Study status": "Not Recruiting",
-      "Schema image": "NCT06864169.png",
-      "Key criteria (for PDF)": "Has received prior therapy\nNot biomarker selected.\nPatients with previous topoisomerase 1 inhibitor are excluded.",
-      "PI contact (for PDF)": "lucy.ma@uhn.ca"
-    },
-    {
       "Disease Setting": "Any line",
       "Trial Name": "GEAR",
       "Full title": "Gastroesophageal and Endocrine Cancer Registry ",
@@ -342,14 +326,14 @@
       "Disease Setting": "1L",
       "Trial Name": "DESTINY-Gastric03",
       "Full title": "A Phase 1b/2 Multicenter, Open-label, Dose-escalation and Dose-expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Antitumor Activity of Trastuzumab Deruxtecan (T-DXd) Monotherapy and Combinations in Adult Participants With HER2-expressing Gastric Cancer",
-      "Additional notes": null,
+      "Additional notes": "Part 4 and Part 5 (Main Cohort) are now complete. There is a possibility that Part 5 (Cohort 2) may open; however, a final decision is pending. The Global Team is expected to provide further guidance between July and August",
       "Tissue Requirements": null,
       "Biomarker/unselected": "HER2",
       "Trial Intervention/Arms": "Part 5: T-DXd + volrustomig ",
       "Eligibility ": "Her-2 overexpression.\nILD/Pneumonitis excluded.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca",
       "NCT number": "NCT04379596",
-      "Study status": "Active",
+      "Study status": "On hold",
       "Schema image": null,
       "Key criteria (for PDF)": "Her-2 1+ or 2+/ISH neg\nILD/Pneumonitis excluded.",
       "PI contact (for PDF)": "eric.chen@uhn.ca "
@@ -4225,6 +4209,11 @@
         "Trial Name": "DESTINY-Gastric05 ",
         "change": "added",
         "timestamp": "2026-06-10T15:51:18"
+      },
+      {
+        "Trial Name": "DESTINY-Gastric03",
+        "change": "modified",
+        "timestamp": "2026-06-10T17:10:38"
       }
     ],
     "pNET": [
