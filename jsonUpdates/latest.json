@@ -567,22 +567,6 @@
   ],
   "CCA": [
     {
-      "Disease Setting": "Adjuvant",
-      "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
-      "Full title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter, Global Study of Rilvegostomig in Combination With Chemotherapy as Adjuvant Treatment After Resection of Biliary Tract Cancer With Curative Intent (ARTEMIDE-Biliary01)",
-      "Additional notes": "UHN has reached target enrollment. Additional slots may be available - request from Sponsor",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "A: rilvegostomig + SOC\nB: placebo + SOC",
-      "Eligibility ": "R0/R1 resection, within 12 weeks\nNo ampullary/NET",
-      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131",
-      "NCT number": "NCT06109779",
-      "Study status": "Not Recruiting",
-      "Schema image": "NCT06109779.png",
-      "Key criteria (for PDF)": "R0/R1 resection, within 12 weeks. No ampullary/NET.",
-      "PI contact (for PDF)": "jennifer.knox@uhn.ca"
-    },
-    {
       "Disease Setting": "1st line",
       "Trial Name": "Destiny-BTC01",
       "Full title": "DESTINY-Biliary Tract Cancer-01: A Phase 3 Study of Trastuzumab Deruxtecan (T-DXd) and Rilvegostomig Versus Standard-of-Care Gemcitabine, Cisplatin, and Durvalumab for First Line Locally Advanced or Metastatic HER2-expressing Biliary Tract Cancer",
@@ -644,22 +628,6 @@
       "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": "FGF/FGFR pathway alteration.",
-      "PI contact (for PDF)": "arndt.vogel@uhn.ca"
-    },
-    {
-      "Disease Setting": "2nd or later lines",
-      "Trial Name": "FOENIX-CCA4 \nTAS-120-205",
-      "Full title": "Phase 2 Study of Futibatinib 20 mg and 16 mg in Patients with \nAdvanced Cholangiocarcinoma with FGFR2 Fusions or \nRearrangements\n",
-      "Additional notes": "Study phase 2: No prior FGFR inhibitors allowed. ",
-      "Tissue Requirements": "Blood sample for ctDNA. Testing by FoundationOne CDx.  ",
-      "Biomarker/unselected": "FGFR2",
-      "Trial Intervention/Arms": "A:  20 mg futibatinib orally\nB: 16 mg  futibatinib orally \n",
-      "Eligibility ": "FGFR2 gene fusions; FGFR2  or other rearrangements using NGS or FISH.\nPrior Gem/Cis treatment; Histological or cytological diagnosis of iCCA or eCCA; If FGFR status unknown, can submit archival tissue or blood for testing by Sponsor, if patient meets criteria. ",
-      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
-      "NCT number": "NCT05727176",
-      "Study status": "Not Recruiting",
-      "Schema image": null,
-      "Key criteria (for PDF)": "FGFR2 fusion or rearrangement\nno prior anti-FGFR therapy.",
       "PI contact (for PDF)": "arndt.vogel@uhn.ca"
     },
     {
@@ -761,22 +729,6 @@
       "PI contact (for PDF)": "erica.tsang@uhn.ca "
     },
     {
-      "Disease Setting": "Resectable",
-      "Trial Name": "GO44479/ROCHE (Vaccine Study)\n\n",
-      "Full title": "A Study of the Efficacy and Safety of Adjuvant Autogene Cevumeran Plus Atezolizumab and mFOLFIRINOX Versus mFOLFIRINOX Alone in Participants With Resected PDAC",
-      "Additional notes": "Screening closed as of 20May2026.\nFresh tissue collection-prescreening. ",
-      "Tissue Requirements": "Tissue collected at surgery for adjuvant vaccine manufacture (must consent for the fresh tissue collection at surgery before the surgery).",
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Arm 1: autogene cevumeran+Atezo+mFOLFIRINOX  \n\nArm 2: mFOLFIRINOX ",
-      "Eligibility ": "Inclusion: \nTNM Staging per AJCC: T1-T3, N0-N2, and M0 \nHistologically confirmed diagnosis of PDAC (HOP).\n- adenosquamous carcinoma of the pancreas are eligible for the study.\n- IPMN associated PDAC are NOT eligible for the study.\nInterval of between 6 and 12 weeks since resection of PDAC\nExclusion: \nPrior adjuvant, neoadjuvant, or induction treatment for pancreatic cancer\nKnown complete dihydropyrimidine dehydrogenase (DPD) deficiency \nPositive HIV at screening\nAbsence of spleen (due to splenectomy, splenic injury/infarction, or functional asplenia)\nDistal pancreatectomy with splenectomy is exclusionary.\nPreexisting neuropathy\nSignificant cardiovascular disease\nActive or history of autoimmune disease or immune deficiency\nHistory of malignancy within 5 years prior to screening, with the exception of the\ncancer under investigation in this study and malignancies with a negligible risk of\nmetastasis or death",
-      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nGuillaume Cheung\nguillaume.cheung@uhn.ca\nTel: 416-946-4501 ext. 4727",
-      "NCT number": "NCT05968326",
-      "Study status": "Not Recruiting",
-      "Schema image": null,
-      "Key criteria (for PDF)": "Fresh tissue collection-prescreening. \nT1-T3, N0-N2, and M0 ",
-      "PI contact (for PDF)": "jennifer.knox@uhn.ca "
-    },
-    {
       "Disease Setting": "Locally Advanced Unresectable",
       "Trial Name": "ABLATE (radiation)\n\n",
       "Full title": "Ablative radiation therapy with high dose geometric Boost for Locally Advanced pancreatic cancer patients following Treatment response Evaluation of standard of care induction chemotherapy (ABLATE): a phase II clinical trial",
@@ -807,22 +759,6 @@
       "Schema image": null,
       "Key criteria (for PDF)": "Unresectable PDAC on 1L. chemotherapy > 16 weeks without progression. ",
       "PI contact (for PDF)": "erica.tsang@uhn.ca "
-    },
-    {
-      "Disease Setting": "1L Metastatic",
-      "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
-      "Full title": "Pancreatic Cancer Glucose Assessment and Regulation Study",
-      "Additional notes": "Metastatic PDAC to start 1L. FOLFIRINOX, no prior diabetes diagnosis\nHbA1C < 6.5% ",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Continuous glucose monitor (CGM) for first 2 months of mFFX \n\nArm 1: Intensive glucose intervention with endocrinologist directed glycemic management, with target glucose levels between 4-10 mmol/L \n\nArm 2: Standard of care glucose intervention with intervention only if glucose level >15 mmol/L (Blinded to CGM results) ",
-      "Eligibility ": "Inclusion: \nPatients must be planned to undergo 1L mFOLFIRINOX.\nECOG status 0-1.\nMeasurable or evaluable disease by RECIST 1.1 at baseline.\n\nExclusion:\nAbsence of distant or lymph node metastases. Participants with borderline resectable or locally advanced PDAC are not eligible.\nReceived prior systemic therapy (chemotherapy or any other anti-cancer agent) for treatment of metastatic PDAC\nKnown diagnosis of type I diabetes where strict glucose control and close Endocrinology follow-up is already indicated.\nKnown diagnosis of type II diabetes and already followed by Endocrinologist.",
-      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
-      "NCT number": "NCT05132244",
-      "Study status": "Not Recruiting",
-      "Schema image": "NCT05132244.png",
-      "Key criteria (for PDF)": "Metastatic PDAC to start 1L. FOLFIRINOX, no prior diabetes diagnosis.",
-      "PI contact (for PDF)": "erica.tsang@uhn.ca "
     },
     {
       "Disease Setting": "2L Metastatic+",
@@ -921,22 +857,6 @@
       "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
     },
     {
-      "Disease Setting": "1L Metastatic",
-      "Trial Name": "CA240-0030",
-      "Full title": "A Randomized, Phase 2/3 Study Comparing BMS-986504 in Combination with Nab-paclitaxel and Gemcitabine versus Placebo in Combination with Nab-paclitaxel and Gemcitabine in Participants with Untreated Metastatic Pancreatic Ductal Adenocarcinoma Harboring Homozygous MTAP Deletion",
-      "Additional notes": "ON HOLD (05-May-2026)\nPhase 2 Enrollment closed (27-May-2026)\n\nThis Phase 2/3 study will evaluate the safety and efficacy of BMS-986504 in combination with nab-p/gem as first-line therapy in previously untreated participants with metastatic PDAC with homozygous MTAP deletion",
-      "Tissue Requirements": "Fresh tumor tissue or archival tissue that's obtained within 5 years prior to randomization must be submitted during pre-screening. Eligibility is based on evidence of homozygous MTAP deletion or MTAP loss detected in tumor tissue using Sponsor-provided central test or a Sponsor pre-approved local test. Turnaround time for central FMI testing is 14 calendar days. If participants receive up to 1 cycle of nab-p/gem prior to randomization, tumor tissue must be collected prior to starting nab-p/gem. For fresh tumor tissue, collect 3 research cores.",
-      "Biomarker/unselected": "MTAP",
-      "Trial Intervention/Arms": "Phase 2:\nArm A- BMS-986504 400 mg QD + nab-paclitaxel & gemcitabine\nArm B- BMS-986504 600 mg QD + nab-paclitaxel & gemcitabine\nArm C- Placebo 400 mg QD + nab-paclitaxel & gemcitabine\nArm D- Placebo 600 mg QD + nab-paclitaxel & gemcitabine\n \nPhase 3:\nArm E- BMS-986504 RP3D + nab-paclitaxel & gemcitabine\nArm F- Placebo + nab-paclitaxel & gemcitabine",
-      "Eligibility ": "Inclusion:\n• Histologically or cytologically confirmed diagnosis of metastatic PDAC\n• Confirmed MTAP deletion or MTAP loss (pre-screening)\n• Must not have received any systemic anticancer treatments in the metastatic setting. May receive up to 1 cycle of nab-p/gem in the metastatic setting but must not have progressed or required discontinuation due to intolerable toxicity. Last dose of initial cycle of nab-p/gem must be administered 14 days prior to randomization.\n• May have received prior adjuvant and/or neoadjuvant treatments as long as disease did not progress within 6 months of completion of treatment\n• At least one measurable lesion according to RECIST v1.1\n• ECOG 0-1\n\nExclusion:\n• Concurrent malignancy (present during screening) requiring treatment or history of prior malignancy active within 2 years prior to screening.\n• Symptomatic brain metastases\n• Known or suspected impairment of gastrointestinal function that may prohibit the ability to absorb or swallow an oral medication\n• Significant ascites that requires drainage within 1 month prior to randomization\n• Prior treatment with a PRMT5 or MAT2A inhibitor",
-      "Contacts": "Site PI:\nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Coordinator:\nSerena (Ching) Kao",
-      "NCT number": "NCT07076121",
-      "Study status": "Not Recruiting",
-      "Schema image": "NCT07076121.png",
-      "Key criteria (for PDF)": "MTAP deletion\nMay receive up to 1 cycle of nab-p/gem in the metastatic setting but must not have progressed or required discontinuation due to toxicity.",
-      "PI contact (for PDF)": "jennifer.knox@uhn.ca"
-    },
-    {
       "Disease Setting": "Non-Therapeutic",
       "Trial Name": "CAN-PREFER",
       "Full title": "Cancer Analysis Neural Networks for Patient Referenced Explanations of Findings from Expert Reports: A Randomized Control Trial of Patient-Facing, Large Language Model-Generated Summaries of Cancer Genomic Testing.",
@@ -983,22 +903,6 @@
       "Schema image": null,
       "Key criteria (for PDF)": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
       "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
-    },
-    {
-      "Disease Setting": "1L Metastatic",
-      "Trial Name": "C3651021 (RIVER)",
-      "Full title": "A PHASE 2b/3, RANDOMIZED, DOUBLE-BLIND STUDY TO INVESTIGATE THE \nEFFICACY, SAFETY, AND TOLERABILITY OF PONSEGROMAB (PF-06946860) \nCOMPARED WITH PLACEBO BOTH WITH BACKGROUND FIRST-LINE \nCHEMOTHERAPY IN ADULT PARTICIPANTS WITH CACHEXIA AND \nMETASTATIC PANCREATIC DUCTAL ADENOCARCINOMA",
-      "Additional notes": "NOT YET ACTIVE\n\nA Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
-      "Tissue Requirements": "If available, an archival tumor FFPE biopsy block or unstained freshly cut paraffin sections \nof tumor specimen collected within 6 months of enrollment should be submitted. If tumor tissue is not available or cannot be provided, the participant can still be enrolled if the study eligibility criteria are met. ",
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Ponsegromab Double-blind Treatment 200mg Q4W\nPonsegromab Double-blind Treatment 400mg Q4W\nPlacebo Double-blind Treatment Q4W",
-      "Eligibility ": "Key Inclusion Criteria: \n\n- Documented active diagnosis of metastatic pancreatic ductal adenocarcinoma\n- Cachexia defined by Fearon criteria of weight loss\n- Completed 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\n\nKey Exclusion Criteria: \n\n- Current active reversible causes of decreased food intake\n- Cachexia caused by other reasons\n- Any prior or current clinical diagnosis of heart failure, irrespective of left ventricular ejection fraction or New York Heart Association classification\n- Left ventricular ejection fraction <50%\n- Receiving tube feedings or parenteral nutrition at the time of Screening or Randomization\n- History of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\n- History of allergy or hypersensitivity to any of the chemotherapeutics or any of their excipients\n- Neuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\n- Inadequate liver function\n- Renal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
-      "Contacts": "Site PI: \nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca\n\nStudy Data Coordinator:\nDemitra Michelis demitra.michelis@uhn.ca",
-      "NCT number": "NCT06989437",
-      "Study status": "Not Recruiting",
-      "Schema image": null,
-      "Key criteria (for PDF)": "Ponsegromab (PF-06946860 - monoclonal antibody) compared with placebo in mPDAC patients with cachexia.",
-      "PI contact (for PDF)": "jennifer.knox@uhn.ca"
     }
   ],
   "pNET": [
@@ -1097,6 +1001,20 @@
       "Contacts": null,
       "NCT number": "NCT06989437",
       "Schema image": null
+    },
+    {
+      "Organ group": "PDAC",
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "C3651021 (RIVER)",
+      "Full title": "A PHASE 2b/3, RANDOMIZED, DOUBLE-BLIND STUDY TO INVESTIGATE THE \nEFFICACY, SAFETY, AND TOLERABILITY OF PONSEGROMAB (PF-06946860) \nCOMPARED WITH PLACEBO BOTH WITH BACKGROUND FIRST-LINE \nCHEMOTHERAPY IN ADULT PARTICIPANTS WITH CACHEXIA AND \nMETASTATIC PANCREATIC DUCTAL ADENOCARCINOMA",
+      "Additional notes": "NOT YET ACTIVE\n\nA Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
+      "Tissue Requirements": "If available, an archival tumor FFPE biopsy block or unstained freshly cut paraffin sections \nof tumor specimen collected within 6 months of enrollment should be submitted. If tumor tissue is not available or cannot be provided, the participant can still be enrolled if the study eligibility criteria are met. ",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Ponsegromab Double-blind Treatment 200mg Q4W\nPonsegromab Double-blind Treatment 400mg Q4W\nPlacebo Double-blind Treatment Q4W",
+      "Eligibility ": "Key Inclusion Criteria: \n\n- Documented active diagnosis of metastatic pancreatic ductal adenocarcinoma\n- Cachexia defined by Fearon criteria of weight loss\n- Completed 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\n\nKey Exclusion Criteria: \n\n- Current active reversible causes of decreased food intake\n- Cachexia caused by other reasons\n- Any prior or current clinical diagnosis of heart failure, irrespective of left ventricular ejection fraction or New York Heart Association classification\n- Left ventricular ejection fraction <50%\n- Receiving tube feedings or parenteral nutrition at the time of Screening or Randomization\n- History of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\n- History of allergy or hypersensitivity to any of the chemotherapeutics or any of their excipients\n- Neuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\n- Inadequate liver function\n- Renal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
+      "Contacts": "Site PI: \nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca\n\nStudy Data Coordinator:\nDemitra Michelis demitra.michelis@uhn.ca",
+      "NCT number": "NCT06989437",
+      "Schema image": "Not Recruiting"
     }
   ],
   "Closed": [
@@ -1309,6 +1227,76 @@
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
       "NCT number": "NCT04890613",
       "Schema image": null
+    },
+    {
+      "Organ group": "PDAC",
+      "Disease Setting": "Resectable",
+      "Trial Name": "GO44479/ROCHE (Vaccine Study)\n\n",
+      "Full title": "A Study of the Efficacy and Safety of Adjuvant Autogene Cevumeran Plus Atezolizumab and mFOLFIRINOX Versus mFOLFIRINOX Alone in Participants With Resected PDAC",
+      "Additional notes": "Screening closed as of 20May2026.\nFresh tissue collection-prescreening. ",
+      "Tissue Requirements": "Tissue collected at surgery for adjuvant vaccine manufacture (must consent for the fresh tissue collection at surgery before the surgery).",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Arm 1: autogene cevumeran+Atezo+mFOLFIRINOX  \n\nArm 2: mFOLFIRINOX ",
+      "Eligibility ": "Inclusion: \nTNM Staging per AJCC: T1-T3, N0-N2, and M0 \nHistologically confirmed diagnosis of PDAC (HOP).\n- adenosquamous carcinoma of the pancreas are eligible for the study.\n- IPMN associated PDAC are NOT eligible for the study.\nInterval of between 6 and 12 weeks since resection of PDAC\nExclusion: \nPrior adjuvant, neoadjuvant, or induction treatment for pancreatic cancer\nKnown complete dihydropyrimidine dehydrogenase (DPD) deficiency \nPositive HIV at screening\nAbsence of spleen (due to splenectomy, splenic injury/infarction, or functional asplenia)\nDistal pancreatectomy with splenectomy is exclusionary.\nPreexisting neuropathy\nSignificant cardiovascular disease\nActive or history of autoimmune disease or immune deficiency\nHistory of malignancy within 5 years prior to screening, with the exception of the\ncancer under investigation in this study and malignancies with a negligible risk of\nmetastasis or death",
+      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nGuillaume Cheung\nguillaume.cheung@uhn.ca\nTel: 416-946-4501 ext. 4727",
+      "NCT number": "NCT05968326",
+      "Schema image": "Not Recruiting"
+    },
+    {
+      "Organ group": "PDAC",
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "CA240-0030",
+      "Full title": "A Randomized, Phase 2/3 Study Comparing BMS-986504 in Combination with Nab-paclitaxel and Gemcitabine versus Placebo in Combination with Nab-paclitaxel and Gemcitabine in Participants with Untreated Metastatic Pancreatic Ductal Adenocarcinoma Harboring Homozygous MTAP Deletion",
+      "Additional notes": "ON HOLD (05-May-2026)\nPhase 2 Enrollment closed (27-May-2026)\n\nThis Phase 2/3 study will evaluate the safety and efficacy of BMS-986504 in combination with nab-p/gem as first-line therapy in previously untreated participants with metastatic PDAC with homozygous MTAP deletion",
+      "Tissue Requirements": "Fresh tumor tissue or archival tissue that's obtained within 5 years prior to randomization must be submitted during pre-screening. Eligibility is based on evidence of homozygous MTAP deletion or MTAP loss detected in tumor tissue using Sponsor-provided central test or a Sponsor pre-approved local test. Turnaround time for central FMI testing is 14 calendar days. If participants receive up to 1 cycle of nab-p/gem prior to randomization, tumor tissue must be collected prior to starting nab-p/gem. For fresh tumor tissue, collect 3 research cores.",
+      "Biomarker/unselected": "MTAP",
+      "Trial Intervention/Arms": "Phase 2:\nArm A- BMS-986504 400 mg QD + nab-paclitaxel & gemcitabine\nArm B- BMS-986504 600 mg QD + nab-paclitaxel & gemcitabine\nArm C- Placebo 400 mg QD + nab-paclitaxel & gemcitabine\nArm D- Placebo 600 mg QD + nab-paclitaxel & gemcitabine\n \nPhase 3:\nArm E- BMS-986504 RP3D + nab-paclitaxel & gemcitabine\nArm F- Placebo + nab-paclitaxel & gemcitabine",
+      "Eligibility ": "Inclusion:\n• Histologically or cytologically confirmed diagnosis of metastatic PDAC\n• Confirmed MTAP deletion or MTAP loss (pre-screening)\n• Must not have received any systemic anticancer treatments in the metastatic setting. May receive up to 1 cycle of nab-p/gem in the metastatic setting but must not have progressed or required discontinuation due to intolerable toxicity. Last dose of initial cycle of nab-p/gem must be administered 14 days prior to randomization.\n• May have received prior adjuvant and/or neoadjuvant treatments as long as disease did not progress within 6 months of completion of treatment\n• At least one measurable lesion according to RECIST v1.1\n• ECOG 0-1\n\nExclusion:\n• Concurrent malignancy (present during screening) requiring treatment or history of prior malignancy active within 2 years prior to screening.\n• Symptomatic brain metastases\n• Known or suspected impairment of gastrointestinal function that may prohibit the ability to absorb or swallow an oral medication\n• Significant ascites that requires drainage within 1 month prior to randomization\n• Prior treatment with a PRMT5 or MAT2A inhibitor",
+      "Contacts": "Site PI:\nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Coordinator:\nSerena (Ching) Kao",
+      "NCT number": "NCT07076121",
+      "Schema image": "Not Recruiting"
+    },
+    {
+      "Organ group": "CCA",
+      "Disease Setting": "Adjuvant",
+      "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
+      "Full title": "A Phase III, Randomized, Double-Blind, Placebo-Controlled, Multicenter, Global Study of Rilvegostomig in Combination With Chemotherapy as Adjuvant Treatment After Resection of Biliary Tract Cancer With Curative Intent (ARTEMIDE-Biliary01)",
+      "Additional notes": "UHN has reached target enrollment. Additional slots may be available - request from Sponsor",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "A: rilvegostomig + SOC\nB: placebo + SOC",
+      "Eligibility ": "R0/R1 resection, within 12 weeks\nNo ampullary/NET",
+      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131",
+      "NCT number": "NCT06109779",
+      "Schema image": "Not Recruiting"
+    },
+    {
+      "Organ group": "CCA",
+      "Disease Setting": "2nd or later lines",
+      "Trial Name": "FOENIX-CCA4 \nTAS-120-205",
+      "Full title": "Phase 2 Study of Futibatinib 20 mg and 16 mg in Patients with \nAdvanced Cholangiocarcinoma with FGFR2 Fusions or \nRearrangements\n",
+      "Additional notes": "Study phase 2: No prior FGFR inhibitors allowed. ",
+      "Tissue Requirements": "Blood sample for ctDNA. Testing by FoundationOne CDx.  ",
+      "Biomarker/unselected": "FGFR2",
+      "Trial Intervention/Arms": "A:  20 mg futibatinib orally\nB: 16 mg  futibatinib orally \n",
+      "Eligibility ": "FGFR2 gene fusions; FGFR2  or other rearrangements using NGS or FISH.\nPrior Gem/Cis treatment; Histological or cytological diagnosis of iCCA or eCCA; If FGFR status unknown, can submit archival tissue or blood for testing by Sponsor, if patient meets criteria. ",
+      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
+      "NCT number": "NCT05727176",
+      "Schema image": "Not Recruiting"
+    },
+    {
+      "Organ group": "PDAC",
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
+      "Full title": "Pancreatic Cancer Glucose Assessment and Regulation Study",
+      "Additional notes": "Metastatic PDAC to start 1L. FOLFIRINOX, no prior diabetes diagnosis\nHbA1C < 6.5% ",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Continuous glucose monitor (CGM) for first 2 months of mFFX \n\nArm 1: Intensive glucose intervention with endocrinologist directed glycemic management, with target glucose levels between 4-10 mmol/L \n\nArm 2: Standard of care glucose intervention with intervention only if glucose level >15 mmol/L (Blinded to CGM results) ",
+      "Eligibility ": "Inclusion: \nPatients must be planned to undergo 1L mFOLFIRINOX.\nECOG status 0-1.\nMeasurable or evaluable disease by RECIST 1.1 at baseline.\n\nExclusion:\nAbsence of distant or lymph node metastases. Participants with borderline resectable or locally advanced PDAC are not eligible.\nReceived prior systemic therapy (chemotherapy or any other anti-cancer agent) for treatment of metastatic PDAC\nKnown diagnosis of type I diabetes where strict glucose control and close Endocrinology follow-up is already indicated.\nKnown diagnosis of type II diabetes and already followed by Endocrinologist.",
+      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
+      "NCT number": "NCT05132244",
+      "Schema image": "Not Recruiting"
     }
   ],
   "Dropdown Menus": [
@@ -3031,6 +3019,11 @@
         "Trial Name": "RIVER-mPDAC",
         "change": "modified",
         "timestamp": "2026-02-04T09:41:02"
+      },
+      {
+        "Trial Name": "C3651021 (RIVER)",
+        "change": "added",
+        "timestamp": "2026-06-10T13:07:15"
       }
     ],
     "Closed": [
@@ -3148,6 +3141,31 @@
         "Trial Name": "OZM-114\n\n",
         "change": "added",
         "timestamp": "2026-05-07T09:22:40"
+      },
+      {
+        "Trial Name": "GO44479/ROCHE (Vaccine Study)\n\n",
+        "change": "added",
+        "timestamp": "2026-06-10T13:07:15"
+      },
+      {
+        "Trial Name": "CA240-0030",
+        "change": "added",
+        "timestamp": "2026-06-10T13:07:15"
+      },
+      {
+        "Trial Name": "Rilvegostomig+cape as adjuvant after resection of BTC (Artemide-Biliary)",
+        "change": "added",
+        "timestamp": "2026-06-10T13:07:15"
+      },
+      {
+        "Trial Name": "FOENIX-CCA4 \nTAS-120-205",
+        "change": "added",
+        "timestamp": "2026-06-10T13:07:15"
+      },
+      {
+        "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
+        "change": "added",
+        "timestamp": "2026-06-10T13:07:15"
       }
     ],
     "CRC": [
