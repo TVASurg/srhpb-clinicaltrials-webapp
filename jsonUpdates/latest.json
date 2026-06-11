@@ -1014,7 +1014,7 @@
       "Eligibility ": "Key Inclusion Criteria: \n\n- Documented active diagnosis of metastatic pancreatic ductal adenocarcinoma\n- Cachexia defined by Fearon criteria of weight loss\n- Completed 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\n\nKey Exclusion Criteria: \n\n- Current active reversible causes of decreased food intake\n- Cachexia caused by other reasons\n- Any prior or current clinical diagnosis of heart failure, irrespective of left ventricular ejection fraction or New York Heart Association classification\n- Left ventricular ejection fraction <50%\n- Receiving tube feedings or parenteral nutrition at the time of Screening or Randomization\n- History of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\n- History of allergy or hypersensitivity to any of the chemotherapeutics or any of their excipients\n- Neuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\n- Inadequate liver function\n- Renal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
       "Contacts": "Site PI: \nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca\n\nStudy Data Coordinator:\nDemitra Michelis demitra.michelis@uhn.ca",
       "NCT number": "NCT06989437",
-      "Schema image": "Not Recruiting"
+      "Schema image": null
     }
   ],
   "Closed": [
@@ -3038,6 +3038,11 @@
         "Trial Name": "C3651021 (RIVER)",
         "change": "added",
         "timestamp": "2026-06-10T13:07:15"
+      },
+      {
+        "Trial Name": "C3651021 (RIVER)",
+        "change": "modified",
+        "timestamp": "2026-06-11T10:03:51"
       }
     ],
     "Closed": [
