@@ -259,6 +259,22 @@
       "PI contact (for PDF)": "elliot.wakeam@uhn.ca"
     },
     {
+      "Disease Setting": "3L+",
+      "Trial Name": "REJOICE-GI01",
+      "Full title": "A Phase 2 Nonrandomized, Open-label, Multisite Study to Evaluate the Safety and Efficacy of Raludotatug Deruxtecan in Participants With Gastrointestinal Cancers",
+      "Additional notes": null,
+      "Tissue Requirements": "Archival tissue (≤5 years); fresh tissue (3xT cores) ",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Raludotatug Deruxtecan (R-DXd, CDH6 targeting ADC)",
+      "Eligibility ": "Has one of the following: gastric, gastroesophageal junction or esophageal adenocarcinoma.\nHas received prior therapy for the cancer\nNot biomarker selected.\nExcluded if have a known additional malignancy that is progressing or has required active treatment within the past 3 years.\nPatients with previous topoisomerase 1 inhibitor are excluded.",
+      "Contacts": "Site PI:\nLucy Ma\nlucy.ma@uhn.ca",
+      "NCT number": "NCT06864169",
+      "Study status": "Not Recruiting",
+      "Schema image": "NCT06864169.png",
+      "Key criteria (for PDF)": "Has received prior therapy\nNot biomarker selected.\nPatients with previous topoisomerase 1 inhibitor are excluded.",
+      "PI contact (for PDF)": "lucy.ma@uhn.ca"
+    },
+    {
       "Disease Setting": "Any line",
       "Trial Name": "GEAR",
       "Full title": "Gastroesophageal and Endocrine Cancer Registry ",
@@ -326,14 +342,14 @@
       "Disease Setting": "1L",
       "Trial Name": "DESTINY-Gastric03",
       "Full title": "A Phase 1b/2 Multicenter, Open-label, Dose-escalation and Dose-expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Antitumor Activity of Trastuzumab Deruxtecan (T-DXd) Monotherapy and Combinations in Adult Participants With HER2-expressing Gastric Cancer",
-      "Additional notes": "Part 4 and Part 5 (Main Cohort) are now complete. There is a possibility that Part 5 (Cohort 2) may open; however, a final decision is pending. The Global Team is expected to provide further guidance between July and August",
+      "Additional notes": null,
       "Tissue Requirements": null,
       "Biomarker/unselected": "HER2",
       "Trial Intervention/Arms": "Part 5: T-DXd + volrustomig ",
       "Eligibility ": "Her-2 overexpression.\nILD/Pneumonitis excluded.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca",
       "NCT number": "NCT04379596",
-      "Study status": "On hold",
+      "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": "Her-2 1+ or 2+/ISH neg\nILD/Pneumonitis excluded.",
       "PI contact (for PDF)": "eric.chen@uhn.ca "
@@ -641,7 +657,7 @@
       "Eligibility ": "Histologically-confirmed cholangio; \nlocally or centrally confirmed IDH1 mutation\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin treatment is permitted before study participation. ",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nTrial Nurse:\nSerena (Ching) Kao\nChing.Kao@uhn.ca\n",
       "NCT number": "NCT06501625",
-      "Study status": "Closed to enrolment",
+      "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": "IDH-1 mutated\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin is permitted.",
       "PI contact (for PDF)": "arndt.vogel@uhn.ca "
@@ -1014,7 +1030,7 @@
       "Eligibility ": "Key Inclusion Criteria: \n\n- Documented active diagnosis of metastatic pancreatic ductal adenocarcinoma\n- Cachexia defined by Fearon criteria of weight loss\n- Completed 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\n\nKey Exclusion Criteria: \n\n- Current active reversible causes of decreased food intake\n- Cachexia caused by other reasons\n- Any prior or current clinical diagnosis of heart failure, irrespective of left ventricular ejection fraction or New York Heart Association classification\n- Left ventricular ejection fraction <50%\n- Receiving tube feedings or parenteral nutrition at the time of Screening or Randomization\n- History of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\n- History of allergy or hypersensitivity to any of the chemotherapeutics or any of their excipients\n- Neuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\n- Inadequate liver function\n- Renal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
       "Contacts": "Site PI: \nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca\n\nStudy Data Coordinator:\nDemitra Michelis demitra.michelis@uhn.ca",
       "NCT number": "NCT06989437",
-      "Schema image": null
+      "Schema image": "Not Recruiting"
     }
   ],
   "Closed": [
@@ -3011,11 +3027,6 @@
         "Trial Name": "FOENIX-CCA4 \nTAS-120-205",
         "change": "modified",
         "timestamp": "2026-06-09T07:28:34"
-      },
-      {
-        "Trial Name": "S095031-210",
-        "change": "modified",
-        "timestamp": "2026-06-15T15:07:03"
       }
     ],
     "Preactivation": [
@@ -3043,11 +3054,6 @@
         "Trial Name": "C3651021 (RIVER)",
         "change": "added",
         "timestamp": "2026-06-10T13:07:15"
-      },
-      {
-        "Trial Name": "C3651021 (RIVER)",
-        "change": "modified",
-        "timestamp": "2026-06-11T10:03:51"
       }
     ],
     "Closed": [
@@ -4219,11 +4225,6 @@
         "Trial Name": "DESTINY-Gastric05 ",
         "change": "added",
         "timestamp": "2026-06-10T15:51:18"
-      },
-      {
-        "Trial Name": "DESTINY-Gastric03",
-        "change": "modified",
-        "timestamp": "2026-06-10T17:10:38"
       }
     ],
     "pNET": [

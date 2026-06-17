@@ -641,7 +641,7 @@
       "Eligibility ": "Histologically-confirmed cholangio; \nlocally or centrally confirmed IDH1 mutation\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin treatment is permitted before study participation. ",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nTrial Nurse:\nSerena (Ching) Kao\nChing.Kao@uhn.ca\n",
       "NCT number": "NCT06501625",
-      "Study status": "Closed to enrolment",
+      "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": "IDH-1 mutated\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin is permitted.",
       "PI contact (for PDF)": "arndt.vogel@uhn.ca "
@@ -3011,11 +3011,6 @@
         "Trial Name": "FOENIX-CCA4 \nTAS-120-205",
         "change": "modified",
         "timestamp": "2026-06-09T07:28:34"
-      },
-      {
-        "Trial Name": "S095031-210",
-        "change": "modified",
-        "timestamp": "2026-06-15T15:07:03"
       }
     ],
     "Preactivation": [

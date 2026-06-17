@@ -962,6 +962,7 @@ const columnMap = [
   { header: "Key Criteria", key: "Key criteria (for PDF)" },
   { header: "Contact", key: "PI contact (for PDF)" },
   { header: "NCT", key: "NCT number" }
+  //{ header: "Study status", key: "Study status" }
 ];
 
 // Build headers from mapping
@@ -1040,9 +1041,14 @@ doc.autoTable({
   },
   willDrawCell: function(data) {
     // Skip all cells in the first column (header + body)
+    // Also skip the active/not active column (7)
+    //if (data.column.index === 7 || data.cell.raw !== "Active") {
+    //return false;
+    //}
     if (data.column.index === 0) {
       return false; // skip drawing this cell
     }
+    
   },
   didDrawCell: function (data) {
   if (
