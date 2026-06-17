@@ -961,29 +961,26 @@ const columnMap = [
   { header: "Arms", key: "Trial Intervention/Arms" },
   { header: "Key Criteria", key: "Key criteria (for PDF)" },
   { header: "Contact", key: "PI contact (for PDF)" },
-  { header: "NCT", key: "NCT number" }
-  //{ header: "Study status", key: "Study status" }
+  { header: "NCT", key: "NCT number" },
+  { header: "", key: "Study status" }
 ];
 
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 
-const rows = data.CRC.map(trial =>
+const rows = data.CRC.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
 
-    if (typeof value === "string" && value.includes("Coordinator")) {
-      // Keep only text before "Coordinator"
-      value = value.split("Coordinator")[0].trim();
-    }
+    // if (typeof value === "string" && value.includes("Coordinator")) {
+    //   // Keep only text before "Coordinator"
+    //   value = value.split("Coordinator")[0].trim();
+    // }
 
     /* if (typeof value === "string" && value.includes("Nurse")) {
       // Keep only text before "Coordinator"
       value = value.split("Nurse")[0].trim();
     }*/
-
- 
-
     return value;
   })
 );
@@ -1006,7 +1003,7 @@ doc.autoTable({
     3: { cellWidth: 55 },
     4: { cellWidth: 55 },
     5: { cellWidth: 51 },
-    6: { cellWidth: 30 }
+    6: { cellWidth: 30 }    
   },
   didParseCell: function (data) {
     if (data.section === 'body') {
@@ -1042,10 +1039,7 @@ doc.autoTable({
   willDrawCell: function(data) {
     // Skip all cells in the first column (header + body)
     // Also skip the active/not active column (7)
-    //if (data.column.index === 7 || data.cell.raw !== "Active") {
-    //return false;
-    //}
-    if (data.column.index === 0) {
+    if (data.column.index === 0 || data.column.index === 7) {
       return false; // skip drawing this cell
     }
     
@@ -1091,20 +1085,21 @@ const columnMap = [
   { header: "Arms", key: "Trial Intervention/Arms" },
   { header: "Key Criteria", key: "Key criteria (for PDF)" },
   { header: "Contact", key: "PI contact (for PDF)" },
-  { header: "NCT", key: "NCT number" }
+  { header: "NCT", key: "NCT number" },
+  { header: "", key: "Study status" }
 ];
 
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 
-  const rows = data.GE.map(trial =>
+  const rows = data.GE.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
 
-    if (typeof value === "string" && value.includes("Coordinator")) {
-      // Keep only text before "Coordinator"
-      value = value.split("Coordinator")[0].trim();
-    }
+    // if (typeof value === "string" && value.includes("Coordinator")) {
+    //   // Keep only text before "Coordinator"
+    //   value = value.split("Coordinator")[0].trim();
+    // }
 
 
   
@@ -1165,7 +1160,7 @@ doc.autoTable({
   },
   willDrawCell: function(data) {
     // Skip all cells in the first column (header + body)
-    if (data.column.index === 0) {
+    if (data.column.index === 0 || data.column.index === 7) {
       return false; // skip drawing this cell
     }
   },
@@ -1208,21 +1203,22 @@ const columnMap = [
   { header: "Arms", key: "Trial Intervention/Arms" },
   { header: "Key Criteria", key: "Key criteria (for PDF)" },
   { header: "Contact", key: "PI contact (for PDF)" },
-  { header: "NCT", key: "NCT number" }
+  { header: "NCT", key: "NCT number" },
+  { header: "", key: "Study status" }
 ];
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 //we may need to cull the contacts for just site PI;
 
 
-const rows = data.HCC.map(trial =>
+const rows = data.HCC.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
 
-    if (typeof value === "string" && value.includes("Coordinator")) {
-      // Keep only text before "Coordinator"
-      value = value.split("Coordinator")[0].trim();
-    }
+    // if (typeof value === "string" && value.includes("Coordinator")) {
+    //   // Keep only text before "Coordinator"
+    //   value = value.split("Coordinator")[0].trim();
+    // }
 
 
   
@@ -1283,7 +1279,7 @@ doc.autoTable({
   },
   willDrawCell: function(data) {
     // Skip all cells in the first column (header + body)
-    if (data.column.index === 0) {
+    if (data.column.index === 0 || data.column.index === 7) {
       return false; // skip drawing this cell
     }
   },
@@ -1326,14 +1322,15 @@ const columnMap = [
   { header: "Arms", key: "Trial Intervention/Arms" },
   { header: "Key Criteria", key: "Key criteria (for PDF)" },
   { header: "Contact", key: "PI contact (for PDF)" },
-  { header: "NCT", key: "NCT number" }
+  { header: "NCT", key: "NCT number" },
+  { header: "", key: "Study status" }
 ];
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 //we may need to cull the contacts for just site PI;
 
 
-const rows = data.PDAC.map(trial =>
+const rows = data.PDAC.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
 
@@ -1400,7 +1397,7 @@ doc.autoTable({
   },
   willDrawCell: function(data) {
     // Skip all cells in the first column (header + body)
-    if (data.column.index === 0) {
+    if (data.column.index === 0 || data.column.index === 7) {
       return false; // skip drawing this cell
     }
   },
@@ -1443,13 +1440,14 @@ const columnMap = [
   { header: "Arms", key: "Trial Intervention/Arms" },
   { header: "Key Criteria", key: "Key criteria (for PDF)" },
   { header: "Contact", key: "PI contact (for PDF)" },
-  { header: "NCT", key: "NCT number" }
+  { header: "NCT", key: "NCT number" },
+  { header: "", key: "Study status" }
 ];
 
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 
-  const rows = data.CCA.map(trial =>
+  const rows = data.CCA.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
 
@@ -1518,7 +1516,7 @@ doc.autoTable({
   },
   willDrawCell: function(data) {
     // Skip all cells in the first column (header + body)
-    if (data.column.index === 0) {
+    if (data.column.index === 0 || data.column.index === 7) {
       return false; // skip drawing this cell
     }
   },
@@ -1561,13 +1559,15 @@ const columnMap = [
   { header: "Arms", key: "Trial Intervention/Arms" },
   { header: "Key Criteria", key: "Key criteria (for PDF)" },
   { header: "Contact", key: "PI contact (for PDF)" },
-  { header: "NCT", key: "NCT number" }
+  { header: "NCT", key: "NCT number" },
+  { header: "", key: "Study status" }
+
 ];
 
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 
-  const rows = data.pNET.map(trial =>
+  const rows = data.pNET.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
 
@@ -1636,7 +1636,7 @@ doc.autoTable({
   },
   willDrawCell: function(data) {
     // Skip all cells in the first column (header + body)
-    if (data.column.index === 0) {
+    if (data.column.index === 0 || data.column.index === 7) {
       return false; // skip drawing this cell
     }
   },
