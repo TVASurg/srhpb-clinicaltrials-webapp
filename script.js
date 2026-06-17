@@ -330,7 +330,7 @@ const changes = [];
 
 function fillBiomarkersHTML()
 {
-  
+  //as of may 20 2026 - "/" denotes "or", "&" denotes "and" 
 
   //strip trailing spaces
   var cleanedBiomarkerArray = biomarker_master[`biomarker`].map(item => item.trim());
@@ -344,9 +344,11 @@ function fillBiomarkersHTML()
   for (i=0; i<cleanedBiomarkerArray.length; i++)
   {
     if (cleanedBiomarkerArray[i].includes('\n'))
+    // if (cleanedBiomarkerArray[i].includes('/'))
     {
       var tempArray = [];
       tempArray = cleanedBiomarkerArray[i].split(/\n+/);
+      // tempArray = cleanedBiomarkerArray[i].split(/\/+/);
 
       //remove the 'or' entry, then push the tempArray items
       cleanedBiomarkerArray.splice(i,1);
@@ -388,6 +390,7 @@ function fillBiomarkersHTML()
 
   }
   
+  //console.log(cleanedBiomarkerArray);
   document.getElementById('biomarker-1').innerHTML = biomarkerMenu01InnerHTML;
   document.getElementById('biomarker-2').innerHTML = biomarkerMenu02InnerHTML;
 }
@@ -395,24 +398,22 @@ function fillBiomarkersHTML()
 
 function fillTrialNameBasedOnBiomarker(biomarker)
 {
-  
+  //as of may 20 2026 - "/" denotes "or", "&" denotes "and" 
   var outputHTMLline = "";
   
   //create vertical radio button group
   outputHTMLline += '<div class="btn-group-vertical p-3" role="group">';
 
   clearUpdateLine();
-  
-  
 
   for (i=0; i < biomarker_master[`names`].length; i++)
   {
     //there needs to be a filter on the argument (biomarker) and the lookup
     //in regards to the and/or
 
-   //if (biomarker_master[`biomarker`][i] == biomarker)
    if (
-      biomarker_master[`biomarker`][i].includes(" and ") == false &&
+      biomarker_master[`biomarker`][i].includes("&") == false &&
+      //biomarker_master[`biomarker`][i].includes(" and ") == false &&
       biomarker_master[`biomarker`][i].includes(biomarker) == true ||
       biomarker_master[`biomarker`][i] == biomarker 
    )
