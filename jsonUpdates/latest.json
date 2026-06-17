@@ -903,6 +903,22 @@
       "Schema image": null,
       "Key criteria (for PDF)": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
       "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
+    },
+    {
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "C3651021 (RIVER)",
+      "Full title": "A PHASE 2b/3, RANDOMIZED, DOUBLE-BLIND STUDY TO INVESTIGATE THE \nEFFICACY, SAFETY, AND TOLERABILITY OF PONSEGROMAB (PF-06946860) \nCOMPARED WITH PLACEBO BOTH WITH BACKGROUND FIRST-LINE \nCHEMOTHERAPY IN ADULT PARTICIPANTS WITH CACHEXIA AND \nMETASTATIC PANCREATIC DUCTAL ADENOCARCINOMA",
+      "Additional notes": "A Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
+      "Tissue Requirements": "If available, an archival tumor FFPE biopsy block or unstained freshly cut paraffin sections \nof tumor specimen collected within 6 months of enrollment should be submitted. If tumor tissue is not available or cannot be provided, the participant can still be enrolled if the study eligibility criteria are met. ",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Ponsegromab Double-blind Treatment 200mg Q4W\nPonsegromab Double-blind Treatment 400mg Q4W\nPlacebo Double-blind Treatment Q4W",
+      "Eligibility ": "Key Inclusion Criteria: \n\n- Documented active diagnosis of metastatic pancreatic ductal adenocarcinoma\n- Cachexia defined by Fearon criteria of weight loss\n- Completed 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\n\nKey Exclusion Criteria: \n\n- Current active reversible causes of decreased food intake\n- Cachexia caused by other reasons\n- Any prior or current clinical diagnosis of heart failure, irrespective of left ventricular ejection fraction or New York Heart Association classification\n- Left ventricular ejection fraction <50%\n- Receiving tube feedings or parenteral nutrition at the time of Screening or Randomization\n- History of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\n- History of allergy or hypersensitivity to any of the chemotherapeutics or any of their excipients\n- Neuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\n- Inadequate liver function\n- Renal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
+      "Contacts": "Site PI: \nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca\n\nStudy Data Coordinator:\nDemitra Michelis demitra.michelis@uhn.ca",
+      "NCT number": "NCT06989437",
+      "Study status": "Active",
+      "Schema image": "NCT06989437.png",
+      "Key criteria (for PDF)": "Cachexia defined by Fearon criteria of weight loss. Completed 1 x 28-day cycle of 1L nab-paclitaxel and gemcitabine or 2 x 14-day cycles of FOLFIRINOX and prior to receiving Cycle 2.",
+      "PI contact (for PDF)": "jennifer.knox@uhn.ca"
     }
   ],
   "pNET": [
@@ -987,36 +1003,7 @@
       "PI contact (for PDF)": "raymond.jang@uhn.ca"
     }
   ],
-  "Preactivation": [
-    {
-      "Organ group": "PDAC",
-      "Disease Setting": "1L Metastatic",
-      "Trial Name": "RIVER-mPDAC",
-      "Full title": "Research Investigation of ponsegromab in cancer cachexia-metastatic Pancreatic Ductal Adenocarcinoma",
-      "Additional notes": "Study to investigate the efficacy, safety and tolerability of systemic chemotherapy plus ponsegromab versus systemic chemotherapy plus placebo for the first-line treatment in adult participants with cachexia and metastatic pancreatic ductal adenocardinoma.",
-      "Tissue Requirements": "Archival tumor FFPE biopsy block or unstained freshly cut paraffin sections\nof tumor specimen collected within 6 months of enrollment.",
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Ponsegromab Doubleblind Treatment 200 mg Q4W\nPonsegromab Doubleblind Treatment 400 mg Q4W\nPlacebo Double-blind Treatment Q4W",
-      "Eligibility ": "Inclusion:\nActive diagnosis of metastatic pancreatic ductal adenocarcinoma\nCachexia defined by Fearon criteria of weight loss\nCompleted 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\nExclusion:\nCurrent active reversible causes of decreased food intake\nCachexia caused by other reasons\nHistory of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\nNeuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\nRenal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
-      "Contacts": null,
-      "NCT number": "NCT06989437",
-      "Schema image": null
-    },
-    {
-      "Organ group": "PDAC",
-      "Disease Setting": "1L Metastatic",
-      "Trial Name": "C3651021 (RIVER)",
-      "Full title": "A PHASE 2b/3, RANDOMIZED, DOUBLE-BLIND STUDY TO INVESTIGATE THE \nEFFICACY, SAFETY, AND TOLERABILITY OF PONSEGROMAB (PF-06946860) \nCOMPARED WITH PLACEBO BOTH WITH BACKGROUND FIRST-LINE \nCHEMOTHERAPY IN ADULT PARTICIPANTS WITH CACHEXIA AND \nMETASTATIC PANCREATIC DUCTAL ADENOCARCINOMA",
-      "Additional notes": "NOT YET ACTIVE\n\nA Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
-      "Tissue Requirements": "If available, an archival tumor FFPE biopsy block or unstained freshly cut paraffin sections \nof tumor specimen collected within 6 months of enrollment should be submitted. If tumor tissue is not available or cannot be provided, the participant can still be enrolled if the study eligibility criteria are met. ",
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Ponsegromab Double-blind Treatment 200mg Q4W\nPonsegromab Double-blind Treatment 400mg Q4W\nPlacebo Double-blind Treatment Q4W",
-      "Eligibility ": "Key Inclusion Criteria: \n\n- Documented active diagnosis of metastatic pancreatic ductal adenocarcinoma\n- Cachexia defined by Fearon criteria of weight loss\n- Completed 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\n\nKey Exclusion Criteria: \n\n- Current active reversible causes of decreased food intake\n- Cachexia caused by other reasons\n- Any prior or current clinical diagnosis of heart failure, irrespective of left ventricular ejection fraction or New York Heart Association classification\n- Left ventricular ejection fraction <50%\n- Receiving tube feedings or parenteral nutrition at the time of Screening or Randomization\n- History of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\n- History of allergy or hypersensitivity to any of the chemotherapeutics or any of their excipients\n- Neuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\n- Inadequate liver function\n- Renal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
-      "Contacts": "Site PI: \nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca\n\nStudy Data Coordinator:\nDemitra Michelis demitra.michelis@uhn.ca",
-      "NCT number": "NCT06989437",
-      "Schema image": null
-    }
-  ],
+  "Preactivation": [],
   "Closed": [
     {
       "Organ group": "PDAC",
@@ -2025,6 +2012,11 @@
         "Trial Name": "C3651021 (RIVER)",
         "change": "modified",
         "timestamp": "2026-06-04T12:08:10"
+      },
+      {
+        "Trial Name": "C3651021 (RIVER)",
+        "change": "added",
+        "timestamp": "2026-06-17T13:53:23"
       }
     ],
     "HCC": [
