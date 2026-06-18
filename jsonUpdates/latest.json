@@ -395,7 +395,7 @@
       "Biomarker/unselected": "HER2 ",
       "Trial Intervention/Arms": "Main Cohort (PD-L1 CPS ≥1):\n Arm M1: T-DXd plus fluoropyrimidine (5-FU or capecitabine) plus pembrolizumab\n Arm M2: Trastuzumab plus platinum-based chemotherapy (cisplatin plus 5-FU or \noxaliplatin plus capecitabine) plus pembrolizumab \nExploratory Cohort (PD-L1 CPS <1):\n Arm E1: T-DXd plus fluoropyrimidine (5-FU or capecitabine)\n Arm E2: Trastuzumab plus platinum-based chemotherapy (cisplatin plus 5-FU or \noxaliplatin plus capecitabine)",
       "Eligibility ": "1. Sign and date the Tissue Prescreening ICF, prior to HER2 and PD-L1 CPS testing. Sign and date the \nMain Screening ICF, prior to the start of any trial- specific qualification procedures. Sign and date the\nOptional PGx ICF (included in the Main Screening ICF) prior to any PGx procedure.\n2. Adults ≥18 years of age on the day of signing the ICF. Follow local regulatory requirements if the legal \nage of consent for trial participation is >18 years old. \n3. Previously untreated, unresectable, locally advanced or metastatic gastric or GEJ adenocarcinoma\nhistologically confirmed by pathology report. Prior treatment in the perioperative and/or adjuvant \nsetting is permissible, provided there is >6 months between the end of perioperative or neoadjuvant \ntreatment and the diagnosis of recurrent disease.\n Note: Prior use of IO (ie, anti-PD-1/PD-L1) therapy in the (neo)adjuvant setting is allowed as \nlong as there is >6 months between the end of IO therapy and the diagnosis of recurrent disease. \n4. Centrally determined HER2-positive (IHC 3+ or IHC 2+/ISH-positive) gastric or GEJ cancer as \nclassified by the American Society of Clinical Oncology-College of American Pathologists1\nfor GC on a \ntumor biopsy as detected by prospective central test on new (core, incisional, excisional biopsy) or\nexisting tumor tissue taken at the time of diagnosis of locally advanced or metastatic disease. \nNote: Archival samples taken from a previous diagnostic or surgical biopsy not previously irradiated can \nbe accepted. Details pertaining to tumor tissue submission can be found in the Laboratory Manual.\n5. Centrally determined tumor PD-L1 CPS using the PD-L1 22C3 PharmDx assay: \n For the Main Cohort: PD-L1 CPS ≥1\n For the Exploratory Cohort: PD-L1 CPS <1\n6. All participants must provide a tumor sample for tissue-based IHC staining to centrally determine HER2 \nexpression, PD-L1 CPS, and other correlatives. The mandatory formalin fixed and paraffin embedded\ntumor sample can be from either the primary tumor or metastatic biopsy. Specimens with limited tumor \ncontent (as centrally determined) and cytology samples are inadequate for defining tumor HER2 and \nPD-L1 status.\n7. At least 1 target measurable lesion on CT or MRI, assessed by the investigator based on RECIST v1.1. \nLesions situated in a previously irradiated area are considered measurable if progression has been shown \nin such lesions.\n8. LVEF ≥50% within 28 days before randomization.\n9. ECOG performance status of 0 or 1 assessed 7 days before randomization",
-      "Contacts": "Site PI: Dr Elena Elimova\nelena.elimova@uhn.ca",
+      "Contacts": "Site PI: \nDr Elena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06731478",
       "Study status": "Active",
       "Schema image": null,
@@ -584,7 +584,7 @@
     },
     {
       "Disease Setting": "1st line",
-      "Trial Name": "\nD702NC00001 (ARTEMIDE-Biliary02)",
+      "Trial Name": "D702NC00001 (ARTEMIDE-Biliary02)",
       "Full title": "\nPhase III Study of Rilvegostomig or Durvalumab in Combination with Chemotherapy as First-line Treatment of Advanced BTC",
       "Additional notes": null,
       "Tissue Requirements": "Tissue Required for PD-L1 testing",
@@ -629,22 +629,6 @@
       "Schema image": null,
       "Key criteria (for PDF)": "FGF/FGFR pathway alteration.",
       "PI contact (for PDF)": "arndt.vogel@uhn.ca"
-    },
-    {
-      "Disease Setting": "1st line",
-      "Trial Name": "S095031-210",
-      "Full title": "Ivosidenib Plus Durvalumab and Gemcitabine/Cisplatin as First-Line Therapy in Participants with Locally Advanced or Metastatic Cholangiocarcinoma with an IDH1 Mutation",
-      "Additional notes": null,
-      "Tissue Requirements": null,
-      "Biomarker/unselected": "IDH1",
-      "Trial Intervention/Arms": "Ivosidenib + GemCis/Durva",
-      "Eligibility ": "Histologically-confirmed cholangio; \nlocally or centrally confirmed IDH1 mutation\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin treatment is permitted before study participation. ",
-      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nTrial Nurse:\nSerena (Ching) Kao\nChing.Kao@uhn.ca\n",
-      "NCT number": "NCT06501625",
-      "Study status": "Closed to enrolment",
-      "Schema image": null,
-      "Key criteria (for PDF)": "IDH-1 mutated\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin is permitted.",
-      "PI contact (for PDF)": "arndt.vogel@uhn.ca "
     },
     {
       "Disease Setting": "Non-Therapeutic",
@@ -1297,6 +1281,20 @@
       "Eligibility ": "Has one of the following: gastric, gastroesophageal junction or esophageal adenocarcinoma.\nHas received prior therapy for the cancer\nNot biomarker selected.\nExcluded if have a known additional malignancy that is progressing or has required active treatment within the past 3 years.\nPatients with previous topoisomerase 1 inhibitor are excluded.",
       "Contacts": "Site PI:\nLucy Ma\nlucy.ma@uhn.ca",
       "NCT number": "NCT06864169",
+      "Schema image": null
+    },
+    {
+      "Organ group": "CCA",
+      "Disease Setting": "1st line",
+      "Trial Name": "S095031-210",
+      "Full title": "Ivosidenib Plus Durvalumab and Gemcitabine/Cisplatin as First-Line Therapy in Participants with Locally Advanced or Metastatic Cholangiocarcinoma with an IDH1 Mutation",
+      "Additional notes": null,
+      "Tissue Requirements": null,
+      "Biomarker/unselected": "IDH1",
+      "Trial Intervention/Arms": "Ivosidenib + GemCis/Durva",
+      "Eligibility ": "Histologically-confirmed cholangio; \nlocally or centrally confirmed IDH1 mutation\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin treatment is permitted before study participation. ",
+      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nTrial Nurse:\nSerena (Ching) Kao\nChing.Kao@uhn.ca\n",
+      "NCT number": "NCT06501625",
       "Schema image": null
     }
   ],
@@ -3008,6 +3006,11 @@
         "Trial Name": "S095031-210",
         "change": "modified",
         "timestamp": "2026-06-15T15:07:03"
+      },
+      {
+        "Trial Name": "D702NC00001 (ARTEMIDE-Biliary02)",
+        "change": "added",
+        "timestamp": "2026-06-18T12:42:42"
       }
     ],
     "Preactivation": [
@@ -3187,6 +3190,11 @@
         "Trial Name": "REJOICE-GI01",
         "change": "added",
         "timestamp": "2026-06-10T15:51:18"
+      },
+      {
+        "Trial Name": "S095031-210",
+        "change": "added",
+        "timestamp": "2026-06-18T12:42:42"
       }
     ],
     "CRC": [
@@ -4216,6 +4224,11 @@
         "Trial Name": "DESTINY-Gastric03",
         "change": "modified",
         "timestamp": "2026-06-10T17:10:38"
+      },
+      {
+        "Trial Name": "DESTINY-Gastric05 ",
+        "change": "modified",
+        "timestamp": "2026-06-18T12:42:42"
       }
     ],
     "pNET": [
