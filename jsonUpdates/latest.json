@@ -130,7 +130,7 @@
     },
     {
       "Disease Setting": "Any line",
-      "Trial Name": "Debio 0123-106",
+      "Trial Name": "MYTHIC",
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
       "Tissue Requirements": "Archived tumor tissue sample available or lesion that can be safely biopsied if the archival sample is not available. There are no specific requirements for tissue type, but sample needs to have 30% tumour content. Archival sample are to be prepared into 20 slides for IHC, FISH, and DNA/RNA extraction. \n\nPatients who do not have archival sample and biopsy collection are not feasible due to safety reason are still possible to be screen for the study after consultation with study Sponsor. ",
@@ -534,7 +534,7 @@
     },
     {
       "Disease Setting": "Any line",
-      "Trial Name": "Debio 0123-106",
+      "Trial Name": "MYTHIC",
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
       "Tissue Requirements": "Archived tumor tissue sample available or lesion that can be safely biopsied if the archival sample is not available. There are no specific requirements for tissue type, but sample needs to have 30% tumour content. Archival sample are to be prepared into 20 slides for IHC, FISH, and DNA/RNA extraction. \n\nPatients who do not have archival sample and biopsy collection are not feasible due to safety reason are still possible to be screen for the study after consultation with study Sponsor. ",
@@ -826,7 +826,7 @@
     },
     {
       "Disease Setting": "Any Line Advanced",
-      "Trial Name": "Debio 0123-106",
+      "Trial Name": "MYTHIC",
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
       "Tissue Requirements": "Archived tumor tissue sample available or lesion that can be safely biopsied if the archival sample is not available. There are no specific requirements for tissue type, but sample needs to have 30% tumour content. Archival sample are to be prepared into 20 slides for IHC, FISH, and DNA/RNA extraction. \n\nPatients who do not have archival sample and biopsy collection are not feasible due to safety reason are still possible to be screen for the study after consultation with study Sponsor. ",
@@ -924,7 +924,7 @@
     },
     {
       "Disease Setting": "Any Line Advanced",
-      "Trial Name": "Debio 0123-106",
+      "Trial Name": "MYTHIC",
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
       "Tissue Requirements": "Archived tumor tissue sample available or lesion that can be safely biopsied if the archival sample is not available. There are no specific requirements for tissue type, but sample needs to have 30% tumour content. Archival sample are to be prepared into 20 slides for IHC, FISH, and DNA/RNA extraction. \n\nPatients who do not have archival sample and biopsy collection are not feasible due to safety reason are still possible to be screen for the study after consultation with study Sponsor. ",
@@ -2015,6 +2015,11 @@
         "Trial Name": "C3651021 (RIVER)",
         "change": "added",
         "timestamp": "2026-06-17T13:53:23"
+      },
+      {
+        "Trial Name": "MYTHIC",
+        "change": "added",
+        "timestamp": "2026-06-18T13:10:57"
       }
     ],
     "HCC": [
@@ -2432,6 +2437,11 @@
         "Trial Name": "ITER-002-HCC",
         "change": "modified",
         "timestamp": "2026-06-09T11:49:12"
+      },
+      {
+        "Trial Name": "MYTHIC",
+        "change": "added",
+        "timestamp": "2026-06-18T13:10:57"
       }
     ],
     "Gastroesophageal": [
@@ -3942,6 +3952,11 @@
         "Trial Name": "MK1084-012 (KANDLELIT-012)",
         "change": "modified",
         "timestamp": "2026-05-14T14:31:37"
+      },
+      {
+        "Trial Name": "MYTHIC",
+        "change": "added",
+        "timestamp": "2026-06-18T13:10:57"
       }
     ],
     "GE": [
@@ -4331,6 +4346,11 @@
         "Trial Name": "HS-19-657/SORENTO",
         "change": "modified",
         "timestamp": "2026-06-09T11:49:12"
+      },
+      {
+        "Trial Name": "MYTHIC",
+        "change": "added",
+        "timestamp": "2026-06-18T13:10:57"
       }
     ]
   }
