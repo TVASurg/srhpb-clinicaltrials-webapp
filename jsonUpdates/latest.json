@@ -729,22 +729,6 @@
       "PI contact (for PDF)": "erica.tsang@uhn.ca "
     },
     {
-      "Disease Setting": "Locally Advanced Unresectable",
-      "Trial Name": "NASC-009/NCI 10464\n\n",
-      "Full title": "A Phase 1 Study of Olaparib in Combination with Durvalumab (MEDI4736) and Concurrent Radiation Therapy Following First-Line Chemotherapy in Locally Advanced Unresectable Pancreatic Cancer",
-      "Additional notes": "Unresectable PDAC on 1L. chemotherapy > 16 weeks without progression. ",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Cycle 1: Olaparib BID + Durvalumab C1D1 \n\nCycle 2: Olaparib + Durva + RT (39Gy in 15Fx starting C2D1) \n\nCycle 3 onwards: Olaparib + Durva q4w \n ",
-      "Eligibility ": "Inclusion: \nhave had prior 1L chemotherapy for this cancer for at least 16 weeks without clinical, biochemical, or radiologic progression\nBody weight > 30 kg.\nLife expectancy >= 16 weeks.\nWilling to provide archived tissue, if available, from a previous biopsy\nExclusion:\nHad prior upper abdominal radiotherapy prior to entering the study.\nMajor surgical procedure within 28 days prior to enrollment.\nPatients who are receiving any other investigational agents.\nMust not have germline BRCA1 or BRCA2 mutation.",
-      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
-      "NCT number": "NCT05411094",
-      "Study status": "Active",
-      "Schema image": null,
-      "Key criteria (for PDF)": "Unresectable PDAC on 1L. chemotherapy > 16 weeks without progression. ",
-      "PI contact (for PDF)": "erica.tsang@uhn.ca "
-    },
-    {
       "Disease Setting": "2L Metastatic+",
       "Trial Name": "ADOPT\n\n\n",
       "Full title": "ADOPT: ADaptive Organoid-Based Precision Therapy Study in Pancreatic Cancer, A Prospective Single-Arm Phase II Trial",
@@ -1295,6 +1279,20 @@
       "Eligibility ": "Histologically-confirmed cholangio; \nlocally or centrally confirmed IDH1 mutation\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin treatment is permitted before study participation. ",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nTrial Nurse:\nSerena (Ching) Kao\nChing.Kao@uhn.ca\n",
       "NCT number": "NCT06501625",
+      "Schema image": null
+    },
+    {
+      "Organ group": "PDAC",
+      "Disease Setting": "Locally Advanced Unresectable",
+      "Trial Name": "NASC-009/NCI 10464\n\n",
+      "Full title": "A Phase 1 Study of Olaparib in Combination with Durvalumab (MEDI4736) and Concurrent Radiation Therapy Following First-Line Chemotherapy in Locally Advanced Unresectable Pancreatic Cancer",
+      "Additional notes": "Enrollment closed as of 26-Jun-2026.\nUnresectable PDAC on 1L. chemotherapy > 16 weeks without progression. ",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Cycle 1: Olaparib BID + Durvalumab C1D1 \n\nCycle 2: Olaparib + Durva + RT (39Gy in 15Fx starting C2D1) \n\nCycle 3 onwards: Olaparib + Durva q4w \n ",
+      "Eligibility ": "Inclusion: \nhave had prior 1L chemotherapy for this cancer for at least 16 weeks without clinical, biochemical, or radiologic progression\nBody weight > 30 kg.\nLife expectancy >= 16 weeks.\nWilling to provide archived tissue, if available, from a previous biopsy\nExclusion:\nHad prior upper abdominal radiotherapy prior to entering the study.\nMajor surgical procedure within 28 days prior to enrollment.\nPatients who are receiving any other investigational agents.\nMust not have germline BRCA1 or BRCA2 mutation.",
+      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
+      "NCT number": "NCT05411094",
       "Schema image": null
     }
   ],
@@ -3210,6 +3208,11 @@
         "Trial Name": "S095031-210",
         "change": "added",
         "timestamp": "2026-06-18T12:42:42"
+      },
+      {
+        "Trial Name": "NASC-009/NCI 10464\n\n",
+        "change": "added",
+        "timestamp": "2026-06-30T15:59:42"
       }
     ],
     "CRC": [
