@@ -205,7 +205,7 @@
       "NCT number": "NCT07222800",
       "Study status": "Active",
       "Schema image": null,
-      "Key criteria (for PDF)": "1L PF-08634404 (antibody targeting both PD-1 and VEGF-A)+ mFOLFOX6 VS bevacizumab+mFOLFOX6 in mCRC with attmeplted or known RAS (KRAS/NRAS) mutation.",
+      "Key criteria (for PDF)": "1L PF-08634404 (antibody targeting both PD-1 and VEGF-A)+mFOLFOX6 VS bevacizumab+mFOLFOX6 in mCRC with attempted or known RAS (KRAS/NRAS) mutation.",
       "PI contact (for PDF)": "eric.chen@uhn.ca "
     }
   ],
@@ -3996,6 +3996,11 @@
         "Trial Name": "C6461003",
         "change": "modified",
         "timestamp": "2026-07-01T16:40:03"
+      },
+      {
+        "Trial Name": "C6461003",
+        "change": "modified",
+        "timestamp": "2026-07-01T16:42:43"
       }
     ],
     "GE": [
