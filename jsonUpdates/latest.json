@@ -401,6 +401,22 @@
       "Schema image": null,
       "Key criteria (for PDF)": "HER2 positive",
       "PI contact (for PDF)": "elena.elimova@uhn.ca "
+    },
+    {
+      "Disease Setting": "Definitive/Curative",
+      "Trial Name": "AACR-ADOPT-GEA",
+      "Full title": "AACR ADAPTIVE BIOMARKER-DRIVEN ORGAN PRESERVATION TRIAL IN GASTROESOPHAGEAL ADENOCARCINOMAS",
+      "Additional notes": null,
+      "Tissue Requirements": "6-8 cores (fresh tissue biopsy) ",
+      "Biomarker/unselected": "HER2 and PD-L1",
+      "Trial Intervention/Arms": "HER2 arm now open",
+      "Eligibility ": "1.Histologically confirmed diagnosis of resectable (i.e., radical surgery eligible), HER2-positive (defined as 3+ HER2 expression by IHC or 2+ HER2 expression by IHC with ISH-positivity per central assessment) adenocarcinoma of the stomach or esophagus including the gastroesophageal junction. Stage II or higher disease (≥T2 N0-3 M0 or T0-4a N1-3 M0) per NCCN guidelines. T2N0 disease with high-risk features including but not limited to poorly differentiated or signet ring morphology and/or those that are larger than 3cm in size with a high risk of node positive disease that is not seen on imaging will be eligible for inclusion. See Appendix V for the clinical staging criteria.\n2. Formalin-fixed, paraffin-embedded (FFPE) tumor sample tested at a central laboratory confirming HER2-positive status.\n3. FFPE tumor sample tested at a central laboratory confirming PD-L1 TAP score ≥1%.",
+      "Contacts": "PI: Dr Elena Elimova; HER2 Substudy PI: Dr Lucy Ma",
+      "NCT number": "NCT07290985",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "HER2 positive and PDL1 TAP >=1%",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca; lucy.ma@uhn.ca"
     }
   ],
   "HCC": [
@@ -4301,6 +4317,11 @@
         "Trial Name": "AndroMETa-GEA-977",
         "change": "modified",
         "timestamp": "2026-07-01T16:32:02"
+      },
+      {
+        "Trial Name": "AACR-ADOPT-GEA",
+        "change": "added",
+        "timestamp": "2026-07-02T11:31:44"
       }
     ],
     "pNET": [
