@@ -84,7 +84,7 @@
       "Disease Setting": "2nd line ",
       "Trial Name": "GSK223675 ",
       "Full title": "A Phase 1b/2, Multicenter, Open-label Study to Evaluate the Efficacy and Safety of GSK5764227 Alone and in Combination in Participants With Previously Treated Advanced Unresectable or Metastatic Gastrointestinal Solid Tumors.",
-      "Additional notes": "CRC-A: Closed to enrollment\nCRC-B: On Pause",
+      "Additional notes": "CRC-A: Closed to enrollment",
       "Tissue Requirements": "Must provide tumor tissue from a newly obtained fresh biopsy or an archival tumor tissue.",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "GSK223675 (B7-H3 ADC) \nCRC-A Q3W (Closed)\nCRC-B Q2W (On Pause)",
@@ -812,16 +812,16 @@
       "Disease Setting": "2L Only Metastatic",
       "Trial Name": "GSK223675",
       "Full title": "A Phase 1b/2, multicenter, open-label study to evaluate the efficacy and safety of GSK5764227 alone and in combination in participants with previously treated advanced unresectable or metastatic gastrointestinal solid tumors.",
-      "Additional notes": "Cohort B = PDAC (2L only) - ON PAUSE since 04-Feb-2026.",
+      "Additional notes": null,
       "Tissue Requirements": "Fresh core biopsy (if not feasible, archival tumor tissue, FFPE block (preferred), slides from the most recent biopsy is acceptable).",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Cohort B (PDAC):\nPart 1B: Signal Seeking\n• GSK'227 10 mg/kg Q3W\nPart 1B: Optional Extension\n• GSK'227 ≤ 10 mg/kg Q3W and/or ≤ 6 mg/kg Q2W",
       "Eligibility ": "Inclusion criteria: \n• Histologically or cytologically confirmed unresectable, LAPDAC or mPDAC.\n• Must have received 1 and no more than 1 line of therapy for advanced PDAC, with documented progression (PD on neoadjuvant or adjuvant chemotherapy during treatment or within 6 months of EOT are eligible).\n• At least 1 target lesion per RECIST 1.1.\nExclusion criteria: \n• Has a malignancy (except disease under study) that has progressed or required active treatment within the past 24 months except for basal cell or squamous cell carcinomas of the skin or in-situ carcinoma.\n• Is currently enrolled or has participated in any other clinical study involving an investigational study intervention or any other type of interventional medical research and/or has received treatment with any anticancer or investigational agent before first dose of study intervention.\n• Has received immunosuppressive agents within 30 days prior to first dose of study intervention.\n• Has received any prior therapy with an ADC with a TOPO1-inhibitor payload.\n• Has serious or poorly controlled hypertension.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06885034",
-      "Study status": "Not Recruiting",
+      "Study status": "Active",
       "Schema image": "NCT06885034.png",
-      "Key criteria (for PDF)": "Must have received no more than1 line of therapy for advanced PDAC, with PD on neoadjuvant or adjuvant chemo during treatment or within 6 months of EOT.",
+      "Key criteria (for PDF)": "Must have received no more than 1 line of therapy for advanced PDAC, with PD on neoadjuvant or adjuvant chemo during treatment or within 6 months of EOT.",
       "PI contact (for PDF)": "eric.chen@uhn.ca"
     },
     {
@@ -2053,6 +2053,11 @@
         "Trial Name": "C3651021 (RIVER)",
         "change": "modified",
         "timestamp": "2026-06-26T16:01:10"
+      },
+      {
+        "Trial Name": "GSK223675",
+        "change": "modified",
+        "timestamp": "2026-07-06T12:23:38"
       }
     ],
     "HCC": [
@@ -4020,6 +4025,11 @@
         "Trial Name": "C6461003",
         "change": "modified",
         "timestamp": "2026-07-01T16:42:43"
+      },
+      {
+        "Trial Name": "GSK223675 ",
+        "change": "modified",
+        "timestamp": "2026-07-06T12:23:38"
       }
     ],
     "GE": [
