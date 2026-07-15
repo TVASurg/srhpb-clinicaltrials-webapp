@@ -421,7 +421,7 @@
   ],
   "HCC": [
     {
-      "Disease Setting": "Peri-OR",
+      "EnteEn": "Peri-OR",
       "Trial Name": "NEOTOMA",
       "Full title": "Perioperative Therapy with Durvalumab Plus Tremelimumab for Patients with\nResectable Hepatocellular Carcinoma (HCC) - A Phase II Trial",
       "Additional notes": null,
@@ -437,7 +437,7 @@
       "PI contact (for PDF)": "anand.ghanekar@uhn.ca"
     },
     {
-      "Disease Setting": "Pre-transplant",
+      "EnteEn": "Pre-transplant",
       "Trial Name": "BeyondIO (HMLTO002)",
       "Full title": "Atezolizumab and Bevacizumab Pre-Liver Transplantation for Patients with Hepatocellular Carcinoma Beyond Milan Criteria: A Feasibility Study",
       "Additional notes": null,
@@ -453,7 +453,7 @@
       "PI contact (for PDF)": "arndt.vogel@uhn.ca"
     },
     {
-      "Disease Setting": "1st line",
+      "EnteEn": "1st line",
       "Trial Name": "ARTEMIDE HCC01",
       "Full title": "A Phase III Randomised, Open Label, Sponsor-Blinded, Multicentre Study of Rilvegostomig in Combination with Bevacizumab with or without Tremelimumab as First-line Treatment in Patients with Advanced Hepatocellular Carcinoma",
       "Additional notes": "ON HOLD. \nSafety Run In has closed. Decision to proceed to next phase will be mid-December. ",
@@ -469,7 +469,7 @@
       "PI contact (for PDF)": "jennifer.knox@uhn.ca "
     },
     {
-      "Disease Setting": "1st Line ",
+      "EnteEn": "1st Line ",
       "Trial Name": "HE.2 (SLIDE-HCC)",
       "Full title": "A Phase II Study of STRIDE (Durvalumab + Tremelimumab) with Lenvatinib Versus Stride Alone in Patients with Unresectable Hepatocellular Carcinoma (SLIDE-HCC)",
       "Additional notes": null,
@@ -485,7 +485,7 @@
       "PI contact (for PDF)": "jennifer.knox@uhn.ca"
     },
     {
-      "Disease Setting": "1st or 2nd",
+      "EnteEn": "1st or 2nd",
       "Trial Name": "CaboTx\n ",
       "Full title": "A Phase II Trial of Cabozantinib in the Treatment of Recurrent Hepatocellular Carcinoma Post Liver Transplant",
       "Additional notes": null,
@@ -501,7 +501,7 @@
       "PI contact (for PDF)": "robert.grant@uhn.ca \njennifer.knox@uhn.ca "
     },
     {
-      "Disease Setting": "Any line",
+      "EnteEn": "Any line",
       "Trial Name": "TYR430-101",
       "Full title": "A Multicenter, Open-label, First-in-Human Study of TYRA-430 in Advanced Hepatocellular Carcinoma and Other Solid Tumors with Activating FGF/FGFR pathway aberrations",
       "Additional notes": "Participating in Part A\n\nWaitlist for spots. ",
@@ -517,7 +517,7 @@
       "PI contact (for PDF)": "ardnt.vogel@uhn.ca "
     },
     {
-      "Disease Setting": "Last line",
+      "EnteEn": "Last line",
       "Trial Name": "ITER-002-HCC",
       "Full title": "A phase 1/2 exploratory study of the TBL1 inhibitor, tegavivint (BC2059), in patients with advanced hepatocellular carcinoma",
       "Additional notes": null,
@@ -533,7 +533,7 @@
       "PI contact (for PDF)": "eric.chen@uhn.ca "
     },
     {
-      "Disease Setting": "2nd",
+      "EnteEn": "2nd",
       "Trial Name": "BANTAM-01",
       "Full title": "A multicenter, open label, non-randomized first-in-human phase 1 dose escalation and expansion study to evaluate the safety, tolerability, pharmacokinetics, and anti-tumor activity of BAY 3547926 alone, and in combination, in participants with advanced hepatocellular carcinoma (HCC)",
       "Additional notes": "This is a Phase 1, open-label, non-randomized, first-in-human study in participants with advanced hepatocellular carcinoma (HCC). \n\nThe purpose of the study is to evaluate the safety, tolerability, PK, anti-tumour activity of BAY 3547926 alone, and in combination in this patient population. \n\nThe study will have 3 phases.\n1. Part 1: Dose Escalation\n2. Part 2: Dose Expansion as monotherapy \n3. Part 3: Dose Expansion in combination with Atezolizumab and Bevacizumab \n\nThe study aims to enroll up to 148 participants globally. Each participants will follow the pre-screening period to test whether they have the particular protein, called GCP3 protein, in their tumor cells, a screening period, study intervention period, active follow-up period and long-term follow-up period. The study duration for each participant will be 48 months in part 1 and 2. Participants will continue to receive the study intervention until disease progression, or they experience unacceptable side effects or if they withdraw from the study.",
@@ -549,7 +549,7 @@
       "PI contact (for PDF)": "ardnt.vogel@uhn.ca "
     },
     {
-      "Disease Setting": "Any line",
+      "EnteEn": "Any line",
       "Trial Name": "MYTHIC",
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
@@ -565,7 +565,7 @@
       "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
     },
     {
-      "Disease Setting": "Non-Therapeutic",
+      "EnteEn": "Non-Therapeutic",
       "Trial Name": "HPB Robotic Surgery Database ",
       "Full title": "HPB Robotic Surgery Prospective Database Curriculum Development.",
       "Additional notes": "This is an Observational Quality Assessment study that aims to gather clinical data and assess the quality of care recommended and received by patients underwent HPB robotic surgeries.",
@@ -2480,6 +2480,56 @@
         "Trial Name": "MYTHIC",
         "change": "added",
         "timestamp": "2026-06-18T13:10:57"
+      },
+      {
+        "Trial Name": "NEOTOMA",
+        "change": "modified",
+        "timestamp": "2026-07-15T15:00:02"
+      },
+      {
+        "Trial Name": "BeyondIO (HMLTO002)",
+        "change": "modified",
+        "timestamp": "2026-07-15T15:00:02"
+      },
+      {
+        "Trial Name": "ARTEMIDE HCC01",
+        "change": "modified",
+        "timestamp": "2026-07-15T15:00:02"
+      },
+      {
+        "Trial Name": "HE.2 (SLIDE-HCC)",
+        "change": "modified",
+        "timestamp": "2026-07-15T15:00:02"
+      },
+      {
+        "Trial Name": "CaboTx\n ",
+        "change": "modified",
+        "timestamp": "2026-07-15T15:00:02"
+      },
+      {
+        "Trial Name": "TYR430-101",
+        "change": "modified",
+        "timestamp": "2026-07-15T15:00:02"
+      },
+      {
+        "Trial Name": "ITER-002-HCC",
+        "change": "modified",
+        "timestamp": "2026-07-15T15:00:02"
+      },
+      {
+        "Trial Name": "BANTAM-01",
+        "change": "modified",
+        "timestamp": "2026-07-15T15:00:02"
+      },
+      {
+        "Trial Name": "MYTHIC",
+        "change": "modified",
+        "timestamp": "2026-07-15T15:00:02"
+      },
+      {
+        "Trial Name": "HPB Robotic Surgery Database ",
+        "change": "modified",
+        "timestamp": "2026-07-15T15:00:02"
       }
     ],
     "Gastroesophageal": [
