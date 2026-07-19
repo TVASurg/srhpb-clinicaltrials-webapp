@@ -405,18 +405,18 @@
     {
       "Disease Setting": "Definitive/Curative",
       "Trial Name": "AACR-ADOPT-GEA",
-      "Full title": "AACR ADAPTIVE BIOMARKER-DRIVEN ORGAN PRESERVATION TRIAL IN GASTROESOPHAGEAL ADENOCARCINOMAS",
-      "Additional notes": null,
-      "Tissue Requirements": "6-8 cores (fresh tissue biopsy) ",
+      "Full title": "AACR Adaptive Biomarker-Driven Organ Preservation Trial in GE Adenocarcinomas (AACR-ADOPT-GEA)",
+      "Additional notes": "AACR-ADOPT-GEA is a two-stage, prospective, multi-center, perioperative biomarker driven open-label study. The study design consists of biomarker-driven sub-studies that include two stages (Stages I and II). Stage I is comprised of two steps: a screening step and a biomarker-directed treatment step. In step 1, eligible patients will sign a screening consent and tumor tissue specimens for biomarker assessment will be collected. Patients may receive one cycle of FLOT\nor mFOLFOX6 while waiting for biomarker results. In step 2, once biomarker results are returned and a biomarker is identified that is included within the platform, patients will sign a second consent for their identified biomarker subgroup. They will then be assigned to a particular biomarker-specific sub-study (i.e., HER2, MSI-H/EBV, claudin-18.2, FGFR2b, or additionally available biomarkers as allowed by the adaptive design) and continue with chemotherapy backbone and a single agent immune checkpoint inhibitor with the addition of a selected specific biomarker driven targeted therapy or immunotherapy. Perioperative mFOLFOX6, which has comparable efficacy and a favorable toxicity profile compared to FLOT, has been selected for use in this study92, 93. Individuals who commence FLOT as the chemotherapy backbone will switch to mFOLFOX6 once a targeted agent is selected for addition. Those individuals who commence mFOLFOX6 will continue it. If all biomarkers are negative and there is no target identified, that individual patient will continue as per current standard of care therapy off study.\nAll patients who are registered and initiate any combination treatment (chemotherapy backbone, an immunotherapy agent, and/or a biomarker-guided agent) will receive 4 months of treatment in the pre-operative setting followed by surgery and post-operative therapy for a total duration of up to 1 year. Upon 24 patients having completed surgery in a particular sub-study, the decision to graduate that respective therapy to Stage II will be based on stipulated statistics, and only successful therapies for each biomarker will enter Stage II.",
+      "Tissue Requirements": "Tissue collection will be performed during longitudinal endoscopies and tumor resection.\nBiomarkers based on central immunohistochemistry (IHC) testing, 4-6 endoscopy tumor fragments will be processed using standard in-house clinical formalin fixation and paraffin embedding (FFPE) protocols. One Hematoxylin-Eosin (H&E) stained slide and thirteen consecutive 4-5μm thick histology sections made from these FPPE blocks will be shipped within 3-5 days to the central IHC testing laboratory at Roche.\n6-8 cores (fresh tissue biopsy) ",
       "Biomarker/unselected": "HER2 and PD-L1",
-      "Trial Intervention/Arms": "HER2 arm now open",
-      "Eligibility ": "1.Histologically confirmed diagnosis of resectable (i.e., radical surgery eligible), HER2-positive (defined as 3+ HER2 expression by IHC or 2+ HER2 expression by IHC with ISH-positivity per central assessment) adenocarcinoma of the stomach or esophagus including the gastroesophageal junction. Stage II or higher disease (≥T2 N0-3 M0 or T0-4a N1-3 M0) per NCCN guidelines. T2N0 disease with high-risk features including but not limited to poorly differentiated or signet ring morphology and/or those that are larger than 3cm in size with a high risk of node positive disease that is not seen on imaging will be eligible for inclusion. See Appendix V for the clinical staging criteria.\n2. Formalin-fixed, paraffin-embedded (FFPE) tumor sample tested at a central laboratory confirming HER2-positive status.\n3. FFPE tumor sample tested at a central laboratory confirming PD-L1 TAP score ≥1%.",
-      "Contacts": "PI: Dr Elena Elimova; HER2 Substudy PI: Dr Lucy Ma",
+      "Trial Intervention/Arms": "HER2 arm now open\nEligible patients will sign a screening consent, and research tissue for biomarker assessment will be collected. Patients may receive one cycle of FLOT (docetaxel, 5-fluorouracil, leucovorin, and oxaliplatin) or mFOLFOX6 (5-fluorouracil, leucovorin, oxaliplatin) while waiting for biomarker results.\nOnce biomarker results are returned and a biomarker is identified that is included within the study platform, patients will sign a second consent for their identified biomarker subgroup, and continue with chemotherapy backbone and a single agent immune checkpoint inhibitor (ICI) with the addition of a selected biomarker-driven targeted therapy.",
+      "Eligibility ": "1. Histologically confirmed diagnosis of resectable (i.e., radical surgery eligible), HER2-positive (defined as 3+ HER2 expression by IHC or 2+ HER2 expression by IHC with ISH-positivity per central assessment) adenocarcinoma of the stomach or esophagus including the gastroesophageal junction. Stage II or higher disease (≥T2 N0-3 M0 or T0-4a N1-3 M0) per NCCN guidelines. T2N0 disease with high-risk features including but not limited to poorly differentiated or signet ring morphology and/or those that are larger than 3cm in size with a high risk of node positive disease that is not seen on imaging will be eligible for inclusion. See Appendix V for the clinical staging criteria.\n2. Formalin-fixed, paraffin-embedded (FFPE) tumor sample tested at a central laboratory confirming HER2-positive status.\n3. FFPE tumor sample tested at a central laboratory confirming PD-L1 TAP score ≥1%.",
+      "Contacts": "PI: Dr Elena Elimova\nelena.elimova@uhn.ca\n\nHER2 Substudy PI: Dr Lucy Ma\nLucy.Ma@uhn.ca\n\nPrimary Study Nurse: \nMary (Lan) Wei\nMarylan.Wei@uhn.ca\n\nPrimary CRC1: \nYvonne Bach\nyvonne.bach2@uhn.ca\n\nPrimary Clinical Study and Regulatory Specialist: \nMorteza Azhdarzadeh\nMorteza.Azhdarzadeh@uhn.ca",
       "NCT number": "NCT07290985",
       "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": "HER2 positive and PDL1 TAP >=1%",
-      "PI contact (for PDF)": "elena.elimova@uhn.ca; lucy.ma@uhn.ca"
+      "PI contact (for PDF)": "elena.elimova@uhn.ca\nlucy.ma@uhn.ca"
     }
   ],
   "HCC": [
@@ -4387,6 +4387,11 @@
         "Trial Name": "AACR-ADOPT-GEA",
         "change": "added",
         "timestamp": "2026-07-02T11:31:44"
+      },
+      {
+        "Trial Name": "AACR-ADOPT-GEA",
+        "change": "modified",
+        "timestamp": "2026-07-19T15:02:03"
       }
     ],
     "pNET": [
