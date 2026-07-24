@@ -430,7 +430,7 @@
       "Contacts": "Site PI: \nDr. Elena Elimova\nelena.elimova@uhn.ca\n\nHER2 Substudy PI: \nDr. Lucy Ma\nLucy.Ma@uhn.ca\n\nPrimary Study Nurse: \nMary (Lan) Wei\nMarylan.Wei@uhn.ca\n\nPrimary CRC1: \nYvonne Bach\nyvonne.bach2@uhn.ca\n\nPrimary Clinical Study and Regulatory Specialist: \nMorteza Azhdarzadeh\nMorteza.Azhdarzadeh@uhn.ca",
       "NCT number": "NCT07290985",
       "Study status": "Active",
-      "Schema image": null,
+      "Schema image": "NCT07290985.jpg",
       "Key criteria (for PDF)": "HER2 positive and PDL1 TAP >=1%",
       "PI contact (for PDF)": "elena.elimova@uhn.ca\nlucy.ma@uhn.ca"
     }
@@ -4468,6 +4468,11 @@
         "Trial Name": "AACR-ADOPT-GEA",
         "change": "modified",
         "timestamp": "2026-07-20T12:56:57"
+      },
+      {
+        "Trial Name": "AACR-ADOPT-GEA",
+        "change": "modified",
+        "timestamp": "2026-07-24T10:48:51"
       }
     ],
     "pNET": [
