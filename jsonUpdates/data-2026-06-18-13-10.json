@@ -84,7 +84,7 @@
       "Disease Setting": "2nd line ",
       "Trial Name": "GSK223675 ",
       "Full title": "A Phase 1b/2, Multicenter, Open-label Study to Evaluate the Efficacy and Safety of GSK5764227 Alone and in Combination in Participants With Previously Treated Advanced Unresectable or Metastatic Gastrointestinal Solid Tumors.",
-      "Additional notes": "CRC-A: Closed to enrollment",
+      "Additional notes": "CRC-A: Closed to enrollment\nCRC-B: On Pause",
       "Tissue Requirements": "Must provide tumor tissue from a newly obtained fresh biopsy or an archival tumor tissue.",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "GSK223675 (B7-H3 ADC) \nCRC-A Q3W (Closed)\nCRC-B Q2W (On Pause)",
@@ -134,7 +134,7 @@
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
       "Tissue Requirements": "Archived tumor tissue sample available or lesion that can be safely biopsied if the archival sample is not available. There are no specific requirements for tissue type, but sample needs to have 30% tumour content. Archival sample are to be prepared into 20 slides for IHC, FISH, and DNA/RNA extraction. \n\nPatients who do not have archival sample and biopsy collection are not feasible due to safety reason are still possible to be screen for the study after consultation with study Sponsor. ",
-      "Biomarker/unselected": "CCNE1/FBXW7/PPP2R1A",
+      "Biomarker/unselected": "CCNE1\nFBXW7\nPPP2R1A",
       "Trial Intervention/Arms": "Patient will be assign to only one dosing schedule - lunresertib in combination with Debio 0123 on the 3 days on/4 days off dosing for two weeks, followed by a week break (2 week on/1 week off). Dosage of lunresertib and Debio0123 may vary.",
       "Eligibility ": "Inclusion Criteria:\n- Male or female and ≥12 years-of-age at the time of signature of the ICF.\n- ECOG Performance Status score of 0 or 1. Lansky performance status ≥50 for patients ≤16 years of age\n- Patients are eligible if, in the opinion of the Investigator, the patient is not a candidate for,\nor would be unlikely to tolerate or derive significant clinical benefit from, appropriate standard-of-care therapy, or if the patient declines standard-of-care therapy. Documented counselling by the center Investigator on benefits/risks of standard-of-care therapy is required for enrolled patients who decline standard-of-care therapy.\n- Measurable disease as per RECIST v1.1.\n- Ability to swallow and retain oral tablets and capsules whole and intact.\n- Hemoglobin ≥10.0 g/dL except if anemia is due to potentially reversible and manageable etiology (e.g. bleeding from tumor lesion)\n- Creatinine clearance ≥60 mL/min calculated using Cockcroft-Gault equation or measured by 24-hour urine collection. For patients 12 to 17 years of age, renal function should be calculated using Cockcroft-Gault or institutional standard, including institutional formula specific for this age group.\n\nExclusion Criteria:\n- Chemotherapy or small molecule antineoplastic agent given within 21 days or <5 halflives,\nand monoclonal antibodies given within 28 days or <5 half-lives, whichever is shorter, prior to first dose of study drug.\n- Presence of other known second malignancy with the exception of any cancer that has been in complete remission for ≥ 2 years or completely resected squamous and basal cell carcinomas of the skin.\n- Prior therapy with a PKMYT1 or WEE1 inhibitor.\n- Patients who are unable to swallow oral tablets and capsules whole and intact\n- Clinically significant gastrointestinal abnormality that would affect the absorption of drugs, such as malabsorption syndrome, major resection of the small bowel, total gastrectomy, or inflammatory bowel disease.\n- Major surgery (excluding placement of vascular access) within 4 weeks prior to first dose of study drug.\n- Uncontrolled, symptomatic brain metastases.\n- Uncontrolled hypertension (systolic blood pressure ≥160 mmHg; diastolic blood pressure ≥100 mmHg) despite adequate treatment prior to first dose of study drug.\n- Patients with active, uncontrolled bacterial, fungal, or viral infection, including hepatitis B virus (HBV), hepatitis C virus (HCV), known human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) related illness.\n- Moderate or severe hepatic impairment (ie, Child-Pugh class B or C).\n- Mean resting QT interval corrected for heart rate (QTc) interval using the Fridericia formula (QTcF) >450 msec (as calculated per institutional standards) obtained from 3 ECGs ≥1 minute apart at study entry.\n- Current treatment with medications that are well-known to prolong the QT interval or with known risk of TdP (Appendix 2). If patients are on these medications, a wash-out period of at least 5 half-lives is needed prior to receiving the treatment.\n- Immunization with live or live-attenuated vaccine within 28 days prior to study inclusion or planned injection of live or live-attenuated vaccine.",
       "Contacts": "Site PI:\nDr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
@@ -191,38 +191,6 @@
       "Schema image": "NCT06997497.png",
       "Key criteria (for PDF)": "KRAS G12C-mutant pMMR/non-MSI-H LA/mCRC. Comparing MK-1084 (calderasib), cetuximab, and mFOLFOX6 vs. mFOLFOX6 with or without bevacizumab.",
       "PI contact (for PDF)": "Lucy.Ma@uhn.ca"
-    },
-    {
-      "Disease Setting": "1st line ",
-      "Trial Name": "C6461003",
-      "Full title": "An interventional, Phase 3, double-blind, randomized study to evaluate the efficacy and safety of PF-08634404 in combination with chemotherapy versus Bevacizumab in combination with chemotherapy in treatment-naïve participants with metastatic colorectal cancer",
-      "Additional notes": "This global Phase 3 study is being performed to evaluate whether PF-08634404 when combined with mFOLFOX6 chemotherapy is superior to bevacizumab in combination with mFOLFOX6 in prolonging progression-free survival (PFS) and overall survival (OS) in participants with 1L mCRC.\n\nPrimary Objectives:\n-To demonstrate that PF-08634404 + mFOLFOX6 (experimental arm) is superior to bevacizumab\n+ mFOLFOX6 (control arm) in prolonging PFS\n-To demonstrate that PF-08634404 + mFOLFOX6 (experimental arm) is superior to bevacizumab\n+ mFOLFOX6 (control arm) in prolonging OS.\n\nSecondary Objectives:\n-To evaluate the efficacy of PF-08634404 + mFOLFOX6 and bevacizumab + mFOLFOX6 as measured by PFS by investigator, ORR, DOR, and PFS2\n-To evaluate safety and tolerability of PF-08634404 + mFOLFOX6 and bevacizumab + mFOLFOX6\n-To evaluate PK of PF-08634404 when administered in combination with mFOLFOX6\n-To evaluate the immunogenicity of PF-08634404 when administered in combination with mFOLFOX6\n-To evaluate PROs of PF-08634404 + mFOLFOX6 and bevacizumab + mFOLFOX6",
-      "Tissue Requirements": "-Mandatory tumor tissue (archival tumor tissue or fresh biopsy) will be collected during screening\nfor pharmacodynamic biomarkers analysis\n-Mandatory blood samples will be collected during the study for safety and eligibility lab\nassessments, as well as for research purposes such as pharmacokinetics, immunogenicity, and\npharmacodynamic biomarkers.\n-Mandatory urine samples will be collected during the study for safety and eligibility lab\nassessments\n-Optional blood sample may be collected for future unknown genetic research.\n-Optional tumor biopsies may be collected for pharmacodynamic biomarkers related to response.",
-      "Biomarker/unselected": "RAS",
-      "Trial Intervention/Arms": "This is an interventional, double-blind, randomized, Phase 3 trial in participants with mCRC who\nhave not received previous treatment for their metastatic disease.\nParticipants will be randomized 1:1:\n\n-Arm A: PF-08634404 and mFOLFOX6 Q2W until PD, intolerable toxicity, or meeting other\nprotocol-specified criteria for treatment discontinuation.\n\n-Arm B: Bevacizumab and mFOLFOX6 until PD, intolerable toxicity, or meeting other\nprotocol-specified criteria for treatment discontinuation.\nParticipants may continue treatment after objective PD if the participant is continuing to experience clinical benefit, in the opinion of the investigator.",
-      "Eligibility ": "Inclusion:\n-Is not pregnant are eligible for participation.\n-Have confirmed colorectal adenocarcinoma.\n-Evidence of Stage IV metastatic disease.\n-Known RAS mutation status per local test (includes KRAS and NRAS exons 2,3 and 4 codons 12, 13, 59, 61, 117 and 146). Participants with unknown RAS status despite attempt to test are eligible for participation.\n-No prior systemic therapy for metastatic disease\n-ECOG performance status 0-1.\n-At least one measurable lesion according to RECIST 1.1 per Investigator assessment.\n-Have tumor tissue available\n-Adequate hematologic, hepatic, and renal function\n\nExclusion:\n-Known BRAF V600E mutation\n-Locally confirmed MSI-high or dMMR colorectal cancer\nWith known active symptomatic CNS lesions\n-Have known DPD deficiency\n-Clinically significant risk of hemorrhage or fistula\n-Major surgery or severe trauma within 4 weeks prior to the first dose, or planned major surgery\nduring the study\n-History of allogeneic organ transplantation and allogeneic hematopoietic stem cell\ntransplantation.\n-Any Grade >/=3 bleeding/hemorrhage events < 28 days of C1D1, or prior history of clinically\nsignificant bleeding events\n-With acute, chronic or symptomatic infections\n-Clinically significant cardiovascular disease, or other comorbidities, within 6 months prior to first\ndose\n-With active autoimmune diseases requiring systemic treatment<2 years\n-Evidence of non-infectious or drug-induced ILD pneumonitis\n-Unresolved toxicities from prior anti-tumor therapy, that did not recover to NCI CTCAE v5.0\nGrade 0 or 1, or to levels specified in the inclusion/exclusion criteria, with the exceptions\n-Grade ≥3 baseline neuropathy, or ongoing residual Grade ≥2 neuropathy from prior oxaliplatin.\n-History of esophageal varices, severe ulcers, unhealed wounds, gastrointestinal perforation,\nabdominal fistula, gastrointestinal obstruction, intra-abdominal abscess, or acute gastrointestinal\nbleeding <6 months prior to the first dose.\n-With any history of another malignancy within 3 years before the first dose of study intervention,\nor any evidence of residual disease from a previously diagnosed malignancy with exceptions\n-Known or suspected hypersensitivity to any component of study intervention or their excipients\nat the planned doses.\n-Other circumstances that may increase the study-related risks or interfere with interpretation of\nthe study results, in the opinion of the investigator.\n-Prior exposure to anti-VEGF therapy or cancer immunotherapy\n-Prior radiation therapy ≤ 2 weeks of first dose of study intervention.\n-Previous administration of an investigational product (drug or vaccine) within 30 days or 5\nhalf-lives preceding the first dose of study intervention used in this study (whichever is longer).\nParticipation in studies of other investigational products (drug or vaccine) at any time during\nparticipation in this study.\n- Investigator site staff directly involved in the conduct of the study and their family members,\nsite staff otherwise supervised by the investigator, and sponsor and sponsor delegate employees\ndirectly involved in the conduct of the study and their family members.\n-Breastfeeding female participants; male participants who are unwilling to follow pregnancy\nmeasures.",
-      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501\n\nStudy Nurse:\nMary Lan Wei\nmarylan.wei@uhn.ca\n\nData coordinator: \nMinnu Tom\nminnu.tom@uhn.ca",
-      "NCT number": "NCT07222800",
-      "Study status": "Active",
-      "Schema image": null,
-      "Key criteria (for PDF)": "1L PF-08634404 (antibody targeting both PD-1 and VEGF-A)+mFOLFOX6 VS bevacizumab+mFOLFOX6 in mCRC with attempted or known RAS (KRAS/NRAS) mutation.",
-      "PI contact (for PDF)": "eric.chen@uhn.ca "
-    },
-    {
-      "Disease Setting": "Any line",
-      "Trial Name": "ANCORA",
-      "Full title": "Anal and colorectal Cancer Prospective Repository and Clinical Annotation ",
-      "Additional notes": "Prospective collection of clinical data, bloods, stool, and tissue ",
-      "Tissue Requirements": "N/A",
-      "Biomarker/unselected": "N/A",
-      "Trial Intervention/Arms": "Stage I: metastatic colorectal cancer",
-      "Eligibility ": "1. staying at PMH to start a new line of systemic therapy",
-      "Contacts": "Site PI: Enrique Sanz Garcia (enrique.sanzgarcia@uhn.ca)",
-      "NCT number": null,
-      "Study status": "Active",
-      "Schema image": null,
-      "Key criteria (for PDF)": null,
-      "PI contact (for PDF)": "enrique.sanzgarcia@uhn.ca"
     }
   ],
   "GE": [
@@ -248,7 +216,7 @@
       "Full title": "A Randomized, Phase III Study of Rilvegostomig in Combination with Fluoropyrimidine and Trastuzumab Deruxtecan versus Trastuzumab, Chemotherapy, and Pembrolizumab for the First-line Treatment of HER2-positive Gastric Cancer ",
       "Additional notes": null,
       "Tissue Requirements": "Archival tissue (≤6 months); fresh tissue (3xT cores) ",
-      "Biomarker/unselected": "HER2 & PD-L1",
+      "Biomarker/unselected": "HER2 and PD-L1",
       "Trial Intervention/Arms": "A: Rilve + T-DXd + 5FU/Cape\nB: Pembro + tras + 5FU/Cape + platinum \nC: Rilve + tras + 5FU/Cape + platinum",
       "Eligibility ": "Her-2 + and PD-L1 CPS ≥ 1. \nPreviously untreated, unresectable, locally advanced or metastatic gastric or GEJ adenocarcinoma.\nHave measurable target disease assessed by the Investigator based on RECIST v1.1.\nLVEF ≥ 55% within 28 days before randomization.",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
@@ -365,10 +333,26 @@
       "Eligibility ": "Her-2 overexpression.\nILD/Pneumonitis excluded.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca",
       "NCT number": "NCT04379596",
-      "Study status": "Not recruiting",
+      "Study status": "On hold",
       "Schema image": null,
       "Key criteria (for PDF)": "Her-2 1+ or 2+/ISH neg\nILD/Pneumonitis excluded.",
       "PI contact (for PDF)": "eric.chen@uhn.ca "
+    },
+    {
+      "Disease Setting": "1L ",
+      "Trial Name": "AndroMETa-GEA-977",
+      "Full title": "A Phase 2 Randomized Study to Evaluate the Safety, Efficacy, and Optimal Dose of \nTelisotuzumab Adizutecan in Combination with Fluorouracil, Leucovorin, and Budigalimab as First-Line \nTreatment in Subjects with Locally Advanced Unresectable or Metastatic Gastric, Gastroesophageal \nJunction, or Esophageal Adenocarcinoma",
+      "Additional notes": "screening/enrollment is only temporarily closed as per dr elimova",
+      "Tissue Requirements": "Archival tissue (most recent); fresh tissue 3xT cores",
+      "Biomarker/unselected": "c-Met",
+      "Trial Intervention/Arms": "FOLFOX + budi vs Telisotuzumab adizutecan + budi + 5-FU + LV",
+      "Eligibility ": "Have inoperable, advanced or metastatic histologically- or cytologically confirmed gastric, gastroesophageal junction, or esophageal adenocarcinoma. HER2 negative",
+      "Contacts": "Site PI: \nElena Elimova\nelena.elimova@uhn.ca",
+      "NCT number": "NCT06628310",
+      "Study status": "On hold ",
+      "Schema image": null,
+      "Key criteria (for PDF)": "Not biomarker selected.\nHER2 negative\n",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca "
     },
     {
       "Disease Setting": "1L ",
@@ -392,7 +376,7 @@
       "Full title": "A Phase III, Multicentre, Randomised Controlled Study of Sonesitatug vedotin in Combination with Capecitabine with or without Rilvegostomig in First-line Claudin18.2-positive, HER2-negative, Advanced/Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma (CLARITY-Gastric 02).",
       "Additional notes": "This is a Phase III, 2-cohort, randomised, open-label, sponsor-blinded (sponsor does not know which treatment you receive) , multicentre, global study assessing the efficacy and safety of sonesitatug vedotin in combination with capecitabine alone or in combination with rilvegostomig compared with standard of care (SoC) in participants with HER2-negative, unresectable, locally advanced, or metastatic gastric, gastroesophageal junction (GEJ), or esophageal adenocarcinoma expressing CLDN18.2 that has not been treated before, and to assess the clinical performance of the investigational in vitro diagnostics (IVDs). Cohort 1 is a 3-arm design that will evaluate sonesitatug vedotin in combination with rilvegostomig and capecitabine (Arm A) or sonesitatug vedotin in combination with nivolumab and capecitabine (Arm B), versus SoC nivolumab plus CAPOX or FOLFOX (Arm C) in participants who are CLDN18.2 positive and PD-L1 combined positive score (CPS) ≥ 1. Cohort 2 is a 2-arm design that will evaluate sonesitatug vedotin in combination with capecitabine (Arm D) versus CAPOX or FOLFOX alone or in combination with zolbetuximab (Arm E) in participants who are CLDN18.2 positive and PD-L1 CPS < 1 or CPS ≥ 1 and ICI ineligible. Approximately 1200 participants will be randomised in a 1:1:1 ratio in cohort 1, and about 930 participants will be randomised in a 1:1 ratio in cohort 2. Participants will receive study intervention until radiological progression unless there is evidence of unacceptable toxicity, withdrawal of consent, or other criteria for discontinuation are met. After study intervention discontinuation, all participants will undergo an end of treatment (EOT) visit within 7 days and will be followed up for safety assessments at about 30 days and 90 days after their last dose of study intervention, then all participants will be followed up for survival status until death, withdrawal of consent, or the end of the study.",
       "Tissue Requirements": "FFPE tumor sample (fresh or archival - 3 months prior to screening) for CLDN18.2 and PD-L1 testing to central lab. Lab TAT is minimum 5 business days from sample received at central lab.\nHER 2 status by local testing.",
-      "Biomarker/unselected": "CLDN18.2 & PD-L1",
+      "Biomarker/unselected": "CLDN18.2 and PD-L1",
       "Trial Intervention/Arms": "Arm A - Sonsesitatug Vedotin + Rilvegostomig + Capecitabine\nArm B - Sonsesitatug Vedotin + Nivolumab + Capecitabine\nArm C - Nivolumab + CAPOX or FOLFOX (SOC Arm)\nArm D - Sonsesitatug Vedotin + Capecitabine\nArm E - CAPOX or FOLFOX with or without Zolbetuximab (SOC Arm)",
       "Eligibility ": "Inclusion criteria:\n- Previously untreated histologically documented unresectable, locally advanced, or metastatic gastric, GEJ, or distal esophagus (distal third of the esophagus) adenocarcinoma\n- Provision of a FFPE tumour sample (newly acquired or archival) adequate to assess the CLDN18.2 and PD-L1 expression prior to randomisation by central testing.\n- Positive CLDN18.2 expression\n- Confirmed PD-L1 CPS status by central IHC testing and ICI eligibility per investigator judgement\n- ECOG performance status of 0 or 1 with no deterioration to > 1 over the previous 2 weeks prior to baseline at screening and prior to randomisation.\n- At least one lesion (measurable and/or non-measurable) that can be accurately assessed by the investigator based on RECIST 1.1.\n- Adequate organ and bone marrow function\n\nExclusion criteria\n- Participants with known HER2-positive status as defined as IHC 3+ or IHC 2+/ISH+\n- Participant has significant or unstable gastric bleeding and/or untreated gastric ulcers.\n- Active or history of autoimmune or inflammatory disorders requiring systemic treatment with steroids or other immunosuppressive treatment or assessed by investigator as not appropriate to participate due to undue risk are excluded.\n- Has spinal cord compression or clinically active CNS metastases\n- History of brain perfusion problems (eg carotid stenosis) or stroke\n- Has CNS pathology\n- Participant has known clinically significant corneal disease (eg, active keratitis or corneal ulcerations).\n- Inadequate nutrition status\n- Participants with clinically significant pleural effusions or ascites and/or pleural effusions or ascites that require drainage, peritoneal shunt, or indwelling catheter/drain.\n- Participants that require parenteral nutrition support due to gastric or gastrointestinal obstruction.\n- History of organ transplant or allogeneic stem cell transplant.\n- Uncontrolled diabetes or diabetic neuropathy within 3 months prior to randomisation.\n-  A history of drug-induced non-infectious ILD/pneumonitis that has required oral or IV steroids.\n-  Uncontrolled active systemic fungal, bacterial, or other infection (defined as exhibiting ongoing signs/symptoms related to the infection and without improvement, despite appropriate antibiotics or other treatment).\n- Known partial or total DPD enzyme deficiency \n- Palliative radiotherapy with a limited field of radiation within 2 weeks or with wide field of radiation or to more than 30% of the bone marrow within 4 weeks before randomisation.\n- Prior exposure to any ADC with MMAE payload or any CLDN18.2 targeting treatment.\n- Current or prior use of immunosuppressive medication within 14 days before the first dose of study intervention should be excluded.\n- Major surgical procedure (excluding placement of vascular access) or significant traumatic injury within 4 weeks of the first dose of study intervention or an anticipated need for major surgery during the study.",
       "Contacts": "Site PI: \nDr. Elena Elimova\nElena.Elimova@uhn.ca\n\nStudy Nurses: \nGuillaume Cheung guillaume.cheung@uhn.ca\n\nElaine Lung\nelaine.lung@uhn.ca\n\nCSRA: Huda Ahmed\nhudawaseem.ahmed@uhn.ca ",
@@ -417,27 +401,11 @@
       "Schema image": null,
       "Key criteria (for PDF)": "HER2 positive",
       "PI contact (for PDF)": "elena.elimova@uhn.ca "
-    },
-    {
-      "Disease Setting": "Locally Advanced Resectable",
-      "Trial Name": "AACR-ADOPT-GEA",
-      "Full title": "AACR Adaptive Biomarker-Driven Organ Preservation Trial in GE Adenocarcinomas (AACR-ADOPT-GEA)",
-      "Additional notes": "AACR-ADOPT-GEA is a two-stage, prospective, multi-center, perioperative biomarker driven open-label study. The study design consists of biomarker-driven sub-studies that include two stages (Stages I and II). Stage I is comprised of two steps: a screening step and a biomarker-directed treatment step. In step 1, eligible patients will sign a screening consent and tumor tissue specimens for biomarker assessment will be collected. Patients may receive one cycle of FLOT\nor mFOLFOX6 while waiting for biomarker results. In step 2, once biomarker results are returned and a biomarker is identified that is included within the platform, patients will sign a second consent for their identified biomarker subgroup. They will then be assigned to a particular biomarker-specific sub-study (i.e., HER2, MSI-H/EBV, claudin-18.2, FGFR2b, or additionally available biomarkers as allowed by the adaptive design) and continue with chemotherapy backbone and a single agent immune checkpoint inhibitor with the addition of a selected specific biomarker driven targeted therapy or immunotherapy. Perioperative mFOLFOX6, which has comparable efficacy and a favorable toxicity profile compared to FLOT, has been selected for use in this study92, 93. Individuals who commence FLOT as the chemotherapy backbone will switch to mFOLFOX6 once a targeted agent is selected for addition. Those individuals who commence mFOLFOX6 will continue it. If all biomarkers are negative and there is no target identified, that individual patient will continue as per current standard of care therapy off study.\nAll patients who are registered and initiate any combination treatment (chemotherapy backbone, an immunotherapy agent, and/or a biomarker-guided agent) will receive 4 months of treatment in the pre-operative setting followed by surgery and post-operative therapy for a total duration of up to 1 year. Upon 24 patients having completed surgery in a particular sub-study, the decision to graduate that respective therapy to Stage II will be based on stipulated statistics, and only successful therapies for each biomarker will enter Stage II.",
-      "Tissue Requirements": "Tissue collection will be performed during longitudinal endoscopies and tumor resection.\nBiomarkers based on central immunohistochemistry (IHC) testing, 6-8 endoscopy tumor fragments will be processed using standard in-house clinical formalin fixation and paraffin embedding (FFPE) protocols. One Hematoxylin-Eosin (H&E) stained slide and thirteen consecutive 4-5μm thick histology sections made from these FPPE blocks will be shipped within 3-5 days to the central IHC testing laboratory at Roche.\n6-8 tumour fragments (fresh tissue biopsy) \n4-6 non-tumour fragments (fresh tissue biopsy)",
-      "Biomarker/unselected": "HER2 & PD-L1",
-      "Trial Intervention/Arms": "HER2 arm now open\nEligible patients will sign a screening consent, and research tissue for biomarker assessment will be collected. Patients may receive one cycle of FLOT (docetaxel, 5-fluorouracil, leucovorin, and oxaliplatin) or mFOLFOX6 (5-fluorouracil, leucovorin, oxaliplatin) while waiting for biomarker results.\nOnce biomarker results are returned and a biomarker is identified that is included within the study platform, patients will sign a second consent for their identified biomarker subgroup, and continue with chemotherapy backbone and a single agent immune checkpoint inhibitor (ICI) with the addition of a selected biomarker-driven targeted therapy.",
-      "Eligibility ": "1. Histologically confirmed diagnosis of resectable (i.e., radical surgery eligible), HER2-positive (defined as 3+ HER2 expression by IHC or 2+ HER2 expression by IHC with ISH-positivity per central assessment) adenocarcinoma of the stomach or esophagus including the gastroesophageal junction. Stage II or higher disease (≥T2 N0-3 M0 or T0-4a N1-3 M0) per NCCN guidelines. T2N0 disease with high-risk features including but not limited to poorly differentiated or signet ring morphology and/or those that are larger than 3cm in size with a high risk of node positive disease that is not seen on imaging will be eligible for inclusion. See Appendix V for the clinical staging criteria.\n2. Formalin-fixed, paraffin-embedded (FFPE) tumor sample tested at a central laboratory confirming HER2-positive status.\n3. FFPE tumor sample tested at a central laboratory confirming PD-L1 TAP score ≥1%.",
-      "Contacts": "Site PI: \nDr. Elena Elimova\nelena.elimova@uhn.ca\n\nHER2 Substudy PI: \nDr. Lucy Ma\nLucy.Ma@uhn.ca\n\nPrimary Study Nurse: \nMary (Lan) Wei\nMarylan.Wei@uhn.ca\n\nPrimary CRC1: \nYvonne Bach\nyvonne.bach2@uhn.ca\n\nPrimary Clinical Study and Regulatory Specialist: \nMorteza Azhdarzadeh\nMorteza.Azhdarzadeh@uhn.ca",
-      "NCT number": "NCT07290985",
-      "Study status": "Active",
-      "Schema image": null,
-      "Key criteria (for PDF)": "HER2 positive and PDL1 TAP >=1%",
-      "PI contact (for PDF)": "elena.elimova@uhn.ca\nlucy.ma@uhn.ca"
     }
   ],
   "HCC": [
     {
-      "EnteEn": "Peri-OR",
+      "Disease Setting": "Peri-OR",
       "Trial Name": "NEOTOMA",
       "Full title": "Perioperative Therapy with Durvalumab Plus Tremelimumab for Patients with\nResectable Hepatocellular Carcinoma (HCC) - A Phase II Trial",
       "Additional notes": null,
@@ -453,7 +421,7 @@
       "PI contact (for PDF)": "anand.ghanekar@uhn.ca"
     },
     {
-      "EnteEn": "Pre-transplant",
+      "Disease Setting": "Pre-transplant",
       "Trial Name": "BeyondIO (HMLTO002)",
       "Full title": "Atezolizumab and Bevacizumab Pre-Liver Transplantation for Patients with Hepatocellular Carcinoma Beyond Milan Criteria: A Feasibility Study",
       "Additional notes": null,
@@ -469,7 +437,7 @@
       "PI contact (for PDF)": "arndt.vogel@uhn.ca"
     },
     {
-      "EnteEn": "1st line",
+      "Disease Setting": "1st line",
       "Trial Name": "ARTEMIDE HCC01",
       "Full title": "A Phase III Randomised, Open Label, Sponsor-Blinded, Multicentre Study of Rilvegostomig in Combination with Bevacizumab with or without Tremelimumab as First-line Treatment in Patients with Advanced Hepatocellular Carcinoma",
       "Additional notes": "ON HOLD. \nSafety Run In has closed. Decision to proceed to next phase will be mid-December. ",
@@ -485,7 +453,7 @@
       "PI contact (for PDF)": "jennifer.knox@uhn.ca "
     },
     {
-      "EnteEn": "1st Line ",
+      "Disease Setting": "1st Line ",
       "Trial Name": "HE.2 (SLIDE-HCC)",
       "Full title": "A Phase II Study of STRIDE (Durvalumab + Tremelimumab) with Lenvatinib Versus Stride Alone in Patients with Unresectable Hepatocellular Carcinoma (SLIDE-HCC)",
       "Additional notes": null,
@@ -501,7 +469,7 @@
       "PI contact (for PDF)": "jennifer.knox@uhn.ca"
     },
     {
-      "EnteEn": "1st or 2nd",
+      "Disease Setting": "1st or 2nd",
       "Trial Name": "CaboTx\n ",
       "Full title": "A Phase II Trial of Cabozantinib in the Treatment of Recurrent Hepatocellular Carcinoma Post Liver Transplant",
       "Additional notes": null,
@@ -517,7 +485,7 @@
       "PI contact (for PDF)": "robert.grant@uhn.ca \njennifer.knox@uhn.ca "
     },
     {
-      "EnteEn": "Any line",
+      "Disease Setting": "Any line",
       "Trial Name": "TYR430-101",
       "Full title": "A Multicenter, Open-label, First-in-Human Study of TYRA-430 in Advanced Hepatocellular Carcinoma and Other Solid Tumors with Activating FGF/FGFR pathway aberrations",
       "Additional notes": "Participating in Part A\n\nWaitlist for spots. ",
@@ -533,7 +501,7 @@
       "PI contact (for PDF)": "ardnt.vogel@uhn.ca "
     },
     {
-      "EnteEn": "Last line",
+      "Disease Setting": "Last line",
       "Trial Name": "ITER-002-HCC",
       "Full title": "A phase 1/2 exploratory study of the TBL1 inhibitor, tegavivint (BC2059), in patients with advanced hepatocellular carcinoma",
       "Additional notes": null,
@@ -549,7 +517,7 @@
       "PI contact (for PDF)": "eric.chen@uhn.ca "
     },
     {
-      "EnteEn": "2nd",
+      "Disease Setting": "2nd",
       "Trial Name": "BANTAM-01",
       "Full title": "A multicenter, open label, non-randomized first-in-human phase 1 dose escalation and expansion study to evaluate the safety, tolerability, pharmacokinetics, and anti-tumor activity of BAY 3547926 alone, and in combination, in participants with advanced hepatocellular carcinoma (HCC)",
       "Additional notes": "This is a Phase 1, open-label, non-randomized, first-in-human study in participants with advanced hepatocellular carcinoma (HCC). \n\nThe purpose of the study is to evaluate the safety, tolerability, PK, anti-tumour activity of BAY 3547926 alone, and in combination in this patient population. \n\nThe study will have 3 phases.\n1. Part 1: Dose Escalation\n2. Part 2: Dose Expansion as monotherapy \n3. Part 3: Dose Expansion in combination with Atezolizumab and Bevacizumab \n\nThe study aims to enroll up to 148 participants globally. Each participants will follow the pre-screening period to test whether they have the particular protein, called GCP3 protein, in their tumor cells, a screening period, study intervention period, active follow-up period and long-term follow-up period. The study duration for each participant will be 48 months in part 1 and 2. Participants will continue to receive the study intervention until disease progression, or they experience unacceptable side effects or if they withdraw from the study.",
@@ -565,12 +533,12 @@
       "PI contact (for PDF)": "ardnt.vogel@uhn.ca "
     },
     {
-      "EnteEn": "Any line",
+      "Disease Setting": "Any line",
       "Trial Name": "MYTHIC",
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
       "Tissue Requirements": "Archived tumor tissue sample available or lesion that can be safely biopsied if the archival sample is not available. There are no specific requirements for tissue type, but sample needs to have 30% tumour content. Archival sample are to be prepared into 20 slides for IHC, FISH, and DNA/RNA extraction. \n\nPatients who do not have archival sample and biopsy collection are not feasible due to safety reason are still possible to be screen for the study after consultation with study Sponsor. ",
-      "Biomarker/unselected": "CCNE1/FBXW7/PPP2R1A",
+      "Biomarker/unselected": "CCNE1\nFBXW7\nPPP2R1A",
       "Trial Intervention/Arms": "Patient will be assign to only one dosing schedule - lunresertib in combination with Debio 0123 on the 3 days on/4 days off dosing for two weeks, followed by a week break (2 week on/1 week off). Dosage of lunresertib and Debio0123 may vary.",
       "Eligibility ": "Inclusion Criteria:\n- Male or female and ≥12 years-of-age at the time of signature of the ICF.\n- ECOG Performance Status score of 0 or 1. Lansky performance status ≥50 for patients ≤16 years of age\n- Patients are eligible if, in the opinion of the Investigator, the patient is not a candidate for,\nor would be unlikely to tolerate or derive significant clinical benefit from, appropriate standard-of-care therapy, or if the patient declines standard-of-care therapy. Documented counselling by the center Investigator on benefits/risks of standard-of-care therapy is required for enrolled patients who decline standard-of-care therapy.\n- Measurable disease as per RECIST v1.1.\n- Ability to swallow and retain oral tablets and capsules whole and intact.\n- Hemoglobin ≥10.0 g/dL except if anemia is due to potentially reversible and manageable etiology (e.g. bleeding from tumor lesion)\n- Creatinine clearance ≥60 mL/min calculated using Cockcroft-Gault equation or measured by 24-hour urine collection. For patients 12 to 17 years of age, renal function should be calculated using Cockcroft-Gault or institutional standard, including institutional formula specific for this age group.\n\nExclusion Criteria:\n- Chemotherapy or small molecule antineoplastic agent given within 21 days or <5 halflives,\nand monoclonal antibodies given within 28 days or <5 half-lives, whichever is shorter, prior to first dose of study drug.\n- Presence of other known second malignancy with the exception of any cancer that has been in complete remission for ≥ 2 years or completely resected squamous and basal cell carcinomas of the skin.\n- Prior therapy with a PKMYT1 or WEE1 inhibitor.\n- Patients who are unable to swallow oral tablets and capsules whole and intact\n- Clinically significant gastrointestinal abnormality that would affect the absorption of drugs, such as malabsorption syndrome, major resection of the small bowel, total gastrectomy, or inflammatory bowel disease.\n- Major surgery (excluding placement of vascular access) within 4 weeks prior to first dose of study drug.\n- Uncontrolled, symptomatic brain metastases.\n- Uncontrolled hypertension (systolic blood pressure ≥160 mmHg; diastolic blood pressure ≥100 mmHg) despite adequate treatment prior to first dose of study drug.\n- Patients with active, uncontrolled bacterial, fungal, or viral infection, including hepatitis B virus (HBV), hepatitis C virus (HCV), known human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) related illness.\n- Moderate or severe hepatic impairment (ie, Child-Pugh class B or C).\n- Mean resting QT interval corrected for heart rate (QTc) interval using the Fridericia formula (QTcF) >450 msec (as calculated per institutional standards) obtained from 3 ECGs ≥1 minute apart at study entry.\n- Current treatment with medications that are well-known to prolong the QT interval or with known risk of TdP (Appendix 2). If patients are on these medications, a wash-out period of at least 5 half-lives is needed prior to receiving the treatment.\n- Immunization with live or live-attenuated vaccine within 28 days prior to study inclusion or planned injection of live or live-attenuated vaccine.",
       "Contacts": "Site PI: \nDr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: \nVivian Feng\nvivian.feng2@uhn.ca",
@@ -581,7 +549,7 @@
       "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
     },
     {
-      "EnteEn": "Non-Therapeutic",
+      "Disease Setting": "Non-Therapeutic",
       "Trial Name": "HPB Robotic Surgery Database ",
       "Full title": "HPB Robotic Surgery Prospective Database Curriculum Development.",
       "Additional notes": "This is an Observational Quality Assessment study that aims to gather clinical data and assess the quality of care recommended and received by patients underwent HPB robotic surgeries.",
@@ -761,6 +729,22 @@
       "PI contact (for PDF)": "erica.tsang@uhn.ca "
     },
     {
+      "Disease Setting": "Locally Advanced Unresectable",
+      "Trial Name": "NASC-009/NCI 10464\n\n",
+      "Full title": "A Phase 1 Study of Olaparib in Combination with Durvalumab (MEDI4736) and Concurrent Radiation Therapy Following First-Line Chemotherapy in Locally Advanced Unresectable Pancreatic Cancer",
+      "Additional notes": "Unresectable PDAC on 1L. chemotherapy > 16 weeks without progression. ",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Cycle 1: Olaparib BID + Durvalumab C1D1 \n\nCycle 2: Olaparib + Durva + RT (39Gy in 15Fx starting C2D1) \n\nCycle 3 onwards: Olaparib + Durva q4w \n ",
+      "Eligibility ": "Inclusion: \nhave had prior 1L chemotherapy for this cancer for at least 16 weeks without clinical, biochemical, or radiologic progression\nBody weight > 30 kg.\nLife expectancy >= 16 weeks.\nWilling to provide archived tissue, if available, from a previous biopsy\nExclusion:\nHad prior upper abdominal radiotherapy prior to entering the study.\nMajor surgical procedure within 28 days prior to enrollment.\nPatients who are receiving any other investigational agents.\nMust not have germline BRCA1 or BRCA2 mutation.",
+      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
+      "NCT number": "NCT05411094",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "Unresectable PDAC on 1L. chemotherapy > 16 weeks without progression. ",
+      "PI contact (for PDF)": "erica.tsang@uhn.ca "
+    },
+    {
       "Disease Setting": "2L Metastatic+",
       "Trial Name": "ADOPT\n\n\n",
       "Full title": "ADOPT: ADaptive Organoid-Based Precision Therapy Study in Pancreatic Cancer, A Prospective Single-Arm Phase II Trial",
@@ -828,16 +812,16 @@
       "Disease Setting": "2L Only Metastatic",
       "Trial Name": "GSK223675",
       "Full title": "A Phase 1b/2, multicenter, open-label study to evaluate the efficacy and safety of GSK5764227 alone and in combination in participants with previously treated advanced unresectable or metastatic gastrointestinal solid tumors.",
-      "Additional notes": null,
+      "Additional notes": "Cohort B = PDAC (2L only) - ON PAUSE since 04-Feb-2026.",
       "Tissue Requirements": "Fresh core biopsy (if not feasible, archival tumor tissue, FFPE block (preferred), slides from the most recent biopsy is acceptable).",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Cohort B (PDAC):\nPart 1B: Signal Seeking\n• GSK'227 10 mg/kg Q3W\nPart 1B: Optional Extension\n• GSK'227 ≤ 10 mg/kg Q3W and/or ≤ 6 mg/kg Q2W",
       "Eligibility ": "Inclusion criteria: \n• Histologically or cytologically confirmed unresectable, LAPDAC or mPDAC.\n• Must have received 1 and no more than 1 line of therapy for advanced PDAC, with documented progression (PD on neoadjuvant or adjuvant chemotherapy during treatment or within 6 months of EOT are eligible).\n• At least 1 target lesion per RECIST 1.1.\nExclusion criteria: \n• Has a malignancy (except disease under study) that has progressed or required active treatment within the past 24 months except for basal cell or squamous cell carcinomas of the skin or in-situ carcinoma.\n• Is currently enrolled or has participated in any other clinical study involving an investigational study intervention or any other type of interventional medical research and/or has received treatment with any anticancer or investigational agent before first dose of study intervention.\n• Has received immunosuppressive agents within 30 days prior to first dose of study intervention.\n• Has received any prior therapy with an ADC with a TOPO1-inhibitor payload.\n• Has serious or poorly controlled hypertension.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06885034",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": "NCT06885034.png",
-      "Key criteria (for PDF)": "Must have received no more than 1 line of therapy for advanced PDAC, with PD on neoadjuvant or adjuvant chemo during treatment or within 6 months of EOT.",
+      "Key criteria (for PDF)": "Must have received no more than1 line of therapy for advanced PDAC, with PD on neoadjuvant or adjuvant chemo during treatment or within 6 months of EOT.",
       "PI contact (for PDF)": "eric.chen@uhn.ca"
     },
     {
@@ -846,7 +830,7 @@
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
       "Tissue Requirements": "Archived tumor tissue sample available or lesion that can be safely biopsied if the archival sample is not available. There are no specific requirements for tissue type, but sample needs to have 30% tumour content. Archival sample are to be prepared into 20 slides for IHC, FISH, and DNA/RNA extraction. \n\nPatients who do not have archival sample and biopsy collection are not feasible due to safety reason are still possible to be screen for the study after consultation with study Sponsor. ",
-      "Biomarker/unselected": "CCNE1/FBXW7/PPP2R1A",
+      "Biomarker/unselected": "CCNE1\nFBXW7\nPPP2R1A",
       "Trial Intervention/Arms": "Patient will be assign to only one dosing schedule - lunresertib in combination with Debio 0123 on the 3 days on/4 days off dosing for two weeks, followed by a week break (2 week on/1 week off). Dosage of lunresertib and Debio0123 may vary.",
       "Eligibility ": "Inclusion Criteria:\n- Male or female and ≥12 years-of-age at the time of signature of the ICF.\n- ECOG Performance Status score of 0 or 1. Lansky performance status ≥50 for patients ≤16 years of age\n- Patients are eligible if, in the opinion of the Investigator, the patient is not a candidate for,\nor would be unlikely to tolerate or derive significant clinical benefit from, appropriate standard-of-care therapy, or if the patient declines standard-of-care therapy. Documented counselling by the center Investigator on benefits/risks of standard-of-care therapy is required for enrolled patients who decline standard-of-care therapy.\n- Measurable disease as per RECIST v1.1.\n- Ability to swallow and retain oral tablets and capsules whole and intact.\n- Hemoglobin ≥10.0 g/dL except if anemia is due to potentially reversible and manageable etiology (e.g. bleeding from tumor lesion)\n- Creatinine clearance ≥60 mL/min calculated using Cockcroft-Gault equation or measured by 24-hour urine collection. For patients 12 to 17 years of age, renal function should be calculated using Cockcroft-Gault or institutional standard, including institutional formula specific for this age group.\n\nExclusion Criteria:\n- Chemotherapy or small molecule antineoplastic agent given within 21 days or <5 halflives,\nand monoclonal antibodies given within 28 days or <5 half-lives, whichever is shorter, prior to first dose of study drug.\n- Presence of other known second malignancy with the exception of any cancer that has been in complete remission for ≥ 2 years or completely resected squamous and basal cell carcinomas of the skin.\n- Prior therapy with a PKMYT1 or WEE1 inhibitor.\n- Patients who are unable to swallow oral tablets and capsules whole and intact\n- Clinically significant gastrointestinal abnormality that would affect the absorption of drugs, such as malabsorption syndrome, major resection of the small bowel, total gastrectomy, or inflammatory bowel disease.\n- Major surgery (excluding placement of vascular access) within 4 weeks prior to first dose of study drug.\n- Uncontrolled, symptomatic brain metastases.\n- Uncontrolled hypertension (systolic blood pressure ≥160 mmHg; diastolic blood pressure ≥100 mmHg) despite adequate treatment prior to first dose of study drug.\n- Patients with active, uncontrolled bacterial, fungal, or viral infection, including hepatitis B virus (HBV), hepatitis C virus (HCV), known human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) related illness.\n- Moderate or severe hepatic impairment (ie, Child-Pugh class B or C).\n- Mean resting QT interval corrected for heart rate (QTc) interval using the Fridericia formula (QTcF) >450 msec (as calculated per institutional standards) obtained from 3 ECGs ≥1 minute apart at study entry.\n- Current treatment with medications that are well-known to prolong the QT interval or with known risk of TdP (Appendix 2). If patients are on these medications, a wash-out period of at least 5 half-lives is needed prior to receiving the treatment.\n- Immunization with live or live-attenuated vaccine within 28 days prior to study inclusion or planned injection of live or live-attenuated vaccine.",
       "Contacts": "Site PI: \nDr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
@@ -908,14 +892,14 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "C3651021 (RIVER)",
       "Full title": "A PHASE 2b/3, RANDOMIZED, DOUBLE-BLIND STUDY TO INVESTIGATE THE \nEFFICACY, SAFETY, AND TOLERABILITY OF PONSEGROMAB (PF-06946860) \nCOMPARED WITH PLACEBO BOTH WITH BACKGROUND FIRST-LINE \nCHEMOTHERAPY IN ADULT PARTICIPANTS WITH CACHEXIA AND \nMETASTATIC PANCREATIC DUCTAL ADENOCARCINOMA",
-      "Additional notes": "Enrollment on Hold (17Jul2026)\n\nA Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
+      "Additional notes": "A Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
       "Tissue Requirements": "If available, an archival tumor FFPE biopsy block or unstained freshly cut paraffin sections \nof tumor specimen collected within 6 months of enrollment should be submitted. If tumor tissue is not available or cannot be provided, the participant can still be enrolled if the study eligibility criteria are met. ",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Ponsegromab Double-blind Treatment 200mg Q4W\nPonsegromab Double-blind Treatment 400mg Q4W\nPlacebo Double-blind Treatment Q4W",
-      "Eligibility ": "Key Inclusion Criteria: \n\n- Documented active diagnosis of metastatic pancreatic ductal adenocarcinoma\n- Cachexia defined by Fearon criteria of weight loss (involuntary body weight loss of >5% within 6 months prior to screening irrespective of BMI; or BMI <20 kg/m2 with involuntary body weight loss of >2% within 6 months prior to screening)\n- Completed 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\n\nKey Exclusion Criteria: \n\n- Current active reversible causes of decreased food intake\n- Cachexia caused by other reasons\n- Any prior or current clinical diagnosis of heart failure, irrespective of left ventricular ejection fraction or New York Heart Association classification\n- Left ventricular ejection fraction <50%\n- Receiving tube feedings or parenteral nutrition at the time of Screening or Randomization\n- History of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\n- History of allergy or hypersensitivity to any of the chemotherapeutics or any of their excipients\n- Neuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\n- Inadequate liver function\n- Renal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
+      "Eligibility ": "Key Inclusion Criteria: \n\n- Documented active diagnosis of metastatic pancreatic ductal adenocarcinoma\n- Cachexia defined by Fearon criteria of weight loss\n- Completed 1 x 28-day cycle of first-line systemic nab-paclitaxel and gemcitabine chemotherapy or 2 x 14-day cycles of FOLFIRINOX chemotherapy and prior to receiving Cycle 2 chemotherapy\nECOG PS ≤1 with life expectancy of at least 4 months\n\nKey Exclusion Criteria: \n\n- Current active reversible causes of decreased food intake\n- Cachexia caused by other reasons\n- Any prior or current clinical diagnosis of heart failure, irrespective of left ventricular ejection fraction or New York Heart Association classification\n- Left ventricular ejection fraction <50%\n- Receiving tube feedings or parenteral nutrition at the time of Screening or Randomization\n- History of allergic or anaphylactic reaction to any therapeutic or diagnostic monoclonal antibody\n- History of allergy or hypersensitivity to any of the chemotherapeutics or any of their excipients\n- Neuroendocrine (carcinoid, islet cell) or acinar pancreatic carcinoma, symptomatic brain metastasis, leptomeningeal disease or other active CNS metastases\n- Inadequate liver function\n- Renal disease requiring dialysis or eGFR <30 mL/min/1.73m2",
       "Contacts": "Site PI: \nDr. Jennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca\n\nStudy Data Coordinator:\nDemitra Michelis demitra.michelis@uhn.ca",
       "NCT number": "NCT06989437",
-      "Study status": "Not Recruiting",
+      "Study status": "Active",
       "Schema image": "NCT06989437.png",
       "Key criteria (for PDF)": "Cachexia defined by Fearon criteria of weight loss. Completed 1 x 28-day cycle of 1L nab-paclitaxel and gemcitabine or 2 x 14-day cycles of FOLFIRINOX and prior to receiving Cycle 2.",
       "PI contact (for PDF)": "jennifer.knox@uhn.ca"
@@ -944,7 +928,7 @@
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
       "Additional notes": "This is a Phase 1/1b, multi-center, open-label study to evaluate the safety, tolerability, PK,\npharmacodynamics, and preliminary efficacy of lunresertib in combination with Debio 0123, a WEE1 kinase inhibitor. The module will be conducted in 2 parts (4a and 4b): dose escalation (Module 4a) in patients with advanced solid tumors harboring either CCNE1 amplification or a deleterious mutation in either FBXW7 or PPP2R1A.\n\nThe study is no longer testing combination of lunresertib and RP-3500 on participants. ",
       "Tissue Requirements": "Archived tumor tissue sample available or lesion that can be safely biopsied if the archival sample is not available. There are no specific requirements for tissue type, but sample needs to have 30% tumour content. Archival sample are to be prepared into 20 slides for IHC, FISH, and DNA/RNA extraction. \n\nPatients who do not have archival sample and biopsy collection are not feasible due to safety reason are still possible to be screen for the study after consultation with study Sponsor. ",
-      "Biomarker/unselected": "CCNE1/FBXW7/PPP2R1A",
+      "Biomarker/unselected": "CCNE1\nFBXW7\nPPP2R1A",
       "Trial Intervention/Arms": "Patient will be assign to only one dosing schedule - lunresertib in combination with Debio 0123 on the 3 days on/4 days off dosing for two weeks, followed by a week break (2 week on/1 week off). Dosage of lunresertib and Debio0123 may vary.",
       "Eligibility ": "Inclusion Criteria:\n- Male or female and ≥12 years-of-age at the time of signature of the ICF.\n- ECOG Performance Status score of 0 or 1. Lansky performance status ≥50 for patients ≤16 years of age\n- Patients are eligible if, in the opinion of the Investigator, the patient is not a candidate for,\nor would be unlikely to tolerate or derive significant clinical benefit from, appropriate standard-of-care therapy, or if the patient declines standard-of-care therapy. Documented counselling by the center Investigator on benefits/risks of standard-of-care therapy is required for enrolled patients who decline standard-of-care therapy.\n- Measurable disease as per RECIST v1.1.\n- Ability to swallow and retain oral tablets and capsules whole and intact.\n- Hemoglobin ≥10.0 g/dL except if anemia is due to potentially reversible and manageable etiology (e.g. bleeding from tumor lesion)\n- Creatinine clearance ≥60 mL/min calculated using Cockcroft-Gault equation or measured by 24-hour urine collection. For patients 12 to 17 years of age, renal function should be calculated using Cockcroft-Gault or institutional standard, including institutional formula specific for this age group.\n\nExclusion Criteria:\n- Chemotherapy or small molecule antineoplastic agent given within 21 days or <5 halflives,\nand monoclonal antibodies given within 28 days or <5 half-lives, whichever is shorter, prior to first dose of study drug.\n- Presence of other known second malignancy with the exception of any cancer that has been in complete remission for ≥ 2 years or completely resected squamous and basal cell carcinomas of the skin.\n- Prior therapy with a PKMYT1 or WEE1 inhibitor.\n- Patients who are unable to swallow oral tablets and capsules whole and intact\n- Clinically significant gastrointestinal abnormality that would affect the absorption of drugs, such as malabsorption syndrome, major resection of the small bowel, total gastrectomy, or inflammatory bowel disease.\n- Major surgery (excluding placement of vascular access) within 4 weeks prior to first dose of study drug.\n- Uncontrolled, symptomatic brain metastases.\n- Uncontrolled hypertension (systolic blood pressure ≥160 mmHg; diastolic blood pressure ≥100 mmHg) despite adequate treatment prior to first dose of study drug.\n- Patients with active, uncontrolled bacterial, fungal, or viral infection, including hepatitis B virus (HBV), hepatitis C virus (HCV), known human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) related illness.\n- Moderate or severe hepatic impairment (ie, Child-Pugh class B or C).\n- Mean resting QT interval corrected for heart rate (QTc) interval using the Fridericia formula (QTcF) >450 msec (as calculated per institutional standards) obtained from 3 ECGs ≥1 minute apart at study entry.\n- Current treatment with medications that are well-known to prolong the QT interval or with known risk of TdP (Appendix 2). If patients are on these medications, a wash-out period of at least 5 half-lives is needed prior to receiving the treatment.\n- Immunization with live or live-attenuated vaccine within 28 days prior to study inclusion or planned injection of live or live-attenuated vaccine.",
       "Contacts": "PI: Dr. Stephanie Lheureux\n416-946-2818\nStephanie.Lheureux@uhn.ca\n\nStudy Coordinator: Vivian Feng\nvivian.feng2@uhn.ca",
@@ -1068,7 +1052,7 @@
       "Full title": "A Phase I/II Study of an FGFR2/​3 Inhibitor (CGT4859) in Patients With Cholangiocarcinoma and Other Advanced Solid Tumors",
       "Additional notes": null,
       "Tissue Requirements": null,
-      "Biomarker/unselected": "FGFR2/FGFR3",
+      "Biomarker/unselected": "FGFR2\nFGFR3",
       "Trial Intervention/Arms": "CGT4859 ",
       "Eligibility ": "FGFR2 fusions.\nExcluded if received more than 2 prior FGFRi therapies.\nHave measurable disease per RECIST v1.1.\n",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nPrimary CRC:\nStephen Lam\nstephen.lam@uhn.ca",
@@ -1096,7 +1080,7 @@
       "Full title": "Comparing Second-Line NABPLAGEM vs. Nab-paclitaxel/Gemcitabine in BRCA1/2 or PALB2 Mutant Metastatic Pancreatic Ductal Adenocarcinoma",
       "Additional notes": null,
       "Tissue Requirements": "Archival tumour tissue unstained slides.",
-      "Biomarker/unselected": "BRCA1/2/ PALB2",
+      "Biomarker/unselected": "BRCA1/2 or PALB2",
       "Trial Intervention/Arms": "NABPLAGEM VS. nab-paclitaxel and gemcitabine\n",
       "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma, adenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nExclusion:\nNo prior Cisplatin",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nDowon Choi\nDowon.Choi@uhn.ca\nPhone: 416-946-4501 x 4713",
@@ -1208,7 +1192,7 @@
       "Full title": "Phase 1b Expansion Study of CX-5461 In Patients With Solid Tumors and BRCA2 and/or PALB2 mutation",
       "Additional notes": null,
       "Tissue Requirements": "Tumor biopsy at screening and at the time of disease progression.\nBlood collected at screening, Day 1 and Day 8 of cycles 1 and 2 (each cycle is 28 days), every 8 weeks after cycle 2, and at the time of study discontinuation.",
-      "Biomarker/unselected": "BRCA2/PALB2",
+      "Biomarker/unselected": "BRCA2\nPALB2",
       "Trial Intervention/Arms": "Phase 1b Expansion Study of CX-5461 In Patients with Solid Tumors and BRCA2 and/or PALB2 mutation ",
       "Eligibility ": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. ",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
@@ -1311,34 +1295,6 @@
       "Eligibility ": "Histologically-confirmed cholangio; \nlocally or centrally confirmed IDH1 mutation\nTreatment with up to one cycle of durvalumab plus gemcitabine/cisplatin treatment is permitted before study participation. ",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nTrial Nurse:\nSerena (Ching) Kao\nChing.Kao@uhn.ca\n",
       "NCT number": "NCT06501625",
-      "Schema image": null
-    },
-    {
-      "Organ group": "PDAC",
-      "Disease Setting": "Locally Advanced Unresectable",
-      "Trial Name": "NASC-009/NCI 10464\n\n",
-      "Full title": "A Phase 1 Study of Olaparib in Combination with Durvalumab (MEDI4736) and Concurrent Radiation Therapy Following First-Line Chemotherapy in Locally Advanced Unresectable Pancreatic Cancer",
-      "Additional notes": "Enrollment closed as of 26-Jun-2026.\nUnresectable PDAC on 1L. chemotherapy > 16 weeks without progression. ",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Cycle 1: Olaparib BID + Durvalumab C1D1 \n\nCycle 2: Olaparib + Durva + RT (39Gy in 15Fx starting C2D1) \n\nCycle 3 onwards: Olaparib + Durva q4w \n ",
-      "Eligibility ": "Inclusion: \nhave had prior 1L chemotherapy for this cancer for at least 16 weeks without clinical, biochemical, or radiologic progression\nBody weight > 30 kg.\nLife expectancy >= 16 weeks.\nWilling to provide archived tissue, if available, from a previous biopsy\nExclusion:\nHad prior upper abdominal radiotherapy prior to entering the study.\nMajor surgical procedure within 28 days prior to enrollment.\nPatients who are receiving any other investigational agents.\nMust not have germline BRCA1 or BRCA2 mutation.",
-      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
-      "NCT number": "NCT05411094",
-      "Schema image": null
-    },
-    {
-      "Organ group": "GE",
-      "Disease Setting": "1L ",
-      "Trial Name": "AndroMETa-GEA-977",
-      "Full title": "A Phase 2 Randomized Study to Evaluate the Safety, Efficacy, and Optimal Dose of \nTelisotuzumab Adizutecan in Combination with Fluorouracil, Leucovorin, and Budigalimab as First-Line \nTreatment in Subjects with Locally Advanced Unresectable or Metastatic Gastric, Gastroesophageal \nJunction, or Esophageal Adenocarcinoma",
-      "Additional notes": null,
-      "Tissue Requirements": "Archival tissue (most recent); fresh tissue 3xT cores",
-      "Biomarker/unselected": "c-Met",
-      "Trial Intervention/Arms": "FOLFOX + budi vs Telisotuzumab adizutecan + budi + 5-FU + LV",
-      "Eligibility ": "Have inoperable, advanced or metastatic histologically- or cytologically confirmed gastric, gastroesophageal junction, or esophageal adenocarcinoma. HER2 negative",
-      "Contacts": "Site PI: \nElena Elimova\nelena.elimova@uhn.ca",
-      "NCT number": "NCT06628310",
       "Schema image": null
     }
   ],
@@ -2064,26 +2020,6 @@
         "Trial Name": "MYTHIC",
         "change": "added",
         "timestamp": "2026-06-18T13:10:57"
-      },
-      {
-        "Trial Name": "C3651021 (RIVER)",
-        "change": "modified",
-        "timestamp": "2026-06-26T16:01:10"
-      },
-      {
-        "Trial Name": "GSK223675",
-        "change": "modified",
-        "timestamp": "2026-07-06T12:23:38"
-      },
-      {
-        "Trial Name": "C3651021 (RIVER)",
-        "change": "modified",
-        "timestamp": "2026-07-17T09:12:27"
-      },
-      {
-        "Trial Name": "MYTHIC",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:00:08"
       }
     ],
     "HCC": [
@@ -2506,61 +2442,6 @@
         "Trial Name": "MYTHIC",
         "change": "added",
         "timestamp": "2026-06-18T13:10:57"
-      },
-      {
-        "Trial Name": "NEOTOMA",
-        "change": "modified",
-        "timestamp": "2026-07-15T15:00:02"
-      },
-      {
-        "Trial Name": "BeyondIO (HMLTO002)",
-        "change": "modified",
-        "timestamp": "2026-07-15T15:00:02"
-      },
-      {
-        "Trial Name": "ARTEMIDE HCC01",
-        "change": "modified",
-        "timestamp": "2026-07-15T15:00:02"
-      },
-      {
-        "Trial Name": "HE.2 (SLIDE-HCC)",
-        "change": "modified",
-        "timestamp": "2026-07-15T15:00:02"
-      },
-      {
-        "Trial Name": "CaboTx\n ",
-        "change": "modified",
-        "timestamp": "2026-07-15T15:00:02"
-      },
-      {
-        "Trial Name": "TYR430-101",
-        "change": "modified",
-        "timestamp": "2026-07-15T15:00:02"
-      },
-      {
-        "Trial Name": "ITER-002-HCC",
-        "change": "modified",
-        "timestamp": "2026-07-15T15:00:02"
-      },
-      {
-        "Trial Name": "BANTAM-01",
-        "change": "modified",
-        "timestamp": "2026-07-15T15:00:02"
-      },
-      {
-        "Trial Name": "MYTHIC",
-        "change": "modified",
-        "timestamp": "2026-07-15T15:00:02"
-      },
-      {
-        "Trial Name": "HPB Robotic Surgery Database ",
-        "change": "modified",
-        "timestamp": "2026-07-15T15:00:02"
-      },
-      {
-        "Trial Name": "MYTHIC",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:00:08"
       }
     ],
     "Gastroesophageal": [
@@ -3324,31 +3205,6 @@
         "Trial Name": "S095031-210",
         "change": "added",
         "timestamp": "2026-06-18T12:42:42"
-      },
-      {
-        "Trial Name": "NASC-009/NCI 10464\n\n",
-        "change": "added",
-        "timestamp": "2026-06-30T15:59:42"
-      },
-      {
-        "Trial Name": "AndroMETa-GEA-977",
-        "change": "added",
-        "timestamp": "2026-07-01T17:04:27"
-      },
-      {
-        "Trial Name": "CGT4859 ",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:28:19"
-      },
-      {
-        "Trial Name": "Platinum-Can\n\n\n",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:28:19"
-      },
-      {
-        "Trial Name": "OZM-114\n\n",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:28:19"
       }
     ],
     "CRC": [
@@ -4101,41 +3957,6 @@
         "Trial Name": "MYTHIC",
         "change": "added",
         "timestamp": "2026-06-18T13:10:57"
-      },
-      {
-        "Trial Name": "C6461003",
-        "change": "added",
-        "timestamp": "2026-07-01T16:32:02"
-      },
-      {
-        "Trial Name": "C6461003",
-        "change": "modified",
-        "timestamp": "2026-07-01T16:38:16"
-      },
-      {
-        "Trial Name": "C6461003",
-        "change": "modified",
-        "timestamp": "2026-07-01T16:40:03"
-      },
-      {
-        "Trial Name": "C6461003",
-        "change": "modified",
-        "timestamp": "2026-07-01T16:42:43"
-      },
-      {
-        "Trial Name": "GSK223675 ",
-        "change": "modified",
-        "timestamp": "2026-07-06T12:23:38"
-      },
-      {
-        "Trial Name": "MYTHIC",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:00:08"
-      },
-      {
-        "Trial Name": "ANCORA",
-        "change": "added",
-        "timestamp": "2026-07-21T17:25:14"
       }
     ],
     "GE": [
@@ -4423,51 +4244,6 @@
         "Trial Name": "DESTINY-Gastric05 ",
         "change": "modified",
         "timestamp": "2026-06-18T12:42:42"
-      },
-      {
-        "Trial Name": "DESTINY-Gastric03",
-        "change": "modified",
-        "timestamp": "2026-07-01T16:32:02"
-      },
-      {
-        "Trial Name": "AndroMETa-GEA-977",
-        "change": "modified",
-        "timestamp": "2026-07-01T16:32:02"
-      },
-      {
-        "Trial Name": "AACR-ADOPT-GEA",
-        "change": "added",
-        "timestamp": "2026-07-02T11:31:44"
-      },
-      {
-        "Trial Name": "AACR-ADOPT-GEA",
-        "change": "modified",
-        "timestamp": "2026-07-19T15:02:03"
-      },
-      {
-        "Trial Name": "ARTEMIDE-Gastric01 ",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:00:08"
-      },
-      {
-        "Trial Name": "CLARITY-Gastric 02 (D9803C00001)",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:00:08"
-      },
-      {
-        "Trial Name": "AACR-ADOPT-GEA",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:00:08"
-      },
-      {
-        "Trial Name": "AACR-ADOPT-GEA",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:28:19"
-      },
-      {
-        "Trial Name": "AACR-ADOPT-GEA",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:56:57"
       }
     ],
     "pNET": [
@@ -4575,11 +4351,6 @@
         "Trial Name": "MYTHIC",
         "change": "added",
         "timestamp": "2026-06-18T13:10:57"
-      },
-      {
-        "Trial Name": "MYTHIC",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:00:08"
       }
     ]
   }

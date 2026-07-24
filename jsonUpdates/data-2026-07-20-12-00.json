@@ -207,22 +207,6 @@
       "Schema image": null,
       "Key criteria (for PDF)": "1L PF-08634404 (antibody targeting both PD-1 and VEGF-A)+mFOLFOX6 VS bevacizumab+mFOLFOX6 in mCRC with attempted or known RAS (KRAS/NRAS) mutation.",
       "PI contact (for PDF)": "eric.chen@uhn.ca "
-    },
-    {
-      "Disease Setting": "Any line",
-      "Trial Name": "ANCORA",
-      "Full title": "Anal and colorectal Cancer Prospective Repository and Clinical Annotation ",
-      "Additional notes": "Prospective collection of clinical data, bloods, stool, and tissue ",
-      "Tissue Requirements": "N/A",
-      "Biomarker/unselected": "N/A",
-      "Trial Intervention/Arms": "Stage I: metastatic colorectal cancer",
-      "Eligibility ": "1. staying at PMH to start a new line of systemic therapy",
-      "Contacts": "Site PI: Enrique Sanz Garcia (enrique.sanzgarcia@uhn.ca)",
-      "NCT number": null,
-      "Study status": "Active",
-      "Schema image": null,
-      "Key criteria (for PDF)": null,
-      "PI contact (for PDF)": "enrique.sanzgarcia@uhn.ca"
     }
   ],
   "GE": [
@@ -419,15 +403,15 @@
       "PI contact (for PDF)": "elena.elimova@uhn.ca "
     },
     {
-      "Disease Setting": "Locally Advanced Resectable",
+      "Disease Setting": "Definitive/Curative",
       "Trial Name": "AACR-ADOPT-GEA",
       "Full title": "AACR Adaptive Biomarker-Driven Organ Preservation Trial in GE Adenocarcinomas (AACR-ADOPT-GEA)",
       "Additional notes": "AACR-ADOPT-GEA is a two-stage, prospective, multi-center, perioperative biomarker driven open-label study. The study design consists of biomarker-driven sub-studies that include two stages (Stages I and II). Stage I is comprised of two steps: a screening step and a biomarker-directed treatment step. In step 1, eligible patients will sign a screening consent and tumor tissue specimens for biomarker assessment will be collected. Patients may receive one cycle of FLOT\nor mFOLFOX6 while waiting for biomarker results. In step 2, once biomarker results are returned and a biomarker is identified that is included within the platform, patients will sign a second consent for their identified biomarker subgroup. They will then be assigned to a particular biomarker-specific sub-study (i.e., HER2, MSI-H/EBV, claudin-18.2, FGFR2b, or additionally available biomarkers as allowed by the adaptive design) and continue with chemotherapy backbone and a single agent immune checkpoint inhibitor with the addition of a selected specific biomarker driven targeted therapy or immunotherapy. Perioperative mFOLFOX6, which has comparable efficacy and a favorable toxicity profile compared to FLOT, has been selected for use in this study92, 93. Individuals who commence FLOT as the chemotherapy backbone will switch to mFOLFOX6 once a targeted agent is selected for addition. Those individuals who commence mFOLFOX6 will continue it. If all biomarkers are negative and there is no target identified, that individual patient will continue as per current standard of care therapy off study.\nAll patients who are registered and initiate any combination treatment (chemotherapy backbone, an immunotherapy agent, and/or a biomarker-guided agent) will receive 4 months of treatment in the pre-operative setting followed by surgery and post-operative therapy for a total duration of up to 1 year. Upon 24 patients having completed surgery in a particular sub-study, the decision to graduate that respective therapy to Stage II will be based on stipulated statistics, and only successful therapies for each biomarker will enter Stage II.",
-      "Tissue Requirements": "Tissue collection will be performed during longitudinal endoscopies and tumor resection.\nBiomarkers based on central immunohistochemistry (IHC) testing, 6-8 endoscopy tumor fragments will be processed using standard in-house clinical formalin fixation and paraffin embedding (FFPE) protocols. One Hematoxylin-Eosin (H&E) stained slide and thirteen consecutive 4-5μm thick histology sections made from these FPPE blocks will be shipped within 3-5 days to the central IHC testing laboratory at Roche.\n6-8 tumour fragments (fresh tissue biopsy) \n4-6 non-tumour fragments (fresh tissue biopsy)",
+      "Tissue Requirements": "Tissue collection will be performed during longitudinal endoscopies and tumor resection.\nBiomarkers based on central immunohistochemistry (IHC) testing, 4-6 endoscopy tumor fragments will be processed using standard in-house clinical formalin fixation and paraffin embedding (FFPE) protocols. One Hematoxylin-Eosin (H&E) stained slide and thirteen consecutive 4-5μm thick histology sections made from these FPPE blocks will be shipped within 3-5 days to the central IHC testing laboratory at Roche.\n6-8 cores (fresh tissue biopsy) ",
       "Biomarker/unselected": "HER2 & PD-L1",
       "Trial Intervention/Arms": "HER2 arm now open\nEligible patients will sign a screening consent, and research tissue for biomarker assessment will be collected. Patients may receive one cycle of FLOT (docetaxel, 5-fluorouracil, leucovorin, and oxaliplatin) or mFOLFOX6 (5-fluorouracil, leucovorin, oxaliplatin) while waiting for biomarker results.\nOnce biomarker results are returned and a biomarker is identified that is included within the study platform, patients will sign a second consent for their identified biomarker subgroup, and continue with chemotherapy backbone and a single agent immune checkpoint inhibitor (ICI) with the addition of a selected biomarker-driven targeted therapy.",
       "Eligibility ": "1. Histologically confirmed diagnosis of resectable (i.e., radical surgery eligible), HER2-positive (defined as 3+ HER2 expression by IHC or 2+ HER2 expression by IHC with ISH-positivity per central assessment) adenocarcinoma of the stomach or esophagus including the gastroesophageal junction. Stage II or higher disease (≥T2 N0-3 M0 or T0-4a N1-3 M0) per NCCN guidelines. T2N0 disease with high-risk features including but not limited to poorly differentiated or signet ring morphology and/or those that are larger than 3cm in size with a high risk of node positive disease that is not seen on imaging will be eligible for inclusion. See Appendix V for the clinical staging criteria.\n2. Formalin-fixed, paraffin-embedded (FFPE) tumor sample tested at a central laboratory confirming HER2-positive status.\n3. FFPE tumor sample tested at a central laboratory confirming PD-L1 TAP score ≥1%.",
-      "Contacts": "Site PI: \nDr. Elena Elimova\nelena.elimova@uhn.ca\n\nHER2 Substudy PI: \nDr. Lucy Ma\nLucy.Ma@uhn.ca\n\nPrimary Study Nurse: \nMary (Lan) Wei\nMarylan.Wei@uhn.ca\n\nPrimary CRC1: \nYvonne Bach\nyvonne.bach2@uhn.ca\n\nPrimary Clinical Study and Regulatory Specialist: \nMorteza Azhdarzadeh\nMorteza.Azhdarzadeh@uhn.ca",
+      "Contacts": "PI: Dr Elena Elimova\nelena.elimova@uhn.ca\n\nHER2 Substudy PI: Dr Lucy Ma\nLucy.Ma@uhn.ca\n\nPrimary Study Nurse: \nMary (Lan) Wei\nMarylan.Wei@uhn.ca\n\nPrimary CRC1: \nYvonne Bach\nyvonne.bach2@uhn.ca\n\nPrimary Clinical Study and Regulatory Specialist: \nMorteza Azhdarzadeh\nMorteza.Azhdarzadeh@uhn.ca",
       "NCT number": "NCT07290985",
       "Study status": "Active",
       "Schema image": null,
@@ -1068,7 +1052,7 @@
       "Full title": "A Phase I/II Study of an FGFR2/​3 Inhibitor (CGT4859) in Patients With Cholangiocarcinoma and Other Advanced Solid Tumors",
       "Additional notes": null,
       "Tissue Requirements": null,
-      "Biomarker/unselected": "FGFR2/FGFR3",
+      "Biomarker/unselected": "FGFR2\nFGFR3",
       "Trial Intervention/Arms": "CGT4859 ",
       "Eligibility ": "FGFR2 fusions.\nExcluded if received more than 2 prior FGFRi therapies.\nHave measurable disease per RECIST v1.1.\n",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\nPrimary CRC:\nStephen Lam\nstephen.lam@uhn.ca",
@@ -1096,7 +1080,7 @@
       "Full title": "Comparing Second-Line NABPLAGEM vs. Nab-paclitaxel/Gemcitabine in BRCA1/2 or PALB2 Mutant Metastatic Pancreatic Ductal Adenocarcinoma",
       "Additional notes": null,
       "Tissue Requirements": "Archival tumour tissue unstained slides.",
-      "Biomarker/unselected": "BRCA1/2/ PALB2",
+      "Biomarker/unselected": "BRCA1/2 or PALB2",
       "Trial Intervention/Arms": "NABPLAGEM VS. nab-paclitaxel and gemcitabine\n",
       "Eligibility ": "Inclusion: \nECOG 0-2 \nHistologic documentation of metastatic pancreatic adenocarcinoma, adenosquamous carcinoma, carcinoma or acinar carcinoma\n\nPathogenic BRCA1/2 or PALB2 mutation (somatic or germline)\n \nExclusion:\nNo prior Cisplatin",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinator:\nDowon Choi\nDowon.Choi@uhn.ca\nPhone: 416-946-4501 x 4713",
@@ -1208,7 +1192,7 @@
       "Full title": "Phase 1b Expansion Study of CX-5461 In Patients With Solid Tumors and BRCA2 and/or PALB2 mutation",
       "Additional notes": null,
       "Tissue Requirements": "Tumor biopsy at screening and at the time of disease progression.\nBlood collected at screening, Day 1 and Day 8 of cycles 1 and 2 (each cycle is 28 days), every 8 weeks after cycle 2, and at the time of study discontinuation.",
-      "Biomarker/unselected": "BRCA2/PALB2",
+      "Biomarker/unselected": "BRCA2\nPALB2",
       "Trial Intervention/Arms": "Phase 1b Expansion Study of CX-5461 In Patients with Solid Tumors and BRCA2 and/or PALB2 mutation ",
       "Eligibility ": "Inclusion: \nHistologically confirmed pancreatic, ovarian, prostate or breast cancers with pathogenic/likely pathogenic germline BRCA2 and/or PALB2 mutation \nMeasurable disease as per RECIST 1.1.\nExclusion:\nPatients with malignant bowel obstruction.\nUnresolved toxicity > CTCAE grade 1 from previous anti-cancer therapy \nTreatment with an investigational (non-registered - other than PARP inhibitor) agent within 30 days and treatment with PARP inhibitor within 14 days prior to the first dose of study medication\nNo concurrent systemic anti-cancer therapy, biological therapy or other novel agent is to be permitted. ",
       "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nNicole De Pinto\nNicole.DePinto@unityhealth.to\n416-946-4501 ext. 3132",
@@ -3334,21 +3318,6 @@
         "Trial Name": "AndroMETa-GEA-977",
         "change": "added",
         "timestamp": "2026-07-01T17:04:27"
-      },
-      {
-        "Trial Name": "CGT4859 ",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:28:19"
-      },
-      {
-        "Trial Name": "Platinum-Can\n\n\n",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:28:19"
-      },
-      {
-        "Trial Name": "OZM-114\n\n",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:28:19"
       }
     ],
     "CRC": [
@@ -4131,11 +4100,6 @@
         "Trial Name": "MYTHIC",
         "change": "modified",
         "timestamp": "2026-07-20T12:00:08"
-      },
-      {
-        "Trial Name": "ANCORA",
-        "change": "added",
-        "timestamp": "2026-07-21T17:25:14"
       }
     ],
     "GE": [
@@ -4458,16 +4422,6 @@
         "Trial Name": "AACR-ADOPT-GEA",
         "change": "modified",
         "timestamp": "2026-07-20T12:00:08"
-      },
-      {
-        "Trial Name": "AACR-ADOPT-GEA",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:28:19"
-      },
-      {
-        "Trial Name": "AACR-ADOPT-GEA",
-        "change": "modified",
-        "timestamp": "2026-07-20T12:56:57"
       }
     ],
     "pNET": [

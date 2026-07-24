@@ -207,22 +207,6 @@
       "Schema image": null,
       "Key criteria (for PDF)": "1L PF-08634404 (antibody targeting both PD-1 and VEGF-A)+mFOLFOX6 VS bevacizumab+mFOLFOX6 in mCRC with attempted or known RAS (KRAS/NRAS) mutation.",
       "PI contact (for PDF)": "eric.chen@uhn.ca "
-    },
-    {
-      "Disease Setting": "Any line",
-      "Trial Name": "ANCORA",
-      "Full title": "Anal and colorectal Cancer Prospective Repository and Clinical Annotation ",
-      "Additional notes": "Prospective collection of clinical data, bloods, stool, and tissue ",
-      "Tissue Requirements": "N/A",
-      "Biomarker/unselected": "N/A",
-      "Trial Intervention/Arms": "Stage I: metastatic colorectal cancer",
-      "Eligibility ": "1. staying at PMH to start a new line of systemic therapy",
-      "Contacts": "Site PI: Enrique Sanz Garcia (enrique.sanzgarcia@uhn.ca)",
-      "NCT number": null,
-      "Study status": "Active",
-      "Schema image": null,
-      "Key criteria (for PDF)": null,
-      "PI contact (for PDF)": "enrique.sanzgarcia@uhn.ca"
     }
   ],
   "GE": [
@@ -4131,11 +4115,6 @@
         "Trial Name": "MYTHIC",
         "change": "modified",
         "timestamp": "2026-07-20T12:00:08"
-      },
-      {
-        "Trial Name": "ANCORA",
-        "change": "added",
-        "timestamp": "2026-07-21T17:25:14"
       }
     ],
     "GE": [
