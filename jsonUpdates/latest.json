@@ -1373,6 +1373,71 @@
       "Biomarker": "MTAP"
     }
   ],
+  "PDF ONLY": [
+    {
+      "Organ Group": "CRC",
+      "Trial Name": "A Phase 1 Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Anti-tumour activity of VVD-133214, as Monotherapy and in Combination in Participants with Advanced Solid Tumors Harboring MSI And/Or dMMR",
+      "Disease Setting": "3L+",
+      "Trial Intervention/Arms": "Currently enrolling in Part 2 Cohort 2A (CRC): VVD-133214 (oral targeted drug) + bevacizumab ",
+      "Key criteria": "MSI-H/dMMR CRC. Must have received 2-3 lines of systemic therapy. Adj/neoadj chemo and/or immunotherapy counts as a treatment line if PD occurred during treatment or within 12 months of completion.",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": null
+    },
+    {
+      "Organ Group": "CCA",
+      "Trial Name": "A Phase 1/1b Study Evaluating the Safety, Tolerability, and Pharmacokinetics of AMG 436 as Monotherapy and in Combination with Other Therapies in Participants with MSI-H/dMMR Solid Tumors",
+      "Disease Setting": "2L+",
+      "Trial Intervention/Arms": "Currently enrolling in AMG 436 (WRN inhibitor) monotherapy ",
+      "Key criteria": "MSI-H/dMMR m/LA solid tumor. Progressed on  ≥1 prior systemic therapy (including at least one prior anti-PD-1/PD-L1 therapy if available) or be intolerant to SoC. No participants with Werner syndrome, no prior tx with WRN helicase inhibitor.",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": null
+    },
+    {
+      "Organ Group": "CRC",
+      "Trial Name": "A Phase 1/1b Study Evaluating the Safety, Tolerability, and Pharmacokinetics of AMG 436 as Monotherapy and in Combination with Other Therapies in Participants with MSI-H/dMMR Solid Tumors",
+      "Disease Setting": "2L+",
+      "Trial Intervention/Arms": "Currently enrolling in AMG 436 (WRN inhibitor) monotherapy ",
+      "Key criteria": "MSI-H/dMMR m/LA solid tumor. Progressed on  ≥1 prior systemic therapy (including at least one prior anti-PD-1/PD-L1 therapy if available) or be intolerant to SoC. No participants with Werner syndrome, no prior tx with WRN helicase inhibitor.",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": null
+    },
+    {
+      "Organ Group": "HCC",
+      "Trial Name": "A Phase 1/1b Study Evaluating the Safety, Tolerability, and Pharmacokinetics of AMG 436 as Monotherapy and in Combination with Other Therapies in Participants with MSI-H/dMMR Solid Tumors",
+      "Disease Setting": "2L+",
+      "Trial Intervention/Arms": "Currently enrolling in AMG 436 (WRN inhibitor) monotherapy ",
+      "Key criteria": "MSI-H/dMMR m/LA solid tumor. Progressed on  ≥1 prior systemic therapy (including at least one prior anti-PD-1/PD-L1 therapy if available) or be intolerant to SoC. No participants with Werner syndrome, no prior tx with WRN helicase inhibitor.",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": null
+    },
+    {
+      "Organ Group": "GE",
+      "Trial Name": "A Phase 1/1b Study Evaluating the Safety, Tolerability, and Pharmacokinetics of AMG 436 as Monotherapy and in Combination with Other Therapies in Participants with MSI-H/dMMR Solid Tumors",
+      "Disease Setting": "2L+",
+      "Trial Intervention/Arms": "Currently enrolling in AMG 436 (WRN inhibitor) monotherapy ",
+      "Key criteria": "MSI-H/dMMR m/LA solid tumor. Progressed on  ≥1 prior systemic therapy (including at least one prior anti-PD-1/PD-L1 therapy if available) or be intolerant to SoC. No participants with Werner syndrome, no prior tx with WRN helicase inhibitor.",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": null
+    },
+    {
+      "Organ Group": "PDAC",
+      "Trial Name": "A Phase 1/1b Study Evaluating the Safety, Tolerability, and Pharmacokinetics of AMG 436 as Monotherapy and in Combination with Other Therapies in Participants with MSI-H/dMMR Solid Tumors",
+      "Disease Setting": "2L+",
+      "Trial Intervention/Arms": "Currently enrolling in AMG 436 (WRN inhibitor) monotherapy ",
+      "Key criteria": "MSI-H/dMMR m/LA solid tumor. Progressed on  ≥1 prior systemic therapy (including at least one prior anti-PD-1/PD-L1 therapy if available) or be intolerant to SoC. No participants with Werner syndrome, no prior tx with WRN helicase inhibitor.",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": null
+    },
+    {
+      "Organ Group": "pNET",
+      "Trial Name": "A Phase 1/1b Study Evaluating the Safety, Tolerability, and Pharmacokinetics of AMG 436 as Monotherapy and in Combination with Other Therapies in Participants with MSI-H/dMMR Solid Tumors",
+      "Disease Setting": "2L+",
+      "Trial Intervention/Arms": "Currently enrolling in AMG 436 (WRN inhibitor) monotherapy ",
+      "Key criteria": "MSI-H/dMMR m/LA solid tumor. Progressed on  ≥1 prior systemic therapy (including at least one prior anti-PD-1/PD-L1 therapy if available) or be intolerant to SoC. No participants with Werner syndrome, no prior tx with WRN helicase inhibitor.",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": null
+    }
+  ],
   "Changes": {
     "PDAC": [
       {
@@ -4585,6 +4650,18 @@
         "Trial Name": "MYTHIC",
         "change": "modified",
         "timestamp": "2026-07-20T12:00:08"
+      }
+    ],
+    "PDF ONLY": [
+      {
+        "Trial Name": "A Phase 1 Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Anti-tumour activity of VVD-133214, as Monotherapy and in Combination in Participants with Advanced Solid Tumors Harboring MSI And/Or dMMR",
+        "change": "added",
+        "timestamp": "2026-07-28T00:49:00"
+      },
+      {
+        "Trial Name": "A Phase 1/1b Study Evaluating the Safety, Tolerability, and Pharmacokinetics of AMG 436 as Monotherapy and in Combination with Other Therapies in Participants with MSI-H/dMMR Solid Tumors",
+        "change": "added",
+        "timestamp": "2026-07-28T00:49:00"
       }
     ]
   }
