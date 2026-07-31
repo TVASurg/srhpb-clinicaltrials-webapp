@@ -949,7 +949,7 @@ function addPDFcoverPage()
 
 function ericList(data)
 {
-
+//07-29-2026 implementing 'pdf only' trials - this should be imported in the sheet 'PDF ONLY'
 // Build rows from mapping, with multi-line first column
 
 if (data.CRC != null){
@@ -966,25 +966,35 @@ const columnMap = [
   { header: "", key: "Study status" }
 ];
 
+const pdfOnlyColumnMap = [
+  { header: "", key: null }, // first column for vertical rowspan text
+  { header: "Title", key: "Trial Name" },
+  { header: "Setting", key: "Disease Setting" },
+  { header: "Arms", key: "Trial Intervention/Arms" },
+  { header: "Key Criteria", key: "Key criteria" },
+  { header: "Contact", key: "PI contact" },
+  { header: "NCT", key: "NCT" },
+  { header: "Organ Group", key: "Organ Group" }
+];
+
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 
-const rows = data.CRC.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
+const rowsMain = data.CRC.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
-
-    // if (typeof value === "string" && value.includes("Coordinator")) {
-    //   // Keep only text before "Coordinator"
-    //   value = value.split("Coordinator")[0].trim();
-    // }
-
-    /* if (typeof value === "string" && value.includes("Nurse")) {
-      // Keep only text before "Coordinator"
-      value = value.split("Nurse")[0].trim();
-    }*/
     return value;
   })
 );
+
+const rowsPDFonly = data["PDF ONLY"].filter(trial => trial[pdfOnlyColumnMap[7].key] === "CRC").map(trial =>
+  pdfOnlyColumnMap.map((col, colIndex) => {
+    let value = trial[col.key] ?? "";
+    return value;
+  })
+);
+
+const rows = [...rowsMain, ...rowsPDFonly];
 
 // Variable to store rowspan height
 let groupRowSpanHeight = 0;
@@ -1090,23 +1100,35 @@ const columnMap = [
   { header: "", key: "Study status" }
 ];
 
+const pdfOnlyColumnMap = [
+  { header: "", key: null }, // first column for vertical rowspan text
+  { header: "Title", key: "Trial Name" },
+  { header: "Setting", key: "Disease Setting" },
+  { header: "Arms", key: "Trial Intervention/Arms" },
+  { header: "Key Criteria", key: "Key criteria" },
+  { header: "Contact", key: "PI contact" },
+  { header: "NCT", key: "NCT" },
+  { header: "Organ Group", key: "Organ Group" }
+];
+
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 
-  const rows = data.GE.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
+const rowsMain = data.GE.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
-
-    // if (typeof value === "string" && value.includes("Coordinator")) {
-    //   // Keep only text before "Coordinator"
-    //   value = value.split("Coordinator")[0].trim();
-    // }
-
-
-  
     return value;
   })
 );
+
+const rowsPDFonly = data["PDF ONLY"].filter(trial => trial[pdfOnlyColumnMap[7].key] === "GE").map(trial =>
+  pdfOnlyColumnMap.map((col, colIndex) => {
+    let value = trial[col.key] ?? "";
+    return value;
+  })
+);
+
+const rows = [...rowsMain, ...rowsPDFonly];
 
 // Variable to store rowspan height
 let groupRowSpanHeight = 0;
@@ -1207,26 +1229,36 @@ const columnMap = [
   { header: "NCT", key: "NCT number" },
   { header: "", key: "Study status" }
 ];
+
+const pdfOnlyColumnMap = [
+  { header: "", key: null }, // first column for vertical rowspan text
+  { header: "Title", key: "Trial Name" },
+  { header: "Setting", key: "Disease Setting" },
+  { header: "Arms", key: "Trial Intervention/Arms" },
+  { header: "Key Criteria", key: "Key criteria" },
+  { header: "Contact", key: "PI contact" },
+  { header: "NCT", key: "NCT" },
+  { header: "Organ Group", key: "Organ Group" }
+];
+
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
-//we may need to cull the contacts for just site PI;
 
-
-const rows = data.HCC.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
+const rowsMain = data.HCC.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
-
-    // if (typeof value === "string" && value.includes("Coordinator")) {
-    //   // Keep only text before "Coordinator"
-    //   value = value.split("Coordinator")[0].trim();
-    // }
-
-
-  
-  
     return value;
   })
 );
+
+const rowsPDFonly = data["PDF ONLY"].filter(trial => trial[pdfOnlyColumnMap[7].key] === "HCC").map(trial =>
+  pdfOnlyColumnMap.map((col, colIndex) => {
+    let value = trial[col.key] ?? "";
+    return value;
+  })
+);
+
+const rows = [...rowsMain, ...rowsPDFonly];
 
 // Variable to store rowspan height
 let groupRowSpanHeight = 0;
@@ -1326,25 +1358,36 @@ const columnMap = [
   { header: "NCT", key: "NCT number" },
   { header: "", key: "Study status" }
 ];
+
+const pdfOnlyColumnMap = [
+  { header: "", key: null }, // first column for vertical rowspan text
+  { header: "Title", key: "Trial Name" },
+  { header: "Setting", key: "Disease Setting" },
+  { header: "Arms", key: "Trial Intervention/Arms" },
+  { header: "Key Criteria", key: "Key criteria" },
+  { header: "Contact", key: "PI contact" },
+  { header: "NCT", key: "NCT" },
+  { header: "Organ Group", key: "Organ Group" }
+];
+
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
-//we may need to cull the contacts for just site PI;
 
-
-const rows = data.PDAC.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
+const rowsMain = data.PDAC.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
-
-    if (typeof value === "string" && value.includes("Coordinator")) {
-      // Keep only text before "Coordinator"
-      value = value.split("Coordinator")[0].trim();
-    }
-
-
-  
     return value;
   })
 );
+
+const rowsPDFonly = data["PDF ONLY"].filter(trial => trial[pdfOnlyColumnMap[7].key] === "PDAC").map(trial =>
+  pdfOnlyColumnMap.map((col, colIndex) => {
+    let value = trial[col.key] ?? "";
+    return value;
+  })
+);
+
+const rows = [...rowsMain, ...rowsPDFonly];
 
 // Variable to store rowspan height
 let groupRowSpanHeight = 0;
@@ -1445,23 +1488,35 @@ const columnMap = [
   { header: "", key: "Study status" }
 ];
 
+const pdfOnlyColumnMap = [
+  { header: "", key: null }, // first column for vertical rowspan text
+  { header: "Title", key: "Trial Name" },
+  { header: "Setting", key: "Disease Setting" },
+  { header: "Arms", key: "Trial Intervention/Arms" },
+  { header: "Key Criteria", key: "Key criteria" },
+  { header: "Contact", key: "PI contact" },
+  { header: "NCT", key: "NCT" },
+  { header: "Organ Group", key: "Organ Group" }
+];
+
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 
-  const rows = data.CCA.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
+const rowsMain = data.CCA.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
-
-    if (typeof value === "string" && value.includes("Coordinator")) {
-      // Keep only text before "Coordinator"
-      value = value.split("Coordinator")[0].trim();
-    }
-
-
-  
     return value;
   })
 );
+
+const rowsPDFonly = data["PDF ONLY"].filter(trial => trial[pdfOnlyColumnMap[7].key] === "CCA").map(trial =>
+  pdfOnlyColumnMap.map((col, colIndex) => {
+    let value = trial[col.key] ?? "";
+    return value;
+  })
+);
+
+const rows = [...rowsMain, ...rowsPDFonly];
 
 // Variable to store rowspan height
 let groupRowSpanHeight = 0;
@@ -1562,26 +1617,37 @@ const columnMap = [
   { header: "Contact", key: "PI contact (for PDF)" },
   { header: "NCT", key: "NCT number" },
   { header: "", key: "Study status" }
+];
 
+const pdfOnlyColumnMap = [
+  { header: "", key: null }, // first column for vertical rowspan text
+  { header: "Title", key: "Trial Name" },
+  { header: "Setting", key: "Disease Setting" },
+  { header: "Arms", key: "Trial Intervention/Arms" },
+  { header: "Key Criteria", key: "Key criteria" },
+  { header: "Contact", key: "PI contact" },
+  { header: "NCT", key: "NCT" },
+  { header: "Organ Group", key: "Organ Group" }
 ];
 
 // Build headers from mapping
 const headers = columnMap.map(col => col.header);
 
-  const rows = data.pNET.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
+const rowsMain = data.pNET.filter(trial => trial[columnMap[7].key] === "Active").map(trial =>
   columnMap.map((col, colIndex) => {
     let value = trial[col.key] ?? "";
-
-    if (typeof value === "string" && value.includes("Coordinator")) {
-      // Keep only text before "Coordinator"
-      value = value.split("Coordinator")[0].trim();
-    }
-
-
-  
     return value;
   })
 );
+
+const rowsPDFonly = data["PDF ONLY"].filter(trial => trial[pdfOnlyColumnMap[7].key] === "pNET").map(trial =>
+  pdfOnlyColumnMap.map((col, colIndex) => {
+    let value = trial[col.key] ?? "";
+    return value;
+  })
+);
+
+const rows = [...rowsMain, ...rowsPDFonly];
 
 // Variable to store rowspan height
 let groupRowSpanHeight = 0;
