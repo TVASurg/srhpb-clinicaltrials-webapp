@@ -932,7 +932,7 @@
       "Contacts": "Site PI:\nDr. Jennifer Knox \nJennifer.Knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse:\nSarah Eng \nSarah.Eng@uhn.ca\n416-946-4501 x 3132\n\nStudy Data Coordinator:\nDivakar Kanpure\nDivakarHarihar.Kanpure@uhn.ca",
       "NCT number": "NCT07522073",
       "Study status": "Active",
-      "Schema image": "DAWN-303 SCHEMA.png",
+      "Schema image": "NCT07522073.png",
       "Key criteria (for PDF)": "Documented KRAS G12D mutation in tumor tissue or blood (eg, ctDNA genetic testing).\n\nNo prior systemic treatment for metastatic PDAC.",
       "PI contact (for PDF)": "jennifer.knox@uhn.ca"
     }
@@ -2214,6 +2214,11 @@
         "Trial Name": "INCB161734-303 (DAWN-303)",
         "change": "modified",
         "timestamp": "2026-08-12T14:10:24"
+      },
+      {
+        "Trial Name": "INCB161734-303 (DAWN-303)",
+        "change": "modified",
+        "timestamp": "2026-08-13T09:58:11"
       }
     ],
     "HCC": [
