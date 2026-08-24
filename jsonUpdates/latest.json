@@ -938,7 +938,7 @@
     },
     {
       "Disease Setting": "2L Only Metastatic",
-      "Trial Name": "VS-7375 (TARGET-D 201) - Part A + B",
+      "Trial Name": "VS-7375 (TARGET-D 201) - Part B",
       "Full title": "A Phase 2, Open-label Study of VS-7375, an Oral KRAS G12D (ON/OFF) Inhibitor, as Monotherapy and with Cetuximab, in Patients with Metastatic KRAS G12D-Mutated Pancreatic Cancer (TARGET-D 201)",
       "Additional notes": "This Phase 2, open-label, 2-part, multicenter study is designed to assess the anticancer activity (efficacy), safety, tolerability, PK, and PD of daily oral VS-7375 monotherapy and in combination with cetuximab in participants with metastatic KRAS G12D-mutated PDAC who have received only 1 prior line of systemic therapy (Part A and B) or treatment-naïve metastatic KRAS G12D-mutated PDAC (Part C).\nIn Part A, approximately 40 participants will be randomized in a 1:1 fashion to VS-7375 monotherapy or VS-7375 in combination with cetuximab (approximately 20 participants in each arm). To assess the tumor metabolic dynamics, the first 5 participants treated with VS-7375 monotherapy and the first 5 participants treated with VS-7375 in combination with cetuximab will undergo fluorodeoxyglucose-positron emission tomography/computed tomography (FDG-PET/CT) at Screening, Week 3, and Week 6; FDG-PET is not required for subsequent disease assessments. Both arms will be analyzed using a 2-stage approach to determine if enrollment should continue after the first approximately 20 participants in each arm. If either or both arms demonstrate sufficient efficacy, they will then be expanded by approximately 60 additional participants per arm in Part B.\nIn Part C, approximately 25 treatment-naïve participants will be treated with VS-7375 in combination with cetuximab.",
       "Tissue Requirements": "Fresh tumor biopsy sample, if feasible, or archival tumor tissue (archival tissue must be no more than 24 months old) for central testing of KRAS and other tumor gene mutation status is mandatory. \n\nSubmission of the matched normal sample of either blood tubes or saliva samples for the central confirmation of KRAS and other tumor gene mutational status is mandatory.\n\nArchival Tumor Tissue required: 1 x FFPE block or 21 slides\n\nAdditional optional fresh biopsy samples collected at the time points specified.\n",
@@ -2252,6 +2252,11 @@
         "Trial Name": "VS-7375 (TARGET-D 201) - Part C",
         "change": "added",
         "timestamp": "2026-08-20T14:54:31"
+      },
+      {
+        "Trial Name": "VS-7375 (TARGET-D 201) - Part B",
+        "change": "added",
+        "timestamp": "2026-08-24T10:33:15"
       }
     ],
     "HCC": [
