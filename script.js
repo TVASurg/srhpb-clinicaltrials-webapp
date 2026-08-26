@@ -212,6 +212,7 @@ function initAllData() {
     //.catch(err => console.error('Error parsing JSON:', err));
   
   //hidePreactivations(pancreas_preactivation, "pancreas_preactivation")
+  updateModuleVersion();
 }
 
 //these are object/arrays to contain parsed data; parsing occurs in initAllData()
@@ -1842,4 +1843,15 @@ function scrollToTrialName(scrollTarget)
 function removeFooterSpacing()
 {
     document.getElementById('footer').classList.remove('bottomSpacerActive');
+}
+
+function updateModuleVersion()
+{
+  var today = new Date();
+  var currentYear = today.getFullYear();
+  var currentMonth = today.getMonth() + 1;
+  var currentDay = today.getDay();
+
+  document.getElementById("moduleVersion").innerHTML= "Module version " + currentYear + "." + currentMonth + currentDay;
+
 }
