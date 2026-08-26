@@ -980,7 +980,7 @@
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca",
       "NCT number": "NCT07491445",
       "Study status": "Active",
-      "Schema image": null,
+      "Schema image": "NCT07491445.png",
       "Key criteria (for PDF)": "RAS mutation status (either mutant or WT). 1L mPDAC, previously untreated in met. setting, diagnosed ≤6 weeks before consent. Availability of archival tissue within 5 years of randomization.",
       "PI contact (for PDF)": "erica.tsang@uhn.ca "
     }
@@ -2278,6 +2278,11 @@
         "Trial Name": "RMC-6236-303",
         "change": "added",
         "timestamp": "2026-08-26T09:39:51"
+      },
+      {
+        "Trial Name": "RMC-6236-303",
+        "change": "modified",
+        "timestamp": "2026-08-26T11:27:38"
       }
     ],
     "HCC": [
