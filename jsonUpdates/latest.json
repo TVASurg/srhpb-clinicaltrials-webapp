@@ -967,6 +967,22 @@
       "Schema image": "NCT07644559.png",
       "Key criteria (for PDF)": "KRAS G12D mutation.\n\nTreatment-naïve or received no more than 1 cycle of standard systemic therapy for metastatic disease.",
       "PI contact (for PDF)": "jennifer.knox@uhn.ca"
+    },
+    {
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "RMC-6236-303",
+      "Full title": "A Phase 3 Global, Multicenter, Open-label, Randomized, 3-Arm Study of Daraxonrasib Monotherapy or Daraxonrasib Plus Gemcitabine and Nab-paclitaxel versus Gemcitabine and Nab-paclitaxel as a First-Line Treatment for Patients with Metastatic Pancreatic Adenocarcinoma",
+      "Additional notes": "Phase 3 Study of Daraxonrasib and Daraxonrasib + GnP versus GnP as First-Line Therapy in Patients with Metastatic Pancreatic Adenocarcinoma",
+      "Tissue Requirements": "Archival tissue obtained within 5 years of randomization",
+      "Biomarker/unselected": "RAS",
+      "Trial Intervention/Arms": "Arm A- Daraxonrasib monotherapy\nArm B- Daraxonrasib + gemcitabine and nab-paclitaxel\nArm C- Gemcitabine and nab-paclitaxel",
+      "Eligibility ": "Inclusion criteria:\n- ECOG performance status 0 or 1\n- Characteristic: Definitive histologically or cytologically confirmed metastatic pancreatic adenocarcinoma\n- Measurable disease per RECIST 1.1 \n- Initial diagnosis of metastatic disease ≤ 6 weeks prior to informed consent\n- Previously not treated in metastatic setting\n- Documented RAS mutation status either mutant or wild type\n- Confirmed availability of archival tissue within 5 years of randomization\n- Adequate Organ Function: Bone marrow, Hepatic, Renal, and Coagulation\n- Serum albumin ≥ 3 g/dL\n\nExclusion Criteria:\n- Prior Treatment in metastatic setting of pancreatic adenocarcinoma\n- Prior therapy with a MAPK-pathway targeted therapy or RAS targeted vaccine is prohibited\n- Radical or definitive Radiotherapy and palliative radiotherapy given within 2 weeks prior to initiation of study treatment exceeding 25-30 Gy is prohibited\n- Exception: Prior systemic therapy given in neoadjuvant or adjuvant setting in combination with surgical resection at least 6 months prior to diagnosis of metastatic disease is allowed\n- Presence of locally advanced disease without measurable metastatic lesions\n- Other cancers that were diagnosed or treated other than pancreatic adenocarcinoma ≤3 years prior to randomization\n- Exceptions listed in protocol\n- Uncontrolled pleural effusion, pericardial effusion, clinically significant ascites\n- Requiring paracentesis, drainage, or diuretics within 4 weeks prior to randomization\n- Significant cardiovascular disease or cardiac conduction abnormalities\n- History of interstitial pneumonia, pneumonitis, pulmonary fibrosis, radiation pneumonitis, or any ongoing inflammation or active interstitial lung disease within 2 months of randomization\n- Toxicity associated with prior anticancer therapy that has not recovered to Grade ≤ 1\n- Active or uncontrolled viral infections or systemic infections\n- HIV infection, Hepatitis B, Hepatitis C\n- Any conditions that may affect drug absorption or continuation of study trial\n- Refractory nausea/ vomiting, malabsorption, significant bowel resection, inflammatory GI disease\n- Treatment with CYP3A4 inhibitors/inducers or Cyclosporine A\n- Hypersensitivity/allergy or contraindication with study treatments",
+      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca",
+      "NCT number": "NCT07491445",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "RAS mutation status (either mutant or WT). 1L mPDAC, previously untreated in met. setting, diagnosed ≤6 weeks before consent. Availability of archival tissue within 5 years of randomization.",
+      "PI contact (for PDF)": "erica.tsang@uhn.ca "
     }
   ],
   "pNET": [
@@ -2257,6 +2273,11 @@
         "Trial Name": "VS-7375 (TARGET-D 201) - Part B",
         "change": "added",
         "timestamp": "2026-08-24T10:33:15"
+      },
+      {
+        "Trial Name": "RMC-6236-303",
+        "change": "added",
+        "timestamp": "2026-08-26T09:39:51"
       }
     ],
     "HCC": [
