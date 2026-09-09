@@ -445,7 +445,7 @@
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Pre-surgery: x1 dose Tremelimumab (300mg) + Durvalumab (1500mg), x1 dose Durva only. \n\nPost-surgery: 11 cycles of Durvalumab Q4W. ",
       "Eligibility ": "Resectable HCC. \nNo prior therapy, except for a single liver resection or ablation performed at least two years before study enrollment.\nMust consent to provide biopsy sample prior to treatment.\nChild Pugh 5 or 6, ALBI grade 1",
-      "Contacts": "Site PI:\nAnand Ghanekar\nanand.ghanekar@uhn.ca\n\nCoordinators: \nMary Wei\nGuillaume Cheung\n\nShiva Babakhani\nGiselle Caballero",
+      "Contacts": "Site PI:\nAnand Ghanekar\nanand.ghanekar@uhn.ca\n\nCoordinators: \nMary Wei\nGuillaume Cheung\n\n\nShiva Babakhani\nGiselle Caballero",
       "NCT number": "NCT05440864",
       "Study status": "Active",
       "Schema image": "NCT05440864.png",
@@ -461,7 +461,7 @@
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Atezolizumab (1200mg) + Bevacizumab (15mg/kg) Q3W plus TACE or TARE during liver transplant waiting period",
       "Eligibility ": "HCC, candidate for liver transplant by Toronto criteria, but beyond Milan criteria.\nChild-Pugh score ≤A6.\nToronto Critera: TTV<145 cm3, AFP<1000",
-      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\n\nCoordinator:\nGuillaume Cheung",
+      "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\n\nCoordinator:\nGuillaume Cheung\nguillaume.cheung@uhn.ca",
       "NCT number": "NCT05185505",
       "Study status": "Active",
       "Schema image": "NCT05185505.png",
@@ -541,7 +541,7 @@
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Tegavivint (BC2059), or tegavivint+pembrolizumab ",
       "Eligibility ": "Advanced HCC after failure/intolerance/contraindication to at least one prior line of systemic therapy. \nCTNNB1, APC or AXIN1 mutations, except on single agent dose escalation. \nChild-Pugh class A or ≤ 7 class B liver score (no hepatic encephalopathy) within 7 days of first dose of the investigational product(s).",
-      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501\n\nCoordinator: \nGuillaume Cheung",
+      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501\n\nCoordinator: \nGuillaume Cheung\nguillaume.cheung@uhn.ca",
       "NCT number": "NCT05797805",
       "Study status": "Not Recruiting",
       "Schema image": "NCT05797805.png",
@@ -737,7 +737,7 @@
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Durvalumab 1500 mg IV x 1 dose and oleclumab 3000 mg x 2 doses Q2W prior to resection",
       "Eligibility ": "Inclusion: \nResectable PDAC by NCCN criteria \nCA 19-9 < 300\nLife expectancy ≥ 12 weeks\n\nExclusion: \nAnticancer therapy within 21 days or palliative RT within 14 days prior to 1st dose\n\nPrior receipt of any immune-mediated therapy\n\nOther invasive malignancy within 5 years\n\nPrior history of myocardial infarction, transient ischemic attack, congestive heart failure ≥ Class 3 based on New York Heart Association Functional Classification or stroke within the past 3 months prior to the scheduled first dose of study treatment.\n\nMajor surgery (as defined by the investigator) within 28 days prior to scheduled first dose of study treatment or still recovering from prior surgery.\n\nPositive for HIV",
-      "Contacts": "Site PI:\nErica Tsang \nErica.tsang@uhn.ca\n\nCoordinator:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048",
+      "Contacts": "Site PI:\nErica Tsang \nErica.tsang@uhn.ca\n\nStudy Nurse:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": "NCT06060405",
       "Study status": "Active",
       "Schema image": "NCT06060405.png",
@@ -2281,6 +2281,11 @@
         "Trial Name": "RMC-6236-303",
         "change": "modified",
         "timestamp": "2026-08-26T11:27:38"
+      },
+      {
+        "Trial Name": "DORA (WOO)",
+        "change": "modified",
+        "timestamp": "2026-09-09T14:42:58"
       }
     ],
     "HCC": [
@@ -2808,6 +2813,21 @@
         "Trial Name": "HPB Robotic Surgery Database ",
         "change": "modified",
         "timestamp": "2026-07-28T16:19:02"
+      },
+      {
+        "Trial Name": "NEOTOMA",
+        "change": "modified",
+        "timestamp": "2026-09-09T14:42:58"
+      },
+      {
+        "Trial Name": "BeyondIO (HMLTO002)",
+        "change": "modified",
+        "timestamp": "2026-09-09T14:42:58"
+      },
+      {
+        "Trial Name": "ITER-002-HCC",
+        "change": "modified",
+        "timestamp": "2026-09-09T14:42:58"
       }
     ],
     "Gastroesophageal": [
