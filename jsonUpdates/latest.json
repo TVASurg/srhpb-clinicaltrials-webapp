@@ -967,6 +967,22 @@
       "Schema image": "NCT07491445.png",
       "Key criteria (for PDF)": "RAS mutation status (either mutant or WT). 1L mPDAC, previously untreated in met. setting, diagnosed ≤6 weeks before consent. Availability of archival tissue within 5 years of randomization.",
       "PI contact (for PDF)": "erica.tsang@uhn.ca "
+    },
+    {
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "PEGASUS\n\n",
+      "Full title": "Pancreatic Cancer Glucose Assessment and Regulation Study",
+      "Additional notes": "Metastatic PDAC to start 1L. FOLFIRINOX, no prior diabetes diagnosis\nHbA1C < 6.5% ",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "Continuous glucose monitor (CGM) for first 2 months of mFFX \n\nArm 1: Intensive glucose intervention with endocrinologist directed glycemic management, with target glucose levels between 4-10 mmol/L \n\nArm 2: Standard of care glucose intervention with intervention only if glucose level >15 mmol/L (Blinded to CGM results) ",
+      "Eligibility ": "Inclusion: \nPatients must be planned to undergo 1L mFOLFIRINOX.\nECOG status 0-1.\nMeasurable or evaluable disease by RECIST 1.1 at baseline.\n\nExclusion:\nAbsence of distant or lymph node metastases. Participants with borderline resectable or locally advanced PDAC are not eligible.\nReceived prior systemic therapy (chemotherapy or any other anti-cancer agent) for treatment of metastatic PDAC\nKnown diagnosis of type I diabetes where strict glucose control and close Endocrinology follow-up is already indicated.\nKnown diagnosis of type II diabetes and already followed by Endocrinologist.",
+      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
+      "NCT number": "NCT05132244",
+      "Study status": "Active",
+      "Schema image": "NCT05132244.png",
+      "Key criteria (for PDF)": "Metastatic PDAC to start 1L. FOLFIRINOX, no prior diabetes diagnosis.",
+      "PI contact (for PDF)": "erica.tsang@uhn.ca "
     }
   ],
   "pNET": [
@@ -1346,20 +1362,6 @@
       "Eligibility ": "FGFR2 gene fusions; FGFR2  or other rearrangements using NGS or FISH.\nPrior Gem/Cis treatment; Histological or cytological diagnosis of iCCA or eCCA; If FGFR status unknown, can submit archival tissue or blood for testing by Sponsor, if patient meets criteria. ",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca",
       "NCT number": "NCT05727176",
-      "Schema image": "Not Recruiting"
-    },
-    {
-      "Organ group": "PDAC",
-      "Disease Setting": "1L Metastatic",
-      "Trial Name": "PEGASUS (Glucose Monitoring)\n\n",
-      "Full title": "Pancreatic Cancer Glucose Assessment and Regulation Study",
-      "Additional notes": "Metastatic PDAC to start 1L. FOLFIRINOX, no prior diabetes diagnosis\nHbA1C < 6.5% ",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Continuous glucose monitor (CGM) for first 2 months of mFFX \n\nArm 1: Intensive glucose intervention with endocrinologist directed glycemic management, with target glucose levels between 4-10 mmol/L \n\nArm 2: Standard of care glucose intervention with intervention only if glucose level >15 mmol/L (Blinded to CGM results) ",
-      "Eligibility ": "Inclusion: \nPatients must be planned to undergo 1L mFOLFIRINOX.\nECOG status 0-1.\nMeasurable or evaluable disease by RECIST 1.1 at baseline.\n\nExclusion:\nAbsence of distant or lymph node metastases. Participants with borderline resectable or locally advanced PDAC are not eligible.\nReceived prior systemic therapy (chemotherapy or any other anti-cancer agent) for treatment of metastatic PDAC\nKnown diagnosis of type I diabetes where strict glucose control and close Endocrinology follow-up is already indicated.\nKnown diagnosis of type II diabetes and already followed by Endocrinologist.",
-      "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
-      "NCT number": "NCT05132244",
       "Schema image": "Not Recruiting"
     },
     {
@@ -2286,6 +2288,11 @@
         "Trial Name": "DORA (WOO)",
         "change": "modified",
         "timestamp": "2026-09-09T14:42:58"
+      },
+      {
+        "Trial Name": "PEGASUS\n\n",
+        "change": "added",
+        "timestamp": "2026-09-10T12:01:42"
       }
     ],
     "HCC": [
