@@ -981,7 +981,7 @@
       "NCT number": "NCT05132244",
       "Study status": "Active",
       "Schema image": "NCT05132244.png",
-      "Key criteria (for PDF)": "mPDAC planned for 1L, ECOG 0-1, evaluable disease by RECIST 1.1.",
+      "Key criteria (for PDF)": "mPDAC planned for 1L, evaluable disease by RECIST 1.1. Excluded if prior therapy for mPDAC or T1D/T2D where where strict glucose control and close endocrinology follow-up is already indicated.",
       "PI contact (for PDF)": "erica.tsang@uhn.ca "
     }
   ],
@@ -2303,6 +2303,11 @@
         "Trial Name": "PEGASUS\n\n",
         "change": "modified",
         "timestamp": "2026-09-10T12:41:13"
+      },
+      {
+        "Trial Name": "PEGASUS\n\n",
+        "change": "modified",
+        "timestamp": "2026-09-10T12:49:16"
       }
     ],
     "HCC": [
