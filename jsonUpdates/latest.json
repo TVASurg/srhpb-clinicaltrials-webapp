@@ -11,7 +11,7 @@
       "Eligibility ": "Inclusion criteria:\nUnresectable left-sided CRC.\nKRAS/NRA/BRAF WT. \nNeoadjuvant/Adj in non-metastatic disease eligible (>12m after last dose).\nExclusion criteria:\nHas a prior or concurrent second malignancy other than the disease under study or one whose natural history or treatment is likely to interfere with any study endpoints of safety or the efficacy of the study treatmens\nKnown mismatch repair deficiency (dMMR/MSI-H) status and HER2-positive/amplified tumor.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06662786",
-      "Study status": "Active",
+      "Study status": "Not recruiting",
       "Schema image": "NCT06662786.png",
       "Key criteria (for PDF)": "Unresectable left-sided \nKRAS/NRA/BRAF WT.\n>12 months from completion adjuvant therapy to recurrence.",
       "PI contact (for PDF)": "eric.chen@uhn.ca"
@@ -75,7 +75,7 @@
       "Eligibility ": "Inclusion criteria:\nNo prior encorafenib exposure.\nBRAF V600E in tumor tissue and/or blood.\nDisease progressed during/following last prior treatment and no satisfactory alternative treatment options.\nExclusion criteria:\nSystemic anti-cancer therapy or small molecule therapeutics ongoing at the start of study treatment.\nConcurrent neuromuscular disorder associated with elevated creatine kinase (CK).",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT05355701",
-      "Study status": "Active",
+      "Study status": "Not recruiting",
       "Schema image": "NCT05355701.png",
       "Key criteria (for PDF)": "BRAF \nDisease progressed during/following last prior treatment and no satisfactory alternative treatment options.",
       "PI contact (for PDF)": "eric.chen@uhn.ca "
@@ -123,7 +123,7 @@
       "Eligibility ": "Inclusion criteria:\nCRC that is not dMMR or MSI-H.\nReceived and failed all prior available therapies, such that the standard of care for the patient would be best supportive care (BSC).\nPresence of measurable or evaluable disease as RECIST 1.1.\nExclusion criteria:\nHistory of primary immunodeficiency, solid organ transplant or allogeneic bone marrow transplant.\nCurrent or prior use of immunosuppressive medication within 7 days before the first dose.\nActive brain metastases or leptomeningeal metastases.\nReceipt of anti-cancer chemotherapy or biologic therapy within the lesser of i) 21 days, or ii) the usual cycle length of the regimen prior to the first planned dose of study drug.\nPrior exposure to anti-PD-1/PD-L1/CTLA-4 therapy.",
       "Contacts": "Site PI:\nSanz Enrique\nenrique.sanz@uhn.ca",
       "NCT number": "NCT07152821",
-      "Study status": "Active",
+      "Study status": "Not recruiting",
       "Schema image": "NCT07152821.png",
       "Key criteria (for PDF)": "Not dMMR or MSI-H.\nProgressed on all available therapies.",
       "PI contact (for PDF)": "enrique.sanzgarcia@uhn.ca"
@@ -155,7 +155,7 @@
       "Eligibility ": "MSI-H/dMMR\nProgressed or intolerant of SOC",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06898450",
-      "Study status": "Active",
+      "Study status": "Not recruiting",
       "Schema image": null,
       "Key criteria (for PDF)": "MSI-H/dMMR refractory to SOC.",
       "PI contact (for PDF)": "eric.chen@uhn.ca "
@@ -4453,6 +4453,26 @@
         "Trial Name": "ANCORA",
         "change": "added",
         "timestamp": "2026-07-21T17:25:14"
+      },
+      {
+        "Trial Name": "61186372COR3001 (ORIGAMI-2)",
+        "change": "modified",
+        "timestamp": "2026-09-14T11:03:08"
+      },
+      {
+        "Trial Name": "C4761001 ",
+        "change": "modified",
+        "timestamp": "2026-09-14T11:03:08"
+      },
+      {
+        "Trial Name": "CO.33 (BATTMAN)",
+        "change": "modified",
+        "timestamp": "2026-09-14T11:03:08"
+      },
+      {
+        "Trial Name": "Phase 1 of NDI-219216 in Patients with Advanced Solid Tumors with MSI-H/dMMR",
+        "change": "modified",
+        "timestamp": "2026-09-14T11:03:08"
       }
     ],
     "GE": [
