@@ -521,6 +521,7 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
   //user input dicates which main category we're going into
   var totalTrialsAvailable = mainCategory[`names`].length;
   var outputHTMLstring = "";
+  var trialNamesString = "";
 
   //create vertical radio button group
   outputHTMLstring += '<div class="btn-group-vertical p-3" role="group" ';
@@ -563,42 +564,48 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
     //list all
     if (setting == "List all")
       {
-        outputHTMLstring +=
+        trialNamesString +=
         '<input type="radio" class="btn-check" name="trialName';
-      outputHTMLstring += '" id="trialName';
-      outputHTMLstring += [i];
-      outputHTMLstring += '" autocomplete="off">';
+      trialNamesString += '" id="trialName';
+      trialNamesString += [i];
+      trialNamesString += '" autocomplete="off">';
 
       //this is the label for the button
-      outputHTMLstring += '<label class="btn fw-bold" for="trialName';
-      outputHTMLstring += [i];
-      outputHTMLstring += '">';
-      outputHTMLstring += mainCategory[`names`][i];
-      outputHTMLstring += "</label>";
+      trialNamesString += '<label class="btn fw-bold" for="trialName';
+      trialNamesString += [i];
+      trialNamesString += '">';
+      trialNamesString += mainCategory[`names`][i];
+      trialNamesString += "</label>";
         
       }
     //list according to setting
     if (mainCategory[`setting`][i].includes(setting) == true && setting != "List All") {
       //this is the button itself
-      outputHTMLstring +=
+      trialNamesString +=
         '<input type="radio" class="btn-check" name="trialName';
-      outputHTMLstring += '" id="trialName';
-      outputHTMLstring += [i];
-      outputHTMLstring += '" autocomplete="off">';
+      trialNamesString += '" id="trialName';
+      trialNamesString += [i];
+      trialNamesString += '" autocomplete="off">';
 
       //this is the label for the button
-      outputHTMLstring += '<label class="btn btn-outline-custom text-start" for="trialName';
-      outputHTMLstring += [i];
-      outputHTMLstring += '">';
-      outputHTMLstring += mainCategory[`names`][i];
-      outputHTMLstring += "</label>";
+      trialNamesString += '<label class="btn btn-outline-custom text-start" for="trialName';
+      trialNamesString += [i];
+      trialNamesString += '">';
+      trialNamesString += mainCategory[`names`][i];
+      trialNamesString += "</label>";
     }
-    //581 should be else if
-    //else{ outputHTMLstring += <p>No active trials</p>}
   
   }
 
   //closing the vertical btn group
+  if (trialNamesString == "")
+  {
+    outputHTMLstring += "<p class='ms-1'>No active trials</p>"
+  }else
+  {
+    outputHTMLstring += trialNamesString;
+  }
+  
   outputHTMLstring += "</div>";
 
   //filling in the HTML (remember to clear trialDetails)
