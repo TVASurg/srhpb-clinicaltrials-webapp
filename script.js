@@ -593,6 +593,9 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
       outputHTMLstring += mainCategory[`names`][i];
       outputHTMLstring += "</label>";
     }
+    //581 should be else if
+    //else{ outputHTMLstring += <p>No active trials</p>}
+  
   }
 
   //closing the vertical btn group
