@@ -121,7 +121,7 @@
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "A: BOTENSILIMAB + BALSTILIMAB \nB: Best supportive care",
       "Eligibility ": "Inclusion criteria:\nCRC that is not dMMR or MSI-H.\nReceived and failed all prior available therapies, such that the standard of care for the patient would be best supportive care (BSC).\nPresence of measurable or evaluable disease as RECIST 1.1.\nExclusion criteria:\nHistory of primary immunodeficiency, solid organ transplant or allogeneic bone marrow transplant.\nCurrent or prior use of immunosuppressive medication within 7 days before the first dose.\nActive brain metastases or leptomeningeal metastases.\nReceipt of anti-cancer chemotherapy or biologic therapy within the lesser of i) 21 days, or ii) the usual cycle length of the regimen prior to the first planned dose of study drug.\nPrior exposure to anti-PD-1/PD-L1/CTLA-4 therapy.",
-      "Contacts": "Site PI:\nSanz Enrique\nenrique.sanz@uhn.ca",
+      "Contacts": "Site PI:\nSanz Enrique\nenrique.sanzgarcia@uhn.ca",
       "NCT number": "NCT07152821",
       "Study status": "Not recruiting",
       "Schema image": "NCT07152821.png",
@@ -4473,6 +4473,11 @@
         "Trial Name": "Phase 1 of NDI-219216 in Patients with Advanced Solid Tumors with MSI-H/dMMR",
         "change": "modified",
         "timestamp": "2026-09-14T11:03:08"
+      },
+      {
+        "Trial Name": "CO.33 (BATTMAN)",
+        "change": "modified",
+        "timestamp": "2026-09-14T13:59:11"
       }
     ],
     "GE": [
