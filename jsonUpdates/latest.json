@@ -892,7 +892,7 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "C3651021 (RIVER)",
       "Full title": "A PHASE 2b/3, RANDOMIZED, DOUBLE-BLIND STUDY TO INVESTIGATE THE \nEFFICACY, SAFETY, AND TOLERABILITY OF PONSEGROMAB (PF-06946860) \nCOMPARED WITH PLACEBO BOTH WITH BACKGROUND FIRST-LINE \nCHEMOTHERAPY IN ADULT PARTICIPANTS WITH CACHEXIA AND \nMETASTATIC PANCREATIC DUCTAL ADENOCARCINOMA",
-      "Additional notes": "Enrollment on Hold (17Jul2026)\n\nA Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
+      "Additional notes": "Enrollment on Hold since 17Jul2026 (last confirmed on 17Sep2026).\n\nA Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
       "Tissue Requirements": "If available, an archival tumor FFPE biopsy block or unstained freshly cut paraffin sections \nof tumor specimen collected within 6 months of enrollment should be submitted. If tumor tissue is not available or cannot be provided, the participant can still be enrolled if the study eligibility criteria are met. ",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Ponsegromab Double-blind Treatment 200mg Q4W\nPonsegromab Double-blind Treatment 400mg Q4W\nPlacebo Double-blind Treatment Q4W",
@@ -2306,6 +2306,11 @@
         "Trial Name": "PEGASUS\n\n",
         "change": "modified",
         "timestamp": "2026-09-10T12:49:16"
+      },
+      {
+        "Trial Name": "C3651021 (RIVER)",
+        "change": "modified",
+        "timestamp": "2026-09-17T12:44:36"
       }
     ],
     "HCC": [
