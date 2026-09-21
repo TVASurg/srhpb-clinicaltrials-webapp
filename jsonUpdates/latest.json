@@ -27,7 +27,7 @@
       "Eligibility ": "Inclusion criteria:\nNo radiological evidence of liver metastasis.\nPresence of measurable disease by RECIST 1.1 criteria.\nNo prior systemic therapy for mCRC, except for neoadjuvant/adjuvant chemotherapy where > 6 months have elapsed between completion and recurrence.\nKnown pMMR/MSS status\nExclusion criteria:\nActive or prior documented autoimmune or inflammatory disorders or cardiac conditions.\nPrior history of hypertensive crisis or hypertensive encephalopathy or bleeding risks.\nDeep venous thrombosis, pulmonary embolism, arterial thrombosis, transient ischemic attack or cerebrovascular accident.\nPrior exposure to immune mediated therapy.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06792695",
-      "Study status": "Not recruiting",
+      "Study status": "Active",
       "Schema image": "NCT06792695.png",
       "Key criteria (for PDF)": "pMMR/MSS status.\nNo radiological evidence of liver metastasis.\nNeoadjuvant/adjuvant chemotherapy where > 6 months have elapsed is allowed.",
       "PI contact (for PDF)": "eric.chen@uhn.ca"
@@ -355,22 +355,6 @@
       "PI contact (for PDF)": "jelena.lukovic@uhn.ca"
     },
     {
-      "Disease Setting": "1L",
-      "Trial Name": "DESTINY-Gastric03",
-      "Full title": "A Phase 1b/2 Multicenter, Open-label, Dose-escalation and Dose-expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Antitumor Activity of Trastuzumab Deruxtecan (T-DXd) Monotherapy and Combinations in Adult Participants With HER2-expressing Gastric Cancer",
-      "Additional notes": "Part 4 and Part 5 (Main Cohort) are now complete. There is a possibility that Part 5 (Cohort 2) may open; however, a final decision is pending. The Global Team is expected to provide further guidance between July and August",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": "HER2",
-      "Trial Intervention/Arms": "Part 5: T-DXd + volrustomig ",
-      "Eligibility ": "Her-2 overexpression.\nILD/Pneumonitis excluded.",
-      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca",
-      "NCT number": "NCT04379596",
-      "Study status": "Not recruiting",
-      "Schema image": null,
-      "Key criteria (for PDF)": "Her-2 1+ or 2+/ISH neg\nILD/Pneumonitis excluded.",
-      "PI contact (for PDF)": "eric.chen@uhn.ca "
-    },
-    {
       "Disease Setting": "1L ",
       "Trial Name": "CA2660004 (ROSETTA Gastric-204)",
       "Full title": "A Blinded, Randomized, Phase 2/3 Study of Pumitamig in Combination with Chemotherapy Versus Nivolumab in Combination with Chemotherapy in Participants with Previously Untreated Advanced or Metastatic Gastric, Gastroesophageal Junction, or Esophageal Adenocarcinoma.",
@@ -433,6 +417,22 @@
       "Schema image": "NCT07290985.jpg",
       "Key criteria (for PDF)": "HER2 positive and PDL1 TAP >=1%",
       "PI contact (for PDF)": "elena.elimova@uhn.ca\nlucy.ma@uhn.ca"
+    },
+    {
+      "Disease Setting": "1L ",
+      "Trial Name": "AndroMETa-GEA-977",
+      "Full title": "A Phase 2 Randomized Study to Evaluate the Safety, Efficacy, and Optimal Dose of \nTelisotuzumab Adizutecan in Combination with Fluorouracil, Leucovorin, and Budigalimab as First-Line \nTreatment in Subjects with Locally Advanced Unresectable or Metastatic Gastric, Gastroesophageal \nJunction, or Esophageal Adenocarcinoma",
+      "Additional notes": null,
+      "Tissue Requirements": "Archival tissue (most recent); fresh tissue 3xT cores",
+      "Biomarker/unselected": "c-Met",
+      "Trial Intervention/Arms": "FOLFOX + budi vs Telisotuzumab adizutecan + budi + 5-FU + LV",
+      "Eligibility ": "Have inoperable, advanced or metastatic histologically- or cytologically confirmed gastric, gastroesophageal junction, or esophageal adenocarcinoma. HER2 negative",
+      "Contacts": "Site PI: \nElena Elimova\nelena.elimova@uhn.ca",
+      "NCT number": "NCT06628310",
+      "Study status": "Not recruiting",
+      "Schema image": null,
+      "Key criteria (for PDF)": "Not biomarker selected.\nHER2 negative\n",
+      "PI contact (for PDF)": "elena.elimova@uhn.ca "
     }
   ],
   "HCC": [
@@ -967,6 +967,22 @@
       "Schema image": "NCT05132244.png",
       "Key criteria (for PDF)": "mPDAC planned for 1L, evaluable disease by RECIST 1.1. Excluded if prior therapy for mPDAC or T1D/T2D where where strict glucose control and close endocrinology follow-up is already indicated.",
       "PI contact (for PDF)": "erica.tsang@uhn.ca "
+    },
+    {
+      "Disease Setting": "1L Metastatic",
+      "Trial Name": "CLARITY-PanTumour01\n\n",
+      "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2",
+      "Additional notes": "Neoadjuvant/adjuvant chemo allowed if progressed \n≥ 6 months since last dose.\n",
+      "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue ",
+      "Biomarker/unselected": "CLDN18.2",
+      "Trial Intervention/Arms": "Arm1: AZD0901 in combination with 5FU/leucovorin and Irinotecan or nanoliposomal Irinotecan  \n\nArm2: AZD0901 combination with Gemcitabine ",
+      "Eligibility ": "Inclusion: \nCLDN18.2 positive\nat least one measurable lesion according to RECIST v1.1.\nLife expectancy of ≥ 12 weeks.\nExclusion:\nUnstable or active peptic ulcer disease or digestive tract bleeding including but not limited to clinically significant bleeding in the setting of prior CLDN18.2 directed therapy.\nClinically significant ascites that require drainage.\nHistory of another primary malignancy.",
+      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nCoordinator (Pre-screen):  \nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757\n\nCoordinator (Screen): \nGuillaume Cheung\nguillaume.cheung@uhn.ca\nTel: 416-946-4501 ext. 4727",
+      "NCT number": "NCT06219941",
+      "Study status": "Not Recruiting",
+      "Schema image": null,
+      "Key criteria (for PDF)": "biomarker: Claudin 18.2 protein",
+      "PI contact (for PDF)": null
     }
   ],
   "pNET": [
@@ -1195,20 +1211,6 @@
       "Schema image": null
     },
     {
-      "Organ group": "PDAC",
-      "Disease Setting": "1L Metastatic",
-      "Trial Name": "CLARITY-PanTumour01\n\n",
-      "Full title": "A Phase II, Open-label, Multi-centre Study to Evaluate Safety, Tolerability, Efficacy, PK, and Immunogenicity of AZD0901 as Monotherapy and in Combination With Anti-cancer Agents in Participants With Advanced Solid Tumours Expressing Claudin 18.2",
-      "Additional notes": "Neoadjuvant/adjuvant chemo allowed if progressed \n≥ 6 months since last dose.\n",
-      "Tissue Requirements": "Pre-screen: needs archival ( ≤ 24 months) or fresh tissue ",
-      "Biomarker/unselected": "CLDN18.2",
-      "Trial Intervention/Arms": "Arm1: AZD0901 in combination with 5FU/leucovorin and Irinotecan or nanoliposomal Irinotecan  \n\nArm2: AZD0901 combination with Gemcitabine ",
-      "Eligibility ": "Inclusion: \nCLDN18.2 positive\nat least one measurable lesion according to RECIST v1.1.\nLife expectancy of ≥ 12 weeks.\nExclusion:\nUnstable or active peptic ulcer disease or digestive tract bleeding including but not limited to clinically significant bleeding in the setting of prior CLDN18.2 directed therapy.\nClinically significant ascites that require drainage.\nHistory of another primary malignancy.",
-      "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca\n\nCoordinator (Pre-screen):  \nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757\n\nCoordinator (Screen): \nGuillaume Cheung\nguillaume.cheung@uhn.ca\nTel: 416-946-4501 ext. 4727",
-      "NCT number": "NCT06219941",
-      "Schema image": null
-    },
-    {
       "Organ group": "HCC",
       "Disease Setting": "1st line ",
       "Trial Name": "CHS-388-202",
@@ -1391,20 +1393,6 @@
       "Schema image": null
     },
     {
-      "Organ group": "GE",
-      "Disease Setting": "1L ",
-      "Trial Name": "AndroMETa-GEA-977",
-      "Full title": "A Phase 2 Randomized Study to Evaluate the Safety, Efficacy, and Optimal Dose of \nTelisotuzumab Adizutecan in Combination with Fluorouracil, Leucovorin, and Budigalimab as First-Line \nTreatment in Subjects with Locally Advanced Unresectable or Metastatic Gastric, Gastroesophageal \nJunction, or Esophageal Adenocarcinoma",
-      "Additional notes": null,
-      "Tissue Requirements": "Archival tissue (most recent); fresh tissue 3xT cores",
-      "Biomarker/unselected": "c-Met",
-      "Trial Intervention/Arms": "FOLFOX + budi vs Telisotuzumab adizutecan + budi + 5-FU + LV",
-      "Eligibility ": "Have inoperable, advanced or metastatic histologically- or cytologically confirmed gastric, gastroesophageal junction, or esophageal adenocarcinoma. HER2 negative",
-      "Contacts": "Site PI: \nElena Elimova\nelena.elimova@uhn.ca",
-      "NCT number": "NCT06628310",
-      "Schema image": null
-    },
-    {
       "Organ group": "PDAC",
       "Disease Setting": "Resectable",
       "Trial Name": "DORA (WOO)",
@@ -1417,6 +1405,20 @@
       "Contacts": "Site PI:\nErica Tsang \nErica.tsang@uhn.ca\n\nStudy Nurse:\nMary (Lan) Wei\nmarylan.wei@uhn.ca\nPager: 416-715-0289\nPhone: 416-946-4501 ext. 3048\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": "NCT06060405",
       "Schema image": "NCT06060405.png"
+    },
+    {
+      "Organ group": "GE",
+      "Disease Setting": "1L",
+      "Trial Name": "DESTINY-Gastric03",
+      "Full title": "A Phase 1b/2 Multicenter, Open-label, Dose-escalation and Dose-expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Antitumor Activity of Trastuzumab Deruxtecan (T-DXd) Monotherapy and Combinations in Adult Participants With HER2-expressing Gastric Cancer",
+      "Additional notes": "Part 4 and Part 5 (Main Cohort) are now complete. There is a possibility that Part 5 (Cohort 2) may open; however, a final decision is pending. The Global Team is expected to provide further guidance between July and August",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": "HER2",
+      "Trial Intervention/Arms": "Part 5: T-DXd + volrustomig ",
+      "Eligibility ": "Her-2 overexpression.\nILD/Pneumonitis excluded.",
+      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca",
+      "NCT number": "NCT04379596",
+      "Schema image": "Not recruiting"
     }
   ],
   "Dropdown Menus": [
@@ -2316,6 +2318,11 @@
         "Trial Name": "RMC-6236-303 (RASolute 303)",
         "change": "added",
         "timestamp": "2026-09-18T12:40:36"
+      },
+      {
+        "Trial Name": "CLARITY-PanTumour01\n\n",
+        "change": "added",
+        "timestamp": "2026-09-21T12:06:34"
       }
     ],
     "HCC": [
@@ -3676,6 +3683,11 @@
         "Trial Name": "DORA (WOO)",
         "change": "added",
         "timestamp": "2026-09-10T12:51:12"
+      },
+      {
+        "Trial Name": "DESTINY-Gastric03",
+        "change": "added",
+        "timestamp": "2026-09-21T12:06:34"
       }
     ],
     "CRC": [
@@ -4493,6 +4505,11 @@
         "Trial Name": "ANCORA",
         "change": "modified",
         "timestamp": "2026-09-18T12:40:36"
+      },
+      {
+        "Trial Name": "D798VC00001 (CANTOR)",
+        "change": "modified",
+        "timestamp": "2026-09-21T12:06:34"
       }
     ],
     "GE": [
@@ -4830,6 +4847,11 @@
         "Trial Name": "AACR-ADOPT-GEA",
         "change": "modified",
         "timestamp": "2026-07-24T10:48:51"
+      },
+      {
+        "Trial Name": "AndroMETa-GEA-977",
+        "change": "added",
+        "timestamp": "2026-09-21T12:06:34"
       }
     ],
     "pNET": [
