@@ -796,12 +796,12 @@
       "Disease Setting": "Non-Therapeutic",
       "Trial Name": "WATCH-PC\n\n",
       "Full title": "Wearable Devices and Remote Toxicity Checks to Predict Health Outcomes in Pancreatic Cancer",
-      "Additional notes": "Planned for/receiving  chemotherapy. \nPts. with no email address,  inability to fluently speak and read English and those admitted as an inpatient at enrolment are excluded.",
+      "Additional notes": "The purpose of this study is to explore how wearable devices and electronic questionnaires can help patients with pancreatic cancer. By tracking vital signs and symptoms, we aim to predict any potential health issues from treatment before they become severe. This could improve patient care and support during their treatment process\"",
       "Tissue Requirements": null,
       "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Weekly questionnaires\nFitBit Smartwatch\nOn any chemotherapy",
+      "Trial Intervention/Arms": "Data will be collected from patients' medical records (EPIC) including laboratory tests, CT images and reports, pathology reports, clinical and procedural notes, and serious adverse events and enter this information into an electronic database. Data will also be collected through three types of electronic questionnaires (a quality-of-life questionnaire, patient feedback questionnaire, and patient-reported outcomes questionnaire). All participants enrolled will receive a FitBit Smartwatch.",
       "Eligibility ": "Inclusion:\nDiagnosis of epithelial pancreatic cancer, confirmed with biopsy or suspected based on\nreview of imaging at the multi-disciplinary conference\nPlan for chemotherapy as part of treatment plan or ongoing treatment\nExclusion: \nLack of an email address\nInability to fluently speak and read English, given the questionnaires will only be\ndeveloped in English at first because of resource constraints\nInability or unwillingness to adhere to the study procedures, at the discretion of the\ninvestigator\nAdmitted as an inpatient at enrolment",
-      "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
+      "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nCoordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757\n\nMonisha Chawla\nMonisha.Chawla@uhn.ca\n437-553-7609",
       "NCT number": null,
       "Study status": "Active",
       "Schema image": null,
@@ -865,7 +865,7 @@
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Data will be collected from patients' medical records (EPIC) and will encompass various aspects, including patient demographics (Age, sex, BMI) clinical characteristics (Comorbidities, indication for surgery, and pathology) and Surgical Details such as Operative approach (robotic, laparoscopic, open), operative time, and estimated blood loss (EBL) and post-operative outcome. This study will also gather data on postoperative pain and pain medication use through a customized pain questionnaire administered during the inpatient stay and post-discharge up to four weeks.",
       "Eligibility ": "Adult patients (over 18 years) who undergo distal pancreatectomy for any diagnosis at UHN. Patient who undergoes surgery through minimally invasive (robotic or laparoscopic) or open surgical approaches, will be included in the study.",
-      "Contacts": "Site PI: \nDr. Chaya Shwaartz\nchaya.shwaartz@uhn.ca\n\nStudy Coordinator:\nDorian Facey\ndorian.facey@uhn.ca\n437-779-7757",
+      "Contacts": "Site PI: \nDr. Chaya Shwaartz\nchaya.shwaartz@uhn.ca\n\nStudy Coordinator:\nDorian Facey\ndorian.facey@uhn.ca\n437-779-7757\n\nMonisha Chawla\nMonisha.Chawla@uhn.ca\n437-553-7609",
       "NCT number": null,
       "Study status": "Active",
       "Schema image": null,
@@ -957,7 +957,7 @@
       "Trial Name": "PEGASUS\n\n",
       "Full title": "Pancreatic Cancer Glucose Assessment and Regulation Study",
       "Additional notes": "This is a prospective cohort study investigating the prevalence of hyperglycemia in participants with metastatic PDAC treated with first-line systemic therapy",
-      "Tissue Requirements": "No tissue requirements. \n\nPlasma Samples: \nAt C1D1, 8 weeks, and End of Study (or disease progression), collect samples using 2 x 10 ml Cell-Free DNA Streck tubes. At all other study time points (i.e. 16 weeks, 24 weeks, 32 weeks, etc.), collect samples using 2 x 10 ml EDTA (lavender top) tubes.\n\nSerum Samples:\nAt C1D1, every 8 weeks, and End of Study (or disease progression), collect samples using 1 x 10 ml plain (red top) tubes.\n\nGlucose Samples:\nAt baseline, Day 1 of each cycle, and at End of Study, collect non-fasting glucose samples per local procedures",
+      "Tissue Requirements": "No tissue requirements.\nPlasma and serum for correlative analysis collected at C1D1, every 8 weeks on study, and End of Study (or disease progression).",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "All enrolled participants will receive first-line systemic therapy either following standard care protocols or in combination with an investigational agent(s) within another clinical trial. \n\nNon-fasting glucose will be drawn at baseline, then every cycle, and at end of study.\n\nAnti-hyperglycemic treatment will be administered when indicated by and following standard care protocols.",
       "Eligibility ": "Inclusion: \n1. Histological/cytological diagnosis of metastatic PDAC.\n2. Planned to undergo first-line systemic therapy.\n3. Age ≥ 18 years\n4. ECOG performance status 0-1\n5. Adequate bone marrow and organ function as defined by the following laboratory values:\na. Absolute neutrophil count (ANC) ≥ 1.5 x 109 /L\nb. Platelet count ≥ 75 x 109 /L\nc. Hemoglobin ≥ 9.0 g/dL\nd. Estimated GFR by Cockroft-Gault equation OR 24 hour urine  collection ≥ 40 ml/min\ne. Creatinine clearance ≥ 40 mL/min using Cockcroft-Gault formula\nf. Potassium within normal limits, or corrected with supplements\ng. INR ≤1.5\nh. Total serum bilirubin ≤ 2 x ULN (any elevated bilirubin should be asymptomatic at enrollment) except for participants with documented Gilbert’s syndrome who may only be included if the total bilirubin ≤ 3 x ULN or direct bilirubin ≤ 1.5 x ULN)\ni. Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) ≤ 2.5 x ULN (or ≤ 5 x ULN if liver metastases are present)\n6. Able to understand and voluntarily sign the informed consent form, and able to comply with the study visit schedule and other protocol requirements. Written informed consent obtained prior to any screening procedures, unless performed as part of standard care.\n7. Able to swallow oral medications.\n8. Measurable or evaluable disease by RECIST 1.1 at baseline.\n9. Life expectancy of >90 days as judged by the investigator\n\nExclusion:\n1. Absence of distant or lymph node metastases. Participants with borderline resectable or locally advanced PDAC are not eligible.\n2. Received prior systemic therapy (chemotherapy or any other anti-cancer agent) for treatment of metastatic PDAC. Participants who received adjuvant chemotherapy after surgical resection of early stage disease are eligible.\n3. Currently receiving anti-cancer therapy (chemotherapy or any other anti-cancer agent).\n4. Presence of brain metastases.\n5. Known diagnosis of type I diabetes where strict glucose control and close Endocrinology follow-up is already indicated.\n6. Known diagnosis of type II diabetes and already followed by an Endocrinologist.\n7. Participants with a positive pregnancy test.\n8. Participants who are not safe to include in the study as judged by the investigator for any medical or non-medical reason.\n9. Unable to comply with study assessments and follow-up.",
@@ -2323,6 +2323,21 @@
         "Trial Name": "CLARITY-PanTumour01\n\n",
         "change": "added",
         "timestamp": "2026-09-21T12:06:34"
+      },
+      {
+        "Trial Name": "WATCH-PC\n\n",
+        "change": "modified",
+        "timestamp": "2026-09-22T11:43:11"
+      },
+      {
+        "Trial Name": "Post operative pain in MIS vs Open Distal Pancreatectomy",
+        "change": "modified",
+        "timestamp": "2026-09-22T11:43:11"
+      },
+      {
+        "Trial Name": "PEGASUS\n\n",
+        "change": "modified",
+        "timestamp": "2026-09-22T11:43:11"
       }
     ],
     "HCC": [
