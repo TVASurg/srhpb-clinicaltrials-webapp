@@ -447,7 +447,7 @@
       "Eligibility ": "Resectable HCC. \nNo prior therapy, except for a single liver resection or ablation performed at least two years before study enrollment.\nMust consent to provide biopsy sample prior to treatment.\nChild Pugh 5 or 6, ALBI grade 1",
       "Contacts": "Site PI:\nAnand Ghanekar\nanand.ghanekar@uhn.ca\n\nStudy Nurses:\nMary Wei\nGuillaume Cheung\n\nStudy Coordinators:\nShiva Babakhani\nGiselle Caballero",
       "NCT number": "NCT05440864",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": "NCT05440864.png",
       "Key criteria (for PDF)": "Resectable HCC. ",
       "PI contact (for PDF)": "anand.ghanekar@uhn.ca"
@@ -460,7 +460,7 @@
       "Tissue Requirements": "Baseline biopsy: fresh, or archival if tissue available for correlatives.",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Atezolizumab (1200mg) + Bevacizumab (15mg/kg) Q3W plus TACE or TARE during liver transplant waiting period",
-      "Eligibility ": "HCC, candidate for liver transplant by Toronto criteria, but beyond Milan criteria.\nChild-Pugh score ≤A6.\nToronto Critera: TTV<145 cm3, AFP<1000",
+      "Eligibility ": "HCC, candidate for liver transplant by Toronto criteria, but beyond Milan criteria.\nChild-Pugh score ≤B7\nToronto Critera: TTV<145 cm3, AFP<1000",
       "Contacts": "Site PI:\nArndt Vogel\narndt.vogel@uhn.ca\n\nCoordinator:\nGuillaume Cheung\nguillaume.cheung@uhn.ca",
       "NCT number": "NCT05185505",
       "Study status": "Active",
@@ -493,7 +493,7 @@
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "ARM 1: STRIDE (durvalumab + tremelimumab at first treatment followed by durvalumab monotherapy every 4 weeks)\n\nARM 2: STRIDE + lenvatinib daily\n",
       "Eligibility ": "HCC, no prior systemic therapy. \nChild-Pugh Score class A or B7 based on low albumin (albumin 25-27 g/L) only.\nConfirmed HCC based on histopathological findings from tumour tissues or clinically by AASLD criteria in cirrhotic participants (must be CT LIRADS 5 on CT; otherwise needs histology).",
-      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nDowon Choi",
+      "Contacts": "Site PI:\nJennifer Knox\njennifer.knox@uhn.ca\n416-946-2000 x 5131\n\nCoordinator:\nElaine Lung\nelaine.lung@uhn.ca\n416-946-4501 x 7268",
       "NCT number": "NCT06880523",
       "Study status": "Active",
       "Schema image": "NCT06880523.png",
@@ -780,7 +780,7 @@
       "Disease Setting": "Non-Therapeutic",
       "Trial Name": "HPB Banking Protocol\n\n",
       "Full title": "HPB Banking Protocol",
-      "Additional notes": "All PDAC patients going to surgery who are not enrolled in Prosper-PANC \n\nAdvanced patients who are not eligible for Prosper-PANC but having a biopsy and investigator requests WGTS",
+      "Additional notes": "Prospective collection and banking of tissue, blood, and stool from HPB cancer patients to support future translational research and molecular profiling.",
       "Tissue Requirements": "Fresh tumor collection for WGTS ± organoids",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Fresh tumor collection for WGTS ± organoids",
@@ -990,7 +990,7 @@
       "Disease Setting": "2L Metastatic+",
       "Trial Name": "Belzutifan Advanced Pancreatic Neuroendocrine Tumor (pNET), or Von Hippel-Lindau (VHL) Disease-Associated Tumors (MK-6482-015) ",
       "Full title": "A Phase 2 Study to Evaluate the Efficacy and Safety of MK-6482 Monotherapy in Participants with Advanced Pheochromocytoma/Paraganglioma (PPGL) and Pancreatic Neuroendocrine Tumor (pNET).",
-      "Additional notes": null,
+      "Additional notes": " only Cohort B1 (VHL-PPGL) is open to enrollment",
       "Tissue Requirements": null,
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Belzutifan, 120 mg, oral, once daily (QD) until progressive disease or discontinuation.",
@@ -2338,6 +2338,11 @@
         "Trial Name": "PEGASUS\n\n",
         "change": "modified",
         "timestamp": "2026-09-22T11:43:11"
+      },
+      {
+        "Trial Name": "HPB Banking Protocol\n\n",
+        "change": "modified",
+        "timestamp": "2026-09-23T12:21:28"
       }
     ],
     "HCC": [
@@ -2885,6 +2890,21 @@
         "Trial Name": "NEOTOMA",
         "change": "modified",
         "timestamp": "2026-09-21T12:21:59"
+      },
+      {
+        "Trial Name": "NEOTOMA",
+        "change": "modified",
+        "timestamp": "2026-09-23T12:21:28"
+      },
+      {
+        "Trial Name": "BeyondIO (HMLTO002)",
+        "change": "modified",
+        "timestamp": "2026-09-23T12:21:28"
+      },
+      {
+        "Trial Name": "HE.2 (SLIDE-HCC)",
+        "change": "modified",
+        "timestamp": "2026-09-23T12:21:28"
       }
     ],
     "Gastroesophageal": [
@@ -4984,6 +5004,11 @@
         "Trial Name": "MYTHIC",
         "change": "modified",
         "timestamp": "2026-07-20T12:00:08"
+      },
+      {
+        "Trial Name": "Belzutifan Advanced Pancreatic Neuroendocrine Tumor (pNET), or Von Hippel-Lindau (VHL) Disease-Associated Tumors (MK-6482-015) ",
+        "change": "modified",
+        "timestamp": "2026-09-23T12:21:28"
       }
     ],
     "PDF ONLY": [
