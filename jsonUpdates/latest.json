@@ -703,7 +703,7 @@
       "Biomarker/unselected": "B7-H4",
       "Trial Intervention/Arms": "1.6 mg/kg (AZD8205) Q3W and 750 mg (rilvegostomig) Q3W. In each dose escalation cohort, a minimum of 3 participants will initially be planned to be dosed. If significant toxicities are observed during the first cycle for any of the first 3 participants, further enrollment into the cohort will be halted until the SRC has reviewed all the safety and PK data related to the participant and cumulative data from all participants dosed in the sub-study to determine appropriate action.",
       "Eligibility ": "Documented positive B7-H4 expression by prospective central testing on the tumor \nsample provided during pre-screening\n\n− Histologically/cytologically verified, non resectable, recurrent, or metastatic biliary tract carcinoma including intrahepatic cholangiocarcinoma, extrahepatic (hilar, distal) cholangiocarcinoma, and gallbladder carcinoma (NOTE: Ampullary cancers are not eligible).\n− Participants must have received at least 1 but no more than 2 prior systemic lines of  therapy for metastatic/relapsed disease as follows:\no Adjuvant chemotherapy will be considered as one line of therapy if recurrence occurs during or within 6 months after adjuvant chemotherapy has ended.\no Participants with actionable genomic alterations (eg, BRAF V600E mutations, fibroblast growth factor receptor fusions or isocitrate dehydrogenase mutations) may have received targeted therapy as per local practice.\no Therapy changed due to toxicity or intolerance in the absence of progression will be considered part of the same line (ie, not counted independently).",
-      "Contacts": "Site PI: \nDr. Amit Oza\nAmit.Oza@uhn.ca\n\nCoordinator: \nDowon Choi\ndowon.choi@uhn.ca\n416-946-4501 ext. 4713",
+      "Contacts": "Site PI: \nDr. Amit Oza\nAmit.Oza@uhn.ca\n\n\n",
       "NCT number": "NCT05123482",
       "Study status": "Not Recruiting",
       "Schema image": "NCT05123482.png",
@@ -3489,6 +3489,11 @@
         "Trial Name": "D702NC00001 (ARTEMIDE-Biliary02)",
         "change": "added",
         "timestamp": "2026-06-18T12:42:42"
+      },
+      {
+        "Trial Name": "BLUESTAR (D6900C00001)",
+        "change": "modified",
+        "timestamp": "2026-09-28T15:40:36"
       }
     ],
     "Preactivation": [
