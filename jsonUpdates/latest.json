@@ -269,7 +269,7 @@
       "Eligibility ": "Her-2 + (central confirmation).\nParticipants must have received and failed at least one prior trastuzumab-containing regimen in combination with platinum-based chemotherapy.\nMust have presence of measurable or evaluable disease as defined by Response Evaluation Criteria in Solid Tumours (RECIST 1.1).",
       "Contacts": "Site PI:\nElena Elimova\nelena.elimova@uhn.ca",
       "NCT number": "NCT06043427",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": "NCT06043427.png",
       "Key criteria (for PDF)": "Her-2 + (central confirmation).  \nReceived and failed at least one prior trastuzumab-containing regimen in combination with platinum-based chemotherapy.",
       "PI contact (for PDF)": "elena.elimova@uhn.ca "
@@ -4902,6 +4902,11 @@
         "Trial Name": "AndroMETa-GEA-977",
         "change": "added",
         "timestamp": "2026-09-21T12:06:34"
+      },
+      {
+        "Trial Name": "GA.4 ",
+        "change": "modified",
+        "timestamp": "2026-10-07T10:11:52"
       }
     ],
     "pNET": [
