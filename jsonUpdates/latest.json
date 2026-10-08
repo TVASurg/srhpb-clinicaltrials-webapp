@@ -217,11 +217,11 @@
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "This is a prospective correlatives study looking to evaluate the molecular characteristics, immune profile, epidemiological, radiological, and clinical data of colorectal and anal carcinomas. Archival and fresh tumour, adjacent normal tissue materials, and blood samples will be acquired if applicable and utilized to generate molecular data. Furthermore, stool and saliva samples will also be acquired for microbiome analysis. Clinical data will be systematically collected as standard of care to serve as clinical correlates for the molecular data. Stage I: metastatic colorectal cancer",
       "Eligibility ": "Metastatic Colorectal and anal cancer patients (Age ≥ 18 years) staying at PMH to start a new line of systemic therapy.",
-      "Contacts": "Site PI: \nEnrique Sanz Garcia\nenrique.sanzgarcia@uhn.ca,                                  Data Coordinators: yvonne.bach2@uhn.ca, sokaina.akhtar@uhn.ca, Yujin.Lee2@uhn.ca",
+      "Contacts": "Site PI: \nEnrique Sanz Garcia\nenrique.sanzgarcia@uhn.ca\n\nData Coordinators:\nYvonne Bach\nyvonne.bach2@uhn.ca\n\nSokaina Akhtar\nsokaina.akhtar@uhn.ca\n\nYujin Lee2\nYujin.Lee2@uhn.ca",
       "NCT number": null,
       "Study status": "Active",
       "Schema image": null,
-      "Key criteria (for PDF)": "mCRC. Staying at PMH to start a new line of systemic therapy.",
+      "Key criteria (for PDF)": "mCRC and anal cancer patients (Age ≥ 18 years) staying at PMH to start a new line of systemic therapy.",
       "PI contact (for PDF)": "enrique.sanzgarcia@uhn.ca"
     },
     {
@@ -4791,6 +4791,11 @@
         "Trial Name": "ANCORA",
         "change": "modified",
         "timestamp": "2026-10-08T16:18:04"
+      },
+      {
+        "Trial Name": "ANCORA",
+        "change": "modified",
+        "timestamp": "2026-10-08T16:33:39"
       }
     ],
     "GE": [
