@@ -462,7 +462,7 @@
       "Contacts": "Site PI:\nDr. Ali Hosni\nali.hosni@uhn.ca\n\nCoordinator:\nRanjana Srivastava\nRanjana.Srivastava@uhn.ca",
       "NCT number": null,
       "Study status": "Active",
-      "Schema image": null,
+      "Schema image": "NCT06362395.jpg",
       "Key criteria (for PDF)": "Metastatic liver disease from eligible primary cancers (colorectal, pancreatic, gastric, head and neck, cervical, skin SCC, or NSCLC), with 1-3 liver metastases suitable for MR-guided SBRT, ECOG 0-2, Child-Pugh A liver function, and life expectancy >6 months.",
       "PI contact (for PDF)": "ali.hosni@uhn.ca"
     }
@@ -5168,6 +5168,11 @@
         "Trial Name": "AACR-ADOPT-GEA",
         "change": "modified",
         "timestamp": "2026-10-09T09:32:17"
+      },
+      {
+        "Trial Name": "ULTRAS",
+        "change": "modified",
+        "timestamp": "2026-10-09T09:35:31"
       }
     ],
     "pNET": [
