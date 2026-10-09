@@ -419,7 +419,7 @@
       "PI contact (for PDF)": "elena.elimova@uhn.ca "
     },
     {
-      "Disease Setting": "Locally Advanced Resectable",
+      "Disease Setting": "Locally Advanced resectable",
       "Trial Name": "AACR-ADOPT-GEA",
       "Full title": "AACR Adaptive Biomarker-Driven Organ Preservation Trial in GE Adenocarcinomas (AACR-ADOPT-GEA)",
       "Additional notes": "AACR-ADOPT-GEA is a two-stage, prospective, multi-center, perioperative biomarker driven open-label study. The study design consists of biomarker-driven sub-studies that include two stages (Stages I and II). Stage I is comprised of two steps: a screening step and a biomarker-directed treatment step. In step 1, eligible patients will sign a screening consent and tumor tissue specimens for biomarker assessment will be collected. Patients may receive one cycle of FLOT\nor mFOLFOX6 while waiting for biomarker results. In step 2, once biomarker results are returned and a biomarker is identified that is included within the platform, patients will sign a second consent for their identified biomarker subgroup. They will then be assigned to a particular biomarker-specific sub-study (i.e., HER2, MSI-H/EBV, claudin-18.2, FGFR2b, or additionally available biomarkers as allowed by the adaptive design) and continue with chemotherapy backbone and a single agent immune checkpoint inhibitor with the addition of a selected specific biomarker driven targeted therapy or immunotherapy. Perioperative mFOLFOX6, which has comparable efficacy and a favorable toxicity profile compared to FLOT, has been selected for use in this study92, 93. Individuals who commence FLOT as the chemotherapy backbone will switch to mFOLFOX6 once a targeted agent is selected for addition. Those individuals who commence mFOLFOX6 will continue it. If all biomarkers are negative and there is no target identified, that individual patient will continue as per current standard of care therapy off study.\nAll patients who are registered and initiate any combination treatment (chemotherapy backbone, an immunotherapy agent, and/or a biomarker-guided agent) will receive 4 months of treatment in the pre-operative setting followed by surgery and post-operative therapy for a total duration of up to 1 year. Upon 24 patients having completed surgery in a particular sub-study, the decision to graduate that respective therapy to Stage II will be based on stipulated statistics, and only successful therapies for each biomarker will enter Stage II.",
@@ -5163,6 +5163,11 @@
         "Trial Name": "ULTRAS",
         "change": "modified",
         "timestamp": "2026-10-08T12:39:00"
+      },
+      {
+        "Trial Name": "AACR-ADOPT-GEA",
+        "change": "modified",
+        "timestamp": "2026-10-09T09:32:17"
       }
     ],
     "pNET": [
