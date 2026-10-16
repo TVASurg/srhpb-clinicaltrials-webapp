@@ -123,7 +123,7 @@
       "Eligibility ": "Inclusion criteria:\nCRC that is not dMMR or MSI-H.\nReceived and failed all prior available therapies, such that the standard of care for the patient would be best supportive care (BSC).\nPresence of measurable or evaluable disease as RECIST 1.1.\nExclusion criteria:\nHistory of primary immunodeficiency, solid organ transplant or allogeneic bone marrow transplant.\nCurrent or prior use of immunosuppressive medication within 7 days before the first dose.\nActive brain metastases or leptomeningeal metastases.\nReceipt of anti-cancer chemotherapy or biologic therapy within the lesser of i) 21 days, or ii) the usual cycle length of the regimen prior to the first planned dose of study drug.\nPrior exposure to anti-PD-1/PD-L1/CTLA-4 therapy.",
       "Contacts": "Site PI:\nSanz Enrique\nenrique.sanzgarcia@uhn.ca",
       "NCT number": "NCT07152821",
-      "Study status": "Not recruiting",
+      "Study status": "closed",
       "Schema image": "NCT07152821.png",
       "Key criteria (for PDF)": "Not dMMR or MSI-H.\nProgressed on all available therapies.",
       "PI contact (for PDF)": "enrique.sanzgarcia@uhn.ca"
@@ -465,6 +465,22 @@
       "Schema image": "NCT06362395.jpg",
       "Key criteria (for PDF)": "Metastatic liver disease from eligible primary cancers (colorectal, pancreatic, gastric, head and neck, cervical, skin SCC, or NSCLC), with 1-3 liver metastases suitable for MR-guided SBRT, ECOG 0-2, Child-Pugh A liver function, and life expectancy >6 months.",
       "PI contact (for PDF)": "ali.hosni@uhn.ca"
+    },
+    {
+      "Disease Setting": "Resectable locally advanced SCC Esophagus (cT1N+ or cT2-4a; M0)",
+      "Trial Name": "NEEDS Trial",
+      "Full title": "NEoadjuvant chemoradiotherapy for Esophageal squamous cell carcinoma versus Definitive chemoradiotherapy with salvage Surgery as needed",
+      "Additional notes": "NEEDS is a pragmatic open-label, randomized, controlled, phase III,\nmulticenter trial with three co-primary endpoints compared in a\nhierarchical sequence. The first co-primary endpoint, tested with a noninferiority\nhypothesis for the experimental intervention (dCRT with\nsurveillance and salvage esophagectomy only when needed), is overall\nsurvival (OS). The second co-primary endpoint, tested with a superiority\nhypothesis for the experimental intervention, is Global HRQOL 12 months\nafter randomization. This comparison will only be formally performed if\nnon-inferiority between the two groups for the OS endpoint is accepted.\nThe third co-primary endpoint, tested with a superiority hypothesis, is\neating restrictions 12 months after randomization. This comparison will\nonly be formally performed if the hypothesis of improved Global HRQOL at\n12 months for the experimental arm is accepted. The trial will be considered positive if at least the first and second co-primary endpoints are met.A target sample size of 1020 patients randomized is planned in order to\nreach 398 events (deaths) during follow-up, which will be sufficient to\ndemonstrate non-inferiority of OS (80% power, 95% one-sided confidence.The control intervention (arm A) is neoadjuvant chemoradiotherapy\naccording to the CROSS trial protocol followed by esophagectomy. The\nexperimental intervention (arm B) is definitive chemoradiotherapy, using\ndefined chemoradiotherapy options, with post treatment surveillance and\nsalvage esophagectomy as needed in order to obtain local tumor control.",
+      "Tissue Requirements": "n/a",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": null,
+      "Eligibility ": null,
+      "Contacts": null,
+      "NCT number": null,
+      "Study status": null,
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
     }
   ],
   "HCC": [
@@ -611,6 +627,22 @@
       "Schema image": null,
       "Key criteria (for PDF)": "All patients undergoing HPB robotic surgeries at UHN from January 1st, 2021, until the end of the study (estimated 2030).",
       "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
+    },
+    {
+      "Disease Setting": "Advanced/Unresectable Hepatocellular Carcinoma (HCC) with Macrovascular Invasion, Metastatic disease allowed,",
+      "Trial Name": "GI012 (HELIO-RT)",
+      "Full title": "NRG-GI012: PHASE III RANDOMIZED TRIAL OF IO-BASED SYSTEMIC TREATMENT +/- LIVER SBRT IN HEPATOCELLULAR CANCER WITH MACROVASCULAR INVASION (HELIO-RT)",
+      "Additional notes": "NRG-GI012 (HELIO-RT) is a Phase III randomized clinical trial evaluating whether adding liver stereotactic body radiotherapy (SBRT) to first-line immunotherapy-based systemic therapy improves overall survival in patients with hepatocellular carcinoma (HCC) and macrovascular invasion. Eligible patients must have Child-Pugh A or B7 liver function, ECOG 0-2, and may have limited extrahepatic disease. Participants are randomized 1:1 to receive either IO-based systemic therapy alone (atezolizumab/bevacizumab, durvalumab/tremelimumab, or nivolumab/ipilimumab) or the same systemic therapy combined with 5-fraction liver SBRT. The primary endpoint is overall survival, while secondary endpoints include progression-free survival, objective response rate, vascular recanalization, AFP response, toxicity, liver function outcomes, and quality of life. The study plans to randomize 226 patients and is based on the hypothesis that the addition of SBRT will improve median overall survival from approximately 14.3 months to 23.4 months in this high-risk HCC population.",
+      "Tissue Requirements": "The protocol includes optional biospecimen collection, but there are no mandatory biospecimen submissions. Optional- Tissue and Blood collection for future correlative research.",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "The study has 2 treatment arms, with patients randomized 1:1 after registration and eligibility confirmation\n• Arm 1: IO-based systemic therapy alone\n• Arm 2: Liver SBRT + IO-based systemic therapy\nThe systemic therapy may consist of:\n• Atezolizumab + Bevacizumab\n• Durvalumab + Tremelimumab\n• Nivolumab + Ipilimumab (followed by nivolumab maintenance) \nPatients are stratified before randomization by Child-Pugh score, presence of extrahepatic disease, degree of macrovascular invasion, and type of immunotherapy regimen",
+      "Eligibility ": "Eligibility Citeria\n1.HCC with MVI\n2.Child-Pugh A or B7\n3. ECOG 0-2\n 4.≤5 liver lesions and total tumor burden <20 cm\n5.No prior systemic therapy for HCC\n 6.Extrahepatic disease allowed\n 7.Adequate bloodwork and organ function",
+      "Contacts": "Site PI- Dr. Aruz Mesci, email- aruz.mesci@uhn.ca\n\nCRC- Neel Choudhary, email- Neel.Choudhary@uhn.ca",
+      "NCT number": "NCT07166406",
+      "Study status": null,
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
     }
   ],
   "CCA": [
@@ -689,7 +721,7 @@
       "Eligibility ": "Age >18 years.\nDiagnosis of biliary tract or pancreatic cancer at any stage, confirmed by pathology, radiology or multidisciplinary review.\nUnderwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.\nAble to read and understand English.",
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nStudy Coordinator:\nErin Winter\nErin.Winter@uhn.ca",
       "NCT number": null,
-      "Study status": "Active",
+      "Study status": "closed",
       "Schema image": "CAN-PREFER.png",
       "Key criteria (for PDF)": "Underwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.",
       "PI contact (for PDF)": "robert.grant@uhn.ca"
@@ -867,7 +899,7 @@
       "Eligibility ": "Age >18 years.\nDiagnosis of biliary tract or pancreatic cancer at any stage, confirmed by pathology, radiology or multidisciplinary review.\nUnderwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.\nAble to read and understand English.",
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nStudy coordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nMonisha Chawla\nMonisha.Chawla@uhn.ca\n437-553-7609\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
-      "Study status": "Active",
+      "Study status": "closed",
       "Schema image": "CAN-PREFER.png",
       "Key criteria (for PDF)": "Underwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.",
       "PI contact (for PDF)": "robert.grant@uhn.ca"
@@ -963,7 +995,7 @@
       "Eligibility ": "Inclusion criteria:\n- ECOG performance status 0 or 1\n- Characteristic: Definitive histologically or cytologically confirmed metastatic pancreatic adenocarcinoma\n- Measurable disease per RECIST 1.1 \n- Initial diagnosis of metastatic disease ≤ 6 weeks prior to informed consent\n- Previously not treated in metastatic setting\n- Documented RAS mutation status either mutant or wild type\n- Confirmed availability of archival tissue within 5 years of randomization\n- Adequate Organ Function: Bone marrow, Hepatic, Renal, and Coagulation\n- Serum albumin ≥ 3 g/dL\n\nExclusion Criteria:\n- Prior Treatment in metastatic setting of pancreatic adenocarcinoma\n- Prior therapy with a MAPK-pathway targeted therapy or RAS targeted vaccine is prohibited\n- Radical or definitive Radiotherapy and palliative radiotherapy given within 2 weeks prior to initiation of study treatment exceeding 25-30 Gy is prohibited\n- Exception: Prior systemic therapy given in neoadjuvant or adjuvant setting in combination with surgical resection at least 6 months prior to diagnosis of metastatic disease is allowed\n- Presence of locally advanced disease without measurable metastatic lesions\n- Other cancers that were diagnosed or treated other than pancreatic adenocarcinoma ≤3 years prior to randomization\n- Exceptions listed in protocol\n- Uncontrolled pleural effusion, pericardial effusion, clinically significant ascites\n- Requiring paracentesis, drainage, or diuretics within 4 weeks prior to randomization\n- Significant cardiovascular disease or cardiac conduction abnormalities\n- History of interstitial pneumonia, pneumonitis, pulmonary fibrosis, radiation pneumonitis, or any ongoing inflammation or active interstitial lung disease within 2 months of randomization\n- Toxicity associated with prior anticancer therapy that has not recovered to Grade ≤ 1\n- Active or uncontrolled viral infections or systemic infections\n- HIV infection, Hepatitis B, Hepatitis C\n- Any conditions that may affect drug absorption or continuation of study trial\n- Refractory nausea/ vomiting, malabsorption, significant bowel resection, inflammatory GI disease\n- Treatment with CYP3A4 inhibitors/inducers or Cyclosporine A\n- Hypersensitivity/allergy or contraindication with study treatments",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca",
       "NCT number": "NCT07491445",
-      "Study status": "Not Recruiting",
+      "Study status": "enrolling - additional 6 patients only",
       "Schema image": "NCT07491445.png",
       "Key criteria (for PDF)": "RAS mutation status (either mutant or WT). 1L mPDAC, previously untreated in met. setting, diagnosed ≤6 weeks before consent. Availability of archival tissue within 5 years of randomization.",
       "PI contact (for PDF)": "erica.tsang@uhn.ca "
@@ -2469,6 +2501,16 @@
         "Trial Name": "ULTRAS",
         "change": "modified",
         "timestamp": "2026-10-09T11:57:40"
+      },
+      {
+        "Trial Name": "CAN-PREFER",
+        "change": "modified",
+        "timestamp": "2026-10-16T16:03:29"
+      },
+      {
+        "Trial Name": "RMC-6236-303 (RASolute 303)",
+        "change": "modified",
+        "timestamp": "2026-10-16T16:03:29"
       }
     ],
     "HCC": [
@@ -3076,6 +3118,11 @@
         "Trial Name": "BANTAM-01",
         "change": "modified",
         "timestamp": "2026-10-08T11:13:03"
+      },
+      {
+        "Trial Name": "GI012 (HELIO-RT)",
+        "change": "added",
+        "timestamp": "2026-10-16T16:03:29"
       }
     ],
     "Gastroesophageal": [
@@ -3690,6 +3737,11 @@
         "Trial Name": "CAN-PREFER",
         "change": "modified",
         "timestamp": "2026-10-08T11:13:03"
+      },
+      {
+        "Trial Name": "CAN-PREFER",
+        "change": "modified",
+        "timestamp": "2026-10-16T16:03:29"
       }
     ],
     "Preactivation": [
@@ -4801,6 +4853,11 @@
         "Trial Name": "ANCORA",
         "change": "modified",
         "timestamp": "2026-10-08T16:33:39"
+      },
+      {
+        "Trial Name": "CO.33 (BATTMAN)",
+        "change": "modified",
+        "timestamp": "2026-10-16T16:03:29"
       }
     ],
     "GE": [
@@ -5188,6 +5245,11 @@
         "Trial Name": "AndroMETa-GEA-977",
         "change": "modified",
         "timestamp": "2026-10-15T15:41:57"
+      },
+      {
+        "Trial Name": "NEEDS Trial",
+        "change": "added",
+        "timestamp": "2026-10-16T16:03:29"
       }
     ],
     "pNET": [
