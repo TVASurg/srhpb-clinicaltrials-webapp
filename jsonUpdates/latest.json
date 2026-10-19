@@ -27,7 +27,7 @@
       "Eligibility ": "Inclusion criteria:\nNo radiological evidence of liver metastasis.\nPresence of measurable disease by RECIST 1.1 criteria.\nNo prior systemic therapy for mCRC, except for neoadjuvant/adjuvant chemotherapy where > 6 months have elapsed between completion and recurrence.\nKnown pMMR/MSS status\nExclusion criteria:\nActive or prior documented autoimmune or inflammatory disorders or cardiac conditions.\nPrior history of hypertensive crisis or hypertensive encephalopathy or bleeding risks.\nDeep venous thrombosis, pulmonary embolism, arterial thrombosis, transient ischemic attack or cerebrovascular accident.\nPrior exposure to immune mediated therapy.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06792695",
-      "Study status": "Active",
+      "Study status": "recruitment complete",
       "Schema image": "NCT06792695.png",
       "Key criteria (for PDF)": "pMMR/MSS status.\nNo radiological evidence of liver metastasis.\nNeoadjuvant/adjuvant chemotherapy where > 6 months have elapsed is allowed.",
       "PI contact (for PDF)": "eric.chen@uhn.ca"
@@ -234,11 +234,59 @@
       "Trial Intervention/Arms": "Two Arms:\nGroup 1:  38Gy/single fraction Radiation (SBRT)\nGroup 2: 27Gy/single fraction Radiation (SBRT)\n\n\nQuestionnaires will be administered to both the Groups: \nQuestionnaires about quality of life will be administered Prior to treatment, at months 1, 3, 6, 12 and 24 months post treatment.",
       "Eligibility ": "Inclusion Criteria:\n\n1. Histologically confirmed malignancy (colorectal adenocarcinoma, pancreatic adenocarcinoma, gastric adenocarcinoma, head and neck SCC, cervix SCC, skin SCC and NSCLC) with metastatic liver disease detected on imaging. Biopsy of metastasis is preferred, but not mandatory. \n2. One, two or three liver metastases “target lesion”, ≥ 2 cm from luminal and biliary \nstructures\n* Target lesions(s) that can receive high/ultra-high dose SBRT:\no Maximum number: 3\no Maximum diameter of each target lesion: 6cm \n* Non-target lesion(s) can be treated with single fraction SBRT with 16Gy or 24Gy, as soon as the total number of treated metastatic liver lesions with SBRT will be ≤5 (3 or 5 fractions SBRT to non-target liver metastases can be used as soon as criteria  of single fraction SBRT is used for the cumulative plan).\n3. Patients must be Child-Pugh score A within one month prior to study entry.\n4. Must be ≥ 18 years of age.\n5. Must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.\n6. Expected life expectancy > 6 months. \n7. Suitable for MR-linac treatment (e.g., ability to lie on the treatment couch for at least one hour)\n8. Patient consent must be appropriately obtained in accordance with applicable local and  regulatory requirements. Each patient must sign a consent form prior to enrollment in the trial to document their willingness to participate.\n9. Consent to provision of samples of blood and plasma for correlative studies is optional.\n10. Women of child bearing potential must use an accepted and effective method of contraception and/or abstain from sexual intercourse while on protocol treatment and for at least 6 months after the last day of RT. Sexually active males must use an accepted and effective method of contraception and/or abstain from sexual intercourse while on protocol Treatment and for at least 6 months after SBRT. \n11. Women must not be pregnant or breast-feeding. All females of child bearing potential must \nhave a serum or urine pregnancy test to rule out pregnancy within 4 weeks prior to \nregistration. All breastfeeding women should discontinue breastfeeding prior to study registration.\n\nExclusionCriteria:\n\n1. Liver metastases from primary cancer other than listed in the eligibility criteria\n2. Target lesion “planned for high/ultra-high dose SBRT” in proximity (<2cm) to luminal or biliary structures\n3. Evidence of > 5 liver metastases (exception is in cases of oligoprogression, patients may have more than 5 liver metastases, but SBRT for target lesions will be required for 1, 2, or 3 liver metastases only).\n4. Any previous RT to the abdomino-pelvic region that would result in significant overlap of RT volume for the current study.\n5. Previous liver-directed transarterial radioembolization (note that previous transarterial \nchemoembolization, microwave ablation, or radiofrequency ablation are permitted).\n6. Individuals with severe, active co-morbidity- Chronic obstructive pulmonary disease,Unstable angina and/or congestive heart failure requiring hospitalizationand Acute myocardial infarction within 30 days of study registration, Diseases precluding RT (e.g., active scleroderma, lupus or inflammatory bowel disease).\n7.Contraindications to MR imaging (e.g. implanted metallic prostheses, defibrillators, \nstimulators, pacemakers, or neurotransmitters) per institutional policy on management of \npatients with internal and external medical devices.\n8. History of claustrophobia\n9. The total length of treatment volume is beyond the capacity of MRL machine\n10. Participants must not be receiving any other standard anti-cancer therapy or experimental \nagent concurrently with SBRT (≥1 week break of systemic therapy prior to SBRT is required).",
       "Contacts": "Site PI:\nDr. Ali Hosni\nali.hosni@uhn.ca\n\nCoordinator:\nRanjana Srivastava\nRanjana.Srivastava@uhn.ca",
-      "NCT number": null,
+      "NCT number": " NCT06362395",
       "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": "Metastatic liver disease from eligible primary cancers (colorectal, pancreatic, gastric, head and neck, cervical, skin SCC, or NSCLC), with 1-3 liver metastases suitable for MR-guided SBRT, ECOG 0-2, Child-Pugh A liver function, and life expectancy >6 months.",
       "PI contact (for PDF)": "ali.hosni@uhn.ca"
+    },
+    {
+      "Disease Setting": "Patients with pathologically proven diagnosis of anal SCC.\nClinical stage T1-4 N0-1 M0 (UICC/AJCC TNM 8th Ed).\nAny involved regional node must be ≤ 4 cm on maximum diameter based on clinical \nand radiographic assessment.",
+      "Trial Name": "MAESTRO",
+      "Full title": "MR-Adaptive Radiation therapy for Anal Cancer with EScalated-Treatment in a Risk-Optimized \napproach (MAESTRO): Phase II trial",
+      "Additional notes": "The purpose of this study is to determine the benefit of MR-adaptive radiotherapy combined with a risk stratified dose of radiation in patients with Anal Squamous Cell Carcinoma. Using Magnetic Resonance Imaging (MRI), we can deliver radiation therapy with greater precision to treat your cancer, by improving its visibility. The radiation treatment machine guides therapy, allowing the radiation treatment to be targeted to the cancer within the anus. This is called MR-adaptive radiotherapy. A new machine called a Magnetic Resonance Linear Accelerator (MRL) can be used to give this treatment. 80 patients across all sites (8 low risk, 24 standard risk, 24 intermediate risk, 24 high risk as per protocol). Treatment will be completed in two phases. All patients will receive 15 fractions of \ntreatment in an initial phase, while a boost phase will deliver a personalized dose based \non your pre-defined risk group. A boost phase refers to a specific part of the treatment \nplan where a higher dose of radiation is delivered to a localized area within a tumor. \nThis is done after the initial round of radiation therapy, which delivers a standard or \nmoderate dose of radiation to the entire tumor. The purpose of the boost phase is to \ntarget the remaining or more resistant cancer cells within the tumor that might not have \nresponded as well to the initial rounds of radiation.\nThe personalized dose is not standard of care. The risk groups are as follows-\nLow risk, Standard risk, Intermediate risk, High risk.\nRisk group is determined by your tumor’s size, category, and HPV/HIV status. \nPretreatment- History and physical examination\n• Digital rectal examination and/or endoscopic evaluation – the insertion of a small \ncamera-like device into the anal canal to observe the presence of cancer.\n• Routine blood work (including HIV test - positive test results will be reported to \nlocal health authorities)\n• Imaging scans to assess the cancer, including:\no MRI (Magnetic Resonance Imaging\no CT (Computer Tomography) scan\no PET-CT scan\n• Pregnancy test (if applicable)\n• Biopsy: A small amount of tissue is taken from the tumor for laboratory testing.\nThis biopsy test is mandatory and will be used to diagnose the cancer.\n• HPV test: A swab of the anal lining to look for abnormal cells\n• Baseline symptom review\n• Questionnaires: Participants will be asked questions about their activity level and well-being. \nDuring Treatment\nParticipant will come to the center first for a planning CT and MRI simulation scans, \nthen come back within 2-3 weeks to start the treatment.\nThe total dose of radiation will be based on under which risk group participant tumor comes in. The total dose of radiotherapy you receive is based on the risk level:\n• Low risk group will receive a lower total dose (20 fractions) and radiotherapy \nwill be completed in 4 weeks.\n• Standard risk group will receive the standard dose (25 fractions) and \nradiotherapy will be completed in 5 weeks.\n• Intermediate risk group will receive a total higher dose (30 fractions) and \nradiotherapy will be completed in 6 weeks.\n• High risk group will receive a total higher dose (35 fractions) and radiotherapy \nwill be completed in 7 weeks.\nFollow-up-After the end of the radiation treatment, follow-up assessments and questionnaires will take place every 3 months for 2 years, and every 6 months for up to 5 years.",
+      "Tissue Requirements": "There is optional component of study also- Retrieval of biopsy tissue for future studies and study blood sample for genetic testing -timepoint-pretreatment, 4tweek and last week of radiation, at month- 3,6,12 and 24 after treatment, and at the time of disease progression, if applicable; samples will be stored at the Princess Margaret Cancer Centre. Some samples will be processed immediately while others maybe be kept for future processing/storage for 10 years; participant may refuse to take part in the optional research and still participate in the main study.",
+      "Biomarker/unselected": "HPV Status by ICH",
+      "Trial Intervention/Arms": "Treatment will be completed in two phases. All patients will receive 15 fractions of \ntreatment in an initial phase, while a boost phase will deliver a personalized dose based \non your pre-defined risk group. A boost phase refers to a specific part of the treatment \nplan where a higher dose of radiation is delivered to a localized area within a tumor. \nThis is done after the initial round of radiation therapy, which delivers a standard or \nmoderate dose of radiation to the entire tumor. The purpose of the boost phase is to \ntarget the remaining or more resistant cancer cells within the tumor that might not have \nresponded as well to the initial rounds of radiation. The total dose of radiation will be based on under which risk group participant tumor comes in. The total dose of radiotherapy you receive is based on the risk level:\n• Low risk group will receive a lower total dose (20 fractions) and radiotherapy \nwill be completed in 4 weeks.\n• Standard risk group will receive the standard dose (25 fractions) and \nradiotherapy will be completed in 5 weeks.\n• Intermediate risk group will receive a total higher dose (30 fractions) and \nradiotherapy will be completed in 6 weeks.\n• High risk group will receive a total higher dose (35 fractions) and radiotherapy \nwill be completed in 7 weeks.\nFollow-up-After the end of the radiation treatment, follow-up assessments and questionnaires will take place every 3 months for 2 years, and every 6 months for up to 5 years.",
+      "Eligibility ": "Inclusion criteria-\nPatients with pathologically proven diagnosis of anal SCC.\n• Clinical stage T1-4 N0-1 M0, Patients must be eligible for definitive RT or CRT.    \n• Must be ≥ 18 years of age, ECOG-0-2\n• Patient is able (i.e. sufficiently fluent) and willing to complete the quality of life questionnaires in English.\n• Women must not be pregnant or breast-feeding.\nExclusion criteria-\n• Previous chemotherapy, RT or curative-intent surgical treatment (i.e., APR) for anal cancer.  \n• Any previous RT to the abdo-pelvic region that would result in overlap of RT volume for the current study.\n• Individuals with a history of a different malignancy except if they have been disease-free for at least 2 years and are deemed by the investigator to be at low risk for recurrence. Individuals with the following cancers are eligible if diagnosed and treated within the past 5 years: cervical cancer in situ, and basal cell or squamous cell carcinoma of the skin.   \n• Individuals with severe, active co-morbidity including any of the following:  \n• Chronic obstructive pulmonary disease or other pulmonary illness requiring hospitalization within 30 days of study registration  \n• Unstable angina and/or congestive heart failure requiring hospitalization within the 30 days of study registration  \n• Acute myocardial infarction within 30 days of study registration  \n• Diseases precluding RT (e.g. scleroderma)   \n• Contraindications to MR imaging (e.g. implanted metallic prostheses, defibrillators, stimulators, pacemakers, or neurotransmitters) per institutional policy on management of patients with internal and external medical devices.   \n• History of claustrophobia   \n• The total length of treatment volume for the boost (MRL) phase is beyond the capacity of MRL machine   \n• Perianal extension of the primary tumor that necessitates perianal bolus placement in order to obtain adequate dosimetry coverage of the target.   \n• Participants must not be receiving any other standard anti-cancer therapy or experimental agent concurrently with the study drugs.   ",
+      "Contacts": "PI- Dr. Ali Hosni, 416-946-2360, email- ali.hosni@uhn.ca\nCRC- Ranjana Srivastava, 416-946-2828x5576, email- Ranjana.Srivastava@uhn.ca",
+      "NCT number": "NCT03900429",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
+    },
+    {
+      "Disease Setting": "1st line ",
+      "Trial Name": "INCA033890-303",
+      "Full title": "A Randomized, Double-Blind, Phase 3 Study of Standard-of-Care Chemotherapy and Bevacizumab With or Without INCA33890 in the First-Line Treatment of Metastatic Microsatellite Stable Colorectal Cancer",
+      "Additional notes": ">12 monthsfrom completing\nadjuvant therapy to recurrence;\nMSI-H/BRAF V600E excluded",
+      "Tissue Requirements": "MSI-H/BRAF V600E excluded",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "A: INCA33890 (PD1/TGFß) + BEV + FOLFOX\nB: BEV + FOLFOX",
+      "Eligibility ": ">12 monthsfrom completing\nadjuvant therapy to recurrence;\nMSI-H/BRAF V600E excluded",
+      "Contacts": "Dr. Eric Chen; ",
+      "NCT number": "NCT07284849",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
+    },
+    {
+      "Disease Setting": "1st line ",
+      "Trial Name": "M24-533",
+      "Full title": "A Phase 2, Open-Label, Randomized, Master Protocol Study to Evaluate Safety and Efficacy of Multiple Treatment Combinations With Telisotuzumab Adizutecan in Subjects With Metastatic Colorectal Cancer",
+      "Additional notes": "No RAS/RAF mutation",
+      "Tissue Requirements": "No RAS/RAF mutation",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "A: Telisotuzumab adizutecan 2.4 mg/kg\n+ panitumumab +5-FU\nB: Telisotuzumab adizutecan 2.0 mg/kg\n+ panitumumab +5-FU\nC: FOLFOX + panitumumab",
+      "Eligibility ": "No RAS/RAF mutation",
+      "Contacts": "Dr. Eric Chen; ",
+      "NCT number": "NCT06820463",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
     }
   ],
   "GE": [
@@ -460,7 +508,7 @@
       "Trial Intervention/Arms": "Two Arms:\nGroup 1:  38Gy/single fraction Radiation (SBRT)\nGroup 2: 27Gy/single fraction Radiation (SBRT)\n\n\nQuestionnaires will be administered to both the Groups: \nQuestionnaires about quality of life will be administered Prior to treatment, at months 1, 3, 6, 12 and 24 months post treatment.",
       "Eligibility ": "Inclusion Criteria:\n\n1. Histologically confirmed malignancy (colorectal adenocarcinoma, pancreatic adenocarcinoma, gastric adenocarcinoma, head and neck SCC, cervix SCC, skin SCC and NSCLC) with metastatic liver disease detected on imaging. Biopsy of metastasis is preferred, but not mandatory. \n2. One, two or three liver metastases “target lesion”, ≥ 2 cm from luminal and biliary \nstructures\n* Target lesions(s) that can receive high/ultra-high dose SBRT:\no Maximum number: 3\no Maximum diameter of each target lesion: 6cm \n* Non-target lesion(s) can be treated with single fraction SBRT with 16Gy or 24Gy, as soon as the total number of treated metastatic liver lesions with SBRT will be ≤5 (3 or 5 fractions SBRT to non-target liver metastases can be used as soon as criteria  of single fraction SBRT is used for the cumulative plan).\n3. Patients must be Child-Pugh score A within one month prior to study entry.\n4. Must be ≥ 18 years of age.\n5. Must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.\n6. Expected life expectancy > 6 months. \n7. Suitable for MR-linac treatment (e.g., ability to lie on the treatment couch for at least one hour)\n8. Patient consent must be appropriately obtained in accordance with applicable local and  regulatory requirements. Each patient must sign a consent form prior to enrollment in the trial to document their willingness to participate.\n9. Consent to provision of samples of blood and plasma for correlative studies is optional.\n10. Women of child bearing potential must use an accepted and effective method of contraception and/or abstain from sexual intercourse while on protocol treatment and for at least 6 months after the last day of RT. Sexually active males must use an accepted and effective method of contraception and/or abstain from sexual intercourse while on protocol Treatment and for at least 6 months after SBRT. \n11. Women must not be pregnant or breast-feeding. All females of child bearing potential must \nhave a serum or urine pregnancy test to rule out pregnancy within 4 weeks prior to \nregistration. All breastfeeding women should discontinue breastfeeding prior to study registration.\n\nExclusionCriteria:\n\n1. Liver metastases from primary cancer other than listed in the eligibility criteria\n2. Target lesion “planned for high/ultra-high dose SBRT” in proximity (<2cm) to luminal or biliary structures\n3. Evidence of > 5 liver metastases (exception is in cases of oligoprogression, patients may have more than 5 liver metastases, but SBRT for target lesions will be required for 1, 2, or 3 liver metastases only).\n4. Any previous RT to the abdomino-pelvic region that would result in significant overlap of RT volume for the current study.\n5. Previous liver-directed transarterial radioembolization (note that previous transarterial \nchemoembolization, microwave ablation, or radiofrequency ablation are permitted).\n6. Individuals with severe, active co-morbidity- Chronic obstructive pulmonary disease,Unstable angina and/or congestive heart failure requiring hospitalizationand Acute myocardial infarction within 30 days of study registration, Diseases precluding RT (e.g., active scleroderma, lupus or inflammatory bowel disease).\n7.Contraindications to MR imaging (e.g. implanted metallic prostheses, defibrillators, \nstimulators, pacemakers, or neurotransmitters) per institutional policy on management of \npatients with internal and external medical devices.\n8. History of claustrophobia\n9. The total length of treatment volume is beyond the capacity of MRL machine\n10. Participants must not be receiving any other standard anti-cancer therapy or experimental \nagent concurrently with SBRT (≥1 week break of systemic therapy prior to SBRT is required).",
       "Contacts": "Site PI:\nDr. Ali Hosni\nali.hosni@uhn.ca\n\nCoordinator:\nRanjana Srivastava\nRanjana.Srivastava@uhn.ca",
-      "NCT number": null,
+      "NCT number": " NCT06362395",
       "Study status": "Active",
       "Schema image": "NCT06362395.jpg",
       "Key criteria (for PDF)": "Metastatic liver disease from eligible primary cancers (colorectal, pancreatic, gastric, head and neck, cervical, skin SCC, or NSCLC), with 1-3 liver metastases suitable for MR-guided SBRT, ECOG 0-2, Child-Pugh A liver function, and life expectancy >6 months.",
@@ -473,11 +521,27 @@
       "Additional notes": "NEEDS is a pragmatic open-label, randomized, controlled, phase III,\nmulticenter trial with three co-primary endpoints compared in a\nhierarchical sequence. The first co-primary endpoint, tested with a noninferiority\nhypothesis for the experimental intervention (dCRT with\nsurveillance and salvage esophagectomy only when needed), is overall\nsurvival (OS). The second co-primary endpoint, tested with a superiority\nhypothesis for the experimental intervention, is Global HRQOL 12 months\nafter randomization. This comparison will only be formally performed if\nnon-inferiority between the two groups for the OS endpoint is accepted.\nThe third co-primary endpoint, tested with a superiority hypothesis, is\neating restrictions 12 months after randomization. This comparison will\nonly be formally performed if the hypothesis of improved Global HRQOL at\n12 months for the experimental arm is accepted. The trial will be considered positive if at least the first and second co-primary endpoints are met.A target sample size of 1020 patients randomized is planned in order to\nreach 398 events (deaths) during follow-up, which will be sufficient to\ndemonstrate non-inferiority of OS (80% power, 95% one-sided confidence.The control intervention (arm A) is neoadjuvant chemoradiotherapy\naccording to the CROSS trial protocol followed by esophagectomy. The\nexperimental intervention (arm B) is definitive chemoradiotherapy, using\ndefined chemoradiotherapy options, with post treatment surveillance and\nsalvage esophagectomy as needed in order to obtain local tumor control.",
       "Tissue Requirements": "n/a",
       "Biomarker/unselected": null,
-      "Trial Intervention/Arms": null,
-      "Eligibility ": null,
-      "Contacts": null,
-      "NCT number": null,
-      "Study status": null,
+      "Trial Intervention/Arms": "Two Arms- Control Arm-Neoadjuvant CRT with weekly carboplatin and paclitaxel and radiation in 1.8 fractions to 41.4 Gy (in accordance with the CROSS trial protocol) followed by preplanned esophagectomy.\nExperimental Arm- Definitive CRT using any combination of two chemotherapy (platin-taxane\nand platin-fluoropyrimidin) and two radiotherapy regimens (1.8 to 50.4 Gy and 2.0 to 50 Gy) followed by surveillance and salvage esophagectomy only as needed.\nParticipants will be randomised online from within an electronic randomization system.",
+      "Eligibility ": "Inclusion criteria\n Histopathologically confirmed SCC of the esophagus in locally advanced stages cT1 N+ or\ncT2-4a any N, M0, according to current (8th) version of of the AJCC TNM classification.\nTechnically resectable disease according to the local multidisciplinary team conference\n(MDT)/tumor board.\nAge-18- 80 years.\n Performance status ECOG 0-1.\nAdequate organ function (assessed within 14 days prior to randomization)\nWomen of childbearing potential (WOCBP*) must have a negative serum\nFemale subjects who are breast feeding should discontinue nursing\nMale study participants should not father children during the study treatment\nExclusion criteria\n􀁸 M1 according to current (8th) version of of the AJCC TNM classification.\n􀁸 cT4b according to current (8th) version of of the AJCC TNM classification.\n􀁸 Primary tumor not resectable without laryngectomy.\n􀁸 Impaired renal, hepatic, cardiac, pulmonary or endocrine status that compromises the\neligibility of the patient for multimodality treatment with chemoradiotherapy followed\nby esophagectomy.\n􀁸 Subjects not considered likely to tolerate multimodality treatment with\nchemoradiotherapy followed by esophagectomy.\n􀁸 Subjects with previous malignancies are excluded unless a complete remission or\ncomplete resection was achieved at least 5 years prior to study entry. Adequately\ntreated cervix uteri carcinoma in situ, and localized non-melanoma skin cancer are not\nexclusion criteria, regardless of time of diagnosis.\n􀁸 Prior or concomitant treatment with radiotherapy or chemoradiotherapy with potential\noverlap of radiotherapy fields.\n􀁸 Known uncontrollable hypersensitivity to the components of the chemotherapeutic\nagents used in the trial regimens.\n􀁸 Inability to fully understand and digest study patient information or to comply with study\ninstructions due to language difficulty or cognitive failure such as dementia or severe\npsychiatric disorder.",
+      "Contacts": "Site PI- Dr. Jelena Lukovic, email- Jelena.Lukovic@uhn.ca\nCRC- Hebe Chu, email- Hebe.Chu@uhn.ca",
+      "NCT number": "NCT04460352",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
+    },
+    {
+      "Disease Setting": "Esophageal Cancer- Early Cancer; Advanced Cancer",
+      "Trial Name": "PET-MRI Esophagus",
+      "Full title": "Feasibility study of PET-MRI as a platform for image guidance and adaptive radiation therapy in patients with esophagogastric cancer",
+      "Additional notes": "In patients with esophageal cancer, we use computed tomography (CT) images and Positron Emission Tomography (PET) images prior to the start of radiation to stage and visualize the cancer. Staging and visualizing the cancer before treatment allows for the radiation team to develop plans that help precisely target the cancer, while providing a higher dose of radiation to areas of known disease. Currently, there are a lack of tools available to identify patients who would benefit from targeted dosing of radiation in esophageal cancer.\nMagnetic Resonance Imaging (MRI) provides better soft tissue contrast compared to conventional CT, and when combined with PET, can potentially provide better visualization of the tumor shape, size, and position. The superior details offered through MRI in visualizing esophageal cancer provides an opportunity to enhance precision radiation treatment design and delivery, especially in radiation courses that incorporate imaging techniques during each treatment session. To date, there is a lack of research on the added value and feasibility of PET-MRI imaging when compared with PET-CT in esophageal cancer. This is a single centre, single arm feasibility study of MR imaging for image guidance in patients with primary esophagogastric tumors. The goal of this study is to gather information that will allow future radiation care teams to incorporate MRI and PET imaging into the radiation treatment workflow for patients with esophageal cancer receiving radiation therapy.",
+      "Tissue Requirements": "N/A",
+      "Biomarker/unselected": "unselected",
+      "Trial Intervention/Arms": "This is a single centre, single arm feasibility study of MR imaging for image guidance in patients with primary esophagogastric tumors.15 patients will be recruited in total, over the course of 2 years.\nParticipants will have one PET-MRI before RT. This will be scheduled the same day as planning CT and occur at TGH. They will have one MRI during treatment. They will have one final MRI scan post CRT +/- 5 days.",
+      "Eligibility ": "Eligibility criteria\nPatients 18 years or older\nDiagnosed with locally advanced esophageal cancer being considered for conventional RT >4 weeks\nAbility and willingness to provide written informed consent\nExclusion criteria\nContraindication for MR as per current institutional guidelines..\nContraindication for Gadolinium injection as per current institutional guidelines.\nInability to lie supine for at least 60 minutes.\nAny patient who is pregnant or breastfeeding.\nPacemaker or implanted defibrillator.",
+      "Contacts": "Site PI- Dr. Rebecca Wong, email- Rebecca.Wong@uhn.ca\nCRC- Rehab Chahin, email- Rehab.Chahin@uhn.ca",
+      "NCT number": "NCT05796102",
+      "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": null,
       "PI contact (for PDF)": null
@@ -639,7 +703,23 @@
       "Eligibility ": "Eligibility Citeria\n1.HCC with MVI\n2.Child-Pugh A or B7\n3. ECOG 0-2\n 4.≤5 liver lesions and total tumor burden <20 cm\n5.No prior systemic therapy for HCC\n 6.Extrahepatic disease allowed\n 7.Adequate bloodwork and organ function",
       "Contacts": "Site PI- Dr. Aruz Mesci, email- aruz.mesci@uhn.ca\n\nCRC- Neel Choudhary, email- Neel.Choudhary@uhn.ca",
       "NCT number": "NCT07166406",
-      "Study status": null,
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
+    },
+    {
+      "Disease Setting": "early-stage liver cancer largest diameter ≤8 cm (BCLC stage 0 or A). \nAs per local multidisciplinary HCC meeting consensus patient is suitable for percutaneous \nablation and/or transarterial therapies and not suitable for or declined liver resection and not \nplanned for liver transplantation.",
+      "Trial Name": "SOCRATES HCC",
+      "Full title": "A Randomized controlled trial of Standard Of Care versus RadioAblaTion in Early Stage\nHepatoCellular Carcinoma",
+      "Additional notes": "The study is designed as a phase II, prospective, randomised, parallel and open-label,\nmulti-institutional superiority trial for patients with newly diagnosed early stage (BCLC 0/A) ,\nsolitary ≤8cm nodule HCC, ineligible for surgical resection or transplantation.\nThe SOCRATES HCC study is looking at whether a type of radiotherapy called Stereotactic\nAblative Body Radiotherapy (SABR) can improve outcomes for people with early stage liver\ncancer compared to current standard treatments.\nPeople who join the study will be placed into one of two groups based on the size of their tumour\nand whether thermal ablation is an appropriate treatment for them. The study will include about\n218 participants in total.\n- Cohort 1: About 118 people with a single tumour 3 cm or smaller who are able to have thermal\nablation. They will be randomly assigned to receive either SABR or thermal ablation.\n- Cohort 2: About 100 people with a single tumour larger than 3 cm or who cannot safely have\nthermal ablation. They will be randomly assigned to receive either SABR or the current standard\nof care. Standard care may include thermal ablation, transarterial chemoembolisation (TACE), or\ntransarterial radioembolisation (TARE).\nThermal ablation treatments such as radiofrequency ablation (RFA) and microwave ablation\n(MWA) use heat from a probe placed directly into the tumour to kill cancer cells. Transarterial\ntreatments such as TACE and TARE use chemotherapy or radioactive particles delivered through\nthe blood vessels feeding the tumour. SABR uses highly targeted, high energy x-rays from\noutside the body to destroy the tumour.\nThe main goal of the study is to see whether SABR can better control the tumour at two years\ncompared to current treatments. The study will also look at other important outcomes such as\nprogression free survival, overall survival, side effects, quality of life and people's experiences of\ntheir treatment.",
+      "Tissue Requirements": "n/a",
+      "Biomarker/unselected": "n/a",
+      "Trial Intervention/Arms": "People who join the study will be placed into one of two groups based on the size of their tumour and\nwhether thermal ablation is an appropriate treatment for them. The study will include about 218\nparticipants in total.\n- Cohort 1: About 118 people with a single tumour 3 cm or smaller who are able to have thermal\nablation. They will be randomly assigned to receive either SABR or thermal ablation.\n- Cohort 2: About 100 people with a single tumour larger than 3 cm or who cannot safely have thermal\nablation. They will be randomly assigned to receive either SABR or the current standard of care.\nStandard care may include thermal ablation, transarterial chemoembolisation (TACE), or transarterial radioembolisation (TARE).\nThermal ablation treatments such as radiofrequency ablation (RFA) and microwave ablation (MWA) use\nheat from a probe placed directly into the tumour to kill cancer cells. Transarterial treatments such as\nTACE and TARE use chemotherapy or radioactive particles delivered through the blood vessels feeding\nthe tumour. SABR uses highly targeted, high-energy x-rays from outside the body to destroy the\ntumour.",
+      "Eligibility ": "Inclusion Criteria:\n1) Histological or radiological diagnosis of single, new HCC with largest diameter ≤8 cm (BCLC*stage 0 or A).\na) If prior history of HCC, the prior HCC must have been:\n- Early stage, solitary HCC, ≤5 cm in size and,\n- Have arisen within a different liver segment to the current HCC and,\n- Treated with curative intent therapy >2 years prior with no evidence of active disease at the site.\n2) As per local multidisciplinary HCC meeting consensus patient is suitable for percutaneous thermal ablation and/or transarterial therapies and not suitable for or declined liver resection and not planned for liver transplantation.\n3) Child-Pugh score ≤B7* with no or diuretic-controlled ascites\n4) ECOG performance status ≤2†\n5) Platelets ≥50x109\n/L, Haemoglobin ≥80 g/L, Neutrophils ≥1.0x109 /L, INR <1.8 (except if on\ntherapeutic anticoagulation)\n6) 18 years of age or older and able to provide written consent\nExclusion Criteria:\n1) Presence of multifocal HCC, macrovascular invasion or extrahepatic disease\n2) Prior treatment for any HCC within last 2 years.\n3) Clinically evident ascites or hepatic encephalopathy\n4) Prior abdominal radiation therapy that would preclude the delivery of protocol defined SABR to the tumour.\n5) Untreated Hepatitis B or C\n6) Known additional invasive malignancy (excluding non-melanoma skin cancer) that is\nprogressing or required treatment within the last 2 years.\n7) Pregnancy",
+      "Contacts": "Site PI- Michael Yan, email- Michael.Yan@uhn.ca\nCRC- Ranjana Srivastava, email- Ranjana.Srivastava@uhn.ca",
+      "NCT number": "NCT07628751, NCT01994720",
+      "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": null,
       "PI contact (for PDF)": null
@@ -867,7 +947,7 @@
       "Eligibility ": "Inclusion criteria: \n• Histologically or cytologically confirmed unresectable, LAPDAC or mPDAC.\n• Must have received 1 and no more than 1 line of therapy for advanced PDAC, with documented progression (PD on neoadjuvant or adjuvant chemotherapy during treatment or within 6 months of EOT are eligible).\n• At least 1 target lesion per RECIST 1.1.\nExclusion criteria: \n• Has a malignancy (except disease under study) that has progressed or required active treatment within the past 24 months except for basal cell or squamous cell carcinomas of the skin or in-situ carcinoma.\n• Is currently enrolled or has participated in any other clinical study involving an investigational study intervention or any other type of interventional medical research and/or has received treatment with any anticancer or investigational agent before first dose of study intervention.\n• Has received immunosuppressive agents within 30 days prior to first dose of study intervention.\n• Has received any prior therapy with an ADC with a TOPO1-inhibitor payload.\n• Has serious or poorly controlled hypertension.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06885034",
-      "Study status": "Active",
+      "Study status": "Not Recruiting",
       "Schema image": "NCT06885034.png",
       "Key criteria (for PDF)": "Must have received no more than 1 line of therapy for advanced PDAC, with PD on neoadjuvant or adjuvant chemo during treatment or within 6 months of EOT.",
       "PI contact (for PDF)": "eric.chen@uhn.ca"
@@ -1042,7 +1122,7 @@
       "Trial Intervention/Arms": "Two Arms:\nGroup 1:  38Gy/single fraction Radiation (SBRT)\nGroup 2: 27Gy/single fraction Radiation (SBRT)\n\n\nQuestionnaires will be administered to both the Groups: \nQuestionnaires about quality of life will be administered Prior to treatment, at months 1, 3, 6, 12 and 24 months post treatment.",
       "Eligibility ": "Inclusion Criteria:\n\n1. Histologically confirmed malignancy (colorectal adenocarcinoma, pancreatic adenocarcinoma, gastric adenocarcinoma, head and neck SCC, cervix SCC, skin SCC and NSCLC) with metastatic liver disease detected on imaging. Biopsy of metastasis is preferred, but not mandatory. \n2. One, two or three liver metastases “target lesion”, ≥ 2 cm from luminal and biliary \nstructures\n* Target lesions(s) that can receive high/ultra-high dose SBRT:\no Maximum number: 3\no Maximum diameter of each target lesion: 6cm \n* Non-target lesion(s) can be treated with single fraction SBRT with 16Gy or 24Gy, as soon as the total number of treated metastatic liver lesions with SBRT will be ≤5 (3 or 5 fractions SBRT to non-target liver metastases can be used as soon as criteria  of single fraction SBRT is used for the cumulative plan).\n3. Patients must be Child-Pugh score A within one month prior to study entry.\n4. Must be ≥ 18 years of age.\n5. Must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.\n6. Expected life expectancy > 6 months. \n7. Suitable for MR-linac treatment (e.g., ability to lie on the treatment couch for at least one hour)\n8. Patient consent must be appropriately obtained in accordance with applicable local and  regulatory requirements. Each patient must sign a consent form prior to enrollment in the trial to document their willingness to participate.\n9. Consent to provision of samples of blood and plasma for correlative studies is optional.\n10. Women of child bearing potential must use an accepted and effective method of contraception and/or abstain from sexual intercourse while on protocol treatment and for at least 6 months after the last day of RT. Sexually active males must use an accepted and effective method of contraception and/or abstain from sexual intercourse while on protocol Treatment and for at least 6 months after SBRT. \n11. Women must not be pregnant or breast-feeding. All females of child bearing potential must \nhave a serum or urine pregnancy test to rule out pregnancy within 4 weeks prior to \nregistration. All breastfeeding women should discontinue breastfeeding prior to study registration.\n\nExclusionCriteria:\n\n1. Liver metastases from primary cancer other than listed in the eligibility criteria\n2. Target lesion “planned for high/ultra-high dose SBRT” in proximity (<2cm) to luminal or biliary structures\n3. Evidence of > 5 liver metastases (exception is in cases of oligoprogression, patients may have more than 5 liver metastases, but SBRT for target lesions will be required for 1, 2, or 3 liver metastases only).\n4. Any previous RT to the abdomino-pelvic region that would result in significant overlap of RT volume for the current study.\n5. Previous liver-directed transarterial radioembolization (note that previous transarterial \nchemoembolization, microwave ablation, or radiofrequency ablation are permitted).\n6. Individuals with severe, active co-morbidity- Chronic obstructive pulmonary disease,Unstable angina and/or congestive heart failure requiring hospitalizationand Acute myocardial infarction within 30 days of study registration, Diseases precluding RT (e.g., active scleroderma, lupus or inflammatory bowel disease).\n7.Contraindications to MR imaging (e.g. implanted metallic prostheses, defibrillators, \nstimulators, pacemakers, or neurotransmitters) per institutional policy on management of \npatients with internal and external medical devices.\n8. History of claustrophobia\n9. The total length of treatment volume is beyond the capacity of MRL machine\n10. Participants must not be receiving any other standard anti-cancer therapy or experimental \nagent concurrently with SBRT (≥1 week break of systemic therapy prior to SBRT is required).",
       "Contacts": "Site PI:\nDr. Ali Hosni\nali.hosni@uhn.ca\n\nCoordinator:\nRanjana Srivastava\nRanjana.Srivastava@uhn.ca",
-      "NCT number": null,
+      "NCT number": " NCT06362395",
       "Study status": "Active",
       "Schema image": "NCT06362395.jpg",
       "Key criteria (for PDF)": "Metastatic liver disease from eligible primary cancers (colorectal, pancreatic, gastric, head and neck, cervical, skin SCC, or NSCLC), with 1-3 liver metastases suitable for MR-guided SBRT, ECOG 0-2, Child-Pugh A liver function, and life expectancy >6 months.",
@@ -1159,6 +1239,20 @@
       "Contacts": "Site PI:\nDr. Jennifer Knox\nJennifer.Knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse:\nMary (Lan) Wei\nMarylan.Wei@uhn.ca\n\nStudy Data Coordinator:\nMorteza Azhdarzadeh\nMorteza.Azhdarzadeh@uhn.ca",
       "NCT number": "NCT07644559",
       "Schema image": "Active"
+    },
+    {
+      "Organ group": "Primary and metastatic upper abdominal cancers",
+      "Disease Setting": " Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
+      "Trial Name": "INEX RT P",
+      "Full title": "INEX RT P – Prospective Study on Inhale and Exhale Breath Holds to Improve the Therapeutic Ratio in Upper Abdominal Cancers treated with SBRT",
+      "Additional notes": "The INEX RT P study is a prospective cohort study that will enroll 15 patients with primary or metastatic upper abdominal cancers undergoing stereotactic body radiotherapy (SBRT). The study aims to determine whether alternating between inhale and exhale breath-hold positions during the same course of radiation treatment can improve the therapeutic ratio by increasing radiation dose to the tumor while maintaining or reducing dose to nearby critical organs at risk. Participants will undergo both inhale and exhale breath-hold simulation scans, and treatment fractions will be delivered using a combination of these breath-hold phases based on anatomical and dosimetric advantages. The investigators hypothesize that this approach can increase target dose by at least 10% compared with the current standard of using a single breath-hold phase, while preserving normal tissue protection and potentially improving treatment outcomes.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "INEX RT P is a prospective cohort/feasibility study, not a randomized or comparative clinical trial.\nAll enrolled patients receive the same intervention:\nStudy Arm- Single Arm: INEX RT Treatment\n• SBRT delivered using a combination of inhaleand exhale breath-hold phases during the same treatment course.\n• Treatment fractions are assigned to inhale or exhale breath hold depending on the dosimetric and anatomical advantages identified during planning.\n• For courses with an odd number of fractions, the additional fraction is delivered in the breath-hold phase with better reproducibility or anatomical benefit.",
+      "Eligibility ": "Inclusion criteria.\nAge ≥ 18\nAny patient undergoing radiation therapy for a cancer lesion in the abdomen in \nclose proximity to OARs that is hypothesized to have differential displacement on \ninhale and exhale breath hold CT scans of the OAR relative to the tumor.\n Patients need at least 3 fractions of RT\nCritical OARs are within 2 cm of luminal GI structures, chest wall, or \nprevious radiation fields\n Able to receive and understand verbal and written information regarding study \nand able to give written informed consent\nExclusion criteria.\n Inability to perform inhale or exhale breath holds during standard workflow CT \nsimulation evaluation",
+      "Contacts": "Site PI- Dr. Laura Dawson, email- Laura.Dawson@uhn.ca\nCRC- Priya Sriskandarajah, email- Priya.Sriskandarajah@uhn.ca",
+      "NCT number": "NCT07594691",
+      "Schema image": null
     }
   ],
   "Closed": [
@@ -2511,6 +2605,16 @@
         "Trial Name": "RMC-6236-303 (RASolute 303)",
         "change": "modified",
         "timestamp": "2026-10-16T16:03:29"
+      },
+      {
+        "Trial Name": "GSK223675",
+        "change": "modified",
+        "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "ULTRAS",
+        "change": "modified",
+        "timestamp": "2026-10-19T12:47:03"
       }
     ],
     "HCC": [
@@ -3123,6 +3227,16 @@
         "Trial Name": "GI012 (HELIO-RT)",
         "change": "added",
         "timestamp": "2026-10-16T16:03:29"
+      },
+      {
+        "Trial Name": "GI012 (HELIO-RT)",
+        "change": "modified",
+        "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "SOCRATES HCC",
+        "change": "added",
+        "timestamp": "2026-10-19T12:47:03"
       }
     ],
     "Gastroesophageal": [
@@ -3799,6 +3913,11 @@
         "Trial Name": "VS-7375 (TARGET-D 201) - Part C",
         "change": "added",
         "timestamp": "2026-08-27T13:47:28"
+      },
+      {
+        "Trial Name": "INEX RT P",
+        "change": "added",
+        "timestamp": "2026-10-19T12:47:03"
       }
     ],
     "Closed": [
@@ -4858,6 +4977,31 @@
         "Trial Name": "CO.33 (BATTMAN)",
         "change": "modified",
         "timestamp": "2026-10-16T16:03:29"
+      },
+      {
+        "Trial Name": "D798VC00001 (CANTOR)",
+        "change": "modified",
+        "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "ULTRAS",
+        "change": "modified",
+        "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "MAESTRO",
+        "change": "added",
+        "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "INCA033890-303",
+        "change": "added",
+        "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "M24-533",
+        "change": "added",
+        "timestamp": "2026-10-19T12:47:03"
       }
     ],
     "GE": [
@@ -5250,6 +5394,21 @@
         "Trial Name": "NEEDS Trial",
         "change": "added",
         "timestamp": "2026-10-16T16:03:29"
+      },
+      {
+        "Trial Name": "ULTRAS",
+        "change": "modified",
+        "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "NEEDS Trial",
+        "change": "modified",
+        "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "PET-MRI Esophagus",
+        "change": "added",
+        "timestamp": "2026-10-19T12:47:03"
       }
     ],
     "pNET": [
