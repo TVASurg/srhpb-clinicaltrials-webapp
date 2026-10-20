@@ -313,7 +313,7 @@ const pNET_master = {
   label: "pNET" //this is the sheet name
 };
 
-const closed_master = {
+let closed_master = {
   names: [],
   categories: [],
   setting: [],
@@ -515,6 +515,110 @@ highlightCategory();
 scrollToTrialName("trialName");
 }
 
+function fillTrialNameThatAreClosed()
+{
+  clearUpdateLine();
+  var outputHTMLstring = "";
+  var trialNamesString = "";
+  var closed_master_sorted = {};
+
+  //pre-sorting the categories in alphabetical order
+  const sortedCategories = closed_master[`categories`].map((item,index) => ({index, value: item}))
+  sortedCategories.sort((a, b) => a.value.localeCompare(b.value));
+
+  //isolating the sorted indicies
+  var indexArray = [];
+  Object.entries(sortedCategories).forEach(item => indexArray.push(item[1].index));
+  
+  //applying the sorted indices to everything else in closed_master
+  Object.entries(closed_master).forEach(([key, valueArray]) => {
+
+      var outputArray = [];
+      for (i = 0; i < indexArray.length; i ++)
+      {
+        outputArray[i] = valueArray[indexArray[i]];
+      }
+
+      //populating the sorted closed_master object
+      closed_master_sorted[key] = outputArray;
+    })
+
+  for (i=0; i < closed_master_sorted.categories.length; i ++)
+    {
+      //this is the button itself
+      switch(closed_master_sorted.categories[i]){
+      
+        case "BTC":
+        trialNamesString += '<div class="btn-group-vertical" role="group" data-bs-theme="cca">';        
+        break;
+        case "CCA":
+        trialNamesString += '<div class="btn-group-vertical" role="group" data-bs-theme="cca">';        
+        break;
+        case "CRC":
+        trialNamesString += '<div class="btn-group-vertical" role="group" data-bs-theme="colorectal">';        
+        break;
+        case "GE":
+        trialNamesString += '<div class="btn-group-vertical" role="group" data-bs-theme="ge">';        
+        break;
+        case "HCC":
+        trialNamesString += '<div class="btn-group-vertical" role="group" data-bs-theme="hcc">';        
+        break;
+        case "PDAC":
+        trialNamesString += '<div class="btn-group-vertical" role="group" data-bs-theme="pdac">';        
+        break;
+        default:
+        trialNamesString += '<div class="btn-group-vertical" role="group">';
+      
+        break;
+    }
+
+      
+      trialNamesString +=
+        '<input type="radio" class="btn-check" name="trialName';
+      trialNamesString += '" id="' + closed_master_sorted.categories[i] + '_';
+      trialNamesString += [i];
+      trialNamesString += '" autocomplete="off">';
+
+      //this is the label for the button
+      trialNamesString += '<label class="btn btn-outline-custom text-start" for="' + closed_master_sorted.categories[i] + '_';
+      trialNamesString += [i];
+      trialNamesString += '">';
+      trialNamesString += '' + closed_master_sorted.categories[i] + ': ';
+      trialNamesString += closed_master_sorted.names[i];
+      trialNamesString += "</label></div>";
+
+    }
+
+  closed_master = closed_master_sorted;
+
+  if (trialNamesString == "")
+  {
+    outputHTMLstring += "<p class='ms-1'>No active trials</p>"
+  }else
+  {
+    outputHTMLstring += trialNamesString;
+  }
+
+  //filling in the HTML (remember to clear trialDetails)
+  document.getElementById("trialName").innerHTML = outputHTMLstring;
+  document.getElementById("trialDetails").innerHTML = "";
+
+  //add eventlisteners to trialnames
+  document.querySelectorAll('input[name="trialName"]').forEach((radio) => {
+    radio.addEventListener("change", function () {
+      if (this.checked) {
+        const category = this.id.split('_')[0];
+        const elementID = this.id.match(/\d+/g);
+        const key = parseInt(elementID);
+
+        fillTrialDetails(closed_master, elementID, category);
+      }
+    });
+  });
+highlightCategory();
+scrollToTrialName("trialName");
+}
+
 function fillTrialNameBasedOnSetting(mainCategory, setting) {
   //document.getElementById("scroll-spacer").style.display= 'block';
   clearUpdateLine();
@@ -522,44 +626,41 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
   var totalTrialsAvailable = mainCategory[`names`].length;
   var outputHTMLstring = "";
   var trialNamesString = "";
+  //var closed_master_sorted = {};
 
   //create vertical radio button group
-  outputHTMLstring += '<div class="btn-group-vertical p-3" role="group" ';
 
   switch (mainCategory) {
     case pNET_master:
-      outputHTMLstring += 'data-bs-theme="pnet">';
+      outputHTMLstring += '<div class="btn-group-vertical p-3" role="group" data-bs-theme="pnet">';
       break;
     
     case colorectal_master:
-      outputHTMLstring += 'data-bs-theme="colorectal">';
+      outputHTMLstring += '<div class="btn-group-vertical p-3" role="group" data-bs-theme="colorectal">';
       break;
 
     case gastroesophageal_master:
-      outputHTMLstring += 'data-bs-theme="ge">';
+      outputHTMLstring += '<div class="btn-group-vertical p-3" role="group" data-bs-theme="ge">';
       break;
   
     case liver_HCC_master:
-      outputHTMLstring += 'data-bs-theme="hcc">';
+      outputHTMLstring += '<div class="btn-group-vertical p-3" role="group" data-bs-theme="hcc">';
       break;
     
     case pancreas_master:
-      outputHTMLstring += 'data-bs-theme="pdac">';
+      outputHTMLstring += '<div class="btn-group-vertical p-3" role="group" data-bs-theme="pdac">';
       break;
     
     case biliary_CCA_master:
-      outputHTMLstring += 'data-bs-theme="cca">';
-      break;
-    
-     case closed_master:
-      outputHTMLstring += 'data-bs-theme="closed">';
+      outputHTMLstring += '<div class="btn-group-vertical p-3" role="group" data-bs-theme="cca">';
       break;
 
     default:
-      outputHTMLstring += '>';
+
       break;
   }
 
+  
   for (i = 0; i < totalTrialsAvailable; i++) {
     //list all
     if (setting == "List all")
@@ -579,7 +680,8 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
         
       }
     //list according to setting
-    if (mainCategory[`setting`][i].includes(setting) == true && setting != "List All") {
+    if (mainCategory[`setting`][i].includes(setting) == true && setting != "List All")//currently the last condition is only applicable for closed/archived trials
+      {
       //this is the button itself
       trialNamesString +=
         '<input type="radio" class="btn-check" name="trialName';
@@ -594,7 +696,6 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
       trialNamesString += mainCategory[`names`][i];
       trialNamesString += "</label>";
     }
-  
   }
 
   //closing the vertical btn group
@@ -605,7 +706,7 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
   {
     outputHTMLstring += trialNamesString;
   }
-  
+
   outputHTMLstring += "</div>";
 
   //filling in the HTML (remember to clear trialDetails)
@@ -624,14 +725,11 @@ function fillTrialNameBasedOnSetting(mainCategory, setting) {
   });
   
   //highlight category selected for breadcrumb purposes
-  if(mainCategory != closed_master)
-    {
-      highlightCategory();
-    }
+  highlightCategory();
   scrollToTrialName("trialName");
 }
 
-function fillTrialDetails(mainCategory, key) {
+function fillTrialDetails(mainCategory, key, closedCategory) {
   clearUpdateLine();
   var htmlString = "";
   var titleString = "";
@@ -675,7 +773,33 @@ function fillTrialDetails(mainCategory, key) {
       break;
 
     case closed_master:
-      htmlString += ' data-bs-theme="closed">';
+      switch (closedCategory){
+        case "CRC":
+        htmlString += ' data-bs-theme="colorectal">';
+        break;
+        case "pNET":
+        htmlString += ' data-bs-theme="pnet">';
+        break;
+        case "GE":
+        htmlString += ' data-bs-theme="ge">';
+        break;
+        case "HCC":
+        htmlString += ' data-bs-theme="hcc">';
+        break;
+        case "PDAC":
+        htmlString += ' data-bs-theme="pdac">';
+        break;
+        case "CCA":
+        htmlString += ' data-bs-theme="cca">';
+        break;
+        case "BTC":
+        htmlString += ' data-bs-theme="cca">';
+        break;
+        default:
+        htmlString += ' data-bs-theme="closed">';
+        break;
+      }
+
       break;
   
     default:
