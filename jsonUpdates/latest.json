@@ -1127,6 +1127,22 @@
       "Schema image": "NCT06362395.jpg",
       "Key criteria (for PDF)": "Metastatic liver disease from eligible primary cancers (colorectal, pancreatic, gastric, head and neck, cervical, skin SCC, or NSCLC), with 1-3 liver metastases suitable for MR-guided SBRT, ECOG 0-2, Child-Pugh A liver function, and life expectancy >6 months.",
       "PI contact (for PDF)": "ali.hosni@uhn.ca"
+    },
+    {
+      "Disease Setting": "Resected PDAC",
+      "Trial Name": "RASolute 304",
+      "Full title": "RASolute 304: A Phase 3 Multicenter, Open-label, Randomized,\n2-Arm Study of Adjuvant Daraxonrasib versus Standard of Care\nObservation Following Completion of Neoadjuvant and/or\nAdjuvant Chemotherapy in Patients with Resected Pancreatic\nDuctal Adenocarcinoma (PDAC)",
+      "Additional notes": "This is a Phase 3, global, randomized, open-label, 2-arm study designed to evaluate whether\ntreatment with daraxonrasib following completion of neoadjuvant and/or adjuvant chemotherapy\nimproves disease-free survival (DFS) compared to observation in patients with resected pancreatic\nductal adenocarcinoma (PDAC). Approximately 500 patients with R0/R1-resected PDAC who received a minimum of 4 months of neoadjuvant and/or adjuvant chemotherapy will be randomized in a 1:1 ratio to receive oral (PO) daraxonrasib 300 mg once daily (QD) or to standard of care observation. Study participation includes 4 periods: Pre-Screening (for determination of RAS mutation status; up to 120 days before randomization); Screening (28 days); Treatment or Observation (2 years); and Follow-up (disease assessment until documented recurrence in patients who remain disease-free after the Treatment or Observation period, survival monitoring every 6 months until death, withdrawal of consentfor further follow-up, loss to follow-up, or study termination). Crossover from standard of care observation (Arm B) to daraxonrasib (Arm A) is not allowed.",
+      "Tissue Requirements": "Documented RAS mutation status by local laboratory or archival tissue ,must be submitted for central testing of RAS during pre-screening.",
+      "Biomarker/unselected": "Documented RAS mutation status (mutant or wild type, local or centrally tested)",
+      "Trial Intervention/Arms": "Arm 1: Experimental: on study drug. Oral tablets of daraxonrasib\nArm 2: SOC Observation: Patients randomized to the comparator control arm will receive SOC observation.",
+      "Eligibility ": "Inclusion Criteria:\n-At least 18 years old and has provided informed consent.\n-Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n-Histologically confirmed PDAC with successful (R0/R1) curative intent surgical resection and no evidence of recurrent or metastatic disease.\n-Must have received perioperative (neoadjuvant, adjuvant, or a combination of both) multi-agent chemotherapy.\n-Must have completed most recent treatment within the past 12 weeks.\n-Adequate organ function (bone marrow, liver, kidney, coagulation).\n-Documented RAS mutation status.\n-Able to take oral medications.\nExclusion Criteria:\n-Prior therapy with direct RAS-targeted therapy (eg. degraders and/or inhibitors).\n-Any conditions that may affect the ability to take or absorb study drug.\n-Major surgery within 28 days prior to randomization.\n-Patient is unable or unwilling to comply with protocol-required study visits or procedures.",
+      "Contacts": "PI: Dr. Erica Tsang\nerica.tsang@uhn.ca",
+      "NCT number": "NCT07252232",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
     }
   ],
   "pNET": [
@@ -1141,7 +1157,7 @@
       "Eligibility ": "Inclusion criteria:\nPatients with PNET who have progressed on everolimus or sunitinib. \nHas a life expectancy of at least 3 months.\nExclusion criteria:\nUnable to swallow orally administered medication or has a disorder that might affect the absorption of belzutifan.\nHistory of a second malignancy, unless potentially curative treatment has been completed with no evidence of malignancy for 2 years.\nReceived prior treatment (except somatostatin analogs) with chemotherapy, targeted therapy, biologics, or other investigational therapy within the past 4 weeks of first dose of study intervention.",
       "Contacts": "Site PI:\nRaymond Jang\nraymond.jang@uhn.ca",
       "NCT number": "NCT04924075",
-      "Study status": "Active",
+      "Study status": "Active; VHL-PPGL only open cohort",
       "Schema image": null,
       "Key criteria (for PDF)": "PNET who have progressed on everolimus or sunitinib. ",
       "PI contact (for PDF)": "raymond.jang@uhn.ca "
@@ -1205,7 +1221,7 @@
       "Eligibility ": "Inclusion criteria: \n- Histologically confirmed, advanced (unresectable and/or metastatic), and well-differentiated NET of GEP or presumed GEP origin\n- At least 1 measurable, somatostatin receptor-positive*, lesion according to RECIST 1.1 determined by multiphasic CT or MRI (performed within 28 days before randomization)\n*Somatostatin-receptor imaging must be performed within 3 months before randomization. Somatostatin receptor-positive lesions are defined as lesions with a visual assessment of uptake greater than the liver\n- Results from FDG-PET CT for patients with well-differentiated Grade 3 NET (if performed) must show that FDG avid areas of disease also are avid on somatostatin-receptor imaging\n- Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 2\n- Female patients of childbearing potential must be willing to use an acceptable method of contraception from screening to the Safety Follow-up Visit\n\nExclusion criteria: \n- Poorly differentiated NEC, adenocarcinoid, goblet cell carcinoid, large cell NEC, small cell carcinoma, or mixed tumor\n- Previously diagnosed with multiple endocrine neoplasia Type 1\n- Tumor with primary origin outside the GEP tract\n- Documented evidence of disease progression while on treatment (including SSAs) for locally advanced unresectable or metastatic disease\n- Known central nervous system metastases\n- Consecutive treatment with long-acting SSAs for more than 6 months before randomization\n- Treatment of GEP-NET with trans-arterial chemoembolization or trans-arterial embolization within 12 months before screening\n- Previously received radioligand therapy (PRRT) at any time\n- Major surgery/surgical therapy for any cause within 1 month before screening, surgical therapy of loco-regional metastases within 3 months before screening, or minor surgery within 14 days before screening. Patient must have recovered from the treatment and be in good clinical condition\n- Patients with poorly controlled diabetes, as evidenced by hemoglobin A1c (HbA1c) >8.0%\n- Cardiac history or current diagnosis of cardiac disease indicating significant risk of safety for patients participating in the trial, such as uncontrolled or significant cardiac disease.\n- Clinically significant cardiac arrhythmias (e.g. ventricular tachycardia), complete left bundle branch block, or high-grade atrioventricular block (e.g. bifascicular block, Mobitz type II, and third-degree atrioventricular block)\n- Long QT syndrome, family history of idiopathic sudden death or congenital long QT syndrome.\n",
       "Contacts": "Site PI:\nRaymond Jang\nraymond.jang@uhn.ca\n\nStudy Nurse: \nMary Lan Wei\nmarylan.wei@uhn.ca\n\nStudy Coordinator: Huda Ahmed\nHudaWaseem.Ahmed@uhn.ca\n",
       "NCT number": "NCT05050942",
-      "Study status": "Not Recruiting",
+      "Study status": "closed",
       "Schema image": null,
       "Key criteria (for PDF)": "Well-differentiated NET of GEP or presumed GEP origin. Somatostatin receptor (SSTR)-positive.",
       "PI contact (for PDF)": "raymond.jang@uhn.ca"
@@ -2615,6 +2631,11 @@
         "Trial Name": "ULTRAS",
         "change": "modified",
         "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "RASolute 304",
+        "change": "added",
+        "timestamp": "2026-10-21T14:54:15"
       }
     ],
     "HCC": [
@@ -5556,6 +5577,16 @@
         "Trial Name": "HPB Robotic Surgery Database ",
         "change": "modified",
         "timestamp": "2026-10-08T11:13:03"
+      },
+      {
+        "Trial Name": "Belzutifan Advanced Pancreatic Neuroendocrine Tumor (pNET), or Von Hippel-Lindau (VHL) Disease-Associated Tumors (MK-6482-015) ",
+        "change": "modified",
+        "timestamp": "2026-10-21T14:54:15"
+      },
+      {
+        "Trial Name": "HS-19-657/SORENTO",
+        "change": "modified",
+        "timestamp": "2026-10-21T14:54:15"
       }
     ],
     "PDF ONLY": [
