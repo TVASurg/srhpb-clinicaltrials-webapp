@@ -545,6 +545,22 @@
       "Schema image": null,
       "Key criteria (for PDF)": null,
       "PI contact (for PDF)": null
+    },
+    {
+      "Disease Setting": " Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
+      "Trial Name": "INEX RT P",
+      "Full title": "INEX RT P – Prospective Study on Inhale and Exhale Breath Holds to Improve the Therapeutic Ratio in Upper Abdominal Cancers treated with SBRT",
+      "Additional notes": "The INEX RT P study is a prospective cohort study that will enroll 15 patients with primary or metastatic upper abdominal cancers undergoing stereotactic body radiotherapy (SBRT). The study aims to determine whether alternating between inhale and exhale breath-hold positions during the same course of radiation treatment can improve the therapeutic ratio by increasing radiation dose to the tumor while maintaining or reducing dose to nearby critical organs at risk. Participants will undergo both inhale and exhale breath-hold simulation scans, and treatment fractions will be delivered using a combination of these breath-hold phases based on anatomical and dosimetric advantages. The investigators hypothesize that this approach can increase target dose by at least 10% compared with the current standard of using a single breath-hold phase, while preserving normal tissue protection and potentially improving treatment outcomes.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "INEX RT P is a prospective cohort/feasibility study, not a randomized or comparative clinical trial.\nAll enrolled patients receive the same intervention:\nStudy Arm- Single Arm: INEX RT Treatment\n• SBRT delivered using a combination of inhaleand exhale breath-hold phases during the same treatment course.\n• Treatment fractions are assigned to inhale or exhale breath hold depending on the dosimetric and anatomical advantages identified during planning.\n• For courses with an odd number of fractions, the additional fraction is delivered in the breath-hold phase with better reproducibility or anatomical benefit.",
+      "Eligibility ": "Inclusion criteria.\nAge ≥ 18\nAny patient undergoing radiation therapy for a cancer lesion in the abdomen in \nclose proximity to OARs that is hypothesized to have differential displacement on \ninhale and exhale breath hold CT scans of the OAR relative to the tumor.\n Patients need at least 3 fractions of RT\nCritical OARs are within 2 cm of luminal GI structures, chest wall, or \nprevious radiation fields\n Able to receive and understand verbal and written information regarding study \nand able to give written informed consent\nExclusion criteria.\n Inability to perform inhale or exhale breath holds during standard workflow CT \nsimulation evaluation",
+      "Contacts": "Site PI- Dr. Laura Dawson, email- Laura.Dawson@uhn.ca\nCRC- Priya Sriskandarajah, email- Priya.Sriskandarajah@uhn.ca",
+      "NCT number": "NCT07594691",
+      "Study status": "active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
     }
   ],
   "HCC": [
@@ -719,6 +735,22 @@
       "Eligibility ": "Inclusion Criteria:\n1) Histological or radiological diagnosis of single, new HCC with largest diameter ≤8 cm (BCLC*stage 0 or A).\na) If prior history of HCC, the prior HCC must have been:\n- Early stage, solitary HCC, ≤5 cm in size and,\n- Have arisen within a different liver segment to the current HCC and,\n- Treated with curative intent therapy >2 years prior with no evidence of active disease at the site.\n2) As per local multidisciplinary HCC meeting consensus patient is suitable for percutaneous thermal ablation and/or transarterial therapies and not suitable for or declined liver resection and not planned for liver transplantation.\n3) Child-Pugh score ≤B7* with no or diuretic-controlled ascites\n4) ECOG performance status ≤2†\n5) Platelets ≥50x109\n/L, Haemoglobin ≥80 g/L, Neutrophils ≥1.0x109 /L, INR <1.8 (except if on\ntherapeutic anticoagulation)\n6) 18 years of age or older and able to provide written consent\nExclusion Criteria:\n1) Presence of multifocal HCC, macrovascular invasion or extrahepatic disease\n2) Prior treatment for any HCC within last 2 years.\n3) Clinically evident ascites or hepatic encephalopathy\n4) Prior abdominal radiation therapy that would preclude the delivery of protocol defined SABR to the tumour.\n5) Untreated Hepatitis B or C\n6) Known additional invasive malignancy (excluding non-melanoma skin cancer) that is\nprogressing or required treatment within the last 2 years.\n7) Pregnancy",
       "Contacts": "Site PI- Michael Yan, email- Michael.Yan@uhn.ca\nCRC- Ranjana Srivastava, email- Ranjana.Srivastava@uhn.ca",
       "NCT number": "NCT07628751, NCT01994720",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
+    },
+    {
+      "Disease Setting": " Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
+      "Trial Name": "INEX RT P",
+      "Full title": "INEX RT P – Prospective Study on Inhale and Exhale Breath Holds to Improve the Therapeutic Ratio in Upper Abdominal Cancers treated with SBRT",
+      "Additional notes": "The INEX RT P study is a prospective cohort study that will enroll 15 patients with primary or metastatic upper abdominal cancers undergoing stereotactic body radiotherapy (SBRT). The study aims to determine whether alternating between inhale and exhale breath-hold positions during the same course of radiation treatment can improve the therapeutic ratio by increasing radiation dose to the tumor while maintaining or reducing dose to nearby critical organs at risk. Participants will undergo both inhale and exhale breath-hold simulation scans, and treatment fractions will be delivered using a combination of these breath-hold phases based on anatomical and dosimetric advantages. The investigators hypothesize that this approach can increase target dose by at least 10% compared with the current standard of using a single breath-hold phase, while preserving normal tissue protection and potentially improving treatment outcomes.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "INEX RT P is a prospective cohort/feasibility study, not a randomized or comparative clinical trial.\nAll enrolled patients receive the same intervention:\nStudy Arm- Single Arm: INEX RT Treatment\n• SBRT delivered using a combination of inhaleand exhale breath-hold phases during the same treatment course.\n• Treatment fractions are assigned to inhale or exhale breath hold depending on the dosimetric and anatomical advantages identified during planning.\n• For courses with an odd number of fractions, the additional fraction is delivered in the breath-hold phase with better reproducibility or anatomical benefit.",
+      "Eligibility ": "Inclusion criteria.\nAge ≥ 18\nAny patient undergoing radiation therapy for a cancer lesion in the abdomen in \nclose proximity to OARs that is hypothesized to have differential displacement on \ninhale and exhale breath hold CT scans of the OAR relative to the tumor.\n Patients need at least 3 fractions of RT\nCritical OARs are within 2 cm of luminal GI structures, chest wall, or \nprevious radiation fields\n Able to receive and understand verbal and written information regarding study \nand able to give written informed consent\nExclusion criteria.\n Inability to perform inhale or exhale breath holds during standard workflow CT \nsimulation evaluation",
+      "Contacts": "Site PI- Dr. Laura Dawson, email- Laura.Dawson@uhn.ca\nCRC- Priya Sriskandarajah, email- Priya.Sriskandarajah@uhn.ca",
+      "NCT number": "NCT07594691",
       "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": null,
@@ -1143,6 +1175,22 @@
       "Schema image": null,
       "Key criteria (for PDF)": "RAS-mutated PDAC (WT or mutant); R0/R1 resection completed. Minimum of 4 months of neoadjuvant/adjuvant chemotherapy; no evidence of recurrence.",
       "PI contact (for PDF)": "erica.tsang@uhn.ca"
+    },
+    {
+      "Disease Setting": " Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
+      "Trial Name": "INEX RT P",
+      "Full title": "INEX RT P – Prospective Study on Inhale and Exhale Breath Holds to Improve the Therapeutic Ratio in Upper Abdominal Cancers treated with SBRT",
+      "Additional notes": "The INEX RT P study is a prospective cohort study that will enroll 15 patients with primary or metastatic upper abdominal cancers undergoing stereotactic body radiotherapy (SBRT). The study aims to determine whether alternating between inhale and exhale breath-hold positions during the same course of radiation treatment can improve the therapeutic ratio by increasing radiation dose to the tumor while maintaining or reducing dose to nearby critical organs at risk. Participants will undergo both inhale and exhale breath-hold simulation scans, and treatment fractions will be delivered using a combination of these breath-hold phases based on anatomical and dosimetric advantages. The investigators hypothesize that this approach can increase target dose by at least 10% compared with the current standard of using a single breath-hold phase, while preserving normal tissue protection and potentially improving treatment outcomes.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "INEX RT P is a prospective cohort/feasibility study, not a randomized or comparative clinical trial.\nAll enrolled patients receive the same intervention:\nStudy Arm- Single Arm: INEX RT Treatment\n• SBRT delivered using a combination of inhaleand exhale breath-hold phases during the same treatment course.\n• Treatment fractions are assigned to inhale or exhale breath hold depending on the dosimetric and anatomical advantages identified during planning.\n• For courses with an odd number of fractions, the additional fraction is delivered in the breath-hold phase with better reproducibility or anatomical benefit.",
+      "Eligibility ": "Inclusion criteria.\nAge ≥ 18\nAny patient undergoing radiation therapy for a cancer lesion in the abdomen in \nclose proximity to OARs that is hypothesized to have differential displacement on \ninhale and exhale breath hold CT scans of the OAR relative to the tumor.\n Patients need at least 3 fractions of RT\nCritical OARs are within 2 cm of luminal GI structures, chest wall, or \nprevious radiation fields\n Able to receive and understand verbal and written information regarding study \nand able to give written informed consent\nExclusion criteria.\n Inability to perform inhale or exhale breath holds during standard workflow CT \nsimulation evaluation",
+      "Contacts": "Site PI- Dr. Laura Dawson, email- Laura.Dawson@uhn.ca\nCRC- Priya Sriskandarajah, email- Priya.Sriskandarajah@uhn.ca",
+      "NCT number": "NCT07594691",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
     }
   ],
   "pNET": [
@@ -1255,20 +1303,6 @@
       "Contacts": "Site PI:\nDr. Jennifer Knox\nJennifer.Knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse:\nMary (Lan) Wei\nMarylan.Wei@uhn.ca\n\nStudy Data Coordinator:\nMorteza Azhdarzadeh\nMorteza.Azhdarzadeh@uhn.ca",
       "NCT number": "NCT07644559",
       "Schema image": "Active"
-    },
-    {
-      "Organ group": "Primary and metastatic upper abdominal cancers",
-      "Disease Setting": " Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
-      "Trial Name": "INEX RT P",
-      "Full title": "INEX RT P – Prospective Study on Inhale and Exhale Breath Holds to Improve the Therapeutic Ratio in Upper Abdominal Cancers treated with SBRT",
-      "Additional notes": "The INEX RT P study is a prospective cohort study that will enroll 15 patients with primary or metastatic upper abdominal cancers undergoing stereotactic body radiotherapy (SBRT). The study aims to determine whether alternating between inhale and exhale breath-hold positions during the same course of radiation treatment can improve the therapeutic ratio by increasing radiation dose to the tumor while maintaining or reducing dose to nearby critical organs at risk. Participants will undergo both inhale and exhale breath-hold simulation scans, and treatment fractions will be delivered using a combination of these breath-hold phases based on anatomical and dosimetric advantages. The investigators hypothesize that this approach can increase target dose by at least 10% compared with the current standard of using a single breath-hold phase, while preserving normal tissue protection and potentially improving treatment outcomes.",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "INEX RT P is a prospective cohort/feasibility study, not a randomized or comparative clinical trial.\nAll enrolled patients receive the same intervention:\nStudy Arm- Single Arm: INEX RT Treatment\n• SBRT delivered using a combination of inhaleand exhale breath-hold phases during the same treatment course.\n• Treatment fractions are assigned to inhale or exhale breath hold depending on the dosimetric and anatomical advantages identified during planning.\n• For courses with an odd number of fractions, the additional fraction is delivered in the breath-hold phase with better reproducibility or anatomical benefit.",
-      "Eligibility ": "Inclusion criteria.\nAge ≥ 18\nAny patient undergoing radiation therapy for a cancer lesion in the abdomen in \nclose proximity to OARs that is hypothesized to have differential displacement on \ninhale and exhale breath hold CT scans of the OAR relative to the tumor.\n Patients need at least 3 fractions of RT\nCritical OARs are within 2 cm of luminal GI structures, chest wall, or \nprevious radiation fields\n Able to receive and understand verbal and written information regarding study \nand able to give written informed consent\nExclusion criteria.\n Inability to perform inhale or exhale breath holds during standard workflow CT \nsimulation evaluation",
-      "Contacts": "Site PI- Dr. Laura Dawson, email- Laura.Dawson@uhn.ca\nCRC- Priya Sriskandarajah, email- Priya.Sriskandarajah@uhn.ca",
-      "NCT number": "NCT07594691",
-      "Schema image": null
     }
   ],
   "Closed": [
@@ -2661,6 +2695,11 @@
         "Trial Name": "C3651021 (RIVER)",
         "change": "modified",
         "timestamp": "2026-10-22T14:19:07"
+      },
+      {
+        "Trial Name": "INEX RT P",
+        "change": "added",
+        "timestamp": "2026-10-23T14:18:36"
       }
     ],
     "HCC": [
@@ -3283,6 +3322,11 @@
         "Trial Name": "SOCRATES HCC",
         "change": "added",
         "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "INEX RT P",
+        "change": "added",
+        "timestamp": "2026-10-23T14:18:36"
       }
     ],
     "Gastroesophageal": [
@@ -5455,6 +5499,11 @@
         "Trial Name": "PET-MRI Esophagus",
         "change": "added",
         "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "INEX RT P",
+        "change": "added",
+        "timestamp": "2026-10-23T14:18:36"
       }
     ],
     "pNET": [
