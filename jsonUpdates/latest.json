@@ -1162,7 +1162,7 @@
     },
     {
       "Disease Setting": "Resectable",
-      "Trial Name": "RASolute 304",
+      "Trial Name": "RMC-6236-304 (RASolute 304)",
       "Full title": "RASolute 304: A Phase 3 Multicenter, Open-label, Randomized,\n2-Arm Study of Adjuvant Daraxonrasib versus Standard of Care\nObservation Following Completion of Neoadjuvant and/or\nAdjuvant Chemotherapy in Patients with Resected Pancreatic\nDuctal Adenocarcinoma (PDAC)",
       "Additional notes": "This is a Phase 3, global, randomized, open-label, 2-arm study designed to evaluate whether\ntreatment with daraxonrasib following completion of neoadjuvant and/or adjuvant chemotherapy\nimproves disease-free survival (DFS) compared to observation in patients with resected pancreatic\nductal adenocarcinoma (PDAC). Approximately 500 patients with R0/R1-resected PDAC who received a minimum of 4 months of neoadjuvant and/or adjuvant chemotherapy will be randomized in a 1:1 ratio to receive oral (PO) daraxonrasib 300 mg once daily (QD) or to standard of care observation. Study participation includes 4 periods: Pre-Screening (for determination of RAS mutation status; up to 120 days before randomization); Screening (28 days); Treatment or Observation (2 years); and Follow-up (disease assessment until documented recurrence in patients who remain disease-free after the Treatment or Observation period, survival monitoring every 6 months until death, withdrawal of consentfor further follow-up, loss to follow-up, or study termination). Crossover from standard of care observation (Arm B) to daraxonrasib (Arm A) is not allowed.",
       "Tissue Requirements": "Documented RAS mutation status by local laboratory or archival tissue, must be submitted for central testing of RAS during pre-screening.",
@@ -2705,6 +2705,11 @@
         "Trial Name": "RASolute 304",
         "change": "modified",
         "timestamp": "2026-10-28T14:53:21"
+      },
+      {
+        "Trial Name": "RMC-6236-304 (RASolute 304)",
+        "change": "added",
+        "timestamp": "2026-10-28T15:04:11"
       }
     ],
     "HCC": [
