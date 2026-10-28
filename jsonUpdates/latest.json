@@ -545,6 +545,22 @@
       "Schema image": null,
       "Key criteria (for PDF)": null,
       "PI contact (for PDF)": null
+    },
+    {
+      "Disease Setting": " Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
+      "Trial Name": "INEX RT P",
+      "Full title": "INEX RT P – Prospective Study on Inhale and Exhale Breath Holds to Improve the Therapeutic Ratio in Upper Abdominal Cancers treated with SBRT",
+      "Additional notes": "The INEX RT P study is a prospective cohort study that will enroll 15 patients with primary or metastatic upper abdominal cancers undergoing stereotactic body radiotherapy (SBRT). The study aims to determine whether alternating between inhale and exhale breath-hold positions during the same course of radiation treatment can improve the therapeutic ratio by increasing radiation dose to the tumor while maintaining or reducing dose to nearby critical organs at risk. Participants will undergo both inhale and exhale breath-hold simulation scans, and treatment fractions will be delivered using a combination of these breath-hold phases based on anatomical and dosimetric advantages. The investigators hypothesize that this approach can increase target dose by at least 10% compared with the current standard of using a single breath-hold phase, while preserving normal tissue protection and potentially improving treatment outcomes.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "INEX RT P is a prospective cohort/feasibility study, not a randomized or comparative clinical trial.\nAll enrolled patients receive the same intervention:\nStudy Arm- Single Arm: INEX RT Treatment\n• SBRT delivered using a combination of inhaleand exhale breath-hold phases during the same treatment course.\n• Treatment fractions are assigned to inhale or exhale breath hold depending on the dosimetric and anatomical advantages identified during planning.\n• For courses with an odd number of fractions, the additional fraction is delivered in the breath-hold phase with better reproducibility or anatomical benefit.",
+      "Eligibility ": "Inclusion criteria.\nAge ≥ 18\nAny patient undergoing radiation therapy for a cancer lesion in the abdomen in \nclose proximity to OARs that is hypothesized to have differential displacement on \ninhale and exhale breath hold CT scans of the OAR relative to the tumor.\n Patients need at least 3 fractions of RT\nCritical OARs are within 2 cm of luminal GI structures, chest wall, or \nprevious radiation fields\n Able to receive and understand verbal and written information regarding study \nand able to give written informed consent\nExclusion criteria.\n Inability to perform inhale or exhale breath holds during standard workflow CT \nsimulation evaluation",
+      "Contacts": "Site PI- Dr. Laura Dawson, email- Laura.Dawson@uhn.ca\nCRC- Priya Sriskandarajah, email- Priya.Sriskandarajah@uhn.ca",
+      "NCT number": "NCT07594691",
+      "Study status": "active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
     }
   ],
   "HCC": [
@@ -713,12 +729,28 @@
       "Trial Name": "SOCRATES HCC",
       "Full title": "A Randomized controlled trial of Standard Of Care versus RadioAblaTion in Early Stage\nHepatoCellular Carcinoma",
       "Additional notes": "The study is designed as a phase II, prospective, randomised, parallel and open-label,\nmulti-institutional superiority trial for patients with newly diagnosed early stage (BCLC 0/A) ,\nsolitary ≤8cm nodule HCC, ineligible for surgical resection or transplantation.\nThe SOCRATES HCC study is looking at whether a type of radiotherapy called Stereotactic\nAblative Body Radiotherapy (SABR) can improve outcomes for people with early stage liver\ncancer compared to current standard treatments.\nPeople who join the study will be placed into one of two groups based on the size of their tumour\nand whether thermal ablation is an appropriate treatment for them. The study will include about\n218 participants in total.\n- Cohort 1: About 118 people with a single tumour 3 cm or smaller who are able to have thermal\nablation. They will be randomly assigned to receive either SABR or thermal ablation.\n- Cohort 2: About 100 people with a single tumour larger than 3 cm or who cannot safely have\nthermal ablation. They will be randomly assigned to receive either SABR or the current standard\nof care. Standard care may include thermal ablation, transarterial chemoembolisation (TACE), or\ntransarterial radioembolisation (TARE).\nThermal ablation treatments such as radiofrequency ablation (RFA) and microwave ablation\n(MWA) use heat from a probe placed directly into the tumour to kill cancer cells. Transarterial\ntreatments such as TACE and TARE use chemotherapy or radioactive particles delivered through\nthe blood vessels feeding the tumour. SABR uses highly targeted, high energy x-rays from\noutside the body to destroy the tumour.\nThe main goal of the study is to see whether SABR can better control the tumour at two years\ncompared to current treatments. The study will also look at other important outcomes such as\nprogression free survival, overall survival, side effects, quality of life and people's experiences of\ntheir treatment.",
-      "Tissue Requirements": "n/a",
-      "Biomarker/unselected": "n/a",
+      "Tissue Requirements": "None",
+      "Biomarker/unselected": null,
       "Trial Intervention/Arms": "People who join the study will be placed into one of two groups based on the size of their tumour and\nwhether thermal ablation is an appropriate treatment for them. The study will include about 218\nparticipants in total.\n- Cohort 1: About 118 people with a single tumour 3 cm or smaller who are able to have thermal\nablation. They will be randomly assigned to receive either SABR or thermal ablation.\n- Cohort 2: About 100 people with a single tumour larger than 3 cm or who cannot safely have thermal\nablation. They will be randomly assigned to receive either SABR or the current standard of care.\nStandard care may include thermal ablation, transarterial chemoembolisation (TACE), or transarterial radioembolisation (TARE).\nThermal ablation treatments such as radiofrequency ablation (RFA) and microwave ablation (MWA) use\nheat from a probe placed directly into the tumour to kill cancer cells. Transarterial treatments such as\nTACE and TARE use chemotherapy or radioactive particles delivered through the blood vessels feeding\nthe tumour. SABR uses highly targeted, high-energy x-rays from outside the body to destroy the\ntumour.",
       "Eligibility ": "Inclusion Criteria:\n1) Histological or radiological diagnosis of single, new HCC with largest diameter ≤8 cm (BCLC*stage 0 or A).\na) If prior history of HCC, the prior HCC must have been:\n- Early stage, solitary HCC, ≤5 cm in size and,\n- Have arisen within a different liver segment to the current HCC and,\n- Treated with curative intent therapy >2 years prior with no evidence of active disease at the site.\n2) As per local multidisciplinary HCC meeting consensus patient is suitable for percutaneous thermal ablation and/or transarterial therapies and not suitable for or declined liver resection and not planned for liver transplantation.\n3) Child-Pugh score ≤B7* with no or diuretic-controlled ascites\n4) ECOG performance status ≤2†\n5) Platelets ≥50x109\n/L, Haemoglobin ≥80 g/L, Neutrophils ≥1.0x109 /L, INR <1.8 (except if on\ntherapeutic anticoagulation)\n6) 18 years of age or older and able to provide written consent\nExclusion Criteria:\n1) Presence of multifocal HCC, macrovascular invasion or extrahepatic disease\n2) Prior treatment for any HCC within last 2 years.\n3) Clinically evident ascites or hepatic encephalopathy\n4) Prior abdominal radiation therapy that would preclude the delivery of protocol defined SABR to the tumour.\n5) Untreated Hepatitis B or C\n6) Known additional invasive malignancy (excluding non-melanoma skin cancer) that is\nprogressing or required treatment within the last 2 years.\n7) Pregnancy",
       "Contacts": "Site PI- Michael Yan, email- Michael.Yan@uhn.ca\nCRC- Ranjana Srivastava, email- Ranjana.Srivastava@uhn.ca",
       "NCT number": "NCT07628751, NCT01994720",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
+    },
+    {
+      "Disease Setting": " Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
+      "Trial Name": "INEX RT P",
+      "Full title": "INEX RT P – Prospective Study on Inhale and Exhale Breath Holds to Improve the Therapeutic Ratio in Upper Abdominal Cancers treated with SBRT",
+      "Additional notes": "The INEX RT P study is a prospective cohort study that will enroll 15 patients with primary or metastatic upper abdominal cancers undergoing stereotactic body radiotherapy (SBRT). The study aims to determine whether alternating between inhale and exhale breath-hold positions during the same course of radiation treatment can improve the therapeutic ratio by increasing radiation dose to the tumor while maintaining or reducing dose to nearby critical organs at risk. Participants will undergo both inhale and exhale breath-hold simulation scans, and treatment fractions will be delivered using a combination of these breath-hold phases based on anatomical and dosimetric advantages. The investigators hypothesize that this approach can increase target dose by at least 10% compared with the current standard of using a single breath-hold phase, while preserving normal tissue protection and potentially improving treatment outcomes.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "INEX RT P is a prospective cohort/feasibility study, not a randomized or comparative clinical trial.\nAll enrolled patients receive the same intervention:\nStudy Arm- Single Arm: INEX RT Treatment\n• SBRT delivered using a combination of inhaleand exhale breath-hold phases during the same treatment course.\n• Treatment fractions are assigned to inhale or exhale breath hold depending on the dosimetric and anatomical advantages identified during planning.\n• For courses with an odd number of fractions, the additional fraction is delivered in the breath-hold phase with better reproducibility or anatomical benefit.",
+      "Eligibility ": "Inclusion criteria.\nAge ≥ 18\nAny patient undergoing radiation therapy for a cancer lesion in the abdomen in \nclose proximity to OARs that is hypothesized to have differential displacement on \ninhale and exhale breath hold CT scans of the OAR relative to the tumor.\n Patients need at least 3 fractions of RT\nCritical OARs are within 2 cm of luminal GI structures, chest wall, or \nprevious radiation fields\n Able to receive and understand verbal and written information regarding study \nand able to give written informed consent\nExclusion criteria.\n Inability to perform inhale or exhale breath holds during standard workflow CT \nsimulation evaluation",
+      "Contacts": "Site PI- Dr. Laura Dawson, email- Laura.Dawson@uhn.ca\nCRC- Priya Sriskandarajah, email- Priya.Sriskandarajah@uhn.ca",
+      "NCT number": "NCT07594691",
       "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": null,
@@ -1020,7 +1052,7 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "C3651021 (RIVER)",
       "Full title": "A PHASE 2b/3, RANDOMIZED, DOUBLE-BLIND STUDY TO INVESTIGATE THE \nEFFICACY, SAFETY, AND TOLERABILITY OF PONSEGROMAB (PF-06946860) \nCOMPARED WITH PLACEBO BOTH WITH BACKGROUND FIRST-LINE \nCHEMOTHERAPY IN ADULT PARTICIPANTS WITH CACHEXIA AND \nMETASTATIC PANCREATIC DUCTAL ADENOCARCINOMA",
-      "Additional notes": "Enrollment on Hold since 17Jul2026 (last confirmed on 17Sep2026).\n\nA Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
+      "Additional notes": "Enrollment on hold since 17Jul2026 (last confirmed on 22Oct2026).\n\nA Study to Learn About the Medicine Ponsegromab in Adults With Cancer of the Pancreas Which has Spread and Caused Significant Body Weight Loss and Fatigue. This study will recruit adult participants with cachexia (defined by Fearon criteria), a diagnosis of mPDAC, and who have completed 1 × 28-day cycle of nab-paclitaxel and gemcitabine or 2 × 14-day cycles of FOLFIRINOX first-line chemotherapy but prior to receiving the next cycle of chemotherapy.",
       "Tissue Requirements": "If available, an archival tumor FFPE biopsy block or unstained freshly cut paraffin sections \nof tumor specimen collected within 6 months of enrollment should be submitted. If tumor tissue is not available or cannot be provided, the participant can still be enrolled if the study eligibility criteria are met. ",
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Ponsegromab Double-blind Treatment 200mg Q4W\nPonsegromab Double-blind Treatment 400mg Q4W\nPlacebo Double-blind Treatment Q4W",
@@ -1068,14 +1100,14 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "RMC-6236-303 (RASolute 303)",
       "Full title": "A Phase 3 Global, Multicenter, Open-label, Randomized, 3-Arm Study of Daraxonrasib Monotherapy or Daraxonrasib Plus Gemcitabine and Nab-paclitaxel versus Gemcitabine and Nab-paclitaxel as a First-Line Treatment for Patients with Metastatic Pancreatic Adenocarcinoma",
-      "Additional notes": "Phase 3 Study of Daraxonrasib and Daraxonrasib + GnP versus GnP as First-Line Therapy in Patients with Metastatic Pancreatic Adenocarcinoma",
+      "Additional notes": "1 Spot Left\n\nPhase 3 Study of Daraxonrasib and Daraxonrasib + GnP versus GnP as First-Line Therapy in Patients with Metastatic Pancreatic Adenocarcinoma",
       "Tissue Requirements": "Archival tissue obtained within 5 years of randomization",
-      "Biomarker/unselected": "RAS",
+      "Biomarker/unselected": "RAS (mutant or wild type)",
       "Trial Intervention/Arms": "Arm A- Daraxonrasib monotherapy\nArm B- Daraxonrasib + gemcitabine and nab-paclitaxel\nArm C- Gemcitabine and nab-paclitaxel",
       "Eligibility ": "Inclusion criteria:\n- ECOG performance status 0 or 1\n- Characteristic: Definitive histologically or cytologically confirmed metastatic pancreatic adenocarcinoma\n- Measurable disease per RECIST 1.1 \n- Initial diagnosis of metastatic disease ≤ 6 weeks prior to informed consent\n- Previously not treated in metastatic setting\n- Documented RAS mutation status either mutant or wild type\n- Confirmed availability of archival tissue within 5 years of randomization\n- Adequate Organ Function: Bone marrow, Hepatic, Renal, and Coagulation\n- Serum albumin ≥ 3 g/dL\n\nExclusion Criteria:\n- Prior Treatment in metastatic setting of pancreatic adenocarcinoma\n- Prior therapy with a MAPK-pathway targeted therapy or RAS targeted vaccine is prohibited\n- Radical or definitive Radiotherapy and palliative radiotherapy given within 2 weeks prior to initiation of study treatment exceeding 25-30 Gy is prohibited\n- Exception: Prior systemic therapy given in neoadjuvant or adjuvant setting in combination with surgical resection at least 6 months prior to diagnosis of metastatic disease is allowed\n- Presence of locally advanced disease without measurable metastatic lesions\n- Other cancers that were diagnosed or treated other than pancreatic adenocarcinoma ≤3 years prior to randomization\n- Exceptions listed in protocol\n- Uncontrolled pleural effusion, pericardial effusion, clinically significant ascites\n- Requiring paracentesis, drainage, or diuretics within 4 weeks prior to randomization\n- Significant cardiovascular disease or cardiac conduction abnormalities\n- History of interstitial pneumonia, pneumonitis, pulmonary fibrosis, radiation pneumonitis, or any ongoing inflammation or active interstitial lung disease within 2 months of randomization\n- Toxicity associated with prior anticancer therapy that has not recovered to Grade ≤ 1\n- Active or uncontrolled viral infections or systemic infections\n- HIV infection, Hepatitis B, Hepatitis C\n- Any conditions that may affect drug absorption or continuation of study trial\n- Refractory nausea/ vomiting, malabsorption, significant bowel resection, inflammatory GI disease\n- Treatment with CYP3A4 inhibitors/inducers or Cyclosporine A\n- Hypersensitivity/allergy or contraindication with study treatments",
       "Contacts": "Site PI:\nErica Tsang\nErica.Tsang@uhn.ca\n\nStudy Nurse: \nStephen Lam\nstephen.lam@uhn.ca",
       "NCT number": "NCT07491445",
-      "Study status": "enrolling - additional 6 patients only",
+      "Study status": "Active",
       "Schema image": "NCT07491445.png",
       "Key criteria (for PDF)": "RAS mutation status (either mutant or WT). 1L mPDAC, previously untreated in met. setting, diagnosed ≤6 weeks before consent. Availability of archival tissue within 5 years of randomization.",
       "PI contact (for PDF)": "erica.tsang@uhn.ca "
@@ -1127,6 +1159,38 @@
       "Schema image": "NCT06362395.jpg",
       "Key criteria (for PDF)": "Metastatic liver disease from eligible primary cancers (colorectal, pancreatic, gastric, head and neck, cervical, skin SCC, or NSCLC), with 1-3 liver metastases suitable for MR-guided SBRT, ECOG 0-2, Child-Pugh A liver function, and life expectancy >6 months.",
       "PI contact (for PDF)": "ali.hosni@uhn.ca"
+    },
+    {
+      "Disease Setting": "Resectable",
+      "Trial Name": "RMC-6236-304 (RASolute 304)",
+      "Full title": "RASolute 304: A Phase 3 Multicenter, Open-label, Randomized,\n2-Arm Study of Adjuvant Daraxonrasib versus Standard of Care\nObservation Following Completion of Neoadjuvant and/or\nAdjuvant Chemotherapy in Patients with Resected Pancreatic\nDuctal Adenocarcinoma (PDAC)",
+      "Additional notes": "This is a Phase 3, global, randomized, open-label, 2-arm study designed to evaluate whether\ntreatment with daraxonrasib following completion of neoadjuvant and/or adjuvant chemotherapy\nimproves disease-free survival (DFS) compared to observation in patients with resected pancreatic\nductal adenocarcinoma (PDAC). Approximately 500 patients with R0/R1-resected PDAC who received a minimum of 4 months of neoadjuvant and/or adjuvant chemotherapy will be randomized in a 1:1 ratio to receive oral (PO) daraxonrasib 300 mg once daily (QD) or to standard of care observation. Study participation includes 4 periods: Pre-Screening (for determination of RAS mutation status; up to 120 days before randomization); Screening (28 days); Treatment or Observation (2 years); and Follow-up (disease assessment until documented recurrence in patients who remain disease-free after the Treatment or Observation period, survival monitoring every 6 months until death, withdrawal of consentfor further follow-up, loss to follow-up, or study termination). Crossover from standard of care observation (Arm B) to daraxonrasib (Arm A) is not allowed.",
+      "Tissue Requirements": "Documented RAS mutation status by local laboratory or archival tissue, must be submitted for central testing of RAS during pre-screening.",
+      "Biomarker/unselected": "RAS (mutant or wild type)",
+      "Trial Intervention/Arms": "Arm 1: Experimental: Oral tablets of daraxonrasib 300 mg once daily.\nArm 2: SOC Observation: Patients randomized to the comparator control arm will receive SOC observation.",
+      "Eligibility ": "Inclusion Criteria:\n\n-At least 18 years old and has provided informed consent.\n-Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n-Histologically confirmed PDAC with successful (R0/R1) curative intent surgical resection and no evidence of recurrent or metastatic disease.\n-Must have received perioperative (neoadjuvant, adjuvant, or a combination of both) multi-agent chemotherapy.\n-Must have completed most recent treatment within the past 12 weeks.\n-Adequate organ function (bone marrow, liver, kidney, coagulation).\n-Documented RAS mutation status.\n-Able to take oral medications.\n\nExclusion Criteria:\n\n-Prior therapy with direct RAS-targeted therapy (eg. degraders and/or inhibitors).\n-Any conditions that may affect the ability to take or absorb study drug.\n-Major surgery within 28 days prior to randomization.\n-Patient is unable or unwilling to comply with protocol-required study visits or procedures.",
+      "Contacts": "Site PI:\nDr. Erica Tsang\nerica.tsang@uhn.ca\n\nData coordinator:\nMeshanthini Rabindranath\nMeshanthini.Rabindranath@uhn.ca",
+      "NCT number": "NCT07252232",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": "RAS-mutated PDAC (WT or mutant); R0/R1 resection completed. Minimum of 4 months of neoadjuvant/adjuvant chemotherapy; no evidence of recurrence.",
+      "PI contact (for PDF)": "erica.tsang@uhn.ca"
+    },
+    {
+      "Disease Setting": " Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
+      "Trial Name": "INEX RT P",
+      "Full title": "INEX RT P – Prospective Study on Inhale and Exhale Breath Holds to Improve the Therapeutic Ratio in Upper Abdominal Cancers treated with SBRT",
+      "Additional notes": "The INEX RT P study is a prospective cohort study that will enroll 15 patients with primary or metastatic upper abdominal cancers undergoing stereotactic body radiotherapy (SBRT). The study aims to determine whether alternating between inhale and exhale breath-hold positions during the same course of radiation treatment can improve the therapeutic ratio by increasing radiation dose to the tumor while maintaining or reducing dose to nearby critical organs at risk. Participants will undergo both inhale and exhale breath-hold simulation scans, and treatment fractions will be delivered using a combination of these breath-hold phases based on anatomical and dosimetric advantages. The investigators hypothesize that this approach can increase target dose by at least 10% compared with the current standard of using a single breath-hold phase, while preserving normal tissue protection and potentially improving treatment outcomes.",
+      "Tissue Requirements": null,
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "INEX RT P is a prospective cohort/feasibility study, not a randomized or comparative clinical trial.\nAll enrolled patients receive the same intervention:\nStudy Arm- Single Arm: INEX RT Treatment\n• SBRT delivered using a combination of inhaleand exhale breath-hold phases during the same treatment course.\n• Treatment fractions are assigned to inhale or exhale breath hold depending on the dosimetric and anatomical advantages identified during planning.\n• For courses with an odd number of fractions, the additional fraction is delivered in the breath-hold phase with better reproducibility or anatomical benefit.",
+      "Eligibility ": "Inclusion criteria.\nAge ≥ 18\nAny patient undergoing radiation therapy for a cancer lesion in the abdomen in \nclose proximity to OARs that is hypothesized to have differential displacement on \ninhale and exhale breath hold CT scans of the OAR relative to the tumor.\n Patients need at least 3 fractions of RT\nCritical OARs are within 2 cm of luminal GI structures, chest wall, or \nprevious radiation fields\n Able to receive and understand verbal and written information regarding study \nand able to give written informed consent\nExclusion criteria.\n Inability to perform inhale or exhale breath holds during standard workflow CT \nsimulation evaluation",
+      "Contacts": "Site PI- Dr. Laura Dawson, email- Laura.Dawson@uhn.ca\nCRC- Priya Sriskandarajah, email- Priya.Sriskandarajah@uhn.ca",
+      "NCT number": "NCT07594691",
+      "Study status": "Active",
+      "Schema image": null,
+      "Key criteria (for PDF)": null,
+      "PI contact (for PDF)": null
     }
   ],
   "pNET": [
@@ -1141,7 +1205,7 @@
       "Eligibility ": "Inclusion criteria:\nPatients with PNET who have progressed on everolimus or sunitinib. \nHas a life expectancy of at least 3 months.\nExclusion criteria:\nUnable to swallow orally administered medication or has a disorder that might affect the absorption of belzutifan.\nHistory of a second malignancy, unless potentially curative treatment has been completed with no evidence of malignancy for 2 years.\nReceived prior treatment (except somatostatin analogs) with chemotherapy, targeted therapy, biologics, or other investigational therapy within the past 4 weeks of first dose of study intervention.",
       "Contacts": "Site PI:\nRaymond Jang\nraymond.jang@uhn.ca",
       "NCT number": "NCT04924075",
-      "Study status": "Active",
+      "Study status": "Active; VHL-PPGL only open cohort",
       "Schema image": null,
       "Key criteria (for PDF)": "PNET who have progressed on everolimus or sunitinib. ",
       "PI contact (for PDF)": "raymond.jang@uhn.ca "
@@ -1205,7 +1269,7 @@
       "Eligibility ": "Inclusion criteria: \n- Histologically confirmed, advanced (unresectable and/or metastatic), and well-differentiated NET of GEP or presumed GEP origin\n- At least 1 measurable, somatostatin receptor-positive*, lesion according to RECIST 1.1 determined by multiphasic CT or MRI (performed within 28 days before randomization)\n*Somatostatin-receptor imaging must be performed within 3 months before randomization. Somatostatin receptor-positive lesions are defined as lesions with a visual assessment of uptake greater than the liver\n- Results from FDG-PET CT for patients with well-differentiated Grade 3 NET (if performed) must show that FDG avid areas of disease also are avid on somatostatin-receptor imaging\n- Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 2\n- Female patients of childbearing potential must be willing to use an acceptable method of contraception from screening to the Safety Follow-up Visit\n\nExclusion criteria: \n- Poorly differentiated NEC, adenocarcinoid, goblet cell carcinoid, large cell NEC, small cell carcinoma, or mixed tumor\n- Previously diagnosed with multiple endocrine neoplasia Type 1\n- Tumor with primary origin outside the GEP tract\n- Documented evidence of disease progression while on treatment (including SSAs) for locally advanced unresectable or metastatic disease\n- Known central nervous system metastases\n- Consecutive treatment with long-acting SSAs for more than 6 months before randomization\n- Treatment of GEP-NET with trans-arterial chemoembolization or trans-arterial embolization within 12 months before screening\n- Previously received radioligand therapy (PRRT) at any time\n- Major surgery/surgical therapy for any cause within 1 month before screening, surgical therapy of loco-regional metastases within 3 months before screening, or minor surgery within 14 days before screening. Patient must have recovered from the treatment and be in good clinical condition\n- Patients with poorly controlled diabetes, as evidenced by hemoglobin A1c (HbA1c) >8.0%\n- Cardiac history or current diagnosis of cardiac disease indicating significant risk of safety for patients participating in the trial, such as uncontrolled or significant cardiac disease.\n- Clinically significant cardiac arrhythmias (e.g. ventricular tachycardia), complete left bundle branch block, or high-grade atrioventricular block (e.g. bifascicular block, Mobitz type II, and third-degree atrioventricular block)\n- Long QT syndrome, family history of idiopathic sudden death or congenital long QT syndrome.\n",
       "Contacts": "Site PI:\nRaymond Jang\nraymond.jang@uhn.ca\n\nStudy Nurse: \nMary Lan Wei\nmarylan.wei@uhn.ca\n\nStudy Coordinator: Huda Ahmed\nHudaWaseem.Ahmed@uhn.ca\n",
       "NCT number": "NCT05050942",
-      "Study status": "Not Recruiting",
+      "Study status": "closed",
       "Schema image": null,
       "Key criteria (for PDF)": "Well-differentiated NET of GEP or presumed GEP origin. Somatostatin receptor (SSTR)-positive.",
       "PI contact (for PDF)": "raymond.jang@uhn.ca"
@@ -1239,20 +1303,6 @@
       "Contacts": "Site PI:\nDr. Jennifer Knox\nJennifer.Knox@uhn.ca\n416-946-2000 x 5131\n\nStudy Nurse:\nMary (Lan) Wei\nMarylan.Wei@uhn.ca\n\nStudy Data Coordinator:\nMorteza Azhdarzadeh\nMorteza.Azhdarzadeh@uhn.ca",
       "NCT number": "NCT07644559",
       "Schema image": "Active"
-    },
-    {
-      "Organ group": "Primary and metastatic upper abdominal cancers",
-      "Disease Setting": " Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
-      "Trial Name": "INEX RT P",
-      "Full title": "INEX RT P – Prospective Study on Inhale and Exhale Breath Holds to Improve the Therapeutic Ratio in Upper Abdominal Cancers treated with SBRT",
-      "Additional notes": "The INEX RT P study is a prospective cohort study that will enroll 15 patients with primary or metastatic upper abdominal cancers undergoing stereotactic body radiotherapy (SBRT). The study aims to determine whether alternating between inhale and exhale breath-hold positions during the same course of radiation treatment can improve the therapeutic ratio by increasing radiation dose to the tumor while maintaining or reducing dose to nearby critical organs at risk. Participants will undergo both inhale and exhale breath-hold simulation scans, and treatment fractions will be delivered using a combination of these breath-hold phases based on anatomical and dosimetric advantages. The investigators hypothesize that this approach can increase target dose by at least 10% compared with the current standard of using a single breath-hold phase, while preserving normal tissue protection and potentially improving treatment outcomes.",
-      "Tissue Requirements": null,
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "INEX RT P is a prospective cohort/feasibility study, not a randomized or comparative clinical trial.\nAll enrolled patients receive the same intervention:\nStudy Arm- Single Arm: INEX RT Treatment\n• SBRT delivered using a combination of inhaleand exhale breath-hold phases during the same treatment course.\n• Treatment fractions are assigned to inhale or exhale breath hold depending on the dosimetric and anatomical advantages identified during planning.\n• For courses with an odd number of fractions, the additional fraction is delivered in the breath-hold phase with better reproducibility or anatomical benefit.",
-      "Eligibility ": "Inclusion criteria.\nAge ≥ 18\nAny patient undergoing radiation therapy for a cancer lesion in the abdomen in \nclose proximity to OARs that is hypothesized to have differential displacement on \ninhale and exhale breath hold CT scans of the OAR relative to the tumor.\n Patients need at least 3 fractions of RT\nCritical OARs are within 2 cm of luminal GI structures, chest wall, or \nprevious radiation fields\n Able to receive and understand verbal and written information regarding study \nand able to give written informed consent\nExclusion criteria.\n Inability to perform inhale or exhale breath holds during standard workflow CT \nsimulation evaluation",
-      "Contacts": "Site PI- Dr. Laura Dawson, email- Laura.Dawson@uhn.ca\nCRC- Priya Sriskandarajah, email- Priya.Sriskandarajah@uhn.ca",
-      "NCT number": "NCT07594691",
-      "Schema image": null
     }
   ],
   "Closed": [
@@ -2615,6 +2665,51 @@
         "Trial Name": "ULTRAS",
         "change": "modified",
         "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "RASolute 304",
+        "change": "added",
+        "timestamp": "2026-10-21T14:54:15"
+      },
+      {
+        "Trial Name": "RASolute 304",
+        "change": "modified",
+        "timestamp": "2026-10-21T17:08:29"
+      },
+      {
+        "Trial Name": "RASolute 304",
+        "change": "modified",
+        "timestamp": "2026-10-22T09:05:05"
+      },
+      {
+        "Trial Name": "RMC-6236-303 (RASolute 303)",
+        "change": "modified",
+        "timestamp": "2026-10-22T13:05:52"
+      },
+      {
+        "Trial Name": "RMC-6236-303 (RASolute 303)",
+        "change": "modified",
+        "timestamp": "2026-10-22T13:15:57"
+      },
+      {
+        "Trial Name": "C3651021 (RIVER)",
+        "change": "modified",
+        "timestamp": "2026-10-22T14:19:07"
+      },
+      {
+        "Trial Name": "INEX RT P",
+        "change": "added",
+        "timestamp": "2026-10-23T14:18:36"
+      },
+      {
+        "Trial Name": "RASolute 304",
+        "change": "modified",
+        "timestamp": "2026-10-28T14:53:21"
+      },
+      {
+        "Trial Name": "RMC-6236-304 (RASolute 304)",
+        "change": "added",
+        "timestamp": "2026-10-28T15:04:11"
       }
     ],
     "HCC": [
@@ -3237,6 +3332,16 @@
         "Trial Name": "SOCRATES HCC",
         "change": "added",
         "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "INEX RT P",
+        "change": "added",
+        "timestamp": "2026-10-23T14:18:36"
+      },
+      {
+        "Trial Name": "SOCRATES HCC",
+        "change": "modified",
+        "timestamp": "2026-10-28T15:11:30"
       }
     ],
     "Gastroesophageal": [
@@ -5409,6 +5514,11 @@
         "Trial Name": "PET-MRI Esophagus",
         "change": "added",
         "timestamp": "2026-10-19T12:47:03"
+      },
+      {
+        "Trial Name": "INEX RT P",
+        "change": "added",
+        "timestamp": "2026-10-23T14:18:36"
       }
     ],
     "pNET": [
@@ -5556,6 +5666,16 @@
         "Trial Name": "HPB Robotic Surgery Database ",
         "change": "modified",
         "timestamp": "2026-10-08T11:13:03"
+      },
+      {
+        "Trial Name": "Belzutifan Advanced Pancreatic Neuroendocrine Tumor (pNET), or Von Hippel-Lindau (VHL) Disease-Associated Tumors (MK-6482-015) ",
+        "change": "modified",
+        "timestamp": "2026-10-21T14:54:15"
+      },
+      {
+        "Trial Name": "HS-19-657/SORENTO",
+        "change": "modified",
+        "timestamp": "2026-10-21T14:54:15"
       }
     ],
     "PDF ONLY": [
