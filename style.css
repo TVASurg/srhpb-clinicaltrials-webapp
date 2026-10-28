@@ -264,6 +264,12 @@ perspective: 1000px;
     width: 100%;
   }
 
+  .btn-outline-custom-darker {
+    --bs-btn-bg: color-mix(in srgb, var(--bs-pancreas) 40%, var(--bs-gray-100) 60%);
+    --bs-btn-border-color: #{rgba($white, .25)};
+    width: 100%;
+  }
+
   .btn-check:checked + .btn{
     background-color: color-mix(in srgb, var(--bs-pancreas) 70%, var(--bs-gray-500) 30%) !important;
     font-weight: 500;
