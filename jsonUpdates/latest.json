@@ -1171,7 +1171,7 @@
       "Eligibility ": "Inclusion Criteria:\n\n-At least 18 years old and has provided informed consent.\n-Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n-Histologically confirmed PDAC with successful (R0/R1) curative intent surgical resection and no evidence of recurrent or metastatic disease.\n-Must have received perioperative (neoadjuvant, adjuvant, or a combination of both) multi-agent chemotherapy.\n-Must have completed most recent treatment within the past 12 weeks.\n-Adequate organ function (bone marrow, liver, kidney, coagulation).\n-Documented RAS mutation status.\n-Able to take oral medications.\n\nExclusion Criteria:\n\n-Prior therapy with direct RAS-targeted therapy (eg. degraders and/or inhibitors).\n-Any conditions that may affect the ability to take or absorb study drug.\n-Major surgery within 28 days prior to randomization.\n-Patient is unable or unwilling to comply with protocol-required study visits or procedures.",
       "Contacts": "Site PI:\nDr. Erica Tsang\nerica.tsang@uhn.ca\n\nData coordinator:\nMeshanthini Rabindranath\nMeshanthini.Rabindranath@uhn.ca",
       "NCT number": "NCT07252232",
-      "Study status": "Not Recruiting",
+      "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": "RAS-mutated PDAC (WT or mutant); R0/R1 resection completed. Minimum of 4 months of neoadjuvant/adjuvant chemotherapy; no evidence of recurrence.",
       "PI contact (for PDF)": "erica.tsang@uhn.ca"
@@ -2700,6 +2700,11 @@
         "Trial Name": "INEX RT P",
         "change": "added",
         "timestamp": "2026-10-23T14:18:36"
+      },
+      {
+        "Trial Name": "RASolute 304",
+        "change": "modified",
+        "timestamp": "2026-10-28T14:53:21"
       }
     ],
     "HCC": [
