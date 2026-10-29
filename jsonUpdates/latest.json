@@ -422,12 +422,12 @@
       "Disease Setting": "Prior to any systemic treatment ",
       "Trial Name": "NEEDS",
       "Full title": "Neoadjuvant Chemoradiotherapy and Surgery for Esophageal Squamous Cell Carcinoma Versus Definitive Chemoradiotherapy With Salvage Surgery as Needed",
-      "Additional notes": null,
+      "Additional notes": "NEEDS is a pragmatic open-label, randomized, controlled, phase III,\nmulticenter trial with three co-primary endpoints compared in a\nhierarchical sequence. The first co-primary endpoint, tested with a noninferiority\nhypothesis for the experimental intervention (dCRT with\nsurveillance and salvage esophagectomy only when needed), is overall\nsurvival (OS). The second co-primary endpoint, tested with a superiority\nhypothesis for the experimental intervention, is Global HRQOL 12 months\nafter randomization. This comparison will only be formally performed if\nnon-inferiority between the two groups for the OS endpoint is accepted.\nThe third co-primary endpoint, tested with a superiority hypothesis, is\neating restrictions 12 months after randomization. This comparison will\nonly be formally performed if the hypothesis of improved Global HRQOL at\n12 months for the experimental arm is accepted. The trial will be considered positive if at least the first and second co-primary endpoints are met.A target sample size of 1020 patients randomized is planned in order to\nreach 398 events (deaths) during follow-up, which will be sufficient to\ndemonstrate non-inferiority of OS (80% power, 95% one-sided confidence.The control intervention (arm A) is neoadjuvant chemoradiotherapy\naccording to the CROSS trial protocol followed by esophagectomy. The\nexperimental intervention (arm B) is definitive chemoradiotherapy, using\ndefined chemoradiotherapy options, with post treatment surveillance and\nsalvage esophagectomy as needed in order to obtain local tumor control.",
       "Tissue Requirements": null,
       "Biomarker/unselected": null,
       "Trial Intervention/Arms": "Neoadjuvant chemoradiotherapy + surgery vs definitive chemoradiotherapy + salvage surgery (if needed)",
-      "Eligibility ": "Histopathologically confirmed SCC of the esophagus in locally advanced stages cT1 N+ or cT2-4a any N, M0, according to current (8th) version of of the AJCC TNM classification.",
-      "Contacts": "Site PI:\nJelena Lukovic\njelena.lukovic@uhn.ca",
+      "Eligibility ": "Histopathologically confirmed SCC of the esophagus in locally advanced stages cT1 N+ or cT2-4a any N, M0, according to current (8th) version of of the AJCC TNM classification. Technically resectable disease according to the local multidisciplinary team conference\n(MDT)/tumor board.\nAge-18- 80 years.\n Performance status ECOG 0-1.\nAdequate organ function (assessed within 14 days prior to randomization)\nWomen of childbearing potential (WOCBP*) must have a negative serum\nFemale subjects who are breast feeding should discontinue nursing\nMale study participants should not father children during the study treatment\nExclusion criteria\n􀁸 M1 according to current (8th) version of of the AJCC TNM classification.\n􀁸 cT4b according to current (8th) version of of the AJCC TNM classification.\n􀁸 Primary tumor not resectable without laryngectomy.\n􀁸 Impaired renal, hepatic, cardiac, pulmonary or endocrine status that compromises the\neligibility of the patient for multimodality treatment with chemoradiotherapy followed\nby esophagectomy.\n􀁸 Subjects not considered likely to tolerate multimodality treatment with\nchemoradiotherapy followed by esophagectomy.\n􀁸 Subjects with previous malignancies are excluded unless a complete remission or\ncomplete resection was achieved at least 5 years prior to study entry. Adequately\ntreated cervix uteri carcinoma in situ, and localized non-melanoma skin cancer are not\nexclusion criteria, regardless of time of diagnosis.\n􀁸 Prior or concomitant treatment with radiotherapy or chemoradiotherapy with potential\noverlap of radiotherapy fields.\n􀁸 Known uncontrollable hypersensitivity to the components of the chemotherapeutic\nagents used in the trial regimens.\n􀁸 Inability to fully understand and digest study patient information or to comply with study\ninstructions due to language difficulty or cognitive failure such as dementia or severe\npsychiatric disorder.",
+      "Contacts": "Site PI:\nJelena Lukovic\njelena.lukovic@uhn.ca CRC- Hebe Chu, email- Hebe.Chu@uhn.ca",
       "NCT number": "NCT04460352",
       "Study status": "Active",
       "Schema image": null,
@@ -529,22 +529,6 @@
       "Schema image": "NCT06362395.jpg",
       "Key criteria (for PDF)": "Metastatic liver disease from eligible primary cancers (colorectal, pancreatic, gastric, head and neck, cervical, skin SCC, or NSCLC), with 1-3 liver metastases suitable for MR-guided SBRT, ECOG 0-2, Child-Pugh A liver function, and life expectancy >6 months.",
       "PI contact (for PDF)": "ali.hosni@uhn.ca"
-    },
-    {
-      "Disease Setting": "Locally Advanced resectable",
-      "Trial Name": "NEEDS Trial",
-      "Full title": "NEoadjuvant chemoradiotherapy for Esophageal squamous cell carcinoma versus Definitive chemoradiotherapy with salvage Surgery as needed",
-      "Additional notes": "NEEDS is a pragmatic open-label, randomized, controlled, phase III,\nmulticenter trial with three co-primary endpoints compared in a\nhierarchical sequence. The first co-primary endpoint, tested with a noninferiority\nhypothesis for the experimental intervention (dCRT with\nsurveillance and salvage esophagectomy only when needed), is overall\nsurvival (OS). The second co-primary endpoint, tested with a superiority\nhypothesis for the experimental intervention, is Global HRQOL 12 months\nafter randomization. This comparison will only be formally performed if\nnon-inferiority between the two groups for the OS endpoint is accepted.\nThe third co-primary endpoint, tested with a superiority hypothesis, is\neating restrictions 12 months after randomization. This comparison will\nonly be formally performed if the hypothesis of improved Global HRQOL at\n12 months for the experimental arm is accepted. The trial will be considered positive if at least the first and second co-primary endpoints are met.A target sample size of 1020 patients randomized is planned in order to\nreach 398 events (deaths) during follow-up, which will be sufficient to\ndemonstrate non-inferiority of OS (80% power, 95% one-sided confidence.The control intervention (arm A) is neoadjuvant chemoradiotherapy\naccording to the CROSS trial protocol followed by esophagectomy. The\nexperimental intervention (arm B) is definitive chemoradiotherapy, using\ndefined chemoradiotherapy options, with post treatment surveillance and\nsalvage esophagectomy as needed in order to obtain local tumor control.",
-      "Tissue Requirements": "n/a",
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "Two Arms- Control Arm-Neoadjuvant CRT with weekly carboplatin and paclitaxel and radiation in 1.8 fractions to 41.4 Gy (in accordance with the CROSS trial protocol) followed by preplanned esophagectomy.\nExperimental Arm- Definitive CRT using any combination of two chemotherapy (platin-taxane\nand platin-fluoropyrimidin) and two radiotherapy regimens (1.8 to 50.4 Gy and 2.0 to 50 Gy) followed by surveillance and salvage esophagectomy only as needed.\nParticipants will be randomised online from within an electronic randomization system.",
-      "Eligibility ": "Inclusion criteria\n Histopathologically confirmed SCC of the esophagus in locally advanced stages cT1 N+ or\ncT2-4a any N, M0, according to current (8th) version of of the AJCC TNM classification.\nTechnically resectable disease according to the local multidisciplinary team conference\n(MDT)/tumor board.\nAge-18- 80 years.\n Performance status ECOG 0-1.\nAdequate organ function (assessed within 14 days prior to randomization)\nWomen of childbearing potential (WOCBP*) must have a negative serum\nFemale subjects who are breast feeding should discontinue nursing\nMale study participants should not father children during the study treatment\nExclusion criteria\n􀁸 M1 according to current (8th) version of of the AJCC TNM classification.\n􀁸 cT4b according to current (8th) version of of the AJCC TNM classification.\n􀁸 Primary tumor not resectable without laryngectomy.\n􀁸 Impaired renal, hepatic, cardiac, pulmonary or endocrine status that compromises the\neligibility of the patient for multimodality treatment with chemoradiotherapy followed\nby esophagectomy.\n􀁸 Subjects not considered likely to tolerate multimodality treatment with\nchemoradiotherapy followed by esophagectomy.\n􀁸 Subjects with previous malignancies are excluded unless a complete remission or\ncomplete resection was achieved at least 5 years prior to study entry. Adequately\ntreated cervix uteri carcinoma in situ, and localized non-melanoma skin cancer are not\nexclusion criteria, regardless of time of diagnosis.\n􀁸 Prior or concomitant treatment with radiotherapy or chemoradiotherapy with potential\noverlap of radiotherapy fields.\n􀁸 Known uncontrollable hypersensitivity to the components of the chemotherapeutic\nagents used in the trial regimens.\n􀁸 Inability to fully understand and digest study patient information or to comply with study\ninstructions due to language difficulty or cognitive failure such as dementia or severe\npsychiatric disorder.",
-      "Contacts": "Site PI- Dr. Jelena Lukovic, email- Jelena.Lukovic@uhn.ca\nCRC- Hebe Chu, email- Hebe.Chu@uhn.ca",
-      "NCT number": "NCT04460352",
-      "Study status": "Active",
-      "Schema image": null,
-      "Key criteria (for PDF)": "Resectable locally advanced SCC Esophagus (cT1N+ or cT2-4a; M0)",
-      "PI contact (for PDF)": "Jelena.Lukovic@uhn.ca"
     },
     {
       "Disease Setting": "Locally Advanced ",
@@ -5695,6 +5679,11 @@
         "Trial Name": "Celiac SRS",
         "change": "added",
         "timestamp": "2026-10-29T12:44:47"
+      },
+      {
+        "Trial Name": "NEEDS",
+        "change": "modified",
+        "timestamp": "2026-10-29T15:24:33"
       }
     ],
     "pNET": [
