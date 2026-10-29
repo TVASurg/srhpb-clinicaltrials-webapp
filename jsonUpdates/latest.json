@@ -741,7 +741,7 @@
       "PI contact (for PDF)": "chaya.shwaartz@uhn.ca"
     },
     {
-      "Disease Setting": "Prior to any systemic treatment",
+      "Disease Setting": "1st Line ",
       "Trial Name": "GI012 (HELIO-RT)",
       "Full title": "NRG-GI012: PHASE III RANDOMIZED TRIAL OF IO-BASED SYSTEMIC TREATMENT +/- LIVER SBRT IN HEPATOCELLULAR CANCER WITH MACROVASCULAR INVASION (HELIO-RT)",
       "Additional notes": "NRG-GI012 (HELIO-RT) is a Phase III randomized clinical trial evaluating whether adding liver stereotactic body radiotherapy (SBRT) to first-line immunotherapy-based systemic therapy improves overall survival in patients with hepatocellular carcinoma (HCC) and macrovascular invasion. Eligible patients must have Child-Pugh A or B7 liver function, ECOG 0-2, and may have limited extrahepatic disease. Participants are randomized 1:1 to receive either IO-based systemic therapy alone (atezolizumab/bevacizumab, durvalumab/tremelimumab, or nivolumab/ipilimumab) or the same systemic therapy combined with 5-fraction liver SBRT. The primary endpoint is overall survival, while secondary endpoints include progression-free survival, objective response rate, vascular recanalization, AFP response, toxicity, liver function outcomes, and quality of life. The study plans to randomize 226 patients and is based on the hypothesis that the addition of SBRT will improve median overall survival from approximately 14.3 months to 23.4 months in this high-risk HCC population.",
@@ -757,7 +757,7 @@
       "PI contact (for PDF)": "aruz.mesci@uhn.ca"
     },
     {
-      "Disease Setting": "Locally advanced uresectable",
+      "Disease Setting": "Any line",
       "Trial Name": "SOCRATES HCC",
       "Full title": "A Randomized controlled trial of Standard Of Care versus RadioAblaTion in Early Stage\nHepatoCellular Carcinoma",
       "Additional notes": "The study is designed as a phase II, prospective, randomised, parallel and open-label,\nmulti-institutional superiority trial for patients with newly diagnosed early stage (BCLC 0/A) ,\nsolitary ≤8cm nodule HCC, ineligible for surgical resection or transplantation.\nThe SOCRATES HCC study is looking at whether a type of radiotherapy called Stereotactic\nAblative Body Radiotherapy (SABR) can improve outcomes for people with early stage liver\ncancer compared to current standard treatments.\nPeople who join the study will be placed into one of two groups based on the size of their tumour\nand whether thermal ablation is an appropriate treatment for them. The study will include about\n218 participants in total.\n- Cohort 1: About 118 people with a single tumour 3 cm or smaller who are able to have thermal\nablation. They will be randomly assigned to receive either SABR or thermal ablation.\n- Cohort 2: About 100 people with a single tumour larger than 3 cm or who cannot safely have\nthermal ablation. They will be randomly assigned to receive either SABR or the current standard\nof care. Standard care may include thermal ablation, transarterial chemoembolisation (TACE), or\ntransarterial radioembolisation (TARE).\nThermal ablation treatments such as radiofrequency ablation (RFA) and microwave ablation\n(MWA) use heat from a probe placed directly into the tumour to kill cancer cells. Transarterial\ntreatments such as TACE and TARE use chemotherapy or radioactive particles delivered through\nthe blood vessels feeding the tumour. SABR uses highly targeted, high energy x-rays from\noutside the body to destroy the tumour.\nThe main goal of the study is to see whether SABR can better control the tumour at two years\ncompared to current treatments. The study will also look at other important outcomes such as\nprogression free survival, overall survival, side effects, quality of life and people's experiences of\ntheir treatment.",
@@ -3463,6 +3463,16 @@
         "Trial Name": "INEX RT P",
         "change": "modified",
         "timestamp": "2026-10-29T12:44:47"
+      },
+      {
+        "Trial Name": "GI012 (HELIO-RT)",
+        "change": "modified",
+        "timestamp": "2026-10-29T14:34:54"
+      },
+      {
+        "Trial Name": "SOCRATES HCC",
+        "change": "modified",
+        "timestamp": "2026-10-29T14:34:54"
       }
     ],
     "Gastroesophageal": [
