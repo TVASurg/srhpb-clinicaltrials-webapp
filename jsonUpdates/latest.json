@@ -531,7 +531,7 @@
       "PI contact (for PDF)": "ali.hosni@uhn.ca"
     },
     {
-      "Disease Setting": "Locally Advanced ",
+      "Disease Setting": "Locally advanced ",
       "Trial Name": "PET-MRI Esophagus",
       "Full title": "Feasibility study of PET-MRI as a platform for image guidance and adaptive radiation therapy in patients with esophagogastric cancer",
       "Additional notes": "In patients with esophageal cancer, we use computed tomography (CT) images and Positron Emission Tomography (PET) images prior to the start of radiation to stage and visualize the cancer. Staging and visualizing the cancer before treatment allows for the radiation team to develop plans that help precisely target the cancer, while providing a higher dose of radiation to areas of known disease. Currently, there are a lack of tools available to identify patients who would benefit from targeted dosing of radiation in esophageal cancer.\nMagnetic Resonance Imaging (MRI) provides better soft tissue contrast compared to conventional CT, and when combined with PET, can potentially provide better visualization of the tumor shape, size, and position. The superior details offered through MRI in visualizing esophageal cancer provides an opportunity to enhance precision radiation treatment design and delivery, especially in radiation courses that incorporate imaging techniques during each treatment session. To date, there is a lack of research on the added value and feasibility of PET-MRI imaging when compared with PET-CT in esophageal cancer. This is a single centre, single arm feasibility study of MR imaging for image guidance in patients with primary esophagogastric tumors. The goal of this study is to gather information that will allow future radiation care teams to incorporate MRI and PET imaging into the radiation treatment workflow for patients with esophageal cancer receiving radiation therapy.",
@@ -5724,6 +5724,11 @@
         "Trial Name": "Celiac SRS",
         "change": "modified",
         "timestamp": "2026-10-30T10:10:46"
+      },
+      {
+        "Trial Name": "PET-MRI Esophagus",
+        "change": "modified",
+        "timestamp": "2026-10-30T10:20:01"
       }
     ],
     "pNET": [
