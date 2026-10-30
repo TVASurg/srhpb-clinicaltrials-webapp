@@ -46,7 +46,7 @@
             </button>
             <div class="collapse" id="crc-collapse" >
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
-                <!-- <a role="button" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(colorectal_master, 'Peri')"><li class="rounded diseaseState px-3 mx-2 py-2" >Peri-operative</li></a> -->
+                <a role="button" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(colorectal_master, 'Localized')"><li class="rounded diseaseState px-3 mx-2 py-2" >Localized</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(colorectal_master, '1')"><li class="rounded diseaseState px-3 mx-2 py-2" >1st line</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(colorectal_master, '2')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(colorectal_master, 'Last')"><li class="rounded diseaseState px-3 mx-2 py-2" >Last line</li></a>
@@ -63,6 +63,7 @@
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
                 <a role="button" class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Prior')"><li class="rounded diseaseState px-3 mx-2 py-2" >Prior to systemic treatment</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Resectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Resectable</li></a>
+                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Locally advanced')"><li class="rounded diseaseState px-3 mx-2 py-2" >Locally Advanced</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, 'Locally Advanced resectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Locally Advanced Resectable</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '1')"><li class="rounded diseaseState px-3 mx-2 py-2" >1st line</li></a>
                 <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(gastroesophageal_master, '2')"><li class="rounded diseaseState px-3 mx-2 py-2" >2nd line</li></a>
@@ -199,7 +200,7 @@
         <p id="lastUpdated" class="text-center mx-auto my-3"><span class="small"></span></p>
       </div>
       
-      <div class="btn-group" role="group" data-bs-theme="pdac">
+      <div class="btn-group d-none" role="group" data-bs-theme="pdac">
           <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">Resectable</button>
           <button type="button" class="btn px-0 btn-outline-custom pe-none">Locally advanced unresectable</button>
           <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">Any line</button>
@@ -210,7 +211,7 @@
           <button type="button" class="btn px-0 btn-outline-custom pe-none">Non<br/>therapeutic</button>
       </div>
       
-      <div class="mt-2 btn-group" role="group" data-bs-theme="pdac">
+      <div class="mt-2 btn-group d-none" role="group" data-bs-theme="pdac">
           <button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>
           <button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>
           <button type="button" class="invisible btn px-0 btn-outline-custom pe-none "></button>
