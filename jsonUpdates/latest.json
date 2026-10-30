@@ -1209,7 +1209,7 @@
       "PI contact (for PDF)": "erica.tsang@uhn.ca"
     },
     {
-      "Disease Setting": "any line",
+      "Disease Setting": "Any line",
       "Trial Name": "INEX RT P",
       "Full title": "INEX RT P – Prospective Study on Inhale and Exhale Breath Holds to Improve the Therapeutic Ratio in Upper Abdominal Cancers treated with SBRT",
       "Additional notes": "The INEX RT P study is a prospective cohort study that will enroll 15 patients with primary or metastatic upper abdominal cancers undergoing stereotactic body radiotherapy (SBRT). The study aims to determine whether alternating between inhale and exhale breath-hold positions during the same course of radiation treatment can improve the therapeutic ratio by increasing radiation dose to the tumor while maintaining or reducing dose to nearby critical organs at risk. Participants will undergo both inhale and exhale breath-hold simulation scans, and treatment fractions will be delivered using a combination of these breath-hold phases based on anatomical and dosimetric advantages. The investigators hypothesize that this approach can increase target dose by at least 10% compared with the current standard of using a single breath-hold phase, while preserving normal tissue protection and potentially improving treatment outcomes.",
@@ -2805,6 +2805,11 @@
         "Trial Name": "Celiac SRS",
         "change": "modified",
         "timestamp": "2026-10-30T10:10:46"
+      },
+      {
+        "Trial Name": "INEX RT P",
+        "change": "modified",
+        "timestamp": "2026-10-30T10:18:18"
       }
     ],
     "HCC": [
