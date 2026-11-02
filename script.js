@@ -212,6 +212,7 @@ function initAllData() {
     //.catch(err => console.error('Error parsing JSON:', err));
   
   //hidePreactivations(pancreas_preactivation, "pancreas_preactivation")
+  
   updateModuleVersion();
 }
 
@@ -617,6 +618,7 @@ function fillTrialNameThatAreClosed()
   });
 highlightCategory();
 scrollToTrialName("trialName");
+
 }
 
 function fillTrialNameBasedOnSetting(mainCategory, setting) {
@@ -1988,4 +1990,27 @@ function updateModuleVersion()
 
   document.getElementById("moduleVersion").innerHTML= "Module version " + currentYear + "." + currentMonth + currentDay;
 
+}
+
+function displayFullTimeline()
+{
+
+  //for each, grab the setting
+  // set up the tempArray every time
+  //switch(pancreas_master.setting[i])
+  //case "Resectable":
+  //{ //where 0 = resectable, 1 = locally advanced un...etc etc
+  // this is what we're pushing: <button type="button" class="btn px-0 btn-outline-custom pe-none"><p class="pt-3 small">Post operative pain in MIS vs Open Distal Pancreatectomy</p></button>
+  //  tempArray.[0] =(pancreas_master.names[i]);
+  //}
+  //break;
+  //case "Locally Advanced Unresectable"
+  //display name in appropriate box
+  //tag in showTrialDetails somehow
+  console.log(pancreas_master);
+  console.log(pancreas_master.setting[0]);
+  //console.log((Object.values(pancreas_master)[1][0]));
+
+  var tempArray = [];
+  tempArray.push(`<button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>`);
 }
