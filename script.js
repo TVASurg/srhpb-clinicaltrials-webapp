@@ -1994,23 +1994,195 @@ function updateModuleVersion()
 
 function displayFullTimeline()
 {
+  //arguments to come in would be which organ group
+  //determines which master object to pull
+  //also determines the data-bs-theme
 
-  //for each, grab the setting
-  // set up the tempArray every time
-  //switch(pancreas_master.setting[i])
-  //case "Resectable":
-  //{ //where 0 = resectable, 1 = locally advanced un...etc etc
-  // this is what we're pushing: <button type="button" class="btn px-0 btn-outline-custom pe-none"><p class="pt-3 small">Post operative pain in MIS vs Open Distal Pancreatectomy</p></button>
-  //  tempArray.[0] =(pancreas_master.names[i]);
-  //}
-  //break;
-  //case "Locally Advanced Unresectable"
-  //display name in appropriate box
-  //tag in showTrialDetails somehow
-  console.log(pancreas_master);
-  console.log(pancreas_master.setting[0]);
-  //console.log((Object.values(pancreas_master)[1][0]));
+  //finaloutputHTML
+  var timelineHeaderHTML = "";
+  var timelineOutputHTML = "";
+  
 
-  var tempArray = [];
-  tempArray.push(`<button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>`);
+     
+  timelineHeaderHTML += `<div class="btn-group" role="group" data-bs-theme="pdac">
+          <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">Resectable</button>
+          <button type="button" class="btn px-0 btn-outline-custom pe-none">Locally advanced unresectable</button>
+          <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">Any line</button>
+          <button type="button" class="btn px-0 btn-outline-custom pe-none">Any line advanced</button>
+          <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">1L</button>
+          <button type="button" class="btn px-0 btn-outline-custom pe-none">2L</button>
+          <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">2L+</button>
+          <button type="button" class="btn px-0 btn-outline-custom pe-none">Non<br/>therapeutic</button>
+      </div>`;
+  
+  //this will be the container to put all trials in order of their settings
+  //hopefully these will be standardized?
+  let timelineMaster = {
+        setting_0: [],
+        setting_1: [],
+        setting_2: [],
+        setting_3: [],
+        setting_4: [],
+        setting_5: [],
+        setting_6: [],
+        setting_7: []      
+      };
+
+  for(i = 0; i < pancreas_master.names.length; i++)
+  {
+
+    //positionInIndex, name
+    var tempTrialArray =[];
+
+    tempTrialArray.push(i);
+    tempTrialArray.push(pancreas_master.names[i]);
+    
+    switch (pancreas_master.setting[i]) {
+      case "Resectable":
+        timelineMaster.setting_0.push(tempTrialArray);
+        break;
+      case "Locally Advanced Unresectable":
+        timelineMaster.setting_1.push(tempTrialArray);
+        break;
+      case "Any line":
+        timelineMaster.setting_2.push(tempTrialArray);
+        break;
+      case "Any Line Advanced":
+        timelineMaster.setting_3.push(tempTrialArray);
+        break;
+      case "1L Metastatic":
+        timelineMaster.setting_4.push(tempTrialArray);
+        break;
+      case "2L Only Metastatic":
+        timelineMaster.setting_5.push(tempTrialArray);
+        break;
+      case "2L Metastatic+":
+        timelineMaster.setting_6.push(tempTrialArray);
+        break;
+      case "Non-Therapeutic":
+        timelineMaster.setting_7.push(tempTrialArray);
+        break;
+      default:
+        break;
+    }
+  }
+
+  Object.entries(timelineMaster).forEach(([key,value]) => {
+  
+    if(value.length > 0)
+    {
+      var tempSettingHTML = "";
+      var emptyButtonHTML = `<button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>`;
+
+      switch (key) {
+        case "setting_0":
+          value.forEach(element => {
+            tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
+            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += element[1];
+            tempSettingHTML += `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(7);
+            tempSettingHTML += `</div>`;
+          });
+
+          break;
+        case "setting_1":
+          value.forEach(element => {
+            tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
+            tempSettingHTML += emptyButtonHTML.repeat(1);
+            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += element[1];
+            tempSettingHTML += `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(6);
+            tempSettingHTML += `</div>`;
+          });
+
+          break;
+        case "setting_2":
+          value.forEach(element => {
+            tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
+            tempSettingHTML += emptyButtonHTML.repeat(2);
+            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += element[1];
+            tempSettingHTML += `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(5);
+            tempSettingHTML += `</div>`;
+          });
+
+          break;
+        case "setting_3":
+          value.forEach(element => {
+            tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
+            tempSettingHTML += emptyButtonHTML.repeat(3);
+            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += element[1];
+            tempSettingHTML += `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(4);
+            tempSettingHTML += `</div>`;
+          });
+
+          break;
+        case "setting_4":
+          value.forEach(element => {
+            tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
+            tempSettingHTML += emptyButtonHTML.repeat(4);
+            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += element[1];
+            tempSettingHTML += `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(3);
+            tempSettingHTML += `</div>`;
+          });
+
+          break;
+        case "setting_5":
+          value.forEach(element => {
+            tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
+            tempSettingHTML += emptyButtonHTML.repeat(5);
+            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += element[1];
+            tempSettingHTML += `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(2);
+            tempSettingHTML += `</div>`;
+          });
+
+          break;
+        case "setting_6":
+          value.forEach(element => {
+            tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
+            tempSettingHTML += emptyButtonHTML.repeat(6);
+            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += element[1];
+            tempSettingHTML += `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(1);
+            tempSettingHTML += `</div>`;
+          });
+
+          break;
+        case "setting_7":
+          value.forEach(element => {
+            tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
+            tempSettingHTML += emptyButtonHTML.repeat(7);
+            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += element[1];
+            tempSettingHTML += `</p></button>`;
+            tempSettingHTML += `</div>`;
+          });
+          break;
+      
+        default:
+          break;
+      }
+      timelineOutputHTML += tempSettingHTML;
+    }
+  });
+
+  // timelineOutputHTML += `<button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" aria-label="Close">Close</button>`;
+  document.getElementById(`timelineHeader`).innerHTML = timelineHeaderHTML;
+  document.getElementById(`timelineBody`).innerHTML = timelineOutputHTML;
+  
+}
+
+function closeTimeline()
+{
+  document.getElementById(`timelineView`).innerHTML = "";
 }

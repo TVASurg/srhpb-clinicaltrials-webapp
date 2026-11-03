@@ -35,6 +35,20 @@
         </div>
     </nav>    
     <div id="mainContent" class="row">
+      
+      <!-- lets try putting this into a modal? -->
+      <div class="modal fade" id="timelineView" tabindex="-1" aria-labelledby="timelineView" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+            
+            <div id="timelineHeader" class="modal-header"></div>
+            <div id="timelineBody" class="modal-body"></div>
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close">Close</button>
+            
+          </div>
+        </div>
+      </div>
+
       <div class="col-12 col-lg-3"> 
         <div class="flipNav">
           <div id="mainNavInner" class="flipNavInner">
@@ -89,7 +103,7 @@
               </ul>
             </div>
           </li>
-          <li class="fs-5 bg-pancreas ps-2 rounded-top fw-bold border-bottom p-2">Pancreas</li>
+          <li class="fs-5 bg-pancreas ps-2 rounded-top fw-bold border-bottom p-2 btn d-block text-start" onclick="displayFullTimeline()"  data-bs-toggle="modal" data-bs-target="#timelineView">Pancreas</li>
           <li class="d-grid bg-pancreas ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false" onclick="clearTrialInfo(); clearUpdateLine();">
               PDAC
             </button>
@@ -173,7 +187,6 @@
       <div id="navToggle" class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="toggleNav()">Browse by biomarker</div>  
       <div class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="printCommunityList()">Download printable PDF</div>
       <div class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="fillTrialNameThatAreClosed()">Closed/Archived trials</div>
-      <div class="d-grid btn btn-outline-dark p-2 my-3 rounded" onclick="displayFullTimeline()">Test</div>
         
       </div>
       <div class="col-12 col-lg-9">
@@ -200,28 +213,7 @@
       <div class="col-12">
         <p id="lastUpdated" class="text-center mx-auto my-3"><span class="small"></span></p>
       </div>
-      
-      <div class="btn-group" role="group" data-bs-theme="pdac">
-          <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">Resectable</button>
-          <button type="button" class="btn px-0 btn-outline-custom pe-none">Locally advanced unresectable</button>
-          <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">Any line</button>
-          <button type="button" class="btn px-0 btn-outline-custom pe-none">Any line advanced</button>
-          <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">1L</button>
-          <button type="button" class="btn px-0 btn-outline-custom pe-none">2L</button>
-          <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">2L+</button>
-          <button type="button" class="btn px-0 btn-outline-custom pe-none">Non<br/>therapeutic</button>
-      </div>
-      
-      <div class="mt-2 btn-group" role="group" data-bs-theme="pdac">
-          <button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>
-          <button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>
-          <button type="button" class="invisible btn px-0 btn-outline-custom pe-none "></button>
-          <button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>
-          <button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>
-          <button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>
-          <button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>
-          <button type="button" class="btn px-0 btn-outline-custom pe-none"><p class="pt-3 small">Post operative pain in MIS vs Open Distal Pancreatectomy</p></button>
-      </div>
+
     </div>
     <footer id="footer" class="border-top mt-5 mx-5"><p class="text-center mt-3">Have updates or don’t see your trial listed?<br/> Please let us know at <a href="mailto:  SRHPBresearchcentre@uhn.ca"> SRHPBresearchcentre@uhn.ca</a></p><p id="moduleVersion" class="mt-3 text-center small">Module version v2026.04</p>
     </footer>
