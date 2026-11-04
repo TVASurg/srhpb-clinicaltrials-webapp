@@ -103,9 +103,10 @@
               </ul>
             </div>
           </li>
-          <li class="fs-5 bg-pancreas ps-2 rounded-top fw-bold border-bottom p-2 btn d-block text-start" onclick="displayFullTimeline()"  data-bs-toggle="modal" data-bs-target="#timelineView">Pancreas</li>
-          <li class="d-grid bg-pancreas ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false" onclick="clearTrialInfo(); clearUpdateLine();">
-              PDAC
+          <li class="fs-5 bg-pancreas ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2" >Pancreas</li>
+          <li class="d-grid bg-pancreas ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold">
+              <span  data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false" onclick="clearTrialInfo(); clearUpdateLine();">PDAC</span>
+              <span class="badge text-bg-warning ms-5" onclick="displayFullTimeline()"  data-bs-toggle="modal" data-bs-target="#timelineView">At a glance</span>
             </button>
             <div class="collapse " id="mccain-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
