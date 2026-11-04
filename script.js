@@ -2078,7 +2078,7 @@ function displayFullTimeline()
         case "setting_0":
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
-            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
             tempSettingHTML += element[1];
             tempSettingHTML += `</p></button>`;
             tempSettingHTML += emptyButtonHTML.repeat(7);
@@ -2090,7 +2090,7 @@ function displayFullTimeline()
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
             tempSettingHTML += emptyButtonHTML.repeat(1);
-            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom pe-none"><p class="pt-3 small">`;
             tempSettingHTML += element[1];
             tempSettingHTML += `</p></button>`;
             tempSettingHTML += emptyButtonHTML.repeat(6);
@@ -2102,7 +2102,7 @@ function displayFullTimeline()
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
             tempSettingHTML += emptyButtonHTML.repeat(2);
-            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
             tempSettingHTML += element[1];
             tempSettingHTML += `</p></button>`;
             tempSettingHTML += emptyButtonHTML.repeat(5);
@@ -2114,7 +2114,7 @@ function displayFullTimeline()
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
             tempSettingHTML += emptyButtonHTML.repeat(3);
-            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom pe-none"><p class="pt-3 small">`;
             tempSettingHTML += element[1];
             tempSettingHTML += `</p></button>`;
             tempSettingHTML += emptyButtonHTML.repeat(4);
@@ -2126,7 +2126,7 @@ function displayFullTimeline()
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
             tempSettingHTML += emptyButtonHTML.repeat(4);
-            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
             tempSettingHTML += element[1];
             tempSettingHTML += `</p></button>`;
             tempSettingHTML += emptyButtonHTML.repeat(3);
@@ -2138,7 +2138,7 @@ function displayFullTimeline()
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
             tempSettingHTML += emptyButtonHTML.repeat(5);
-            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom pe-none"><p class="pt-3 small">`;
             tempSettingHTML += element[1];
             tempSettingHTML += `</p></button>`;
             tempSettingHTML += emptyButtonHTML.repeat(2);
@@ -2150,7 +2150,7 @@ function displayFullTimeline()
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
             tempSettingHTML += emptyButtonHTML.repeat(6);
-            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom-darker pe-none"><p class="pt-3 small">`;
             tempSettingHTML += element[1];
             tempSettingHTML += `</p></button>`;
             tempSettingHTML += emptyButtonHTML.repeat(1);
@@ -2162,7 +2162,7 @@ function displayFullTimeline()
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
             tempSettingHTML += emptyButtonHTML.repeat(7);
-            tempSettingHTML += `<button type="button" class="btn px-0 btn-outline-custom pe-none"><p class="pt-3 small">`;
+            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom pe-none"><p class="pt-3 small">`;
             tempSettingHTML += element[1];
             tempSettingHTML += `</p></button>`;
             tempSettingHTML += `</div>`;
