@@ -1803,6 +1803,60 @@
       "Key criteria": "MSI-H/dMMR m/LA solid tumor. Progressed on  ≥1 prior systemic therapy (including at least one prior anti-PD-1/PD-L1 therapy if available) or be intolerant to SoC. No participants with Werner syndrome, no prior tx with WRN helicase inhibitor.",
       "PI contact": "Erica.Tsang@uhn.ca",
       "NCT": null
+    },
+    {
+      "Organ Group": "CCA",
+      "Trial Name": "MK-2010 (PD-1 x VEGF bispecific antibody)",
+      "Disease Setting": "1L",
+      "Trial Intervention/Arms": "Given in combination with gem/cis",
+      "Key criteria": "Untreated in 1L setting",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": "NCT07793942"
+    },
+    {
+      "Organ Group": "HCC",
+      "Trial Name": "MK-2010 (PD-1 x VEGF bispecific antibody)",
+      "Disease Setting": "1L",
+      "Trial Intervention/Arms": "Given as monotherapy",
+      "Key criteria": "Untreated in 1L setting",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": "NCT07793942"
+    },
+    {
+      "Organ Group": "CRC",
+      "Trial Name": "MK-2010 (PD-1 x VEGF bispecific antibody)",
+      "Disease Setting": "1L",
+      "Trial Intervention/Arms": "Given in combination with FOLFOX",
+      "Key criteria": "Untreated in 1L setting",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": "NCT07793942"
+    },
+    {
+      "Organ Group": "GE",
+      "Trial Name": "MK-2010 (PD-1 x VEGF bispecific antibody)",
+      "Disease Setting": "1L",
+      "Trial Intervention/Arms": "Given in combination with FOLFOX",
+      "Key criteria": "ESCC. Untreated in 1L setting",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": "NCT07793942"
+    },
+    {
+      "Organ Group": "GE",
+      "Trial Name": "LCB02A",
+      "Disease Setting": "Any line",
+      "Trial Intervention/Arms": "Given as monotherapy",
+      "Key criteria": "Claudin 18.2 positive (IHC >=2+ in >=40% of tumor cells) in last 3 years. Must have archival tissue within last 3 years.",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": "NCT07460375"
+    },
+    {
+      "Organ Group": "PDAC",
+      "Trial Name": "LCB02A",
+      "Disease Setting": "Any line",
+      "Trial Intervention/Arms": "Given as monotherapy",
+      "Key criteria": "Claudin 18.2 positive (IHC >=2+ in >=40% of tumor cells) in last 3 years. Must have archival tissue within last 3 years.",
+      "PI contact": "Erica.Tsang@uhn.ca",
+      "NCT": "NCT07460375"
     }
   ],
   "Changes": {
@@ -5939,6 +5993,16 @@
         "Trial Name": "A Phase 1/1b Study Evaluating the Safety, Tolerability, and Pharmacokinetics of AMG 436 as Monotherapy and in Combination with Other Therapies in Participants with MSI-H/dMMR Solid Tumors",
         "change": "added",
         "timestamp": "2026-07-28T00:49:00"
+      },
+      {
+        "Trial Name": "MK-2010 (PD-1 x VEGF bispecific antibody)",
+        "change": "added",
+        "timestamp": "2026-11-09T14:25:47"
+      },
+      {
+        "Trial Name": "LCB02A",
+        "change": "added",
+        "timestamp": "2026-11-09T14:25:47"
       }
     ]
   }
