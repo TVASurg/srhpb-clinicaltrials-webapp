@@ -849,7 +849,7 @@
       "Eligibility ": "Age >18 years.\nDiagnosis of biliary tract or pancreatic cancer at any stage, confirmed by pathology, radiology or multidisciplinary review.\nUnderwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.\nAble to read and understand English.",
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nStudy Coordinator:\nErin Winter\nErin.Winter@uhn.ca",
       "NCT number": null,
-      "Study status": "closed",
+      "Study status": "Not Recruiting",
       "Schema image": "CAN-PREFER.png",
       "Key criteria (for PDF)": "Underwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.",
       "PI contact (for PDF)": "robert.grant@uhn.ca"
@@ -1043,7 +1043,7 @@
       "Eligibility ": "Age >18 years.\nDiagnosis of biliary tract or pancreatic cancer at any stage, confirmed by pathology, radiology or multidisciplinary review.\nUnderwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.\nAble to read and understand English.",
       "Contacts": "Site PI:\nRobert Grant\nrobert.grant@uhn.ca\n\nStudy coordinators:\nRachel Ding: \nrachel.ding@uhn.ca\n437-990-4238\n\nMonisha Chawla\nMonisha.Chawla@uhn.ca\n437-553-7609\n\nDorian Facey: \ndorian.facey@uhn.ca\n437-779-7757",
       "NCT number": null,
-      "Study status": "closed",
+      "Study status": "Not Recruiting",
       "Schema image": "CAN-PREFER.png",
       "Key criteria (for PDF)": "Underwent genomic testing at UHN through the Prosper-PANC Study, HPB Tissue Banking Study or LeGresley Biliary Registry.",
       "PI contact (for PDF)": "robert.grant@uhn.ca"
@@ -2865,6 +2865,11 @@
         "Trial Name": "RMC-6236-303 (RASolute 303)",
         "change": "modified",
         "timestamp": "2026-11-11T11:58:32"
+      },
+      {
+        "Trial Name": "CAN-PREFER",
+        "change": "modified",
+        "timestamp": "2026-11-11T12:16:30"
       }
     ],
     "HCC": [
@@ -4156,6 +4161,11 @@
         "Trial Name": "INEX RT P",
         "change": "added",
         "timestamp": "2026-10-29T12:44:47"
+      },
+      {
+        "Trial Name": "CAN-PREFER",
+        "change": "modified",
+        "timestamp": "2026-11-11T12:16:30"
       }
     ],
     "Preactivation": [
