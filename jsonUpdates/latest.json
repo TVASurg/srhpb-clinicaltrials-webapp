@@ -1253,7 +1253,7 @@
       "Eligibility ": "Inclusion criteria:\nPatients with PNET who have progressed on everolimus or sunitinib. \nHas a life expectancy of at least 3 months.\nExclusion criteria:\nUnable to swallow orally administered medication or has a disorder that might affect the absorption of belzutifan.\nHistory of a second malignancy, unless potentially curative treatment has been completed with no evidence of malignancy for 2 years.\nReceived prior treatment (except somatostatin analogs) with chemotherapy, targeted therapy, biologics, or other investigational therapy within the past 4 weeks of first dose of study intervention.",
       "Contacts": "Site PI:\nRaymond Jang\nraymond.jang@uhn.ca",
       "NCT number": "NCT04924075",
-      "Study status": "Active; VHL-PPGL only open cohort",
+      "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": "PNET who have progressed on everolimus or sunitinib. ",
       "PI contact (for PDF)": "raymond.jang@uhn.ca "
@@ -1317,7 +1317,7 @@
       "Eligibility ": "Inclusion criteria: \n- Histologically confirmed, advanced (unresectable and/or metastatic), and well-differentiated NET of GEP or presumed GEP origin\n- At least 1 measurable, somatostatin receptor-positive*, lesion according to RECIST 1.1 determined by multiphasic CT or MRI (performed within 28 days before randomization)\n*Somatostatin-receptor imaging must be performed within 3 months before randomization. Somatostatin receptor-positive lesions are defined as lesions with a visual assessment of uptake greater than the liver\n- Results from FDG-PET CT for patients with well-differentiated Grade 3 NET (if performed) must show that FDG avid areas of disease also are avid on somatostatin-receptor imaging\n- Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 2\n- Female patients of childbearing potential must be willing to use an acceptable method of contraception from screening to the Safety Follow-up Visit\n\nExclusion criteria: \n- Poorly differentiated NEC, adenocarcinoid, goblet cell carcinoid, large cell NEC, small cell carcinoma, or mixed tumor\n- Previously diagnosed with multiple endocrine neoplasia Type 1\n- Tumor with primary origin outside the GEP tract\n- Documented evidence of disease progression while on treatment (including SSAs) for locally advanced unresectable or metastatic disease\n- Known central nervous system metastases\n- Consecutive treatment with long-acting SSAs for more than 6 months before randomization\n- Treatment of GEP-NET with trans-arterial chemoembolization or trans-arterial embolization within 12 months before screening\n- Previously received radioligand therapy (PRRT) at any time\n- Major surgery/surgical therapy for any cause within 1 month before screening, surgical therapy of loco-regional metastases within 3 months before screening, or minor surgery within 14 days before screening. Patient must have recovered from the treatment and be in good clinical condition\n- Patients with poorly controlled diabetes, as evidenced by hemoglobin A1c (HbA1c) >8.0%\n- Cardiac history or current diagnosis of cardiac disease indicating significant risk of safety for patients participating in the trial, such as uncontrolled or significant cardiac disease.\n- Clinically significant cardiac arrhythmias (e.g. ventricular tachycardia), complete left bundle branch block, or high-grade atrioventricular block (e.g. bifascicular block, Mobitz type II, and third-degree atrioventricular block)\n- Long QT syndrome, family history of idiopathic sudden death or congenital long QT syndrome.\n",
       "Contacts": "Site PI:\nRaymond Jang\nraymond.jang@uhn.ca\n\nStudy Nurse: \nMary Lan Wei\nmarylan.wei@uhn.ca\n\nStudy Coordinator: Huda Ahmed\nHudaWaseem.Ahmed@uhn.ca\n",
       "NCT number": "NCT05050942",
-      "Study status": "closed",
+      "Study status": "Not recruiting",
       "Schema image": null,
       "Key criteria (for PDF)": "Well-differentiated NET of GEP or presumed GEP origin. Somatostatin receptor (SSTR)-positive.",
       "PI contact (for PDF)": "raymond.jang@uhn.ca"
@@ -1333,7 +1333,7 @@
       "Eligibility ": "Inclusion criteria.\nAge ≥ 18\nAny patient undergoing radiation therapy for a cancer lesion in the abdomen in \nclose proximity to OARs that is hypothesized to have differential displacement on \ninhale and exhale breath hold CT scans of the OAR relative to the tumor.\n Patients need at least 3 fractions of RT\nCritical OARs are within 2 cm of luminal GI structures, chest wall, or \nprevious radiation fields\n Able to receive and understand verbal and written information regarding study \nand able to give written informed consent\nExclusion criteria.\n Inability to perform inhale or exhale breath holds during standard workflow CT \nsimulation evaluation",
       "Contacts": "Site PI- Dr. Laura Dawson, email- Laura.Dawson@uhn.ca\nCRC- Priya Sriskandarajah, email- Priya.Sriskandarajah@uhn.ca",
       "NCT number": "NCT07594691",
-      "Study status": "active",
+      "Study status": "Active",
       "Schema image": null,
       "Key criteria (for PDF)": " Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
       "PI contact (for PDF)": "Laura.Dawson@uhn.ca"
@@ -5986,6 +5986,21 @@
         "Trial Name": "Celiac SRS",
         "change": "modified",
         "timestamp": "2026-10-30T10:33:49"
+      },
+      {
+        "Trial Name": "Belzutifan Advanced Pancreatic Neuroendocrine Tumor (pNET), or Von Hippel-Lindau (VHL) Disease-Associated Tumors (MK-6482-015) ",
+        "change": "modified",
+        "timestamp": "2026-11-10T20:15:44"
+      },
+      {
+        "Trial Name": "HS-19-657/SORENTO",
+        "change": "modified",
+        "timestamp": "2026-11-10T20:15:44"
+      },
+      {
+        "Trial Name": "INEX RT P",
+        "change": "modified",
+        "timestamp": "2026-11-10T20:15:44"
       }
     ],
     "PDF ONLY": [
