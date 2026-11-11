@@ -1132,7 +1132,7 @@
       "Disease Setting": "1L Metastatic",
       "Trial Name": "RMC-6236-303 (RASolute 303)",
       "Full title": "A Phase 3 Global, Multicenter, Open-label, Randomized, 3-Arm Study of Daraxonrasib Monotherapy or Daraxonrasib Plus Gemcitabine and Nab-paclitaxel versus Gemcitabine and Nab-paclitaxel as a First-Line Treatment for Patients with Metastatic Pancreatic Adenocarcinoma",
-      "Additional notes": "1 Spot Left\n\nPhase 3 Study of Daraxonrasib and Daraxonrasib + GnP versus GnP as First-Line Therapy in Patients with Metastatic Pancreatic Adenocarcinoma",
+      "Additional notes": "The anticipated latest screening closure date is 20Nov2026.  \n\nPhase 3 Study of Daraxonrasib and Daraxonrasib + GnP versus GnP as First-Line Therapy in Patients with Metastatic Pancreatic Adenocarcinoma",
       "Tissue Requirements": "Archival tissue obtained within 5 years of randomization",
       "Biomarker/unselected": "RAS (mutant or wild type)",
       "Trial Intervention/Arms": "Arm A- Daraxonrasib monotherapy\nArm B- Daraxonrasib + gemcitabine and nab-paclitaxel\nArm C- Gemcitabine and nab-paclitaxel",
@@ -2860,6 +2860,11 @@
         "Trial Name": "OPCS Registry",
         "change": "added",
         "timestamp": "2026-11-10T10:55:48"
+      },
+      {
+        "Trial Name": "RMC-6236-303 (RASolute 303)",
+        "change": "modified",
+        "timestamp": "2026-11-11T11:58:32"
       }
     ],
     "HCC": [
