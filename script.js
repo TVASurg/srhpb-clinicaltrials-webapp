@@ -1919,13 +1919,14 @@ function displayLastUpdateForTrial(mainCategory, trialName)
 
 function displayStudyStatus(studystatus)
 {
-  if (studystatus != "Active")
+  var activeString = studystatus.toLowerCase();
+  if (activeString.includes("active"))
   {
-    document.getElementById("studyStatus").classList.add("bg-danger");
+    document.getElementById("studyStatus").classList.add("bg-success");
   }
   else
   {
-    document.getElementById("studyStatus").classList.add("bg-success");
+    document.getElementById("studyStatus").classList.add("bg-danger");
   }
 
   document.getElementById("studyStatus").innerHTML = studystatus;
