@@ -27,7 +27,7 @@
       "Eligibility ": "Inclusion criteria:\nNo radiological evidence of liver metastasis.\nPresence of measurable disease by RECIST 1.1 criteria.\nNo prior systemic therapy for mCRC, except for neoadjuvant/adjuvant chemotherapy where > 6 months have elapsed between completion and recurrence.\nKnown pMMR/MSS status\nExclusion criteria:\nActive or prior documented autoimmune or inflammatory disorders or cardiac conditions.\nPrior history of hypertensive crisis or hypertensive encephalopathy or bleeding risks.\nDeep venous thrombosis, pulmonary embolism, arterial thrombosis, transient ischemic attack or cerebrovascular accident.\nPrior exposure to immune mediated therapy.",
       "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
       "NCT number": "NCT06792695",
-      "Study status": "recruitment complete",
+      "Study status": "Not recruiting",
       "Schema image": "NCT06792695.png",
       "Key criteria (for PDF)": "pMMR/MSS status.\nNo radiological evidence of liver metastasis.\nNeoadjuvant/adjuvant chemotherapy where > 6 months have elapsed is allowed.",
       "PI contact (for PDF)": "eric.chen@uhn.ca"
@@ -123,7 +123,7 @@
       "Eligibility ": "Inclusion criteria:\nCRC that is not dMMR or MSI-H.\nReceived and failed all prior available therapies, such that the standard of care for the patient would be best supportive care (BSC).\nPresence of measurable or evaluable disease as RECIST 1.1.\nExclusion criteria:\nHistory of primary immunodeficiency, solid organ transplant or allogeneic bone marrow transplant.\nCurrent or prior use of immunosuppressive medication within 7 days before the first dose.\nActive brain metastases or leptomeningeal metastases.\nReceipt of anti-cancer chemotherapy or biologic therapy within the lesser of i) 21 days, or ii) the usual cycle length of the regimen prior to the first planned dose of study drug.\nPrior exposure to anti-PD-1/PD-L1/CTLA-4 therapy.",
       "Contacts": "Site PI:\nSanz Enrique\nenrique.sanzgarcia@uhn.ca",
       "NCT number": "NCT07152821",
-      "Study status": "closed",
+      "Study status": "Not recruiting",
       "Schema image": "NCT07152821.png",
       "Key criteria (for PDF)": "Not dMMR or MSI-H.\nProgressed on all available therapies.",
       "PI contact (for PDF)": "enrique.sanzgarcia@uhn.ca"
@@ -299,9 +299,9 @@
       "Eligibility ": "Inclusion criteria.\nAge ≥ 18\nAny patient undergoing radiation therapy for a cancer lesion in the abdomen in \nclose proximity to OARs that is hypothesized to have differential displacement on \ninhale and exhale breath hold CT scans of the OAR relative to the tumor.\n Patients need at least 3 fractions of RT\nCritical OARs are within 2 cm of luminal GI structures, chest wall, or \nprevious radiation fields\n Able to receive and understand verbal and written information regarding study \nand able to give written informed consent\nExclusion criteria.\n Inability to perform inhale or exhale breath holds during standard workflow CT \nsimulation evaluation",
       "Contacts": "Site PI- Dr. Laura Dawson, email- Laura.Dawson@uhn.ca\nCRC- Priya Sriskandarajah, email- Priya.Sriskandarajah@uhn.ca",
       "NCT number": "NCT07594691",
-      "Study status": "active",
+      "Study status": "Active",
       "Schema image": null,
-      "Key criteria (for PDF)": " Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
+      "Key criteria (for PDF)": "Primary abdominal malignancies (e.g., pancreatic cancer, primary liver tumors)   Metastatic abdominal lesions (e.g., liver metastases, adrenal metastases, abdominal lymph node metastases)   Tumors located adjacent to dose-limiting organs at risk (OARs) where organ position changes between inhale and exhale breath-holds may create a dosimetry advantage",
       "PI contact (for PDF)": "Laura.Dawson@uhn.ca"
     }
   ],
@@ -5327,6 +5327,21 @@
         "Trial Name": "MAESTRO",
         "change": "modified",
         "timestamp": "2026-10-30T10:10:46"
+      },
+      {
+        "Trial Name": "D798VC00001 (CANTOR)",
+        "change": "modified",
+        "timestamp": "2026-11-10T22:27:49"
+      },
+      {
+        "Trial Name": "CO.33 (BATTMAN)",
+        "change": "modified",
+        "timestamp": "2026-11-10T22:27:49"
+      },
+      {
+        "Trial Name": "INEX RT P",
+        "change": "modified",
+        "timestamp": "2026-11-10T22:27:49"
       }
     ],
     "GE": [
