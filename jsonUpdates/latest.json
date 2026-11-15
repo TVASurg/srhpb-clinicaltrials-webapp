@@ -2,22 +2,6 @@
   "CRC": [
     {
       "Disease Setting": "1st line ",
-      "Trial Name": "61186372COR3001 (ORIGAMI-2)",
-      "Full title": "A Randomized, Open-label Phase 3 Study of Amivantamab and mFOLFOX6 or FOLFIRI Versus Cetuximab and mFOLFOX6 or FOLFIRI as First-line Treatment in Participants With KRAS/NRAS and BRAF Wild-type Unresectable or Metastatic Left-sided Colorectal Cancer.",
-      "Additional notes": null,
-      "Tissue Requirements": "Fresh tumor tissue: KRAS, NRAS, and BRAF wild-type (WT) tumor by local and/or central testing (if available).",
-      "Biomarker/unselected": "KRAS/NRAS/BRAF WT",
-      "Trial Intervention/Arms": "A: Amivantamab + chemo (mFOLFOX6 or FOLFIRI)\nB: Cetuximab + chemo (mFOLFOX6 or FOLFIRI)",
-      "Eligibility ": "Inclusion criteria:\nUnresectable left-sided CRC.\nKRAS/NRA/BRAF WT. \nNeoadjuvant/Adj in non-metastatic disease eligible (>12m after last dose).\nExclusion criteria:\nHas a prior or concurrent second malignancy other than the disease under study or one whose natural history or treatment is likely to interfere with any study endpoints of safety or the efficacy of the study treatmens\nKnown mismatch repair deficiency (dMMR/MSI-H) status and HER2-positive/amplified tumor.",
-      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
-      "NCT number": "NCT06662786",
-      "Study status": "Not recruiting",
-      "Schema image": "NCT06662786.png",
-      "Key criteria (for PDF)": "Unresectable left-sided \nKRAS/NRA/BRAF WT.\n>12 months from completion adjuvant therapy to recurrence.",
-      "PI contact (for PDF)": "eric.chen@uhn.ca"
-    },
-    {
-      "Disease Setting": "1st line ",
       "Trial Name": "D798VC00001 (CANTOR)",
       "Full title": "A Phase II, Open-label, Multicenter, Master Protocol to Evaluate the Safety and Efficacy of Novel Study Interventions and Combinations in Participants With Colorectal Cancer (CANTOR).",
       "Additional notes": null,
@@ -65,22 +49,6 @@
       "PI contact (for PDF)": "elena.elimova@uhn.ca"
     },
     {
-      "Disease Setting": "Any line",
-      "Trial Name": "C4761001 ",
-      "Full title": "A Phase 1, open-label, dose escalation and dose expansion study to evaluate the safety, tolerability, pharmacokinetics, and anti tumor activity of PF-07799933 (ARRY-440) as a single agent and in combination therapy in participants 16 years and older with advanced solid tumors with BRAF alterations.",
-      "Additional notes": null,
-      "Tissue Requirements": "Archival tissue of sufficient quality and quantity within 6 months of consent, otherwise fresh biopsy required during screening (sponsor can be asked to accept previous archival tissue if patient is not fit for additional biopsy).",
-      "Biomarker/unselected": "BRAF V600E",
-      "Trial Intervention/Arms": "C4761001 (Braf inhibitor) + cetuximab ",
-      "Eligibility ": "Inclusion criteria:\nNo prior encorafenib exposure.\nBRAF V600E in tumor tissue and/or blood.\nDisease progressed during/following last prior treatment and no satisfactory alternative treatment options.\nExclusion criteria:\nSystemic anti-cancer therapy or small molecule therapeutics ongoing at the start of study treatment.\nConcurrent neuromuscular disorder associated with elevated creatine kinase (CK).",
-      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
-      "NCT number": "NCT05355701",
-      "Study status": "Not recruiting",
-      "Schema image": "NCT05355701.png",
-      "Key criteria (for PDF)": "BRAF \nDisease progressed during/following last prior treatment and no satisfactory alternative treatment options.",
-      "PI contact (for PDF)": "eric.chen@uhn.ca "
-    },
-    {
       "Disease Setting": "2nd line ",
       "Trial Name": "GSK223675 ",
       "Full title": "A Phase 1b/2, Multicenter, Open-label Study to Evaluate the Efficacy and Safety of GSK5764227 Alone and in Combination in Participants With Previously Treated Advanced Unresectable or Metastatic Gastrointestinal Solid Tumors.",
@@ -113,22 +81,6 @@
       "PI contact (for PDF)": "eric.chen@uhn.ca"
     },
     {
-      "Disease Setting": "Last line",
-      "Trial Name": "CO.33 (BATTMAN)",
-      "Full title": "Botensilimab + Balstilimab vs Best Supportive Care as Therapy in Chemo-refractory, Unresectable, Colorectal Adenocarcinoma: The BATTMAN Trial",
-      "Additional notes": null,
-      "Tissue Requirements": "Archival formalin fixed paraffin block of tumour tissue for correlative analyses when tumour tissue is available.",
-      "Biomarker/unselected": null,
-      "Trial Intervention/Arms": "A: BOTENSILIMAB + BALSTILIMAB \nB: Best supportive care",
-      "Eligibility ": "Inclusion criteria:\nCRC that is not dMMR or MSI-H.\nReceived and failed all prior available therapies, such that the standard of care for the patient would be best supportive care (BSC).\nPresence of measurable or evaluable disease as RECIST 1.1.\nExclusion criteria:\nHistory of primary immunodeficiency, solid organ transplant or allogeneic bone marrow transplant.\nCurrent or prior use of immunosuppressive medication within 7 days before the first dose.\nActive brain metastases or leptomeningeal metastases.\nReceipt of anti-cancer chemotherapy or biologic therapy within the lesser of i) 21 days, or ii) the usual cycle length of the regimen prior to the first planned dose of study drug.\nPrior exposure to anti-PD-1/PD-L1/CTLA-4 therapy.",
-      "Contacts": "Site PI:\nSanz Enrique\nenrique.sanzgarcia@uhn.ca",
-      "NCT number": "NCT07152821",
-      "Study status": "Not recruiting",
-      "Schema image": "NCT07152821.png",
-      "Key criteria (for PDF)": "Not dMMR or MSI-H.\nProgressed on all available therapies.",
-      "PI contact (for PDF)": "enrique.sanzgarcia@uhn.ca"
-    },
-    {
       "Disease Setting": "Any line",
       "Trial Name": "MYTHIC",
       "Full title": "Phase 1/1b Study of the Safety, Pharmacokinetics, Pharmacodynamics and Preliminary Clinical Activity of lunresertib Alone or in Combination with RP-3500 or Debio 0123 in Patients with Advanced Solid Tumors (MYTHIC Study)",
@@ -143,22 +95,6 @@
       "Schema image": null,
       "Key criteria (for PDF)": "CCNE-1 amplification, FBXW7 mutation, or PPP2R1A mutation.",
       "PI contact (for PDF)": "Stephanie.Lheureux@uhn.ca"
-    },
-    {
-      "Disease Setting": "2L+",
-      "Trial Name": "Phase 1 of NDI-219216 in Patients with Advanced Solid Tumors with MSI-H/dMMR",
-      "Full title": "A Phase 1 Open-label, Multi-center Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Antitumor Activity of NDI-219216 as a Single Agent in Patients with Advanced Solid Tumors with and without Microsatellite Instability and/or Deficient Mismatch Repair",
-      "Additional notes": "Solid tumor patients with MSI-H/dMMR\nProgressed or intolerant of SOC",
-      "Tissue Requirements": "Archival tissue",
-      "Biomarker/unselected": "MSI-H/dMMR",
-      "Trial Intervention/Arms": "NDI-219216 (Werner helicase inhibitor) orally daily ",
-      "Eligibility ": "MSI-H/dMMR\nProgressed or intolerant of SOC",
-      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
-      "NCT number": "NCT06898450",
-      "Study status": "Not recruiting",
-      "Schema image": null,
-      "Key criteria (for PDF)": "MSI-H/dMMR refractory to SOC.",
-      "PI contact (for PDF)": "eric.chen@uhn.ca "
     },
     {
       "Disease Setting": "1st line ",
@@ -1707,6 +1643,62 @@
       "Contacts": "Site PI:\nAnand Ghanekar\nanand.ghanekar@uhn.ca\n\nStudy Nurses:\n\nElaine Lung (Primary)\nelaine.lung@uhn.ca\n\nMary Lan Wei\nmarylan.wei@uhn.ca\n\nGuillaume Cheung\nguillaume.cheung@uhn.ca\n\nStudy Coordinators:\n\nShiva Babakhani\nShiva.Babakhani@uhn.ca\n\nGiselle Caballero\ngiselle.caballero@uhn.ca",
       "NCT number": "NCT05440864",
       "Schema image": "NCT05440864.png"
+    },
+    {
+      "Organ group": "CRC",
+      "Disease Setting": "1st line ",
+      "Trial Name": "61186372COR3001 (ORIGAMI-2)",
+      "Full title": "A Randomized, Open-label Phase 3 Study of Amivantamab and mFOLFOX6 or FOLFIRI Versus Cetuximab and mFOLFOX6 or FOLFIRI as First-line Treatment in Participants With KRAS/NRAS and BRAF Wild-type Unresectable or Metastatic Left-sided Colorectal Cancer.",
+      "Additional notes": null,
+      "Tissue Requirements": "Fresh tumor tissue: KRAS, NRAS, and BRAF wild-type (WT) tumor by local and/or central testing (if available).",
+      "Biomarker/unselected": "KRAS/NRAS/BRAF WT",
+      "Trial Intervention/Arms": "A: Amivantamab + chemo (mFOLFOX6 or FOLFIRI)\nB: Cetuximab + chemo (mFOLFOX6 or FOLFIRI)",
+      "Eligibility ": "Inclusion criteria:\nUnresectable left-sided CRC.\nKRAS/NRA/BRAF WT. \nNeoadjuvant/Adj in non-metastatic disease eligible (>12m after last dose).\nExclusion criteria:\nHas a prior or concurrent second malignancy other than the disease under study or one whose natural history or treatment is likely to interfere with any study endpoints of safety or the efficacy of the study treatmens\nKnown mismatch repair deficiency (dMMR/MSI-H) status and HER2-positive/amplified tumor.",
+      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
+      "NCT number": "NCT06662786",
+      "Schema image": "Not recruiting"
+    },
+    {
+      "Organ group": "CRC",
+      "Disease Setting": "Any line",
+      "Trial Name": "C4761001 ",
+      "Full title": "A Phase 1, open-label, dose escalation and dose expansion study to evaluate the safety, tolerability, pharmacokinetics, and anti tumor activity of PF-07799933 (ARRY-440) as a single agent and in combination therapy in participants 16 years and older with advanced solid tumors with BRAF alterations.",
+      "Additional notes": null,
+      "Tissue Requirements": "Archival tissue of sufficient quality and quantity within 6 months of consent, otherwise fresh biopsy required during screening (sponsor can be asked to accept previous archival tissue if patient is not fit for additional biopsy).",
+      "Biomarker/unselected": "BRAF V600E",
+      "Trial Intervention/Arms": "C4761001 (Braf inhibitor) + cetuximab ",
+      "Eligibility ": "Inclusion criteria:\nNo prior encorafenib exposure.\nBRAF V600E in tumor tissue and/or blood.\nDisease progressed during/following last prior treatment and no satisfactory alternative treatment options.\nExclusion criteria:\nSystemic anti-cancer therapy or small molecule therapeutics ongoing at the start of study treatment.\nConcurrent neuromuscular disorder associated with elevated creatine kinase (CK).",
+      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
+      "NCT number": "NCT05355701",
+      "Schema image": "Not recruiting"
+    },
+    {
+      "Organ group": "CRC",
+      "Disease Setting": "Last line",
+      "Trial Name": "CO.33 (BATTMAN)",
+      "Full title": "Botensilimab + Balstilimab vs Best Supportive Care as Therapy in Chemo-refractory, Unresectable, Colorectal Adenocarcinoma: The BATTMAN Trial",
+      "Additional notes": null,
+      "Tissue Requirements": "Archival formalin fixed paraffin block of tumour tissue for correlative analyses when tumour tissue is available.",
+      "Biomarker/unselected": null,
+      "Trial Intervention/Arms": "A: BOTENSILIMAB + BALSTILIMAB \nB: Best supportive care",
+      "Eligibility ": "Inclusion criteria:\nCRC that is not dMMR or MSI-H.\nReceived and failed all prior available therapies, such that the standard of care for the patient would be best supportive care (BSC).\nPresence of measurable or evaluable disease as RECIST 1.1.\nExclusion criteria:\nHistory of primary immunodeficiency, solid organ transplant or allogeneic bone marrow transplant.\nCurrent or prior use of immunosuppressive medication within 7 days before the first dose.\nActive brain metastases or leptomeningeal metastases.\nReceipt of anti-cancer chemotherapy or biologic therapy within the lesser of i) 21 days, or ii) the usual cycle length of the regimen prior to the first planned dose of study drug.\nPrior exposure to anti-PD-1/PD-L1/CTLA-4 therapy.",
+      "Contacts": "Site PI:\nSanz Enrique\nenrique.sanzgarcia@uhn.ca",
+      "NCT number": "NCT07152821",
+      "Schema image": "Not recruiting"
+    },
+    {
+      "Organ group": "CRC",
+      "Disease Setting": "2L+",
+      "Trial Name": "Phase 1 of NDI-219216 in Patients with Advanced Solid Tumors with MSI-H/dMMR",
+      "Full title": "A Phase 1 Open-label, Multi-center Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Antitumor Activity of NDI-219216 as a Single Agent in Patients with Advanced Solid Tumors with and without Microsatellite Instability and/or Deficient Mismatch Repair",
+      "Additional notes": "Solid tumor patients with MSI-H/dMMR\nProgressed or intolerant of SOC",
+      "Tissue Requirements": "Archival tissue",
+      "Biomarker/unselected": "MSI-H/dMMR",
+      "Trial Intervention/Arms": "NDI-219216 (Werner helicase inhibitor) orally daily ",
+      "Eligibility ": "MSI-H/dMMR\nProgressed or intolerant of SOC",
+      "Contacts": "Site PI:\nEric Chen\neric.chen@uhn.ca\n416-946-4501",
+      "NCT number": "NCT06898450",
+      "Schema image": "Not recruiting"
     }
   ],
   "Dropdown Menus": [
@@ -4430,6 +4422,26 @@
         "Trial Name": "CLARITY-PanTumour01",
         "change": "modified",
         "timestamp": "2026-11-09T11:19:54"
+      },
+      {
+        "Trial Name": "61186372COR3001 (ORIGAMI-2)",
+        "change": "added",
+        "timestamp": "2026-11-15T17:52:54"
+      },
+      {
+        "Trial Name": "C4761001 ",
+        "change": "added",
+        "timestamp": "2026-11-15T17:52:54"
+      },
+      {
+        "Trial Name": "CO.33 (BATTMAN)",
+        "change": "added",
+        "timestamp": "2026-11-15T17:52:54"
+      },
+      {
+        "Trial Name": "Phase 1 of NDI-219216 in Patients with Advanced Solid Tumors with MSI-H/dMMR",
+        "change": "added",
+        "timestamp": "2026-11-15T17:52:54"
       }
     ],
     "CRC": [
