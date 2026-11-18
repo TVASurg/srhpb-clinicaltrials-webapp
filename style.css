@@ -264,10 +264,22 @@ perspective: 1000px;
     width: 100%;
   }
 
+  .btn-outline-custom:hover {
+    color: var(--bs-btn-color);
+    background-color: var(--bs-btn-bg);
+    border-color: var(--bs-btn-border-color);
+  }
+
   .btn-outline-custom-darker {
     --bs-btn-bg: color-mix(in srgb, var(--bs-pancreas) 40%, var(--bs-gray-100) 60%);
     --bs-btn-border-color: #{rgba($white, .25)};
     width: 100%;
+  }
+
+  .btn-outline-custom-darker:hover {
+    color: var(--bs-btn-color);
+    background-color: var(--bs-btn-bg);
+    border-color: var(--bs-btn-border-color);
   }
 
   .btn-check:checked + .btn{

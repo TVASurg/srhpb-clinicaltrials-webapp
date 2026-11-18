@@ -43,8 +43,27 @@
             
             <div id="timelineHeader" class="modal-header"></div>
             <div id="timelineBody" class="modal-body"></div>
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal" aria-label="Close">Close</button>
-            
+              <!-- <button type="button" class="btn btn-secondary rounded-bottom-0">Preactivation trials</button> -->
+              <div class="accordion" id="atAGlancePreactivationAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="preactivationTrials">
+                  <button class="accordion-button text-light bg-secondary d-block w-100 text-center text-align-center" type="button" data-bs-toggle="collapse" data-bs-target="#atAGlancePreactivation" aria-expanded="true" aria-controls="atAGlancePreactivation">
+                    Preactivation trials
+                  </button>
+                </h2>
+                <div id="atAGlancePreactivation" class="accordion-collapse collapse" aria-labelledby="preactivation" data-bs-parent="#atAGlancePreactivationAccordion">
+                  <div class="accordion-body row">
+                    <div class="col-2"></div>
+                    <div id="preactivationText" class="btn-group col-8" role="group">
+
+                    </div>
+                    <div class="col-2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <button id="closeModalButton" type="button" class="btn btn-danger rounded-top-0" data-bs-dismiss="modal" aria-label="Close" >Close</button>
+
           </div>
         </div>
       </div>
@@ -104,20 +123,21 @@
             </div>
           </li>
           <li class="fs-5 bg-pancreas ps-2 rounded-top fw-bold border-bottom py-2 mt-2 ps-2" >Pancreas</li>
-          <li class="d-grid bg-pancreas ps-2"> <button class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold">
-              <span  data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false" onclick="clearTrialInfo(); clearUpdateLine();">PDAC</span>
-              <span class="badge text-bg-warning ms-auto d-none d-lg-block" onclick="displayFullTimeline()"  data-bs-toggle="modal" data-bs-target="#timelineView">At a glance</span>
-            </button>
+          <li class="d-grid bg-pancreas ps-2">
+            
+              <div id="pdac-0"class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed fw-semibold" data-bs-toggle="collapse" data-bs-target="#mccain-collapse" aria-expanded="false" onclick="clearTrialInfo(); clearUpdateLine();">PDAC</div>
+              <button class="btn badge text-bg-warning mt-2 me-2 position-absolute end-0 d-none d-lg-block" onclick="displayFullTimeline()"  data-bs-toggle="modal" data-bs-target="#timelineView">At a glance</button>
+            
             <div class="collapse " id="mccain-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 ps-2">
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Resectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Resectable</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Locally Advanced Unresectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Locally Advanced unresectable</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Any line')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any Line</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Any Line Advanced')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any Line Advanced</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '1L Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >1L Metastatic</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '2L Only Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L Only</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '2L Metastatic+')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L+ Metastatic</li></a>
-                <a role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Non-Therapeutic')"><li class="rounded diseaseState px-3 mx-2 py-2" >Non-Therapeutic</li></a>
+                <a id="pdac-1" role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Resectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Resectable</li></a>
+                <a id="pdac-2" role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Locally Advanced Unresectable')"><li class="rounded diseaseState px-3 mx-2 py-2" >Locally Advanced unresectable</li></a>
+                <a id="pdac-3" role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Any line')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any Line</li></a>
+                <a id="pdac-4" role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Any Line Advanced')"><li class="rounded diseaseState px-3 mx-2 py-2" >Any Line Advanced</li></a>
+                <a id="pdac-5" role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '1L Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >1L Metastatic</li></a>
+                <a id="pdac-6" role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '2L Only Metastatic')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L Only</li></a>
+                <a id="pdac-7" role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, '2L Metastatic+')"><li class="rounded diseaseState px-3 mx-2 py-2" >2L+ Metastatic</li></a>
+                <a id="pdac-8" role="button"class="text-decoration-none text-gray-900 p-0 m-0" onclick="fillTrialNameBasedOnSetting(pancreas_master, 'Non-Therapeutic')"><li class="rounded diseaseState px-3 mx-2 py-2" >Non-Therapeutic</li></a>
 
               </ul>
             </div>

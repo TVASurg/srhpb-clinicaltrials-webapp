@@ -183,7 +183,7 @@ function initAllData() {
             }
           });
         }
-      else if (sheetName === "Closed") {
+        else if (sheetName === "Closed") {
           rows.forEach((row, i) => {
             closed_master["names"].push(row["Trial Name"]);
             closed_master["categories"].push(row["Organ group"]);
@@ -199,15 +199,41 @@ function initAllData() {
             closed_master["schema"].push(row["Schema image"]);
           });
         }
+        else if (sheetName === "Preactivation") {
+          rows.forEach((row, i) => {
+            preactivation_master["names"].push(row["Trial Name"]);
+            preactivation_master["categories"].push(row["Organ group"]);
+            preactivation_master["setting"].push(row["Disease Setting"]);
+          });
+        }
 
       }
         //this is a semi-log that tracks changes
         for (const[sheetName,rows] of Object.entries(data.Changes))
         {
-          rows.forEach(row => {
+
+          rows.forEach((row,i) => {
           changes.push([sheetName, row["Trial Name"], row.timestamp]);
         });
-        }
+        } 
+
+        //this minimizes the log to the latest updated time
+        latestChanges = Object.values(
+            changes.reduce((acc, entry) => {
+              const [category, trialName, timestamp] = entry;
+              
+              // Combine the first two fields to form a unique lookup key
+              const key = `${category}::${trialName}`;
+              const existing = acc[key];
+
+              if (!existing || new Date(timestamp) > new Date(existing[2])) {
+                acc[key] = entry;
+              }
+
+              return acc;
+            }, Object.create(null))
+          );
+                
     })
     //.catch(err => console.error('Error parsing JSON:', err));
   
@@ -330,7 +356,15 @@ let closed_master = {
   label: "Closed" //this is the sheet name
 };
 
+const preactivation_master = {
+  names: [],
+  categories: [],
+  setting: [],
+  label: "Preactivation"
+}
+
 const changes = [];
+var latestChanges = {};
 
 function fillBiomarkersHTML()
 {
@@ -915,10 +949,15 @@ function fillTrialDetails(mainCategory, key, closedCategory) {
  
   document.getElementById("trialDetails").innerHTML = htmlString;
 
-  displayLastUpdateForTrial(mainCategory[`label`], mainCategory[`names`][key]);
+  
   if (mainCategory != closed_master)
   {
+    displayLastUpdateForTrial(mainCategory[`label`], mainCategory[`names`][key]);
     displayStudyStatus(mainCategory['status'][key]);
+  }
+  else if (mainCategory == closed_master)
+  {
+    displayLastUpdateForTrial(closedCategory, mainCategory[`names`][key]);
   }
 
   //document.getElementById("scroll-spacer").style.display= 'none';
@@ -1019,7 +1058,7 @@ function parseContact(contact)
   
 }
 
-function highlightCategory()
+function highlightCategory(targetedCategory)
 {
   const allCategories = document.getElementsByClassName("diseaseState"); 
   for (var category of allCategories)
@@ -1029,7 +1068,15 @@ function highlightCategory()
         category.classList.remove('selectedCategory');
       }
     }
-  event.target.classList.add('selectedCategory');
+  if (targetedCategory == null)
+  {
+    event.target.classList.add('selectedCategory');
+  }
+  else
+  {
+    targetedCategory.classList.add('selectedCategory');
+  }
+  
 }
 
 addIndicator();
@@ -1997,11 +2044,13 @@ function displayFullTimeline()
 {
   //arguments to come in would be which organ group
   //determines which master object to pull
+  //also determines the category to hone in for latestChanges
   //also determines the data-bs-theme
 
   //finaloutputHTML
   var timelineHeaderHTML = "";
   var timelineOutputHTML = "";
+  var timelinePreactivationHTML = "";
   
 
      
@@ -2009,7 +2058,7 @@ function displayFullTimeline()
           <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">Resectable</button>
           <button type="button" class="btn px-0 btn-outline-custom pe-none">Locally advanced unresectable</button>
           <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">Any line</button>
-          <button type="button" class="btn px-0 btn-outline-custom pe-none">Any line advanced</button>
+          <button type="button" class="btn px-0 btn-outline-custom pe-none">Any line <br/> advanced</button>
           <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">1L</button>
           <button type="button" class="btn px-0 btn-outline-custom pe-none">2L</button>
           <button type="button" class="btn px-0 btn-outline-custom-darker pe-none">2L+</button>
@@ -2019,94 +2068,120 @@ function displayFullTimeline()
   //this will be the container to put all trials in order of their settings
   //hopefully these will be standardized?
   let timelineMaster = {
-        setting_0: [],
         setting_1: [],
         setting_2: [],
         setting_3: [],
         setting_4: [],
         setting_5: [],
         setting_6: [],
-        setting_7: []      
+        setting_7: [],
+        setting_8: []      
       };
 
   for(i = 0; i < pancreas_master.names.length; i++)
   {
 
-    //positionInIndex, name
+    //positionInIndex, name, status, lastUpdated
     var tempTrialArray =[];
 
     tempTrialArray.push(i);
     tempTrialArray.push(pancreas_master.names[i]);
+
+    if((pancreas_master.status[i].toLowerCase()).includes("active"))
+    {
+      tempTrialArray.push("Active");
+    }
+    else
+    {
+      tempTrialArray.push("Not active");
+    }
+    
+    latestChanges.forEach(element => {
+
+      if(element[0] == "PDAC" && element[1] == pancreas_master.names[i])
+      {
+        var tempDate =  new Date(element[2]).toLocaleDateString(); 
+        tempTrialArray.push(tempDate);
+      }
+      
+    });
     
     switch (pancreas_master.setting[i]) {
       case "Resectable":
-        timelineMaster.setting_0.push(tempTrialArray);
-        break;
-      case "Locally Advanced Unresectable":
         timelineMaster.setting_1.push(tempTrialArray);
         break;
-      case "Any line":
+      case "Locally Advanced Unresectable":
         timelineMaster.setting_2.push(tempTrialArray);
         break;
-      case "Any Line Advanced":
+      case "Any line":
         timelineMaster.setting_3.push(tempTrialArray);
         break;
-      case "1L Metastatic":
+      case "Any Line Advanced":
         timelineMaster.setting_4.push(tempTrialArray);
         break;
-      case "2L Only Metastatic":
+      case "1L Metastatic":
         timelineMaster.setting_5.push(tempTrialArray);
         break;
-      case "2L Metastatic+":
+      case "2L Only Metastatic":
         timelineMaster.setting_6.push(tempTrialArray);
         break;
-      case "Non-Therapeutic":
+      case "2L Metastatic+":
         timelineMaster.setting_7.push(tempTrialArray);
+        break;
+      case "Non-Therapeutic":
+        timelineMaster.setting_8.push(tempTrialArray);
         break;
       default:
         break;
     }
   }
 
+  
+
   Object.entries(timelineMaster).forEach(([key,value]) => {
   
     if(value.length > 0)
     {
       var tempSettingHTML = "";
-      var emptyButtonHTML = `<button type="button" class="invisible btn px-0 btn-outline-custom pe-none"></button>`;
+      var emptyButtonHTML = `<button type="button" class="invisible btn px-0 col-1 btn-outline-custom pe-none"></button>`;
 
       switch (key) {
-        case "setting_0":
-          value.forEach(element => {
-            tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
-            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom-darker pe-none"><p class="pt-3 small"> `;
-            tempSettingHTML += element[1];
-            tempSettingHTML += ` </p></button>`;
-            tempSettingHTML += emptyButtonHTML.repeat(7);
-            tempSettingHTML += `</div>`;
-          });
-
-          break;
         case "setting_1":
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
-            tempSettingHTML += emptyButtonHTML.repeat(1);
-            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom pe-none"><p class="pt-3 small"> `;
+            tempSettingHTML += `<button onclick="pretendToClick(`+ `'pdac-`+`1', 'trialName` + element[0] + `')"`;
+            tempSettingHTML += `type="button" class="btn px-0 col-1 btn-outline-custom-darker">`;
+            tempSettingHTML += `<span class="position-absolute mt-3 start-50 translate-middle badge rounded-pill`;
+            if (element[2] == "Active")
+            {tempSettingHTML += ` bg-success">Active`}
+            else
+            {tempSettingHTML += ` bg-danger">Not Recruiting`}
+            tempSettingHTML += `</span>`;
+            tempSettingHTML += `<p class="pt-4 mt-1 small fw-bold"> `;
             tempSettingHTML += element[1];
-            tempSettingHTML += `</p></button>`;
-            tempSettingHTML += emptyButtonHTML.repeat(6);
+            tempSettingHTML += ` </p><p class="p-0 m-0 small fst-italic">Updated: `+ element[3] + `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(7);
             tempSettingHTML += `</div>`;
+            
           });
 
           break;
         case "setting_2":
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
-            tempSettingHTML += emptyButtonHTML.repeat(2);
-            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom-darker pe-none"><p class="pt-3 small"> `;
+            tempSettingHTML += emptyButtonHTML.repeat(1);
+            tempSettingHTML += `<button onclick="pretendToClick(`+ `'pdac-`+`2', 'trialName` + element[0] + `')"`;
+            tempSettingHTML += `type="button" class="btn px-0 col-1 btn-outline-custom">`;
+            tempSettingHTML += `<span class="position-absolute mt-3 start-50 translate-middle badge rounded-pill`;
+            if (element[2] == "Active")
+            {tempSettingHTML += ` bg-success">Active`}
+            else
+            {tempSettingHTML += ` bg-danger">Not Recruiting`}
+            tempSettingHTML += `</span>`;
+            tempSettingHTML += `<p class="pt-4 mt-1 small fw-bold"> `;
             tempSettingHTML += element[1];
-            tempSettingHTML += `</p></button>`;
-            tempSettingHTML += emptyButtonHTML.repeat(5);
+            tempSettingHTML += ` </p><p class="p-0 m-0 small fst-italic">Updated: `+ element[3] + `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(6);
             tempSettingHTML += `</div>`;
           });
 
@@ -2114,11 +2189,19 @@ function displayFullTimeline()
         case "setting_3":
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
-            tempSettingHTML += emptyButtonHTML.repeat(3);
-            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom pe-none"><p class="pt-3 small"> `;
+            tempSettingHTML += emptyButtonHTML.repeat(2);
+            tempSettingHTML += `<button onclick="pretendToClick(`+ `'pdac-`+`3', 'trialName` + element[0] + `')"`;
+            tempSettingHTML += `type="button" class="btn px-0 col-1 btn-outline-custom-darker">`;
+            tempSettingHTML += `<span class="position-absolute mt-3 start-50 translate-middle badge rounded-pill`;
+            if (element[2] == "Active")
+            {tempSettingHTML += ` bg-success">Active`}
+            else
+            {tempSettingHTML += ` bg-danger">Not Recruiting`}
+            tempSettingHTML += `</span>`;
+            tempSettingHTML += `<p class="pt-4 mt-1 small fw-bold"> `;
             tempSettingHTML += element[1];
-            tempSettingHTML += `</p></button>`;
-            tempSettingHTML += emptyButtonHTML.repeat(4);
+            tempSettingHTML += ` </p><p class="p-0 m-0 small fst-italic">Updated: `+ element[3] + `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(5);
             tempSettingHTML += `</div>`;
           });
 
@@ -2126,11 +2209,19 @@ function displayFullTimeline()
         case "setting_4":
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
-            tempSettingHTML += emptyButtonHTML.repeat(4);
-            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom-darker pe-none"><p class="pt-3 small"> `;
-            tempSettingHTML += element[1];
-            tempSettingHTML += `</p></button>`;
             tempSettingHTML += emptyButtonHTML.repeat(3);
+            tempSettingHTML += `<button onclick="pretendToClick(`+ `'pdac-`+`4', 'trialName` + element[0] + `')"`;
+            tempSettingHTML += `type="button" class="btn px-0 col-1 btn-outline-custom">`;
+            tempSettingHTML += `<span class="position-absolute mt-3 start-50 translate-middle badge rounded-pill`;
+            if (element[2] == "Active")
+            {tempSettingHTML += ` bg-success">Active`}
+            else
+            {tempSettingHTML += ` bg-danger">Not Recruiting`}
+            tempSettingHTML += `</span>`;
+            tempSettingHTML += `<p class="pt-4 mt-1 small fw-bold"> `;
+            tempSettingHTML += element[1];
+            tempSettingHTML += ` </p><p class="p-0 m-0 small fst-italic">Updated: `+ element[3] + `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(4);
             tempSettingHTML += `</div>`;
           });
 
@@ -2138,11 +2229,19 @@ function displayFullTimeline()
         case "setting_5":
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
-            tempSettingHTML += emptyButtonHTML.repeat(5);
-            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom pe-none"><p class="pt-3 small"> `;
+            tempSettingHTML += emptyButtonHTML.repeat(4);
+            tempSettingHTML += `<button onclick="pretendToClick(`+ `'pdac-`+`5', 'trialName` + element[0] + `')"`;
+            tempSettingHTML += `type="button" class="btn px-0 col-1 btn-outline-custom-darker">`;
+            tempSettingHTML += `<span class="position-absolute mt-3 start-50 translate-middle badge rounded-pill`;
+            if (element[2] == "Active")
+            {tempSettingHTML += ` bg-success">Active`}
+            else
+            {tempSettingHTML += ` bg-danger">Not Recruiting`}
+            tempSettingHTML += `</span>`;
+            tempSettingHTML += `<p class="pt-4 mt-1 small fw-bold"> `;
             tempSettingHTML += element[1];
-            tempSettingHTML += `</p></button>`;
-            tempSettingHTML += emptyButtonHTML.repeat(2);
+            tempSettingHTML += ` </p><p class="p-0 m-0 small fst-italic">Updated: `+ element[3] + `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(3);
             tempSettingHTML += `</div>`;
           });
 
@@ -2150,11 +2249,19 @@ function displayFullTimeline()
         case "setting_6":
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
-            tempSettingHTML += emptyButtonHTML.repeat(6);
-            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom-darker pe-none"><p class="pt-3 small"> `;
+            tempSettingHTML += emptyButtonHTML.repeat(5);
+            tempSettingHTML += `<button onclick="pretendToClick(`+ `'pdac-`+`6', 'trialName` + element[0] + `')"`;
+            tempSettingHTML += `type="button" class="btn px-0 col-1 btn-outline-custom">`;
+            tempSettingHTML += `<span class="position-absolute mt-3 start-50 translate-middle badge rounded-pill`;
+            if (element[2] == "Active")
+            {tempSettingHTML += ` bg-success">Active`}
+            else
+            {tempSettingHTML += ` bg-danger">Not Recruiting`}
+            tempSettingHTML += `</span>`;
+            tempSettingHTML += `<p class="pt-4 mt-1 small fw-bold"> `;
             tempSettingHTML += element[1];
-            tempSettingHTML += `</p></button>`;
-            tempSettingHTML += emptyButtonHTML.repeat(1);
+            tempSettingHTML += ` </p><p class="p-0 m-0 small fst-italic">Updated: `+ element[3] + `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(2);
             tempSettingHTML += `</div>`;
           });
 
@@ -2162,10 +2269,38 @@ function displayFullTimeline()
         case "setting_7":
           value.forEach(element => {
             tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
-            tempSettingHTML += emptyButtonHTML.repeat(7);
-            tempSettingHTML += `<button type="button" class="btn px-0 col-1 btn-outline-custom pe-none"><p class="pt-3 small"> `;
+            tempSettingHTML += emptyButtonHTML.repeat(6);
+            tempSettingHTML += `<button onclick="pretendToClick(`+ `'pdac-`+`7', 'trialName` + element[0] + `')"`;
+            tempSettingHTML += `type="button" class="btn px-0 col-1 btn-outline-custom-darker">`;
+            tempSettingHTML += `<span class="position-absolute mt-3 start-50 translate-middle badge rounded-pill`;
+            if (element[2] == "Active")
+            {tempSettingHTML += ` bg-success">Active`}
+            else
+            {tempSettingHTML += ` bg-danger">Not Recruiting`}
+            tempSettingHTML += `</span>`;
+            tempSettingHTML += `<p class="pt-4 mt-1 small fw-bold"> `;
             tempSettingHTML += element[1];
-            tempSettingHTML += `</p></button>`;
+            tempSettingHTML += ` </p><p class="p-0 m-0 small fst-italic">Updated: `+ element[3] + `</p></button>`;
+            tempSettingHTML += emptyButtonHTML.repeat(1);
+            tempSettingHTML += `</div>`;
+          });
+
+          break;
+        case "setting_8":
+          value.forEach(element => {
+            tempSettingHTML += `<div class="mt-2 btn-group" role="group" data-bs-theme="pdac">`;
+            tempSettingHTML += emptyButtonHTML.repeat(7);
+            tempSettingHTML += `<button onclick="pretendToClick(`+ `'pdac-`+`8', 'trialName` + element[0] + `')"`;
+            tempSettingHTML += `type="button" class="btn px-0 col-1 btn-outline-custom">`;
+            tempSettingHTML += `<span class="position-absolute mt-3 start-50 translate-middle badge rounded-pill`;
+            if (element[2] == "Active")
+            {tempSettingHTML += ` bg-success">Active`}
+            else
+            {tempSettingHTML += ` bg-danger">Not Recruiting`}
+            tempSettingHTML += `</span>`;
+            tempSettingHTML += `<p class="pt-4 mt-1 small fw-bold"> `;
+            tempSettingHTML += element[1];
+            tempSettingHTML += ` </p><p class="p-0 m-0 small fst-italic">Updated: `+ element[3] + `</p></button>`;
             tempSettingHTML += `</div>`;
           });
           break;
@@ -2173,17 +2308,54 @@ function displayFullTimeline()
         default:
           break;
       }
+      
       timelineOutputHTML += tempSettingHTML;
     }
   });
 
-  // timelineOutputHTML += `<button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal" aria-label="Close">Close</button>`;
+ 
+  //for preactivation trials
+  (preactivation_master.categories).forEach((value,index) =>
+  {
+    if(value = "PDAC")
+    {
+      timelinePreactivationHTML += `<button type="button" class="btn btn-outline-secondary pe-none">`;
+      timelinePreactivationHTML += preactivation_master.names[index];
+      timelinePreactivationHTML += `</button>`;
+
+      timelinePreactivationHTML += `<button type="button" class="btn btn-outline-secondary pe-none">`;
+      timelinePreactivationHTML += preactivation_master.setting[index];
+      timelinePreactivationHTML += `</button>`;
+    }
+  })
+
   document.getElementById(`timelineHeader`).innerHTML = timelineHeaderHTML;
   document.getElementById(`timelineBody`).innerHTML = timelineOutputHTML;
+  document.getElementById(`preactivationText`).innerHTML = timelinePreactivationHTML;
+}
+
+function pretendToClick(diseaseSetting, trialID) //disease setting, trialKeyValue
+{
+
+  if(document.getElementById("pdac-0").className.includes("collapsed"))
+  {
+    document.getElementById("pdac-0").click();  
+  }
   
+  document.getElementById(diseaseSetting).click();
+  highlightCategory(document.getElementById(diseaseSetting).firstChild);
+  sleep(250).then(() => {
+    
+    document.getElementById(trialID).click();
+    document.getElementById("closeModalButton").click();
+  });
 }
 
 function closeTimeline()
 {
   document.getElementById(`timelineView`).innerHTML = "";
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
